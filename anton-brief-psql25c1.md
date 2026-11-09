@@ -267,8 +267,11 @@ administration and the dose for every agent given. Per challenge block, vaccine
 composition including HA content, challenge virus, challenge dose as stated,
 challenge day, mouse strain and age, stated per block and not globally. Per
 immunoassay, the antigen used. For the fifth arm of 6H, 6I and 6J, that those
-animals received no vaccine and no challenge virus. Every intervention agent and
-its mechanism. Adjuvant identities and the single composition difference. Stated
+animals received no vaccine and no challenge virus. Every intervention agent, named as the
+source names it, with route and dose. Target is given only where it is part of the
+compound's standard identifier, as in "CCR2 antagonist INCB3344". No mechanistic
+gloss for established reagents: a working record names them and does not explain
+them. Adjuvant identities and the single composition difference. Stated
 statistical methods and summary measures, including that the fig. S2A panels are
 normalised against untreated mice. That scRNA-seq was performed, on which cells,
 when. Plus mLD50 determination and formulation specifications as non-load-bearing

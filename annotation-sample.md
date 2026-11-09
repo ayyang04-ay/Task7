@@ -63,20 +63,17 @@ Nanoparticles and vaccines were administered intranasally at 20 micrograms of
 adjuvant per animal unless a block states another amount. Challenge viruses were
 administered intranasally.
 
-Intervention agents, with route, dose and mechanism of action:
+Intervention agents, with route and dose:
 
-- Carbenoxolone, a gap-junction blocker, intraperitoneally at 25 mg/kg once daily
-  for 3 consecutive days before vaccination.
-- Pertussis toxin, an inhibitor of Gi-protein-coupled signalling which prevents
-  chemokine-receptor-dependent cell migration, intraperitoneally at 20 micrograms
-  per animal immediately after vaccination and again at 24 hours.
-- INCB3344, an antagonist of the chemokine receptor CCR2, intraperitoneally at 10
-  mg/kg in 5 percent DMSO every two days for three doses, beginning one week before
-  vaccination.
+- Carbenoxolone, intraperitoneally at 25 mg/kg once daily for 3 consecutive days
+  before vaccination.
+- Pertussis toxin, intraperitoneally at 20 micrograms per animal immediately after
+  vaccination and again at 24 hours.
+- CCR2 antagonist INCB3344, intraperitoneally at 10 mg/kg in 5 percent DMSO every
+  two days for three doses, beginning one week before vaccination.
 - Recombinant GM-CSF, intranasally at 1.5 mg/kg for 4 consecutive days in one block
   and intratracheally in another, as each block states.
-- Clodronate liposomes, which deplete phagocytic macrophages, intranasally at 30
-  microlitres.
+- Clodronate liposomes (Clodrosome), intranasally at 30 microlitres.
 - Cholera toxin, intranasally, in the block that names it.
 
 Adoptive transfers: bone marrow cells at 5 x 10^6 per animal; CFSE-labelled OT-I
