@@ -525,7 +525,11 @@ grader's B list. The order is a prior for the FA, so that prevalence can be rank
 against it rather than discovered from scratch.
 
 1. confound-not-separated. The source frames every age comparison on the diagonal,
-   so a solver following the data's own framing lands here by default.
+   so a solver following the data's own framing lands here by default. As with mode
+   7, absence is not evidence the confound was handled: a trajectory that never
+   makes an aged-versus-young comparison gives a second annotator nothing to
+   observe, so the FA should confirm the comparison was attempted before counting
+   it either way.
 2. resolution-not-addressed. Three chances to fail: find the second S2A block,
    exponentiate it, then propose work rather than record a caveat.
 3. background-mortality-not-netted. Requires noticing a fifth arm that exists in
