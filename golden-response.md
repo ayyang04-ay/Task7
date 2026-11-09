@@ -126,8 +126,9 @@ Every one of those steps sits upstream of the adaptive response. The mechanism i
 improved priming, not an effector function of the adjuvant itself.
 
 **Where the chain stops.** No blockade experiment carries a challenge arm. INCB3344
-cuts the lung cytotoxic CD8 population six-fold and no survival readout follows, so
-the step from improved priming to improved survival is inferred rather than shown.
+cuts the lung cytotoxic CD8 population 4.9-fold and Ly6C+ macrophages 6.1-fold, and
+no survival readout follows in either case, so the step from improved priming to
+improved survival is inferred rather than shown.
 That is the first thing the next study has to close.
 
 **An alternative we cannot yet exclude.** Protection at day 3 is equally consistent
@@ -175,7 +176,7 @@ from formulation at all.
 
 **Adaptive output is real but below young.** Across 18 endpoints with a young
 comparator and a known direction, every one points the same way. Sixteen where more
-is better fall below 1.0 (range 0.357 to 0.987) and two where more is worse sit
+is better fall below 1.0 (range 0.406 to 0.987) and two where more is worse sit
 above it, the 72-hour Ifnb1 at 2.78 and follicular regulatory T cells at 1.52.
 Means of the per-endpoint ratios: humoral 0.654 over six endpoints, cellular 0.741
 over seven. Four endpoints are effectively matched: early interferon induction
