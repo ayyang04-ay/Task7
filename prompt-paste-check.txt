@@ -1,0 +1,9 @@
+Verify the paste in the Studio form against these before launching.
+
+Word count      : 201
+Character count : 1185
+sha256 prefix   : ad26031a9b9c
+Paragraphs      : 5, each one unbroken line. Confirm no hard wraps survived the paste.
+
+Required last line, in full:
+Tell me what you considered and ruled out.

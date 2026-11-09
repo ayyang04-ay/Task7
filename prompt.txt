@@ -1,0 +1,9 @@
+AMnESTI is our manganese-complexed pulmonary-surfactant-biomimetic liposomal STING agonist. It has been in preclinical development as an adjuvant for IAV vaccine development in older adults. For an upcoming portfolio review I need to justify every asset to the committee.
+
+All of our data on AMnESTI is dumped here. All analysis and recommendations should be grounded in our data, which serves as ground truth.
+
+I want your recommendation: do we advance this adjuvant? Regardless of yes or no, I need a strong defensible case to present, so build out the position with as much support and defense as the data allows. Every number you rely on needs to cite the relevant data and state how you reduced it, because the committee will check them.
+
+And either way I need the forward view, because if I drop this I have to be able to say what we are dropping and why. What is actually driving the protection? Is there a biomarker of efficacy worth carrying forward, could it go into patients, and in what role? What would the next studies have to establish, and for each one, what are the endpoints, populations, comparators, readouts and timing?
+
+Tell me what you considered and ruled out.
