@@ -9,68 +9,79 @@ Changes from revision 1 are listed at the end under "What changed in revision 2"
 ## 1. THE PROMPT
 
 ### Scene
-Asset is the adjuvant, not a vaccine. Indication is heterosubtypic influenza
-protection in older adults. Decision is advance or not, at a committee meeting
-with a GLP tox slot that releases on deferral.
+Asset is the adjuvant, not a vaccine. Stated indication is IAV vaccine development
+in older adults. Decision is advance or not, for a portfolio review at which every
+asset has to be justified. No dates anywhere, and no fabricated content.
 
-### Deliverables and paths
-/tmp/outputs/answer.md, recommendation on the first line, rest structured by the
-model. Analysis artifacts under /tmp/outputs.
-
-### As-of date
-6 November 2026. Committee date of 20 November is a scene fact, not a record date.
+### What the answer must carry
+Asked as questions, not headings. No output object is named; the reply is the
+deliverable. In the solver's own words: whether to advance; the case for that call,
+with as much support and defence as the data allows; the file and the reduction
+behind every number relied on; what is driving the protection; whether a biomarker
+of efficacy is worth carrying forward, whether it could go into patients and in
+what role; what the next studies have to establish, each with endpoints,
+populations, comparators, readouts and timing; and what was considered and ruled
+out.
 
 ### Out-of-scope
-Study design, specification and interpretation of the mounted data. No bench
-protocols.
+None stated in the prompt as shipped. See item 3 of the audit below.
 
-### Prompt draft (257 words)
+### Prompt draft (203 words), flat text as pasted
 
-We have AMnESTI, a manganese-complexed pulmonary-surfactant-biomimetic liposomal
-STING agonist, in preclinical development as a mucosal influenza vaccine adjuvant
-for heterosubtypic protection in older adults.
+AMnESTI is our manganese-complexed pulmonary-surfactant-biomimetic liposomal STING agonist. It has been in preclinical development as an adjuvant for IAV vaccine development in older adults. For an upcoming portfolio review I need to justify every asset to the committee.
 
-Tell me whether we advance it, and what the next studies have to show. The
-programme committee meets on 20 November and the GLP toxicology slot we are
-holding releases if we do not commit at that meeting, so I need a decision, not a
-deferral.
+All of our data on AMnESTI is dumped here. All analysis and recommendations should be grounded in our data, which serves as ground truth.
 
-Everything we have is in /tmp/world/filesystem. It is a working directory rather
-than a curated one, so some of it will not bear on the decision. All figures,
-findings and conclusions must be grounded in those files rather than in outside
-sources. Perform your analysis as of 6 November 2026.
+I want your recommendation: do we advance this adjuvant? Regardless of yes or no, I need a strong defensible case to present, so build out the position with as much support and defense as the data allows. Every number you rely on needs the file it came from and how you reduced it, because the committee will check them.
 
-Build me the proposal and lead with your recommendation on the first line
-(/tmp/outputs/answer.md). Structure the rest as you see fit.
+And either way I need the forward view, because if I drop this I have to be able to say what we are dropping and why. What is actually driving the protection? Is there a biomarker of efficacy worth carrying forward, could it go into patients, and in what role? What would the next studies have to establish, and for each one, what are the endpoints, populations, comparators, readouts and timing?
 
-It has to be highly defensible. Every claim and every number needs explicit
-reasoning, the file it came from and how it was reduced. Save any analysis you run
-under /tmp/outputs.
-
-The committee will want the effectors driving the protection, any biomarker of
-efficacy worth carrying forward, and for each study you propose: endpoints,
-populations, comparators, readouts and timing.
-
-Tell me as well what you set aside and why, item by item, including anything in
-there that does not bear on the decision.
-
-Keep this at the level of study design, specification and interpretation of the
-mounted data. No bench protocols.
+Tell me what you considered and ruled out.
 
 ### Prompt audit
 
-No persona, no numbered steps, no tool names, no explained science, no answer
-taxonomy. Load-bearing sources not named and the room described generically with
-the not-all-relevant line. As-of date fixed and in the past. Both deliverable paths
-named. Basis required per number. Set-aside section mandated, which is what makes
-triage visible and what licenses the set-aside product in the golden. Scope line
-present and forbids nothing the prompt requires. Mounted-only constraint explicit.
-Under 600 words.
+Passes: no persona; terse brief, situation then ask then stop; no numbered steps,
+tool names, cautions or hints; load-bearing sources not named; spoken by the person
+who owns the decision; no decision rule stated; no answer set printed; the solver
+constructs the verdict in its own words with no format prescribed; what was ruled
+out is asked as a question rather than mandated as a heading; reporting conventions
+mounted rather than stated; the asks are imperative and concrete; the
+wrong-but-attractive conclusion is expressible; 203 words; flat text.
 
-The set-aside sentence stops short of saying that any particular result is unsound,
-so no trap is flagged. The institutional framing the refusal field note calls for is
-carried by "in preclinical development" and "the programme committee"; that is the
-addition that took an earlier panel from 0 of 16 completed to 7 of 16.
+Deprecations confirmed absent: no as-of date or analysis cut-off; no output file,
+path, directory or named artifact; no no-web or no-search line; no request for
+saved analysis artifacts; no mandated output headings or prescribed section order.
+
+Provenance holds in the strong form. "All analysis and recommendations should be
+grounded in our data" is on its own the weak phrasing the guidance now names as
+insufficient, but the prompt also asks for the file each number came from and how
+it was reduced, which is the form the rule requires. With saved artifacts
+deprecated this is the only remaining guard against invented figures, so it must
+not be cut back to the grounding sentence alone.
+
+Three checklist items this version drops. Recorded so the choice is on the record
+rather than silent.
+
+1. No not-all-of-it-is-relevant line. The room is deliberately noisy by design and
+   the guidance asks for that line where it is. Without it a solver may treat every
+   block as load-bearing, and the ruled-out question loses the ground it stands on.
+2. No constraint on deferral as a world fact. "Regardless of yes or no, I need a
+   strong defensible case" makes both branches cost work, which is how the
+   delivered house-style prompt closes the hedge, so this may be sufficient alone.
+   It is weaker than a fact about the world that makes deferral expensive.
+3. No out-of-scope line. The project boundary is that design, specification and
+   interpretation are in scope and bench-executable procedure is not. The prompt
+   asks for next studies with readouts and timing and sets no boundary, so nothing
+   in it stops a solver drifting into procedure.
+
+The indication line now reads IAV vaccine development rather than heterosubtypic
+protection. That removes a steer: the earlier wording named the conclusion the
+protection pillar is supposed to reach, so the prompt-versus-mount pass is cleaner
+for it.
+
+Framing against the refusal field note: "in preclinical development", "portfolio
+review" and "the committee" carry the institutional setting; that is the addition
+that took an earlier panel from 0 of 16 completed to 7 of 16.
 
 ## 2. THE DATA ROOM
 
@@ -210,13 +221,17 @@ Confirmed present in sandbox.
 
 ### Spec
 
-First line:
+The recommendation, in the golden's own words. No position in the answer is
+prescribed for it and none may be required by the grader: placement and ordering
+requirements are now prohibited, and with output headings deprecated any such
+requirement is necessarily one the prompt did not set. The golden may still open
+with it, and does:
 
-> Advance AMnESTI into the GLP toxicology slot. The case is heterosubtypic survival
-> in 20-month-old mice across five independent challenge configurations (71.4 to
-> 100% AMnESTI against 0 to 28.6% for the same vaccine with the comparator adjuvant
-> and 0% sham), and the next studies are powered on the day-3 lung CD8 readout
-> against an age-matched comparator, not on any antibody titre.
+> Advance AMnESTI. The case is heterosubtypic survival in 20-month-old mice across
+> five independent challenge configurations (71.4 to 100% AMnESTI against 0 to
+> 28.6% for the same vaccine with the comparator adjuvant and 0% sham), and the
+> next studies are powered on the day-3 lung CD8 readout against an age-matched
+> comparator, not on any antibody titre.
 
 Then, in the model's own structure:
 
@@ -368,27 +383,20 @@ strain-specific-readouts-treated-as-asset-value
 | import the mechanism narrative | retrieval supplies it | no sequencing data mounted | annotation + absence |
 | young benchmark as sole basis | package nominates it | NONE in the room | - |
 
-### Grader guidelines (ABC, brief)
+### Grader guidelines (ABC skeleton)
 
-A. Must be present and correct: a recommendation to advance, grounded in the
-heterosubtypic challenge blocks rather than in any humoral readout; a
-heterosubtypic set that is derived rather than asserted, with any block collapsed or
-set aside on a stated mounted fact; a next-study comparator that is age-matched
-rather than young; and resolution kinetics proposed as work, not inventoried as a
-caveat. Each met only where the attempt's own cited numbers reproduce from the
-mounted files by the route it states.
+Derived mechanically from the forcing chain and the expected-to-fire tier. Not
+polished, not exhaustive. B carries only the tier-1 modes, each phrased as
+something a reader can see the model do or skip, so B doubles as the FA lookup.
+Nothing here requires content to appear in any particular place or order: placement
+and ordering count as structure, and with output headings deprecated any placement
+requirement would be one the prompt did not set. Written flat for pasting.
 
-B. Penalise: powering a protection readout on antibody titre; reporting 72h analytes
-unexponentiated; treating 6E and 6G as independent; reporting a protection range
-that includes Fig. 6J without reference to its unvaccinated unchallenged arm;
-counting the rows-69-70 blocks as heterosubtypic; citing the subclass ratio as
-printed; asserting mechanism with no mounted citation; any central estimate below an
-assay floor.
+A. Must be present and correct: a recommendation on whether to advance, grounded in the heterosubtypic challenge blocks rather than in any humoral readout; a heterosubtypic set that is derived rather than asserted, with any block collapsed, retained or set aside on a stated mounted fact; a next-study comparator that is age-matched rather than young; resolution kinetics proposed as work rather than inventoried as a caveat; and the effector chain rested on the blockade experiments rather than on correlation. Each met only where the attempt's own cited numbers reproduce from the mounted files by the route it states, so that the model is shown to have made the right call over the appropriate data.
 
-C. Neutral: number of studies; whether the innate alternative is resolved or left
-open with a discriminating experiment; statistical method choice; whether the n
-mismatches or sheet mislabels are noticed; retention of humoral readouts as a
-regulatory bridge.
+B. Penalise: powering a protection readout on antibody titre; reporting the 72h analytes without exponentiating the log10 panel; treating Fig. 6E and Fig. 6G as independent experiments; reporting Fig. 6J without reference to its unvaccinated unchallenged arm; listing the DC and Treg shifts as the mechanism without reaching the blockade experiments; using the young arm as the sole comparator for the next studies.
+
+C. Neutral: number of studies proposed; whether the innate alternative is resolved or left open with a discriminating experiment; statistical method choice; whether the stated-n mismatches or the sheet mislabels are noticed; retention of humoral readouts as a regulatory bridge; route, units, layout, length, and where in the answer anything sits.
 
 ## 5. SUPPORTING
 
@@ -404,8 +412,10 @@ of one trajectory and a thin mode set.
 1. The young-benchmark mode has no refuting fact in the room. Defence is that
    recognising differential benchmarks by age is competence, not a trick. If the
    panel shows nobody reaches it, the prompt is the lever.
-2. The committee date and GLP slot are the only fabricated content. They exist to
-   close the hedge, which the guidance asks for, but they are invented.
+2. Resolved. The prompt as shipped carries no fabricated content at all. The
+   committee date and the GLP slot are both gone; the hedge is closed by requiring
+   a defensible case either way, which is how the delivered house-style prompt does
+   it. The cost is that deferral is no longer expensive as a fact about the world.
 3. Resolved. The H-2Db restriction call holds: NP366-374 is the H-2Db-restricted
    epitope and the stated strain is BALB/c, H-2d. The BALB/c-dominant NP epitope is
    NP147-155 on H-2Kd. The restriction inconsistency is real, and it is determinate
@@ -433,6 +443,34 @@ of one trajectory and a thin mode set.
 - Recompute the golden from the shipped data room after its last edit.
 - Validate ceiling and floor: that a strong attempt working only from the room
   reaches the verdict, and that the obvious first pass does not.
+
+### Open decisions, not yet applied
+
+These are live and nothing below the line in this brief reflects them yet.
+
+1. **Fig. 6J: retain or exclude.** The brief still says exclude. The log-rank
+   evidence says retain: in 6J the candidate arm and the never-infected arm are both
+   4 of 7 (p=0.855), while the candidate still separates from sham (p=0.0002) and
+   from the comparator (p=0.0151). Recommended wording is that the arm is at its own
+   ceiling rather than weakly protected.
+2. **The age-matched endpoint set: 13, 16 or 18 endpoints.** 18 forces the solver to
+   establish each readout's direction before pooling, which is adjudication rather
+   than pattern matching.
+3. **Collapse `log-scale-not-converted` into the resolution mode.** Both reach the
+   same conclusion, and the updated Stage 2 test counts conclusions, not products.
+4. **The age/formulation confound.** Seven blocks carry a young-plus-candidate arm
+   the source never uses (Fig. 1A at both timepoints, 1J, 1K, 1L, 2D, 2F). Holding
+   formulation constant, Ifnb1 at 16 h moves from 0.99 to 0.73 and the 72 h residual
+   from 2.78 to 1.42, and the young cohort given the candidate also fails to resolve
+   at 72 h (3.13 against 1.59, 1.97x). Non-resolution is a property of the
+   formulation, not of the aged lung. The within-age adjuvant effect (1.65 to 24x in
+   aged animals against 1.02 to 1.20x in young) is the cleanest argument in the
+   package and is free of the confound. No humoral or cellular endpoint carries the
+   young-plus-candidate arm, so the package cannot separate age from formulation on
+   any adaptive endpoint.
+5. **Readout timing.** Mouse primary CD8 responses to influenza peak at days 7 to 10.
+   The day-3 cellular readouts sit inside the innate window, which argues for
+   reordering the mechanism pillar so the innate hypothesis leads.
 
 ### What changed in revision 2
 - Fig. 6 fully enumerated. 6G collapsed into 6E, 6J set aside on its own
