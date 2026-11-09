@@ -229,9 +229,11 @@ deconfounded. Both keep their sign under either reading.
 
 No antigen dose-response exists anywhere in the room. HA content is 0.5 ug for CA09
 H1N1 and 1 ug for Aichi H3N2 and is never varied within a strain. The room
-therefore cannot separate an adjuvant effect from the effect of more antigen, which
-matters because high-dose inactivated vaccine is the licensed standard of care in
-65+. An antigen dose-ranging arm belongs in the next studies.
+therefore cannot separate an adjuvant effect from the effect of more antigen. That
+is not a technical caveat: high-dose inactivated vaccine is the licensed standard of
+care in 65+, so it is the comparator this asset is actually judged against. A
+high-dose arm is the primary comparator for the next efficacy study, with the
+age-matched predecessor adjuvant alongside it.
 
 No blockade experiment carries a challenge arm. INCB3344 reduces lung GZMB+ CD8
 from 15.35 to 2.52 and no survival readout follows. The causal chain is established
@@ -323,7 +325,7 @@ with it, and does:
 > priming deficit: within the aged cohort the adjuvant adds 1.65 to 24-fold on
 > innate and dendritic cell readouts, where the same comparison in young animals
 > adds 1.02 to 1.20-fold. Next studies sample the adaptive compartment at day 7 to
-> 10 against an age-matched comparator and an antigen dose-ranging arm.
+> 10 against high-dose standard of care and the age-matched predecessor adjuvant.
 
 ### The spine, in eight steps
 
@@ -356,25 +358,32 @@ test now asks to be counted.
 6. **Timing.** Mouse primary CD8 responses to influenza peak at days 7 to 10, so
    the day-3 readouts sit inside the innate window. Adaptive sampling in the next
    study goes at day 7 to 10, not day 3.
-7. **Carry-forward.** Antigen-specific antibody and antigen-specific CD8 and TRM
-   are accepted correlates of protection in influenza and are the right markers to
-   carry, marked as named domain knowledge. GM-CSF at 36h is the antigen-independent
-   pharmacodynamic marker, with its accessibility gap. The constraint the room adds
-   is narrower than the general point: every immunoassay mounted is
-   homologous-antigen, so the mounted humoral data cannot speak to the
-   heterosubtypic claim, whatever its standing as a correlate for matched strains.
+7. **Carry-forward, and the three markers split three ways.** Marked as named
+   domain knowledge. Antigen-specific CD8 and tissue-resident memory are accepted
+   correlates of heterosubtypic protection and are carried forward on that basis;
+   nothing in this package needs to demonstrate it. Their limit is access, not
+   validity: in mice they are lung-local, so the clinical role is mechanistic and
+   pharmacodynamic, read in challenge or lavage studies rather than as a routine
+   endpoint. Antigen-specific antibody is an accepted correlate for matched strains
+   only, and every immunoassay mounted here is homologous-antigen, so for the
+   heterosubtypic indication it is unestablished and has to be tested. Its role is
+   peripheral accessibility and the regulatory bridge, not the efficacy correlate.
+   GM-CSF at 36h is the antigen-independent pharmacodynamic marker of adjuvant
+   activity and carries the same lung-local access problem.
 8. **The 72h non-resolution is a formulation property, not an ageing one.** Young
    animals given the candidate also fail to resolve, 3.13 against 1.59. A
    toxicology and CMC question rather than an efficacy one, and the gating study.
 
 ### What the package does not support
 
-- Any correlate of protection demonstrated in this dataset. No block pairs a
-  per-animal immune measurement with that animal's survival outcome; survival blocks
-  carry only time and event, immune blocks carry no outcome. The markers in step 7
-  are carried on field-established grounds, not on a linkage shown here.
-- Separation of the adjuvant effect from the effect of more antigen. HA content is
-  never varied within a strain.
+- Antibody as a correlate of heterosubtypic protection. Accepted for matched
+  strains, unestablished across subtypes, and every immunoassay mounted is
+  homologous-antigen. No block pairs a per-animal immune measurement with that
+  animal's outcome, so nothing here can close that gap either. This does not apply
+  to the cellular markers, which are carried on accepted grounds.
+- Comparison against the relevant standard of care. High-dose inactivated vaccine
+  is what this asset competes with in 65+, and HA content is never varied within a
+  strain anywhere in the room, so no arm speaks to it.
 - The step from improved priming to protection. No blockade experiment has a
   challenge arm.
 - Any age-versus-formulation claim on an adaptive endpoint. The young-plus-candidate
@@ -504,12 +513,13 @@ Rows 1 and 2 are the only two that can be deconfounded, and both keep their sign
 | direction-not-established-before-pooling | that two of the 18 endpoints invert | every other endpoint reduces to lower-means-worse | Ifnb1 72h at 2.78 and Tfr at 1.52 are the candidate doing worse, not better | establishes each readout's direction, then reports 18 of 18 pointing one way |
 | background-mortality-not-netted | that 6H, 6I and 6J carry an arm receiving neither vaccine nor challenge | 6J reads as the weak end of a range at 57.1% | Fig.6 rows 34-68, fifth arm of 6J: 3 of 7 dead by day 10, p=0.855 against the candidate arm | reports 6J at its own ceiling, or sets it aside on that fact |
 | correlates-listed-not-chain-established | the four blockade experiments | DC and Treg shifts are easier to read than interventions across four sheets | S4E, 2K, 2L/7F, 5D | builds the chain, and can then propose a PD marker |
-| young-benchmark-as-acceptance-criterion | the age-matched comparison | the package nominates the young arm | the same endpoints invert, 0.76 against 8.0x; survival reaches young while magnitude does not | recommends against standard of care and does not require matching young to advance |
+| young-benchmark-as-acceptance-criterion | the age-matched comparison | the package nominates the young arm | the same endpoints invert, 0.76 against 8.0x; survival reaches young while magnitude does not | compares against high-dose standard of care in the aged population and does not require matching young to advance |
 
 ### Tier 2 watch list
 innate-alternative-not-considered; early-readout-treated-as-adaptive;
 adjuvant-effect-not-separated-from-antigen-dose;
-priming-to-protection-step-assumed; correlate-asserted-as-demonstrated-here;
+priming-to-protection-step-assumed;
+antibody-treated-as-heterosubtypic-correlate; standard-of-care-comparator-omitted;
 duplicated-blocks-treated-as-independent;
 within-subtype-challenge-counted-as-heterosubtypic;
 central-estimate-below-assay-floor; derived-panel-unreconciled;
@@ -624,6 +634,16 @@ of one trajectory and a thin mode set.
 - Confirm a log-rank implementation imports in the task image as the model user.
 - Validate ceiling and floor: that a strong attempt working only from the room
   reaches the verdict, and that the obvious first pass does not.
+
+### What changed after revision 3
+
+- Cellular correlates decoupled from the demonstration requirement. Antigen-specific
+  CD8 and TRM are accepted correlates of heterosubtypic protection and are carried
+  on that basis; the no-linkage fact about the room applies only to antibody, where
+  the cross-subtype correlate is genuinely unestablished.
+- High-dose inactivated vaccine named as the primary comparator for the next
+  efficacy study, since it is the licensed standard of care in 65+ and therefore
+  what the asset is judged against.
 
 ### What changed in revision 3
 - Fig. 6J retained and read against its own ceiling, with the full log-rank table.
