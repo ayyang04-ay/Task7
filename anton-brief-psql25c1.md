@@ -36,7 +36,7 @@ AMnESTI is our manganese-complexed pulmonary-surfactant-biomimetic liposomal STI
 
 All of our data on AMnESTI is dumped here. All analysis and recommendations should be grounded in our data, which serves as ground truth.
 
-I want your recommendation: do we advance this adjuvant? Regardless of yes or no, I need a strong defensible case to present, so build out the position with as much support and defense as the data allows. Every number you rely on needs the file it came from and how you reduced it, because the committee will check them.
+I want your recommendation: do we advance this adjuvant? Regardless of yes or no, I need a strong defensible case to present, so build out the position with as much support and defense as the data allows. Every number you rely on needs to cite the relevant data and state how you reduced it, because the committee will check them.
 
 And either way I need the forward view, because if I drop this I have to be able to say what we are dropping and why. What is actually driving the protection? Is there a biomarker of efficacy worth carrying forward, could it go into patients, and in what role? What would the next studies have to establish, and for each one, what are the endpoints, populations, comparators, readouts and timing?
 
@@ -56,12 +56,14 @@ Deprecations confirmed absent: no as-of date or analysis cut-off; no output file
 path, directory or named artifact; no no-web or no-search line; no request for
 saved analysis artifacts; no mandated output headings or prescribed section order.
 
-Provenance holds in the strong form. "All analysis and recommendations should be
-grounded in our data" is on its own the weak phrasing the guidance now names as
-insufficient, but the prompt also asks for the file each number came from and how
-it was reduced. With saved artifacts deprecated this is the only remaining guard
-against invented figures, so it must not be cut back to the grounding sentence
-alone.
+Provenance holds, one notch softer than before. "All analysis and recommendations
+should be grounded in our data" is on its own the weak phrasing the guidance names
+as insufficient, but the prompt also asks each number to cite the relevant data and
+state how it was reduced. The reduction clause is the load-bearing half: it is what
+makes a figure recomputable rather than merely attributed. Dropping the earlier
+file-level wording removes a pointer but not the guard. With saved artifacts
+deprecated this is the only remaining defence against invented figures, so it must
+not be cut back to the grounding sentence alone.
 
 Three checklist items this version drops. Recorded so the choice is on the record
 rather than silent.
@@ -98,7 +100,7 @@ protection pillar is supposed to reach.
 | File | Contents | States the world how |
 |---|---|---|
 | adz5242_data_file_s1.xlsx | 15 sheets, 101 per-animal data blocks | Shipped unmodified. 90 of 101 blocks do not name their measurand |
-| trial_summary.md (to author) | Per-block annotation, methodology, formulation | Dry annotation only. See absence anchors |
+| trial_summary (to author, ships as PDF) | Per-block annotation, methodology, formulation | Dry annotation only. See absence anchors. Markdown is no longer permitted in the room; the workbook stays .xlsx |
 
 No publication mounted. The MDAR reproducibility checklist shipped in the same
 supplementary archive is not mounted either; it is filed under a different DOI from
