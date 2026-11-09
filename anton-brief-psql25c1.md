@@ -2,6 +2,7 @@
 RLS short ID: psql25c1
 RLS URL ID: task_4ce55343502b4d17b2182158ad6e4533
 Campaign: camp_0589d1e96758477586df0e43dd8eeec1
+Studio: https://studio.mercor.com/annotator/tasks/task_4ce55343502b4d17b2182158ad6e4533/?campaignId=camp_0589d1e96758477586df0e43dd8eeec1
 
 Revision 3. Every figure was recomputed from the shipped workbook in session.
 Legend and design facts come from the unmounted publication (Gao et al., Sci
