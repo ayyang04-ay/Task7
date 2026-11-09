@@ -515,6 +515,29 @@ Rows 1 and 2 are the only two that can be deconfounded, and both keep their sign
 | correlates-listed-not-chain-established | the four blockade experiments | DC and Treg shifts are easier to read than interventions across four sheets | S4E, 2K, 2L/7F, 5D | builds the chain, and can then propose a PD marker |
 | young-benchmark-as-acceptance-criterion | the age-matched comparison | the package nominates the young arm | the same endpoints invert, 0.76 against 8.0x; survival reaches young while magnitude does not | compares against high-dose standard of care in the aged population and does not require matching young to advance |
 
+**Expected prevalence, highest to lowest.** All seven stay in the map and in the
+grader's B list. The order is a prior for the FA, so that prevalence can be ranked
+against it rather than discovered from scratch.
+
+1. confound-not-separated. The source frames every age comparison on the diagonal,
+   so a solver following the data's own framing lands here by default.
+2. resolution-not-addressed. Three chances to fail: find the second S2A block,
+   exponentiate it, then propose work rather than record a caveat.
+3. background-mortality-not-netted. Requires noticing a fifth arm that exists in
+   only three of the nine challenge blocks.
+4. humoral-readout-carries-heterosubtypic-claim. The largest numbers in the package
+   pull hard in this direction.
+5. young-benchmark-as-acceptance-criterion. The package nominates the young arm, so
+   taking it as the bar is the path of least resistance.
+6. correlates-listed-not-chain-established. The blockade data are findable but sit
+   across four sheets.
+7. direction-not-established-before-pooling. Lowest, and for a structural reason
+   rather than a confidence one: it can only fire if the solver chooses to
+   aggregate the endpoint set at all. A solver that reports endpoints individually
+   never faces the question. **Absence of this mode in a transcript is therefore
+   not evidence that direction was handled correctly**, and the FA should check
+   whether aggregation was attempted before counting it either way.
+
 ### Tier 2 watch list
 innate-alternative-not-considered; early-readout-treated-as-adaptive;
 adjuvant-effect-not-separated-from-antigen-dose;
