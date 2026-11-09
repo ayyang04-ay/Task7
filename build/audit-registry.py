@@ -11,7 +11,7 @@
 # without lifelines or scipy.
 
 import openpyxl, statistics as st, math, re
-wb=openpyxl.load_workbook('adz5242_data_file_s1.xlsx',data_only=True)
+wb=openpyxl.load_workbook('../data-room/adz5242_data_file_s1.xlsx',data_only=True)
 def V(sh,cc,rr):
     ws=wb[sh]; return [float(ws.cell(r,c).value) for r in rr for c in cc
                        if isinstance(ws.cell(r,c).value,(int,float))]
