@@ -1,0 +1,11 @@
+Verify the paste in the Studio form against these three before launching.
+
+Character count : 3017
+sha256 prefix   : 7765d2ff77b0
+
+Required last line, in full:
+C. Neutral: number of studies proposed; whether the innate alternative is resolved or left open with a discriminating experiment; statistical method choice; whether the stated-n mismatches or the sheet mislabels are noticed; retention of humoral readouts as a regulatory bridge or as immunogenicity; whether Fig. 6J is retained at its ceiling or set aside on that same fact; route, units, layout, length, and where in the answer anything sits.
+
+The failure this guards against: one run uploaded 18,309 characters of a 24,504-character
+document. It stopped at the end of section A, so the grader had no penalty list and no
+neutral list. Scroll to the bottom of the form and confirm the C list is present.

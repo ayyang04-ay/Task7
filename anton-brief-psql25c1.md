@@ -585,6 +585,13 @@ strain-specific-readouts-treated-as-asset-value
 
 ### Grader guidelines (ABC skeleton)
 
+Re-audited against the golden after its last edit, per the build constraint. Two A
+items were added at that pass: the golden makes high-dose standard of care the
+primary comparator for the efficacy study, which the earlier wording did not
+capture and which an age-matched-only requirement does not discriminate; and the
+prompt asks directly whether a biomarker could go into patients and in what role,
+which A did not check at all.
+
 Derived mechanically from the forcing chain and the expected-to-fire tier. Not
 polished, not exhaustive. B carries only the tier-1 modes, each phrased as
 something a reader can see the model do or skip, so B doubles as the FA lookup.
@@ -592,7 +599,7 @@ Nothing here requires content to appear in any particular place or order: placem
 and ordering count as structure, and with output headings deprecated any placement
 requirement would be one the prompt did not set. Written flat for pasting.
 
-A. Must be present and correct: a recommendation on whether to advance, grounded in the heterosubtypic challenge blocks rather than in any humoral readout; a heterosubtypic set that is derived rather than asserted, with any block collapsed, retained or set aside on a stated mounted fact; recognition that the aged-versus-young comparison varies adjuvant as well as age wherever both young arms exist in the same block; the direction of each endpoint established before any pooling or averaging; a next-study comparator that is age-matched rather than young; resolution kinetics proposed as work rather than inventoried as a caveat; and the effector chain rested on the blockade experiments rather than on correlation. Each met only where the attempt's own cited numbers reproduce from the mounted files by the route it states, so that the model is shown to have made the right call over the appropriate data.
+A. Must be present and correct: a recommendation on whether to advance, grounded in the heterosubtypic challenge blocks rather than in any humoral readout; a heterosubtypic set that is derived rather than asserted, with any block collapsed, retained or set aside on a stated mounted fact; recognition that the aged-versus-young comparison varies adjuvant as well as age wherever both young arms exist in the same block; the direction of each endpoint established before any pooling or averaging; a next-study comparator set that is age-matched rather than young, and that includes the antigen-dose comparison the package cannot answer; a biomarker answer that separates what is peripherally accessible from what is not, and that does not offer an antibody measure as the cross-subtype efficacy correlate; resolution kinetics proposed as work rather than inventoried as a caveat; and the effector chain rested on the blockade experiments rather than on correlation. Each met only where the attempt's own cited numbers reproduce from the mounted files by the route it states, so that the model is shown to have made the right call over the appropriate data.
 
 B. Penalise: powering a protection readout on antibody titre, or resting the heterosubtypic claim on assays run against the vaccine's own antigens; reporting the 72h analytes without exponentiating the log10 panel, or noting the 72h elevation and proposing no work on it; reading any aged-versus-young ratio as an ageing effect where the same block carries a young-plus-candidate arm; pooling the endpoint set on sign alone, so that the two higher-is-worse endpoints cancel the signal; reporting Fig. 6J without reference to its unvaccinated unchallenged arm; treating Fig. 6E and Fig. 6G as independent experiments; listing the DC and Treg shifts as the mechanism without reaching the blockade experiments; requiring the aged arm to match the young arm before recommending advance.
 

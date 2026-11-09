@@ -769,7 +769,7 @@ S8J received the inactivated bivalent vaccine intranasally with the stated adjuv
 ### Fig. S8H
 - **Measurand**: IgG in mediastinal lymph node B220-positive cells, by flow cytometry.
 - **Units and scale**: percent, linear.
-- **Timepoint**: day 14 after immunisation.
+- **Timepoint**: not stated. The animals were immunised as in Fig. S8A.
 - **Stated n**: 5. **Observations per group**: 5.
 - **Groups as printed**: Sham, NanoSTING, AMnESTI, NanoSTING(Y).
 
@@ -792,15 +792,15 @@ S8J received the inactivated bivalent vaccine intranasally with the stated adjuv
 ### Fig. S12E H1N1
 - **Measurand**: IFN-gamma-positive CD8 T cells among mediastinal lymph node cells, by intracellular staining and flow cytometry.
 - **Units and scale**: percent, linear.
-- **Timepoint**: cells prepared on day 14 after immunisation.
-- **Conditions**: animals immunised as in Fig. 5K. Cell suspensions were restimulated in vitro with CA09 H1N1 vaccine and anti-CD28 before staining.
+- **Timepoint**: not stated. The animals were immunised as in Fig. 5K.
+- **Conditions**: cell suspensions were restimulated in vitro with CA09 H1N1 vaccine and anti-CD28 before staining.
 - **Stated n**: 5. **Observations per group**: 5.
 - **Groups as printed**: Sham, NanoSTING, AMnESTI, NanoSTING(Y).
 
 ### Fig. S12E H3N2
 - **Measurand**: IFN-gamma-positive CD8 T cells among mediastinal lymph node cells, by intracellular staining and flow cytometry.
 - **Units and scale**: percent, linear.
-- **Timepoint**: cells prepared on day 14 after immunisation.
+- **Timepoint**: not stated. The animals were immunised as in Fig. 5K.
 - **Conditions**: as the preceding block, restimulated in vitro with Aichi H3N2 vaccine and anti-CD28.
 - **Stated n**: 5. **Observations per group**: 5.
 - **Groups as printed**: Sham, NanoSTING, AMnESTI, NanoSTING(Y).
