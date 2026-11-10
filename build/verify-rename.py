@@ -47,7 +47,6 @@ def at_ref(rel, binary=False):
 
 TEXT = [
     'build/annotation-source.md',
-    'build/audit-golden.py',
     'build/audit-registry.py',
     'build/anton-brief-psql25c1.md',
     'build/label-mapping.tsv',
@@ -74,6 +73,8 @@ ANNOTATED = {
     'build/make-annotation-pdf.py': 'SOURCE_DATE_EPOCH moved later than the workbook, '
                                     'which the annotation previously predated by six '
                                     'months',
+    'build/audit-golden.py': 'coverage extended from 109 to 246 diffed checks, closing '
+                             'the 24 gaps the second reference audit enumerated',
 }
 # Files deliberately left carrying superseded identifiers, because their job is to
 # record the prior state. Asserted BYTE-IDENTICAL to the reference, with no

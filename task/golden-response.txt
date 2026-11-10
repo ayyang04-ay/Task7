@@ -270,9 +270,9 @@ Means of the per-endpoint ratios: humoral 0.654 over rows 5 to 10, cellular 0.74
 over rows 12 to 18. Three endpoints are effectively matched: monocyte recruitment at
 day 4 (0.95), day-7 NP-specific CD8 (0.94) and CD8 proliferation (0.94). Row 3 is read
 at day 4 because that is the peak of the response in both compared arms, 30.56 and
-32.22 of five sampled days; read at day 8 instead the ratio is 1.31, the only point in
-the roster where a higher-is-better endpoint would exceed 1.0, and the mean across all
-five days is 0.996. Early
+32.22, of five sampled days. Four of the five days fall below 1.0 and only day 8
+exceeds it, at 1.31, which is the single point in the roster where a higher-is-better
+endpoint would. Pooling the five days as a ratio of the two arms' means gives 0.996. Early
 interferon induction reads 0.99 on this comparator and would make a fourth, but that
 is the cross-adjuvant figure debunked above; held to one formulation it is 0.73 and
 does not belong in the matched set.

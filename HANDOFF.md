@@ -134,8 +134,8 @@ Mantel-Cox inline, t-tests via an inline incomplete beta.
 | Grader guidelines | `task/grader-guidelines.txt` | 3,717 | `4b166be59225` |
 | Data room | `data-room/adjuvant_program_dataset.xlsx` | 56,787 | `f293502992c7` |
 | Data room | `data-room/trial_summary.pdf` | 59,695 | `761fffd19ebc` |
-| Reviewer golden (either) | `task/golden-response.txt` | 24,719 | `9215ce3d2ca0` |
-| Reviewer golden (either) | `task/golden-response.pdf` | 41,923 | `bfaff4c8cf90` |
+| Reviewer golden (either) | `task/golden-response.txt` | 24,777 | `e77e485a55fa` |
+| Reviewer golden (either) | `task/golden-response.pdf` | 41,946 | `937d3e808cdd` |
 
 Prompt is 201 words, grader 576. Check each paste against `build/paste-checks.txt`,
 which carries word count, character count, hash prefix and required last line. The
@@ -429,25 +429,55 @@ print(len(occ),'occurrences',len(set(occ)),'distinct')
 print({k:v for k,v in collections.Counter(occ).items() if v>1})"
 ```
 
-**`audit-golden.py` coverage is NARROWER THAN THIS SECTION USED TO IMPLY, and closing
-it is outstanding work.** The second reference audit enumerated 24 gaps. The three that
-matter:
+**`audit-golden.py` gaps: CLOSED.** The second reference audit enumerated 24
+load-bearing claims the script did not cover. Coverage went from **109 to 246 diffed
+checks**, and the three classes it found are all addressed.
 
-1. **The `PSLN-212`-vs-sham log-rank row is not computed at all** — 0.0267, 0.088,
-   0.0024, 0.111, 0.066, 0.0063. That row carries the Recommendation's claim that the
-   predecessor fails to separate from vaccine alone in three of six, so the manganese
-   rather than the liposome is doing the work. It is one of the two pillars of the
-   advance decision and nothing in the build touches it.
-2. **The whole subclass argument is uncomputed and roster row 8 is hard-coded**, which
-   is exactly why the script could not have caught the defect above. The per-animal fix
-   is therefore still unprotected by any automated check.
-3. **16 of the 18 roster ratios are printed but never diffed** — only `min` and `max`
-   are asserted, so the middle fourteen can drift silently. Three further checks are too
-   loose to constrain their claim: the `p < 0.0001` age-deficit assertion passes
-   anything under 0.002.
+*Too loose.* Every cell of the log-rank table is now diffed against its printed value.
+The old version asserted only `p_par <= 0.0151` and `p_young >= 0.0597`, i.e. range
+membership, so a block drifting from 0.0083 to 0.0001 would have passed. The
+`p < 0.0001` age-deficit claim was checked as `chk(..., 0.0, 2e-3)`, which passes
+anything under 0.002, so the inequality the golden states was never tested; it is now
+tested as an inequality.
 
-Do not read a green `audit-golden.py` as "the golden is verified". It means the claims
-it covers are verified.
+*Printed but not checked.* All six blocks' survival fractions and per-arm n, all
+eighteen roster ratios (only `min` and `max` were asserted, so the middle fourteen could
+drift), and the `S06-C`/`S06-D` 28-pair count.
+
+*Not computed at all.* The whole `PSLN-212`-vs-sham log-rank row, which carries the
+claim that the manganese rather than the liposome does the work; the entire subclass
+argument, with roster row 8 now derived from the workbook instead of hard-coded; `S04-C`
+and `S13-H`; the imprinting blocks; `S10-A`; the `S06` block count; `S09-A` block 1;
+`S06-E`/`S06-F` against their untreated arms; the `S08-A` percentage and the `S08-D`
+positive control; the diagonal-versus-formulation-held pair; cDC2; the `S05-C` and CCR2
+fold-changes; the matched-endpoint set; the `S15-L`/`S15-N` parent arms; `S03-J`'s last
+day; and the four-arm-block exclusivity claim, which independently reproduces exactly
+the six blocks the golden names with `S02-I`, `S09-B`–`S09-G` and `S13-E` excluded.
+
+**Two defects the new coverage found immediately, both worth knowing about.**
+
+1. **It caught an error in the golden written the same day.** The day-4 clause said "the
+   mean across all five days is 0.996". That is the ratio of the two arms' pooled
+   five-day means; the mean of the five per-day ratios is 1.007, which *exceeds* 1.0 and
+   would have undercut the clause's own point. The same unnamed-reduction defect the
+   reference audit had just found in the subclass paragraph, reintroduced and then caught
+   within minutes. The golden now names the reduction.
+2. **The script exited 0 even with `chk` mismatches recorded.** Only an `assert` ever
+   failed the run, so a scripted gate reading the exit status saw green whenever no
+   assertion happened to fire. Fixed with an explicit `sys.exit(1 if fails else 0)`.
+   **Every "audit-golden passes" claim made before that fix was weaker than it sounded.**
+
+**A gap that remains, by design.** The script recomputes the workbook and diffs it
+against what the script says the golden claims — and those claimed values live in the
+script, as a hand-maintained transcription. Editing a figure in the golden without
+editing the script was proved by deliberate tamper to go unnoticed. A `CORRESPONDENCE`
+section now asserts that all 115 of the golden's load-bearing figures appear literally
+in its text, which makes the transcription provable rather than parallel, and a tamper
+test confirms it fires. It is still a literal-string check: it catches a changed or
+deleted figure, not a figure whose surrounding prose has drifted.
+
+`audit-registry.py` is a reporting tool, not a gate — it prints the verified value set
+and asserts nothing. "It passed" means only that it ran.
 
 **Blind spot closed earlier, for the record:** `audit-golden.py` previously checked no survival percentage
 and no log-rank p-value, so nothing in the build verified the golden's most
