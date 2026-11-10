@@ -234,11 +234,14 @@ the new penalty: it carries no adjuvant-alone arm, having had one removed under 
 Grader is 510 words, 3,303 characters, sha `abf669684815` — **re-paste it, the hash
 has changed.**
 
-**5.11 — FIXED. IACUC identifier removed.**
-`2008N000173` is gone from the annotation and from the shipped PDF. The ethics
-statement itself is kept, reworded to "All procedures were carried out under a
-reviewed and approved institutional animal care and use protocol", because a document
-like this would carry one. The BEI Resources catalogue numbers are kept: see section 3
+**5.11 — FIXED. IACUC identifier replaced.**
+`2008N000173` is gone from the annotation and from the shipped PDF, replaced by
+`AUP-0417`. The old one was a unique searchable string appearing verbatim in the
+source publication's methods, inside the one file a solver is told to read closely,
+so unlike the author metadata and the filename it survived every metadata strip. It
+also sat oddly against a prompt that calls the asset ours: the format is an academic
+committee's, not a company's. The replacement carries no year, so it reintroduces no
+dating signal, and collides with no block label or reagent code. The BEI Resources catalogue numbers are kept: see section 3
 decision 9.
 
 Not done, and still open if the user wants it: the "as printed"/"as found" register

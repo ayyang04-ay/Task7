@@ -7,8 +7,8 @@ experiment. Aged animals were 20 months of age or older, except where a block
 states otherwise. C57BL/6 mice at 15 or 20 months, Swiss Webster mice, 7 to
 8-week-old Sftpa1-/-Sftpd-/- mice, OT-I mice and Ifnar-deficient mice were used in
 the blocks that name them. Animals were housed in a pathogen-free facility. All
-procedures were carried out under a reviewed and approved institutional animal
-care and use protocol.
+procedures were carried out under institutional animal care and use protocol
+AUP-0417.
 
 ## Materials
 
