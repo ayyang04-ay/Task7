@@ -13,9 +13,9 @@ Tell me what you considered and ruled out.
 
 grader-guidelines.txt
 ---------------------
-Word count      : 510
-Character count : 3303
-sha256 prefix   : abf669684815
+Word count      : 576
+Character count : 3716
+sha256 prefix   : 59c80b9d1fd8
 Paragraphs      : 4, each one unbroken line. Confirm no hard wraps survived the paste.
 
 Scroll to the bottom of the form and confirm the C list is present. A
@@ -23,4 +23,4 @@ previous run uploaded 18,309 characters of a 24,504-character grader. It
 stopped at the end of section A, leaving no penalty list and no neutral list.
 
 Required last line, in full:
-C. Neutral: number of studies proposed; whether the response raises the non-specific-antiviral-state alternative at all, and if it does, whether it retires it on S15-H or on the day-7-to-10 timing of a primary CD8 response; statistical method choice; whether the stated-n mismatches or the sheet mislabels are noticed; retention of humoral readouts as a regulatory bridge or as immunogenicity; whether S06-G is retained at its ceiling or set aside on that same fact; route, units, layout, length, and where in the answer anything sits.
+C. Neutral: number of studies proposed; whether the response raises the non-specific-antiviral-state alternative at all, and if it does, whether it retires it on S15-H or on the day-7-to-10 timing of a primary CD8 response; statistical method choice; whether the stated-n mismatches are noticed, or the block-label defects that carry no identity consequence, meaning the S10-A block holding S03-E content and the two printed labels that each appear twice on the S06 sheet, read as labels; this does not extend to the S06-C and S06-D data identity, which B covers; retention of humoral readouts as a regulatory bridge or as immunogenicity; whether S06-G is retained at its ceiling or set aside on that same fact; route, units, layout, length, and where in the answer anything sits.

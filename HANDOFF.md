@@ -2,7 +2,9 @@
 
 Written at the end of a long session. A new session starts here.
 
-Repo `ayyang04-ay/Task7`, branch `claude/exciting-cray-mkihzd`, all work pushed.
+Repo `ayyang04-ay/Task7`, branch **`claude/exciting-cray-mkihzd-v2`**, all work pushed.
+The v2 branch exists because a red-team sweep found a leak the earlier branch shipped;
+`claude/exciting-cray-mkihzd` is the pre-rename history and should not be built on.
 RLS short ID `psql25c1`, task `task_4ce55343502b4d17b2182158ad6e4533`, campaign
 `camp_0589d1e96758477586df0e43dd8eeec1`.
 
@@ -40,6 +42,41 @@ brief and rebuilds the annotation PDF. `--check` fails on drift.
 `build/audit-registry.py` prints the full verified value set.
 Run both from `build/` with `python3 -I`. No scipy or lifelines; log-rank is
 Mantel-Cox implemented inline.
+
+## 2a. Compound-name rename — the second leak, and what the codes mean
+
+An adversarial red-team review of the shipped files found what every earlier
+provenance sweep had missed. Those sweeps searched for authors, DOIs, journals, paths
+and generator strings. **None searched for published compound names.** The data room
+carried two, from the source program's own lineage, and defined the asset as a
+one-variable delta on one of them.
+
+| Was | Now | Why |
+|---|---|---|
+| `NanoSTING` / `nanoSTING` | `AVB-101` | published named adjuvant; the asset was defined only as "this plus Mn2+" |
+| `NanoSTING/R848` | `AVB-101/R848` | coinage dropped, R848 kept |
+| `NanoR848` | `AVB-R848` | same |
+| `NanoSRB` | `AVB-SRB` | same; SRB is a generic dye |
+| `PS-GAMP` / `PSGAMP` | `CMP-204` | one lab's published compound name |
+| molar ratio `10:1:1:1` | removed | the published formulation of a specific named particle |
+
+Suffixes rode along, so the deliberate source quirks all survived: `AVB-101 ` with the
+trailing space, `AVB-101(y)` lowercase, `AVB-101Y` without parentheses,
+`Imprinting+AVB-101`, `Naïve+AVB-101`.
+
+**Kept deliberately, on the user's rule that generic and non-proprietary items carry
+no leak exposure:** `ADU-S100`, `R848`, the BEI catalogue numbers, every strain name
+(`CA09`, `PR8`, `Aichi`, `Perth`, `rgVN04` — and these are load-bearing for the
+subtype classification), the lipid names, `INCB3344`, `Clodrosome`, carbenoxolone,
+`OT-I`, `Sftpa1-/-Sftpd-/-`.
+
+**The rename was done with the lesson from the first one applied.** Every rule is a
+full compound name of seven or more characters, so unlike the bare two-character
+tokens that corrupted `H5N1` and `Ly6C`, none can match inside a gene, allele, strain
+or marker name. A 48-identifier guard list was checked before and after every file,
+and it earned its keep: it caught a rule of mine that would have destroyed `R848`
+inside `NanoR848`. Rules and guard are in the scratchpad copy of `rename.py`; the
+surviving figure-label rules in `replacements.json` are untouched by this.
 
 ## 3. Standing decisions — do not re-litigate
 
@@ -139,7 +176,7 @@ carries a `LyS06-B` dict key.
 
 **5.2 — 20 hyperlink artefacts in the workbook name the pre-rename compound.**
 `xl/worksheets/sheet13.xml` and `sheet15.xml` plus their `_rels` carry
-`display="NanoSTING@Mn"` and `Target="mailto:NanoSTING@Mn"` on ten cells whose
+`display="AVB-101@Mn"` and `Target="mailto:AVB-101@Mn"` on ten cells whose
 visible value is `AMnESTI`. They came with the publisher's file, not from this
 build, but they are residual provenance in a file presented as internal. An
 adversarial agent found them with no external lookup and called them a smoking gun.
@@ -202,10 +239,10 @@ age-specific priming deficit, **not a general potency increase**". One agent hel
 formulation constant and compared aged+AMnESTI against young+AMnESTI: 37.11 against
 50.70, p = 0.012, and concluded the amplification "is a property of the chemistry,
 not a correction of an aged deficit". Verified exactly. AMnESTI also raises the young
-response over young+nanoSTING, 37.60 to 50.70, p = 0.014. So there *is* a general
+response over young+AVB-101, 37.60 to 50.70, p = 0.014. So there *is* a general
 potency increase; it is simply smaller in young animals. The golden now states the
 2x2 in full: the age deficit is real (p < 0.0001), AMnESTI restores aged to the young
-nanoSTING level (p = 0.857), and young animals on AMnESTI go higher still (p = 0.012).
+AVB-101 level (p = 0.857), and young animals on AMnESTI go higher still (p = 0.012).
 What is age-specific is the magnitude of the increment, not its existence. All four
 p-values are now checked by `audit-golden.py` rather than asserted.
 

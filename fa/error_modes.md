@@ -25,9 +25,9 @@ raised-then-abandoned shape for this panel.
 | Shape | encountered then unapplied |
 
 **Description in the task's own numbers and files.** S01-A, S01-E, S01-F, S01-G, S02-C and S02-E each
-carry four arms: aged+nanoSTING, aged+AMnESTI, young+nanoSTING and young+AMnESTI. Every
+carry four arms: aged+AVB-101, aged+AMnESTI, young+AVB-101 and young+AMnESTI. Every
 run built a quantitative age-gap-closure or restoration metric whose denominator is the
-young+nanoSTING arm, so the numerator differs from the denominator in both age and
+young+AVB-101 arm, so the numerator differs from the denominator in both age and
 adjuvant. Every run referenced the young+AMnESTI arm (100 or more references each) and
 pulled its values, 50.70 at 16 h and 3.13 at 72 h in S01-A.
 
@@ -36,8 +36,8 @@ pulled its values, 50.70 at 16 h and 3.13 at 72 h in S01-A.
   means the animals given the Mn-free parent liposome. Its own ledger row M23 is the
   within-adjuvant comparison and is not cited in the deliverable. Element 375 carries the
   resulting claim, aged IFN-beta reaching the young level at 36.9 against 37.5.
-- 10d15660, element 161: defines age-gap closure as (AMnESTI − NanoSTING) divided by
-  (NanoSTING(Y) − NanoSTING). The mode is in the metric definition, not the prose; a
+- 10d15660, element 161: defines age-gap closure as (AMnESTI − AVB-101) divided by
+  (AVB-101(Y) − AVB-101). The mode is in the metric definition, not the prose; a
   prose-only screen returns zero for this run.
 - 16a5e37f, element 366 row L22: computes the age-by-formulation interaction, 1.66 with
   CI 1.33 to 2.08, from all four cells. Element 347 then states that ageing cuts the
@@ -47,7 +47,7 @@ pulled its values, 50.70 at 16 h and 3.13 at 72 h in S01-A.
 
 **Counterfactual.** Holding the adjuvant constant, aged over young is 0.732 at 16 h, not
 the 0.987 the cross-adjuvant contrast gives. At 72 h the young+AMnESTI arm is itself 3.13
-against 1.59 for young+nanoSTING, so most of the persistence attributed to the aged lung
+against 1.59 for young+AVB-101, so most of the persistence attributed to the aged lung
 is a property of the formulation. The within-age adjuvant effect, 2.23-fold in aged
 animals against 1.35-fold in young, is available in the same block and is not confounded.
 
@@ -157,7 +157,7 @@ That is a clean comparison. It is a different clean comparison from the golden's
 which holds age constant and varies formulation, but it is not the confounded one.
 
 **Screening rule, tightened.** Mode 1 is the use of a denominator that varies age and
-adjuvant together, i.e. a metric built on aged+AMnESTI over young+nanoSTING. A run
+adjuvant together, i.e. a metric built on aged+AMnESTI over young+AVB-101. A run
 that compares aged+AMnESTI against young+AMnESTI has held formulation constant and has
 **not** committed mode 1, even though it is comparing across age. Check the denominator
 of the metric, not whether the word "young" appears. Two of the eight trajectories in

@@ -105,7 +105,7 @@ hib=[v for k,v in vals.items() if k not in ('Ifnb1 72h','Tfr')]
 print('  higher-is-better: n=%d  min %.4f  max %.4f'%(len(hib),min(hib),max(hib)))
 chk('higher-is-better min', min(hib), 0.406, 1e-3)
 chk('higher-is-better max', max(hib), 0.987, 1e-3)
-print('\nADJUVANT EFFECT WITHIN COHORT (AMnESTI / nanoSTING)')
+print('\nADJUVANT EFFECT WITHIN COHORT (AMnESTI / AVB-101)')
 # Checks the golden's claim that six of the seven readouts rise in aged animals, that
 # the five priming readouts span 1.65 to 24.35 aged and 1.02 to 1.35 young, and that
 # the sixth, the 72 h interferon residual, is the one where the young gain is larger.
@@ -185,4 +185,94 @@ for ci, arm, exp_surv, exp_deaths in ((2,'3d Vaccine',0,[4,5,5,5,6,6,7]),
 hum=[vals[k] for k in ['IgG H1N1','IgG H3N2','HAI H1N1','IgG2a:IgG1','GC B','ICOS Tfh']]
 cel=[vals[k] for k in ['NP d3','NP d7','Ki67','GZMB','IFNg d14','IFNg d60','TRM']]
 chk('humoral mean (6)',st.mean(hum),0.654); chk('cellular mean (7)',st.mean(cel),0.741)
+
+# ---------------------------------------------------------------------------
+# PROTECTION SECTION
+#
+# This whole section was absent until an independent audit pointed out that the
+# script checked no survival percentage and no log-rank p-value anywhere -- i.e.
+# nothing in the build pipeline verified the golden's single most load-bearing
+# argument. Mantel-Cox, standard treatment: a risk set of one still contributes to
+# the expectation but contributes zero variance, which is the edge case that makes a
+# naive implementation disagree with these numbers on two cells.
+print('\nPROTECTION: survival and log-rank')
+
+def arms(sheet, label_cell, day_col, first_arm_col, narms, r0, r1):
+    sh = wb[sheet]
+    out = []
+    for i in range(narms):
+        c = first_arm_col + i
+        ev = [(sh.cell(r, day_col).value, sh.cell(r, c).value)
+              for r in range(r0, r1 + 1) if sh.cell(r, c).value is not None]
+        out.append([(t, int(e)) for t, e in ev if isinstance(t, (int, float))])
+    return out
+
+def logrank(a, b):
+    times = sorted({t for t, e in a + b if e == 1})
+    O, E, V = 0.0, 0.0, 0.0
+    for t in times:
+        na = sum(1 for x, _ in a if x >= t); nb = sum(1 for x, _ in b if x >= t)
+        n = na + nb
+        if n == 0: continue
+        da = sum(1 for x, e in a if x == t and e == 1)
+        d = da + sum(1 for x, e in b if x == t and e == 1)
+        if d == 0: continue
+        O += da; E += d * na / n
+        if n > 1:
+            V += d * (na / n) * (1 - na / n) * (n - d) / (n - 1)
+    if V == 0: return None
+    chi = (O - E) ** 2 / V
+    return math.erfc(math.sqrt(chi / 2))
+
+def surv(arm): return sum(1 for _, e in arm if e == 0)
+
+SIX = [('S06-A', 1, 2, 3, 30), ('S06-B', 1, 8, 3, 30), ('S06-C', 1, 14, 3, 30),
+       ('S06-E', 33, 8, 34, 68), ('S06-F', 33, 14, 34, 68), ('S06-G', 70, 2, 71, 105)]
+for lbl, hdr, acol, r0, r1 in SIX:
+    sham, parent, cand, young = arms('S06', hdr, acol - 1, acol, 4, r0, r1)
+    p_sham  = logrank(cand, sham)
+    p_par   = logrank(cand, parent)
+    p_young = logrank(cand, young)
+    print('   %-6s AMnESTI %d/%d  parent %d/%d  sham %d/%d  young %d/%d  | vs sham %s  vs parent %s  vs young %s'
+          % (lbl, surv(cand), len(cand), surv(parent), len(parent), surv(sham), len(sham),
+             surv(young), len(young),
+             '%.4f' % p_sham if p_sham else 'n/a',
+             '%.4f' % p_par if p_par else 'n/a',
+             '%.4f' % p_young if p_young else 'identical'))
+    chk('%s AMnESTI vs sham' % lbl, p_sham, 0.0002, 1e-4)
+    assert p_par is not None and p_par <= 0.0151 + 1e-4, '%s: golden says vs parent is 0.0009 to 0.0151' % lbl
+    assert p_young is None or p_young >= 0.0597 - 1e-4, '%s: golden says vs young is 0.060 to 0.317' % lbl
+
+# S06-D duplicates S06-C exactly, which is why the golden collapses it.
+c_arms = arms('S06', 1, 13, 14, 4, 3, 30)
+d_arms = arms('S06', 32, 1, 2, 4, 34, 61)
+assert c_arms == d_arms, 'S06-D is no longer identical to S06-C'
+print('   S06-C and S06-D: all %d time-and-event pairs identical' % sum(len(a) for a in c_arms))
+
+# The S06-G ceiling reading: an age-matched arm that met no virus did no better.
+g = arms('S06', 70, 1, 2, 5, 71, 105)
+cand_g, untr_g = g[2], g[4]
+p_untr = logrank(cand_g, untr_g)
+print('   S06-G AMnESTI %d/%d vs untreated %d/%d  p = %.4f'
+      % (surv(cand_g), len(cand_g), surv(untr_g), len(untr_g), p_untr))
+chk('S06-G AMnESTI vs untreated', p_untr, 0.855, 2e-3)
+chk('S06-G untreated survivors', surv(untr_g), 4, 1e-9)
+
+# S15-L and S15-N: no stated challenge virus, both favourable, neither in the six.
+for lbl, hdr in (('S15-L', 102), ('S15-N', 133)):
+    sham, parent, cand = arms('S15', hdr, 1, 2, 3, hdr + 1, hdr + 30)
+    print('   %-6s AMnESTI %d/%d  parent %d/%d  sham %d/%d' % (lbl, surv(cand), len(cand),
+          surv(parent), len(parent), surv(sham), len(sham)))
+    chk('%s AMnESTI survivors' % lbl, surv(cand), 6, 1e-9)
+    chk('%s sham survivors' % lbl, surv(sham), 0, 1e-9)
+
+# S03-J: the header says n=9 and every arm holds 10. The annotation used to say 9.
+sh = wb['S03']
+for col, name, exp in (('H', 'Sham', 1), ('I', 'AVB-101', 3), ('J', 'AMnESTI', 10)):
+    rows = [r for r in range(17, 47) if sh['%s%d' % (col, r)].value is not None]
+    cens = sum(1 for r in rows if sh['%s%d' % (col, r)].value == 0)
+    print('   S03-J %-8s %d observations, %d censored' % (name, len(rows), cens))
+    chk('S03-J %s observations' % name, len(rows), 10, 1e-9)
+    chk('S03-J %s censored' % name, cens, exp, 1e-9)
+
 print('\n%s'%('AUDIT FAILURES: '+', '.join(fails) if fails else 'all other checks OK'))

@@ -118,7 +118,7 @@ age-versus-formulation comparison.
 | Heterosubtypic survival | cand 57.1-100%, comp 0-28.6%, sham 0% across six configurations after collapsing S06-D into S06-C; cand separates from sham at p=0.0002 and from the comparator at p=0.0009 to 0.0151 in all six | S06-A, S06-B, S06-C, S06-E, S06-F, S06-G | 2 | yes |
 | Natural-death ceiling | unvaccinated unchallenged arm S06-E 85.7%, S06-F 100%, S06-G 57.1%; in S06-G the candidate arm and that arm are both 4 of 7, p=0.855 | S06 rows 34-68, fifth arm | 2 | yes |
 | Survival reaches young | cand vs young comparator not significant in any configuration (p=0.060 to 0.317, identical in S06-C) | S06 | 2 | yes |
-| Within-age adjuvant effect | aged 1.65x to 24.35x, young 1.02x to 1.35x, across five blocks carrying the full 2x2 | S01-A, S01-E, S01-F, S01-G, S02-C, S02-E | 2 | yes |
+| Within-age adjuvant effect | aged 1.65x to 24.35x, young 1.02x to 1.35x, across six blocks, seven panels, carrying the full 2x2 | S01-A, S01-E, S01-F, S01-G, S02-C, S02-E | 2 | yes |
 | Age/formulation 2x2 | Ifnb1 16h: diagonal 0.99, formulation held 0.73. Ifnb1 72h: diagonal 2.78, formulation held 1.42, and young+cand 3.13 against young+comp 1.59 | S01-A rows 5, 8, 9, 10 | 2 | yes |
 | Early protection | S06-B 71.4% challenged at d3; S03-J 100% challenged at d2, censored at d21 | S06-B, S03-J | 1 | yes |
 | Day-3 lung CD8 | NP+ 6.68/2.09; Ki-67 9.38/3.48; GZMB 5.69/2.99 | S05-A, S05-D, S05-E | 1 | S05-A merged hdr |
@@ -132,7 +132,7 @@ age-versus-formulation comparison.
 | Foreclosure for direction | subclass-sum/total-IgG 0.56/0.35/0.55 (H1N1) and 0.57/0.32/0.34 (H3N2) against 16.1x and 11.3x under the alternative | S03-A/S03-E + S13-A-D | 2 | yes |
 | HAI | cand geo 367.6, arith 416.0; sham [10,10,10,0,0] arith 6.0 against a 1:10 floor | S03-C | 2 | yes |
 | S06-C identical to S06-D | 28 of 28 (time,event) pairs | S06 | 2 | yes |
-| Age-matched vs young, 18 endpoints | 18 of 18 directionally interpretable endpoints point the same way: 16 higher-is-better below 1.0 (0.357 to 0.987) and 2 higher-is-worse above it (Ifnb1 72h 2.78, Tfr 1.52). Same two endpoints read 18.1x and 8.0x against the age-matched arm | listed in derivation notes | 3 | yes |
+| Age-matched vs young, 18 endpoints | 18 of 18 directionally interpretable endpoints point the same way: 16 higher-is-better below 1.0 (0.406 to 0.987) and 2 higher-is-worse above it (Ifnb1 72h 2.78, Tfr 1.52). Same two endpoints read 18.1x and 8.0x against the age-matched arm | listed in derivation notes | 3 | yes |
 
 ### S06, full enumeration
 
@@ -239,7 +239,8 @@ high-dose arm is the primary comparator for the next efficacy study, with the
 age-matched predecessor adjuvant alongside it.
 
 No blockade experiment carries a challenge arm. INCB3344 reduces lung GZMB+ CD8
-from 15.35 to 2.52 and no survival readout follows. The causal chain is established
+from 6.77 to 1.39 (S02-I) and Ly6C+ macrophages from 15.35 to 2.52 (S07-B), and no
+survival readout follows either. The causal chain is established
 up to the immune readouts and assumed from there to protection.
 
 ### Absence anchors (assert mechanically)
@@ -273,7 +274,7 @@ source names it, with route and dose. Target is given only where it is part of t
 compound's standard identifier, as in "CCR2 antagonist INCB3344". No mechanistic
 gloss for established reagents: a working record names them and does not explain
 them. Adjuvant identities and the single composition difference. Stated
-statistical methods and summary measures, including that the fig. S09-A panels are
+statistical methods and summary measures, including that the S09-A panels are
 normalised against untreated mice. That scRNA-seq was performed, on which cells,
 when. Plus mLD50 determination and formulation specifications as non-load-bearing
 noise.
@@ -284,7 +285,7 @@ Source inconsistencies reproduced verbatim and unremarked:
   its own; S05-I reads "vaccinated as in (A)"
 - the NP366-374 tetramer against the stated BALB/c strain
 - the stated n values that disagree with their own observation counts: S03-J header
-  n=9 against arms of 10, 10 and 9 with a stated n of 10 in the source; S05-A/S05-B
+  n=9 against arms of 10, 10 and 10; S05-A/S05-B
   header n=3 against 2 observations
 - both S09-A headers reading 16h
 - S06 rows 69-70 reusing the printed labels S06-E and S06-F for different content,
@@ -324,6 +325,9 @@ and ordering requirements are prohibited, and with output headings deprecated an
 such requirement is necessarily one the prompt did not set. The golden may open
 with it, and does:
 
+> (Illustrative only. The shipped golden is task/golden-response.md and has moved on
+> from this wording; do not treat the block below as its current text.)
+>
 > Advance AMnESTI. In all six heterosubtypic challenge configurations it separated
 > from the vaccine alone (p = 0.0002) and from the chemically matched predecessor
 > adjuvant (p = 0.0009 to 0.0151) in 20-month-old mice, and on survival it was not
@@ -396,7 +400,6 @@ test now asks to be counted.
   arm exists only on innate and dendritic cell readouts.
 - Extension beyond influenza. No non-influenza pathogen antigen is mounted; OVA is
   a model protein.
-- The single-cell layer. Stated as performed, no data mounted.
 
 ### Forcing chain (23 route-necessary legs)
 
@@ -600,11 +603,15 @@ Nothing here requires content to appear in any particular place or order: placem
 and ordering count as structure, and with output headings deprecated any placement
 requirement would be one the prompt did not set. Written flat for pasting.
 
+### Grader framing
+
+You are grading a response to a portfolio-review request on AMnESTI, a manganese-complexed pulmonary-surfactant-biomimetic liposomal STING agonist developed as an adjuvant for influenza A vaccines in older adults. The solver had the study's per-animal data workbook and a per-block annotation, and was asked whether to advance the asset, what is driving the protection, whether a biomarker is worth carrying forward and could go into patients, what the next studies must establish, and what was ruled out. Grade content for presence and correctness only. Do not grade where in the answer anything sits or in what order it appears.
+
 A. Must be present and correct: a recommendation on whether to advance, grounded in the heterosubtypic challenge blocks rather than in any humoral readout; a heterosubtypic set that is derived rather than asserted, with any block collapsed, retained or set aside on a stated mounted fact; recognition that the aged-versus-young comparison varies adjuvant as well as age wherever both young arms exist in the same block; the direction of each endpoint established before any pooling or averaging; a next-study comparator set that is age-matched rather than young, and that includes the antigen-dose comparison the package cannot answer; a biomarker answer that separates what is peripherally accessible from what is not, and that does not offer an antibody measure as the cross-subtype efficacy correlate; resolution kinetics proposed as work rather than inventoried as a caveat; and the effector chain rested on the blockade experiments rather than on correlation. Each met only where the attempt's own cited numbers reproduce from the mounted files by the route it states, so that the model is shown to have made the right call over the appropriate data.
 
-B. Penalise: powering a protection readout on antibody titre, or resting the heterosubtypic claim on assays run against the vaccine's own antigens; reporting the 72h analytes without exponentiating the log10 panel, or noting the 72h elevation and proposing no work on it; reading any aged-versus-young ratio as an ageing effect where the same block carries a young-plus-candidate arm; pooling the endpoint set on sign alone, so that the two higher-is-worse endpoints cancel the signal; reporting S06-G without reference to its unvaccinated unchallenged arm; treating S06-C and S06-D as independent experiments; listing the DC and Treg shifts as the mechanism without reaching the blockade experiments; requiring the aged arm to match the young arm before recommending advance; proposing an adjuvant-alone or antigen-free arm in order to discriminate a non-specific antiviral state from primed immunity, when S15-H already carries that arm at the 3-day interval and settles it.
+B. Penalise: powering a protection readout on antibody titre, or resting the heterosubtypic claim on assays run against the vaccine's own antigens; reporting the 72h analytes without exponentiating the log10 panel, or noting the 72h elevation and proposing no work on it; reading any aged-versus-young ratio as an ageing effect where the same block carries a young-plus-candidate arm; pooling the endpoint set on sign alone, so that the two higher-is-worse endpoints cancel the signal; reporting S06-G without reference to its unvaccinated unchallenged arm; treating S06-C and S06-D as independent experiments; listing the DC and Treg shifts as the mechanism without reaching the blockade experiments; requiring the aged arm to match the young arm before recommending advance; proposing an adjuvant-alone or antigen-free arm at the short challenge interval, in order to discriminate a non-specific antiviral state from primed immunity, without engaging S15-H, which already carries that arm at that interval and settles it. Proposing the arm at a later interval, or for tolerability, pharmacodynamic or formulation reasons, is not this penalty.
 
-C. Neutral: number of studies proposed; whether the response raises the non-specific-antiviral-state alternative at all, and if it does, whether it retires it on S15-H or on the day-7-to-10 timing of a primary CD8 response; statistical method choice; whether the stated-n mismatches or the sheet mislabels are noticed; retention of humoral readouts as a regulatory bridge or as immunogenicity; whether S06-G is retained at its ceiling or set aside on that same fact; route, units, layout, length, and where in the answer anything sits.
+C. Neutral: number of studies proposed; whether the response raises the non-specific-antiviral-state alternative at all, and if it does, whether it retires it on S15-H or on the day-7-to-10 timing of a primary CD8 response; statistical method choice; whether the stated-n mismatches are noticed, or the block-label defects that carry no identity consequence, meaning the S10-A block holding S03-E content and the two printed labels that each appear twice on the S06 sheet, read as labels; this does not extend to the S06-C and S06-D data identity, which B covers; retention of humoral readouts as a regulatory bridge or as immunogenicity; whether S06-G is retained at its ceiling or set aside on that same fact; route, units, layout, length, and where in the answer anything sits.
 
 ---
 

@@ -14,16 +14,6 @@ CHECK = '--check' in sys.argv
 BRIEF = 'anton-brief-psql25c1.md'
 drift = []
 
-GRADER_FRAMING = (
-    "You are grading a response to a portfolio-review request on AMnESTI, a "
-    "manganese-complexed pulmonary-surfactant-biomimetic liposomal STING agonist "
-    "developed as an adjuvant for influenza A vaccines in older adults. The solver had "
-    "the study's per-animal data workbook and a per-block annotation, and was asked "
-    "whether to advance the asset, what is driving the protection, whether a biomarker "
-    "is worth carrying forward and could go into patients, what the next studies must "
-    "establish, and what was ruled out. Grade content for presence and correctness "
-    "only. Do not grade where in the answer anything sits or in what order it appears."
-)
 
 def slice_between(text, start, end):
     i = text.index(start); j = text.index(end, i)
@@ -49,7 +39,9 @@ prompt = emit('../task/prompt.txt',
               slice_between(brief, 'AMnESTI is our manganese-complexed', '### Prompt audit'),
               'task/prompt.txt')
 grader = emit('../task/grader-guidelines.txt',
-              GRADER_FRAMING + '\n\n' + slice_between(brief, 'A. Must be present and correct:',
+              slice_between(brief, '### Grader framing', '\n\nA. Must be present')
+              .replace('### Grader framing', '').strip()
+              + '\n\n' + slice_between(brief, 'A. Must be present and correct:',
                                                       '\n\n---\n\n## 5. SUPPORTING'),
               'task/grader-guidelines.txt')
 
@@ -108,6 +100,32 @@ def emit_golden_alternates():
     print('  %-28s regenerated' % 'task/golden-response.txt')
     print('  %-28s regenerated' % 'task/golden-response.pdf')
 
+def golden_alternate_drift():
+    # emit_golden_alternates() only runs in write mode, so without this the two
+    # reviewer-facing copies were generated and then never verified again.
+    import re as _re
+    bad = []
+    md = open(GOLDEN_SRC).read()
+    want = _re.sub(r'\*(.+?)\*', r'\1',
+            _re.sub(r'(?m)^#{1,6}\s*', '',
+            _re.sub(r'\*\*(.+?)\*\*', r'\1', md)))
+    try:
+        if open('../task/golden-response.txt').read() != want:
+            bad.append('task/golden-response.txt differs from golden-response.md')
+    except FileNotFoundError:
+        bad.append('task/golden-response.txt is missing')
+    try:
+        from pdfminer.high_level import extract_text
+        pdf = _re.sub(r'\s+', ' ', extract_text('../task/golden-response.pdf'))
+        for probe in _re.findall(r'\bS\d\d-[A-Z]\b', md)[:40]:
+            if probe not in pdf:
+                bad.append('task/golden-response.pdf is missing %s' % probe); break
+    except ImportError:
+        bad.append('task/golden-response.pdf (pdfminer.six absent, cannot verify)')
+    except Exception as e:
+        bad.append('task/golden-response.pdf unreadable: %s' % e)
+    return bad
+
 if not CHECK:
     subprocess.run([sys.executable, '-I', 'make-annotation-pdf.py',
                     ANNOT_SRC, ANNOT_PDF], check=True)
@@ -116,6 +134,9 @@ else:
     for d in annotation_drift():
         print('  %-28s DRIFT: %s' % ('data-room/trial_summary.pdf', d))
         drift.append('data-room/trial_summary.pdf')
+    for d in golden_alternate_drift():
+        print('  %-28s DRIFT: %s' % ('task/golden-response.*', d))
+        drift.append('task/golden-response.*')
 
 def stats(name, body, extra=''):
     lines = [l for l in body.split('\n') if l.strip()]

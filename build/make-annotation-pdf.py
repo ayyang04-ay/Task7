@@ -1,4 +1,18 @@
-import re, sys
+import re, sys, os
+
+# The info dictionary previously read Creator "(unspecified)", a /Title that did not
+# match the filename, and a creation stamp of the moment of generation. Titles are
+# keyed on the output filename so each document names itself; SOURCE_DATE_EPOCH gives
+# reportlab a fixed creation date instead of "now".
+TITLES = {
+    'trial_summary.pdf':   ('Dataset annotation',
+                            'Per-block annotation of the AMnESTI preclinical dataset'),
+    'golden-response.pdf': ('Portfolio review analysis',
+                            'Reference analysis of the AMnESTI preclinical dataset'),
+}
+TITLE, SUBJECT = TITLES.get(os.path.basename(sys.argv[2]) if len(sys.argv) > 2 else '',
+                            ('Dataset annotation', 'Annotation of a preclinical dataset'))
+os.environ.setdefault('SOURCE_DATE_EPOCH', '1772900460')
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.pdfbase import pdfmetrics
@@ -48,5 +62,6 @@ flush()
 
 SimpleDocTemplate(out, pagesize=A4, leftMargin=20*mm, rightMargin=20*mm,
                   topMargin=18*mm, bottomMargin=18*mm,
-                  title='Study annotation', author='').build(flow)
+                  title=TITLE, author='Preclinical Data Management',
+                  creator='Preclinical Data Management', subject=SUBJECT).build(flow)
 print('wrote', out)
