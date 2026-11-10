@@ -29,16 +29,32 @@ sham in both and 0 of 7 and 2 of 7 for nanoSTING. Including them would not chang
 the recommendation, and the six should be read as the configurations whose subtype
 is derivable rather than as every challenge experiment in the package.
 
-The asset is a correction of an age-specific priming deficit, not a general potency
-increase. On the five priming readouts it raises, the adjuvant adds 1.65 to
-24.35-fold inside aged animals and 1.02 to 1.35-fold inside young ones. That is the
-profile we want for a 65-plus indication, and it is the single most defensible
-number set in the package because it is the only comparison here that holds age and
-formulation apart. One caveat belongs with it: a sixth readout is also raised, the
-72-hour interferon residual, and there the young gain is the larger of the two, 1.97
-against 1.29. That readout is a persistence signal rather than a benefit, so it does
-not weaken the case, but it does mean the age-specificity holds across the priming
-readouts and not across everything the adjuvant moves.
+The asset corrects an age-specific priming deficit disproportionately, but it is not
+exclusively an aged-animal effect, and the committee should hear it in that form
+rather than the stronger one. Three facts out of the same 2x2, on Ifnb1 at 16 hours
+(S01-A, group means of five animals, Welch t):
+
+- The age deficit is real and large. Aged animals on nanoSTING reach 16.64 against
+  37.60 in young, p < 0.0001.
+- AMnESTI restores aged animals to the young nanoSTING level. 37.11 against 37.60,
+  p = 0.857, which is as close to indistinguishable as anything in this package.
+- But young animals given AMnESTI go higher still, 50.70, significantly above both
+  aged+AMnESTI (p = 0.012) and young+nanoSTING (p = 0.014).
+
+So the adjuvant raises the interferon response in both cohorts. What is age-specific
+is the size of the increment, not its existence: across the five priming readouts it
+adds 1.65 to 24.35-fold inside aged animals against 1.02 to 1.35-fold inside young
+ones. That is still the profile we want for a 65-plus indication, and it is still the
+most defensible number set in the package, because it is the only comparison here
+that holds age and formulation apart. It will not support the claim that the asset
+does nothing in young animals, and a reviewer who checks the young+AMnESTI arm will
+find that it does.
+
+Two further qualifications. A sixth readout is also raised, the 72-hour interferon
+residual, and there the young gain is the larger of the two, 1.97 against 1.29. That
+one is a persistence signal rather than a benefit, so it does not help the case, but
+it is a second place where the age-specificity does not hold. Taken together, the
+age-specificity holds on the magnitude of the priming gain and nowhere else.
 
 Two things the package does not support, stated up front because the committee will
 ask. It cannot tell us whether more antigen would do the same thing, and it cannot

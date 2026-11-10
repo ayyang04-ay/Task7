@@ -131,6 +131,43 @@ chk('priming young min', min(prim_y), 1.02, 1e-2); chk('priming young max', max(
 chk('residual aged', res_a, 1.29, 1e-2); chk('residual young', res_y, 1.97, 1e-2)
 assert res_y > res_a, 'golden says the young gain is larger on the 72h residual'
 
+print('\n2x2 SIGNIFICANCE (Ifnb1 16h, S01-A, Welch t)')
+# The golden's age-specificity claim was corrected after an independent run pointed
+# out that AMnESTI also raises the young response significantly. These three p-values
+# are what the corrected claim rests on, so they are checked rather than asserted.
+def _ibeta(a,b,x):
+    if x<=0: return 0.0
+    if x>=1: return 1.0
+    def cf(a,b,x):
+        qab,qap,qam=a+b,a+1,a-1; c=1.0; d=1-qab*x/qap
+        d=1/d if abs(d)>1e-30 else 1e30; h=d
+        for mm in range(1,300):
+            m2=2*mm; aa=mm*(b-mm)*x/((qam+m2)*(a+m2))
+            d=1+aa*d; c=1+aa/c
+            d=1/d if abs(d)>1e-30 else 1e30; h*=d*c
+            aa=-(a+mm)*(qab+mm)*x/((a+m2)*(qap+m2))
+            d=1+aa*d; c=1+aa/c
+            d=1/d if abs(d)>1e-30 else 1e30; de=d*c; h*=de
+            if abs(de-1)<3e-16: break
+        return h
+    lb=math.lgamma(a+b)-math.lgamma(a)-math.lgamma(b)+a*math.log(x)+b*math.log(1-x)
+    return math.exp(lb)*cf(a,b,x)/a if x<(a+1)/(a+b+2) else 1-math.exp(lb)*cf(b,a,1-x)/b
+def welch_p(a,b):
+    na,nb=len(a),len(b); va,vb=st.variance(a),st.variance(b)
+    t=(st.mean(a)-st.mean(b))/math.sqrt(va/na+vb/nb)
+    df=(va/na+vb/nb)**2/((va/na)**2/(na-1)+(vb/nb)**2/(nb-1))
+    return _ibeta(df/2,0.5,df/(df+t*t))
+_arm={k:V('S01',range(2,7),[r]) for k,r in (('aged+nS',5),('aged+AM',8),('young+nS',9),('young+AM',10))}
+for lbl,x,y,claim in (('age deficit  aged+nS vs young+nS','aged+nS','young+nS',0.0),
+                      ('restoration  aged+AM vs young+nS','aged+AM','young+nS',0.857),
+                      ('aged+AM vs young+AM','aged+AM','young+AM',0.012),
+                      ('young gain   young+nS vs young+AM','young+nS','young+AM',0.014)):
+    pv=welch_p(_arm[x],_arm[y])
+    print('   %-36s p = %.4f  (%.2f vs %.2f)'%(lbl,pv,st.mean(_arm[x]),st.mean(_arm[y])))
+    chk(lbl, pv, claim, 2e-3)
+assert welch_p(_arm['young+nS'],_arm['young+AM'])<0.05, \
+    'the golden now says AMnESTI raises the young response significantly'
+
 print('\nS15-H: does the package exclude a non-specific antiviral state?')
 # The golden now asserts that adjuvant alone protects nobody at the 3-day interval,
 # which is what retires the alternative. Recomputed here because that claim is

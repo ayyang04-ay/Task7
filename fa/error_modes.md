@@ -138,3 +138,35 @@ for a different reason, such as powering or a different interval, has not made t
 error. A solver that leaves the mechanism open without proposing the arm is a weaker
 and separate case; do not fold the two together. If it fails the two-trajectory floor
 in the next batch, drop it rather than stretching the definition.
+
+---
+
+## Refinement to mode 1, from a post-repair solvability run
+
+Two fresh agents were run against the repaired data room with no access to the
+answers. One of them did **not** commit mode 1, which matters twice over: it confirms
+the mode is avoidable rather than forced by the data room's layout, and it shows the
+screen as written would have misclassified it.
+
+That run compared aged+AMnESTI against **young+AMnESTI**, holding formulation constant
+and varying age, and reported "the amplification is also present in young animals
+(AMnESTI(Y) 50.7 vs AMnESTI aged 37.1, p = 0.012), i.e. it is a property of the
+chemistry, not a correction of an aged deficit." Verified: p = 0.0121.
+
+That is a clean comparison. It is a different clean comparison from the golden's,
+which holds age constant and varies formulation, but it is not the confounded one.
+
+**Screening rule, tightened.** Mode 1 is the use of a denominator that varies age and
+adjuvant together, i.e. a metric built on aged+AMnESTI over young+nanoSTING. A run
+that compares aged+AMnESTI against young+AMnESTI has held formulation constant and has
+**not** committed mode 1, even though it is comparing across age. Check the denominator
+of the metric, not whether the word "young" appears. Two of the eight trajectories in
+the ledger above were identified from a metric definition rather than from prose, so
+this distinction decides counts.
+
+**Consequence for the golden, not for the mode.** The run's substantive point was
+correct and the golden was wrong: it had claimed the asset is "a correction of an
+age-specific priming deficit, not a general potency increase". AMnESTI raises Ifnb1
+significantly in young animals too (50.70 against 37.60, p = 0.014). What is
+age-specific is the size of the increment. The golden has been corrected. A solver
+making the same observation is right and must not be marked down for it.

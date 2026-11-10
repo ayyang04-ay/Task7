@@ -184,6 +184,30 @@ configurations". They do not change the answer: candidate 6/7 in both.
 `audit-registry.py` 74, 76 which print the old scheme in script output. Two stale
 assertions in `audit-golden.py` lines 43 and 106 that no longer match the golden.
 
+**5.13 — FIXED, found by the solvability check.** The golden's headline claim was
+overstated and is now corrected. It had said the asset is "a correction of an
+age-specific priming deficit, **not a general potency increase**". One agent held
+formulation constant and compared aged+AMnESTI against young+AMnESTI: 37.11 against
+50.70, p = 0.012, and concluded the amplification "is a property of the chemistry,
+not a correction of an aged deficit". Verified exactly. AMnESTI also raises the young
+response over young+nanoSTING, 37.60 to 50.70, p = 0.014. So there *is* a general
+potency increase; it is simply smaller in young animals. The golden now states the
+2x2 in full: the age deficit is real (p < 0.0001), AMnESTI restores aged to the young
+nanoSTING level (p = 0.857), and young animals on AMnESTI go higher still (p = 0.012).
+What is age-specific is the magnitude of the increment, not its existence. All four
+p-values are now checked by `audit-golden.py` rather than asserted.
+
+This is the third independent pressure on the same framing: the 72 h residual
+inversion (5.6) and now this. A solver who makes this observation is correct and must
+not be marked down for it.
+
+**Mode 1 screening rule tightened as a result.** A run comparing aged+AMnESTI against
+young+AMnESTI has held formulation constant and has **not** committed mode 1. The mode
+is specifically a denominator that varies age and adjuvant together. Check the metric
+definition, not whether the word "young" appears; two of the eight ledger trajectories
+were identified from a metric definition rather than prose. Recorded at the foot of
+`fa/error_modes.md`.
+
 **5.12 — OPEN, new. The grader treats a now-wrong answer as neutral.**
 The C list calls it neutral "whether the innate alternative is resolved or left open
 with a discriminating experiment". That was right when the golden thought the
@@ -291,6 +315,34 @@ and `.../scratchpad/qa/`. A new session will not have these. The user has the
 originals and can re-upload. `fa/transcript-extract.py` parses the Taiga export
 format: thinking text lives in the element's `data` field under
 `contexts[].conversation.data[].contents[]`, not in `thinking` or `text`.
+
+## 8a. Post-repair solvability check — passed
+
+Two agents, run independently against the repaired data room with the prompt and the
+two shipped files only, no access to the golden, grader or brief, no web. Both
+produced a full analysis. Checklist and both reports are in the session scratchpad;
+the checklist was written before either report landed.
+
+All ten load-bearing legs derived by at least one agent, including the two the
+corruption had broken: the heterosubtypic classification (both agents read the
+vaccine-versus-challenge strain pairs correctly) and the monocyte gate. Both found
+S15-H independently and used it for the same purpose the golden now does. One
+resolved the S09-A mislabel to 72 h unprompted.
+
+Five regression checks, all clean in both reports: no corrupted string quoted as
+unreadable, no annotation-versus-workbook disagreement, no `(cid:` glyph complaint,
+no workbook block reported as unannotated, and **neither agent identified the data
+room as a published paper's supplement or named a journal, DOI or author.**
+
+Everything either agent reported as BLOCKED or AMBIGUOUS is either on the deliberate
+list (the workbook's internal contradictions, the twin 16h headers, S06-D duplicating
+S06-C, S15-L/N without a stated challenge virus, the unlabelled S08 region) or a
+genuine gap in the underlying science that the golden also names (no Mn assay or
+toxicology, no free-MnCl2 arm, no HA dose-ranging, no PBMC or blood readout, no viral
+load or histopathology, no per-animal correlate, no licensed-adjuvant comparator).
+**No new defect.**
+
+One substantive finding, acted on: see 5.13.
 
 ## 9. What is left
 
