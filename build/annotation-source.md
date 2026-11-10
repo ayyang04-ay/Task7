@@ -14,18 +14,18 @@ PCL-26-0417.
 
 Two nanoparticle preparations appear throughout. Both are pulmonary-surfactant
 biomimetic liposomes containing DPPC, DPPG, DPPE-PEG2000 and cholesterol,
-prepared by reverse-phase evaporation or thin-film rehydration, and both encapsulate the cyclic dinucleotide STING agonist ADU-S100.
+prepared by reverse-phase evaporation or thin-film rehydration, and both encapsulate the cyclic dinucleotide STING agonist CDN-1807.
 They differ in one respect: PSLN-344 incorporates Mn2+ by coordination
 polymerization and PSLN-212 does not. Three further preparations appear in
-individual blocks: CMP-204, which encapsulates cGAMP in place of ADU-S100;
+individual blocks: CMP-204, which encapsulates cGAMP in place of CDN-1807;
 PSLN-R848, which encapsulates the TLR7/8 agonist R848; and PSLN-212/R848, which
-encapsulates both ADU-S100 and R848.
+encapsulates both CDN-1807 and R848.
 
 Where a block names "sham", the animals received empty liposome vehicle in saline
 alongside the vaccine. Where a block names "PBS" or "vehicle", the animals received
 buffer alone.
 
-Encapsulation efficiency of ADU-S100 was determined by absorbance at 260 nm.
+Encapsulation efficiency of CDN-1807 was determined by absorbance at 260 nm.
 Particle size and zeta potential were measured by dynamic light scattering, and
 particle morphology by transmission electron microscopy. Trehalose was added to 2.5
 percent before lyophilisation, and lyophilised material was stored at minus 20
@@ -553,7 +553,7 @@ animal, challenged intranasally, and observed for 14 days after challenge.
 - **Groups as printed**: CMP-204, PSLN-212, PSLN-344, PSLN-344/R848.
 
 ### S08-B
-- **Measurand**: encapsulation efficiency of the nanoparticle preparation, determined by absorbance of ADU-S100 at 260 nm.
+- **Measurand**: encapsulation efficiency of the nanoparticle preparation, determined by absorbance of CDN-1807 at 260 nm.
 - **Units and scale**: percent, linear.
 - **Stated n**: 3. **Observations per group**: 3.
 - **Groups as printed**: CMP-204, PSLN-212, PSLN-R848, PSLN-212/R848, PSLN-344.

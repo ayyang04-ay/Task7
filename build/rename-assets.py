@@ -52,7 +52,9 @@ GUARD = [
     # NOT 'AMnESTI'. It was a guard entry here until rename 4 established that it is
     # the source publication's own compound name, present in the publisher's original
     # workbook. It is now a renamed target; see rename-asset-name.py.
-    'PSLN-344', 'CMP-204', 'ADU-S100', 'R848', 'SRB', 'FreeSRB', 'INCB3344',
+    # NOR 'ADU-S100'. Also a guard entry here until rename 5 established that it names
+    # the asset's own composition rather than being commodity tooling. Now CDN-1807.
+    'PSLN-344', 'CMP-204', 'CDN-1807', 'R848', 'SRB', 'FreeSRB', 'INCB3344',
     'Clodrosome', 'carbenoxolone', 'CBX', 'OT-I', 'Sftpa1-/-Sftpd-/-',
     'NR-3177', 'NR-348', 'NR-41803', 'FR-201',
     # formulation

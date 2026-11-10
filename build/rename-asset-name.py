@@ -46,7 +46,9 @@ GUARD = [
     'H5N1', 'H1N1', 'H3N2', 'Ly6C', 'Ly6G', 'H-2Db', 'H-2Kd', 'CD11b', 'CD11c',
     'IFN-beta', 'Ccl2', 'Ccl3', 'Ccl5',
     # names standing decision 9 keeps
-    'ADU-S100', 'R848', 'SRB', 'FreeSRB', 'INCB3344', 'Clodrosome', 'carbenoxolone',
+    # 'ADU-S100' was here as never-touch; rename 5 made it CDN-1807, on the grounds that
+    # it names the asset's own composition rather than being commodity tooling.
+    'CDN-1807', 'R848', 'SRB', 'FreeSRB', 'INCB3344', 'Clodrosome', 'carbenoxolone',
     'CBX', 'OT-I', 'Sftpa1-/-Sftpd-/-', 'NR-3177', 'NR-348', 'NR-41803', 'FR-201',
     # formulation
     'DPPC', 'DPPG', 'DPPE-PEG2000', 'cholesterol', 'cGAMP', 'Mn2+',

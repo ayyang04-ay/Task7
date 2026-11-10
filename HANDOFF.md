@@ -118,7 +118,9 @@ python3 -I make-artifacts.py --check  # fail on drift; covers prompt, grader, an
 python3 -I audit-golden.py            # recompute every figure in the golden against the workbook
 python3 -I audit-registry.py          # print the full verified value set
 python3 -I verify-rename.py           # prove the tree reduces to rename 3's declared substitutions
-python3 -I rename-assets.py --check   # dry-run the rename rules and the never-touch guard
+python3 -I rename-assets.py --check   # dry-run renames 3-5 and their never-touch guards
+python3 -I rename-asset-name.py --check
+python3 -I rename-payload.py --check
 ```
 
 The first two must be green before any upload. No scipy, no lifelines — log-rank is
@@ -133,7 +135,7 @@ Mantel-Cox inline, t-tests via an inline incomplete beta.
 | Prompt | `task/prompt.txt` | 1,187 | `cfc0f29bde3c` |
 | Grader guidelines | `task/grader-guidelines.txt` | 3,717 | `4b166be59225` |
 | Data room | `data-room/adjuvant_program_dataset.xlsx` | 56,787 | `f293502992c7` |
-| Data room | `data-room/trial_summary.pdf` | 59,695 | `761fffd19ebc` |
+| Data room | `data-room/trial_summary.pdf` | 59,697 | `28d22fffdd21` |
 | Reviewer golden (either) | `task/golden-response.txt` | 24,777 | `e77e485a55fa` |
 | Reviewer golden (either) | `task/golden-response.pdf` | 41,946 | `937d3e808cdd` |
 
@@ -166,18 +168,27 @@ The user settled all of these. Re-opening them has wasted time more than once.
 6. **All 101 blocks annotated; non-load-bearing noise kept as is.**
 7. **No `.md` anywhere in the upload.**
 8. Assume the solver image has the packages it needs.
-9. **Generic and non-proprietary items carry no leak exposure and stay.**
-    **CORRECTION, rename 4:** this decision's premise is wrong about one item.
-    `ADU-S100` is not generic — it is a named clinical-stage asset, the CDN STING
-    agonist ML RR-S2 CDA, Aduro Biotech, licensed to Novartis as MIW815, Phase 1,
-    dropped from the portfolio in 2019. The user's decision to keep it still stands and
-    is defensible on different grounds: it is the field's standard published tool CDN,
-    real preclinical programmes name their tool compounds, and an invented CDN name
-    would make the room less realistic while touching forcing-chain leg 3. But the
-    exposure it carries is not zero, and it is not the string — it is the fingerprint.
-    ADU-S100 plus manganese coordination polymer plus pulmonary-surfactant-biomimetic
-    liposome plus aged mice plus heterosubtypic influenza locates the paper with no
-    compound name at all. Renaming the asset does not close that. BEI
+9. **Commodity reagents carry no leak exposure and stay. `ADU-S100` did not, and was
+    renamed to `CDN-1807` in rename 5.** The decision originally classed it with the
+    commodity tools, which was wrong: it is a named development-stage asset, the CDN
+    STING agonist ML RR-S2 CDA, Aduro Biotech, licensed to Novartis as MIW815, Phase 1,
+    dropped from the portfolio in 2019.
+
+    **The operative line, which this decision now states explicitly, is not "is it a
+    company code".** `INCB3344` is one and it stays. It is **whether the identifier
+    names the asset's own composition.** ADU-S100 was the payload both the candidate and
+    the predecessor encapsulate, and the source paper's abstract names it as what the
+    asset encapsulates, so it was constitutive of the thing the publication is about.
+    `R848`, `cGAMP`, `INCB3344`, `Clodrosome`, carbenoxolone, the lipid names and the BEI
+    and IRR catalogue numbers are commodity tools that hundreds of papers use and that
+    point at nothing in particular. They stay.
+
+    **What rename 5 does not fix.** The exposure was never only the string. A cyclic
+    dinucleotide payload plus manganese coordination polymerisation plus a
+    pulmonary-surfactant-biomimetic liposome plus aged mice plus heterosubtypic influenza
+    narrows the literature to this programme with no compound name present at all.
+    Renaming removes a named hook, not the fingerprint. The fingerprint is science and
+    cannot be edited away without fabricating. BEI
    catalogue numbers (`NR-3177`, `NR-348`, `NR-41803`, `FR-201`), every strain name,
    `ADU-S100`, `R848`, the lipid names, `INCB3344`, `Clodrosome`, carbenoxolone,
    `OT-I`, `Sftpa1-/-Sftpd-/-`. Strain names are additionally load-bearing: the subtype
@@ -351,16 +362,24 @@ looked like our redaction scars and neither was:
   any of our edits. The red-team read them as deleted descriptor tokens. They are
   standing rule 3 working as intended.
 
-**Two findings it got right that are still open.** The annotation PDF is stamped
-2026-03-07 while the workbook it describes is stamped 2026-09-03, so the annotation
-predates its subject by six months — one epoch constant in `make-annotation-pdf.py`. And
-the room's *structure* is a figure set: the publisher original's sheets are literally
-`Fig.1` … `Fig.7`, `Fig. S1`, `S2`, `S3`, `S4`, `S7`, `S8`, `S12`, `S13`. Rename 1
-flattened seven main and eight supplementary figures into a contiguous `S01`–`S15`,
-erasing both the main/supplement split and the gaps. The red-team reconstructed the seam
-without ever seeing that file: its `S06` survival ↔ `S15` weight pairing is
-`Fig.6` ↔ `Fig. S13`. No rename fixes this; it is the shape of a supplementary data
-file, which standing rule 1 makes the room.
+**Two findings it got right. One fixed, one accepted.**
+
+*Fixed.* The annotation PDF was stamped 2026-03-07 while the workbook it describes is
+stamped 2026-09-03, so the annotation predated its subject by six months. The epoch
+constant in `make-annotation-pdf.py` now puts it at 2026-09-15, with a comment saying it
+must stay later than the workbook.
+
+*Accepted, on the user's decision — do not reopen.* The room's **structure** is a figure
+set. The publisher original's sheets are literally `Fig.1` … `Fig.7`, `Fig. S1`, `S2`,
+`S3`, `S4`, `S7`, `S8`, `S12`, `S13`. Rename 1 flattened seven main and eight
+supplementary figures into a contiguous `S01`–`S15`, erasing both the main/supplement
+split and the gaps, but the shape survives: the red-team reconstructed the seam without
+ever seeing that file, its `S06` survival ↔ `S15` weight pairing being
+`Fig.6` ↔ `Fig. S13`. **No rename fixes this.** It is the shape of a supplementary data
+file, and standing rule 1 makes the room exactly that. The user has accepted it rather
+than renumbering again; a third structural rename would risk the rename-1 class of
+damage for no gain, since the pairing is recoverable from the data whatever the labels
+say. Expect a red-team to find it every time and do not treat it as a new finding.
 
 **The lesson from rename 4, which is not the same as rename 1's or 2's.** The red-team
 that found Leak 2 classified `AMnESTI` as "INVENTED — contrived backronym with Mn
@@ -371,6 +390,19 @@ does not happen to know. **Always run a web pass over the enumeration it returns
 outside the sandbox, in extended search mode.** Standard mode returned nothing for
 `AMnESTI`; extended mode returned the paper as the first result. That difference is what
 the whole branch turned on.
+
+**Rename 5, the encapsulated payload.** `ADU-S100` → `CDN-1807`. Five occurrences, all
+in `build/annotation-source.md`, which generates the shipped annotation PDF; **zero in
+the workbook**, which `build/rename-payload.py` asserts rather than assumes. Nothing in
+the prompt, the grader or the golden referred to it. The reasoning and the line it draws
+are in standing decision 9. Forcing-chain leg 3 is preserved: it rests on the annotation
+saying both preparations encapsulate the *same* cyclic dinucleotide, and the sentence
+still reads "both encapsulate the cyclic dinucleotide STING agonist CDN-1807. They
+differ in one respect: PSLN-344 incorporates Mn2+ by coordination polymerization and
+PSLN-212 does not."
+
+`verify-rename.py` now carries seven declared substitutions across renames 3 to 5 and
+still proves the whole chain back to v2 in one pass.
 
 **My own sanitisation created new tells**, all found by the red-team: an empty
 `core.xml` (an absent creator is itself a signal), every zip entry stamped

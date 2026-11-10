@@ -27,6 +27,8 @@ SUBS = [
     # rename 4 -- the asset name, which was the source publication's own compound name
     ('AMnESTI',  'PSLN-344'),
     ('amnesti_preclinical_dataset.xlsx', 'adjuvant_program_dataset.xlsx'),
+    # rename 5 -- the encapsulated payload, which named the asset's own composition
+    ('ADU-S100', 'CDN-1807'),
 ]
 
 # Files whose path changed. Key is the working-tree path, value the path on REF.
