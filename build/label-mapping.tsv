@@ -1,0 +1,102 @@
+old_sheet	new_sheet	cell	old_label	new_label
+Fig.1	S01	A1	Fig.1A n=5	S01-A n=5
+Fig.1	S01	A13	Fig.1D n=5	S01-B n=5
+Fig.1	S01	A19	Fig.1E n=4	S01-C n=4
+Fig.1	S01	A23	Fig.1I n=5	S01-D n=5
+Fig.1	S01	A29	Fig.1J n=5	S01-E n=5
+Fig.1	S01	A35	Fig.1K n=5	S01-F n=5
+Fig.1	S01	A37	Fig.1L n=5	S01-G n=5
+Fig. 2	S02	A1	Fig. 2B n=5	S02-A n=5
+Fig. 2	S02	F1	Fig. 2C n=5	S02-B n=5
+Fig. 2	S02	K1	Fig. 2D n=5	S02-C n=5
+Fig. 2	S02	A8	Fig. 2E CD40 n=5	S02-D CD40 n=5
+Fig. 2	S02	F8	Fig. 2E CD86 n=5	S02-D CD86 n=5
+Fig. 2	S02	K8	Fig. 2F n=5	S02-E n=5
+Fig. 2	S02	A15	Fig. 2I n=5	S02-F n=5
+Fig. 2	S02	A20	Fig. 2J n=5	S02-G n=5
+Fig. 2	S02	A28	Fig. 2K n=5	S02-H n=5
+Fig. 2	S02	G28	Fig. 2L n=5	S02-I n=5
+Fig. 3	S03	A1	Fig. 3A n=5	S03-A n=5
+Fig. 3	S03	G1	Fig. 3B n=5	S03-B n=5
+Fig. 3	S03	K1	Fig. 3C n=5	S03-C n=5
+Fig. 3	S03	Q1	Fig. 3D n=5	S03-D n=5
+Fig. 3	S03	A8	Fig. 3E n=5	S03-E n=5
+Fig. 3	S03	G8	Fig. 3F n=5	S03-F n=5
+Fig. 3	S03	K8	Fig. 3G n=5	S03-G n=5
+Fig. 3	S03	Q8	Fig. 3H n=5	S03-H n=5
+Fig. 3	S03	A15	Fig. 3I n=7	S03-I n=7
+Fig. 3	S03	G15	Fig. 3J n=9	S03-J n=9
+Fig. 3	S03	K15	Fig. 3L n=5	S03-K n=5
+Fig. 3	S03	K25	Fig. 3R n=3	S03-L n=3
+Fig.4	S04	A1	Fig. 4E n=5	S04-A n=5
+Fig.4	S04	A6	Fig. 4F  Foxp3+ in CXCR5+ n=5	S04-B  Foxp3+ in CXCR5+ n=5
+Fig.4	S04	A13	Fig. 4F  Tfh:Tfr n=5	S04-B  Tfh:Tfr n=5
+Fig.4	S04	A20	Fig. 4G   n=5	S04-C   n=5
+Fig.4	S04	A27	Fig. 4H   n=3	S04-D   n=3
+Fig.5	S05	A1	Fig. 5A n=3 Lung	S05-A n=3 Lung
+Fig.5	S05	A6	Fig. 5B n=3 MLN	S05-B n=3 MLN
+Fig.5	S05	A11	Fig. 5D n=3	S05-C n=3
+Fig.5	S05	A17	Fig. 5E n=5	S05-D n=5
+Fig.5	S05	A24	Fig. 5F n=5	S05-E n=5
+Fig.5	S05	A31	Fig. 5K n=5	S05-F n=5
+Fig.5	S05	A38	Fig. 5L n=5	S05-G n=5
+Fig.5	S05	A45	Fig. 5M n=5	S05-H n=5
+Fig.5	S05	A52	Fig. 5N n=5	S05-I n=5
+Fig.6	S06	A1	Fig. 6A n=7	S06-A n=7
+Fig.6	S06	G1	Fig. 6C n=7	S06-B n=7
+Fig.6	S06	M1	Fig. 6E n=7	S06-C n=7
+Fig.6	S06	A32	Fig. 6G n=7	S06-D n=7
+Fig.6	S06	G32	Fig. 6H n=7	S06-E n=7
+Fig.6	S06	M32	Fig. 6I n=7	S06-F n=7
+Fig.6	S06	A69	Fig. 6J n=7	S06-G n=7
+Fig.6	S06	G69	Fig. 6H n=7	S06-E n=7
+Fig.6	S06	M69	Fig. 6I n=7	S06-F n=7
+Fig.7	S07	A1	Fig. 7D n=3	S07-A n=3
+Fig.7	S07	A8	Fig. 7F n=5	S07-B n=5
+Fig.7	S07	A15	Fig. 7G n=5	S07-C n=5
+Fig. S1	S08	A1	Fig. S1B n=3	S08-A n=3
+Fig. S1	S08	A9	Fig. S1E n=3	S08-B n=3
+Fig. S1	S08	A12	Fig. S1G n=5	S08-C n=5
+Fig. S1	S08	A19	Fig. S1J n=5	S08-D n=5
+Fig. S2	S09	A1	Fig. S2A 16h n=3 Log10	S09-A 16h n=3 Log10
+Fig. S2	S09	X1	Fig. S2A 16h n=3 Log10	S09-A 16h n=3 Log10
+Fig. S2	S09	A10	Fig. S2C n=8	S09-B n=8
+Fig. S2	S09	E10	Fig. S2D n=8	S09-C n=8
+Fig. S2	S09	A37	Fig. S2E n=8	S09-D n=8
+Fig. S2	S09	F37	Fig. S2F n=8	S09-E n=8
+Fig. S2	S09	A64	Fig. S2G n=8	S09-F n=8
+Fig. S2	S09	F64	Fig. S2H n=8	S09-G n=8
+Fig. S3	S10	A1	Fig. S3C n=5 Ifnb1	S10-A n=5 Ifnb1
+Fig. S4	S11	A1	Fig. S4B n=5	S11-A n=5
+Fig. S4	S11	A8	Fig. S4C n=5	S11-B n=5
+Fig. S4	S11	A15	Fig. S4E n=5	S11-C n=5
+Fig. S4	S11	A22	Fig. S4F n=5	S11-D n=5
+Fig. S4	S11	A29	Fig. S4G n=5	S11-E n=5
+Fig. S7	S12	A1	Fig. S7C n=3	S12-A n=3
+Fig. S8	S13	A1	Fig. S8A n=5	S13-A n=5
+Fig. S8	S13	E1	Fig. S8B n=5	S13-B n=5
+Fig. S8	S13	I1	Fig. S8C n=5	S13-C n=5
+Fig. S8	S13	M1	Fig. S8D n=5	S13-D n=5
+Fig. S8	S13	R1	Fig. S8E n=5	S13-E n=5
+Fig. S8	S13	A31	Fig. S8F n=7	S13-F n=7
+Fig. S8	S13	A42	Fig. S8G n=10	S13-G n=10
+Fig. S8	S13	A51	Fig. S8H n=5	S13-H n=5
+Fig. S8	S13	E51	Fig. S8I n=5	S13-I n=5
+Fig. S8	S13	K51	Fig. S8J n=5	S13-J n=5
+Fig. S12	S14	A1	Fig. S12E H1N1 n=5	S14-A H1N1 n=5
+Fig. S12	S14	E1	Fig. S12E H3N2 n=5	S14-A H3N2 n=5
+Fig. S13	S15	A1	Fig. S13A  n=7	S15-A  n=7
+Fig. S13	S15	A11	Fig. S13B  n=7	S15-B  n=7
+Fig. S13	S15	A21	Fig. S13C  n=7	S15-C  n=7
+Fig. S13	S15	A31	Fig. S13D  n=7	S15-D  n=7
+Fig. S13	S15	A41	Fig. S13E  n=7	S15-E  n=7
+Fig. S13	S15	A51	Fig. S13F  n=7	S15-F  n=7
+Fig. S13	S15	A61	Fig. S13G  n=7	S15-G  n=7
+Fig. S13	S15	A71	Fig. S13H  n=7	S15-H  n=7
+Fig. S13	S15	G71	Fig. S13I  n=7	S15-I  n=7
+Fig. S13	S15	G81	Fig. S13J n=7	S15-J n=7
+Fig. S13	S15	G91	Fig. S13K n=7	S15-K n=7
+Fig. S13	S15	A101	Fig. S13L n=7	S15-L n=7
+Fig. S13	S15	G101	Fig. S13M n=7	S15-M n=7
+Fig. S13	S15	A132	Fig. S13N n=7	S15-N n=7
+Fig. S13	S15	G132	Fig. S13O n=7	S15-O n=7

@@ -37,13 +37,13 @@ link any immune measurement to any animal's outcome.
 
 ## The protection case
 
-Nine challenge blocks sit on the Fig.6 sheet. The set has to be derived before it
+Nine challenge blocks sit on the S06 sheet. The set has to be derived before it
 can be counted.
 
-**Fig. 6G is Fig. 6E.** All 28 time-and-event pairs are identical across all four
+**S06-D is S06-C.** All 28 time-and-event pairs are identical across all four
 arms. One experiment, entered twice. Counting both inflates the evidence.
 
-**The two blocks at rows 69 to 70 are labelled 6H and 6I but hold the imprinting
+**The two blocks at rows 69 to 70 are labelled S06-E and S06-F but hold the imprinting
 experiment**, in 14-month-old animals given a bivalent vaccine containing both
 CA09 H1N1 and Aichi H3N2 and then challenged with PR8 H1N1 or Perth H3N2. Those
 challenges are within the subtypes the vaccine contains, so they belong to the
@@ -53,39 +53,39 @@ That leaves six.
 
 | Block | Vaccine | Challenge | Day | AMnESTI | nanoSTING | sham | untreated |
 |---|---|---|---|---|---|---|---|
-| 6A | Aichi H3N2 | PR8 H1N1 | 14 | 85.7% | 14.3% | 0% | - |
-| 6C | Aichi H3N2 | PR8 H1N1 | 3 | 71.4% | 0% | 0% | - |
-| 6E | bivalent | rgH5N1 | 14 | 100% | 28.6% | 0% | - |
-| 6H | Aichi H3N2 | PR8 H1N1 | 60 | 71.4% | 0% | 0% | 85.7% |
-| 6I | bivalent | rgH5N1 | 60 | 71.4% | 14.3% | 0% | 100% |
-| 6J | CA09 H1N1 | Perth H3N2 | 60 | 57.1% | 0% | 0% | 57.1% |
+| S06-A | Aichi H3N2 | PR8 H1N1 | 14 | 85.7% | 14.3% | 0% | - |
+| S06-B | Aichi H3N2 | PR8 H1N1 | 3 | 71.4% | 0% | 0% | - |
+| S06-C | bivalent | rgHS05-I1 | 14 | 100% | 28.6% | 0% | - |
+| S06-E | Aichi H3N2 | PR8 H1N1 | 60 | 71.4% | 0% | 0% | 85.7% |
+| S06-F | bivalent | rgHS05-I1 | 60 | 71.4% | 14.3% | 0% | 100% |
+| S06-G | CA09 H1N1 | Perth H3N2 | 60 | 57.1% | 0% | 0% | 57.1% |
 
 n = 7 per arm throughout. Reduction: proportion of rows censored at day 14.
 
-| Comparison | 6A | 6C | 6E | 6H | 6I | 6J |
+| Comparison | S06-A | S06-B | S06-C | S06-E | S06-F | S06-G |
 |---|---|---|---|---|---|---|
 | AMnESTI vs sham | 0.0002 | 0.0002 | 0.0002 | 0.0002 | 0.0002 | 0.0002 |
 | AMnESTI vs nanoSTING | 0.0083 | 0.0009 | 0.0068 | 0.0016 | 0.0094 | 0.0151 |
 | AMnESTI vs young nanoSTING | 0.317 | 0.141 | identical | 0.141 | 0.141 | 0.060 |
 | nanoSTING vs sham | 0.0267 | 0.088 | 0.0024 | 0.111 | 0.066 | 0.0063 |
 
-**Fig. 6J is not the weak end of a range.** The three day-60 blocks each carry an
-arm of 20-month-old animals that received no vaccine and no virus. In 6J that arm
+**S06-G is not the weak end of a range.** The three day-60 blocks each carry an
+arm of 20-month-old animals that received no vaccine and no virus. In S06-G that arm
 lost 3 of 7 by day 10, giving 57.1%, which is the same figure as the AMnESTI arm
 (p = 0.855). Every animal in that experiment that did not die of age survived the
-infection. The same arm ran 6 of 7 in 6H and 7 of 7 in 6I, so 6J drew a frailer
+infection. The same arm ran 6 of 7 in S06-E and 7 of 7 in S06-F, so S06-G drew a frailer
 cohort. Reporting 57.1% as a protection rate without that arm misstates the result.
 
 **Defence of the position.** With n = 7 per arm, a non-significant comparison is not
-equivalence. Only 6J is a tight match to its uninfected arm. In 6H the AMnESTI arm
-is one animal below it and in 6I two below, and the test cannot resolve gaps that
+equivalence. Only S06-G is a tight match to its uninfected arm. In S06-E the AMnESTI arm
+is one animal below it and in S06-F two below, and the test cannot resolve gaps that
 small in either direction. The honest claim is "not distinguishable at this sample
 size", and the next study is powered to do better.
 
 Protection also appears at very short intervals. Challenge 3 days after a single
-dose gives 71.4% against 0% for sham (6C). In a separate experiment where challenge
-came 2 days after a single dose of rgH5N1 vaccine and animals were followed to day
-21, AMnESTI was 10 of 10 censored, nanoSTING 3 of 10 and sham 1 of 10 (Fig. 3J,
+dose gives 71.4% against 0% for sham (S06-B). In a separate experiment where challenge
+came 2 days after a single dose of rgHS05-I1 vaccine and animals were followed to day
+21, AMnESTI was 10 of 10 censored, nanoSTING 3 of 10 and sham 1 of 10 (S03-J,
 n = 10 per arm against a stated n of 9; one AMnESTI row carries an event code with
 no day value and is counted as censored). At those intervals a vaccine-specific
 antibody response has not yet formed **[external: primary humoral responses require
@@ -100,33 +100,33 @@ and the downstream readout fell.
 
 **Delivery into alveolar epithelium.** Uptake of labelled liposome by alveolar
 macrophages was 43.10% in wild-type animals and 12.65% in Sftpa1-/-Sftpd-/-
-animals (Fig. 1E, group means, n = 4). Blocking gap junctions with carbenoxolone
-reduced recruited lung monocytes from 7.28% to 3.08% (Fig. S4E, group means,
+animals (S01-C, group means, n = 4). Blocking gap junctions with carbenoxolone
+reduced recruited lung monocytes from 7.28% to 3.08% (S11-C, group means,
 n = 5).
 
 **Type I interferon.** In the adoptive transfer, monocyte-derived dendritic cells
 were 19.70% from wild-type marrow and 2.09% from Ifnar-knockout marrow, and
-recombinant GM-CSF brought the knockout arm back to 12.40% (Fig. 2K, group means,
+recombinant GM-CSF brought the knockout arm back to 12.40% (S02-H, group means,
 n = 5).
 
 **GM-CSF.** Lung Gm-csf transcript at 36 hours was 8.74 for AMnESTI, 1.59 for
-nanoSTING and 1.21 for sham, each relative to untreated animals (Fig. 2I, group
+nanoSTING and 1.21 for sham, each relative to untreated animals (S02-F, group
 means, n = 5).
 
 **CCR2-dependent monocyte recruitment.** INCB3344 reduced lung GZMB+ CD8 T cells
-from 6.77% to 1.39% (Fig. 2L) and Ly6C+ macrophages from 15.35% to 2.52%, with
-monocytes from 9.86% to 3.26% (Fig. 7F). Group means, n = 5.
+from 6.77% to 1.39% (S02-I) and LyS06-B+ macrophages from 15.35% to 2.52%, with
+monocytes from 9.86% to 3.26% (S07-B). Group means, n = 5.
 
 **Priming in the draining node.** Pertussis toxin left proliferating transferred
 OT-I cells in lung at 0.93 of control (59.00% to 55.07%) while reducing them in the
-mediastinal node to 0.22 of control (30.90% to 6.83%) (Fig. 5D, group means,
+mediastinal node to 0.22 of control (30.90% to 6.83%) (S05-C, group means,
 n = 3).
 
 Every one of those steps sits upstream of the adaptive response. The mechanism is
 improved priming, not an effector function of the adjuvant itself.
 
 **Where the chain stops.** No blockade experiment carries a challenge arm. INCB3344
-cuts the lung cytotoxic CD8 population 4.9-fold and Ly6C+ macrophages 6.1-fold, and
+cuts the lung cytotoxic CD8 population 4.9-fold and LyS06-B+ macrophages 6.1-fold, and
 no survival readout follows in either case, so the step from improved priming to
 improved survival is inferred rather than shown.
 That is the first thing the next study has to close.
@@ -149,13 +149,13 @@ also carries young animals given AMnESTI, which closes it.
 
 | Readout | aged+nanoSTING | aged+AMnESTI | young+nanoSTING | young+AMnESTI |
 |---|---|---|---|---|
-| Ifnb1, 16 h (1A) | 16.64 | 37.11 | 37.60 | 50.70 |
-| Ifnb1, 72 h (1A) | 3.43 | 4.43 | 1.59 | 3.13 |
-| CD11b+ DC, d4 (1J) | 8.28 | 18.88 | 21.40 | 22.60 |
-| cDC1, 72 h (1K) | 22.80 | 37.52 | 43.42 | 44.26 |
-| cDC2, 72 h (1L) | 75.30 | 59.46 | 54.08 | 51.36 |
-| Antigen-bearing DC in node (2D) | 1.77 | 7.09 | 9.39 | 11.12 |
-| OT-I proliferation (2F) | 0.77 | 18.65 | 26.24 | 31.40 |
+| Ifnb1, 16 h (S01-A) | 16.64 | 37.11 | 37.60 | 50.70 |
+| Ifnb1, 72 h (S01-A) | 3.43 | 4.43 | 1.59 | 3.13 |
+| CD11b+ DC, d4 (S01-E) | 8.28 | 18.88 | 21.40 | 22.60 |
+| cDC1, 72 h (S01-F) | 22.80 | 37.52 | 43.42 | 44.26 |
+| cDC2, 72 h (S01-G) | 75.30 | 59.46 | 54.08 | 51.36 |
+| Antigen-bearing DC in node (S02-C) | 1.77 | 7.09 | 9.39 | 11.12 |
+| OT-I proliferation (S02-E) | 0.77 | 18.65 | 26.24 | 31.40 |
 
 Group means, n = 5 throughout.
 
@@ -273,10 +273,10 @@ asset.
 
 ## Considered and ruled out
 
-**Fig. 6G**, as a seventh configuration. Identical to 6E in all 28 time-and-event
+**S06-D**, as a seventh configuration. Identical to S06-C in all 28 time-and-event
 pairs.
 
-**The two blocks at rows 69 to 70 of the Fig.6 sheet**, as cross-subtype evidence.
+**The two blocks at rows 69 to 70 of the S06 sheet**, as cross-subtype evidence.
 Both challenge viruses fall inside the subtypes the bivalent vaccine contains.
 Retained for the imprinting question, where both AMnESTI arms ran 85.7% whether or
 not the animals had prior PR8 exposure.
@@ -284,7 +284,7 @@ not the animals had prior PR8 exposure.
 **Antibody titre, as the readout to power the next study on.** Largest effects in
 the package, but every assay used the vaccine's own antigens.
 
-**The Fig. 3B and 3F subclass ratio panels, as printed.** Recomputed per animal
+**The S03-B and S03-F subclass ratio panels, as printed.** Recomputed per animal
 from the subclass data, the H1N1 ratio is 0.578 for nanoSTING, 2.144 for AMnESTI
 and 2.972 for young, against 2.972, 0.578 and 2.144 as printed. The labels are
 shifted by one position. The reading is forced rather than preferred: under the
@@ -297,10 +297,10 @@ panels.
 titre of 6.0, and the lowest dilution tested was 1 in 10, so a central estimate of
 6.0 is below the floor of the assay. Reduced as a geometric mean throughout.
 
-**Fig. 5A, as part of the day-3 mechanism case.** The source gives two different
+**S05-A, as part of the day-3 mechanism case.** The source gives two different
 immunisations for the same panel, ovalbumin in one statement and the bivalent
 influenza vaccine in the other, and nothing resolves it. The day-3 case rests on
-Fig. 5E and 5F, which are n = 5 and unambiguous. Fig. 5N inherits the same
+S05-D and S05-E, which are n = 5 and unambiguous. S05-I inherits the same
 ambiguity.
 
 **The single-cell layer.** Stated as performed on sorted CD45+ cells at days 5 and

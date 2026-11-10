@@ -9,7 +9,7 @@ RLS short ID `psql25c1` · task `task_4ce55343502b4d17b2182158ad6e4533` · campa
 
 | Upload as | File |
 |---|---|
-| Data room | `data-room/adz5242_data_file_s1.xlsx` |
+| Data room | `data-room/amnesti_preclinical_dataset.xlsx` |
 | Data room | `data-room/trial_summary.pdf` |
 | Prompt | `task/prompt.txt` |
 | Grader guidelines | `task/grader-guidelines.txt` |

@@ -86,7 +86,7 @@ innate-versus-adaptive call; "is there a biomarker worth carrying forward, could
 go into patients" forces the accessibility and antigen-specificity work; "endpoints,
 populations, comparators, readouts and timing" forces the comparator and the
 sampling timepoint. The ruled-out question has the weakest forced core, resting on
-the duplicated block and the Fig. 5A ambiguity; it stays because the scene wants it
+the duplicated block and the S05-A ambiguity; it stays because the scene wants it
 but it is not counted as a product.
 
 The indication line reads IAV vaccine development rather than heterosubtypic
@@ -100,7 +100,7 @@ protection pillar is supposed to reach.
 ### Manifest
 | File | Contents | States the world how |
 |---|---|---|
-| adz5242_data_file_s1.xlsx | 15 sheets, 101 per-animal data blocks | Shipped unmodified. 90 of 101 blocks do not name their measurand |
+| amnesti_preclinical_dataset.xlsx | 15 sheets, 101 per-animal data blocks | Shipped unmodified. 90 of 101 blocks do not name their measurand |
 | trial_summary (to author, ships as PDF) | Per-block annotation, methodology, formulation | Dry annotation only. See absence anchors. Markdown is no longer permitted in the room; the workbook stays .xlsx |
 
 No publication mounted. The MDAR reproducibility checklist shipped in the same
@@ -115,67 +115,67 @@ age-versus-formulation comparison.
 ### Anchor table
 | Anchor | Value | Block | Steps | Legible? |
 |---|---|---|---|---|
-| Heterosubtypic survival | cand 57.1-100%, comp 0-28.6%, sham 0% across six configurations after collapsing 6G into 6E; cand separates from sham at p=0.0002 and from the comparator at p=0.0009 to 0.0151 in all six | 6A, 6C, 6E, 6H, 6I, 6J | 2 | yes |
-| Natural-death ceiling | unvaccinated unchallenged arm 6H 85.7%, 6I 100%, 6J 57.1%; in 6J the candidate arm and that arm are both 4 of 7, p=0.855 | Fig.6 rows 34-68, fifth arm | 2 | yes |
-| Survival reaches young | cand vs young comparator not significant in any configuration (p=0.060 to 0.317, identical in 6E) | Fig.6 | 2 | yes |
-| Within-age adjuvant effect | aged 1.65x to 24.35x, young 1.02x to 1.35x, across five blocks carrying the full 2x2 | 1A, 1J, 1K, 1L, 2D, 2F | 2 | yes |
-| Age/formulation 2x2 | Ifnb1 16h: diagonal 0.99, formulation held 0.73. Ifnb1 72h: diagonal 2.78, formulation held 1.42, and young+cand 3.13 against young+comp 1.59 | 1A rows 5, 8, 9, 10 | 2 | yes |
-| Early protection | 6C 71.4% challenged at d3; 3J 100% challenged at d2, censored at d21 | 6C, 3J | 1 | yes |
-| Day-3 lung CD8 | NP+ 6.68/2.09; Ki-67 9.38/3.48; GZMB 5.69/2.99 | 5A, 5E, 5F | 1 | 5A merged hdr |
-| Blockade chain | CBX 7.28->3.08; IFNAR 19.70->2.09 with GM-CSF rescue 12.40; INCB 6.77->1.39 and 15.35->2.52; PTX lung 0.93x MLN 0.22x | S4E, 2K, 2L, 7F, 5D | 1 each, 4 sheets | yes |
-| Delivery depends on surfactant protein | WT 43.10 vs Sftpa1-/-Sftpd-/- 12.66 | 1E | 1 | yes |
-| GM-CSF 36h | 8.74 vs 1.59 vs 1.21 | 2I | 1 | merged hdr, no young arm |
-| 72h residual | Ccl2 27.41, Ccl3 9.23, Tnf 8.44, Il6 7.19, Il10 4.16, Ifnb1 4.01, Ccl5 2.01; young comparator 0.11 to 101.59 on the same analytes | S2A block 2 | 3 | yes, header reads Log10 |
-| Tolerability controls | S1J cand 99.78 vs comp+R848 90.65 (min 84.7, 4 of 5 animals); S3E cand 1.13-1.59 vs CT 2.68-5.50 | S1J, S3E | 1 | merged hdr |
-| Dose plateau | 45.83 -> 50.23 (+9.6%) | S1B | 1 | merged hdr |
-| Corrected subclass | H1N1 comp 0.578, cand 2.144, young 2.972 against printed 2.972 / 0.578 / 2.144. H3N2 carries the same cyclic shift: 0.512 / 2.727 / 2.891 against printed 2.891 / 0.512 / 2.727 | 3B/3F + S8A-D | 3 | yes |
-| Foreclosure for direction | subclass-sum/total-IgG 0.56/0.35/0.55 (H1N1) and 0.57/0.32/0.34 (H3N2) against 16.1x and 11.3x under the alternative | 3A/3E + S8A-D | 2 | yes |
-| HAI | cand geo 367.6, arith 416.0; sham [10,10,10,0,0] arith 6.0 against a 1:10 floor | 3C | 2 | yes |
-| 6E identical to 6G | 28 of 28 (time,event) pairs | Fig.6 | 2 | yes |
+| Heterosubtypic survival | cand 57.1-100%, comp 0-28.6%, sham 0% across six configurations after collapsing S06-D into S06-C; cand separates from sham at p=0.0002 and from the comparator at p=0.0009 to 0.0151 in all six | S06-A, S06-B, S06-C, S06-E, S06-F, S06-G | 2 | yes |
+| Natural-death ceiling | unvaccinated unchallenged arm S06-E 85.7%, S06-F 100%, S06-G 57.1%; in S06-G the candidate arm and that arm are both 4 of 7, p=0.855 | S06 rows 34-68, fifth arm | 2 | yes |
+| Survival reaches young | cand vs young comparator not significant in any configuration (p=0.060 to 0.317, identical in S06-C) | S06 | 2 | yes |
+| Within-age adjuvant effect | aged 1.65x to 24.35x, young 1.02x to 1.35x, across five blocks carrying the full 2x2 | S01-A, S01-E, S01-F, S01-G, S02-C, S02-E | 2 | yes |
+| Age/formulation 2x2 | Ifnb1 16h: diagonal 0.99, formulation held 0.73. Ifnb1 72h: diagonal 2.78, formulation held 1.42, and young+cand 3.13 against young+comp 1.59 | S01-A rows 5, 8, 9, 10 | 2 | yes |
+| Early protection | S06-B 71.4% challenged at d3; S03-J 100% challenged at d2, censored at d21 | S06-B, S03-J | 1 | yes |
+| Day-3 lung CD8 | NP+ 6.68/2.09; Ki-67 9.38/3.48; GZMB 5.69/2.99 | S05-A, S05-D, S05-E | 1 | S05-A merged hdr |
+| Blockade chain | CBX 7.28->3.08; IFNAR 19.70->2.09 with GM-CSF rescue 12.40; INCB 6.77->1.39 and 15.35->2.52; PTX lung 0.93x MLN 0.22x | S11-C, S02-H, S02-I, S07-B, S05-C | 1 each, 4 sheets | yes |
+| Delivery depends on surfactant protein | WT 43.10 vs Sftpa1-/-Sftpd-/- 12.66 | S01-C | 1 | yes |
+| GM-CSF 36h | 8.74 vs 1.59 vs 1.21 | S02-F | 1 | merged hdr, no young arm |
+| 72h residual | Ccl2 27.41, Ccl3 9.23, Tnf 8.44, Il6 7.19, Il10 4.16, Ifnb1 4.01, Ccl5 2.01; young comparator 0.11 to 101.59 on the same analytes | S09-A block 2 | 3 | yes, header reads Log10 |
+| Tolerability controls | S08-D cand 99.78 vs comp+R848 90.65 (min 84.7, 4 of 5 animals); SS03-E cand 1.13-1.59 vs CT 2.68-5.50 | S08-D, SS03-E | 1 | merged hdr |
+| Dose plateau | 45.83 -> 50.23 (+9.6%) | S08-A | 1 | merged hdr |
+| Corrected subclass | H1N1 comp 0.578, cand 2.144, young 2.972 against printed 2.972 / 0.578 / 2.144. H3N2 carries the same cyclic shift: 0.512 / 2.727 / 2.891 against printed 2.891 / 0.512 / 2.727 | S03-B/S03-F + S13-A-D | 3 | yes |
+| Foreclosure for direction | subclass-sum/total-IgG 0.56/0.35/0.55 (H1N1) and 0.57/0.32/0.34 (H3N2) against 16.1x and 11.3x under the alternative | S03-A/S03-E + S13-A-D | 2 | yes |
+| HAI | cand geo 367.6, arith 416.0; sham [10,10,10,0,0] arith 6.0 against a 1:10 floor | S03-C | 2 | yes |
+| S06-C identical to S06-D | 28 of 28 (time,event) pairs | S06 | 2 | yes |
 | Age-matched vs young, 18 endpoints | 18 of 18 directionally interpretable endpoints point the same way: 16 higher-is-better below 1.0 (0.357 to 0.987) and 2 higher-is-worse above it (Ifnb1 72h 2.78, Tfr 1.52). Same two endpoints read 18.1x and 8.0x against the age-matched arm | listed in derivation notes | 3 | yes |
 
-### Fig. 6, full enumeration
+### S06, full enumeration
 
 | Block | Vaccine | Challenge | Day | Relation | cand | comp | sham | uninfected |
 |---|---|---|---|---|---|---|---|---|
-| 6A | Aichi H3N2, 1 ug HA | PR8 H1N1, 5x mLD50 | 14 | heterosubtypic | 85.7% | 14.3% | 0% | — |
-| 6C | Aichi H3N2, 1 ug HA | PR8 H1N1, 5x mLD50 | 3 | heterosubtypic | 71.4% | 0% | 0% | — |
-| 6E | bivalent | rgH5N1, 5x mLD50 | 14 | heterosubtypic | 100% | 28.6% | 0% | — |
-| 6G | bivalent | rgH5N1, 5x mLD50 | 3 | heterosubtypic | 100% | 28.6% | 0% | — |
-| 6H | Aichi H3N2, 1 ug HA | PR8 H1N1, 5x mLD50 | 60 | heterosubtypic | 71.4% | 0% | 0% | 85.7% |
-| 6I | bivalent | rgH5N1, 5x mLD50 | 60 | heterosubtypic | 71.4% | 14.3% | 0% | 100% |
-| 6J | CA09 H1N1, 0.5 ug HA | Perth H3N2, 5x mLD50 | 60 | heterosubtypic | 57.1% | 0% | 0% | 57.1% |
-| rows 69-70 cols G-L, labelled 6H | bivalent, 14-month mice, prior PR8 or saline | PR8 H1N1, 5x LD50 | not stated | within H1N1 | 85.7% / 85.7% | 0% / 57.1% | n/a | — |
-| rows 69-70 cols M-R, labelled 6I | bivalent, 14-month mice, prior PR8 or saline | Perth H3N2, 5x LD50 | 14 | within H3N2 | 85.7% / 85.7% | 0% / 0% | n/a | — |
+| S06-A | Aichi H3N2, 1 ug HA | PR8 H1N1, 5x mLD50 | 14 | heterosubtypic | 85.7% | 14.3% | 0% | — |
+| S06-B | Aichi H3N2, 1 ug HA | PR8 H1N1, 5x mLD50 | 3 | heterosubtypic | 71.4% | 0% | 0% | — |
+| S06-C | bivalent | rgHS05-I1, 5x mLD50 | 14 | heterosubtypic | 100% | 28.6% | 0% | — |
+| S06-D | bivalent | rgHS05-I1, 5x mLD50 | 3 | heterosubtypic | 100% | 28.6% | 0% | — |
+| S06-E | Aichi H3N2, 1 ug HA | PR8 H1N1, 5x mLD50 | 60 | heterosubtypic | 71.4% | 0% | 0% | 85.7% |
+| S06-F | bivalent | rgHS05-I1, 5x mLD50 | 60 | heterosubtypic | 71.4% | 14.3% | 0% | 100% |
+| S06-G | CA09 H1N1, 0.5 ug HA | Perth H3N2, 5x mLD50 | 60 | heterosubtypic | 57.1% | 0% | 0% | 57.1% |
+| rows 69-70 cols G-L, labelled S06-E | bivalent, 14-month mice, prior PR8 or saline | PR8 H1N1, 5x LD50 | not stated | within H1N1 | 85.7% / 85.7% | 0% / 57.1% | n/a | — |
+| rows 69-70 cols M-R, labelled S06-F | bivalent, 14-month mice, prior PR8 or saline | Perth H3N2, 5x LD50 | 14 | within H3N2 | 85.7% / 85.7% | 0% / 0% | n/a | — |
 
 Log-rank, Mantel-Cox, pairwise, n=7 per arm, no multiplicity correction:
 
-| Comparison | 6A | 6C | 6E | 6H | 6I | 6J |
+| Comparison | S06-A | S06-B | S06-C | S06-E | S06-F | S06-G |
 |---|---|---|---|---|---|---|
 | cand vs sham | 0.0002 | 0.0002 | 0.0002 | 0.0002 | 0.0002 | 0.0002 |
 | cand vs comparator | 0.0083 | 0.0009 | 0.0068 | 0.0016 | 0.0094 | 0.0151 |
 | cand vs young comparator | 0.317 | 0.141 | identical | 0.141 | 0.141 | 0.060 |
 | cand vs uninfected | — | — | — | 0.594 | 0.141 | 0.855 |
 
-The comparator adjuvant fails to separate from sham in 6C (p=0.088), 6H (p=0.111)
-and 6I (p=0.066).
+The comparator adjuvant fails to separate from sham in S06-B (p=0.088), S06-E (p=0.111)
+and S06-F (p=0.066).
 
 One collapse and one retention, both derivable.
 
-6G collapses into 6E: all 28 (time, event) pairs are identical across all four
+S06-D collapses into S06-C: all 28 (time, event) pairs are identical across all four
 arms, so it is one experiment entered twice.
 
-6J is retained and read against its own ceiling. Its unvaccinated, unchallenged arm
+S06-G is retained and read against its own ceiling. Its unvaccinated, unchallenged arm
 lost 3 of 7 animals by day 10 (days 3, 7 and 10), giving 57.1%, the same figure as
 its candidate arm, p=0.855. The 57.1% is therefore not a weak protection result:
 every animal in that experiment that did not die of age survived the infection. The
-same arm ran 6 of 7 in 6H and 7 of 7 in 6I, so 6J drew a frailer cohort. Dropping
+same arm ran 6 of 7 in S06-E and 7 of 7 in S06-F, so S06-G drew a frailer cohort. Dropping
 the block is also defensible; reporting 57.1% as the weak end of a range without
 reference to that arm is not.
 
-With n=7 per arm, failure to detect a difference is not equivalence. Only 6J is a
-tight match. In 6H the candidate arm is one animal below the uninfected arm and in
-6I two below, and n=7 cannot resolve gaps that small in either direction. Word it
+With n=7 per arm, failure to detect a difference is not equivalence. Only S06-G is a
+tight match. In S06-E the candidate arm is one animal below the uninfected arm and in
+S06-F two below, and n=7 cannot resolve gaps that small in either direction. Word it
 as not distinguishable at this sample size.
 
 The two blocks at rows 69-70 are within-subtype heterologous, not heterosubtypic:
@@ -190,13 +190,13 @@ never uses. Where it exists the confound closes.
 
 | Readout | aged+comp | aged+cand | young+comp | young+cand | diagonal | formulation held |
 |---|---|---|---|---|---|---|
-| Ifnb1 16h (1A) | 16.64 | 37.11 | 37.60 | 50.70 | 0.987 | 0.732 |
-| Ifnb1 72h (1A) | 3.43 | 4.43 | 1.59 | 3.13 | 2.785 | 1.416 |
-| CD11b+ DC d4 (1J) | 8.28 | 18.88 | 21.40 | 22.60 | 0.882 | 0.835 |
-| cDC1 72h (1K) | 22.80 | 37.52 | 43.42 | 44.26 | 0.864 | 0.848 |
-| cDC2 72h (1L) | 75.30 | 59.46 | 54.08 | 51.36 | 1.099 | 1.158 |
-| Antigen-bearing DC in MLN (2D) | 1.77 | 7.09 | 9.39 | 11.12 | 0.755 | 0.638 |
-| OT-I proliferation (2F) | 0.77 | 18.65 | 26.24 | 31.40 | 0.711 | 0.594 |
+| Ifnb1 16h (S01-A) | 16.64 | 37.11 | 37.60 | 50.70 | 0.987 | 0.732 |
+| Ifnb1 72h (S01-A) | 3.43 | 4.43 | 1.59 | 3.13 | 2.785 | 1.416 |
+| CD11b+ DC d4 (S01-E) | 8.28 | 18.88 | 21.40 | 22.60 | 0.882 | 0.835 |
+| cDC1 72h (S01-F) | 22.80 | 37.52 | 43.42 | 44.26 | 0.864 | 0.848 |
+| cDC2 72h (S01-G) | 75.30 | 59.46 | 54.08 | 51.36 | 1.099 | 1.158 |
+| Antigen-bearing DC in MLN (S02-C) | 1.77 | 7.09 | 9.39 | 11.12 | 0.755 | 0.638 |
+| OT-I proliferation (S02-E) | 0.77 | 18.65 | 26.24 | 31.40 | 0.711 | 0.594 |
 
 Within-age adjuvant effect, candidate over comparator inside each cohort:
 
@@ -267,30 +267,29 @@ stated n, group identities and replicate count. Per block, the route of
 administration and the dose for every agent given. Per challenge block, vaccine
 composition including HA content, challenge virus, challenge dose as stated,
 challenge day, mouse strain and age, stated per block and not globally. Per
-immunoassay, the antigen used. For the fifth arm of 6H, 6I and 6J, that those
+immunoassay, the antigen used. For the fifth arm of S06-E, S06-F and S06-G, that those
 animals received no vaccine and no challenge virus. Every intervention agent, named as the
 source names it, with route and dose. Target is given only where it is part of the
 compound's standard identifier, as in "CCR2 antagonist INCB3344". No mechanistic
 gloss for established reagents: a working record names them and does not explain
 them. Adjuvant identities and the single composition difference. Stated
-statistical methods and summary measures, including that the fig. S2A panels are
+statistical methods and summary measures, including that the fig. S09-A panels are
 normalised against untreated mice. That scRNA-seq was performed, on which cells,
 when. Plus mLD50 determination and formulation specifications as non-load-bearing
 noise.
 
 Source inconsistencies reproduced verbatim and unremarked:
-- both immunogen statements for 5A, the second inside an unclosed parenthesis; 5E,
-  5F, 5K, 5L and 5M read "vaccinated as in (B)" and (B) states no vaccination of
-  its own; 5N reads "vaccinated as in (A)"
+- both immunogen statements for S05-A, the second inside an unclosed parenthesis; S05-D,
+  S05-E, S05-F, S05-G and S05-H read "vaccinated as in (B)" and (B) states no vaccination of
+  its own; S05-I reads "vaccinated as in (A)"
 - the NP366-374 tetramer against the stated BALB/c strain
-- the stated n values that disagree with their own observation counts: 3J header
-  n=9 against arms of 10, 10 and 9 with a stated n of 10 in the source; 5A/5B
+- the stated n values that disagree with their own observation counts: S03-J header
+  n=9 against arms of 10, 10 and 9 with a stated n of 10 in the source; S05-A/S05-B
   header n=3 against 2 observations
-- both fig. S2A headers reading 16h
-- the sheet labelled Fig. S13 carrying fig. S14 panels
-- Fig.6 rows 69-70 labelled 6H/6I carrying 6K/6L content
-- the Fig. S3 block labelled S3C carrying S3E content
-- Fig. 3J carrying three arms where the source legend names two, with a censoring
+- both fig. S09-A headers reading 16h
+- S06 rows 69-70 labelled S06-E/S06-F carrying 6K/6L content
+- the S10 block labelled S10-A carrying SS03-E content
+- S03-J carrying three arms where the source legend names two, with a censoring
   day of 21 against 22 days of stated monitoring
 - the rows-69-70 blocks stating the challenge dose as LD50 where every other
   challenge block states mLD50, and one of the two giving no challenge day
@@ -299,10 +298,10 @@ Source inconsistencies reproduced verbatim and unremarked:
 
 Do not carry into the annotation: the publication's own text states that the
 day-60 experiment used the comparator-formulated vaccine and was fully protected,
-which contradicts its own Fig. 6H comparator arm at 0 of 7. That is a publication
+which contradicts its own S06-E comparator arm at 0 of 7. That is a publication
 error, not a room fact.
 
-Per-block strain matters. The rows-131-161 blocks of the sheet labelled Fig. S13
+Per-block strain matters. The rows-131-161 blocks of the sheet labelled S15
 are aged C57BL/6 and Swiss Webster, not BALB/c. The NP366-374 restriction
 inconsistency is determinate only where the strain is stated block by block.
 
@@ -340,7 +339,7 @@ step is a conclusion in its own right, which is what the Stage 2 independent-cau
 test now asks to be counted.
 
 1. **Route and delivery.** Single intranasal dose with the vaccine. Uptake depends
-   on surfactant protein A/D (Fig. 1E, 43.10 in WT against 12.66 in the double
+   on surfactant protein A/D (S01-C, 43.10 in WT against 12.66 in the double
    knockout) and on gap-junction transfer into alveolar epithelial cells (CBX 7.28
    to 3.08). The asset is airway-specific by construction, which is why the safety
    package is nose, olfactory bulb and CNS against cholera toxin rather than
@@ -405,28 +404,28 @@ test now asks to be counted.
 | 1 | indicator 1 is death | joint distribution, 1 at d2-12, 0 only at the block's last day |
 | 2 | which blocks are heterosubtypic | annotation, classified by the solver |
 | 3 | cand and comp differ only by the Mn complex | annotation |
-| 4 | the heterosubtypic set is derived | 6G collapsed into 6E on 28 of 28; rows 69-70 excluded as within-subtype |
-| 5 | 6J is read against its own ceiling | Fig.6 rows 34-68, fifth arm, 3 events against 1 and 0 in the concurrent blocks |
-| 6 | the fifth arm of 6H/6I/6J received no vaccine and no challenge | annotation |
-| 7 | protection exists at d2-d3 | 6C, 3J |
+| 4 | the heterosubtypic set is derived | S06-D collapsed into S06-C on 28 of 28; rows 69-70 excluded as within-subtype |
+| 5 | S06-G is read against its own ceiling | S06 rows 34-68, fifth arm, 3 events against 1 and 0 in the concurrent blocks |
+| 6 | the fifth arm of S06-E/S06-F/S06-G received no vaccine and no challenge | annotation |
+| 7 | protection exists at d2-d3 | S06-B, S03-J |
 | 8 | that protection is not antibody-mediated | timing, naive animals, external kinetics |
-| 9 | the aged/young diagonal varies two things | 1A rows 9 and 10 carry both young arms |
-| 10 | the within-age adjuvant effect is the clean comparison | 1A, 1J, 1K, 1L, 2D, 2F |
+| 9 | the aged/young diagonal varies two things | S01-A rows 9 and 10 carry both young arms |
+| 10 | the within-age adjuvant effect is the clean comparison | S01-A, S01-E, S01-F, S01-G, S02-C, S02-E |
 | 11 | endpoint direction must be established before pooling | 18-endpoint set; 2 endpoints invert |
 | 12 | age-matched and young give opposite reads | 18 endpoints, unanimous |
 | 13 | all immunoassays are homologous-antigen | annotation |
-| 14 | antigen-independence, five immunogens | 3I, 6A, 6E, 3J, 2F + annotation |
-| 15 | chain established by blockade | S4E, 2K, 2L, 7F, 5D |
-| 16 | S2A block 2 is the 72h panel | Ifnb1 4.01 against Fig.1A 72h; block 1 at 36.3 against 16h |
-| 17 | S2A is log10 | sheet header; PBS arm exponentiates to 1.00 |
+| 14 | antigen-independence, five immunogens | S03-I, S06-A, S06-C, S03-J, S02-E + annotation |
+| 15 | chain established by blockade | S11-C, S02-H, S02-I, S07-B, S05-C |
+| 16 | S09-A block 2 is the 72h panel | Ifnb1 4.01 against S01-A 72h; block 1 at 36.3 against 16h |
+| 17 | S09-A is log10 | sheet header; PBS arm exponentiates to 1.00 |
 | 18 | all seven analytes unresolved at 72h | block 2 exponentiated |
 | 19 | non-resolution is a formulation property | young+cand 3.13 against young+comp 1.59 |
-| 20 | tolerability assays carry controls | S1J comp+R848, S3E cholera toxin |
-| 21 | dose at plateau | S1B |
+| 20 | tolerability assays carry controls | S08-D comp+R848, SS03-E cholera toxin |
+| 21 | dose at plateau | S08-A |
 | 22 | no accessible antigen-independent marker | enumeration by compartment |
 | 23 | no per-animal immune-to-outcome linkage exists | survival blocks carry only time and event |
 
-Conditional legs, binding only if the solver uses the readout: 6E identical to 6G;
+Conditional legs, binding only if the solver uses the readout: S06-C identical to S06-D;
 subclass panel inconsistent with the direction forced; HAI sham estimate below
 assay floor; Tfh:Tfr an algebraic transform.
 
@@ -437,7 +436,7 @@ tissue-resident memory as accepted mechanistic correlates of heterosubtypic
 protection; the absence of an agreed regulatory surrogate for heterosubtypic
 protection. Primary humoral kinetics. Mouse primary CD8 kinetics, peak days 7 to 10
 by epitope and tissue. Reciprocal dilution series, GMT convention, below-LOD
-handling. NP366-374 H-2Db restriction against BALB/c H-2d. Sustained type I IFN
+handling. NP366-374 H-S02-Cb restriction against BALB/c H-2d. Sustained type I IFN
 antagonising IFN-gamma responsiveness and B cell responses. Impaired inflammation
 resolution in the aged airway. Cyclic dinucleotide therapeutic window. High-dose
 inactivated vaccine as licensed standard of care in 65+. Influenza licensure
@@ -446,15 +445,15 @@ surrogates in older adults.
 ### Derivation notes
 
 Survival from (time, event) pairs, percent censored at the block's own last day,
-which is 14 everywhere except 3J, where it is 21. Log-rank is Mantel-Cox, pairwise,
+which is 14 everywhere except S03-J, where it is 21. Log-rank is Mantel-Cox, pairwise,
 unadjusted for multiplicity, as in the source.
 
-Subclass ratio per animal then group mean, not ratio of group means. H1N1 is S8A
-over S8B, H3N2 is S8C over S8D. Both ratio panels carry the same cyclic column
+Subclass ratio per animal then group mean, not ratio of group means. H1N1 is S13-A
+over S13-B, H3N2 is S13-C over S13-D. Both ratio panels carry the same cyclic column
 shift: what is printed under the three labels belongs to the arms one position to
 the left. Subclass sums against total IgG forecloses the direction: correct pairing
-gives 0.559, 0.346, 0.551 for H1N1 against Fig. 3A and 0.567, 0.319, 0.337 for H3N2
-against Fig. 3E, where the alternative requires one arm's two subclasses to sum to
+gives 0.559, 0.346, 0.551 for H1N1 against S03-A and 0.567, 0.319, 0.337 for H3N2
+against S03-E, where the alternative requires one arm's two subclasses to sum to
 16.1 times its own total IgG for H1N1 and 11.3 times for H3N2.
 
 72h analytes as 10^mean(log10 replicates); the arithmetic reduction agrees within
@@ -467,24 +466,24 @@ The 18 endpoints, aged candidate over young comparator, with direction:
 
 | # | Endpoint | Figure | Direction | cand | young | ratio |
 |---|---|---|---|---|---|---|
-| 1 | Ifnb1 16h | 1A | higher better | 37.11 | 37.60 | 0.987 |
-| 2 | Ifnb1 72h | 1A | **higher worse** | 4.43 | 1.59 | 2.785 |
-| 3 | Ly6C+ monocytes d4 | 1I | higher better | 30.56 | 32.22 | 0.948 |
-| 4 | Alveolar macrophages d6 | S4B | higher better | 31.00 | 46.88 | 0.661 |
-| 5 | Total IgG H1N1 | 3A | higher better | 7891.60 | 12775.00 | 0.618 |
-| 6 | Total IgG H3N2 | 3E | higher better | 6386.80 | 15722.40 | 0.406 |
-| 7 | HAI H1N1, geometric | 3C | higher better | 367.58 | 485.03 | 0.758 |
-| 8 | IgG2a:IgG1, corrected | 3B + S8A/B | higher better | 2.14 | 2.97 | 0.721 |
-| 9 | GC B cells | 3L | higher better | 6.54 | 9.82 | 0.666 |
-| 10 | ICOS-high Tfh | 4E | higher better | 10.26 | 13.63 | 0.752 |
-| 11 | Tfr | 4F | **higher worse** | 10.80 | 7.12 | 1.517 |
-| 12 | NP+ CD8 lung d3 | 5A | higher better | 6.68 | 9.85 | 0.678 |
-| 13 | NP+ CD8 lung d7 | 5A | higher better | 14.25 | 15.15 | 0.941 |
-| 14 | Ki-67+ CD8 d3 | 5E | higher better | 9.38 | 9.94 | 0.944 |
-| 15 | GZMB+ CD8 d3 | 5F | higher better | 5.69 | 9.61 | 0.592 |
-| 16 | IFN-gamma+ CD8, H5N1 restim d14 | 5K | higher better | 6.36 | 9.18 | 0.693 |
-| 17 | IFN-gamma+ CD8 d60 | 5L | higher better | 9.86 | 14.36 | 0.687 |
-| 18 | Lung TRM CD8 | 5N | higher better | 3.96 | 6.04 | 0.656 |
+| 1 | Ifnb1 16h | S01-A | higher better | 37.11 | 37.60 | 0.987 |
+| 2 | Ifnb1 72h | S01-A | **higher worse** | 4.43 | 1.59 | 2.785 |
+| 3 | LyS06-B+ monocytes d4 | S01-D | higher better | 30.56 | 32.22 | 0.948 |
+| 4 | Alveolar macrophages d6 | S11-A | higher better | 31.00 | 46.88 | 0.661 |
+| 5 | Total IgG H1N1 | S03-A | higher better | 7891.60 | 12775.00 | 0.618 |
+| 6 | Total IgG H3N2 | S03-E | higher better | 6386.80 | 15722.40 | 0.406 |
+| 7 | HAI H1N1, geometric | S03-C | higher better | 367.58 | 485.03 | 0.758 |
+| 8 | IgG2a:IgG1, corrected | S03-B + S13-A/B | higher better | 2.14 | 2.97 | 0.721 |
+| 9 | GC B cells | S03-K | higher better | 6.54 | 9.82 | 0.666 |
+| 10 | ICOS-high Tfh | S04-A | higher better | 10.26 | 13.63 | 0.752 |
+| 11 | Tfr | S04-B | **higher worse** | 10.80 | 7.12 | 1.517 |
+| 12 | NP+ CD8 lung d3 | S05-A | higher better | 6.68 | 9.85 | 0.678 |
+| 13 | NP+ CD8 lung d7 | S05-A | higher better | 14.25 | 15.15 | 0.941 |
+| 14 | Ki-67+ CD8 d3 | S05-D | higher better | 9.38 | 9.94 | 0.944 |
+| 15 | GZMB+ CD8 d3 | S05-E | higher better | 5.69 | 9.61 | 0.592 |
+| 16 | IFN-gamma+ CD8, HS05-I1 restim d14 | S05-F | higher better | 6.36 | 9.18 | 0.693 |
+| 17 | IFN-gamma+ CD8 d60 | S05-G | higher better | 9.86 | 14.36 | 0.687 |
+| 18 | Lung TRM CD8 | S05-I | higher better | 3.96 | 6.04 | 0.656 |
 
 All 18 point the same way: the candidate does not reach the young comparator.
 Sixteen higher-is-better endpoints below 1.0 and two higher-is-worse endpoints
@@ -498,7 +497,7 @@ them rather than folding them into a range: the candidate matches young on early
 interferon induction, monocyte recruitment, day-7 NP-specific CD8 and CD8
 proliferation, and falls short elsewhere.
 
-GM-CSF at 36h is excluded from the 18. Fig. 2I has only aged sham, aged comparator
+GM-CSF at 36h is excluded from the 18. S02-F has only aged sham, aged comparator
 and aged candidate arms, so 8.74 is a fold-change over untreated and not a ratio
 against anything.
 
@@ -513,12 +512,12 @@ Rows 1 and 2 are the only two that can be deconfounded, and both keep their sign
 
 | Mode | Fails to check | Why it attracts | Refuting fact | Counterfactual |
 |---|---|---|---|---|
-| confound-not-separated | that the aged-versus-young comparison varies adjuvant as well as age, where the young-plus-candidate arm sits in the same block | the source frames everything on the diagonal and the fourth arm is unlabelled in the narrative | Fig. 1A rows 9 and 10; the 2x2 in five further blocks | reports the within-age adjuvant effect and notes that 0.99 on Ifnb1 becomes 0.73 |
+| confound-not-separated | that the aged-versus-young comparison varies adjuvant as well as age, where the young-plus-candidate arm sits in the same block | the source frames everything on the diagonal and the fourth arm is unlabelled in the narrative | S01-A rows 9 and 10; the 2x2 in five further blocks | reports the within-age adjuvant effect and notes that 0.99 on Ifnb1 becomes 0.73 |
 | humoral-readout-carries-heterosubtypic-claim | that every mounted immunoassay is homologous-antigen | 18.1x IgG and four-figure neutralising titres are the largest numbers in the package | annotation, antigen per assay | carries the humoral data as immunogenicity and rests the heterosubtypic claim on the challenge and cellular data |
 | resolution-not-addressed | the 72h panel at all, or its scale, or that it is unresolved, or proposes no work on it | listing it feels like diligence; every value reads near 1 unexponentiated | sheet header reads Log10; PBS arm exponentiates to 1.00; Ccl2 1.488 to 27.41x | finds all seven elevated and makes resolution kinetics the gating study |
 | direction-not-established-before-pooling | that two of the 18 endpoints invert | every other endpoint reduces to lower-means-worse | Ifnb1 72h at 2.78 and Tfr at 1.52 are the candidate doing worse, not better | establishes each readout's direction, then reports 18 of 18 pointing one way |
-| background-mortality-not-netted | that 6H, 6I and 6J carry an arm receiving neither vaccine nor challenge | 6J reads as the weak end of a range at 57.1% | Fig.6 rows 34-68, fifth arm of 6J: 3 of 7 dead by day 10, p=0.855 against the candidate arm | reports 6J at its own ceiling, or sets it aside on that fact |
-| correlates-listed-not-chain-established | the four blockade experiments | DC and Treg shifts are easier to read than interventions across four sheets | S4E, 2K, 2L/7F, 5D | builds the chain, and can then propose a PD marker |
+| background-mortality-not-netted | that S06-E, S06-F and S06-G carry an arm receiving neither vaccine nor challenge | S06-G reads as the weak end of a range at 57.1% | S06 rows 34-68, fifth arm of S06-G: 3 of 7 dead by day 10, p=0.855 against the candidate arm | reports S06-G at its own ceiling, or sets it aside on that fact |
+| correlates-listed-not-chain-established | the four blockade experiments | DC and Treg shifts are easier to read than interventions across four sheets | S11-C, S02-H, S02-I/S07-B, S05-C | builds the chain, and can then propose a PD marker |
 | young-benchmark-as-acceptance-criterion | the age-matched comparison | the package nominates the young arm | the same endpoints invert, 0.76 against 8.0x; survival reaches young while magnitude does not | compares against high-dose standard of care in the aged population and does not require matching young to advance |
 
 **Expected prevalence, highest to lowest.** All seven stay in the map and in the
@@ -531,7 +530,7 @@ against it rather than discovered from scratch.
    makes an aged-versus-young comparison gives a second annotator nothing to
    observe, so the FA should confirm the comparison was attempted before counting
    it either way.
-2. resolution-not-addressed. Three chances to fail: find the second S2A block,
+2. resolution-not-addressed. Three chances to fail: find the second S09-A block,
    exponentiate it, then propose work rather than record a caveat.
 3. background-mortality-not-netted. Requires noticing a fifth arm that exists in
    only three of the nine challenge blocks.
@@ -566,21 +565,21 @@ strain-specific-readouts-treated-as-asset-value
 ### Escape and foreclosure
 | Escape | Local appeal | Foreclosing fact | Where |
 |---|---|---|---|
-| indicator 1 as alive | natural reading | a 14-day study cannot record survivors dying at d4 | Fig.6, 3I/J |
-| evaluate on homologous blocks | 3I 100% is the cleanest number | those challenge viruses are in the vaccine | annotation |
-| count rows 69-70 toward the heterosubtypic set | the sheet labels them 6H and 6I | the bivalent vaccine contains both challenge subtypes | annotation |
-| report 6J as the weak end of a range | it is a labelled, independent, durable challenge block | its unvaccinated unchallenged arm is also 57.1%, against 85.7% and 100% in the two concurrent blocks | Fig.6 rows 34-68 |
-| read aged-vs-young as an ageing effect | the source frames it that way throughout | the same block carries a young-plus-candidate arm | Fig.1A rows 9 and 10; 1J, 1K, 1L, 2D, 2F |
+| indicator 1 as alive | natural reading | a 14-day study cannot record survivors dying at d4 | S06, S03-I/J |
+| evaluate on homologous blocks | S03-I 100% is the cleanest number | those challenge viruses are in the vaccine | annotation |
+| count rows 69-70 toward the heterosubtypic set | the sheet labels them S06-E and S06-F | the bivalent vaccine contains both challenge subtypes | annotation |
+| report S06-G as the weak end of a range | it is a labelled, independent, durable challenge block | its unvaccinated unchallenged arm is also 57.1%, against 85.7% and 100% in the two concurrent blocks | S06 rows 34-68 |
+| read aged-vs-young as an ageing effect | the source frames it that way throughout | the same block carries a young-plus-candidate arm | S01-A rows 9 and 10; S01-E, S01-F, S01-G, S02-C, S02-E |
 | pool all endpoints on sign alone | 16 of 18 run the same way | Ifnb1 72h and Tfr invert; pooling them cancels the signal | 18-endpoint set |
 | power on antibody titre | largest effects in the package | homologous-antigen only; titre is the antigen's property | annotation |
-| early protection as antibody | antibody is the default mechanism | d2-d3 in naive animals, unadjuvanted arm 0-10% | 6C, 3J + external |
-| cellular without addressing innate | d3 cellular data are positive | innate still running at 72h, and d3 is inside the innate window | S2A block 2 + external kinetics |
-| transience from Ifnb1 or in log space | Ifnb1 is the headline analyte | 7 of 7 elevated; Ccl2 27.41x | S2A + units |
-| 72h state is within the young range | young runs 101.59 on Ccl2 and 41.45 on Ccl3 against 27.41 and 9.23 | the direction inverts rather than the degree: young is at or below its untreated reference on Tnf 0.48, Il10 0.11, Ccl5 0.55 and Ifnb1 1.39 where the aged candidate is 8.44, 4.16, 2.01 and 4.01 | S2A block 2, all four arms |
-| 72h non-resolution as an aged-lung property | the asset is an ageing asset | young animals given the candidate also fail to resolve | 1A rows 9 and 10 |
-| 6E and 6G as two experiments | differently labelled | 28 of 28 identical | Fig.6 |
-| 69x HAI rise | arithmetic mean is the library default | implies a sham titre of 6.0, below a 1:10 floor | 3C |
-| subclass ratio as printed | it is the panel built for it | one arm's subclass sum would exceed its own total IgG by 16.1x for H1N1 and 11.3x for H3N2 | 3B/3F, S8A-D, 3A/3E |
+| early protection as antibody | antibody is the default mechanism | d2-d3 in naive animals, unadjuvanted arm 0-10% | S06-B, S03-J + external |
+| cellular without addressing innate | d3 cellular data are positive | innate still running at 72h, and d3 is inside the innate window | S09-A block 2 + external kinetics |
+| transience from Ifnb1 or in log space | Ifnb1 is the headline analyte | 7 of 7 elevated; Ccl2 27.41x | S09-A + units |
+| 72h state is within the young range | young runs 101.59 on Ccl2 and 41.45 on Ccl3 against 27.41 and 9.23 | the direction inverts rather than the degree: young is at or below its untreated reference on Tnf 0.48, Il10 0.11, Ccl5 0.55 and Ifnb1 1.39 where the aged candidate is 8.44, 4.16, 2.01 and 4.01 | S09-A block 2, all four arms |
+| 72h non-resolution as an aged-lung property | the asset is an ageing asset | young animals given the candidate also fail to resolve | S01-A rows 9 and 10 |
+| S06-C and S06-D as two experiments | differently labelled | 28 of 28 identical | S06 |
+| 69x HAI rise | arithmetic mean is the library default | implies a sham titre of 6.0, below a 1:10 floor | S03-C |
+| subclass ratio as printed | it is the panel built for it | one arm's subclass sum would exceed its own total IgG by 16.1x for H1N1 and 11.3x for H3N2 | S03-B/S03-F, S13-A-D, S03-A/S03-E |
 | import the mechanism narrative | retrieval supplies it | no sequencing data mounted | annotation + absence |
 | young benchmark as sole basis | package nominates it | NONE in the room | - |
 
@@ -602,9 +601,9 @@ requirement would be one the prompt did not set. Written flat for pasting.
 
 A. Must be present and correct: a recommendation on whether to advance, grounded in the heterosubtypic challenge blocks rather than in any humoral readout; a heterosubtypic set that is derived rather than asserted, with any block collapsed, retained or set aside on a stated mounted fact; recognition that the aged-versus-young comparison varies adjuvant as well as age wherever both young arms exist in the same block; the direction of each endpoint established before any pooling or averaging; a next-study comparator set that is age-matched rather than young, and that includes the antigen-dose comparison the package cannot answer; a biomarker answer that separates what is peripherally accessible from what is not, and that does not offer an antibody measure as the cross-subtype efficacy correlate; resolution kinetics proposed as work rather than inventoried as a caveat; and the effector chain rested on the blockade experiments rather than on correlation. Each met only where the attempt's own cited numbers reproduce from the mounted files by the route it states, so that the model is shown to have made the right call over the appropriate data.
 
-B. Penalise: powering a protection readout on antibody titre, or resting the heterosubtypic claim on assays run against the vaccine's own antigens; reporting the 72h analytes without exponentiating the log10 panel, or noting the 72h elevation and proposing no work on it; reading any aged-versus-young ratio as an ageing effect where the same block carries a young-plus-candidate arm; pooling the endpoint set on sign alone, so that the two higher-is-worse endpoints cancel the signal; reporting Fig. 6J without reference to its unvaccinated unchallenged arm; treating Fig. 6E and Fig. 6G as independent experiments; listing the DC and Treg shifts as the mechanism without reaching the blockade experiments; requiring the aged arm to match the young arm before recommending advance.
+B. Penalise: powering a protection readout on antibody titre, or resting the heterosubtypic claim on assays run against the vaccine's own antigens; reporting the 72h analytes without exponentiating the log10 panel, or noting the 72h elevation and proposing no work on it; reading any aged-versus-young ratio as an ageing effect where the same block carries a young-plus-candidate arm; pooling the endpoint set on sign alone, so that the two higher-is-worse endpoints cancel the signal; reporting S06-G without reference to its unvaccinated unchallenged arm; treating S06-C and S06-D as independent experiments; listing the DC and Treg shifts as the mechanism without reaching the blockade experiments; requiring the aged arm to match the young arm before recommending advance.
 
-C. Neutral: number of studies proposed; whether the innate alternative is resolved or left open with a discriminating experiment; statistical method choice; whether the stated-n mismatches or the sheet mislabels are noticed; retention of humoral readouts as a regulatory bridge or as immunogenicity; whether Fig. 6J is retained at its ceiling or set aside on that same fact; route, units, layout, length, and where in the answer anything sits.
+C. Neutral: number of studies proposed; whether the innate alternative is resolved or left open with a discriminating experiment; statistical method choice; whether the stated-n mismatches or the sheet mislabels are noticed; retention of humoral readouts as a regulatory bridge or as immunogenicity; whether S06-G is retained at its ceiling or set aside on that same fact; route, units, layout, length, and where in the answer anything sits.
 
 ---
 
@@ -639,26 +638,26 @@ of one trajectory and a thin mode set.
 2. Resolved. The prompt carries no fabricated content. The committee date and the
    GLP slot are gone and the hedge is closed by requiring a defensible case either
    way. The cost is that deferral is no longer expensive as a fact about the world.
-3. Resolved. The H-2Db restriction call holds: NP366-374 is the H-2Db-restricted
+3. Resolved. The H-S02-Cb restriction call holds: NP366-374 is the H-S02-Cb-restricted
    epitope and the stated strain is BALB/c, H-2d. The BALB/c-dominant NP epitope is
-   NP147-155 on H-2Kd. Determinate only where the annotation states strain per block.
+   NP147-155 on H-S02-Hd. Determinate only where the annotation states strain per block.
 4. Three products rest on annotation alone (legs 2, 3, 13). A thin or ambiguous
    annotation there breaks the protection and carry-forward pillars rather than
    making them hard. Leg 17 is no longer on that list; the scale is in the workbook
    header.
-5. S4B and S4C share 35 of 100 cells, the first two animals of every group at every
+5. S11-A and S11-B share 35 of 100 cells, the first two animals of every group at every
    timepoint. Suggestive of partial copy. Not determinate; no mode rests on it.
-6. The 6J retention rests on the three day-60 blocks being comparable. If a reviewer
-   treats 3 of 7 against 1 of 7 as within noise, the fallback is to set 6J aside on
+6. The S06-G retention rests on the three day-60 blocks being comparable. If a reviewer
+   treats 3 of 7 against 1 of 7 as within noise, the fallback is to set S06-G aside on
    the same fact. Both readings are in the C list; silence is in B.
 7. The direction-adjudication mode rests on external knowledge: that residual
    interferon at 72h and a higher suppressive Tfr frequency are both bad. The first
    is consistent with the task's own tolerability pillar. The second is the softer
    call and is the leg a reviewer will press.
-8. New. Fig. 5A's immunogen is irreducibly ambiguous and the ambiguity reaches
-   three of the cellular endpoints (rows 12, 13 and 18, since 5N reads "as in (A)").
+8. New. S05-A's immunogen is irreducibly ambiguous and the ambiguity reaches
+   three of the cellular endpoints (rows 12, 13 and 18, since S05-I reads "as in (A)").
    Nothing in the source resolves it, so a solver cannot resolve it either. The
-   day-3 cellular case therefore rests on 5E and 5F, and 5A is cited with the
+   day-3 cellular case therefore rests on S05-D and S05-E, and S05-A is cited with the
    ambiguity named. This is variance, not difficulty, and must not carry a mode.
 
 ### Build constraints
@@ -686,7 +685,7 @@ of one trajectory and a thin mode set.
   what the asset is judged against.
 
 ### What changed in revision 3
-- Fig. 6J retained and read against its own ceiling, with the full log-rank table.
+- S06-G retained and read against its own ceiling, with the full log-rank table.
   The headline is no longer a survival range but separation from sham and from the
   chemically matched comparator in all six configurations, plus no detectable
   difference from young on survival.

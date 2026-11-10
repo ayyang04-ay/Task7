@@ -13,9 +13,9 @@ Tell me what you considered and ruled out.
 
 grader-guidelines.txt
 ---------------------
-Word count      : 468
-Character count : 3017
-sha256 prefix   : 7765d2ff77b0
+Word count      : 464
+Character count : 3009
+sha256 prefix   : 75b594c41652
 Paragraphs      : 4, each one unbroken line. Confirm no hard wraps survived the paste.
 
 Scroll to the bottom of the form and confirm the C list is present. A
@@ -23,4 +23,4 @@ previous run uploaded 18,309 characters of a 24,504-character grader. It
 stopped at the end of section A, leaving no penalty list and no neutral list.
 
 Required last line, in full:
-C. Neutral: number of studies proposed; whether the innate alternative is resolved or left open with a discriminating experiment; statistical method choice; whether the stated-n mismatches or the sheet mislabels are noticed; retention of humoral readouts as a regulatory bridge or as immunogenicity; whether Fig. 6J is retained at its ceiling or set aside on that same fact; route, units, layout, length, and where in the answer anything sits.
+C. Neutral: number of studies proposed; whether the innate alternative is resolved or left open with a discriminating experiment; statistical method choice; whether the stated-n mismatches or the sheet mislabels are noticed; retention of humoral readouts as a regulatory bridge or as immunogenicity; whether S06-G is retained at its ceiling or set aside on that same fact; route, units, layout, length, and where in the answer anything sits.

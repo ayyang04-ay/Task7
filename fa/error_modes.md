@@ -24,12 +24,12 @@ raised-then-abandoned shape for this panel.
 | Not checked | that the aged-versus-young contrast varies the adjuvant as well as the age, in blocks that carry a young arm on the candidate adjuvant |
 | Shape | encountered then unapplied |
 
-**Description in the task's own numbers and files.** Fig. 1A, 1J, 1K, 1L, 2D and 2F each
+**Description in the task's own numbers and files.** S01-A, S01-E, S01-F, S01-G, S02-C and S02-E each
 carry four arms: aged+nanoSTING, aged+AMnESTI, young+nanoSTING and young+AMnESTI. Every
 run built a quantitative age-gap-closure or restoration metric whose denominator is the
 young+nanoSTING arm, so the numerator differs from the denominator in both age and
 adjuvant. Every run referenced the young+AMnESTI arm (100 or more references each) and
-pulled its values, 50.70 at 16 h and 3.13 at 72 h in Fig. 1A.
+pulled its values, 50.70 at 16 h and 3.13 at 72 h in S01-A.
 
 **Where it is visible.**
 - 5c73bcfd, elements 366 and 440: states the convention outright, that "Young" always
@@ -64,7 +64,7 @@ runs, the safety reasoning about persistence.
 | Trajectory IDs | a006995a, 16a5e37f, 5c73bcfd, 10d15660, d4235306, b359fc9d |
 | Not checked | when the innate response returns to baseline, given no timepoint past 72 h exists anywhere in the package |
 
-**Description.** All 8 runs identified that the second Fig. S2A block holds the 72 h data
+**Description.** All 8 runs identified that the second S09-A block holds the 72 h data
 despite its 16 h header, and exponentiated the log10 values correctly. The prompt asks
 what the next studies have to establish. These six runs record the 72 h elevation as a
 reactogenicity or persistence caveat and propose no study of its resolution.

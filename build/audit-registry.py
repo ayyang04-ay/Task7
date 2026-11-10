@@ -1,6 +1,6 @@
 # Builds a registry of every verified value from the shipped workbook: survival
-# percentages and the full pairwise log-rank matrix for Fig. 6, the 6E/6G identity
-# count, Fig. 3J arms, the subclass correction and its foreclosure, tolerability
+# percentages and the full pairwise log-rank matrix for S06, the S06-C/S06-D identity
+# count, S03-J arms, the subclass correction and its foreclosure, tolerability
 # controls, within-age adjuvant folds and the age-versus-formulation diagonals.
 #
 # Usage: python3 -I audit-registry.py
@@ -11,14 +11,14 @@
 # without lifelines or scipy.
 
 import openpyxl, statistics as st, math, re
-wb=openpyxl.load_workbook('../data-room/adz5242_data_file_s1.xlsx',data_only=True)
+wb=openpyxl.load_workbook('../data-room/amnesti_preclinical_dataset.xlsx',data_only=True)
 def V(sh,cc,rr):
     ws=wb[sh]; return [float(ws.cell(r,c).value) for r in rr for c in cc
                        if isinstance(ws.cell(r,c).value,(int,float))]
 def M(sh,cc,rr): return st.mean(V(sh,cc,rr))
 def geo(v):
     v=[x for x in v if x>0]; return 10**(sum(math.log10(x) for x in v)/len(v))
-ws6=wb['Fig.6']
+ws6=wb['S06']
 def blk(hr,c0,nc,r0,r1):
     out={}
     for i in range(1,nc+1):
@@ -41,63 +41,63 @@ def lr(a,b):
 
 # build registry of every verified value
 R={}
-B={'6A':(2,1,4,3,30),'6C':(2,7,4,3,30),'6E':(2,13,4,3,30),'6G':(33,1,4,34,68),
-   '6H':(33,7,5,34,68),'6I':(33,13,5,34,68),'6J':(70,1,5,71,105),
-   '6Kx':(70,7,4,71,105),'6Lx':(70,13,4,71,105)}
+B={'S06-A':(2,1,4,3,30),'S06-B':(2,7,4,3,30),'S06-C':(2,13,4,3,30),'S06-D':(33,1,4,34,68),
+   'S06-E':(33,7,5,34,68),'S06-F':(33,13,5,34,68),'S06-G':(70,1,5,71,105),
+   'S06-Ex':(70,7,4,71,105),'S06-Fx':(70,13,4,71,105)}
 S={}
 for k,(hr,c0,nc,r0,r1) in B.items():
     S[k]=blk(hr,c0,nc,r0,r1)
     for arm,rows in S[k].items():
         R['%s %s surv'%(k,arm)]=100*sum(1 for d,e in rows if e==0)/len(rows)
-for k in ['6A','6C','6E','6H','6I','6J']:
+for k in ['S06-A','S06-B','S06-C','S06-E','S06-F','S06-G']:
     a=S[k]; cand=a['AMnESTI']
     R['%s p vs sham'%k]=lr(cand,a['Sham']); R['%s p vs comp'%k]=lr(cand,a['NanoSTING'])
     R['%s p vs young'%k]=lr(cand,a['NanoSTING(Y)']); R['%s comp vs sham'%k]=lr(a['NanoSTING'],a['Sham'])
     if 'Untreated' in a: R['%s p vs untr'%k]=lr(cand,a['Untreated'])
-# 6E vs 6G identity
-same=sum(1 for arm in S['6E'] for p,q in zip(S['6E'][arm],S['6G'][arm]) if p==q)
-R['6E==6G pairs']=same
-# 3J
-w3=wb['Fig. 3']
+# S06-C vs S06-D identity
+same=sum(1 for arm in S['S06-C'] for p,q in zip(S['S06-C'][arm],S['S06-D'][arm]) if p==q)
+R['S06-C==S06-D pairs']=same
+# S03-J
+w3=wb['S03']
 for i,nm in enumerate(['Sham','NanoSTING','AMnESTI']):
     rows=[(w3.cell(r,7).value,w3.cell(r,8+i).value) for r in range(17,47) if isinstance(w3.cell(r,8+i).value,(int,float))]
-    R['3J %s censored'%nm]=sum(1 for d,e in rows if e==0); R['3J %s n'%nm]=len(rows)
+    R['S03-J %s censored'%nm]=sum(1 for d,e in rows if e==0); R['S03-J %s n'%nm]=len(rows)
 # subclass
 for lbl,a,b,r0 in (('H1N1',1,5,3),('H3N2',9,13,10)):
-    pr=[M('Fig. 3',[7+i],range(r0,r0+5)) for i in range(3)]
-    tr=[st.mean([x/y for x,y in zip(V('Fig. S8',[a+i],range(3,8)),V('Fig. S8',[b+i],range(3,8)))]) for i in range(3)]
-    sm=[M('Fig. S8',[a+i],range(3,8))+M('Fig. S8',[b+i],range(3,8)) for i in range(3)]
-    tt=[M('Fig. 3',[3+i],range(r0,r0+5)) for i in range(3)]
+    pr=[M('S03',[7+i],range(r0,r0+5)) for i in range(3)]
+    tr=[st.mean([x/y for x,y in zip(V('S13',[a+i],range(3,8)),V('S13',[b+i],range(3,8)))]) for i in range(3)]
+    sm=[M('S13',[a+i],range(3,8))+M('S13',[b+i],range(3,8)) for i in range(3)]
+    tt=[M('S03',[3+i],range(r0,r0+5)) for i in range(3)]
     for i in range(3):
         R['%s printed%d'%(lbl,i)]=pr[i]; R['%s true%d'%(lbl,i)]=tr[i]; R['%s sum/tot%d'%(lbl,i)]=sm[i]/tt[i]
     R['%s alt'%lbl]=sm[2]/tt[0]
 # tolerability S3
 for i,an in enumerate(['Ifnb1','Tnf','Isg15']):
-    R['S3 cand %s'%an]=M('Fig. S3',[3+i*5],range(3,8)); R['S3 CT %s'%an]=M('Fig. S3',[4+i*5],range(3,8))
-R['S1J min']=min(V('Fig. S1',range(22,27),[26])); R['S1J n']=len(V('Fig. S1',range(22,27),[26]))
-R['S1B pct']=100*(M('Fig. S1',range(8,11),[7])/M('Fig. S1',range(8,11),[6])-1)
+    R['S3 cand %s'%an]=M('S10',[3+i*5],range(3,8)); R['S3 CT %s'%an]=M('S10',[4+i*5],range(3,8))
+R['S08-D min']=min(V('S08',range(22,27),[26])); R['S08-D n']=len(V('S08',range(22,27),[26]))
+R['S08-A pct']=100*(M('S08',range(8,11),[7])/M('S08',range(8,11),[6])-1)
 # within-age folds
-R['1A16 aged fold']=M('Fig.1',range(2,7),[8])/M('Fig.1',range(2,7),[5])
-R['1A16 young fold']=M('Fig.1',range(2,7),[10])/M('Fig.1',range(2,7),[9])
-R['1J fold a']=M('Fig.1',range(12,17),[32])/M('Fig.1',range(7,12),[32])
-R['1J fold y']=M('Fig.1',range(22,27),[32])/M('Fig.1',range(17,22),[32])
-R['1K fold a']=M('Fig.1',range(12,17),[36])/M('Fig.1',range(7,12),[36])
-R['1K fold y']=M('Fig.1',range(22,27),[36])/M('Fig.1',range(17,22),[36])
-R['1L fold a']=M('Fig.1',range(12,17),[38])/M('Fig.1',range(7,12),[38])
-R['1L fold y']=M('Fig.1',range(22,27),[38])/M('Fig.1',range(17,22),[38])
-R['2D fold a']=M('Fig. 2',[12],range(3,8))/M('Fig. 2',[11],range(3,8))
-R['2D fold y']=M('Fig. 2',[15],range(3,8))/M('Fig. 2',[13],range(3,8))
-R['2F fold a']=M('Fig. 2',[12],range(10,15))/M('Fig. 2',[11],range(10,15))
-R['2F fold y']=M('Fig. 2',[15],range(10,15))/M('Fig. 2',[13],range(10,15))
-R['INCB CD8 fold']=M('Fig. 2',[8],range(30,35))/M('Fig. 2',[9],range(30,35))
-R['INCB Mphi fold']=M('Fig.7',[5],range(10,15))/M('Fig.7',[6],range(10,15))
-R['1A16 diag']=M('Fig.1',range(2,7),[8])/M('Fig.1',range(2,7),[9])
-R['1A16 held']=M('Fig.1',range(2,7),[8])/M('Fig.1',range(2,7),[10])
-R['1A72 diag']=M('Fig.1',range(8,13),[8])/M('Fig.1',range(8,13),[9])
-R['1A72 held']=M('Fig.1',range(8,13),[8])/M('Fig.1',range(8,13),[10])
-R['3A of young']=M('Fig. 3',[4],range(3,8))/M('Fig. 3',[5],range(3,8))
-R['3C of young']=geo(V('Fig. 3',[14],range(3,8)))/geo(V('Fig. 3',[15],range(3,8)))
-R['TRM of young']=M('Fig.5',[3],range(54,59))/M('Fig.5',[4],range(54,59))
-R['IFNg14 of young']=M('Fig.5',[3],range(33,38))/M('Fig.5',[4],range(33,38))
-R['IFNg60 of young']=M('Fig.5',[3],range(40,45))/M('Fig.5',[4],range(40,45))
+R['S01-A16 aged fold']=M('S01',range(2,7),[8])/M('S01',range(2,7),[5])
+R['S01-A16 young fold']=M('S01',range(2,7),[10])/M('S01',range(2,7),[9])
+R['S01-E fold a']=M('S01',range(12,17),[32])/M('S01',range(7,12),[32])
+R['S01-E fold y']=M('S01',range(22,27),[32])/M('S01',range(17,22),[32])
+R['S01-F fold a']=M('S01',range(12,17),[36])/M('S01',range(7,12),[36])
+R['S01-F fold y']=M('S01',range(22,27),[36])/M('S01',range(17,22),[36])
+R['S01-G fold a']=M('S01',range(12,17),[38])/M('S01',range(7,12),[38])
+R['S01-G fold y']=M('S01',range(22,27),[38])/M('S01',range(17,22),[38])
+R['S02-C fold a']=M('S02',[12],range(3,8))/M('S02',[11],range(3,8))
+R['S02-C fold y']=M('S02',[15],range(3,8))/M('S02',[13],range(3,8))
+R['S02-E fold a']=M('S02',[12],range(10,15))/M('S02',[11],range(10,15))
+R['S02-E fold y']=M('S02',[15],range(10,15))/M('S02',[13],range(10,15))
+R['INCB CD8 fold']=M('S02',[8],range(30,35))/M('S02',[9],range(30,35))
+R['INCB Mphi fold']=M('S07',[5],range(10,15))/M('S07',[6],range(10,15))
+R['S01-A16 diag']=M('S01',range(2,7),[8])/M('S01',range(2,7),[9])
+R['S01-A16 held']=M('S01',range(2,7),[8])/M('S01',range(2,7),[10])
+R['S01-A72 diag']=M('S01',range(8,13),[8])/M('S01',range(8,13),[9])
+R['S01-A72 held']=M('S01',range(8,13),[8])/M('S01',range(8,13),[10])
+R['S03-A of young']=M('S03',[4],range(3,8))/M('S03',[5],range(3,8))
+R['S03-C of young']=geo(V('S03',[14],range(3,8)))/geo(V('S03',[15],range(3,8)))
+R['TRM of young']=M('S05',[3],range(54,59))/M('S05',[4],range(54,59))
+R['IFNg14 of young']=M('S05',[3],range(33,38))/M('S05',[4],range(33,38))
+R['IFNg60 of young']=M('S05',[3],range(40,45))/M('S05',[4],range(40,45))
 for k in sorted(R): print('  %-24s %.4g'%(k,R[k]))

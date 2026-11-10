@@ -69,10 +69,10 @@ the room could carry before their combined weight became the story.
 1. **Drop the ground-truth sentence from the prompt.** One line out, no data-room change.
    The tension disappears because nothing asserts the data are clean. Runs may still
    audit, but the prompt no longer contradicts what they find.
-2. **Thin the inconsistency set.** Keep the ones a forcing-chain leg needs: the 6E/6G
-   identity (leg 4), the S2A 16 h header (leg 16), the 3B/3F label rotation, and the
+2. **Thin the inconsistency set.** Keep the ones a forcing-chain leg needs: the S06-C/S06-D
+   identity (leg 4), the S09-A 16 h header (leg 16), the S03-B/S03-F label rotation, and the
    stated-n mismatches. Repair the rest in the shipped workbook: the reused weight
-   trajectories, the shared S4B/S4C cells, the survival-versus-weight conflicts, the
+   trajectories, the shared S11-A/S11-B cells, the survival-versus-weight conflicts, the
    deaths in unchallenged controls. Those four carry no leg and are what tip the set from
    sloppy into suspicious.
 3. Both. My recommendation, because 1 alone leaves a dozen contradictions in a file the
@@ -88,7 +88,7 @@ is inside the file rather than in its name.
 
 | Vector | Evidence |
 |---|---|
-| Filename `adz5242_data_file_s1.xlsx` is the DOI suffix | all 8 runs cite the filename; b359fc9d element 166 reasons from it that the file is "the supplementary file from a published paper" |
+| Filename `amnesti_preclinical_dataset.xlsx` is the DOI suffix | all 8 runs cite the filename; b359fc9d element 166 reasons from it that the file is "the supplementary file from a published paper" |
 | Sheet names are the article's figure-panel names | `Fig.1`, `Fig. 2` … `Fig. S13`, visible in `docProps/app.xml` |
 | **Embedded author metadata** | `dc:creator` and `cp:lastModifiedBy` are both `Gao, Shilin,PhD`, the paper's first author. Read by 16a5e37f and 5c73bcfd via openpyxl DocumentProperties at element 187 |
 | Timestamps | created 2026-07-01, modified 2026-09-11, matching the publication timeline |
