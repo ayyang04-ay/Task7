@@ -15,7 +15,7 @@ Advance it.
 
 In all six configurations where aged animals were vaccinated and then challenged
 with a virus of a different subtype, PSLN-344 separated from the vaccine alone
-(p = 0.0002 throughout) and from PSLN-212, which is the same liposome without the
+(p = 0.0002 in every block) and from PSLN-212, which is the same liposome without the
 manganese (p = 0.0009 to 0.0151). On survival the aged animals were not
 distinguishable from young animals given PSLN-212 in any configuration (p = 0.060
 to 0.317). PSLN-212 itself fails to separate from vaccine alone in three of the
@@ -150,7 +150,9 @@ and dose and not its mechanism, so read that step as gap-junction-dependent only
 Type I interferon. In the adoptive transfer, monocyte-derived dendritic cells
 were 19.70% from wild-type marrow and 2.09% from Ifnar-knockout marrow, and
 recombinant GM-CSF brought the knockout arm back to 12.40% (S02-H, group means,
-n = 5).
+n = 5). All three of those arms are the cDC-precursor-depleted ones, which is what
+makes them comparable; the undepleted pair reads 27.22% and 6.07% and is a different
+contrast.
 
 GM-CSF. Lung Gm-csf transcript at 36 hours was 8.74 for PSLN-344, 1.59 for
 PSLN-212 and 1.21 for sham, each relative to untreated animals (S02-F, group
@@ -198,8 +200,11 @@ survival in the mechanism-blockade arms, which is Study 1.
 What the adjuvant actually adds
 
 The package compares aged animals given PSLN-344 against young animals given
-PSLN-212. That comparison changes two things at once. In six labelled blocks, seven panels, the workbook
-also carries young animals given PSLN-344, which closes it.
+PSLN-212. That comparison changes two things at once. In six labelled blocks, seven
+panels, the workbook carries young animals given PSLN-344 alongside all three of the
+other arms, which closes it. A young-plus-PSLN-344 arm appears elsewhere in the
+workbook, but only in these seven panels does it sit beside aged+PSLN-212,
+aged+PSLN-344 and young+PSLN-212 together, which is what the contrast needs.
 
 | Readout | aged+PSLN-212 | aged+PSLN-344 | young+PSLN-212 | young+PSLN-344 |
 |---|---|---|---|---|
@@ -263,7 +268,11 @@ rebuilt from the workbook:
 
 Means of the per-endpoint ratios: humoral 0.654 over rows 5 to 10, cellular 0.741
 over rows 12 to 18. Three endpoints are effectively matched: monocyte recruitment at
-day 4 (0.95), day-7 NP-specific CD8 (0.94) and CD8 proliferation (0.94). Early
+day 4 (0.95), day-7 NP-specific CD8 (0.94) and CD8 proliferation (0.94). Row 3 is read
+at day 4 because that is the peak of the response in both compared arms, 30.56 and
+32.22 of five sampled days; read at day 8 instead the ratio is 1.31, the only point in
+the roster where a higher-is-better endpoint would exceed 1.0, and the mean across all
+five days is 0.996. Early
 interferon induction reads 0.99 on this comparator and would make a fourth, but that
 is the cross-adjuvant figure debunked above; held to one formulation it is 0.73 and
 does not belong in the matched set.
@@ -389,10 +398,12 @@ from the subclass data, the H1N1 ratio is 0.578 for PSLN-212, 2.144 for PSLN-344
 and 2.972 for young, against 2.972, 0.578 and 2.144 as printed. The labels are
 shifted by one position. The reading is forced rather than preferred: under the
 printed assignment one arm's IgG2a plus IgG1 would have to exceed its own total IgG
-by 16.1-fold for H1N1 and 11.3-fold for H3N2, computing each per animal from the
-subclass titres of S13-A and S13-B over S03-A for H1N1, and S13-C and S13-D over
-S03-E for H3N2. Correctly paired the two subclasses
-account for 0.559, 0.346 and 0.551 of total IgG. The same shift appears in both
+by 16.1-fold for H1N1 and 11.3-fold for H3N2, taking the group mean of each subclass
+and of total IgG before dividing, from the subclass titres of S13-A and S13-B over
+S03-A for H1N1, and S13-C and S13-D over S03-E for H3N2. Correctly paired, and reduced
+the same way, the two subclasses account for 0.559, 0.346 and 0.551 of total IgG.
+Reducing per animal instead makes the impossibility larger, 18.8-fold and 12.5-fold, so
+the reading does not depend on which reduction is used. The same shift appears in both
 panels.
 
 The arithmetic mean for HAI. On S03-C it gives an PSLN-344 titre of 416.0 and a sham

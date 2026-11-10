@@ -133,9 +133,9 @@ Mantel-Cox inline, t-tests via an inline incomplete beta.
 | Prompt | `task/prompt.txt` | 1,187 | `cfc0f29bde3c` |
 | Grader guidelines | `task/grader-guidelines.txt` | 3,717 | `4b166be59225` |
 | Data room | `data-room/adjuvant_program_dataset.xlsx` | 56,787 | `f293502992c7` |
-| Data room | `data-room/trial_summary.pdf` | 59,695 | `842e9dcdf179` |
-| Reviewer golden (either) | `task/golden-response.txt` | 23,800 | `9ba947f20db4` |
-| Reviewer golden (either) | `task/golden-response.pdf` | 41,361 | `43865c1c27e4` |
+| Data room | `data-room/trial_summary.pdf` | 59,695 | `761fffd19ebc` |
+| Reviewer golden (either) | `task/golden-response.txt` | 24,719 | `9215ce3d2ca0` |
+| Reviewer golden (either) | `task/golden-response.pdf` | 41,923 | `bfaff4c8cf90` |
 
 Prompt is 201 words, grader 576. Check each paste against `build/paste-checks.txt`,
 which carries word count, character count, hash prefix and required last line. The
@@ -403,10 +403,19 @@ Current as of `e5f8226`, all re-run after the rename.
 - **Golden vs grader:** all 8 A items met with quoted passages, 0 of 9 B penalties
   tripped, no double-classification, no placement or ordering requirement, every A item
   traceable to something the prompt asks.
-- **Golden arithmetic:** an independent agent recomputed ~180 numeric claims and
-  **every one reproduced exactly** — all 24 log-rank p-values, every survival count,
-  geometric and arithmetic means, per-animal ratios, `10^mean(log10)` values and Welch
-  p-values. No number in the golden is wrong.
+- **Golden arithmetic: true on values, and it was overstated on routes.** Two
+  independent agents have now recomputed the golden. Every *value* reproduces — all 24
+  log-rank p-values, every survival count, all 28 cells of the 2x2, all 18 roster
+  ratios, both pooled means, all seven exponentiated analytes, both `S09-A` timepoint
+  anchors, geometric and arithmetic means, per-animal ratios and Welch p-values. **But
+  the second audit found a defect the first missed:** three figures in the subclass
+  paragraph (16.1-fold, 11.3-fold, and the 0.559/0.346/0.551 triple) reproduce only as
+  ratios of group means while the golden said "computing each per animal". Grader A
+  closes on numbers reproducing *by the route stated*, so by its own standard three of
+  the golden's figures did not. Fixed, numbers unchanged, and the paragraph now says
+  that reducing per animal makes the impossibility larger (18.8-fold and 12.5-fold) so
+  the conclusion is reduction-invariant. The earlier version of this bullet claimed "no
+  number in the golden is wrong" and inferred too much from one agent agreeing.
 - **Prompt:** free of all four constructs deprecated 2026-11-07 — as-of dates, named
   output files or paths, no-web constraints, saved analysis artifacts.
 
@@ -420,7 +429,27 @@ print(len(occ),'occurrences',len(set(occ)),'distinct')
 print({k:v for k,v in collections.Counter(occ).items() if v>1})"
 ```
 
-**Blind spot now closed:** `audit-golden.py` previously checked no survival percentage
+**`audit-golden.py` coverage is NARROWER THAN THIS SECTION USED TO IMPLY, and closing
+it is outstanding work.** The second reference audit enumerated 24 gaps. The three that
+matter:
+
+1. **The `PSLN-212`-vs-sham log-rank row is not computed at all** — 0.0267, 0.088,
+   0.0024, 0.111, 0.066, 0.0063. That row carries the Recommendation's claim that the
+   predecessor fails to separate from vaccine alone in three of six, so the manganese
+   rather than the liposome is doing the work. It is one of the two pillars of the
+   advance decision and nothing in the build touches it.
+2. **The whole subclass argument is uncomputed and roster row 8 is hard-coded**, which
+   is exactly why the script could not have caught the defect above. The per-animal fix
+   is therefore still unprotected by any automated check.
+3. **16 of the 18 roster ratios are printed but never diffed** — only `min` and `max`
+   are asserted, so the middle fourteen can drift silently. Three further checks are too
+   loose to constrain their claim: the `p < 0.0001` age-deficit assertion passes
+   anything under 0.002.
+
+Do not read a green `audit-golden.py` as "the golden is verified". It means the claims
+it covers are verified.
+
+**Blind spot closed earlier, for the record:** `audit-golden.py` previously checked no survival percentage
 and no log-rank p-value, so nothing in the build verified the golden's most
 load-bearing argument. It now computes all 24 log-rank values, the six configurations,
 the `S06-C`/`S06-D` identity, the `S06-G` ceiling reading, `S15-L`, `S15-N` and

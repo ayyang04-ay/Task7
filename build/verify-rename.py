@@ -54,9 +54,6 @@ TEXT = [
     'build/replacements.json',
     'build/replacements.README.txt',
     'build/make-artifacts.py',
-    'build/make-annotation-pdf.py',
-    'task/golden-response.md',
-    'task/golden-response.txt',
     'task/prompt.txt',
     'task/grader-guidelines.txt',
     'fa/transcript-extract.py',
@@ -70,6 +67,13 @@ TEXT = [
 ANNOTATED = {
     'fa/error_modes.md': 'rename note added recording that quoted trajectory text is '
                          'not verbatim at the compound name',
+    'task/golden-response.md': 'reference-audit corrections: the subclass paragraph now '
+                               'names the group-mean reduction that actually produces '
+                               'its figures, plus four accuracy fixes',
+    'task/golden-response.txt': 'generated from golden-response.md',
+    'build/make-annotation-pdf.py': 'SOURCE_DATE_EPOCH moved later than the workbook, '
+                                    'which the annotation previously predated by six '
+                                    'months',
 }
 # Files deliberately left carrying superseded identifiers, because their job is to
 # record the prior state. Asserted BYTE-IDENTICAL to the reference, with no
@@ -138,10 +142,14 @@ for rel, why in ANNOTATED.items():
                 bad.append('line %d still carries %s: %r' % (i, old, line.strip()[:90]))
     want_counts = {g: expected(ref).count(g) for g in GUARD_IN_ANNOTATED}
     got_counts = {g: got.count(g) for g in GUARD_IN_ANNOTATED}
-    moved = {g: (want_counts[g], got_counts[g])
-             for g in GUARD_IN_ANNOTATED if want_counts[g] != got_counts[g]}
-    if moved:
-        bad.append('never-touch counts moved: %s' % moved)
+    # Only a DECREASE is evidence of damage. A permitted prose edit may legitimately add
+    # mentions of an identifier -- the first golden edit took PSLN-344 from 35 to 37 --
+    # whereas a rename rule firing inside an identifier destroys occurrences and can
+    # never create them. Asserting equality here produced a false positive.
+    lost = {g: (want_counts[g], got_counts[g])
+            for g in GUARD_IN_ANNOTATED if got_counts[g] < want_counts[g]}
+    if lost:
+        bad.append('never-touch identifier lost occurrences: %s' % lost)
     if bad:
         fail.append(rel)
         print('  %-36s FAIL' % rel)
@@ -216,7 +224,11 @@ finally:
 print('\nPDFs: extracted text == rename(reference text)')
 try:
     from pdfminer.high_level import extract_text
-    for rel in ('data-room/trial_summary.pdf', 'task/golden-response.pdf'):
+    # Only the data-room PDF is held to byte-for-byte rename equivalence. The golden PDF
+    # is generated from golden-response.md, which is an ANNOTATED file above, so its text
+    # legitimately differs by more than the substitutions; make-artifacts.py --check is
+    # what verifies it against its own source.
+    for rel in ('data-room/trial_summary.pdf',):
         rb = at_ref(rel, binary=True)
         t = os.path.join(HERE, '.ref.pdf')
         open(t, 'wb').write(rb)

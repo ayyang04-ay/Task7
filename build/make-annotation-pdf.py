@@ -12,7 +12,12 @@ TITLES = {
 }
 TITLE, SUBJECT = TITLES.get(os.path.basename(sys.argv[2]) if len(sys.argv) > 2 else '',
                             ('Dataset annotation', 'Annotation of a preclinical dataset'))
-os.environ.setdefault('SOURCE_DATE_EPOCH', '1772900460')
+# 1789468200 = 2026-09-15 10:30:00 UTC. This MUST stay later than the workbook's own
+# stamps -- zip entry mtimes 2026-09-03 16:41 and core.xml modified 2026-09-03T16:41Z.
+# The previous value, 1772900460, was 2026-03-07, so the annotation was dated six
+# months BEFORE the file it describes block by block. A red-team found it. An
+# annotation cannot predate its subject; if the workbook's stamps ever move, move this.
+os.environ.setdefault('SOURCE_DATE_EPOCH', '1789468200')
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.pdfbase import pdfmetrics
