@@ -15,24 +15,24 @@ Advance it.
 
 In all six configurations where aged animals were vaccinated and then challenged
 with a virus of a different subtype, AMnESTI separated from the vaccine alone
-(p = 0.0002 throughout) and from AVB-101, which is the same liposome without the
+(p = 0.0002 throughout) and from PSLN-212, which is the same liposome without the
 manganese (p = 0.0009 to 0.0151). On survival the aged animals were not
-distinguishable from young animals given AVB-101 in any configuration (p = 0.060
-to 0.317). AVB-101 itself fails to separate from vaccine alone in three of the
+distinguishable from young animals given PSLN-212 in any configuration (p = 0.060
+to 0.317). PSLN-212 itself fails to separate from vaccine alone in three of the
 six (p = 0.088, 0.111, 0.066), so the manganese is carrying the effect rather than
 the liposome.
 
 Two further blocks, S15-L and S15-N, are aged, vaccinated and challenged but state
 no challenge virus, so they cannot be classified as homo- or heterosubtypic and are
 not in the six. They point the same way: AMnESTI 6 of 7 in both, against 0 of 7 for
-sham in both and 0 of 7 and 2 of 7 for AVB-101. Including them would not change
+sham in both and 0 of 7 and 2 of 7 for PSLN-212. Including them would not change
 the recommendation.
 
 To be exact about what the six are, because the criterion matters more than the
 count: they are the four-arm cross-subtype challenge blocks on the S06 sheet. Two
 other blocks meet the subtype test and are still not among them. S15-H is aged,
 bivalent-vaccinated and challenged with rgH5N1, so its subtype is plainly derivable,
-but it carries no AVB-101 arm and so cannot support the adjuvant-versus-parent
+but it carries no PSLN-212 arm and so cannot support the adjuvant-versus-parent
 comparison the six are counted for; it gives AMnESTI 6 of 7 against vaccine alone
 0 of 7, which points the same way. S15-L and S15-N fail the subtype test itself. A
 reader who counts S15-H as a seventh favourable configuration is more complete than
@@ -43,12 +43,12 @@ exclusively an aged-animal effect, and the committee should hear it in that form
 rather than the stronger one. Three facts out of the same 2x2, on Ifnb1 at 16 hours
 (S01-A, group means of five animals, Welch t):
 
-- The age deficit is real and large. Aged animals on AVB-101 reach 16.64 against
+- The age deficit is real and large. Aged animals on PSLN-212 reach 16.64 against
   37.60 in young, p < 0.0001.
-- AMnESTI restores aged animals to the young AVB-101 level. 37.11 against 37.60,
+- AMnESTI restores aged animals to the young PSLN-212 level. 37.11 against 37.60,
   p = 0.857, which is as close to indistinguishable as anything in this package.
 - But young animals given AMnESTI go higher still, 50.70, significantly above both
-  aged+AMnESTI (p = 0.012) and young+AVB-101 (p = 0.014).
+  aged+AMnESTI (p = 0.012) and young+PSLN-212 (p = 0.014).
 
 So the adjuvant raises the interferon response in both cohorts. What is age-specific
 is the size of the increment, not its existence: across the five priming readouts it
@@ -92,7 +92,7 @@ imprinting question, not to the cross-subtype count.
 
 That leaves six.
 
-| Block | Vaccine | Challenge | Day | AMnESTI | AVB-101 | sham | untreated |
+| Block | Vaccine | Challenge | Day | AMnESTI | PSLN-212 | sham | untreated |
 |---|---|---|---|---|---|---|---|
 | S06-A | Aichi H3N2 | PR8 H1N1 | 14 | 85.7% | 14.3% | 0% | - |
 | S06-B | Aichi H3N2 | PR8 H1N1 | 3 | 71.4% | 0% | 0% | - |
@@ -106,9 +106,9 @@ n = 7 per arm throughout. Reduction: proportion of rows censored at day 14.
 | Comparison | S06-A | S06-B | S06-C | S06-E | S06-F | S06-G |
 |---|---|---|---|---|---|---|
 | AMnESTI vs sham | 0.0002 | 0.0002 | 0.0002 | 0.0002 | 0.0002 | 0.0002 |
-| AMnESTI vs AVB-101 | 0.0083 | 0.0009 | 0.0068 | 0.0016 | 0.0094 | 0.0151 |
-| AMnESTI vs young AVB-101 | 0.317 | 0.141 | identical | 0.141 | 0.141 | 0.060 |
-| AVB-101 vs sham | 0.0267 | 0.088 | 0.0024 | 0.111 | 0.066 | 0.0063 |
+| AMnESTI vs PSLN-212 | 0.0083 | 0.0009 | 0.0068 | 0.0016 | 0.0094 | 0.0151 |
+| AMnESTI vs young PSLN-212 | 0.317 | 0.141 | identical | 0.141 | 0.141 | 0.060 |
+| PSLN-212 vs sham | 0.0267 | 0.088 | 0.0024 | 0.111 | 0.066 | 0.0063 |
 
 S06-G is not the weak end of a range. The three day-60 blocks each carry an
 arm of 20-month-old animals that received no vaccine and no virus. In S06-G that arm
@@ -127,7 +127,7 @@ size", and the next study is powered to do better.
 Protection also appears at very short intervals. Challenge 3 days after a single
 dose gives 71.4% against 0% for sham (S06-B). In a separate experiment where challenge
 came 2 days after a single dose of rgH5N1 vaccine and animals were followed to day
-21, AMnESTI was 10 of 10 censored, AVB-101 3 of 10 and sham 1 of 10 (S03-J,
+21, AMnESTI was 10 of 10 censored, PSLN-212 3 of 10 and sham 1 of 10 (S03-J,
 n = 10 per arm against a stated n of 9; one AMnESTI row carries an event code with
 no day value and is counted as censored). At those intervals a vaccine-specific
 antibody response has not yet formed **[external: primary humoral responses require
@@ -153,7 +153,7 @@ recombinant GM-CSF brought the knockout arm back to 12.40% (S02-H, group means,
 n = 5).
 
 GM-CSF. Lung Gm-csf transcript at 36 hours was 8.74 for AMnESTI, 1.59 for
-AVB-101 and 1.21 for sham, each relative to untreated animals (S02-F, group
+PSLN-212 and 1.21 for sham, each relative to untreated animals (S02-F, group
 means, n = 5).
 
 CCR2-dependent monocyte recruitment. INCB3344 reduced lung GZMB+ CD8 T cells
@@ -179,7 +179,7 @@ cellular readouts alone, equally consistent with a non-specific antiviral state 
 by STING activation. Those readouts (NP-specific CD8 6.68% against 2.09%, S05-A,
 which is set aside below and is listed here only as part of the reading being
 tested; Ki-67+ CD8
-9.38% against 3.48%, GZMB+ CD8 5.69% against 2.99%, all AMnESTI against AVB-101,
+9.38% against 3.48%, GZMB+ CD8 5.69% against 2.99%, all AMnESTI against PSLN-212,
 group means) are real but sit inside the window where innate effects dominate
 [external: primary CD8 responses to influenza in mice peak at days 7 to 10].
 
@@ -198,10 +198,10 @@ survival in the mechanism-blockade arms, which is Study 1.
 What the adjuvant actually adds
 
 The package compares aged animals given AMnESTI against young animals given
-AVB-101. That comparison changes two things at once. In six labelled blocks, seven panels, the workbook
+PSLN-212. That comparison changes two things at once. In six labelled blocks, seven panels, the workbook
 also carries young animals given AMnESTI, which closes it.
 
-| Readout | aged+AVB-101 | aged+AMnESTI | young+AVB-101 | young+AMnESTI |
+| Readout | aged+PSLN-212 | aged+AMnESTI | young+PSLN-212 | young+AMnESTI |
 |---|---|---|---|---|
 | Ifnb1, 16 h (S01-A) | 16.64 | 37.11 | 37.60 | 50.70 |
 | Ifnb1, 72 h (S01-A) | 3.43 | 4.43 | 1.59 | 3.13 |
@@ -213,7 +213,7 @@ also carries young animals given AMnESTI, which closes it.
 
 Group means, n = 5 throughout.
 
-Adjuvant effect inside each cohort, AMnESTI over AVB-101. Six of the seven
+Adjuvant effect inside each cohort, AMnESTI over PSLN-212. Six of the seven
 readouts go up in aged animals. Five are priming readouts: 2.23, 2.28, 1.65, 4.01
 and 24.35-fold aged, against 1.35, 1.06, 1.02, 1.18 and 1.20-fold young. The sixth
 is the 72-hour interferon residual, 1.29-fold aged against 1.97-fold young, the one
@@ -225,10 +225,10 @@ Two headline numbers change. Ifnb1 at 16 hours reads 0.99 of young on the
 diagonal, which looks like a match. Holding formulation constant it is 0.73. And
 the 72-hour residual reads 2.78 of young on the diagonal but 1.42 with formulation
 held, because young animals given AMnESTI also fail to clear, 3.13 against 1.59 for
-young animals given AVB-101.
+young animals given PSLN-212.
 
 The limit. Downstream of the dendritic cell compartment, no humoral or cellular
-endpoint carries a young-plus-AMnESTI arm alongside the aged and young-AVB-101
+endpoint carries a young-plus-AMnESTI arm alongside the aged and young-PSLN-212
 comparators, which is what a within-adjuvant contrast needs. The seven panels
 tabulated above are the whole of what does. S02-I does carry a young-plus-AMnESTI arm, but only against its own
 CCR2-blocked control, so it supports no age contrast. For everything downstream of
@@ -275,8 +275,8 @@ Neither is in the eighteen. Any count stated without the roster is unreconstruct
 and should not be relied on.
 
 Against the age-matched comparator the same endpoints invert. H1N1 serum IgG is
-18.06-fold over AVB-101 (7891.6 against 437.0, S03-A, group means) and 0.62 of young.
-H1N1 HAI is 8.00-fold over AVB-101 by geometric mean (367.58 against 45.95) and
+18.06-fold over PSLN-212 (7891.6 against 437.0, S03-A, group means) and 0.62 of young.
+H1N1 HAI is 8.00-fold over PSLN-212 by geometric mean (367.58 against 45.95) and
 0.76 of young. Which comparator we pick decides whether this asset looks
 transformative or disappointing, and for a 65-plus product the age-matched one is
 the relevant one.
@@ -340,7 +340,7 @@ Study 2. Benchmark against the actual standard of care.
   CD8, resident memory and serum antibody, secondary.
 - Population: 20-month-old animals.
 - Comparators: standard-dose vaccine with AMnESTI; high-dose antigen without
-  adjuvant, dose-ranged; standard-dose with AVB-101; sham.
+  adjuvant, dose-ranged; standard-dose with PSLN-212; sham.
 - Readouts: survival by log-rank; immune endpoints on the same animals.
 - Timing: single dose, challenge at day 14 and day 60 to cover durability.
 
@@ -360,7 +360,7 @@ Study 3. Resolution kinetics, as the gating tolerability study.
 - Endpoints: time for Ifnb1, Tnf, Il10 and Ccl5 to return to the untreated
   reference. Lung histopathology and body weight, supporting.
 - Population: 20-month-old animals, same strain and route.
-- Comparators: age-matched AVB-101 and age-matched untreated. The young arm is
+- Comparators: age-matched PSLN-212 and age-matched untreated. The young arm is
   context, not the acceptance criterion.
 - Readouts: the same seven-analyte panel reported on a linear scale with the
   reduction stated.
@@ -385,7 +385,7 @@ Antibody titre, as the readout to power the next study on. Largest effects in
 the package, but every antibody assay used the vaccine's own antigens.
 
 The S03-B and S03-F subclass ratio panels, as printed. Recomputed per animal
-from the subclass data, the H1N1 ratio is 0.578 for AVB-101, 2.144 for AMnESTI
+from the subclass data, the H1N1 ratio is 0.578 for PSLN-212, 2.144 for AMnESTI
 and 2.972 for young, against 2.972, 0.578 and 2.144 as printed. The labels are
 shifted by one position. The reading is forced rather than preferred: under the
 printed assignment one arm's IgG2a plus IgG1 would have to exceed its own total IgG
@@ -410,7 +410,7 @@ Ovalbumin is a model protein, not evidence of breadth.
 
 Tolerability, checked rather than assumed. Both assays carry a positive control
 that moved. Body weight at day 10 (S08-D) was 99.78% of baseline for AMnESTI against
-90.65% for AVB-101/R848, which is the arm that shows the assay can detect weight
+90.65% for PSLN-212/R848, which is the arm that shows the assay can detect weight
 loss, and that group had 4 of 5 animals remaining at day 10 with a minimum of
 84.7%. Central nervous system cytokines (S10-A) ran 1.13 to 1.59 for AMnESTI against
 2.68 to 5.50 for cholera toxin. Dosing sits at a plateau (S08-A): 20 micrograms

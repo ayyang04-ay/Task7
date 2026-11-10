@@ -1,10 +1,14 @@
 # Handoff — Anton task psql25c1 (AMnESTI mucosal adjuvant)
 
-Repo `ayyang04-ay/Task7`, branch **`claude/exciting-cray-mkihzd-v2`**, HEAD `e5f8226`,
-working tree clean, all work pushed. Develop and push here.
+Repo `ayyang04-ay/Task7`, branch **`claude/exciting-cray-mkihzd-v3`**, cloned from v2
+at `0c83eae`. Develop and push here.
 
-**Do not build on `claude/exciting-cray-mkihzd`.** That is the pre-rename history and
-it shipped a leak. v2 exists because of it.
+**`claude/exciting-cray-mkihzd-v2` is the integrity reference and must not be edited.**
+It carries the pre-rename-3 identifiers, which is exactly what `build/verify-rename.py`
+diffs the working tree against. Editing it destroys that reference.
+
+**Do not build on `claude/exciting-cray-mkihzd`** either. That is pre-rename-2 history
+and it shipped a leak. v2 exists because of it.
 
 RLS short ID `psql25c1`, task `task_4ce55343502b4d17b2182158ad6e4533`, campaign
 `camp_0589d1e96758477586df0e43dd8eeec1`.
@@ -37,7 +41,17 @@ My own verification has twice been insufficient on exactly this kind of change.
    object-level metadata and XMP, font names, prose register, and whether the original
    figure-panel scheme is recoverable. **Tell it explicitly to search for published
    compound, product and reagent names**, which is the check every earlier sweep of
-   mine lacked and the reason this branch exists.
+   mine lacked and the reason this branch exists. Make the enumeration a named
+   deliverable: every compound, product, reagent, catalogue and protocol identifier in
+   both files, with a verdict per identifier on whether it resolves to a real published
+   entity and to what. The sandbox has no web, so that enumeration is parametric
+   knowledge only and a real-but-obscure name can pass it — **run a separate web pass
+   over the returned list, outside the sandbox.** That is how rename 3's `AVB-101`
+   collision was found, and no earlier sweep would have caught it.
+   Also give it the annotation's `as printed` register as an explicit target: section 6
+   records the user's decision to keep it and the reasoning, and the open question is
+   whether an independent read calls it a pointer at a *publication* or merely at an
+   internal upstream source.
 2. **Solvability, two agents.** Isolated, prompt plus the two files only, no answer
    key. Ask for a full analysis plus an exhaustive derivation log marking every
    question DERIVED / BLOCKED / AMBIGUOUS. Write the grading checklist *before* the
@@ -94,6 +108,8 @@ python3 -I make-artifacts.py          # regenerate every shipped artifact
 python3 -I make-artifacts.py --check  # fail on drift; covers prompt, grader, annotation PDF, both golden copies
 python3 -I audit-golden.py            # recompute every figure in the golden against the workbook
 python3 -I audit-registry.py          # print the full verified value set
+python3 -I verify-rename.py           # prove the tree reduces to rename 3's declared substitutions
+python3 -I rename-assets.py --check   # dry-run the rename rules and the never-touch guard
 ```
 
 The first two must be green before any upload. No scipy, no lifelines — log-rank is
@@ -107,10 +123,10 @@ Mantel-Cox inline, t-tests via an inline incomplete beta.
 |---|---|---|---|
 | Prompt | `task/prompt.txt` | 1,185 | `ad26031a9b9c` |
 | Grader guidelines | `task/grader-guidelines.txt` | 3,716 | `59c80b9d1fd8` |
-| Data room | `data-room/amnesti_preclinical_dataset.xlsx` | 56,830 | `f52687b64766` |
-| Data room | `data-room/trial_summary.pdf` | 59,731 | `1652d1d66813` |
-| Reviewer golden (either) | `task/golden-response.txt` | 23,738 | `7a2f4645020d` |
-| Reviewer golden (either) | `task/golden-response.pdf` | 41,453 | `5170d5435bad` |
+| Data room | `data-room/amnesti_preclinical_dataset.xlsx` | 56,858 | `f62655fdaf54` |
+| Data room | `data-room/trial_summary.pdf` | 59,759 | `083c6dc694a9` |
+| Reviewer golden (either) | `task/golden-response.txt` | 23,765 | `c03e2dc6ec68` |
+| Reviewer golden (either) | `task/golden-response.pdf` | 41,434 | `f69f3a87e5cd` |
 
 Prompt is 201 words, grader 576. Check each paste against `build/paste-checks.txt`,
 which carries word count, character count, hash prefix and required last line. The
@@ -148,6 +164,13 @@ The user settled all of these. Re-opening them has wasted time more than once.
    classification is derived from them.
 10. **No reagent glosses.** Mechanism explanations for common reagents were removed;
     `Carbenoxolone (CBX)` keeps its parenthetical on the user's instruction.
+11. **Only proprietary asset names are ever renamed for leak exposure.** Reagent,
+    strain, gene, allele, marker, protein and catalogue identifiers never change —
+    `CD11b`, `Ly6C`, `H5N1`, `H-2Db` and the rest are the never-touch guard in
+    `build/rename-assets.py`, not targets. This is decision 9 restated as an
+    operational rule after rename 1 corrupted 73 of exactly those strings.
+12. **Any workbook edit is zip-level, sheet entries only.** Never an openpyxl
+    round-trip. See section 7, rename 3.
 
 ---
 
@@ -157,23 +180,28 @@ The user settled all of these. Re-opening them has wasted time more than once.
 
 **Then:** resubmit, re-run the panel, write the FA.
 
-**Two open user calls, both offered and neither answered:**
+**Both former open calls are now answered by the user. Do not reopen them.**
 
-- **The annotation's "as printed" / "as found" register.** Every entry is framed as a
-  third party transcribing an external artifact. The red-team read that as a provenance
-  tell and is right that it is one. I had argued for keeping it because both
-  solvability agents quoted those phrases back as useful signals about which fields are
-  the workbook's own claims — but that was weak evidence for a *leak* question, since
-  those agents were not looking for leaks, and **I withdrew the recommendation.**
-  Rewriting the framing across 102 entries is a substantial edit nobody has authorised.
-  Ask first.
-- **`AUP-0417`.** The animal-protocol identifier. The original was a real searchable
-  number from the source publication's methods and is gone. This replacement was
-  invented in-session; it resolves to nothing and is not a leak. The red-team ranked it
-  its top finding on the false premise that it points at a real registry — it does not,
-  and it could not have known that. Its weaker point stands: the `AUP-####` format
-  reads academic rather than corporate, which fights the "our asset" framing. Cosmetic
-  realism only. Options offered: a corporate-style ID, keep as is, or drop the number.
+- **The annotation's "as printed" register: KEEP AS IS.** The user's call, and the
+  reasoning behind it is worth recording because it reverses an earlier position.
+  The register is 111 occurrences, and they are not one thing: 102 are the repeated
+  field label `**Groups as printed**`, one is the preamble that establishes the stance,
+  four are `as printed in the header row` / `in column 1`, and **two are
+  `**Timepoint**: as printed in the block label, 16 hours after administration` at
+  annotation-source lines 592 and 600 — the two S09-A headers, i.e. forcing-chain leg
+  16.** Those two cannot change under any option: strip the phrase and the annotation
+  stops transcribing a wrong label and starts asserting a timepoint the data
+  contradicts, which is the companion document inventing a fact and is forbidden by
+  standing rule 2. That makes any rewrite necessarily partial, leaving two unexplained
+  leftovers in a document whose declared stance no longer accounts for them, which is a
+  worse tell than consistency. The register is also coherent with the file's own
+  authored provenance: `core.xml` names the creator `Preclinical Data Management`, a
+  transcribing function rather than a scientist, so voice and metadata agree. The
+  register remains an explicit red-team target so the next sweep gives an independent
+  read, but the default is no change.
+- **`AUP-0417` is now `PCL-26-0417`.** Corporate-style identifier on the user's
+  instruction. The surrounding sentence is unchanged: companies do run IACUCs, so only
+  the identifier read academic. Resolves to nothing, as before.
 
 ---
 
@@ -223,7 +251,44 @@ would have destroyed `R848` inside `NanoR848`.**
 
 Suffixes rode along, so the deliberate quirks survived: `AVB-101 ` with the trailing
 space, `AVB-101(y)` lowercase, `AVB-101Y` without parentheses, `Imprinting+AVB-101`,
-`Naïve+AVB-101`. The rename script lives in the session scratchpad only, not the repo.
+`Naïve+AVB-101`. The rename script lived in the session scratchpad only, not the repo,
+which is why rename 3 had to rebuild the guard from nothing. Fixed: see below.
+
+**Rename 3, a third-party collision rather than a leak.** `AVB-101` is a real
+clinical-stage asset — AviadoBio's AAV9-GRN gene therapy for frontotemporal dementia,
+Phase 1/2 since 2023, FDA Orphan and Fast Track. Rename 2 had replaced one published
+compound name with a different published compound name. It is **not** a provenance
+leak: nothing about a dementia gene therapy points at the source programme, influenza
+or STING, so a solver who recognises the string concludes the writer reused an
+unrelated code. The cost was realism and reviewer credibility. `CMP-204` was searched
+and is clean, and stays.
+
+| Was | Now |
+|---|---|
+| `AVB-101` | `PSLN-212` |
+| `AVB-R848` | `PSLN-R848` |
+| `AVB-SRB` | `PSLN-SRB` |
+| `AUP-0417` | `PCL-26-0417` |
+
+Three rules, each a full name of 7+ characters so none can match inside a gene, allele,
+strain or marker, applied longest-first so none can fire inside another. Suffixes rode
+along again and every quirk survived: `PSLN-212 ` trailing space, `PSLN-212(y)`,
+`PSLN-212Y`, `PSLN-212/R848`, `PSLN-212+GM-CSF`, `Imprinting+PSLN-212`,
+`Naïve+PSLN-212`, `AECI/PSLN-SRB` and the three other AEC forms.
+
+**Both scripts are in the repo this time.** `build/rename-assets.py` carries the rules
+and a 60-entry never-touch guard, counted in every target before and after, aborting if
+any count moves. `build/verify-rename.py` proves the stronger property: take every file
+as it stands on v2, apply the declared substitutions, and require byte-identity with
+the working tree. It passes over 18 text files, 22,542 workbook cells, the zip shape and
+both PDFs. 177 string cells renamed, 6,819 non-string cells identical.
+
+**The workbook was edited at the zip level, sheet entries only, never through
+openpyxl.** An `openpyxl` load/save round-trip rebuilds the entry set, synthesises a
+`sharedStrings.xml` the file does not have, rewrites `app.xml` and the theme and resets
+every mtime — reintroducing the over-sanitisation tells recorded below as fixed. Entry
+names, order, mtimes and compression are preserved and every non-sheet entry is
+byte-identical. Any future edit to the workbook must work the same way.
 
 **My own sanitisation created new tells**, all found by the red-team: an empty
 `core.xml` (an absent creator is itself a signal), every zip entry stamped

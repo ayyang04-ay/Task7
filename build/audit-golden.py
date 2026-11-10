@@ -105,7 +105,7 @@ hib=[v for k,v in vals.items() if k not in ('Ifnb1 72h','Tfr')]
 print('  higher-is-better: n=%d  min %.4f  max %.4f'%(len(hib),min(hib),max(hib)))
 chk('higher-is-better min', min(hib), 0.406, 1e-3)
 chk('higher-is-better max', max(hib), 0.987, 1e-3)
-print('\nADJUVANT EFFECT WITHIN COHORT (AMnESTI / AVB-101)')
+print('\nADJUVANT EFFECT WITHIN COHORT (AMnESTI / PSLN-212)')
 # Checks the golden's claim that six of the seven readouts rise in aged animals, that
 # the five priming readouts span 1.65 to 24.35 aged and 1.02 to 1.35 young, and that
 # the sixth, the 72 h interferon residual, is the one where the young gain is larger.
@@ -268,7 +268,7 @@ for lbl, hdr in (('S15-L', 102), ('S15-N', 133)):
 
 # S03-J: the header says n=9 and every arm holds 10. The annotation used to say 9.
 sh = wb['S03']
-for col, name, exp in (('H', 'Sham', 1), ('I', 'AVB-101', 3), ('J', 'AMnESTI', 10)):
+for col, name, exp in (('H', 'Sham', 1), ('I', 'PSLN-212', 3), ('J', 'AMnESTI', 10)):
     rows = [r for r in range(17, 47) if sh['%s%d' % (col, r)].value is not None]
     cens = sum(1 for r in rows if sh['%s%d' % (col, r)].value == 0)
     print('   S03-J %-8s %d observations, %d censored' % (name, len(rows), cens))
