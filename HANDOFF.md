@@ -94,8 +94,32 @@ challenges are heterosubtypic by reading the challenge virus subtype out of that
 sentence. Mangled, the classification is not derivable. `Ly6C` and `Ly6G` define
 the monocyte and neutrophil gates.
 
-Fix: revert all five strings everywhere, then
-`cd build && python3 -I make-artifacts.py` to rebuild the PDF.
+**The workbook itself is clean.** It still carries the correct identifiers (4
+occurrences, 0 corrupted). So the annotation now contradicts the workbook it
+describes: `S07` header reads `CD11b+Ly6C+ Monocytes` while the annotation calls
+that block `CD11b+LyS06-B+CD11c-LyS06-D-`. A solver reading both shipped files sees
+a direct disagreement between them.
+
+Fix: revert all five strings in the four text files, then
+`cd build && python3 -I make-artifacts.py` to rebuild the PDF. Do not touch the
+workbook.
+
+Verification, before and after:
+
+```bash
+cd /home/user/Task7
+for s in HS05-I1 LyS06-B LyS06-D H-S02-Cb H-S02-Hd; do
+  printf '%-10s ann:%s gold:%s brief:%s\n' "$s" \
+    "$(grep -c "$s" build/annotation-source.md)" \
+    "$(grep -c "$s" task/golden-response.md)" \
+    "$(grep -c "$s" build/anton-brief-psql25c1.md)"
+done
+python3 -I -c "from pdfminer.high_level import extract_text as e; t=e('data-room/trial_summary.pdf'); print({s:t.count(s) for s in ('HS05-I1','LyS06-B','LyS06-D')})"
+```
+
+Current counts: annotation 15/7/1, golden 3/2/0, brief 4/1/0 plus 2 `H-S02-Cb` and
+1 `H-S02-Hd`, PDF 16/10/1. All must reach zero. `audit-golden.py` line 87 also
+carries a `LyS06-B` dict key.
 
 **5.2 — 20 hyperlink artefacts in the workbook name the pre-rename compound.**
 `xl/worksheets/sheet13.xml` and `sheet15.xml` plus their `_rels` carry
@@ -205,6 +229,25 @@ Notes the FA needs:
 - **These trajectory IDs come from the batch that ran against the old labels.** The
   analysis a solver does is unchanged by the rename, so the modes should reproduce,
   but a new batch supersedes these IDs.
+
+## 7a. Not in the repo — the user must re-upload
+
+A new session will not have these. They lived in the previous session's uploads and
+scratchpad.
+
+| Needed for | What to re-upload |
+|---|---|
+| FA, any transcript work | `Anton_4ce55343502b4d17b2182158ad6e4533_job_91694a59_2026-11-09.zip` |
+| QA cross-reference, if ever wanted | `qa_report_psql25c1_v1_84eb8cc6.zip` |
+| Verifying or re-authoring any annotation entry against its source legend | `nihms-2207669.pdf` and `NIHMS2207669-supplement-supplemental_materials.docx` |
+| Design decisions | `anton-scope2_1.zip`, the newer of the two skill drops |
+
+The source publication PDF is only needed to check annotation entries against the
+figure legends they were written from. It must never be mounted in the data room.
+
+`build/pre-edit-workbook-backup.xlsx` is the workbook as the publisher shipped it,
+before the metadata strip and the rename. Kept so any integrity claim can be
+re-checked. It is not uploaded to Studio.
 
 ## 8. Transcripts and QA
 
