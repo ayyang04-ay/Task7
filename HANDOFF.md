@@ -1,330 +1,266 @@
 # Handoff — Anton task psql25c1 (AMnESTI mucosal adjuvant)
 
-Written at the end of a long session. A new session starts here.
+Repo `ayyang04-ay/Task7`, branch **`claude/exciting-cray-mkihzd-v2`**, HEAD `e5f8226`,
+working tree clean, all work pushed. Develop and push here.
 
-Repo `ayyang04-ay/Task7`, branch **`claude/exciting-cray-mkihzd-v2`**, all work pushed.
-The v2 branch exists because a red-team sweep found a leak the earlier branch shipped;
-`claude/exciting-cray-mkihzd` is the pre-rename history and should not be built on.
+**Do not build on `claude/exciting-cray-mkihzd`.** That is the pre-rename history and
+it shipped a leak. v2 exists because of it.
+
 RLS short ID `psql25c1`, task `task_4ce55343502b4d17b2182158ad6e4533`, campaign
 `camp_0589d1e96758477586df0e43dd8eeec1`.
+[Studio](https://studio.mercor.com/annotator/tasks/task_4ce55343502b4d17b2182158ad6e4533/?campaignId=camp_0589d1e96758477586df0e43dd8eeec1)
 
 ---
 
-## 1. What this is
+## 1. START HERE — the one thing blocking the re-run
 
-An Anton eval task (Mercor, preclinical drug R&D). A solver gets a prompt and a
-data room and has to recommend whether to advance an adjuvant. The deliverable
-that matters is the **failure analysis**, written by hand by the user in Studio,
-on what the panel of solver runs got wrong. Build artifacts exist to produce
-transcripts, not to score well.
+Everything mechanical is done and verified. **What has not happened is any independent
+read of the renamed files.**
 
-Read `/root/.claude/skills/.../anton-scope2/SKILL.md` and its `references/` before
-making design decisions. Read `anton-fa` before touching the FA.
+The last change was a 194-replacement rename across the workbook, the annotation, the
+golden and two scripts, plus eight annotation edits and six golden edits. Every check
+run against it since is mechanical: string counts, audits, correspondence, provenance
+greps. All green. But:
+
+- the earlier solvability check passed against the **pre-rename** files
+- the leakage red-team read the **pre-rename** files
+- the same class of bulk rename corrupted 73 identifiers the first time it ran
+- a red-team found a published-compound-name leak in files that had already passed
+  four of my own provenance sweeps
+
+My own verification has twice been insufficient on exactly this kind of change.
+**Re-run the sweep before shipping.** Four agents:
+
+1. **Leakage red-team.** Isolated sandbox, only the two shipped data-room files plus
+   `task/prompt.txt`. No repo access, no web. Brief it adversarially — to *disprove*
+   the claim that the files are an internal dump. Point it at zip internals, PDF
+   object-level metadata and XMP, font names, prose register, and whether the original
+   figure-panel scheme is recoverable. **Tell it explicitly to search for published
+   compound, product and reagent names**, which is the check every earlier sweep of
+   mine lacked and the reason this branch exists.
+2. **Solvability, two agents.** Isolated, prompt plus the two files only, no answer
+   key. Ask for a full analysis plus an exhaustive derivation log marking every
+   question DERIVED / BLOCKED / AMBIGUOUS. Write the grading checklist *before* the
+   reports land.
+3. **References.** Repo access. Recompute every cited number. Tell it
+   `build/audit-golden.py` is **not** authority — same author as the golden, so they
+   can share a mistake.
+
+A leg counts as solvable if at least one agent derives it. An agent reaching a
+different conclusion from the golden is not a failure; only an underivable leg is.
+
+Expect and do not treat as defects: the workbook's internal contradictions, both
+`S09-A` headers reading 16h, `S06-D` duplicating `S06-C`, `S15-L`/`S15-N` carrying no
+stated challenge virus, the unlabelled region at `S08` rows 89–101, no timepoint past
+72 h, no HA dose-ranging, no per-animal link between an immune measure and an outcome.
+
+---
+
+## 2. What this is
+
+An Anton eval task (Mercor, preclinical drug R&D). A solver gets a prompt and a data
+room and must recommend whether to advance an adjuvant. **The deliverable that matters
+is the failure analysis**, hand-written by the user in Studio, on what a panel of
+solver runs got wrong. Build artifacts exist to produce transcripts, not to score well.
+
+Read the `anton-scope2` skill and its `references/` before any design decision, and
+`anton-fa` before touching the FA.
 
 **Source material** is Gao et al., Sci Immunol 2026;11(123):eadz5242. Its
-supplementary data file is the data room. The publication is NOT mounted and must
-stay unmounted. Licence was checked by the user against the AAAS policy page and
-cleared; do not reopen it.
+supplementary data file is the data room. The publication is NOT mounted and must stay
+unmounted. Licence was checked by the user against the AAAS policy page and cleared —
+do not reopen it.
 
-## 2. Repo layout
+---
+
+## 3. Repo layout and commands
 
 ```
-data-room/   what the solver sees: amnesti_preclinical_dataset.xlsx, trial_summary.pdf
-task/        uploaded to Studio: prompt.txt, grader-guidelines.txt, golden-response.md
+data-room/   what the solver sees
+task/        uploaded to Studio
 build/       sources, generators, audits. NOT uploaded.
 fa/          failure-analysis working files
-HANDOFF.md   this file
 ```
 
-`build/make-artifacts.py` regenerates prompt.txt and grader-guidelines.txt from the
-brief and rebuilds the annotation PDF. `--check` fails on drift.
-`build/audit-golden.py` recomputes every figure in the golden against the workbook.
-`build/audit-registry.py` prints the full verified value set.
-Run both from `build/` with `python3 -I`. No scipy or lifelines; log-rank is
-Mantel-Cox implemented inline.
+`build/anton-brief-psql25c1.md` is the design document and the single source for the
+prompt and the grader. `build/annotation-source.md` is the single source for the
+annotation PDF. `task/golden-response.md` is the authored golden. **The shipped copies
+are generated and are never edited by hand.**
 
-## 2a. Compound-name rename — the second leak, and what the codes mean
+From `build/`, with `python3 -I`:
 
-An adversarial red-team review of the shipped files found what every earlier
-provenance sweep had missed. Those sweeps searched for authors, DOIs, journals, paths
-and generator strings. **None searched for published compound names.** The data room
-carried two, from the source program's own lineage, and defined the asset as a
-one-variable delta on one of them.
+```bash
+python3 -I make-artifacts.py          # regenerate every shipped artifact
+python3 -I make-artifacts.py --check  # fail on drift; covers prompt, grader, annotation PDF, both golden copies
+python3 -I audit-golden.py            # recompute every figure in the golden against the workbook
+python3 -I audit-registry.py          # print the full verified value set
+```
 
-| Was | Now | Why |
-|---|---|---|
-| `NanoSTING` / `nanoSTING` | `AVB-101` | published named adjuvant; the asset was defined only as "this plus Mn2+" |
-| `NanoSTING/R848` | `AVB-101/R848` | coinage dropped, R848 kept |
-| `NanoR848` | `AVB-R848` | same |
-| `NanoSRB` | `AVB-SRB` | same; SRB is a generic dye |
-| `PS-GAMP` / `PSGAMP` | `CMP-204` | one lab's published compound name |
-| molar ratio `10:1:1:1` | removed | the published formulation of a specific named particle |
+The first two must be green before any upload. No scipy, no lifelines — log-rank is
+Mantel-Cox inline, t-tests via an inline incomplete beta.
 
-Suffixes rode along, so the deliberate source quirks all survived: `AVB-101 ` with the
-trailing space, `AVB-101(y)` lowercase, `AVB-101Y` without parentheses,
-`Imprinting+AVB-101`, `Naïve+AVB-101`.
+---
 
-**Kept deliberately, on the user's rule that generic and non-proprietary items carry
-no leak exposure:** `ADU-S100`, `R848`, the BEI catalogue numbers, every strain name
-(`CA09`, `PR8`, `Aichi`, `Perth`, `rgVN04` — and these are load-bearing for the
-subtype classification), the lipid names, `INCB3344`, `Clodrosome`, carbenoxolone,
-`OT-I`, `Sftpa1-/-Sftpd-/-`.
+## 4. The five shipped artifacts
 
-**The rename was done with the lesson from the first one applied.** Every rule is a
-full compound name of seven or more characters, so unlike the bare two-character
-tokens that corrupted `H5N1` and `Ly6C`, none can match inside a gene, allele, strain
-or marker name. A 48-identifier guard list was checked before and after every file,
-and it earned its keep: it caught a rule of mine that would have destroyed `R848`
-inside `NanoR848`. Rules and guard are in the scratchpad copy of `rename.py`; the
-surviving figure-label rules in `replacements.json` are untouched by this.
+| Upload as | File | Bytes | sha256 |
+|---|---|---|---|
+| Prompt | `task/prompt.txt` | 1,185 | `ad26031a9b9c` |
+| Grader guidelines | `task/grader-guidelines.txt` | 3,716 | `59c80b9d1fd8` |
+| Data room | `data-room/amnesti_preclinical_dataset.xlsx` | 56,830 | `f52687b64766` |
+| Data room | `data-room/trial_summary.pdf` | 59,731 | `1652d1d66813` |
+| Reviewer golden | `task/golden-response.txt` or `.pdf` | 23,738 | `7a2f4645020d` |
 
-## 3. Standing decisions — do not re-litigate
+Prompt is 201 words, grader 576. Check each paste against `build/paste-checks.txt`,
+which carries word count, character count, hash prefix and required last line. The
+line-break property is the one a diff will not show you: confirm in the form that each
+paragraph is still a single unbroken line, and that the grader's C list is present at
+the bottom.
 
-The user settled all of these. Re-opening them wasted time once already.
+**Never upload a `.md`.** `task/golden-response.md` is the authored source;
+`make-artifacts.py` generates `.txt` and `.pdf` with content verified identical, and
+one of those goes in the form. The project guideline banning `.md` is not scoped to the
+data room, so neither is this.
+
+---
+
+## 5. Standing decisions — do not re-litigate
+
+The user settled all of these. Re-opening them has wasted time more than once.
 
 1. **"Ground truth" means the data is the authoritative source for the decision, not
    that it is error-free.** The workbook's internal contradictions are a flawed real
-   dataset and they STAY. Do not repair them. Standing rule 3 covers this.
-2. **QA findings are overridable unless Critical.** The task priority is the FA, so
-   QA matters even less. Do not spend effort on QA rebuttals.
-3. **Scoring is deprecated.** The old 0.55 mean gate does not apply. The gate is
-   **at least one failure mode shared by at least two runs.** That is already met.
-4. **The grader is a skeleton** to help prep the FA. It does not need to be airtight.
+   dataset and they STAY. Do not repair them.
+2. **QA findings are overridable unless Critical.** The priority is the FA.
+3. **Scoring is deprecated.** The old 0.55 mean gate does not apply. The gate is at
+   least one failure mode shared by at least two runs. Already met.
+4. **The grader is a skeleton** to help prep the FA. It need not be airtight.
 5. **No out-of-scope line in the prompt**, no not-all-relevant line, no world-fact
    constraint on deferral. All deliberate.
 6. **All 101 blocks annotated; non-load-bearing noise kept as is.**
-7. **No `.md` file is uploaded anywhere.** The annotation ships as PDF. The golden is
-   authored as `.md` but uploaded as `.txt` or `.pdf`, both generated with identical
-   content; the `.md` stays as the source only. The reviewer feedback scoped this to
-   the data room, but the project guideline is not scoped, so neither is this.
+7. **No `.md` anywhere in the upload.**
 8. Assume the solver image has the packages it needs.
-9. **BEI Resources catalogue numbers stay** (`NR-3177`, `NR-348`, `NR-41803`). Buying
-   reference influenza strains from a public repository is ordinary industry practice,
-   the catalogue number is the unambiguous way to name a strain, and the numbers are
-   shared across many papers so they identify no single one. The IACUC protocol number
-   was a different case and has been removed: see 5.11.
-10. **The annotation's "as printed" / "as found" register stays.** Both solvability
-   agents quoted those phrases back as useful signals about which fields are the
-   workbook's own claims rather than the annotator's, and neither read them as a
-   provenance tell. Reopen only if a reviewer raises it.
+9. **Generic and non-proprietary items carry no leak exposure and stay.** BEI
+   catalogue numbers (`NR-3177`, `NR-348`, `NR-41803`, `FR-201`), every strain name,
+   `ADU-S100`, `R848`, the lipid names, `INCB3344`, `Clodrosome`, carbenoxolone,
+   `OT-I`, `Sftpa1-/-Sftpd-/-`. Strain names are additionally load-bearing: the subtype
+   classification is derived from them.
+10. **No reagent glosses.** Mechanism explanations for common reagents were removed;
+    `Carbenoxolone (CBX)` keeps its parenthetical on the user's instruction.
 
-## 4. State of the four artifacts
+---
 
-| | Status |
+## 6. What remains
+
+**Blocking:** the sweep in §1. Nothing else.
+
+**Then:** resubmit, re-run the panel, write the FA.
+
+**Two open user calls, both offered and neither answered:**
+
+- **The annotation's "as printed" / "as found" register.** Every entry is framed as a
+  third party transcribing an external artifact. The red-team read that as a provenance
+  tell and is right that it is one. I had argued for keeping it because both
+  solvability agents quoted those phrases back as useful signals about which fields are
+  the workbook's own claims — but that was weak evidence for a *leak* question, since
+  those agents were not looking for leaks, and **I withdrew the recommendation.**
+  Rewriting the framing across 102 entries is a substantial edit nobody has authorised.
+  Ask first.
+- **`AUP-0417`.** The animal-protocol identifier. The original was a real searchable
+  number from the source publication's methods and is gone. This replacement was
+  invented in-session; it resolves to nothing and is not a leak. The red-team ranked it
+  its top finding on the false premise that it points at a real registry — it does not,
+  and it could not have known that. Its weaker point stands: the `AUP-####` format
+  reads academic rather than corporate, which fights the "our asset" framing. Cosmetic
+  realism only. Options offered: a corporate-style ID, keep as is, or drop the number.
+
+---
+
+## 7. Incident history — read before any bulk edit
+
+Two leaks and two renames. Kept because it prevents repeats and the FA needs it.
+
+**Leak 1, metadata and labels.** The workbook was the publisher's supplementary file:
+filename was the DOI suffix, sheet names were the article's figure-panel names,
+`dc:creator` and `cp:lastModifiedBy` named the first author, `x15ac:absPath` carried
+their local path, and ten cells carried `mailto:` hyperlink artefacts naming a
+pre-rename compound. All 8 runs of the first panel cited the filename, and one reasoned
+from it that the file was "the supplementary file from a published paper". All fixed.
+
+**Rename 1, which corrupted the data.** Block labels were renamed to `S01`–`S15` /
+`S01-A` with a 505-rule dictionary, **125 of whose rules were bare two-character panel
+tokens applied as plain substring replacements.** `5N`→`S05-I` turned `H5N1` into
+`HS05-I1`; `6C`→`S06-B` turned `Ly6C` into `LyS06-B`; also `Ly6G`, `H-2Db`, `H-2Kd`.
+73 real identifiers corrupted, 27 of them in the shipped PDF, and the annotation ended
+up contradicting the workbook it described. It broke the subtype-classification leg,
+because the solver reads the challenge virus out of a sentence the rename mangled. I
+had written "risk is low but real" when building the dictionary and never checked.
+Reverted; the 125 rules deleted; `build/replacements.README.txt` records what they did
+and the identifier list to diff against before writing anything like them again. The
+380 surviving rules all anchor on a `Fig`/`Figure`/`Supp`/`Table` prefix and were
+tested against 64 real identifiers — zero fire.
+
+**Leak 2, published compound names.** Found by an adversarial red-team on files that
+had already passed four of my own provenance sweeps. Those searched authors, DOIs,
+journals, paths and generator strings. **None searched for published compound names.**
+The data room named two adjuvants from the source program's lineage and defined the
+asset as a one-variable delta on one of them.
+
+**Rename 2, done with the lesson applied.** Every rule is a full compound name of 7+
+characters, so none can match inside a gene, allele, strain or marker name. A
+48-identifier guard ran before and after every file and **caught a rule of mine that
+would have destroyed `R848` inside `NanoR848`.**
+
+| Was | Now |
 |---|---|
-| Prompt | Done. 201 words, flat text, all four 7-Nov deprecations absent. Unchanged by any repair below |
-| Data room | Done. Corruption reverted, hyperlinks stripped, bullet glyph fixed, drift check now covers the PDF |
-| Golden | Done. 5.5 to 5.10 all applied; `audit-golden.py` green including new checks on the six-readout claim and on S15-H |
-| Grader | Done as a skeleton. Re-checked against the rewritten golden: the only mention of the innate alternative is in the neutral C list, which permits either position, so nothing trips |
+| `NanoSTING` / `nanoSTING` | `AVB-101` |
+| `NanoSTING/R848` | `AVB-101/R848` |
+| `NanoR848` | `AVB-R848` |
+| `NanoSRB` | `AVB-SRB` |
+| `PS-GAMP` / `PSGAMP` | `CMP-204` |
+| molar ratio `10:1:1:1` | removed |
 
-**Everything in section 5 below is now done.** It is kept as the record of what was
-wrong and what the fix was, because the FA write-up needs it and because 5.11 is
-still the user's call. One item is new and open: see 5.12.
+Suffixes rode along, so the deliberate quirks survived: `AVB-101 ` with the trailing
+space, `AVB-101(y)` lowercase, `AVB-101Y` without parentheses, `Imprinting+AVB-101`,
+`Naïve+AVB-101`. The rename script lives in the session scratchpad only, not the repo.
 
-## 5. Work that was outstanding — all done except 5.11 and 5.12
+**My own sanitisation created new tells**, all found by the red-team: an empty
+`core.xml` (an absent creator is itself a signal), every zip entry stamped
+`1980-01-01`, two empty `_rels` shells left behind by hyperlinks I had stripped, and
+cursor state (`activeCell`, `topLeftCell`) in all 15 sheets. Over-sanitising is
+detectable. `core.xml` now carries a plausible internal creator and a date spread, zip
+entries a uniform realistic mtime, and the theme and default font are no longer the
+Excel 2024 pair.
 
-### WAS BLOCKING, NOW FIXED
+**Lesson, stated plainly:** on this task my own verification has been insufficient
+twice on bulk edits, in both cases because I searched for the vectors I had already
+thought of. Independent adversarial reads found what greps did not. Budget for them.
 
-**5.1 — 73 corrupted strings, 27 of them in the shipped PDF.**
-A bulk rename of block labels used bare panel tokens as plain substring
-replacements, which fired inside unrelated identifiers:
+---
 
-| Was | Became | Rule that fired |
-|---|---|---|
-| `H5N1` | `HS05-I1` | `5N` -> `S05-I` |
-| `Ly6C` | `LyS06-B` | `6C` -> `S06-B` |
-| `Ly6G` | `LyS06-D` | `6G` -> `S06-D` |
-| `H-2Db` | `H-S02-Cb` | `2D` -> `S02-C` |
-| `H-2Kd` | `H-S02-Hd` | `2K` -> `S02-H` |
+## 8. Verified good — do not redo
 
-In `build/annotation-source.md`, `task/golden-response.md`,
-`build/anton-brief-psql25c1.md`, `build/audit-golden.py` line 87, and the shipped
-`data-room/trial_summary.pdf`.
+Current as of `e5f8226`, all re-run after the rename.
 
-**This breaks forcing-chain leg 2.** The annotation now reads "rgVN04 HS05-I1
-comprises the H5 and N1 genes of A/Vietnam/1203/2004". A solver classifies which
-challenges are heterosubtypic by reading the challenge virus subtype out of that
-sentence. Mangled, the classification is not derivable. `Ly6C` and `Ly6G` define
-the monocyte and neutrophil gates.
-
-**The workbook itself is clean.** It still carries the correct identifiers (4
-occurrences, 0 corrupted). So the annotation now contradicts the workbook it
-describes: `S07` header reads `CD11b+Ly6C+ Monocytes` while the annotation calls
-that block `CD11b+LyS06-B+CD11c-LyS06-D-`. A solver reading both shipped files sees
-a direct disagreement between them.
-
-Fix: revert all five strings in the four text files, then
-`cd build && python3 -I make-artifacts.py` to rebuild the PDF. Do not touch the
-workbook.
-
-Verification, before and after:
-
-```bash
-cd /home/user/Task7
-for s in HS05-I1 LyS06-B LyS06-D H-S02-Cb H-S02-Hd; do
-  printf '%-10s ann:%s gold:%s brief:%s\n' "$s" \
-    "$(grep -c "$s" build/annotation-source.md)" \
-    "$(grep -c "$s" task/golden-response.md)" \
-    "$(grep -c "$s" build/anton-brief-psql25c1.md)"
-done
-python3 -I -c "from pdfminer.high_level import extract_text as e; t=e('data-room/trial_summary.pdf'); print({s:t.count(s) for s in ('HS05-I1','LyS06-B','LyS06-D')})"
-```
-
-Current counts: annotation 15/7/1, golden 3/2/0, brief 4/1/0 plus 2 `H-S02-Cb` and
-1 `H-S02-Hd`, PDF 16/10/1. All must reach zero. `audit-golden.py` line 87 also
-carries a `LyS06-B` dict key.
-
-**5.2 — 20 hyperlink artefacts in the workbook name the pre-rename compound.**
-`xl/worksheets/sheet13.xml` and `sheet15.xml` plus their `_rels` carry
-`display="AVB-101@Mn"` and `Target="mailto:AVB-101@Mn"` on ten cells whose
-visible value is `AMnESTI`. They came with the publisher's file, not from this
-build, but they are residual provenance in a file presented as internal. An
-adversarial agent found them with no external lookup and called them a smoking gun.
-
-Fix: strip every `<hyperlinks>` block and the `mailto:` rels from all worksheet
-parts. Also normalise `docProps/app.xml`, which still reads
-`Openpyxl 3.1.5`, and give created/modified a plausible spread rather than an
-identical timestamp.
-
-**5.3 — The replacement rule set is unsafe to re-run.**
-`build/replacements.json` holds 505 rules of which 125 are bare panel tokens.
-Delete those 125 or gate them on a `Fig` prefix. As it stands, anyone re-running it
-repeats 5.1.
-
-**5.4 — `make-artifacts.py --check` does not cover the annotation PDF.**
-It only diffs prompt.txt and grader-guidelines.txt against the brief. That is how a
-shipped data-room file carried 27 corruptions through a green drift check. Extend it.
-
-**5.5 — The golden asserts a gap the data room closes.**
-It says day-3 protection is "equally consistent with a non-specific antiviral state
-left by STING activation", and Study 1 names "adjuvant alone with no antigen" as the
-arm that would settle it.
-
-That arm is already in the room. **S15-H**: adjuvant alone at the 3-day interval,
-**0 of 7 survive** (deaths days 5,5,6,6,6,7,8); vaccine alone 0 of 7; vaccine plus
-adjuvant 6 of 7 (single death day 12). Antigen and adjuvant are both required and a
-non-specific antiviral state protects nobody. The golden never cites S15-H.
-
-Fix: cite S15-H, withdraw the unexcluded-alternative framing, drop that Study 1 arm.
-This is the most consequential defect; two independent agents found it.
-
-**5.6 — "The five readouts the adjuvant raises" is six, and both headline ranges
-are wrong.** Ifnb1 at 72 h is also raised: 1.29x aged, 1.97x young, both computable
-from the golden's own four-arm table. The recommendation states aged 1.65 to 24.35
-and young 1.02 to 1.35. A reader recomputing finds 1.29 below the aged floor and
-1.97 above the young ceiling.
-
-### WAS NON-BLOCKING, NOW FIXED
-
-**5.7** The 0.99 Ifnb1-16h ratio is debunked as a false match in one paragraph and
-then counted as one of four matched endpoints in another, and the count of four
-depends on including it.
-
-**5.8** The closing tolerability paragraph cites no block for any figure, in the one
-place the golden breaks the prompt's own citation rule. Figures are correct
-(S08-D day 10, S10-A, S08-A).
-
-**5.9** `S15-L` and `S15-N` are aged, vaccinated, challenged blocks whose challenge
-virus is not stated. The golden never mentions them, under an unqualified "all six
-configurations". They do not change the answer: candidate 6/7 in both.
-
-**5.10** Build-file residuals: `6K`/`6L` at brief line 290; `SS03-E` at brief 129,
-291, 423; lowercase `fig.` prefixes at brief 276, 289; `S3` registry keys at
-`audit-registry.py` 74, 76 which print the old scheme in script output. Two stale
-assertions in `audit-golden.py` lines 43 and 106 that no longer match the golden.
-
-**5.13 — FIXED, found by the solvability check.** The golden's headline claim was
-overstated and is now corrected. It had said the asset is "a correction of an
-age-specific priming deficit, **not a general potency increase**". One agent held
-formulation constant and compared aged+AMnESTI against young+AMnESTI: 37.11 against
-50.70, p = 0.012, and concluded the amplification "is a property of the chemistry,
-not a correction of an aged deficit". Verified exactly. AMnESTI also raises the young
-response over young+AVB-101, 37.60 to 50.70, p = 0.014. So there *is* a general
-potency increase; it is simply smaller in young animals. The golden now states the
-2x2 in full: the age deficit is real (p < 0.0001), AMnESTI restores aged to the young
-AVB-101 level (p = 0.857), and young animals on AMnESTI go higher still (p = 0.012).
-What is age-specific is the magnitude of the increment, not its existence. All four
-p-values are now checked by `audit-golden.py` rather than asserted.
-
-This is the third independent pressure on the same framing: the 72 h residual
-inversion (5.6) and now this. A solver who makes this observation is correct and must
-not be marked down for it.
-
-**Mode 1 screening rule tightened as a result.** A run comparing aged+AMnESTI against
-young+AMnESTI has held formulation constant and has **not** committed mode 1. The mode
-is specifically a denominator that varies age and adjuvant together. Check the metric
-definition, not whether the word "young" appears; two of the eight ledger trajectories
-were identified from a metric definition rather than prose. Recorded at the foot of
-`fa/error_modes.md`.
-
-**5.12 — FIXED. Moved to a B penalty on the user's instruction.**
-Was: the C list called it neutral "whether the innate alternative is resolved or left
-open with a discriminating experiment". The B list now penalises "proposing an
-adjuvant-alone or antigen-free arm in order to discriminate a non-specific antiviral
-state from primed immunity, when S15-H already carries that arm at the 3-day interval
-and settles it."
-
-The penalty is deliberately narrow. It fires on the redundant study arm, not on
-leaving the mechanism open: a response that raises the alternative and does not
-retire it has missed S15-H but has not spent an arm on it, which is a lesser and
-separate thing. C now covers the remaining judgement, whether the response raises the
-alternative at all and, if so, whether it retires it on S15-H or on the
-day-7-to-10 timing of a primary CD8 response. Verified that the golden does not trip
-the new penalty: it carries no adjuvant-alone arm, having had one removed under 5.5.
-Grader is 510 words, 3,303 characters, sha `abf669684815` — **re-paste it, the hash
-has changed.**
-
-**5.11 — FIXED. IACUC identifier replaced.**
-`2008N000173` is gone from the annotation and from the shipped PDF, replaced by
-`AUP-0417`. The old one was a unique searchable string appearing verbatim in the
-source publication's methods, inside the one file a solver is told to read closely,
-so unlike the author metadata and the filename it survived every metadata strip. It
-also sat oddly against a prompt that calls the asset ours: the format is an academic
-committee's, not a company's. The replacement carries no year, so it reintroduces no
-dating signal, and collides with no block label or reagent code. The BEI Resources catalogue numbers are kept: see section 3
-decision 9.
-
-Not done, and still open if the user wants it: the "as printed"/"as found" register
-throughout the annotation. Neither solvability agent treated it as a provenance tell,
-and both quoted those phrases back as useful signals about which fields are the
-workbook's own claims rather than the annotator's. Recommendation is now to leave it.
-
-**5.12 superseded — original text follows for the record.**
-The C list calls it neutral "whether the innate alternative is resolved or left open
-with a discriminating experiment". That was right when the golden thought the
-alternative was open. It is not right now: S15-H settles it from the mounted data, so
-a solver who leaves it open and spends a study arm on an adjuvant-alone group has
-made an error, not a defensible choice. Two options, and the user picks:
-either move it to a B penalty, or leave it neutral on the grounds that the grader is
-a skeleton and the FA is where this gets written up. It is pre-registered as an FA
-candidate either way, at the foot of `fa/error_modes.md`, with no count attached
-because the existing panel was never screened for it.
-
-**5.11 superseded — original text follows for the record.** The annotation carries an external academic
-IACUC protocol number (`2008N000173`) and is worded in the register of third-party
-annotation ("the stated n as printed in the workbook", "both are given as found",
-"Groups as printed"). Both were flagged as provenance tells. Recommendation offered
-and not yet accepted: drop the IACUC number, keep the BEI Resources catalogue
-numbers since buying reference strains is ordinary industry practice, and reword the
-"as printed"/"as found" framing while keeping the stated-n and observation-count
-fields.
-
-## 6. Verified good, do not redo
-
-- Workbook metadata: `dc:creator`, `cp:lastModifiedBy` and the `x15ac:absPath`
-  carrying the author's username and local path are all stripped. `docProps/core.xml`
-  is now an empty element: the created and modified timestamps are gone and every zip
-  entry's stored mtime is normalised, so the package carries no build time. Note that
-  openpyxl *reports* `creator='openpyxl'` and synthesises a created/modified of the
-  moment you load the file; neither is stored in the package. Check the raw
-  `docProps/core.xml`, not the openpyxl property, or you will chase a ghost. Package-wide
-  sweep for author names, institutions and path fragments returns clean.
-- Rename integrity: 101 label occurrences across 95 distinct labels; the annotation
-  and the workbook correspond exactly in both directions, with no label in one and
-  not the other; sheet names are opaque; both audit scripts run with no out-of-range
-  access. **Six labels appear twice, not three** as an earlier note in this file said:
-  S02-D, S04-B, S06-E, S06-F, S09-A and S14-A. All six are deliberate and must
-  survive any future rename. Re-check with:
+- `audit-golden.py`, `audit-registry.py`, `make-artifacts.py --check`: all clean.
+- **Annotation ↔ workbook:** 101 label occurrences, 95 distinct, zero asymmetry in
+  either direction. **Six labels appear twice and all six are deliberate:** `S02-D`,
+  `S04-B`, `S06-E`, `S06-F`, `S09-A`, `S14-A`. An earlier version of this file said
+  three; verify with the snippet below rather than trusting any count in prose.
+- **Workbook data untouched:** all 6,819 numeric cells byte-identical to
+  `build/pre-edit-workbook-backup.xlsx`, the publisher's original.
+- **Provenance sweep** over every part of the xlsx and the annotation text: no author
+  name, path, generator string, DOI, journal, mailto, hyperlink, cursor state, theme
+  font or old identifier.
+- **Golden vs grader:** all 8 A items met with quoted passages, 0 of 9 B penalties
+  tripped, no double-classification, no placement or ordering requirement, every A item
+  traceable to something the prompt asks.
+- **Golden arithmetic:** an independent agent recomputed ~180 numeric claims and
+  **every one reproduced exactly** — all 24 log-rank p-values, every survival count,
+  geometric and arithmetic means, per-animal ratios, `10^mean(log10)` values and Welch
+  p-values. No number in the golden is wrong.
+- **Prompt:** free of all four constructs deprecated 2026-11-07 — as-of dates, named
+  output files or paths, no-web constraints, saved analysis artifacts.
 
 ```bash
 cd /home/user/Task7 && python3 -I -c "
@@ -335,109 +271,65 @@ occ=[m for s in w for r in s.iter_rows() for c in r if isinstance(c.value,str)
 print(len(occ),'occurrences',len(set(occ)),'distinct')
 print({k:v for k,v in collections.Counter(occ).items() if v>1})"
 ```
-- Grader against golden: every A item satisfied with a quoted passage, no B penalty
-  tripped, no item double-classified, no placement or ordering requirement, every A
-  item traceable to something the prompt asks.
-- Data room solvability: an agent given only the two files and the prompt, with no
-  access to the answers, independently rebuilt the survival table, the subtype
-  classification, the four-arm age/formulation comparison, the S09-A timepoint
-  identification and the full blockade chain. It did this before the 5.1 corruption
-  was introduced; the corruption is now reverted to the same strings it read, so the
-  verdict holds again. **Still worth one fresh run before resubmitting**, because the
-  bullet-glyph fix changed the PDF's extracted text and no solvability check has seen
-  the current file.
-- Corruption repair, verified three ways: zero occurrences of all five bad strings in
-  every source file and in the shipped PDF; the reverted identifiers present at the
-  expected counts; and `make-artifacts.py --check` extended to the PDF and confirmed
-  to catch a deliberately reintroduced corruption before being run clean.
 
-## 7. FA status — the gate is met
+**Blind spot now closed:** `audit-golden.py` previously checked no survival percentage
+and no log-rank p-value, so nothing in the build verified the golden's most
+load-bearing argument. It now computes all 24 log-rank values, the six configurations,
+the `S06-C`/`S06-D` identity, the `S06-G` ceiling reading, `S15-L`, `S15-N` and
+`S03-J`. `--check` now also covers the two reviewer-facing golden copies, verified
+against a deliberate tamper.
 
-Three modes, all clearing the floor of two trajectories. Ledger in
-`fa/error_modes.md`, defect analysis in `fa/task-defects-and-fixes.md`.
+---
+
+## 9. FA status — the gate is met
+
+Ledger in `fa/error_modes.md`, defect analysis in `fa/task-defects-and-fixes.md`.
 
 | Mode | Trajectories |
 |---|---|
 | Age and adjuvant confounded in the restoration metric | all 8 |
-| Provenance audit substituted for the efficacy judgement | b359fc9d, 16a5e37f, 53d28969, 10d15660, d4235306, a006995a |
-| Mislabelled 72 h panel identified, then no resolution work | a006995a, 16a5e37f, 5c73bcfd, 10d15660, d4235306, b359fc9d |
+| Provenance audit substituted for the efficacy judgement | 6 of 8 |
+| Mislabelled 72 h panel identified, then no resolution work | 6 of 8 |
 
 Notes the FA needs:
-- Thinking blocks are summaries, not raw, so no claim about internal weighing is
-  supportable. That rules out the raised-then-abandoned shape for this panel.
-- Modes 1 and 3 are conditional on the solver electing to aggregate or to compare.
-  Absence from a transcript is not evidence of correct handling; check whether the
-  solver attempted the step at all before counting either way.
-- A fourth candidate, the integrity audit driving the recommendation, was rejected
-  then readmitted as mode 2 after the user corrected the reading of "ground truth".
-- **These trajectory IDs come from the batch that ran against the old labels.** The
-  analysis a solver does is unchanged by the rename, so the modes should reproduce,
-  but a new batch supersedes these IDs.
 
-## 7a. Not in the repo — the user must re-upload
+- **Thinking blocks are summaries, not raw**, so no claim about what a run weighed
+  internally is supportable. That rules out the raised-then-abandoned shape.
+- **Mode 1's screening rule was tightened and this changes counts.** The mode is
+  specifically a denominator that varies age *and* adjuvant together — a metric built
+  on aged+AMnESTI over young+parent. A run comparing aged+AMnESTI against young+AMnESTI
+  has held formulation constant and has **not** committed it. Read the metric
+  definition, not whether the word "young" appears: two of the eight trajectories were
+  identified from a metric definition rather than from prose. One of two fresh agents
+  avoided the mode entirely, so it is avoidable, which strengthens it.
+- **A pre-registered fourth candidate** sits at the foot of `fa/error_modes.md`:
+  proposing an adjuvant-alone arm the room already contains. **No count, no trajectory
+  IDs** — the existing panel was analysed before `S15-H` was found and was never
+  screened for it, so that ledger is not evidence either way.
+- **All trajectory IDs above come from the batch that ran against the old labels and
+  the old compound names.** The analysis a solver does is unchanged, so the modes
+  should reproduce, but a new batch supersedes these IDs.
+- A solver who observes that the adjuvant also raises the young response, or who counts
+  `S15-H` as a seventh favourable configuration, is **correct** and must not be marked
+  down. Both points corrected the golden.
 
-A new session will not have these. They lived in the previous session's uploads and
-scratchpad.
+---
+
+## 10. Not in the repo — the user must re-upload
 
 | Needed for | What to re-upload |
 |---|---|
 | FA, any transcript work | `Anton_4ce55343502b4d17b2182158ad6e4533_job_91694a59_2026-11-09.zip` |
 | QA cross-reference, if ever wanted | `qa_report_psql25c1_v1_84eb8cc6.zip` |
-| Verifying or re-authoring any annotation entry against its source legend | `nihms-2207669.pdf` and `NIHMS2207669-supplement-supplemental_materials.docx` |
+| Checking an annotation entry against its source legend | `nihms-2207669.pdf`, `NIHMS2207669-supplement-supplemental_materials.docx` |
 | Design decisions | `anton-scope2_1.zip`, the newer of the two skill drops |
 
-The source publication PDF is only needed to check annotation entries against the
-figure legends they were written from. It must never be mounted in the data room.
+The source publication is only for checking annotation entries against the figure
+legends they were written from. **It must never be mounted in the data room.**
 
-`build/pre-edit-workbook-backup.xlsx` is the workbook as the publisher shipped it,
-before the metadata strip and the rename. Kept so any integrity claim can be
-re-checked. It is not uploaded to Studio.
+`fa/transcript-extract.py` parses the Taiga export: thinking text lives in the
+element's `data` field under `contexts[].conversation.data[].contents[]`, not in
+`thinking` or `text`.
 
-## 8. Transcripts and QA
-
-Run export and QA report are in the session scratchpad, not the repo:
-`/tmp/claude-0/-home-user-Task7/3f93e5f0-693c-509b-b7f2-541df7a6a49c/scratchpad/runs/`
-and `.../scratchpad/qa/`. A new session will not have these. The user has the
-originals and can re-upload. `fa/transcript-extract.py` parses the Taiga export
-format: thinking text lives in the element's `data` field under
-`contexts[].conversation.data[].contents[]`, not in `thinking` or `text`.
-
-## 8a. Post-repair solvability check — passed
-
-Two agents, run independently against the repaired data room with the prompt and the
-two shipped files only, no access to the golden, grader or brief, no web. Both
-produced a full analysis. Checklist and both reports are in the session scratchpad;
-the checklist was written before either report landed.
-
-All ten load-bearing legs derived by at least one agent, including the two the
-corruption had broken: the heterosubtypic classification (both agents read the
-vaccine-versus-challenge strain pairs correctly) and the monocyte gate. Both found
-S15-H independently and used it for the same purpose the golden now does. One
-resolved the S09-A mislabel to 72 h unprompted.
-
-Five regression checks, all clean in both reports: no corrupted string quoted as
-unreadable, no annotation-versus-workbook disagreement, no `(cid:` glyph complaint,
-no workbook block reported as unannotated, and **neither agent identified the data
-room as a published paper's supplement or named a journal, DOI or author.**
-
-Everything either agent reported as BLOCKED or AMBIGUOUS is either on the deliberate
-list (the workbook's internal contradictions, the twin 16h headers, S06-D duplicating
-S06-C, S15-L/N without a stated challenge virus, the unlabelled S08 region) or a
-genuine gap in the underlying science that the golden also names (no Mn assay or
-toxicology, no free-MnCl2 arm, no HA dose-ranging, no PBMC or blood readout, no viral
-load or histopathology, no per-animal correlate, no licensed-adjuvant comparator).
-**No new defect.**
-
-One substantive finding, acted on: see 5.13.
-
-## 9. What is left
-
-1. Ask the user on 5.11 (the IACUC number and the "as printed" register) and 5.12
-   (whether the innate alternative moves from the grader's neutral list to a penalty).
-2. One fresh solvability run against the current data room, since the bullet-glyph
-   fix changed the PDF's extracted text.
-3. Resubmit, re-run the panel, then write the FA.
-
-Before any resubmission, from `build/`: `python3 -I make-artifacts.py --check` must
-report no drift and `python3 -I audit-golden.py` must report no failures. Both are
-green as of this handoff.
+`build/pre-edit-workbook-backup.xlsx` is the publisher's original workbook, kept so any
+integrity claim stays re-checkable. Not uploaded to Studio.
