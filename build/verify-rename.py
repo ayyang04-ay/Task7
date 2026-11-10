@@ -19,11 +19,21 @@ REF = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith('-') \
     else 'origin/claude/exciting-cray-mkihzd-v2'
 
 SUBS = [
+    # rename 3
     ('AVB-R848', 'PSLN-R848'),
     ('AVB-SRB',  'PSLN-SRB'),
     ('AVB-101',  'PSLN-212'),
     ('AUP-0417', 'PCL-26-0417'),
+    # rename 4 -- the asset name, which was the source publication's own compound name
+    ('AMnESTI',  'PSLN-344'),
+    ('amnesti_preclinical_dataset.xlsx', 'adjuvant_program_dataset.xlsx'),
 ]
+
+# Files whose path changed. Key is the working-tree path, value the path on REF.
+REF_PATHS = {
+    'data-room/adjuvant_program_dataset.xlsx':
+        'data-room/amnesti_preclinical_dataset.xlsx',
+}
 
 def expected(text):
     for old, new in SUBS:
@@ -31,7 +41,7 @@ def expected(text):
     return text
 
 def at_ref(rel, binary=False):
-    out = subprocess.run(['git', '-C', ROOT, 'show', '%s:%s' % (REF, rel)],
+    out = subprocess.run(['git', '-C', ROOT, 'show', '%s:%s' % (REF, REF_PATHS.get(rel, rel))],
                          capture_output=True, check=True).stdout
     return out if binary else out.decode('utf-8')
 
@@ -45,12 +55,10 @@ TEXT = [
     'build/replacements.README.txt',
     'build/make-artifacts.py',
     'build/make-annotation-pdf.py',
-    'build/paste-checks.txt',
     'task/golden-response.md',
     'task/golden-response.txt',
     'task/prompt.txt',
     'task/grader-guidelines.txt',
-    'fa/task-defects-and-fixes.md',
     'fa/transcript-extract.py',
     'README.md',
 ]
@@ -63,7 +71,24 @@ ANNOTATED = {
     'fa/error_modes.md': 'rename note added recording that quoted trajectory text is '
                          'not verbatim at the compound name',
 }
-GUARD_IN_ANNOTATED = ['AMnESTI', 'CMP-204', 'R848', 'SRB', 'Ly6C', 'CD11b',
+# Files deliberately left carrying superseded identifiers, because their job is to
+# record the prior state. Asserted BYTE-IDENTICAL to the reference, with no
+# substitutions applied -- a rename reaching one of these is itself the defect, since it
+# would rewrite the incident record into a falsehood. HANDOFF.md belongs to this class
+# in spirit but is hand-edited every pass, so it cannot be asserted mechanically.
+# build/paste-checks.txt is deliberately NOT checked here. It holds statistics ABOUT the
+# shipped text -- word count, character count, sha256 -- which do not transform under a
+# substitution: PSLN-344 is one character longer than AMnESTI, so the prompt's character
+# count legitimately moved 1185 -> 1187 while its word count stayed 201. It is generated,
+# and `make-artifacts.py --check` is what verifies it.
+
+# Files deliberately left carrying superseded identifiers, because their job is to
+FROZEN = {
+    'fa/task-defects-and-fixes.md': 'records the original filename as a Leak 1 vector '
+                                    'and the pre-rename asset name',
+}
+
+GUARD_IN_ANNOTATED = ['PSLN-344', 'CMP-204', 'R848', 'SRB', 'Ly6C', 'CD11b',
                       'H5N1', 'H1N1', 'H3N2', 'Ifnb1', 'Ccl2', 'Tfr', 'GM-CSF']
 
 fail = []
@@ -87,6 +112,17 @@ for rel in TEXT:
                 print('       expected: %r' % x[:160])
                 print('       actual  : %r' % y[:160])
                 break
+
+# ---------------------------------------------------------------- frozen files
+print('\nFrozen files: must be byte-identical to the reference, no substitutions')
+for rel, why in FROZEN.items():
+    ref = at_ref(rel)
+    got = open(os.path.join(ROOT, rel), encoding='utf-8').read()
+    if ref == got:
+        print('  %-36s OK  (%s)' % (rel, why))
+    else:
+        fail.append(rel)
+        print('  %-36s CHANGED -- a rename reached a historical record' % rel)
 
 # ------------------------------------------------------------- annotated files
 print('\nAnnotated files: prose edit allowed, rename still enforced')
@@ -116,7 +152,7 @@ for rel, why in ANNOTATED.items():
 
 # ------------------------------------------------------------------ workbook
 print('\nWorkbook: cell by cell')
-XLSX = 'data-room/amnesti_preclinical_dataset.xlsx'
+XLSX = 'data-room/adjuvant_program_dataset.xlsx'
 ref_bytes = at_ref(XLSX, binary=True)
 tmp = os.path.join(HERE, '.ref-workbook.xlsx')
 open(tmp, 'wb').write(ref_bytes)

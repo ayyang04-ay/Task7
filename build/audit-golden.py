@@ -1,14 +1,14 @@
 # Recomputes every load-bearing figure in ../task/golden-response.md from the shipped
 # workbook and diffs it against what the document states.
 #
-# Usage: python3 -I audit-golden.py   (expects ../data-room/amnesti_preclinical_dataset.xlsx alongside)
+# Usage: python3 -I audit-golden.py   (expects ../data-room/adjuvant_program_dataset.xlsx alongside)
 #
 # Run this after any edit to the data room, per the build constraint that the
 # golden is recomputed from the shipped room after its last edit. Exits noisily
 # on any mismatch.
 
 import openpyxl, statistics as st, math
-wb=openpyxl.load_workbook('../data-room/amnesti_preclinical_dataset.xlsx',data_only=True)
+wb=openpyxl.load_workbook('../data-room/adjuvant_program_dataset.xlsx',data_only=True)
 def V(sh,cc,rr):
     ws=wb[sh]; return [float(ws.cell(r,c).value) for r in rr for c in cc
                        if isinstance(ws.cell(r,c).value,(int,float))]
@@ -105,7 +105,7 @@ hib=[v for k,v in vals.items() if k not in ('Ifnb1 72h','Tfr')]
 print('  higher-is-better: n=%d  min %.4f  max %.4f'%(len(hib),min(hib),max(hib)))
 chk('higher-is-better min', min(hib), 0.406, 1e-3)
 chk('higher-is-better max', max(hib), 0.987, 1e-3)
-print('\nADJUVANT EFFECT WITHIN COHORT (AMnESTI / PSLN-212)')
+print('\nADJUVANT EFFECT WITHIN COHORT (PSLN-344 / PSLN-212)')
 # Checks the golden's claim that six of the seven readouts rise in aged animals, that
 # the five priming readouts span 1.65 to 24.35 aged and 1.02 to 1.35 young, and that
 # the sixth, the 72 h interferon residual, is the one where the young gain is larger.
@@ -133,7 +133,7 @@ assert res_y > res_a, 'golden says the young gain is larger on the 72h residual'
 
 print('\n2x2 SIGNIFICANCE (Ifnb1 16h, S01-A, Welch t)')
 # The golden's age-specificity claim was corrected after an independent run pointed
-# out that AMnESTI also raises the young response significantly. These three p-values
+# out that PSLN-344 also raises the young response significantly. These three p-values
 # are what the corrected claim rests on, so they are checked rather than asserted.
 def _ibeta(a,b,x):
     if x<=0: return 0.0
@@ -166,7 +166,7 @@ for lbl,x,y,claim in (('age deficit  aged+nS vs young+nS','aged+nS','young+nS',0
     print('   %-36s p = %.4f  (%.2f vs %.2f)'%(lbl,pv,st.mean(_arm[x]),st.mean(_arm[y])))
     chk(lbl, pv, claim, 2e-3)
 assert welch_p(_arm['young+nS'],_arm['young+AM'])<0.05, \
-    'the golden now says AMnESTI raises the young response significantly'
+    'the golden now says PSLN-344 raises the young response significantly'
 
 print('\nS15-H: does the package exclude a non-specific antiviral state?')
 # The golden now asserts that adjuvant alone protects nobody at the 3-day interval,
@@ -174,8 +174,8 @@ print('\nS15-H: does the package exclude a non-specific antiviral state?')
 # load-bearing for the mechanism section.
 _s = wb['S15']
 for ci, arm, exp_surv, exp_deaths in ((2,'3d Vaccine',0,[4,5,5,5,6,6,7]),
-                                      (3,'3d AMnESTI',0,[5,5,6,6,6,7,8]),
-                                      (4,'3d Vaccine+AMnESTI',6,[12])):
+                                      (3,'3d PSLN-344',0,[5,5,6,6,6,7,8]),
+                                      (4,'3d Vaccine+PSLN-344',6,[12])):
     ev=[(_s.cell(r,1).value,_s.cell(r,ci).value) for r in range(73,101) if _s.cell(r,ci).value is not None]
     deaths=sorted(t for t,e in ev if e==1); surv=sum(1 for _,e in ev if e==0)
     print('   %-20s n=%d  survive %d  deaths on %s'%(arm,len(ev),surv,deaths))
@@ -233,13 +233,13 @@ for lbl, hdr, acol, r0, r1 in SIX:
     p_sham  = logrank(cand, sham)
     p_par   = logrank(cand, parent)
     p_young = logrank(cand, young)
-    print('   %-6s AMnESTI %d/%d  parent %d/%d  sham %d/%d  young %d/%d  | vs sham %s  vs parent %s  vs young %s'
+    print('   %-6s PSLN-344 %d/%d  parent %d/%d  sham %d/%d  young %d/%d  | vs sham %s  vs parent %s  vs young %s'
           % (lbl, surv(cand), len(cand), surv(parent), len(parent), surv(sham), len(sham),
              surv(young), len(young),
              '%.4f' % p_sham if p_sham else 'n/a',
              '%.4f' % p_par if p_par else 'n/a',
              '%.4f' % p_young if p_young else 'identical'))
-    chk('%s AMnESTI vs sham' % lbl, p_sham, 0.0002, 1e-4)
+    chk('%s PSLN-344 vs sham' % lbl, p_sham, 0.0002, 1e-4)
     assert p_par is not None and p_par <= 0.0151 + 1e-4, '%s: golden says vs parent is 0.0009 to 0.0151' % lbl
     assert p_young is None or p_young >= 0.0597 - 1e-4, '%s: golden says vs young is 0.060 to 0.317' % lbl
 
@@ -253,22 +253,22 @@ print('   S06-C and S06-D: all %d time-and-event pairs identical' % sum(len(a) f
 g = arms('S06', 70, 1, 2, 5, 71, 105)
 cand_g, untr_g = g[2], g[4]
 p_untr = logrank(cand_g, untr_g)
-print('   S06-G AMnESTI %d/%d vs untreated %d/%d  p = %.4f'
+print('   S06-G PSLN-344 %d/%d vs untreated %d/%d  p = %.4f'
       % (surv(cand_g), len(cand_g), surv(untr_g), len(untr_g), p_untr))
-chk('S06-G AMnESTI vs untreated', p_untr, 0.855, 2e-3)
+chk('S06-G PSLN-344 vs untreated', p_untr, 0.855, 2e-3)
 chk('S06-G untreated survivors', surv(untr_g), 4, 1e-9)
 
 # S15-L and S15-N: no stated challenge virus, both favourable, neither in the six.
 for lbl, hdr in (('S15-L', 102), ('S15-N', 133)):
     sham, parent, cand = arms('S15', hdr, 1, 2, 3, hdr + 1, hdr + 30)
-    print('   %-6s AMnESTI %d/%d  parent %d/%d  sham %d/%d' % (lbl, surv(cand), len(cand),
+    print('   %-6s PSLN-344 %d/%d  parent %d/%d  sham %d/%d' % (lbl, surv(cand), len(cand),
           surv(parent), len(parent), surv(sham), len(sham)))
-    chk('%s AMnESTI survivors' % lbl, surv(cand), 6, 1e-9)
+    chk('%s PSLN-344 survivors' % lbl, surv(cand), 6, 1e-9)
     chk('%s sham survivors' % lbl, surv(sham), 0, 1e-9)
 
 # S03-J: the header says n=9 and every arm holds 10. The annotation used to say 9.
 sh = wb['S03']
-for col, name, exp in (('H', 'Sham', 1), ('I', 'PSLN-212', 3), ('J', 'AMnESTI', 10)):
+for col, name, exp in (('H', 'Sham', 1), ('I', 'PSLN-212', 3), ('J', 'PSLN-344', 10)):
     rows = [r for r in range(17, 47) if sh['%s%d' % (col, r)].value is not None]
     cens = sum(1 for r in rows if sh['%s%d' % (col, r)].value == 0)
     print('   S03-J %-8s %d observations, %d censored' % (name, len(rows), cens))

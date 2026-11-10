@@ -80,10 +80,19 @@ solver runs got wrong. Build artifacts exist to produce transcripts, not to scor
 Read the `anton-scope2` skill and its `references/` before any design decision, and
 `anton-fa` before touching the FA.
 
-**Source material** is Gao et al., Sci Immunol 2026;11(123):eadz5242. Its
-supplementary data file is the data room. The publication is NOT mounted and must stay
-unmounted. Licence was checked by the user against the AAAS policy page and cleared —
-do not reopen it.
+**Source material** is Gao et al., Sci Immunol 2026;11(123):eadz5242, titled "AMnESTI
+reverses age-associated lung immune decline to drive heterosubtypic protection by
+inactivated influenza vaccines". Its supplementary data file is the data room. The
+publication is NOT mounted and must stay unmounted. Licence was checked by the user
+against the AAAS policy page and cleared — do not reopen it.
+
+**The asset's name was the paper's title word.** `AMnESTI` — "AEC-targeting MN
+Encapsulated STING agonist" — was the source's own compound name, not an authored one.
+It is present in `build/pre-edit-workbook-backup.xlsx`, the publisher's original, at
+cells no rename had ever touched, which is the dispositive proof. One search on it
+returned the article and its PMC full text. Renamed to `PSLN-344` in rename 4; see
+section 7. The data room still carries `AECI`/`AECII` arm labels, which is the first
+letter of the acronym, and that is unavoidable since they are real cell types.
 
 ---
 
@@ -121,12 +130,12 @@ Mantel-Cox inline, t-tests via an inline incomplete beta.
 
 | Upload as | File | Bytes | sha256 |
 |---|---|---|---|
-| Prompt | `task/prompt.txt` | 1,185 | `ad26031a9b9c` |
-| Grader guidelines | `task/grader-guidelines.txt` | 3,716 | `59c80b9d1fd8` |
-| Data room | `data-room/amnesti_preclinical_dataset.xlsx` | 56,858 | `f62655fdaf54` |
-| Data room | `data-room/trial_summary.pdf` | 59,759 | `083c6dc694a9` |
-| Reviewer golden (either) | `task/golden-response.txt` | 23,765 | `c03e2dc6ec68` |
-| Reviewer golden (either) | `task/golden-response.pdf` | 41,434 | `f69f3a87e5cd` |
+| Prompt | `task/prompt.txt` | 1,187 | `cfc0f29bde3c` |
+| Grader guidelines | `task/grader-guidelines.txt` | 3,717 | `4b166be59225` |
+| Data room | `data-room/adjuvant_program_dataset.xlsx` | 56,787 | `f293502992c7` |
+| Data room | `data-room/trial_summary.pdf` | 59,695 | `842e9dcdf179` |
+| Reviewer golden (either) | `task/golden-response.txt` | 23,800 | `9ba947f20db4` |
+| Reviewer golden (either) | `task/golden-response.pdf` | 41,361 | `43865c1c27e4` |
 
 Prompt is 201 words, grader 576. Check each paste against `build/paste-checks.txt`,
 which carries word count, character count, hash prefix and required last line. The
@@ -157,7 +166,18 @@ The user settled all of these. Re-opening them has wasted time more than once.
 6. **All 101 blocks annotated; non-load-bearing noise kept as is.**
 7. **No `.md` anywhere in the upload.**
 8. Assume the solver image has the packages it needs.
-9. **Generic and non-proprietary items carry no leak exposure and stay.** BEI
+9. **Generic and non-proprietary items carry no leak exposure and stay.**
+    **CORRECTION, rename 4:** this decision's premise is wrong about one item.
+    `ADU-S100` is not generic — it is a named clinical-stage asset, the CDN STING
+    agonist ML RR-S2 CDA, Aduro Biotech, licensed to Novartis as MIW815, Phase 1,
+    dropped from the portfolio in 2019. The user's decision to keep it still stands and
+    is defensible on different grounds: it is the field's standard published tool CDN,
+    real preclinical programmes name their tool compounds, and an invented CDN name
+    would make the room less realistic while touching forcing-chain leg 3. But the
+    exposure it carries is not zero, and it is not the string — it is the fingerprint.
+    ADU-S100 plus manganese coordination polymer plus pulmonary-surfactant-biomimetic
+    liposome plus aged mice plus heterosubtypic influenza locates the paper with no
+    compound name at all. Renaming the asset does not close that. BEI
    catalogue numbers (`NR-3177`, `NR-348`, `NR-41803`, `FR-201`), every strain name,
    `ADU-S100`, `R848`, the lipid names, `INCB3344`, `Clodrosome`, carbenoxolone,
    `OT-I`, `Sftpa1-/-Sftpd-/-`. Strain names are additionally load-bearing: the subtype
@@ -290,6 +310,68 @@ every mtime — reintroducing the over-sanitisation tells recorded below as fixe
 names, order, mtimes and compression are preserved and every non-sheet entry is
 byte-identical. Any future edit to the workbook must work the same way.
 
+**Rename 4, the asset name — Leak 2 again, and the worst of the three.** `AMnESTI` was
+the source publication's own compound name and it is in the paper's **title**. Rename 2
+renamed `NanoSTING` and `PS-GAMP` and left the headline compound, so the single most
+searchable string in the package was the asset name, present in the prompt, the grader,
+the golden, the filename, 115 workbook cells and all 19 pages of the annotation.
+
+| Was | Now |
+|---|---|
+| `AMnESTI` | `PSLN-344` |
+| `amnesti_preclinical_dataset.xlsx` | `adjuvant_program_dataset.xlsx` |
+
+Wider blast radius than rename 3, in two ways worth remembering. The prompt and the
+grader are **generated from the brief**, so the rename had to go into
+`build/anton-brief-psql25c1.md`, not into the shipped copies — and into
+`build/make-artifacts.py`, whose prompt slice marker is the literal opening words of the
+prompt. And `build/make-annotation-pdf.py` writes the asset name into the `/Subject`
+metadata of **both** shipped PDFs, which is its own leak vector and would not have been
+caught by reading the documents.
+
+Script committed: `build/rename-asset-name.py`. `verify-rename.py` now proves the
+cumulative property across both renames: every file as it stands on v2, with all six
+declared substitutions applied, is byte-identical to the working tree — 16 text files,
+22,542 workbook cells, 292 renamed string cells, 6,819 non-string cells identical, zip
+shape preserved, both PDFs. It gained two categories in the process: `FROZEN`, for files
+whose job is to record the prior state and which must stay byte-identical, and an
+exclusion for `paste-checks.txt`, which holds statistics *about* the text and so does
+not transform under substitution.
+
+**Two red-team findings that the backup diff refuted.** Worth recording, because both
+looked like our redaction scars and neither was:
+
+- The workbook's `Hyperlink` cell style, whose only users are the cells carrying the
+  asset name, is present in the publisher's original with the same `cellXfs` indices,
+  and those cells already read `AMnESTI` there. The red-team inferred the asset name had
+  been "written over a pre-existing label". It had not — but chasing that inference is
+  how the Leak 2 recurrence was found.
+- The double and triple spaces in block labels (`'S04-C   n=5'`) are the **source's own
+  spacing**: `'Fig. 4G   n=5'` in the original. **Zero** space runs were introduced by
+  any of our edits. The red-team read them as deleted descriptor tokens. They are
+  standing rule 3 working as intended.
+
+**Two findings it got right that are still open.** The annotation PDF is stamped
+2026-03-07 while the workbook it describes is stamped 2026-09-03, so the annotation
+predates its subject by six months — one epoch constant in `make-annotation-pdf.py`. And
+the room's *structure* is a figure set: the publisher original's sheets are literally
+`Fig.1` … `Fig.7`, `Fig. S1`, `S2`, `S3`, `S4`, `S7`, `S8`, `S12`, `S13`. Rename 1
+flattened seven main and eight supplementary figures into a contiguous `S01`–`S15`,
+erasing both the main/supplement split and the gaps. The red-team reconstructed the seam
+without ever seeing that file: its `S06` survival ↔ `S15` weight pairing is
+`Fig.6` ↔ `Fig. S13`. No rename fixes this; it is the shape of a supplementary data
+file, which standing rule 1 makes the room.
+
+**The lesson from rename 4, which is not the same as rename 1's or 2's.** The red-team
+that found Leak 2 classified `AMnESTI` as "INVENTED — contrived backronym with Mn
+embedded." Exactly wrong, and instructively so: it *is* a contrived backronym, because
+the authors contrived it. An isolated red-team has no web access, so its identifier
+enumeration is parametric knowledge only and systematically cannot catch a real name it
+does not happen to know. **Always run a web pass over the enumeration it returns,
+outside the sandbox, in extended search mode.** Standard mode returned nothing for
+`AMnESTI`; extended mode returned the paper as the first result. That difference is what
+the whole branch turned on.
+
 **My own sanitisation created new tells**, all found by the red-team: an empty
 `core.xml` (an absent creator is itself a signal), every zip entry stamped
 `1980-01-01`, two empty `_rels` shells left behind by hyperlinks I had stripped, and
@@ -331,7 +413,7 @@ Current as of `e5f8226`, all re-run after the rename.
 ```bash
 cd /home/user/Task7 && python3 -I -c "
 import re, openpyxl, collections
-w=openpyxl.load_workbook('data-room/amnesti_preclinical_dataset.xlsx',data_only=True)
+w=openpyxl.load_workbook('data-room/adjuvant_program_dataset.xlsx',data_only=True)
 occ=[m for s in w for r in s.iter_rows() for c in r if isinstance(c.value,str)
      for m in re.findall(r'\bS\d\d-[A-Z]\b',c.value)]
 print(len(occ),'occurrences',len(set(occ)),'distinct')

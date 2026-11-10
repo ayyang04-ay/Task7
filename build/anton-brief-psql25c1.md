@@ -1,4 +1,4 @@
-# Anton Task Brief — AMnESTI mucosal adjuvant, asset advancement
+# Anton Task Brief — PSLN-344 mucosal adjuvant, asset advancement
 RLS short ID: psql25c1
 RLS URL ID: task_4ce55343502b4d17b2182158ad6e4533
 Campaign: camp_0589d1e96758477586df0e43dd8eeec1
@@ -33,9 +33,9 @@ None stated in the prompt as shipped. See item 3 of the audit below.
 
 ### Prompt draft (203 words), flat text as pasted
 
-AMnESTI is our manganese-complexed pulmonary-surfactant-biomimetic liposomal STING agonist. It has been in preclinical development as an adjuvant for IAV vaccine development in older adults. For an upcoming portfolio review I need to justify every asset to the committee.
+PSLN-344 is our manganese-complexed pulmonary-surfactant-biomimetic liposomal STING agonist. It has been in preclinical development as an adjuvant for IAV vaccine development in older adults. For an upcoming portfolio review I need to justify every asset to the committee.
 
-All of our data on AMnESTI is dumped here. All analysis and recommendations should be grounded in our data, which serves as ground truth.
+All of our data on PSLN-344 is dumped here. All analysis and recommendations should be grounded in our data, which serves as ground truth.
 
 I want your recommendation: do we advance this adjuvant? Regardless of yes or no, I need a strong defensible case to present, so build out the position with as much support and defense as the data allows. Every number you rely on needs to cite the relevant data and state how you reduced it, because the committee will check them.
 
@@ -100,7 +100,7 @@ protection pillar is supposed to reach.
 ### Manifest
 | File | Contents | States the world how |
 |---|---|---|
-| amnesti_preclinical_dataset.xlsx | 15 sheets, 101 per-animal data blocks | Shipped unmodified. 90 of 101 blocks do not name their measurand |
+| adjuvant_program_dataset.xlsx | 15 sheets, 101 per-animal data blocks | Shipped unmodified. 90 of 101 blocks do not name their measurand |
 | trial_summary (to author, ships as PDF) | Per-block annotation, methodology, formulation | Dry annotation only. See absence anchors. Markdown is no longer permitted in the room; the workbook stays .xlsx |
 
 No publication mounted. The MDAR reproducibility checklist shipped in the same
@@ -328,7 +328,7 @@ with it, and does:
 > (Illustrative only. The shipped golden is task/golden-response.md and has moved on
 > from this wording; do not treat the block below as its current text.)
 >
-> Advance AMnESTI. In all six heterosubtypic challenge configurations it separated
+> Advance PSLN-344. In all six heterosubtypic challenge configurations it separated
 > from the vaccine alone (p = 0.0002) and from the chemically matched predecessor
 > adjuvant (p = 0.0009 to 0.0151) in 20-month-old mice, and on survival it was not
 > distinguishable from young animals. The effect is a correction of an age-specific
@@ -605,7 +605,7 @@ requirement would be one the prompt did not set. Written flat for pasting.
 
 ### Grader framing
 
-You are grading a response to a portfolio-review request on AMnESTI, a manganese-complexed pulmonary-surfactant-biomimetic liposomal STING agonist developed as an adjuvant for influenza A vaccines in older adults. The solver had the study's per-animal data workbook and a per-block annotation, and was asked whether to advance the asset, what is driving the protection, whether a biomarker is worth carrying forward and could go into patients, what the next studies must establish, and what was ruled out. Grade content for presence and correctness only. Do not grade where in the answer anything sits or in what order it appears.
+You are grading a response to a portfolio-review request on PSLN-344, a manganese-complexed pulmonary-surfactant-biomimetic liposomal STING agonist developed as an adjuvant for influenza A vaccines in older adults. The solver had the study's per-animal data workbook and a per-block annotation, and was asked whether to advance the asset, what is driving the protection, whether a biomarker is worth carrying forward and could go into patients, what the next studies must establish, and what was ruled out. Grade content for presence and correctness only. Do not grade where in the answer anything sits or in what order it appears.
 
 A. Must be present and correct: a recommendation on whether to advance, grounded in the heterosubtypic challenge blocks rather than in any humoral readout; a heterosubtypic set that is derived rather than asserted, with any block collapsed, retained or set aside on a stated mounted fact; recognition that the aged-versus-young comparison varies adjuvant as well as age wherever both young arms exist in the same block; the direction of each endpoint established before any pooling or averaging; a next-study comparator set that is age-matched rather than young, and that includes the antigen-dose comparison the package cannot answer; a biomarker answer that separates what is peripherally accessible from what is not, and that does not offer an antibody measure as the cross-subtype efficacy correlate; resolution kinetics proposed as work rather than inventoried as a caveat; and the effector chain rested on the blockade experiments rather than on correlation. Each met only where the attempt's own cited numbers reproduce from the mounted files by the route it states, so that the model is shown to have made the right call over the appropriate data.
 

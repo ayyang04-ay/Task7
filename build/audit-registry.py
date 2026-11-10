@@ -11,7 +11,7 @@
 # without lifelines or scipy.
 
 import openpyxl, statistics as st, math, re
-wb=openpyxl.load_workbook('../data-room/amnesti_preclinical_dataset.xlsx',data_only=True)
+wb=openpyxl.load_workbook('../data-room/adjuvant_program_dataset.xlsx',data_only=True)
 def V(sh,cc,rr):
     ws=wb[sh]; return [float(ws.cell(r,c).value) for r in rr for c in cc
                        if isinstance(ws.cell(r,c).value,(int,float))]
@@ -50,7 +50,7 @@ for k,(hr,c0,nc,r0,r1) in B.items():
     for arm,rows in S[k].items():
         R['%s %s surv'%(k,arm)]=100*sum(1 for d,e in rows if e==0)/len(rows)
 for k in ['S06-A','S06-B','S06-C','S06-E','S06-F','S06-G']:
-    a=S[k]; cand=a['AMnESTI']
+    a=S[k]; cand=a['PSLN-344']
     R['%s p vs sham'%k]=lr(cand,a['Sham']); R['%s p vs comp'%k]=lr(cand,a['PSLN-212'])
     R['%s p vs young'%k]=lr(cand,a['PSLN-212(Y)']); R['%s comp vs sham'%k]=lr(a['PSLN-212'],a['Sham'])
     if 'Untreated' in a: R['%s p vs untr'%k]=lr(cand,a['Untreated'])
@@ -59,7 +59,7 @@ same=sum(1 for arm in S['S06-C'] for p,q in zip(S['S06-C'][arm],S['S06-D'][arm])
 R['S06-C==S06-D pairs']=same
 # S03-J
 w3=wb['S03']
-for i,nm in enumerate(['Sham','PSLN-212','AMnESTI']):
+for i,nm in enumerate(['Sham','PSLN-212','PSLN-344']):
     rows=[(w3.cell(r,7).value,w3.cell(r,8+i).value) for r in range(17,47) if isinstance(w3.cell(r,8+i).value,(int,float))]
     R['S03-J %s censored'%nm]=sum(1 for d,e in rows if e==0); R['S03-J %s n'%nm]=len(rows)
 # subclass

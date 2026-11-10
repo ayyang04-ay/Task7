@@ -33,10 +33,10 @@ raised-then-abandoned shape for this panel.
 | Shape | encountered then unapplied |
 
 **Description in the task's own numbers and files.** S01-A, S01-E, S01-F, S01-G, S02-C and S02-E each
-carry four arms: aged+PSLN-212, aged+AMnESTI, young+PSLN-212 and young+AMnESTI. Every
+carry four arms: aged+PSLN-212, aged+PSLN-344, young+PSLN-212 and young+PSLN-344. Every
 run built a quantitative age-gap-closure or restoration metric whose denominator is the
 young+PSLN-212 arm, so the numerator differs from the denominator in both age and
-adjuvant. Every run referenced the young+AMnESTI arm (100 or more references each) and
+adjuvant. Every run referenced the young+PSLN-344 arm (100 or more references each) and
 pulled its values, 50.70 at 16 h and 3.13 at 72 h in S01-A.
 
 **Where it is visible.**
@@ -44,7 +44,7 @@ pulled its values, 50.70 at 16 h and 3.13 at 72 h in S01-A.
   means the animals given the Mn-free parent liposome. Its own ledger row M23 is the
   within-adjuvant comparison and is not cited in the deliverable. Element 375 carries the
   resulting claim, aged IFN-beta reaching the young level at 36.9 against 37.5.
-- 10d15660, element 161: defines age-gap closure as (AMnESTI − PSLN-212) divided by
+- 10d15660, element 161: defines age-gap closure as (PSLN-344 − PSLN-212) divided by
   (PSLN-212(Y) − PSLN-212). The mode is in the metric definition, not the prose; a
   prose-only screen returns zero for this run.
 - 16a5e37f, element 366 row L22: computes the age-by-formulation interaction, 1.66 with
@@ -54,7 +54,7 @@ pulled its values, 50.70 at 16 h and 3.13 at 72 h in S01-A.
   reading each run's metric definition.
 
 **Counterfactual.** Holding the adjuvant constant, aged over young is 0.732 at 16 h, not
-the 0.987 the cross-adjuvant contrast gives. At 72 h the young+AMnESTI arm is itself 3.13
+the 0.987 the cross-adjuvant contrast gives. At 72 h the young+PSLN-344 arm is itself 3.13
 against 1.59 for young+PSLN-212, so most of the persistence attributed to the aged lung
 is a property of the formulation. The within-age adjuvant effect, 2.23-fold in aged
 animals against 1.35-fold in young, is available in the same block and is not confounded.
@@ -156,17 +156,17 @@ answers. One of them did **not** commit mode 1, which matters twice over: it con
 the mode is avoidable rather than forced by the data room's layout, and it shows the
 screen as written would have misclassified it.
 
-That run compared aged+AMnESTI against **young+AMnESTI**, holding formulation constant
+That run compared aged+PSLN-344 against **young+PSLN-344**, holding formulation constant
 and varying age, and reported "the amplification is also present in young animals
-(AMnESTI(Y) 50.7 vs AMnESTI aged 37.1, p = 0.012), i.e. it is a property of the
+(PSLN-344(Y) 50.7 vs PSLN-344 aged 37.1, p = 0.012), i.e. it is a property of the
 chemistry, not a correction of an aged deficit." Verified: p = 0.0121.
 
 That is a clean comparison. It is a different clean comparison from the golden's,
 which holds age constant and varies formulation, but it is not the confounded one.
 
 **Screening rule, tightened.** Mode 1 is the use of a denominator that varies age and
-adjuvant together, i.e. a metric built on aged+AMnESTI over young+PSLN-212. A run
-that compares aged+AMnESTI against young+AMnESTI has held formulation constant and has
+adjuvant together, i.e. a metric built on aged+PSLN-344 over young+PSLN-212. A run
+that compares aged+PSLN-344 against young+PSLN-344 has held formulation constant and has
 **not** committed mode 1, even though it is comparing across age. Check the denominator
 of the metric, not whether the word "young" appears. Two of the eight trajectories in
 the ledger above were identified from a metric definition rather than from prose, so
@@ -174,7 +174,7 @@ this distinction decides counts.
 
 **Consequence for the golden, not for the mode.** The run's substantive point was
 correct and the golden was wrong: it had claimed the asset is "a correction of an
-age-specific priming deficit, not a general potency increase". AMnESTI raises Ifnb1
+age-specific priming deficit, not a general potency increase". PSLN-344 raises Ifnb1
 significantly in young animals too (50.70 against 37.60, p = 0.014). What is
 age-specific is the size of the increment. The golden has been corrected. A solver
 making the same observation is right and must not be marked down for it.

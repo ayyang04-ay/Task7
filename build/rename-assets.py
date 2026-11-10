@@ -49,7 +49,10 @@ GUARD = [
     'H5N1', 'H1N1', 'H3N2', 'Ly6C', 'Ly6G', 'H-2Db', 'H-2Kd', 'CD11b', 'CD11c',
     'IFN-beta', 'Ccl2', 'Ccl3', 'Ccl5',
     # the asset and the names standing decision 9 keeps
-    'AMnESTI', 'CMP-204', 'ADU-S100', 'R848', 'SRB', 'FreeSRB', 'INCB3344',
+    # NOT 'AMnESTI'. It was a guard entry here until rename 4 established that it is
+    # the source publication's own compound name, present in the publisher's original
+    # workbook. It is now a renamed target; see rename-asset-name.py.
+    'PSLN-344', 'CMP-204', 'ADU-S100', 'R848', 'SRB', 'FreeSRB', 'INCB3344',
     'Clodrosome', 'carbenoxolone', 'CBX', 'OT-I', 'Sftpa1-/-Sftpd-/-',
     'NR-3177', 'NR-348', 'NR-41803', 'FR-201',
     # formulation
@@ -69,7 +72,7 @@ TEXT_TARGETS = [
     'build/audit-registry.py',
     'fa/error_modes.md',
 ]
-XLSX = 'data-room/amnesti_preclinical_dataset.xlsx'
+XLSX = 'data-room/adjuvant_program_dataset.xlsx'
 BACKUP = 'build/pre-edit-workbook-backup.xlsx'
 
 # HANDOFF.md is deliberately NOT a target. Its section 7 carries the rename-2 mapping

@@ -4,8 +4,8 @@ Regenerate with: python3 -I make-artifacts.py
 prompt.txt
 ----------
 Word count      : 201
-Character count : 1185
-sha256 prefix   : ad26031a9b9c
+Character count : 1187
+sha256 prefix   : cfc0f29bde3c
 Paragraphs      : 5, each one unbroken line. Confirm no hard wraps survived the paste.
 
 Required last line, in full:
@@ -14,8 +14,8 @@ Tell me what you considered and ruled out.
 grader-guidelines.txt
 ---------------------
 Word count      : 576
-Character count : 3716
-sha256 prefix   : 59c80b9d1fd8
+Character count : 3717
+sha256 prefix   : 4b166be59225
 Paragraphs      : 4, each one unbroken line. Confirm no hard wraps survived the paste.
 
 Scroll to the bottom of the form and confirm the C list is present. A

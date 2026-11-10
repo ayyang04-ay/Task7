@@ -36,7 +36,7 @@ brief = open(BRIEF).read()
 
 print('Artifacts')
 prompt = emit('../task/prompt.txt',
-              slice_between(brief, 'AMnESTI is our manganese-complexed', '### Prompt audit'),
+              slice_between(brief, 'PSLN-344 is our manganese-complexed', '### Prompt audit'),
               'task/prompt.txt')
 grader = emit('../task/grader-guidelines.txt',
               slice_between(brief, '### Grader framing', '\n\nA. Must be present')

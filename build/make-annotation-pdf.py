@@ -6,9 +6,9 @@ import re, sys, os
 # reportlab a fixed creation date instead of "now".
 TITLES = {
     'trial_summary.pdf':   ('Dataset annotation',
-                            'Per-block annotation of the AMnESTI preclinical dataset'),
+                            'Per-block annotation of the PSLN-344 preclinical dataset'),
     'golden-response.pdf': ('Portfolio review analysis',
-                            'Reference analysis of the AMnESTI preclinical dataset'),
+                            'Reference analysis of the PSLN-344 preclinical dataset'),
 }
 TITLE, SUBJECT = TITLES.get(os.path.basename(sys.argv[2]) if len(sys.argv) > 2 else '',
                             ('Dataset annotation', 'Annotation of a preclinical dataset'))
