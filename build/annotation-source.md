@@ -256,7 +256,7 @@ S02-E sit side by side on rows 10 to 14.
 - **Measurand**: CD45.2-positive monocyte-derived dendritic cells, by flow cytometry.
 - **Units and scale**: percent, linear.
 - **Timepoint**: day 3 after immunisation.
-- **Conditions**: bone marrow cells from CD45.2+ wild-type or Ifnar-knockout donors, with or without removal of CD135+ cDC precursors by sorting, transferred into CD45.1+ wild-type recipients at 5 x 10^6 cells per animal. Recipients were then immunised intranasally with the bivalent vaccine formulated with AMnESTI at 20 micrograms per animal. One group received recombinant GM-CSF intratracheally.
+- **Conditions**: bone marrow cells from CD45.2+ wild-type or Ifnar-knockout donors, with or without removal of CD135+ cDC precursors by sorting, transferred into CD45.1+ wild-type recipients at 5 x 10^6 cells per animal. Recipients were then immunised intranasally with the bivalent vaccine formulated with AMnESTI at 20 micrograms per animal. One group received Ifnar-knockout bone marrow with the CD135+ precursors removed, and recombinant GM-CSF intratracheally.
 - **Stated n**: 5. **Observations per group**: 5.
 - **Groups as printed**: WT w/o cDC, WT w/ cDC, IFN w/o cDC, IFN w/ cDC, GMCSF.
 
@@ -583,6 +583,16 @@ animal, challenged intranasally, and observed for 14 days after challenge.
 - **Conditions**: inactivated CA09 H1N1 vaccine at 0.5 micrograms HA, intranasal, with 20 micrograms of the stated adjuvant.
 - **Stated n**: 5. **Observations per group**: 5, except the NanoSTING/R848 group, which has 4 at day 10.
 - **Groups as printed**: NanoSTING(Y), PSGAMP, NanoSTING, AMnESTI, NanoSTING/R848, Vaccine.
+
+### S08, rows 89 to 101
+A region of numeric data carrying no block label.
+- **Measurand**: not stated.
+- **Units and scale**: not stated. Column A holds 14 in every row. Columns C and D hold 0.
+- **Timepoint**: not stated.
+- **Conditions**: not stated.
+- **Stated n**: none given.
+- **Groups as printed**: none. No header row and no group names appear.
+- **Observations present**: 6 values in column C, rows 89 to 94; 7 values in column D, rows 95 to 101.
 
 ## Sheet "S09"
 

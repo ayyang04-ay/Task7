@@ -41,7 +41,12 @@ Nine challenge blocks sit on the S06 sheet. The set has to be derived before it
 can be counted.
 
 **S06-D is S06-C.** All 28 time-and-event pairs are identical across all four
-arms. One experiment, entered twice. Counting both inflates the evidence.
+arms. One experiment, entered twice, and counting both inflates the evidence.
+Nothing in the room says which label owns the data, and the body-weight blocks for
+the two challenge days are themselves distinct, so both experiments did run. The
+choice to retain the day-14 reading and set aside the day-3 one is therefore
+arbitrary; either could be the copy, and the day-3 rgH5N1 result should not be
+leaned on separately.
 
 **The two blocks at rows 69 to 70 are labelled S06-E and S06-F but hold the imprinting
 experiment**, in 14-month-old animals given a bivalent vaccine containing both
@@ -98,11 +103,12 @@ roughly one to two weeks]**, so whatever protects at day 2 or 3 is not antibody.
 The chain is established by intervention, not by correlation. Each step was removed
 and the downstream readout fell.
 
-**Delivery into alveolar epithelium.** Uptake of labelled liposome by alveolar
+**Uptake into the alveolar compartment.** Uptake of labelled liposome by alveolar
 macrophages was 43.10% in wild-type animals and 12.65% in Sftpa1-/-Sftpd-/-
-animals (S01-C, group means, n = 4). Blocking gap junctions with carbenoxolone
-reduced recruited lung monocytes from 7.28% to 3.08% (S11-C, group means,
-n = 5).
+animals (S01-C, group means, n = 4). Carbenoxolone reduced recruited lung monocytes
+from 7.28% to 3.08% (S11-C, group means, n = 5); the room gives the agent's route
+and dose and not its mechanism, so read that step as gap-junction-dependent only on
+**[external: carbenoxolone is a gap-junction blocker]**.
 
 **Type I interferon.** In the adoptive transfer, monocyte-derived dendritic cells
 were 19.70% from wild-type marrow and 2.09% from Ifnar-knockout marrow, and
@@ -144,7 +150,7 @@ experiment is in the next-studies section.
 ## What the adjuvant actually adds
 
 The package compares aged animals given AMnESTI against young animals given
-nanoSTING. That comparison changes two things at once. In seven blocks the workbook
+nanoSTING. That comparison changes two things at once. In six labelled blocks, seven panels, the workbook
 also carries young animals given AMnESTI, which closes it.
 
 | Readout | aged+nanoSTING | aged+AMnESTI | young+nanoSTING | young+AMnESTI |
@@ -170,18 +176,49 @@ the 72-hour residual reads 2.78 of young on the diagonal but 1.42 with formulati
 held, because young animals given AMnESTI also fail to clear, 3.13 against 1.59 for
 young animals given nanoSTING.
 
-**The limit.** No humoral or cellular endpoint carries a young-plus-AMnESTI arm.
-For everything downstream of the dendritic cell compartment we cannot separate age
-from formulation at all.
+**The limit.** No humoral or cellular endpoint carries a young-plus-AMnESTI arm
+*alongside* the aged and young-nanoSTING comparators, which is what a within-adjuvant
+contrast needs. S02-I does carry a young-plus-AMnESTI arm, but only against its own
+CCR2-blocked control, so it supports no age contrast. For everything downstream of
+the dendritic cell compartment, age and formulation cannot be separated.
 
 **Adaptive output is real but below young.** Across 18 endpoints with a young
 comparator and a known direction, every one points the same way. Sixteen where more
 is better fall below 1.0 (range 0.406 to 0.987) and two where more is worse sit
-above it, the 72-hour Ifnb1 at 2.78 and follicular regulatory T cells at 1.52.
-Means of the per-endpoint ratios: humoral 0.654 over six endpoints, cellular 0.741
-over seven. Four endpoints are effectively matched: early interferon induction
-(0.99), monocyte recruitment at day 4 (0.95), day-7 NP-specific CD8 (0.94) and CD8
-proliferation (0.94).
+above it. The roster is fixed as follows, so that every count and mean below can be
+rebuilt from the workbook:
+
+| # | Endpoint | Block | Direction | ratio |
+|---|---|---|---|---|
+| 1 | Ifnb1, 16 h | S01-A | higher better | 0.987 |
+| 2 | Ifnb1, 72 h | S01-A | **higher worse** | 2.785 |
+| 3 | Ly6C+ monocytes, d4 | S01-D | higher better | 0.948 |
+| 4 | Alveolar macrophages, d6 | S11-A | higher better | 0.661 |
+| 5 | Serum IgG, H1N1 | S03-A | higher better | 0.618 |
+| 6 | Serum IgG, H3N2 | S03-E | higher better | 0.406 |
+| 7 | HAI, H1N1, geometric | S03-C | higher better | 0.758 |
+| 8 | IgG2a:IgG1, corrected | S03-B + S13-A/B | higher better | 0.721 |
+| 9 | Germinal centre B cells | S03-K | higher better | 0.666 |
+| 10 | ICOS-high Tfh | S04-A | higher better | 0.752 |
+| 11 | Tfr, d7 | S04-B | **higher worse** | 1.517 |
+| 12 | NP+ CD8, lung, d3 | S05-A | higher better | 0.678 |
+| 13 | NP+ CD8, lung, d7 | S05-A | higher better | 0.941 |
+| 14 | Ki-67+ CD8, d3 | S05-D | higher better | 0.944 |
+| 15 | GZMB+ CD8, d3 | S05-E | higher better | 0.592 |
+| 16 | IFN-gamma+ CD8, cross-subtype restim, d14 | S05-F | higher better | 0.693 |
+| 17 | IFN-gamma+ CD8, d60 | S05-G | higher better | 0.687 |
+| 18 | Lung resident memory CD8 | S05-I | higher better | 0.656 |
+
+Means of the per-endpoint ratios: humoral 0.654 over rows 5 to 10, cellular 0.741
+over rows 12 to 18. Four endpoints are effectively matched: early interferon
+induction (0.99), monocyte recruitment at day 4 (0.95), day-7 NP-specific CD8
+(0.94) and CD8 proliferation (0.94).
+
+The roster matters because the counts depend on it. Tfr at day 30 (S04-C) is the
+same measurand as row 11, carries a young comparator, and sits at 1.893; MLN IgG in
+B220+ cells (S13-H) sits at 0.954, above three of the four matched endpoints.
+Neither is in the eighteen. Any count stated without the roster is unreconstructable
+and should not be relied on.
 
 Against the age-matched comparator the same endpoints invert. H1N1 serum IgG is
 18.06-fold over nanoSTING (7891.6 against 437.0, group means) and 0.62 of young.
@@ -199,7 +236,9 @@ marker.** These are accepted correlates of cross-subtype protection **[external]
 so this package does not need to establish them. In the room they behave as the
 mechanism predicts: lung resident memory at 0.656 of young, interferon-gamma
 producing CD8 after cross-subtype restimulation at 0.693 at day 14 and 0.687 at day
-60. The limit is access, not validity. In mice these are lung-local. In patients
+60. The limit is access, not validity. The day-25 resident-memory readout is lung;
+the day-14 and day-60 restimulation readouts are mediastinal lymph node. Both
+compartments require tissue. In patients
 the role is mechanistic and pharmacodynamic, read in a controlled human infection
 study or from lavage in a dedicated cohort, not as a routine endpoint.
 
@@ -253,7 +292,12 @@ asset.
 
 **Study 3. Resolution kinetics, as the gating tolerability study.**
 - *Establishes*: when the innate response returns to baseline, which the package
-  does not measure. All seven analytes at 72 hours sit above the untreated
+  does not measure. Both S09-A blocks are labelled 16h in the workbook and the
+  annotation repeats that label for both, so the timepoint of the second is an
+  inference, not a stated fact: exponentiated, its Ifnb1 values reproduce the 72 h
+  column of S01-A (4.01 against 4.43) while the first block reproduces the 16 h
+  column (36.3 against 37.1). On that basis all seven analytes sit above the
+  untreated
   reference (Ccl2 27.41, Ccl3 9.23, Tnf 8.44, Il6 7.19, Il10 4.16, Ifnb1 4.01,
   Ccl5 2.01, each 10 to the power of the mean log10 of three replicates), and no
   arm carries a later timepoint. Young animals given AMnESTI also fail to clear, so
@@ -267,7 +311,9 @@ asset.
 - *Readouts*: the same seven-analyte panel reported on a linear scale with the
   reduction stated.
 - *Timing*: sampling beyond 72 hours until the untreated reference is reached. The
-  package fixes only 16 and 72 hours, so the design has to run past both.
+  analyte panel fixes only 16 and 72 hours, so the design has to run past both.
+  Other blocks do carry 36 h (S02-F, S02-C, S10-A), but none carries an analyte
+  timepoint later than 72 h.
 
 ---
 
