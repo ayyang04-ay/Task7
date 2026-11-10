@@ -90,9 +90,28 @@ def annotation_drift():
             break
     return bad
 
+# The reviewer-facing golden is authored as Markdown but the project guideline bans
+# .md as a shipped file type. It is not solver-visible, so this is insurance rather
+# than a fix: emit .txt and .pdf alongside so whichever the Studio field accepts
+# exists and carries identical content.
+GOLDEN_SRC = '../task/golden-response.md'
+
+def emit_golden_alternates():
+    import re as _re
+    md = open(GOLDEN_SRC).read()
+    txt = _re.sub(r'\*\*(.+?)\*\*', r'\1', md)
+    txt = _re.sub(r'(?m)^#{1,6}\s*', '', txt)
+    txt = _re.sub(r'\*(.+?)\*', r'\1', txt)
+    open('../task/golden-response.txt', 'w').write(txt)
+    subprocess.run([sys.executable, '-I', 'make-annotation-pdf.py',
+                    GOLDEN_SRC, '../task/golden-response.pdf'], check=True)
+    print('  %-28s regenerated' % 'task/golden-response.txt')
+    print('  %-28s regenerated' % 'task/golden-response.pdf')
+
 if not CHECK:
     subprocess.run([sys.executable, '-I', 'make-annotation-pdf.py',
                     ANNOT_SRC, ANNOT_PDF], check=True)
+    emit_golden_alternates()
 else:
     for d in annotation_drift():
         print('  %-28s DRIFT: %s' % ('data-room/trial_summary.pdf', d))

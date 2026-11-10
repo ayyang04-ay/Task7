@@ -56,7 +56,10 @@ The user settled all of these. Re-opening them wasted time once already.
 5. **No out-of-scope line in the prompt**, no not-all-relevant line, no world-fact
    constraint on deferral. All deliberate.
 6. **All 101 blocks annotated; non-load-bearing noise kept as is.**
-7. **No `.md` file in the data room.** Annotation ships as PDF.
+7. **No `.md` file is uploaded anywhere.** The annotation ships as PDF. The golden is
+   authored as `.md` but uploaded as `.txt` or `.pdf`, both generated with identical
+   content; the `.md` stays as the source only. The reviewer feedback scoped this to
+   the data room, but the project guideline is not scoped, so neither is this.
 8. Assume the solver image has the packages it needs.
 9. **BEI Resources catalogue numbers stay** (`NR-3177`, `NR-348`, `NR-41803`). Buying
    reference influenza strains from a public repository is ordinary industry practice,
@@ -272,7 +275,12 @@ fields.
 ## 6. Verified good, do not redo
 
 - Workbook metadata: `dc:creator`, `cp:lastModifiedBy` and the `x15ac:absPath`
-  carrying the author's username and local path are all stripped. Package-wide
+  carrying the author's username and local path are all stripped. `docProps/core.xml`
+  is now an empty element: the created and modified timestamps are gone and every zip
+  entry's stored mtime is normalised, so the package carries no build time. Note that
+  openpyxl *reports* `creator='openpyxl'` and synthesises a created/modified of the
+  moment you load the file; neither is stored in the package. Check the raw
+  `docProps/core.xml`, not the openpyxl property, or you will chase a ghost. Package-wide
   sweep for author names, institutions and path fragments returns clean.
 - Rename integrity: 101 label occurrences across 95 distinct labels; the annotation
   and the workbook correspond exactly in both directions, with no label in one and

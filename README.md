@@ -13,9 +13,12 @@ RLS short ID `psql25c1` · task `task_4ce55343502b4d17b2182158ad6e4533` · campa
 | Data room | `data-room/trial_summary.pdf` |
 | Prompt | `task/prompt.txt` |
 | Grader guidelines | `task/grader-guidelines.txt` |
-| Reviewer Facing Golden Response | `task/golden-response.md` |
+| Reviewer Facing Golden Response | `task/golden-response.txt`, or `.pdf` if the field takes a file |
 
-Nothing in `build/` is uploaded. No `.md` file goes into the data room.
+Nothing in `build/` is uploaded. **No `.md` file is uploaded anywhere**, data room or
+otherwise. `task/golden-response.md` is the authored source; `make-artifacts.py`
+generates `.txt` and `.pdf` copies with identical content, and one of those is what
+goes into the form.
 
 Before uploading, check each pasted field against `build/paste-checks.txt`, which
 carries the word count, character count, hash prefix and required last line for
