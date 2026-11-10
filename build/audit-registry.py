@@ -71,9 +71,9 @@ for lbl,a,b,r0 in (('H1N1',1,5,3),('H3N2',9,13,10)):
     for i in range(3):
         R['%s printed%d'%(lbl,i)]=pr[i]; R['%s true%d'%(lbl,i)]=tr[i]; R['%s sum/tot%d'%(lbl,i)]=sm[i]/tt[i]
     R['%s alt'%lbl]=sm[2]/tt[0]
-# tolerability S3
+# tolerability, S10
 for i,an in enumerate(['Ifnb1','Tnf','Isg15']):
-    R['S3 cand %s'%an]=M('S10',[3+i*5],range(3,8)); R['S3 CT %s'%an]=M('S10',[4+i*5],range(3,8))
+    R['S10 cand %s'%an]=M('S10',[3+i*5],range(3,8)); R['S10 CT %s'%an]=M('S10',[4+i*5],range(3,8))
 R['S08-D min']=min(V('S08',range(22,27),[26])); R['S08-D n']=len(V('S08',range(22,27),[26]))
 R['S08-A pct']=100*(M('S08',range(8,11),[7])/M('S08',range(8,11),[6])-1)
 # within-age folds

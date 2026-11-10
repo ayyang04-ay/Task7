@@ -22,12 +22,23 @@ to 0.317). nanoSTING itself fails to separate from vaccine alone in three of the
 six (p = 0.088, 0.111, 0.066), so the manganese is carrying the effect rather than
 the liposome.
 
+Two further blocks, S15-L and S15-N, are aged, vaccinated and challenged but state
+no challenge virus, so they cannot be classified as homo- or heterosubtypic and are
+not in the six. They point the same way: AMnESTI 6 of 7 in both, against 0 of 7 for
+sham in both and 0 of 7 and 2 of 7 for nanoSTING. Including them would not change
+the recommendation, and the six should be read as the configurations whose subtype
+is derivable rather than as every challenge experiment in the package.
+
 The asset is a correction of an age-specific priming deficit, not a general potency
-increase. Within aged animals the adjuvant adds 1.65 to 24.35-fold across innate
-and dendritic cell readouts. The identical comparison inside young animals adds
-1.02 to 1.35-fold. That is the profile we want for a 65-plus indication, and it is
-the single most defensible number set in the package because it is the only
-comparison here that holds age and formulation apart.
+increase. On the five priming readouts it raises, the adjuvant adds 1.65 to
+24.35-fold inside aged animals and 1.02 to 1.35-fold inside young ones. That is the
+profile we want for a 65-plus indication, and it is the single most defensible
+number set in the package because it is the only comparison here that holds age and
+formulation apart. One caveat belongs with it: a sixth readout is also raised, the
+72-hour interferon residual, and there the young gain is the larger of the two, 1.97
+against 1.29. That readout is a persistence signal rather than a benefit, so it does
+not weaken the case, but it does mean the age-specificity holds across the priming
+readouts and not across everything the adjuvant moves.
 
 Two things the package does not support, stated up front because the committee will
 ask. It cannot tell us whether more antigen would do the same thing, and it cannot
@@ -137,13 +148,22 @@ no survival readout follows in either case, so the step from improved priming to
 improved survival is inferred rather than shown.
 That is the first thing the next study has to close.
 
-**An alternative we cannot yet exclude.** Protection at day 3 is equally consistent
-with a non-specific antiviral state left by STING activation. The day-3 cellular
-readouts (NP-specific CD8 6.68% against 2.09%, Ki-67+ CD8 9.38% against 3.48%,
-GZMB+ CD8 5.69% against 2.99%, all AMnESTI against nanoSTING, group means) are real
-but sit inside the window where innate effects dominate **[external: primary CD8
-responses to influenza in mice peak at days 7 to 10]**. The discriminating
-experiment is in the next-studies section.
+**An alternative the package already excludes.** Protection at day 3 looks, on the
+cellular readouts alone, equally consistent with a non-specific antiviral state left
+by STING activation. Those readouts (NP-specific CD8 6.68% against 2.09%, Ki-67+ CD8
+9.38% against 3.48%, GZMB+ CD8 5.69% against 2.99%, all AMnESTI against nanoSTING,
+group means) are real but sit inside the window where innate effects dominate
+**[external: primary CD8 responses to influenza in mice peak at days 7 to 10]**.
+
+S15-H settles it. At the same 3-day interval it carries adjuvant alone, vaccine
+alone and the combination. Adjuvant alone kills every animal, 0 of 7 surviving with
+deaths on days 5, 5, 6, 6, 6, 7 and 8. Vaccine alone also loses all 7. The
+combination gives 6 of 7, with a single death on day 12. A non-specific antiviral
+state protects nobody here: antigen and adjuvant are each necessary and neither is
+sufficient. The day-3 protection is therefore adjuvant-dependent priming of an
+antigen-specific response, not a residual innate state, and the question does not
+need a new experiment. What still needs one is the step from that priming to
+survival in the mechanism-blockade arms, which is Study 1.
 
 ---
 
@@ -165,10 +185,13 @@ also carries young animals given AMnESTI, which closes it.
 
 Group means, n = 5 throughout.
 
-Adjuvant effect inside each cohort, AMnESTI over nanoSTING: aged 2.23, 2.28, 1.65,
-4.01 and 24.35-fold on the five readouts the adjuvant raises, against 1.35, 1.06,
-1.02, 1.18 and 1.20-fold in young animals. The cDC2 readout moves down in both,
-0.79-fold aged and 0.95-fold young.
+Adjuvant effect inside each cohort, AMnESTI over nanoSTING. Six of the seven
+readouts go up in aged animals. Five are priming readouts: 2.23, 2.28, 1.65, 4.01
+and 24.35-fold aged, against 1.35, 1.06, 1.02, 1.18 and 1.20-fold young. The sixth
+is the 72-hour interferon residual, 1.29-fold aged against 1.97-fold young, the one
+readout on which the young gain exceeds the aged one and the one where a larger
+number is not a better result. The cDC2 readout moves down in both, 0.79-fold aged
+and 0.95-fold young.
 
 **Two headline numbers change.** Ifnb1 at 16 hours reads 0.99 of young on the
 diagonal, which looks like a match. Holding formulation constant it is 0.73. And
@@ -210,13 +233,15 @@ rebuilt from the workbook:
 | 18 | Lung resident memory CD8 | S05-I | higher better | 0.656 |
 
 Means of the per-endpoint ratios: humoral 0.654 over rows 5 to 10, cellular 0.741
-over rows 12 to 18. Four endpoints are effectively matched: early interferon
-induction (0.99), monocyte recruitment at day 4 (0.95), day-7 NP-specific CD8
-(0.94) and CD8 proliferation (0.94).
+over rows 12 to 18. Three endpoints are effectively matched: monocyte recruitment at
+day 4 (0.95), day-7 NP-specific CD8 (0.94) and CD8 proliferation (0.94). Early
+interferon induction reads 0.99 on this comparator and would make a fourth, but that
+is the cross-adjuvant figure debunked above; held to one formulation it is 0.73 and
+does not belong in the matched set.
 
 The roster matters because the counts depend on it. Tfr at day 30 (S04-C) is the
 same measurand as row 11, carries a young comparator, and sits at 1.893; MLN IgG in
-B220+ cells (S13-H) sits at 0.954, above three of the four matched endpoints.
+B220+ cells (S13-H) sits at 0.954, above all three matched endpoints.
 Neither is in the eighteen. Any count stated without the roster is unreconstructable
 and should not be relied on.
 
@@ -263,14 +288,14 @@ asset.
 ## Next studies
 
 **Study 1. Close the priming-to-protection step and settle the mechanism.**
-- *Establishes*: that the protection is monocyte and CD8-dependent rather than a
-  non-specific antiviral state, and that the chain reaches survival.
+- *Establishes*: that the protection is monocyte and CD8-dependent, and that the
+  chain reaches survival. The non-specific-antiviral-state alternative is already
+  excluded by S15-H and does not need an arm here.
 - *Endpoints*: survival to day 14 after challenge, primary. Lung antigen-specific
   CD8 and resident memory, secondary.
 - *Population*: 20-month-old animals, intranasal, as in the mounted work.
 - *Comparators*: AMnESTI-adjuvanted vaccine with CCR2 blockade, with CD8 depletion,
-  and with vehicle; plus sham. Adjuvant alone with no antigen is the arm that
-  separates a non-specific antiviral state from a primed response.
+  and with vehicle; plus sham.
 - *Readouts*: survival curves by log-rank, with the cellular readouts on the same
   animals so the immune measure and the outcome are linked per animal, which
   nothing in the current package does.
@@ -356,10 +381,10 @@ ambiguity.
 Ovalbumin is a model protein, not evidence of breadth.
 
 **Tolerability, checked rather than assumed.** Both assays carry a positive control
-that moved. Body weight at day 10 was 99.78% of baseline for AMnESTI against
+that moved. Body weight at day 10 (S08-D) was 99.78% of baseline for AMnESTI against
 90.65% for nanoSTING/R848, which is the arm that shows the assay can detect weight
 loss, and that group had 4 of 5 animals remaining at day 10 with a minimum of
-84.7%. Central nervous system cytokines ran 1.13 to 1.59 for AMnESTI against 2.68
-to 5.50 for cholera toxin. Dosing sits at a plateau: 20 micrograms gives 45.83 and
-40 micrograms gives 50.23, a 9.6% increase for twice the dose. The open question is
+84.7%. Central nervous system cytokines (S10-A) ran 1.13 to 1.59 for AMnESTI against
+2.68 to 5.50 for cholera toxin. Dosing sits at a plateau (S08-A): 20 micrograms
+gives 45.83 and 40 micrograms gives 50.23, a 9.6% increase for twice the dose. The open question is
 not acute tolerability but duration, which is Study 3.

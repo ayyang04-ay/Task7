@@ -40,7 +40,7 @@ chk('S05-C lung',  M('S05',[1],range(13,16)), 59.00)
 chk('S05-C lung+PTX',M('S05',[2],range(13,16)), 55.07)
 chk('S05-C MLN',   M('S05',[3],range(13,16)), 30.90)
 chk('S05-C MLN+PTX',M('S05',[4],range(13,16)), 6.83)
-print('  >> golden says INCB cuts lung cytotoxic CD8 "six-fold": actual %.2f-fold'%(6.77/1.39))
+print('  INCB lung cytotoxic CD8 fold-change: %.2f (golden says 4.9 and 6.1 on the two readouts)'%(6.77/1.39))
 
 print('\nDAY-3')
 chk('S05-A cand',M('S05',[5,6],[3]),6.68); chk('S05-A comp',M('S05',[2,3],[3]),2.09)
@@ -103,7 +103,48 @@ vals['TRM']=M('S05',[3],range(54,59))/M('S05',[4],range(54,59))
 for k,v in vals.items(): print('   %-14s %.4f'%(k,v))
 hib=[v for k,v in vals.items() if k not in ('Ifnb1 72h','Tfr')]
 print('  higher-is-better: n=%d  min %.4f  max %.4f'%(len(hib),min(hib),max(hib)))
-print('  >> golden claims range 0.357 to 0.987')
+chk('higher-is-better min', min(hib), 0.406, 1e-3)
+chk('higher-is-better max', max(hib), 0.987, 1e-3)
+print('\nADJUVANT EFFECT WITHIN COHORT (AMnESTI / nanoSTING)')
+# Checks the golden's claim that six of the seven readouts rise in aged animals, that
+# the five priming readouts span 1.65 to 24.35 aged and 1.02 to 1.35 young, and that
+# the sixth, the 72 h interferon residual, is the one where the young gain is larger.
+four_arm = [
+  ('Ifnb1 16h',  [M('S01',range(2,7),[r]) for r in (5,8,9,10)],  'priming'),
+  ('Ifnb1 72h',  [M('S01',range(8,13),[r]) for r in (5,8,9,10)], 'residual'),
+  ('CD11b+ DC',  [M('S01',g,[32]) for g in (range(7,12),range(12,17),range(17,22),range(22,27))], 'priming'),
+  ('cDC1 72h',   [M('S01',g,[36]) for g in (range(7,12),range(12,17),range(17,22),range(22,27))], 'priming'),
+  ('cDC2 72h',   [M('S01',g,[38]) for g in (range(7,12),range(12,17),range(17,22),range(22,27))], 'down'),
+  ('node DC',    [M('S02',cc,range(3,8)) for cc in ([11],[12],[13],[15])], 'priming'),
+  ('OT-I',       [M('S02',cc,range(10,15)) for cc in ([11],[12],[13],[15])], 'priming'),
+]
+prim_a=[]; prim_y=[]; raised=0
+for lbl,v,kind in four_arm:
+    ra, ry = v[1]/v[0], v[3]/v[2]
+    print('   %-11s aged %7.2f  young %7.2f  (%s)'%(lbl,ra,ry,kind))
+    if ra > 1: raised += 1
+    if kind=='priming': prim_a.append(ra); prim_y.append(ry)
+    if kind=='residual': res_a, res_y = ra, ry
+chk('readouts raised in aged', raised, 6, 1e-9)
+chk('priming aged min', min(prim_a), 1.65, 1e-2); chk('priming aged max', max(prim_a), 24.35, 1e-2)
+chk('priming young min', min(prim_y), 1.02, 1e-2); chk('priming young max', max(prim_y), 1.35, 1e-2)
+chk('residual aged', res_a, 1.29, 1e-2); chk('residual young', res_y, 1.97, 1e-2)
+assert res_y > res_a, 'golden says the young gain is larger on the 72h residual'
+
+print('\nS15-H: does the package exclude a non-specific antiviral state?')
+# The golden now asserts that adjuvant alone protects nobody at the 3-day interval,
+# which is what retires the alternative. Recomputed here because that claim is
+# load-bearing for the mechanism section.
+_s = wb['S15']
+for ci, arm, exp_surv, exp_deaths in ((2,'3d Vaccine',0,[4,5,5,5,6,6,7]),
+                                      (3,'3d AMnESTI',0,[5,5,6,6,6,7,8]),
+                                      (4,'3d Vaccine+AMnESTI',6,[12])):
+    ev=[(_s.cell(r,1).value,_s.cell(r,ci).value) for r in range(73,101) if _s.cell(r,ci).value is not None]
+    deaths=sorted(t for t,e in ev if e==1); surv=sum(1 for _,e in ev if e==0)
+    print('   %-20s n=%d  survive %d  deaths on %s'%(arm,len(ev),surv,deaths))
+    chk('S15-H %s survivors'%arm, surv, exp_surv, 1e-9)
+    assert deaths==exp_deaths, 'S15-H %s death days %s != %s'%(arm,deaths,exp_deaths)
+
 hum=[vals[k] for k in ['IgG H1N1','IgG H3N2','HAI H1N1','IgG2a:IgG1','GC B','ICOS Tfh']]
 cel=[vals[k] for k in ['NP d3','NP d7','Ki67','GZMB','IFNg d14','IFNg d60','TRM']]
 chk('humoral mean (6)',st.mean(hum),0.654); chk('cellular mean (7)',st.mean(cel),0.741)

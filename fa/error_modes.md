@@ -96,3 +96,45 @@ QA chain records this as an environment Error against all 8 runs rather than a m
 failure.
 
 This is a task defect, not FA material.
+
+---
+
+## Pre-registered candidate for the next batch — not yet observed
+
+**Proposing an experiment the data room already contains.**
+
+Registered here before the next panel runs so it cannot be read back into the
+transcripts after the fact. **No count, no trajectory IDs: this has not been looked
+for yet.** The 8-run panel above was analysed before S15-H was identified, so its
+transcripts were never screened for this shape and the ledger above must not be read
+as evidence either way.
+
+| Field | Content |
+|---|---|
+| Class | forward-looking recommendation duplicating an experiment already in the data |
+| Shape | gap asserted where the room closes it |
+| Screen on | the next-studies section, for an adjuvant-alone or no-antigen arm |
+
+**What the data says.** S15-H carries, at the 3-day interval, adjuvant alone,
+vaccine alone and the combination. Adjuvant alone kills every animal, 0 of 7, with
+deaths on days 5, 5, 6, 6, 6, 7 and 8. Vaccine alone also loses all 7. The
+combination gives 6 of 7, a single death on day 12. A non-specific antiviral state
+left by STING activation protects nobody, so the alternative is excluded by the
+mounted data.
+
+**The error shape.** A solver reads the day-3 cellular readouts, correctly notes they
+sit inside the window where innate effects dominate, concludes the mechanism is
+unresolved, and specifies an adjuvant-alone arm to settle it. Every step of that
+reasoning is sound except the conclusion, which the room already answers. The cost
+is a study arm spent on a closed question.
+
+**Why it is worth screening for.** It is method-based and reproducible: either the
+response proposes an antigen-free or adjuvant-only arm, or it does not. It does not
+require reading intent, which is what rules out the raised-then-abandoned shape for
+this panel.
+
+**What would disqualify it.** A solver that cites S15-H and still proposes the arm
+for a different reason, such as powering or a different interval, has not made this
+error. A solver that leaves the mechanism open without proposing the arm is a weaker
+and separate case; do not fold the two together. If it fails the two-trajectory floor
+in the next batch, drop it rather than stretching the definition.

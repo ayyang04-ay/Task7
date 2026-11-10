@@ -286,8 +286,9 @@ Source inconsistencies reproduced verbatim and unremarked:
 - the stated n values that disagree with their own observation counts: S03-J header
   n=9 against arms of 10, 10 and 9 with a stated n of 10 in the source; S05-A/S05-B
   header n=3 against 2 observations
-- both fig. S09-A headers reading 16h
-- S06 rows 69-70 labelled S06-E/S06-F carrying 6K/6L content
+- both S09-A headers reading 16h
+- S06 rows 69-70 reusing the printed labels S06-E and S06-F for different content,
+  so each label appears twice (the correspondence is in label-mapping.tsv)
 - the S10 block labelled S10-A carrying S03-E content
 - S03-J carrying three arms where the source legend names two, with a censoring
   day of 21 against 22 days of stated monitoring

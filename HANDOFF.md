@@ -63,14 +63,18 @@ The user settled all of these. Re-opening them wasted time once already.
 
 | | Status |
 |---|---|
-| Prompt | Done. 201 words, flat text, all four 7-Nov deprecations absent |
-| Data room | **Broken, see 5.1 and 5.2** |
-| Golden | **Broken, see 5.5 to 5.8** |
-| Grader | Done as a skeleton. Verified to pass the golden on every A item and trip no B penalty |
+| Prompt | Done. 201 words, flat text, all four 7-Nov deprecations absent. Unchanged by any repair below |
+| Data room | Done. Corruption reverted, hyperlinks stripped, bullet glyph fixed, drift check now covers the PDF |
+| Golden | Done. 5.5 to 5.10 all applied; `audit-golden.py` green including new checks on the six-readout claim and on S15-H |
+| Grader | Done as a skeleton. Re-checked against the rewritten golden: the only mention of the innate alternative is in the neutral C list, which permits either position, so nothing trips |
 
-## 5. Outstanding work, blocking first
+**Everything in section 5 below is now done.** It is kept as the record of what was
+wrong and what the fix was, because the FA write-up needs it and because 5.11 is
+still the user's call. One item is new and open: see 5.12.
 
-### BLOCKING
+## 5. Work that was outstanding — all done except 5.11 and 5.12
+
+### WAS BLOCKING, NOW FIXED
 
 **5.1 — 73 corrupted strings, 27 of them in the shipped PDF.**
 A bulk rename of block labels used bare panel tokens as plain substring
@@ -161,7 +165,7 @@ from the golden's own four-arm table. The recommendation states aged 1.65 to 24.
 and young 1.02 to 1.35. A reader recomputing finds 1.29 below the aged floor and
 1.97 above the young ceiling.
 
-### NON-BLOCKING
+### WAS NON-BLOCKING, NOW FIXED
 
 **5.7** The 0.99 Ifnb1-16h ratio is debunked as a false match in one paragraph and
 then counted as one of four matched endpoints in another, and the count of four
@@ -179,6 +183,17 @@ configurations". They do not change the answer: candidate 6/7 in both.
 291, 423; lowercase `fig.` prefixes at brief 276, 289; `S3` registry keys at
 `audit-registry.py` 74, 76 which print the old scheme in script output. Two stale
 assertions in `audit-golden.py` lines 43 and 106 that no longer match the golden.
+
+**5.12 — OPEN, new. The grader treats a now-wrong answer as neutral.**
+The C list calls it neutral "whether the innate alternative is resolved or left open
+with a discriminating experiment". That was right when the golden thought the
+alternative was open. It is not right now: S15-H settles it from the mounted data, so
+a solver who leaves it open and spends a study arm on an adjuvant-alone group has
+made an error, not a defensible choice. Two options, and the user picks:
+either move it to a B penalty, or leave it neutral on the grounds that the grader is
+a skeleton and the FA is where this gets written up. It is pre-registered as an FA
+candidate either way, at the foot of `fa/error_modes.md`, with no count attached
+because the existing panel was never screened for it.
 
 **5.11 — User's call, not yet made.** The annotation carries an external academic
 IACUC protocol number (`2008N000173`) and is worded in the register of third-party
@@ -204,8 +219,15 @@ fields.
 - Data room solvability: an agent given only the two files and the prompt, with no
   access to the answers, independently rebuilt the survival table, the subtype
   classification, the four-arm age/formulation comparison, the S09-A timepoint
-  identification and the full blockade chain. **Caveat: it did this before the 5.1
-  corruption was introduced, so that verdict does not cover the corrupted strings.**
+  identification and the full blockade chain. It did this before the 5.1 corruption
+  was introduced; the corruption is now reverted to the same strings it read, so the
+  verdict holds again. **Still worth one fresh run before resubmitting**, because the
+  bullet-glyph fix changed the PDF's extracted text and no solvability check has seen
+  the current file.
+- Corruption repair, verified three ways: zero occurrences of all five bad strings in
+  every source file and in the shipped PDF; the reverted identifiers present at the
+  expected counts; and `make-artifacts.py --check` extended to the PDF and confirmed
+  to catch a deliberately reintroduced corruption before being run clean.
 
 ## 7. FA status — the gate is met
 
@@ -258,12 +280,14 @@ originals and can re-upload. `fa/transcript-extract.py` parses the Taiga export
 format: thinking text lives in the element's `data` field under
 `contexts[].conversation.data[].contents[]`, not in `thinking` or `text`.
 
-## 9. Suggested order
+## 9. What is left
 
-1. 5.1 then rebuild the PDF, and re-run an independent solvability check afterwards
-   since the earlier one predates the corruption.
-2. 5.2, 5.3, 5.4 together. All mechanical.
-3. 5.5 and 5.6 in the golden, then `audit-golden.py`.
-4. 5.7 to 5.10.
-5. Ask the user on 5.11.
-6. Resubmit, re-run the panel, then the FA.
+1. Ask the user on 5.11 (the IACUC number and the "as printed" register) and 5.12
+   (whether the innate alternative moves from the grader's neutral list to a penalty).
+2. One fresh solvability run against the current data room, since the bullet-glyph
+   fix changed the PDF's extracted text.
+3. Resubmit, re-run the panel, then write the FA.
+
+Before any resubmission, from `build/`: `python3 -I make-artifacts.py --check` must
+report no drift and `python3 -I audit-golden.py` must report no failures. Both are
+green as of this handoff.
