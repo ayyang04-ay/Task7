@@ -13,9 +13,9 @@ Tell me what you considered and ruled out.
 
 grader-guidelines.txt
 ---------------------
-Word count      : 464
-Character count : 3009
-sha256 prefix   : 75b594c41652
+Word count      : 510
+Character count : 3303
+sha256 prefix   : abf669684815
 Paragraphs      : 4, each one unbroken line. Confirm no hard wraps survived the paste.
 
 Scroll to the bottom of the form and confirm the C list is present. A
@@ -23,4 +23,4 @@ previous run uploaded 18,309 characters of a 24,504-character grader. It
 stopped at the end of section A, leaving no penalty list and no neutral list.
 
 Required last line, in full:
-C. Neutral: number of studies proposed; whether the innate alternative is resolved or left open with a discriminating experiment; statistical method choice; whether the stated-n mismatches or the sheet mislabels are noticed; retention of humoral readouts as a regulatory bridge or as immunogenicity; whether S06-G is retained at its ceiling or set aside on that same fact; route, units, layout, length, and where in the answer anything sits.
+C. Neutral: number of studies proposed; whether the response raises the non-specific-antiviral-state alternative at all, and if it does, whether it retires it on S15-H or on the day-7-to-10 timing of a primary CD8 response; statistical method choice; whether the stated-n mismatches or the sheet mislabels are noticed; retention of humoral readouts as a regulatory bridge or as immunogenicity; whether S06-G is retained at its ceiling or set aside on that same fact; route, units, layout, length, and where in the answer anything sits.

@@ -6,9 +6,9 @@ Female BALB/c mice. Young animals were 7 to 8 weeks of age at the start of each
 experiment. Aged animals were 20 months of age or older, except where a block
 states otherwise. C57BL/6 mice at 15 or 20 months, Swiss Webster mice, 7 to
 8-week-old Sftpa1-/-Sftpd-/- mice, OT-I mice and Ifnar-deficient mice were used in
-the blocks that name them. Animals were housed in a pathogen-free facility. The
-protocol was reviewed and approved by the institutional animal care and use
-committee under 2008N000173.
+the blocks that name them. Animals were housed in a pathogen-free facility. All
+procedures were carried out under a reviewed and approved institutional animal
+care and use protocol.
 
 ## Materials
 

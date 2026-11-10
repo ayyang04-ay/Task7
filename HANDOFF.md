@@ -208,7 +208,36 @@ definition, not whether the word "young" appears; two of the eight ledger trajec
 were identified from a metric definition rather than prose. Recorded at the foot of
 `fa/error_modes.md`.
 
-**5.12 — OPEN, new. The grader treats a now-wrong answer as neutral.**
+**5.12 — FIXED. Moved to a B penalty on the user's instruction.**
+Was: the C list called it neutral "whether the innate alternative is resolved or left
+open with a discriminating experiment". The B list now penalises "proposing an
+adjuvant-alone or antigen-free arm in order to discriminate a non-specific antiviral
+state from primed immunity, when S15-H already carries that arm at the 3-day interval
+and settles it."
+
+The penalty is deliberately narrow. It fires on the redundant study arm, not on
+leaving the mechanism open: a response that raises the alternative and does not
+retire it has missed S15-H but has not spent an arm on it, which is a lesser and
+separate thing. C now covers the remaining judgement, whether the response raises the
+alternative at all and, if so, whether it retires it on S15-H or on the
+day-7-to-10 timing of a primary CD8 response. Verified that the golden does not trip
+the new penalty: it carries no adjuvant-alone arm, having had one removed under 5.5.
+Grader is 510 words, 3,303 characters, sha `abf669684815` — **re-paste it, the hash
+has changed.**
+
+**5.11 — FIXED. IACUC identifier removed.**
+`2008N000173` is gone from the annotation and from the shipped PDF. The ethics
+statement itself is kept, reworded to "All procedures were carried out under a
+reviewed and approved institutional animal care and use protocol", because a document
+like this would carry one. The BEI Resources catalogue numbers are kept: see section 3
+decision 9.
+
+Not done, and still open if the user wants it: the "as printed"/"as found" register
+throughout the annotation. Neither solvability agent treated it as a provenance tell,
+and both quoted those phrases back as useful signals about which fields are the
+workbook's own claims rather than the annotator's. Recommendation is now to leave it.
+
+**5.12 superseded — original text follows for the record.**
 The C list calls it neutral "whether the innate alternative is resolved or left open
 with a discriminating experiment". That was right when the golden thought the
 alternative was open. It is not right now: S15-H settles it from the mounted data, so
@@ -219,7 +248,7 @@ a skeleton and the FA is where this gets written up. It is pre-registered as an 
 candidate either way, at the foot of `fa/error_modes.md`, with no count attached
 because the existing panel was never screened for it.
 
-**5.11 — User's call, not yet made.** The annotation carries an external academic
+**5.11 superseded — original text follows for the record.** The annotation carries an external academic
 IACUC protocol number (`2008N000173`) and is worded in the register of third-party
 annotation ("the stated n as printed in the workbook", "both are given as found",
 "Groups as printed"). Both were flagged as provenance tells. Recommendation offered
