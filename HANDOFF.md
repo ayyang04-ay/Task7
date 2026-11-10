@@ -58,6 +58,15 @@ The user settled all of these. Re-opening them wasted time once already.
 6. **All 101 blocks annotated; non-load-bearing noise kept as is.**
 7. **No `.md` file in the data room.** Annotation ships as PDF.
 8. Assume the solver image has the packages it needs.
+9. **BEI Resources catalogue numbers stay** (`NR-3177`, `NR-348`, `NR-41803`). Buying
+   reference influenza strains from a public repository is ordinary industry practice,
+   the catalogue number is the unambiguous way to name a strain, and the numbers are
+   shared across many papers so they identify no single one. The IACUC protocol number
+   was a different case and has been removed: see 5.11.
+10. **The annotation's "as printed" / "as found" register stays.** Both solvability
+   agents quoted those phrases back as useful signals about which fields are the
+   workbook's own claims rather than the annotator's, and neither read them as a
+   provenance tell. Reopen only if a reviewer raises it.
 
 ## 4. State of the four artifacts
 
