@@ -109,7 +109,8 @@ Mantel-Cox inline, t-tests via an inline incomplete beta.
 | Grader guidelines | `task/grader-guidelines.txt` | 3,716 | `59c80b9d1fd8` |
 | Data room | `data-room/amnesti_preclinical_dataset.xlsx` | 56,830 | `f52687b64766` |
 | Data room | `data-room/trial_summary.pdf` | 59,731 | `1652d1d66813` |
-| Reviewer golden | `task/golden-response.txt` or `.pdf` | 23,738 | `7a2f4645020d` |
+| Reviewer golden (either) | `task/golden-response.txt` | 23,738 | `7a2f4645020d` |
+| Reviewer golden (either) | `task/golden-response.pdf` | 41,453 | `5170d5435bad` |
 
 Prompt is 201 words, grader 576. Check each paste against `build/paste-checks.txt`,
 which carries word count, character count, hash prefix and required last line. The
