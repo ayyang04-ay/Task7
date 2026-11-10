@@ -209,10 +209,22 @@ fields.
 - Workbook metadata: `dc:creator`, `cp:lastModifiedBy` and the `x15ac:absPath`
   carrying the author's username and local path are all stripped. Package-wide
   sweep for author names, institutions and path fragments returns clean.
-- Rename integrity: all 101 blocks have an annotation entry and vice versa; the
-  mapping is complete and injective; the three deliberate label collisions survive
-  (two duplicated pairs at S06 rows 69-70, the twin S09-A blocks both reading 16h);
-  sheet names are opaque; both audit scripts run with no out-of-range access.
+- Rename integrity: 101 label occurrences across 95 distinct labels; the annotation
+  and the workbook correspond exactly in both directions, with no label in one and
+  not the other; sheet names are opaque; both audit scripts run with no out-of-range
+  access. **Six labels appear twice, not three** as an earlier note in this file said:
+  S02-D, S04-B, S06-E, S06-F, S09-A and S14-A. All six are deliberate and must
+  survive any future rename. Re-check with:
+
+```bash
+cd /home/user/Task7 && python3 -I -c "
+import re, openpyxl, collections
+w=openpyxl.load_workbook('data-room/amnesti_preclinical_dataset.xlsx',data_only=True)
+occ=[m for s in w for r in s.iter_rows() for c in r if isinstance(c.value,str)
+     for m in re.findall(r'\bS\d\d-[A-Z]\b',c.value)]
+print(len(occ),'occurrences',len(set(occ)),'distinct')
+print({k:v for k,v in collections.Counter(occ).items() if v>1})"
+```
 - Grader against golden: every A item satisfied with a quoted passage, no B penalty
   tripped, no item double-classified, no placement or ordering requirement, every A
   item traceable to something the prompt asks.
