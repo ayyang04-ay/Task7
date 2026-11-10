@@ -60,9 +60,9 @@ That leaves six.
 |---|---|---|---|---|---|---|---|
 | S06-A | Aichi H3N2 | PR8 H1N1 | 14 | 85.7% | 14.3% | 0% | - |
 | S06-B | Aichi H3N2 | PR8 H1N1 | 3 | 71.4% | 0% | 0% | - |
-| S06-C | bivalent | rgHS05-I1 | 14 | 100% | 28.6% | 0% | - |
+| S06-C | bivalent | rgH5N1 | 14 | 100% | 28.6% | 0% | - |
 | S06-E | Aichi H3N2 | PR8 H1N1 | 60 | 71.4% | 0% | 0% | 85.7% |
-| S06-F | bivalent | rgHS05-I1 | 60 | 71.4% | 14.3% | 0% | 100% |
+| S06-F | bivalent | rgH5N1 | 60 | 71.4% | 14.3% | 0% | 100% |
 | S06-G | CA09 H1N1 | Perth H3N2 | 60 | 57.1% | 0% | 0% | 57.1% |
 
 n = 7 per arm throughout. Reduction: proportion of rows censored at day 14.
@@ -89,7 +89,7 @@ size", and the next study is powered to do better.
 
 Protection also appears at very short intervals. Challenge 3 days after a single
 dose gives 71.4% against 0% for sham (S06-B). In a separate experiment where challenge
-came 2 days after a single dose of rgHS05-I1 vaccine and animals were followed to day
+came 2 days after a single dose of rgH5N1 vaccine and animals were followed to day
 21, AMnESTI was 10 of 10 censored, nanoSTING 3 of 10 and sham 1 of 10 (S03-J,
 n = 10 per arm against a stated n of 9; one AMnESTI row carries an event code with
 no day value and is counted as censored). At those intervals a vaccine-specific
@@ -120,7 +120,7 @@ nanoSTING and 1.21 for sham, each relative to untreated animals (S02-F, group
 means, n = 5).
 
 **CCR2-dependent monocyte recruitment.** INCB3344 reduced lung GZMB+ CD8 T cells
-from 6.77% to 1.39% (S02-I) and LyS06-B+ macrophages from 15.35% to 2.52%, with
+from 6.77% to 1.39% (S02-I) and Ly6C+ macrophages from 15.35% to 2.52%, with
 monocytes from 9.86% to 3.26% (S07-B). Group means, n = 5.
 
 **Priming in the draining node.** Pertussis toxin left proliferating transferred
@@ -132,7 +132,7 @@ Every one of those steps sits upstream of the adaptive response. The mechanism i
 improved priming, not an effector function of the adjuvant itself.
 
 **Where the chain stops.** No blockade experiment carries a challenge arm. INCB3344
-cuts the lung cytotoxic CD8 population 4.9-fold and LyS06-B+ macrophages 6.1-fold, and
+cuts the lung cytotoxic CD8 population 4.9-fold and Ly6C+ macrophages 6.1-fold, and
 no survival readout follows in either case, so the step from improved priming to
 improved survival is inferred rather than shown.
 That is the first thing the next study has to close.

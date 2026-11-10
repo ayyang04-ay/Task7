@@ -126,7 +126,7 @@ age-versus-formulation comparison.
 | Delivery depends on surfactant protein | WT 43.10 vs Sftpa1-/-Sftpd-/- 12.66 | S01-C | 1 | yes |
 | GM-CSF 36h | 8.74 vs 1.59 vs 1.21 | S02-F | 1 | merged hdr, no young arm |
 | 72h residual | Ccl2 27.41, Ccl3 9.23, Tnf 8.44, Il6 7.19, Il10 4.16, Ifnb1 4.01, Ccl5 2.01; young comparator 0.11 to 101.59 on the same analytes | S09-A block 2 | 3 | yes, header reads Log10 |
-| Tolerability controls | S08-D cand 99.78 vs comp+R848 90.65 (min 84.7, 4 of 5 animals); SS03-E cand 1.13-1.59 vs CT 2.68-5.50 | S08-D, SS03-E | 1 | merged hdr |
+| Tolerability controls | S08-D cand 99.78 vs comp+R848 90.65 (min 84.7, 4 of 5 animals); S03-E cand 1.13-1.59 vs CT 2.68-5.50 | S08-D, S03-E | 1 | merged hdr |
 | Dose plateau | 45.83 -> 50.23 (+9.6%) | S08-A | 1 | merged hdr |
 | Corrected subclass | H1N1 comp 0.578, cand 2.144, young 2.972 against printed 2.972 / 0.578 / 2.144. H3N2 carries the same cyclic shift: 0.512 / 2.727 / 2.891 against printed 2.891 / 0.512 / 2.727 | S03-B/S03-F + S13-A-D | 3 | yes |
 | Foreclosure for direction | subclass-sum/total-IgG 0.56/0.35/0.55 (H1N1) and 0.57/0.32/0.34 (H3N2) against 16.1x and 11.3x under the alternative | S03-A/S03-E + S13-A-D | 2 | yes |
@@ -140,10 +140,10 @@ age-versus-formulation comparison.
 |---|---|---|---|---|---|---|---|---|
 | S06-A | Aichi H3N2, 1 ug HA | PR8 H1N1, 5x mLD50 | 14 | heterosubtypic | 85.7% | 14.3% | 0% | — |
 | S06-B | Aichi H3N2, 1 ug HA | PR8 H1N1, 5x mLD50 | 3 | heterosubtypic | 71.4% | 0% | 0% | — |
-| S06-C | bivalent | rgHS05-I1, 5x mLD50 | 14 | heterosubtypic | 100% | 28.6% | 0% | — |
-| S06-D | bivalent | rgHS05-I1, 5x mLD50 | 3 | heterosubtypic | 100% | 28.6% | 0% | — |
+| S06-C | bivalent | rgH5N1, 5x mLD50 | 14 | heterosubtypic | 100% | 28.6% | 0% | — |
+| S06-D | bivalent | rgH5N1, 5x mLD50 | 3 | heterosubtypic | 100% | 28.6% | 0% | — |
 | S06-E | Aichi H3N2, 1 ug HA | PR8 H1N1, 5x mLD50 | 60 | heterosubtypic | 71.4% | 0% | 0% | 85.7% |
-| S06-F | bivalent | rgHS05-I1, 5x mLD50 | 60 | heterosubtypic | 71.4% | 14.3% | 0% | 100% |
+| S06-F | bivalent | rgH5N1, 5x mLD50 | 60 | heterosubtypic | 71.4% | 14.3% | 0% | 100% |
 | S06-G | CA09 H1N1, 0.5 ug HA | Perth H3N2, 5x mLD50 | 60 | heterosubtypic | 57.1% | 0% | 0% | 57.1% |
 | rows 69-70 cols G-L, labelled S06-E | bivalent, 14-month mice, prior PR8 or saline | PR8 H1N1, 5x LD50 | not stated | within H1N1 | 85.7% / 85.7% | 0% / 57.1% | n/a | — |
 | rows 69-70 cols M-R, labelled S06-F | bivalent, 14-month mice, prior PR8 or saline | Perth H3N2, 5x LD50 | 14 | within H3N2 | 85.7% / 85.7% | 0% / 0% | n/a | — |
@@ -288,7 +288,7 @@ Source inconsistencies reproduced verbatim and unremarked:
   header n=3 against 2 observations
 - both fig. S09-A headers reading 16h
 - S06 rows 69-70 labelled S06-E/S06-F carrying 6K/6L content
-- the S10 block labelled S10-A carrying SS03-E content
+- the S10 block labelled S10-A carrying S03-E content
 - S03-J carrying three arms where the source legend names two, with a censoring
   day of 21 against 22 days of stated monitoring
 - the rows-69-70 blocks stating the challenge dose as LD50 where every other
@@ -420,7 +420,7 @@ test now asks to be counted.
 | 17 | S09-A is log10 | sheet header; PBS arm exponentiates to 1.00 |
 | 18 | all seven analytes unresolved at 72h | block 2 exponentiated |
 | 19 | non-resolution is a formulation property | young+cand 3.13 against young+comp 1.59 |
-| 20 | tolerability assays carry controls | S08-D comp+R848, SS03-E cholera toxin |
+| 20 | tolerability assays carry controls | S08-D comp+R848, S03-E cholera toxin |
 | 21 | dose at plateau | S08-A |
 | 22 | no accessible antigen-independent marker | enumeration by compartment |
 | 23 | no per-animal immune-to-outcome linkage exists | survival blocks carry only time and event |
@@ -436,7 +436,7 @@ tissue-resident memory as accepted mechanistic correlates of heterosubtypic
 protection; the absence of an agreed regulatory surrogate for heterosubtypic
 protection. Primary humoral kinetics. Mouse primary CD8 kinetics, peak days 7 to 10
 by epitope and tissue. Reciprocal dilution series, GMT convention, below-LOD
-handling. NP366-374 H-S02-Cb restriction against BALB/c H-2d. Sustained type I IFN
+handling. NP366-374 H-2Db restriction against BALB/c H-2d. Sustained type I IFN
 antagonising IFN-gamma responsiveness and B cell responses. Impaired inflammation
 resolution in the aged airway. Cyclic dinucleotide therapeutic window. High-dose
 inactivated vaccine as licensed standard of care in 65+. Influenza licensure
@@ -468,7 +468,7 @@ The 18 endpoints, aged candidate over young comparator, with direction:
 |---|---|---|---|---|---|---|
 | 1 | Ifnb1 16h | S01-A | higher better | 37.11 | 37.60 | 0.987 |
 | 2 | Ifnb1 72h | S01-A | **higher worse** | 4.43 | 1.59 | 2.785 |
-| 3 | LyS06-B+ monocytes d4 | S01-D | higher better | 30.56 | 32.22 | 0.948 |
+| 3 | Ly6C+ monocytes d4 | S01-D | higher better | 30.56 | 32.22 | 0.948 |
 | 4 | Alveolar macrophages d6 | S11-A | higher better | 31.00 | 46.88 | 0.661 |
 | 5 | Total IgG H1N1 | S03-A | higher better | 7891.60 | 12775.00 | 0.618 |
 | 6 | Total IgG H3N2 | S03-E | higher better | 6386.80 | 15722.40 | 0.406 |
@@ -481,7 +481,7 @@ The 18 endpoints, aged candidate over young comparator, with direction:
 | 13 | NP+ CD8 lung d7 | S05-A | higher better | 14.25 | 15.15 | 0.941 |
 | 14 | Ki-67+ CD8 d3 | S05-D | higher better | 9.38 | 9.94 | 0.944 |
 | 15 | GZMB+ CD8 d3 | S05-E | higher better | 5.69 | 9.61 | 0.592 |
-| 16 | IFN-gamma+ CD8, HS05-I1 restim d14 | S05-F | higher better | 6.36 | 9.18 | 0.693 |
+| 16 | IFN-gamma+ CD8, H5N1 restim d14 | S05-F | higher better | 6.36 | 9.18 | 0.693 |
 | 17 | IFN-gamma+ CD8 d60 | S05-G | higher better | 9.86 | 14.36 | 0.687 |
 | 18 | Lung TRM CD8 | S05-I | higher better | 3.96 | 6.04 | 0.656 |
 
@@ -638,9 +638,9 @@ of one trajectory and a thin mode set.
 2. Resolved. The prompt carries no fabricated content. The committee date and the
    GLP slot are gone and the hedge is closed by requiring a defensible case either
    way. The cost is that deferral is no longer expensive as a fact about the world.
-3. Resolved. The H-S02-Cb restriction call holds: NP366-374 is the H-S02-Cb-restricted
+3. Resolved. The H-2Db restriction call holds: NP366-374 is the H-2Db-restricted
    epitope and the stated strain is BALB/c, H-2d. The BALB/c-dominant NP epitope is
-   NP147-155 on H-S02-Hd. Determinate only where the annotation states strain per block.
+   NP147-155 on H-2Kd. Determinate only where the annotation states strain per block.
 4. Three products rest on annotation alone (legs 2, 3, 13). A thin or ambiguous
    annotation there breaks the protection and carry-forward pillars rather than
    making them hard. Leg 17 is no longer on that list; the scale is in the workbook

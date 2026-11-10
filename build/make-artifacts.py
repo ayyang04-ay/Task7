@@ -53,9 +53,50 @@ grader = emit('../task/grader-guidelines.txt',
                                                       '\n\n---\n\n## 5. SUPPORTING'),
               'task/grader-guidelines.txt')
 
+ANNOT_SRC = 'annotation-source.md'
+ANNOT_PDF = '../data-room/trial_summary.pdf'
+
+def annotation_drift():
+    # The PDF is generated, so a text diff against the source is the only check that
+    # catches a shipped data-room file carrying something the source does not. This
+    # exists because 27 corrupted strings once passed a green drift check that only
+    # covered prompt.txt and grader-guidelines.txt.
+    try:
+        from pdfminer.high_level import extract_text
+    except ImportError:
+        return ['task/trial_summary.pdf (pdfminer.six absent, cannot verify)']
+    import re
+    def norm(t):
+        return re.sub(r'\s+', ' ', re.sub(r'[*_`#|>-]', ' ', t)).strip()
+    from pdfminer.pdfpage import PDFPage
+    with open(ANNOT_PDF, 'rb') as fh:
+        npages = sum(1 for _ in PDFPage.get_pages(fh))
+    pdf = norm(extract_text(ANNOT_PDF))
+    src = norm(open(ANNOT_SRC).read())
+    bad = []
+    # Every identifier-shaped token in the PDF must also appear in the source. A bare
+    # integer no greater than the page count is a rendered page number and is not in
+    # the source by design, so it is exempt.
+    def exempt(t):
+        return t.isdigit() and int(t) <= npages
+    toks = set(re.findall(r'\b[A-Za-z]*[0-9]+[A-Za-z0-9+-]*\b', pdf))
+    orphan = sorted(t for t in toks if t not in src and not exempt(t))
+    if orphan:
+        bad.append('data-room/trial_summary.pdf carries %d token(s) absent from %s: %s'
+                   % (len(orphan), ANNOT_SRC, ', '.join(orphan[:12])))
+    for entry in re.findall(r'S\d\d-[A-Z]', src):
+        if entry not in pdf:
+            bad.append('data-room/trial_summary.pdf is missing block label %s' % entry)
+            break
+    return bad
+
 if not CHECK:
     subprocess.run([sys.executable, '-I', 'make-annotation-pdf.py',
-                    'annotation-source.md', '../data-room/trial_summary.pdf'], check=True)
+                    ANNOT_SRC, ANNOT_PDF], check=True)
+else:
+    for d in annotation_drift():
+        print('  %-28s DRIFT: %s' % ('data-room/trial_summary.pdf', d))
+        drift.append('data-room/trial_summary.pdf')
 
 def stats(name, body, extra=''):
     lines = [l for l in body.split('\n') if l.strip()]

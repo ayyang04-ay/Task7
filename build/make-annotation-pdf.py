@@ -1,6 +1,16 @@
 import re, sys
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
+
+# Helvetica's bullet glyph carries no ToUnicode mapping, so every bullet in the
+# extracted text came out as "(cid:127)" -- 521 of them in a document whose content
+# is almost entirely bulleted. A solver reading this file programmatically, which is
+# the normal case for a data room, saw that noise instead of the list structure.
+# DejaVuSans is embedded with a ToUnicode map, so the bullet round-trips. It is used
+# for the bullet glyph alone; the body font is unchanged.
+pdfmetrics.registerFont(TTFont('DejaVuSans', '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'))
 from reportlab.lib.units import mm
 from reportlab.lib.enums import TA_LEFT
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
@@ -8,7 +18,8 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 src, out = sys.argv[1], sys.argv[2]
 body = ParagraphStyle('body', fontName='Helvetica', fontSize=9.5, leading=13,
                       alignment=TA_LEFT, spaceAfter=4, splitLongWords=0, hyphenationLang='')
-bullet = ParagraphStyle('bullet', parent=body, leftIndent=10*mm, bulletIndent=4*mm, spaceAfter=2)
+bullet = ParagraphStyle('bullet', parent=body, leftIndent=10*mm, bulletIndent=4*mm, spaceAfter=2,
+                        bulletFontName='DejaVuSans', bulletFontSize=8)
 h1 = ParagraphStyle('h1', parent=body, fontName='Helvetica-Bold', fontSize=16, leading=20, spaceBefore=14, spaceAfter=8)
 h2 = ParagraphStyle('h2', parent=body, fontName='Helvetica-Bold', fontSize=13, leading=17, spaceBefore=12, spaceAfter=6)
 h3 = ParagraphStyle('h3', parent=body, fontName='Helvetica-Bold', fontSize=10.5, leading=14, spaceBefore=9, spaceAfter=3)

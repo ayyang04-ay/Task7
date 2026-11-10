@@ -1,0 +1,19 @@
+replacements.json — figure-label to block-label rules used once, for the rename.
+
+DO NOT re-run this against prose without reading this first.
+
+The original rule set carried 125 bare panel tokens ("5N" -> "S05-I", "6C" -> "S06-B",
+"6G" -> "S06-D", "2D" -> "S02-C", "2K" -> "S02-H") intended to catch labels written
+without a "Fig" prefix. Applied as plain substring replacements they fired inside
+unrelated identifiers and corrupted 73 real strings across the annotation, the golden
+and the brief: H5N1 became HS05-I1, Ly6C became LyS06-B, Ly6G became LyS06-D, H-2Db
+became H-S02-Cb, H-2Kd became H-S02-Hd. 27 of those reached the shipped PDF and the
+annotation ended up contradicting the workbook it describes.
+
+Those 125 rules have been deleted. Every rule that remains anchors on a Fig, Figure,
+Supp or Table prefix, so none can match inside a gene, allele or virus name.
+
+If a bare-token rule is ever needed again, gate it on a word boundary and a prefix,
+and diff the result against a known-good list of biological identifiers before
+writing anything. Check at minimum: H5N1, H1N1, H3N2, Ly6C, Ly6G, H-2Db, H-2Kd,
+CD11b, CD11c, IFN-beta, Ccl2, Ccl3, Ccl5.

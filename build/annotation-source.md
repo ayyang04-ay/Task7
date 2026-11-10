@@ -35,13 +35,13 @@ degrees Celsius.
 ## Viruses and vaccines
 
 CA09 H1N1 (FR-201), PR8 H1N1 (NR-348), Aichi H3N2 (NR-3177) and Perth H3N2
-(NR-41803) were obtained from BEI Resources. rgVN04 HS05-I1 comprises the H5 and N1
-genes of A/Vietnam/1203/2004 on a PR8 backbone. Wild-type VN04 HS05-I1 was obtained
+(NR-41803) were obtained from BEI Resources. rgVN04 H5N1 comprises the H5 and N1
+genes of A/Vietnam/1203/2004 on a PR8 backbone. Wild-type VN04 H5N1 was obtained
 from the Centers for Disease Control. Viruses were expanded in embryonated chicken
 eggs and purified by sucrose gradient ultracentrifugation. For challenge studies,
 viruses were adapted in mice through three cycles of intranasal instillation and
 lung homogenate preparation. Mouse LD50 was determined by a standard protocol.
-Wild-type HS05-I1 work was performed under BSL-3 containment.
+Wild-type H5N1 work was performed under BSL-3 containment.
 
 Inactivated vaccines were prepared with 0.02 percent formalin over 7 days at 4
 degrees Celsius and purified. Vaccine concentration was quantified by BCA protein
@@ -49,7 +49,7 @@ assay and by SDS-PAGE on HA content.
 
 Vaccine preparations used across blocks: a monovalent CA09 H1N1 vaccine at 0.5
 micrograms HA per animal; a monovalent Aichi H3N2 vaccine at 1 microgram HA per
-animal; a bivalent vaccine combining both at those HA contents; and an rgHS05-I1
+animal; a bivalent vaccine combining both at those HA contents; and an rgH5N1
 vaccine. Ovalbumin and AF647-conjugated ovalbumin were used as protein antigens in
 the blocks that name them.
 
@@ -142,7 +142,7 @@ Two panels under one label, at columns B to F and H to L.
 - **Observations per group**: 4.
 
 ### S01-D
-- **Measurand**: lung monocytes, gated as CD11b+LyS06-B+CD11c-LyS06-D-, by flow cytometry.
+- **Measurand**: lung monocytes, gated as CD11b+Ly6C+CD11c-Ly6G-, by flow cytometry.
 - **Units and scale**: percent, linear.
 - **Timepoint**: days 0, 2, 4, 6 and 8 after immunisation, one row per day.
 - **Conditions**: inactivated CA09 H1N1 vaccine at 0.5 micrograms HA, administered
@@ -245,7 +245,7 @@ S02-E sit side by side on rows 10 to 14.
 - **Groups as printed**: AMnESTI, NanoSTING, Sham.
 
 ### S02-G
-- **Measurand**: lung LyS06-B+CD11c+MHC-II+F4/80-to-intermediate cells, by flow cytometry.
+- **Measurand**: lung Ly6C+CD11c+MHC-II+F4/80-to-intermediate cells, by flow cytometry.
 - **Units and scale**: percent, linear.
 - **Timepoint**: day 5 after immunisation.
 - **Conditions**: inactivated bivalent vaccine with nanoSTING or with PBS, intranasal. One day later, recombinant GM-CSF at 1.5 mg/kg or PBS was administered intranasally for 4 consecutive days.
@@ -341,7 +341,7 @@ the inactivated bivalent vaccine, CA09 H1N1 at 0.5 micrograms HA and Aichi H3N2 
 ### S03-J
 - **Measurand**: time to event, one row per animal. Column 7 gives elapsed days; the group column holds 1 or 0.
 - **Units and scale**: days, integer.
-- **Conditions**: a single intranasal dose of reverse-genetics-derived rgHS05-I1 vaccine formulated with the stated adjuvant, then challenge with wild-type VN04 HS05-I1 at 2 days after immunisation. Observation ran for 22 days after challenge.
+- **Conditions**: a single intranasal dose of reverse-genetics-derived rgH5N1 vaccine formulated with the stated adjuvant, then challenge with wild-type VN04 H5N1 at 2 days after immunisation. Observation ran for 22 days after challenge.
 - **Stated n**: 9. **Observations per group**: Sham 10, NanoSTING 10, AMnESTI 9.
 - **Groups as printed**: Sham, NanoSTING, AMnESTI.
 
@@ -445,7 +445,7 @@ All blocks: inactivated bivalent vaccine, intranasal, with the stated adjuvant a
 - **Measurand**: IFN-gamma-positive CD8 T cells among mediastinal lymph node cells, by intracellular staining and flow cytometry.
 - **Units and scale**: percent, linear.
 - **Timepoint**: cells prepared on day 14 after immunisation.
-- **Conditions**: animals immunised with the inactivated bivalent vaccine and the stated adjuvant. Cell suspensions were restimulated in vitro with rgHS05-I1 vaccine and anti-CD28 before staining.
+- **Conditions**: animals immunised with the inactivated bivalent vaccine and the stated adjuvant. Cell suspensions were restimulated in vitro with rgH5N1 vaccine and anti-CD28 before staining.
 - **Stated n**: 5. **Observations per group**: 5.
 - **Groups as printed**: Sham, NanoSTING, AMnESTI, NanoSTING(Y).
 
@@ -453,7 +453,7 @@ All blocks: inactivated bivalent vaccine, intranasal, with the stated adjuvant a
 - **Measurand**: IFN-gamma-positive CD8 T cells among mediastinal lymph node cells, by intracellular staining and flow cytometry.
 - **Units and scale**: percent, linear.
 - **Timepoint**: cells prepared on day 60 after immunisation.
-- **Conditions**: as S05-F, restimulated in vitro with rgHS05-I1 vaccine and anti-CD28.
+- **Conditions**: as S05-F, restimulated in vitro with rgH5N1 vaccine and anti-CD28.
 - **Stated n**: 5. **Observations per group**: 5.
 - **Groups as printed**: Sham, NanoSTING, AMnESTI, NanoSTING(Y).
 
@@ -493,12 +493,12 @@ animal, challenged intranasally, and observed for 14 days after challenge.
 - **Groups as printed**: Sham, NanoSTING, AMnESTI, NanoSTING(Y).
 
 ### S06-C
-- **Vaccine**: bivalent, CA09 H1N1 at 0.5 micrograms HA and Aichi H3N2 at 1 microgram HA. **Challenge**: 5 x mLD50 rgHS05-I1 on day 14 after immunisation.
+- **Vaccine**: bivalent, CA09 H1N1 at 0.5 micrograms HA and Aichi H3N2 at 1 microgram HA. **Challenge**: 5 x mLD50 rgH5N1 on day 14 after immunisation.
 - **Stated n**: 7. **Observations per group**: 7.
 - **Groups as printed**: Sham, NanoSTING, AMnESTI, NanoSTING(Y).
 
 ### S06-D
-- **Vaccine**: bivalent, as S06-C. **Challenge**: 5 x mLD50 rgHS05-I1 on day 3 after immunisation.
+- **Vaccine**: bivalent, as S06-C. **Challenge**: 5 x mLD50 rgH5N1 on day 3 after immunisation.
 - **Stated n**: 7. **Observations per group**: 7.
 - **Groups as printed**: Sham, NanoSTING, AMnESTI, NanoSTING(Y).
 
@@ -508,7 +508,7 @@ animal, challenged intranasally, and observed for 14 days after challenge.
 - **Groups as printed**: Sham, NanoSTING, AMnESTI, NanoSTING(Y), Untreated. Animals in the Untreated group were 20 months of age and received no vaccine, no adjuvant and no challenge virus.
 
 ### S06-F (rows 34 to 68)
-- **Vaccine**: bivalent, as S06-C. **Challenge**: 5 x mLD50 rgHS05-I1 on day 60 after immunisation.
+- **Vaccine**: bivalent, as S06-C. **Challenge**: 5 x mLD50 rgH5N1 on day 60 after immunisation.
 - **Stated n**: 7. **Observations per group**: 7.
 - **Groups as printed**: Sham, NanoSTING, AMnESTI, NanoSTING(Y), Untreated. Animals in the Untreated group were 20 months of age and received no vaccine, no adjuvant and no challenge virus.
 
@@ -530,7 +530,7 @@ animal, challenged intranasally, and observed for 14 days after challenge.
 ## Sheet "S07"
 
 ### S07-A
-- **Measurand**: lung LyS06-B+CCR2+ macrophages, by flow cytometry.
+- **Measurand**: lung Ly6C+CCR2+ macrophages, by flow cytometry.
 - **Units and scale**: cell count, linear. The header row carries the notation (*10^5).
 - **Timepoint**: days 0, 2, 5, 10 and 30 after immunisation, one row per day.
 - **Conditions**: inactivated bivalent vaccine, intranasal, with the stated adjuvant.
@@ -538,7 +538,7 @@ animal, challenged intranasally, and observed for 14 days after challenge.
 - **Groups as printed**: NanoSTING, AMnESTI.
 
 ### S07-B
-- **Measurand**: lung CD11b+LyS06-B+ monocytes (columns 2 and 3) and LyS06-B+ macrophages (columns 5 and 6), by flow cytometry, as printed in the header row.
+- **Measurand**: lung CD11b+Ly6C+ monocytes (columns 2 and 3) and Ly6C+ macrophages (columns 5 and 6), by flow cytometry, as printed in the header row.
 - **Units and scale**: percent, linear.
 - **Conditions**: CCR2 antagonist INCB3344 at 10 mg/kg or vehicle, intraperitoneally, every two days for three doses before vaccination; then the bivalent vaccine formulated with AMnESTI, intranasal.
 - **Stated n**: 5. **Observations per group**: 5.
@@ -548,9 +548,9 @@ animal, challenged intranasally, and observed for 14 days after challenge.
 - **Measurand**: lung regulatory T cells, gated as CD4+Foxp4+, by flow cytometry.
 - **Units and scale**: percent, linear.
 - **Timepoint**: day 4 after macrophage transfer.
-- **Conditions**: donor aged animals received the bivalent vaccine formulated with AMnESTI intranasally. Recipient aged animals were immunised intranasally with the bivalent vaccine alone, and two days later received clodronate liposomes intranasally at 30 microlitres. On day 4 after immunisation, LyS06-B+CD206- and LyS06-B-CD206+ lung macrophages were sorted from donors by FACS and transferred intranasally into recipients.
+- **Conditions**: donor aged animals received the bivalent vaccine formulated with AMnESTI intranasally. Recipient aged animals were immunised intranasally with the bivalent vaccine alone, and two days later received clodronate liposomes intranasally at 30 microlitres. On day 4 after immunisation, Ly6C+CD206- and Ly6C-CD206+ lung macrophages were sorted from donors by FACS and transferred intranasally into recipients.
 - **Stated n**: 5. **Observations per group**: 5.
-- **Groups as printed**: LyS06-B-CD206+ MPhi, LyS06-B-CD206+ MPhi.
+- **Groups as printed**: Ly6C-CD206+ MPhi, Ly6C-CD206+ MPhi.
 
 ## Sheet "S08"
 
@@ -644,7 +644,7 @@ A region of numeric data carrying no block label.
 ### S09-F
 - **Measurand**: time to event, one row per animal.
 - **Units and scale**: days, integer.
-- **Conditions**: young BALB/c immunised intranasally with the inactivated bivalent vaccine and the stated adjuvant, then challenged with 5 x mLD50 VN04 rgHS05-I1 on day 180 after immunisation. Observation ran for 14 days after challenge.
+- **Conditions**: young BALB/c immunised intranasally with the inactivated bivalent vaccine and the stated adjuvant, then challenged with 5 x mLD50 VN04 rgH5N1 on day 180 after immunisation. Observation ran for 14 days after challenge.
 - **Stated n**: 8. **Observations per group**: 8.
 - **Groups as printed**: Sham, AMnESTIY, NanoSTINGY.
 
@@ -711,7 +711,7 @@ remaining blocks were harvested with intratracheal instillation.
 ## Sheet "S12"
 
 ### S12-A
-- **Measurand**: infiltrating CD45.2-positive CD11b+LyS06-B+ monocytes, by flow cytometry.
+- **Measurand**: infiltrating CD45.2-positive CD11b+Ly6C+ monocytes, by flow cytometry.
 - **Units and scale**: percent, linear.
 - **Timepoint**: day 3 after immunisation.
 - **Conditions**: bone marrow cells from CD45.2+ wild-type or Ifnar-knockout donors, with CD135+ pre-cDCs removed by sorting, transferred into CD45.1+ wild-type recipients at 5 x 10^6 cells per animal. Three days later the recipients were immunised with the bivalent vaccine formulated with AMnESTI. These animals were young.
@@ -836,12 +836,12 @@ by side on rows 72 onward; S15-L and S15-M, and S15-N and S15-O, likewise.
 - **Groups as printed**: NanoSTING(Y), Sham, NanoSTING, AMnESTI.
 
 ### S15-C
-- **Measurand**: body weight. **Conditions**: bivalent vaccine, challenged with 5 x mLD50 rgHS05-I1 on day 14 after immunisation.
+- **Measurand**: body weight. **Conditions**: bivalent vaccine, challenged with 5 x mLD50 rgH5N1 on day 14 after immunisation.
 - **Stated n**: 7. **Observations per group**: 7 at day 0, declining thereafter.
 - **Groups as printed**: NanoSTING(Y), Sham, NanoSTING, AMnESTI.
 
 ### S15-D
-- **Measurand**: body weight. **Conditions**: bivalent vaccine, challenged with 5 x mLD50 rgHS05-I1 on day 3 after immunisation.
+- **Measurand**: body weight. **Conditions**: bivalent vaccine, challenged with 5 x mLD50 rgH5N1 on day 3 after immunisation.
 - **Stated n**: 7. **Observations per group**: 7 at day 0, declining thereafter.
 - **Groups as printed**: NanoSTING(Y), Sham, NanoSTING, AMnESTI.
 
@@ -851,7 +851,7 @@ by side on rows 72 onward; S15-L and S15-M, and S15-N and S15-O, likewise.
 - **Groups as printed**: NanoSTING(Y), Sham, NanoSTING, AMnESTI, Untreated. Animals in the Untreated group were 20 months of age and received no vaccine, no adjuvant and no challenge virus.
 
 ### S15-F
-- **Measurand**: body weight. **Conditions**: bivalent vaccine, challenged with 5 x mLD50 rgHS05-I1 on day 60 after immunisation.
+- **Measurand**: body weight. **Conditions**: bivalent vaccine, challenged with 5 x mLD50 rgH5N1 on day 60 after immunisation.
 - **Stated n**: 7. **Observations per group**: 7 at day 0, declining thereafter.
 - **Groups as printed**: NanoSTING(Y), Sham, NanoSTING, AMnESTI, Untreated. Animals in the Untreated group were 20 months of age and received no vaccine, no adjuvant and no challenge virus.
 
@@ -862,7 +862,7 @@ by side on rows 72 onward; S15-L and S15-M, and S15-N and S15-O, likewise.
 
 ### S15-H
 - **Measurand**: time to event, one row per animal.
-- **Conditions**: aged animals received the bivalent vaccine alone, AMnESTI alone, or the bivalent vaccine combined with AMnESTI, intranasally, 3 days before challenge with 5 x mLD50 VN04 rgHS05-I1.
+- **Conditions**: aged animals received the bivalent vaccine alone, AMnESTI alone, or the bivalent vaccine combined with AMnESTI, intranasally, 3 days before challenge with 5 x mLD50 VN04 rgH5N1.
 - **Stated n**: 7. **Observations per group**: 7.
 - **Groups as printed**: 3d Vaccine, 3d AMnESTI, 3d Vaccine+AMnESTI.
 
