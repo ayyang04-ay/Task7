@@ -13,9 +13,9 @@ Tell me what you considered and ruled out.
 
 grader-guidelines.txt
 ---------------------
-Word count      : 576
-Character count : 3717
-sha256 prefix   : 4b166be59225
+Word count      : 697
+Character count : 4528
+sha256 prefix   : 956aa00ec05c
 Paragraphs      : 4, each one unbroken line. Confirm no hard wraps survived the paste.
 
 Scroll to the bottom of the form and confirm the C list is present. A

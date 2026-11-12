@@ -133,13 +133,13 @@ Mantel-Cox inline, t-tests via an inline incomplete beta.
 | Upload as | File | Bytes | sha256 |
 |---|---|---|---|
 | Prompt | `task/prompt.txt` | 1,187 | `cfc0f29bde3c` |
-| Grader guidelines | `task/grader-guidelines.txt` | 3,717 | `4b166be59225` |
+| Grader guidelines | `task/grader-guidelines.txt` | 4,528 | `956aa00ec05c` |
 | Data room | `data-room/adjuvant_program_dataset.xlsx` | 56,787 | `f293502992c7` |
 | Data room | `data-room/trial_summary.pdf` | 59,697 | `28d22fffdd21` |
 | Reviewer golden (either) | `task/golden-response.txt` | 24,777 | `e77e485a55fa` |
 | Reviewer golden (either) | `task/golden-response.pdf` | 41,946 | `937d3e808cdd` |
 
-Prompt is 201 words, grader 576. Check each paste against `build/paste-checks.txt`,
+Prompt is 201 words, grader 697. Check each paste against `build/paste-checks.txt`,
 which carries word count, character count, hash prefix and required last line. The
 line-break property is the one a diff will not show you: confirm in the form that each
 paragraph is still a single unbroken line, and that the grader's C list is present at
@@ -432,7 +432,68 @@ Current as of `e5f8226`, all re-run after the rename.
 - **Provenance sweep** over every part of the xlsx and the annotation text: no author
   name, path, generator string, DOI, journal, mailto, hyperlink, cursor state, theme
   font or old identifier.
-- **Golden vs grader:** all 8 A items met with quoted passages, 0 of 9 B penalties
+- **Rubric audit, and four defects it found.** An independent agent audited every A and
+  B item on three axes: accurate against the mounted cells, defensible against the FA
+  bar, correctly cited. Four items were wrong and are fixed; the reasoning matters more
+  than the wording, so it is recorded here.
+  1. **B3 penalised the golden.** It read "**any** aged-versus-young ratio as an ageing
+     effect where the same block carries a young-plus-candidate arm." The golden's own
+     line 46 does exactly that — aged+PSLN-212 16.64 against young+PSLN-212 37.60 — and
+     it is the **adjuvant-matched** comparison, the one comparison in the package that
+     isolates age. **The fix was already written down and the grader never picked it
+     up:** `fa/error_modes.md` carries the tightened Mode 1 rule from the post-repair
+     solvability run, which says the mode is a denominator varying age *and* adjuvant,
+     and that holding formulation constant is explicitly not the mode. The ledger and
+     the grader had been out of sync since that tightening, on the mode that fires in
+     all 8 trajectories. B3 now names the denominator and exempts the clean comparison.
+  2. **A8 contradicted the golden outright.** It required "the **effector** chain rested
+     on the blockade experiments". The golden's only use of the word, line 171, is
+     "improved priming, **not an effector function** of the adjuvant itself", and lines
+     173 and 176 say no blockade carries a challenge arm and the step to survival is
+     inferred rather than shown. The item demanded something the golden denies, so it
+     rewarded over-claiming. Now "the priming chain", with the limit required to be
+     stated — which the golden already does, so it now passes an item it used to fail.
+  3. **B4's "cancel" was factually wrong.** Pooling the roster on sign alone moves the
+     mean from 0.7318 to 0.8894 — attenuation, not cancellation, and still well below
+     1.0. "The two higher-is-worse endpoints" was also roster-relative without naming
+     the roster, so it could not be scored against a response using a different set.
+  4. **B8 penalised a stance rather than an error.** Aged+candidate is indistinguishable
+     from young+predecessor in all six blocks (p = 0.060 to 0.317), so an expert who
+     sets non-inferiority-to-young as the bar, shows it met, and advances has made no
+     mistake. This independently confirms **known risk 1**: the young-benchmark mode has
+     no refuting fact in the room. Two independent reads now agree it is the weakest
+     item in the map. Narrowed to declining or discounting on that ground.
+
+  B2 was also split: the scale error (reporting `S09-A` as linear) is now separate from
+  the later-timepoint-no-work limb, because tying the scale error to "the 72h analytes"
+  made the penalty conditional on the solver having already made the leg-16 inference.
+  The audit called this its most serious finding on the grounds that no 72h log10 panel
+  exists; that is overstated — the fact is derived, not absent, and `audit-golden.py`
+  verifies it from both directions — but the drafting fix stands.
+
+  **One audit claim rejected.** It argued A3 is scoped backwards and should require the
+  confound recognition wherever the only young arm is the predecessor, i.e. in the `S06`
+  survival blocks. Declined: that is precisely where no foreclosing fact exists, which
+  known risk 1 records, and widening A3 there would convert a determinate A item into an
+  indeterminate requirement. A3's scope is correct *because* the refuting fact exists
+  only in those six blocks.
+
+  **Not fixed, deprioritised under decision 4.** A1, A2, A5 and A6 are each two
+  requirements bolted together and are only scoreable split. Five A/B pairs score the
+  same requirement twice (A7/B2's second limb, A8/B7, A6's second limb/B1, A2/B6). And
+  C's carve-out for the duplicated `S06` labels is ambiguous: "read as labels" is meant
+  to make noticing the duplication neutral, not to make the block placement neutral, but
+  a reader could take the wider sense and then count the imprinting blocks toward the
+  heterosubtypic set.
+
+  **Prompt elicitation, still open and sharper than D5 states it.** The prompt never uses
+  the words heterosubtypic, cross-subtype, breadth, drift or mismatch — it frames the
+  asset only as "an adjuvant for IAV vaccine development in older adults". A1, A2, A6's
+  second limb and B1's second limb all turn on a cross-subtype value proposition the
+  solver must infer from the room alone. Defensible as difficulty, but it is the two
+  heaviest A items resting on an unstated frame.
+
+- **Golden vs grader, before the rubric audit:** all 8 A items met with quoted passages, 0 of 9 B penalties
   tripped, no double-classification, no placement or ordering requirement, every A item
   traceable to something the prompt asks.
 - **Golden arithmetic: true on values, and it was overstated on routes.** Two

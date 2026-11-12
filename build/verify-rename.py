@@ -50,13 +50,11 @@ def at_ref(rel, binary=False):
 TEXT = [
     'build/annotation-source.md',
     'build/audit-registry.py',
-    'build/anton-brief-psql25c1.md',
     'build/label-mapping.tsv',
     'build/replacements.json',
     'build/replacements.README.txt',
     'build/make-artifacts.py',
     'task/prompt.txt',
-    'task/grader-guidelines.txt',
     'fa/transcript-extract.py',
     'README.md',
 ]
@@ -77,6 +75,9 @@ ANNOTATED = {
                                     'months',
     'build/audit-golden.py': 'coverage extended from 109 to 246 diffed checks, closing '
                              'the 24 gaps the second reference audit enumerated',
+    'build/anton-brief-psql25c1.md': 'grader A8 and B2/B3/B4/B8 rewritten after the '
+                                     'rubric audit; the grader is generated from here',
+    'task/grader-guidelines.txt': 'generated from the brief',
 }
 # Files deliberately left carrying superseded identifiers, because their job is to
 # record the prior state. Asserted BYTE-IDENTICAL to the reference, with no
