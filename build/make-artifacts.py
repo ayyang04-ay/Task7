@@ -46,7 +46,7 @@ grader = emit('../task/grader-guidelines.txt',
               'task/grader-guidelines.txt')
 
 ANNOT_SRC = 'annotation-source.md'
-ANNOT_PDF = '../data-room/trial_summary.pdf'
+ANNOT_PDF = '../data-room/adjuvant_program_annotation.pdf'
 
 def annotation_drift():
     # The PDF is generated, so a text diff against the source is the only check that
@@ -56,7 +56,7 @@ def annotation_drift():
     try:
         from pdfminer.high_level import extract_text
     except ImportError:
-        return ['task/trial_summary.pdf (pdfminer.six absent, cannot verify)']
+        return ['task/adjuvant_program_annotation.pdf (pdfminer.six absent, cannot verify)']
     import re
     def norm(t):
         return re.sub(r'\s+', ' ', re.sub(r'[*_`#|>-]', ' ', t)).strip()
@@ -74,11 +74,11 @@ def annotation_drift():
     toks = set(re.findall(r'\b[A-Za-z]*[0-9]+[A-Za-z0-9+-]*\b', pdf))
     orphan = sorted(t for t in toks if t not in src and not exempt(t))
     if orphan:
-        bad.append('data-room/trial_summary.pdf carries %d token(s) absent from %s: %s'
+        bad.append('data-room/adjuvant_program_annotation.pdf carries %d token(s) absent from %s: %s'
                    % (len(orphan), ANNOT_SRC, ', '.join(orphan[:12])))
     for entry in re.findall(r'S\d\d-[A-Z]', src):
         if entry not in pdf:
-            bad.append('data-room/trial_summary.pdf is missing block label %s' % entry)
+            bad.append('data-room/adjuvant_program_annotation.pdf is missing block label %s' % entry)
             break
     return bad
 
@@ -132,8 +132,8 @@ if not CHECK:
     emit_golden_alternates()
 else:
     for d in annotation_drift():
-        print('  %-28s DRIFT: %s' % ('data-room/trial_summary.pdf', d))
-        drift.append('data-room/trial_summary.pdf')
+        print('  %-28s DRIFT: %s' % ('data-room/adjuvant_program_annotation.pdf', d))
+        drift.append('data-room/adjuvant_program_annotation.pdf')
     for d in golden_alternate_drift():
         print('  %-28s DRIFT: %s' % ('task/golden-response.*', d))
         drift.append('task/golden-response.*')

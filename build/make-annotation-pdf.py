@@ -5,7 +5,7 @@ import re, sys, os
 # keyed on the output filename so each document names itself; SOURCE_DATE_EPOCH gives
 # reportlab a fixed creation date instead of "now".
 TITLES = {
-    'trial_summary.pdf':   ('Dataset annotation',
+    'adjuvant_program_annotation.pdf':   ('Dataset annotation',
                             'Per-block annotation of the PSLN-344 preclinical dataset'),
     'golden-response.pdf': ('Portfolio review analysis',
                             'Reference analysis of the PSLN-344 preclinical dataset'),

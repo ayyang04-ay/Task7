@@ -135,7 +135,7 @@ Mantel-Cox inline, t-tests via an inline incomplete beta.
 | Prompt | `task/prompt.txt` | 1,187 | `cfc0f29bde3c` |
 | Grader guidelines | `task/grader-guidelines.txt` | 4,528 | `956aa00ec05c` |
 | Data room | `data-room/adjuvant_program_dataset.xlsx` | 56,787 | `f293502992c7` |
-| Data room | `data-room/trial_summary.pdf` | 59,697 | `28d22fffdd21` |
+| Data room | `data-room/adjuvant_program_annotation.pdf` | 59,700 | `83f2e9fb45db` |
 | Reviewer golden (either) | `task/golden-response.txt` | 24,777 | `e77e485a55fa` |
 | Reviewer golden (either) | `task/golden-response.pdf` | 41,946 | `937d3e808cdd` |
 
@@ -391,6 +391,15 @@ looked like our redaction scars and neither was:
 stamped 2026-09-03, so the annotation predated its subject by six months. The epoch
 constant in `make-annotation-pdf.py` now puts it at 2026-09-15, with a comment saying it
 must stay later than the workbook.
+
+*Also fixed.* The annotation was called `trial_summary.pdf` and contains no trial —
+nineteen pages of mouse work and no human data — and it carried **three different names**
+across its filename, its `/Title` ("Dataset annotation") and its page-1 heading ("Study
+annotation"). The red-team read the mismatch as a label applied from outside by someone
+who had not read the document, which is exactly what it was. All three now agree on
+*Dataset annotation*, and the file is `adjuvant_program_annotation.pdf`, so the two
+data-room files read as a matched pair from one internal export. No data changed; the
+page-1 heading is the only content edit and no forcing-chain leg touches it.
 
 *Accepted, on the user's decision — do not reopen.* The room's **structure** is a figure
 set. The publisher original's sheets are literally `Fig.1` … `Fig.7`, `Fig. S1`, `S2`,

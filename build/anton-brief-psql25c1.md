@@ -7,7 +7,7 @@ Studio: https://studio.mercor.com/annotator/tasks/task_4ce55343502b4d17b2182158a
 Revision 3. Every figure was recomputed from the shipped workbook in session.
 Legend and design facts come from the unmounted publication (Gao et al., Sci
 Immunol 2026, adz5242) and its supplementary materials, which stay out of the room
-and feed trial_summary.md. Change log at the end.
+and feed adjuvant_program_annotation.pdf. Change log at the end.
 
 ---
 
@@ -101,7 +101,7 @@ protection pillar is supposed to reach.
 | File | Contents | States the world how |
 |---|---|---|
 | adjuvant_program_dataset.xlsx | 15 sheets, 101 per-animal data blocks | Shipped unmodified. 90 of 101 blocks do not name their measurand |
-| trial_summary (to author, ships as PDF) | Per-block annotation, methodology, formulation | Dry annotation only. See absence anchors. Markdown is no longer permitted in the room; the workbook stays .xlsx |
+| adjuvant_program_annotation.pdf (to author, ships as PDF) | Per-block annotation, methodology, formulation | Dry annotation only. See absence anchors. Markdown is no longer permitted in the room; the workbook stays .xlsx |
 
 No publication mounted. The MDAR reproducibility checklist shipped in the same
 supplementary archive is not mounted either; it is filed under a different DOI from
@@ -244,7 +244,7 @@ survival readout follows either. The causal chain is established
 up to the immune readouts and assumed from there to protection.
 
 ### Absence anchors (assert mechanically)
-trial_summary.md must NOT contain:
+adjuvant_program_annotation.pdf must NOT contain:
 - any fold-change, ratio, percentage, effect size or p-value
 - "transient", "resolved", "returns to baseline", "sustained", or any judgment
   about the duration of the innate response
@@ -263,7 +263,7 @@ trial_summary.md must NOT contain:
 - any causal claim, including the direction of the blockade results
 - the source's figure titles
 
-trial_summary.md MUST contain: per block the measurand, units and scale, timepoint,
+adjuvant_program_annotation.pdf MUST contain: per block the measurand, units and scale, timepoint,
 stated n, group identities and replicate count. Per block, the route of
 administration and the dose for every agent given. Per challenge block, vaccine
 composition including HA content, challenge virus, challenge dose as stated,
