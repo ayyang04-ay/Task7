@@ -128,22 +128,24 @@ Mantel-Cox inline, t-tests via an inline incomplete beta.
 | Upload as | File | Bytes | sha256 |
 |---|---|---|---|
 | Prompt | `task/prompt.txt` | 1,187 | `cfc0f29bde3c` |
-| Grader guidelines | `task/grader-guidelines.txt` | 4,528 | `956aa00ec05c` |
+| Grader guidelines | `task/grader-guidelines.txt` | 5,666 | `c545a600076a` |
 | Data room | `data-room/adjuvant_program_dataset.xlsx` | 56,787 | `f293502992c7` |
 | Data room | `data-room/adjuvant_program_annotation.pdf` | 59,700 | `83f2e9fb45db` |
-| Reviewer golden (either) | `task/golden-response.txt` | 24,777 | `e77e485a55fa` |
-| Reviewer golden (either) | `task/golden-response.pdf` | 41,946 | `937d3e808cdd` |
+| Reviewer golden (any of the three) | `task/golden-response.md` | 24,972 | `55bfe5837780` |
+| Reviewer golden (any of the three) | `task/golden-response.txt` | 24,777 | `e77e485a55fa` |
+| Reviewer golden (any of the three) | `task/golden-response.pdf` | 41,946 | `937d3e808cdd` |
 
-Prompt is 201 words, grader 697. Check each paste against `build/paste-checks.txt`,
+Prompt is 201 words, grader 898. Check each paste against `build/paste-checks.txt`,
 which carries word count, character count, hash prefix and required last line. The
 line-break property is the one a diff will not show you: confirm in the form that each
 paragraph is still a single unbroken line, and that the grader's C list is present at
 the bottom.
 
-**Never upload a `.md`.** `task/golden-response.md` is the authored source;
-`make-artifacts.py` generates `.txt` and `.pdf` with content verified identical, and
-one of those goes in the form. The project guideline banning `.md` is not scoped to the
-data room, so neither is this.
+**The `.md` ban is scoped to the data room and the prompt, not to the golden** — see
+standing decision 7, corrected 2026-11-12. `task/golden-response.md` is the authored
+source and may itself be submitted; `make-artifacts.py` also generates `.txt` and `.pdf`
+with content verified identical, so any of the three may go in the form. What must never
+happen is an `.md` in the data room, or a prompt that asks for or references one.
 
 ---
 
@@ -161,7 +163,15 @@ The user settled all of these. Re-opening them has wasted time more than once.
 5. **No out-of-scope line in the prompt**, no not-all-relevant line, no world-fact
    constraint on deferral. All deliberate.
 6. **All 101 blocks annotated; non-load-bearing noise kept as is.**
-7. **No `.md` anywhere in the upload.**
+7. **No `.md` in the DATA ROOM, and the prompt must not ask for one or reference one.
+    The golden may be `.md`.** Corrected 2026-11-12: an earlier version of this decision
+    read "no `.md` anywhere in the upload", which over-scoped it. The constraint is on
+    the solver-visible room and on the prompt, not on the reviewer-facing golden.
+    Verified at the time of the correction: the data room is `.xlsx` plus `.pdf` with no
+    `.md`; `task/prompt.txt` names no file, format, document or `.md` at all; and the
+    shipped annotation text contains no `.md` reference. `make-artifacts.py` still
+    generates verified-identical `.txt` and `.pdf` copies of the golden, so any of the
+    three may go in the form — that is insurance, not a requirement.
 8. Assume the solver image has the packages it needs.
 9. **Commodity reagents carry no leak exposure and stay. `ADU-S100` did not, and was
     renamed to `CDN-1807` in rename 5.** The decision originally classed it with the
@@ -544,14 +554,27 @@ Current as of `e5f8226`, all re-run after the rename.
   indeterminate requirement. A3's scope is correct *because* the refuting fact exists
   only in those six blocks.
 
-  **Not fixed, deprioritised under decision 4.** A1, A2, A5 and A6 are each two
-  requirements bolted together and are only scoreable split. Five A/B pairs score the
-  same requirement twice (A7/B2's second limb, A8/B7, A6's second limb/B1, A2/B6) — note
-  the A7/B2 pair is deliberate and stays, per standing decision 12. And
-  C's carve-out for the duplicated `S06` labels is ambiguous: "read as labels" is meant
-  to make noticing the duplication neutral, not to make the block placement neutral, but
-  a reader could take the wider sense and then count the imprinting blocks toward the
-  heterosubtypic set.
+  **Then fixed in a second pass, 2026-11-12.** The three remaining structural findings
+  are closed:
+  - **A is split into thirteen separately scored, numbered items.** A1, A2, A5 and A6
+    were each two requirements bolted together, and A8 became a third when it was
+    rewritten, so a response could satisfy one limb and fail the other and be credited
+    for both. Each limb is now its own numbered item. B is numbered 1 to 10 in the same
+    pass, since B doubles as the lookup for the pre-registered modes and numbered items
+    make trajectory screening tractable.
+  - **The A/B overlap now has a rule.** Five pairs score the same requirement twice, and
+    the overlap is structural rather than accidental — A lists what a correct route must
+    establish, B lists the errors expected to occur — so it stays. The framing paragraph
+    now says a passage is credited or penalised once and never both.
+  - **C's carve-out is narrowed.** "Read as labels" was meant to make noticing the
+    duplication neutral, not the block placement, but a reader could take the wider
+    sense and count the imprinting blocks toward the heterosubtypic set — the exact error
+    A exists to catch. C now says so explicitly and points at A items 3 and 4.
+
+  One trap worth knowing for any future grader edit: `make-artifacts.py` slices the
+  grader out of this brief on the literal string `A. Must be present and correct:`,
+  colon included. Rewriting that opening crashes the generator, which is how it was
+  caught — it refused to ship rather than emitting a truncated grader.
 
   **Prompt elicitation, still open and sharper than D5 states it.** The prompt never uses
   the words heterosubtypic, cross-subtype, breadth, drift or mismatch — it frames the
