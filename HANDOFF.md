@@ -200,7 +200,30 @@ The user settled all of these. Re-opening them has wasted time more than once.
     `CD11b`, `Ly6C`, `H5N1`, `H-2Db` and the rest are the never-touch guard in
     `build/rename-assets.py`, not targets. This is decision 9 restated as an
     operational rule after rename 1 corrupted 73 of exactly those strings.
-12. **Any workbook edit is zip-level, sheet entries only.** Never an openpyxl
+12. **A7 and FA Mode 2 STAY. Resolution kinetics is required as proposed work, not
+    accepted as a caveat.** The rubric audit argued that inventorying it as a caveat is
+    defensible, which would have failed Mode 2 against the FA bar and cost a third of
+    the ledger. The user resolved it and the reasoning is recorded because it is the
+    answer to the defensibility challenge a reviewer will raise:
+
+    **Resolution kinetics IS a GLP tox question — and that is why it is a study rather
+    than a gap, not why it can be deferred.** The asset cannot reach IND without the
+    data, so a forward view that does not specify it leaves the programme with no path
+    to filing. An expert who lists it as a known gap has not made a defensible
+    prioritisation call; they have left the asset unfileable. That holds without needing
+    body weight to carry more than it can: `S08-D` at 99.78% against 90.65% for the
+    positive control is a crude screen, adequate to say "not acutely reactogenic,
+    continue", which is a different claim from "resolves". The resolution study earns
+    its slot as the follow-up that converts the screen into IND-enabling data.
+
+    Note for whoever reads the evidence fresh: at 72 h the *predecessor* arm is at 3.43
+    against sham 0.996, so the candidate's 4.43 is only 1.29-fold over its own
+    predecessor. Non-resolution is substantially a property of the liposome platform in
+    the aged lung rather than something the manganese introduces. This does not change
+    the decision — the asset still needs its own resolution data to file — but it is the
+    sharpest version of the counter-argument and is worth having ready.
+
+13. **Any workbook edit is zip-level, sheet entries only.** Never an openpyxl
     round-trip. See section 7, rename 3.
 
 ---
@@ -480,7 +503,8 @@ Current as of `e5f8226`, all re-run after the rename.
 
   **Not fixed, deprioritised under decision 4.** A1, A2, A5 and A6 are each two
   requirements bolted together and are only scoreable split. Five A/B pairs score the
-  same requirement twice (A7/B2's second limb, A8/B7, A6's second limb/B1, A2/B6). And
+  same requirement twice (A7/B2's second limb, A8/B7, A6's second limb/B1, A2/B6) — note
+  the A7/B2 pair is deliberate and stays, per standing decision 12. And
   C's carve-out for the duplicated `S06` labels is ambiguous: "read as labels" is meant
   to make noticing the duplication neutral, not to make the block placement neutral, but
   a reader could take the wider sense and then count the imprinting blocks toward the

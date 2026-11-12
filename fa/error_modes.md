@@ -90,6 +90,16 @@ specifiable from that alone.
 
 **Consequence.** Leaves the gating tolerability question unaddressed in the forward view.
 
+**Defensibility challenge raised and resolved — administrative note, not mode text.** An
+independent rubric audit argued that inventorying resolution kinetics as a caveat rather
+than proposing it as work is defensible, which would have failed this mode against the
+FA bar. The writer resolved it in favour of keeping the mode, on the ground that
+resolution kinetics being a GLP tox question is why it is a study rather than a gap: the
+asset cannot reach IND without the data, so a forward view that does not specify it
+leaves the programme unable to file. Full reasoning, and the sharpest counter-argument
+to have ready, are in HANDOFF standing decision 12. Recorded here only so the challenge
+is not raised a second time as if new; the mode's own wording above is unchanged.
+
 ---
 
 ## Rejected candidate — integrity audit drives the recommendation
