@@ -16,57 +16,52 @@ RLS short ID `psql25c1`, task `task_4ce55343502b4d17b2182158ad6e4533`, campaign
 
 ---
 
-## 1. START HERE — the one thing blocking the re-run
+## 1. START HERE — the sweep is done; the panel is the last unverified thing
 
-Everything mechanical is done and verified. **What has not happened is any independent
-read of the renamed files.**
+**Everything mechanical and everything the verification sweep found is closed.** Three
+independent audits ran against the renamed files and their findings are actioned: a
+reference audit of every cited number, an adversarial leakage red-team, and an audit of
+every grader A and B item. Sections 7 and 8 carry what they found and what was done.
 
-The last change was a 194-replacement rename across the workbook, the annotation, the
-golden and two scripts, plus eight annotation edits and six golden edits. Every check
-run against it since is mechanical: string counts, audits, correspondence, provenance
-greps. All green. But:
+**One thing was never obtained and will not be: an independent solvability read.** See
+standing decision 13. Seven launches across four configurations died on the same
+`[reasoning_extraction]` safeguard flag, so the 16-run panel is the solvability test by
+decision rather than by omission. What to do with the first batch is in that decision,
+and `fa/solvability-checklist.md` is the screen to run against it.
 
-- the earlier solvability check passed against the **pre-rename** files
-- the leakage red-team read the **pre-rename** files
-- the same class of bulk rename corrupted 73 identifiers the first time it ran
-- a red-team found a published-compound-name leak in files that had already passed
-  four of my own provenance sweeps
+**So the order of work from here is:**
 
-My own verification has twice been insufficient on exactly this kind of change.
-**Re-run the sweep before shipping.** Four agents:
+1. Re-verify the five artifacts and paste them per `build/paste-checks.txt` (section 4).
+2. Run the panel. 16 independent samples, no subagent fanout.
+3. **Before analysing for failure modes, screen the batch for solvability** against
+   `fa/solvability-checklist.md`. A route-necessary leg that no run reaches is a broken
+   room, not a failure mode, and the distinction decides whether the batch is FA
+   material or a rebuild. Legs 2, 3, 6 and 13 are the exposed ones: they rest on the
+   annotation alone, and the annotation absorbed 313 of the rename substitutions.
+4. Then the failure analysis. Section 9 has the ledger status and what supersedes what.
 
-1. **Leakage red-team.** Isolated sandbox, only the two shipped data-room files plus
-   `task/prompt.txt`. No repo access, no web. Brief it adversarially — to *disprove*
-   the claim that the files are an internal dump. Point it at zip internals, PDF
-   object-level metadata and XMP, font names, prose register, and whether the original
-   figure-panel scheme is recoverable. **Tell it explicitly to search for published
-   compound, product and reagent names**, which is the check every earlier sweep of
-   mine lacked and the reason this branch exists. Make the enumeration a named
-   deliverable: every compound, product, reagent, catalogue and protocol identifier in
-   both files, with a verdict per identifier on whether it resolves to a real published
-   entity and to what. The sandbox has no web, so that enumeration is parametric
-   knowledge only and a real-but-obscure name can pass it — **run a separate web pass
-   over the returned list, outside the sandbox.** That is how rename 3's `AVB-101`
-   collision was found, and no earlier sweep would have caught it.
-   Also give it the annotation's `as printed` register as an explicit target: section 6
-   records the user's decision to keep it and the reasoning, and the open question is
-   whether an independent read calls it a pointer at a *publication* or merely at an
-   internal upstream source.
-2. **Solvability, two agents.** Isolated, prompt plus the two files only, no answer
-   key. Ask for a full analysis plus an exhaustive derivation log marking every
-   question DERIVED / BLOCKED / AMBIGUOUS. Write the grading checklist *before* the
-   reports land.
-3. **References.** Repo access. Recompute every cited number. Tell it
-   `build/audit-golden.py` is **not** authority — same author as the golden, so they
-   can share a mistake.
+**Why the sweep was needed, kept because it explains the shape of the repo.** The
+renames touched the workbook, the annotation, the golden, the brief and five scripts.
+Every check run against them in-session was mechanical: string counts, audits,
+correspondence, provenance greps. All green, and all insufficient twice before — a bulk
+rename of this class corrupted 73 identifiers the first time it ran, and a red-team
+found a published-compound-name leak in files that had already passed four provenance
+sweeps. The third recurrence was found in this session: the asset name itself was the
+source paper's title word. Independent adversarial reads found what greps did not, every
+time. Budget for them.
 
-A leg counts as solvable if at least one agent derives it. An agent reaching a
-different conclusion from the golden is not a failure; only an underivable leg is.
-
-Expect and do not treat as defects: the workbook's internal contradictions, both
+**Expect and do not treat as defects:** the workbook's internal contradictions, both
 `S09-A` headers reading 16h, `S06-D` duplicating `S06-C`, `S15-L`/`S15-N` carrying no
 stated challenge virus, the unlabelled region at `S08` rows 89–101, no timepoint past
-72 h, no HA dose-ranging, no per-animal link between an immune measure and an outcome.
+72 h, no HA dose-ranging, no per-animal link between an immune measure and an outcome,
+the stated-n mismatches, the `S10-A` block holding `S03-E` content, the `S06` duplicated
+printed labels, the `NP366-374` tetramer against the stated strain, and `S05-A`'s
+ambiguous immunogen.
+
+**If a sweep is ever re-run**, the briefs that worked are worth reusing and are
+reconstructable from sections 7 and 8; `claude/solvability-room` is an orphan branch
+holding only the two data-room files, with no design document, golden, grader, script or
+history, kept as a ready-made isolated checkout for a manual solvability pass.
 
 ---
 
@@ -223,7 +218,46 @@ The user settled all of these. Re-opening them has wasted time more than once.
     the decision — the asset still needs its own resolution data to file — but it is the
     sharpest version of the counter-argument and is worth having ready.
 
-13. **Any workbook edit is zip-level, sheet entries only.** Never an openpyxl
+13. **THE PANEL IS THE SOLVABILITY TEST. This is a recorded decision, not an omission.**
+    No independent solvability read was ever obtained against the renamed room, and one
+    is not obtainable by any route available in-session. **Seven launches across four
+    configurations all died on the same `[reasoning_extraction]` safeguard flag:** two
+    Opus subagents, one Sonnet subagent, two more Opus subagents after a retry, and two
+    separate cloud sessions on an orphan branch holding nothing but the two data-room
+    files. Not model-specific, not session-specific, not fixed by stripping the persona
+    line or inlining the request, not fixed by physically removing the answer key.
+
+    The only pattern that survives seven attempts: the three audits that **ran** —
+    reference, red-team, rubric — all *audit the package*, while all seven that **failed**
+    *answer the prompt as a solver*. That is a correlation and not a diagnosis, and
+    further guessing was stopped rather than continued.
+
+    **So the first batch of 16 does double duty**, and the screen comes before the FA:
+    - Screen for solvability FIRST, against `fa/solvability-checklist.md`, which was
+      pre-registered for this purpose and is repurposed to score transcripts instead of
+      agent reports. The pass rule is unchanged: a leg is solvable if **at least one run
+      derives it**; a run disagreeing with the golden is not a failure, only an
+      underivable leg is.
+    - **A route-necessary leg no run reaches is a broken room, not a failure mode.** Do
+      not write it up as a mode. That distinction decides whether the batch is FA
+      material or evidence for a rebuild.
+    - Legs 2, 3, 6 and 13 are the exposed ones. They rest on the annotation alone, which
+      absorbed 313 of the rename substitutions, and known risk 4 is that a thin
+      annotation there breaks the protection and carry-forward pillars rather than making
+      them hard.
+
+    **What the decision is resting on, stated so it can be judged rather than trusted.**
+    In favour: `audit-golden.py`'s 246 checks all reproduce against the shipped room;
+    annotation-to-workbook correspondence is exact at 101 occurrences and 95 distinct
+    with the six deliberate duplicates; `verify-rename.py` proves the renames changed
+    nothing but the declared strings across every file, 22,542 workbook cells and both
+    PDFs. Against: none of that is a solvability test. Every one of those checks confirms
+    that the room says what it is supposed to say — not that a solver can get from the
+    room to the conclusion. The cost of being wrong is one wasted batch; the cost of the
+    alternative was an unbounded number of further launches against a flag that did not
+    move. The user took the batch.
+
+14. **Any workbook edit is zip-level, sheet entries only.** Never an openpyxl
     round-trip. See section 7, rename 3.
 
 ---
