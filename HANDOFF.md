@@ -705,12 +705,29 @@ Notes the FA needs:
 
 ---
 
-## 10. Not in the repo — the user must re-upload
+## 10. Where the inputs are
+
+The solver exports and the QA report are now **in the repo**, under `fa/exports/`.
+They were held in a scratch `FA-data` repo and were moved here so they travel with
+the task.
+
+| Needed for | File, in `fa/exports/` | sha256 |
+|---|---|---|
+| FA, any transcript work | `Anton_4ce55343502b4d17b2182158ad6e4533_job_121a8283_2026-11-12.zip` | `8e5abed6` |
+| FA, any transcript work | `Anton_4ce55343502b4d17b2182158ad6e4533_job_af49afff_2026-11-12.zip` | `f8230a9f` |
+| QA cross-reference | `qa_report_psql25c1_v2_f3a468ce.zip` | `fada83bd` |
+
+These **supersede** the files this section previously pointed at —
+`..._job_91694a59_2026-11-09.zip` and `qa_report_psql25c1_v1_84eb8cc6.zip` — which
+are no longer held anywhere. Note the consequence for section 9: **every trajectory
+ID cited there comes from the older batch**, not from the two exports above. Section 9
+already warns that a new batch supersedes those IDs; the exports here are that new
+batch, and the counts in section 9 have not been recomputed against them.
+
+Two inputs are still **not in the repo** and must be re-uploaded when wanted:
 
 | Needed for | What to re-upload |
 |---|---|
-| FA, any transcript work | `Anton_4ce55343502b4d17b2182158ad6e4533_job_91694a59_2026-11-09.zip` |
-| QA cross-reference, if ever wanted | `qa_report_psql25c1_v1_84eb8cc6.zip` |
 | Checking an annotation entry against its source legend | `nihms-2207669.pdf`, `NIHMS2207669-supplement-supplemental_materials.docx` |
 | Design decisions | `anton-scope2_1.zip`, the newer of the two skill drops |
 
