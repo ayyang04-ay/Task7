@@ -11,6 +11,7 @@ reviewer asks for panel context.
 | **A8** (the antigen-dose comparison named as unanswerable) | Not met or only partly met in all sixteen | **Discriminates nothing, and the requirement is weaker than the item implies.** Independently confirmed: the room holds each antigen at exactly one dose (0.5 µg HA CA09, 1 µg Aichi) and zero runs name the fixed dose as unanswerable. But the prompt does not ask for an inventory of unanswerable questions, and ten runs proposed a licensed high-dose comparator, which is the commercially relevant form of the question. The item is a grading-document requirement with no prompt or room basis, which is why it is a calibration note and not a mode |
 | **B1, B2, B5, B6, B8, B9, B10** | Fired nowhere | Seven of the ten pre-registered penalties are inert on this panel. B2 in particular: every run found the mislabelled 72 h panel and exponentiated the log10 scale correctly, so the scale trap is solved by both models every time |
 | **B7** (treating `S06-C` and `S06-D` as independent) | Fired nowhere as written | Every run found the 28-of-28 identity and excluded `S06-D` from its primary estimate. Two runs (F6, F7) use `S06-D` inside a day-3 pool while disclosing the identity in the same table |
+| **A11 / B3** (resolution kinetics proposed as work) | Failed by O2, O4, O6, O7 on the grader's reading | **Looked discriminating and dissolved on the probe.** The item asks for a dedicated resolution study on a three-animal single-timepoint panel in which the candidate does not separate from the age-matched parent on five of seven analytes. Three of the four "failing" runs carried the finding into a safety or PD plan anyway. The item as written penalises a defensible prioritisation call, so it does not discriminate reasoning — it discriminates study-plan formatting. Worth rewording or retiring. Full evidence in `probe_notes.md` |
 | **A13** (the limit that no blockade experiment carries a challenge endpoint) | Met wherever a rationale resolves it; unresolved in ten rationales | Not screenable from the deliverables by pattern: the phrasing varies too widely for a reproducible count, and that alone disqualified it as a mode |
 
 ## The pre-registration paid off
@@ -52,6 +53,18 @@ absent, so every run built a multi-env pipeline; and the image has no document r
 all, so no run could visually check the PDF or DOCX it shipped. The second is worth
 flagging to whoever owns the image — sixteen of sixteen runs produced a document they were
 unable to inspect.
+
+## The 72 h panel is the task's best feature and the grader does not use it
+
+The probe turned up something worth keeping for task design rather than for the FA. The
+72 h panel is where the confound bites hardest, because there the young-parent denominator
+inflates the *risk* rather than the benefit, and two runs in this very panel (F4, F8) got
+it right while six did not. That is the cleanest discrimination anywhere in the package —
+and B4's wording reaches it only incidentally, through "an age-gap, restoration or
+age-gap-closure metric". A reactogenicity figure quoted as "2.85× the young level" is not
+obviously a restoration metric, so a grader could miss it. If the grader is touched again,
+B4 is worth widening from *metrics* to *any aged-versus-young figure in a block carrying a
+young-plus-candidate arm*, which is what the FA mode actually covers.
 
 ## One thing to watch in the next batch
 

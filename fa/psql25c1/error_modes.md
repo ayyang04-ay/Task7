@@ -73,7 +73,7 @@ arithmetic-mean-only probe misses them.
 
 ## Phase 1a2 — verdict map
 
-| Run | Advance? | Decision rests on | Heterosubtypic set computed? | 72 h residual carried into the plan? |
+| Run | Advance? | Decision rests on | Heterosubtypic set computed? | Dedicated 72 h resolution study proposed? |
 |---|---|---|---|---|
 | F1 | advance, gated | efficacy, challenge blocks | no | yes |
 | F2 | advance, gated | efficacy, challenge blocks | no | yes |
@@ -133,19 +133,25 @@ are among the least-cited blocks in the whole room. That is Mode 1 seen from the
 Ordered by prevalence first, consequence second. Prevalence was counted only to clear the
 floor of two and is then dropped: the Runs cell names the runs, with no count and no ratio.
 
-**Two modes ship.** A third candidate was built, tested and failed the floor; it is kept
-below the ledger with its evidence rather than stretched to fit. Four further candidates
-were dropped and are listed after it with reasons.
+**One mode ships, at two sites.** A second mode shipped in v1 and was **retracted after
+the Phase 2 probe** — see `probe_notes.md` and the retraction section below. A third
+candidate was built, tested and failed the prevalence floor. Five further candidates were
+dropped. All of them are kept below the ledger with their evidence rather than stretched
+to fit.
+
+The surviving mode is in all sixteen runs and clears the gate in standing decision 3 on
+its own.
 
 ### Mode 1 — the age claim is measured against a different formulation
 
 | Field | Content |
 |---|---|
-| Short name | Age and adjuvant varied together in the restoration metric |
+| Short name | Age and adjuvant varied together, wherever the aged response is measured against a young one |
 | Class | Analytical — a comparison not corrected for a known covariate the room controls |
 | Runs | F1, F2, F3, F4, F5, F6, F7, F8, O1, O2, O3, O4, O5, O6, O7, O8 |
 | Not checked | that the aged-versus-young contrast changes the adjuvant as well as the age, in the six blocks that carry a young arm on the candidate formulation |
-| Shape | encountered then unapplied in F2, F3 and O1, which hold the controlling value and do not use it; not retrieved in the rest |
+| Shape | encountered then unapplied in F2, F3 and O1, which hold the controlling value and do not use it; not retrieved in the rest. At the 72 h site, encountered then unapplied in O2, O3, O4, O5, O6 and O8, each of which had the aged parent arm in the same panel |
+| Sites | 16 h, where the confound inflates the benefit: all sixteen runs. 72 h, where the same denominator inflates the risk: O2, O3, O4, O5, O6, O8 |
 | Graded? | A5 and B4, counted once by the grader |
 
 **Description, in the task's own numbers and files.** `S01-A` (sheet `S01`, rows 3–10,
@@ -181,6 +187,22 @@ aged+PSLN-344 at 2.85× to 2.92× young, and the formulation-held ratio is 1.37�
 | O6 | memo §1 bullet 3, "restores IFN-β induction to the young level … restoration index 0.98 [I194]"; the biomarker table row |
 | O7 | memo §1 bullets, "aged lungs make only 44 % of the young early IFN-β response … closes 98 % of the age gap"; the mechanism table; the biomarker table, "0.98, over-restored" |
 | O8 | memo evidence row 8, "equal to young (37.5×; ratio 0.98)"; §mechanism, "Mn restores it exactly"; the biomarker table |
+
+**Second site: the same denominator on the 72 h panel, where it inflates the risk rather
+than the benefit.** The reactogenicity flag — the one reading in the package that argues
+*against* advancing — is also computed against the young parent arm. O2, O3, O4, O5, O6
+and O8 report the 72 h residual as "2.85× the young level", "285 % of young", "Tnf 17.8×
+and Il10 36.6× vs the young benchmark", or a negative restoration fraction read as moving
+away from the young profile. Against the age-matched parent arm those become Tnf 1.62×
+(p = 0.052), Il10 1.00× (p = 0.991) and Ifnb1 1.18× (p = 0.665) in `S09-A` panel 2, and
+1.29× (p = 0.262) in `S01-A` at n = 5. Two analytes reverse outright: at 72 h the young
+parent arm carries Ccl2 101.59 and Ccl3 41.45 against the aged candidate's 27.41 and 9.23.
+**This site has clean exemplars inside the same panel**, which the 16 h site does not:
+F8 states "Aged PSLN-212 shows the same Tnf and Il10 tail (5.2 and 4.2), so that part is
+an age effect. Il6 is the exception: 7.2 vs 1.9, p = 0.03" — reproducing the age-matched
+result; F4 reports both columns, "Tnf 17.8 times young (4.8–66) and 1.6 times aged
+PSLN-212 (0.99–2.6)", with an interval that correctly straddles 1.0. Full tables and the
+hand-computed statistics are in `probe_notes.md`.
 
 **Counterfactual.** Hold the formulation constant and vary the age: in `S01-A` at 16 h
 aged+PSLN-344 over young+PSLN-344 is 37.11 / 50.70 = **0.732**. The comparison the room
@@ -218,67 +240,34 @@ their own files and did not use it.
 
 ---
 
-### Mode 2 — the last measured timepoint's residual is not carried into the safety plan
+### Retracted — the 72 h residual left out of the safety plan
 
-| Field | Content |
+**Shipped in v1 as Mode 2 over O2, O4, O6 and O7. Retracted 2026-11-13 after the Phase 2
+probe. Do not ship it.** Full evidence in `probe_notes.md`; the short form is here so the
+ledger is self-contained.
+
+| Why it failed | Detail |
 |---|---|
-| Short name | Residual innate elevation at the last measured timepoint left out of the forward view |
-| Class | Adjudication — conclusion-action gap |
-| Runs | O2, O4, O6, O7 |
-| Not checked | when the innate response returns to baseline, given that no timepoint beyond 72 h exists anywhere in the package |
-| Shape | established then unwritten in O2, O4 and O6; not retrieved in O7 |
-| Graded? | A11, with B3 for O2, O4 and O6 |
+| The signal is not candidate-specific | On the comparison that holds age constant, the candidate does not separate from the aged parent at 72 h on Ifnb1 (1.18×, p = 0.665; 1.29×, p = 0.262 in the n = 5 block), Il10 (1.00×, p = 0.991), Tnf (1.62×, p = 0.052), Ccl3 or Ccl5. Only Il6 separates cleanly (3.85×, p = 0.026). On Ccl2 and Ccl3 the **young** animals are the high ones. The alarming figures the panel quotes are Mode 1's confounded denominator |
+| Three of the four runs did the work | O4 quantified it with its n and integrity flag stated and proposed the same panel extended to 72 h as a reactogenicity guard-rail — which is the counterfactual. O6 named the prolonged tail as a risk, put the `S09-A` run files in the audit scope and routed lung histopathology into the IND package. O2 flagged it and put tolerable repeat-dose inflammation in its safety study's must-establish list |
+| The fourth run's characterisation was mine and it was wrong | O7 did **not** fail to retrieve the panel. Its integrity item I09 diagnoses the mislabel correctly and excludes the panel as non-independent of `S01-A` — placement on a stated mounted fact, which the grader's own A4 treats as legitimate |
+| An expert defends the call | Three animals per arm, one timepoint, a panel carrying its own duplication finding, no separation from the age-matched comparator on five of seven analytes. Folding resolution into standard GLP toxicology is a defensible prioritisation call |
 
-**Description, in the task's own numbers and files.** The second `S09-A` panel (sheet
-`S09`, columns X–AS, rows 3–9) is headed 16 h and holds the 72 h data; every run in the
-panel identified that and exponentiated the log10 scale correctly. In the aged
-candidate arm at that timepoint, fold over untreated: Ccl2 27.41, Ccl3 9.23, Tnf 8.44,
-Il6 7.19, Il10 4.16, Ifnb1 4.01, Ccl5 2.01. The young parent arm has resolved on two of
-these — Tnf 0.48, Il10 0.11. No arm anywhere in the room carries a later timepoint.
-O2 logs the elevation as a "reactogenicity flag" and calls it transient; O4 proposes only
-re-measurement and extending a panel to 72 h; O6 lists it as a clinical risk and a
-next-generation target. **O7 never retrieves the 72 h panel at all** — it cites `S09-A`
-once, has no reference to a 72 h timepoint anywhere in the memo, and asserts "No
-tolerability signal in mice at the dose that works." None of the four specifies a study
-that measures when the response returns to baseline.
+**What this does to HANDOFF standing decision 12.** SD12 remains correct that the asset
+cannot file without resolution data. It is not correct that a run omitting a dedicated
+resolution study has made a mistake. SD12 rested on one ratio, the candidate's 4.43
+against the predecessor's 3.43; the probe supplies that ratio's p-value, 0.262, and shows
+the pattern across all seven analytes. New evidence, not a re-litigation. The writer owns
+the decision; nothing else in the FA depends on it.
 
-**Where it is visible.** Each run's next-studies section and its safety study: O2's S4
-intranasal-Mn study, whose "must establish" is CNS Mn and repeat-dose tolerance; O4's
-Study 6, scoped to olfactory, CNS and local toxicity; O6's IND-enabling row, scoped to
-nasal, olfactory and CNS histopathology; O7's S3b GLP toxicology, in rat and a second
-species for an Mn NOAEL. In all four the aged lung's own time-course is absent from the
-endpoint list.
+**One single-run finding kept out of the ledger.** O7's exclusion over-applies its own
+duplication finding: verified this session, the duplication holds for the Ifnb1 row only
+(21 of 21 values within 1 %, median error 0.113 %, against 76.2 % versus the 16 h panel),
+and the other six analytes at 72 h appear nowhere in `S01`. Discarding the panel discards
+six analytes with no other source in the room, and O7 then asserts "No tolerability signal
+in mice at the dose that works." O4 drew the line correctly on the same finding. One run,
+so it does not clear the floor. Screen the next batch for it.
 
-**Counterfactual.** Seven analytes sit above the untreated reference at the last measured
-timepoint and no arm carries a later one, so the study that establishes the return to
-baseline is fully specifiable from the room: the same analytes in aged lung at the
-efficacious dose, sampled past 72 h, with a resolution criterion. F1, F2, F3, F4, F5, F6,
-F7, F8, O1, O3, O5 and O8 all specified it, so it is not a stretch.
-
-**Exemplar.** O1 — Study 4 samples cytokines at 6, 24 and 72 h with lung histopathology
-at days 3, 7 and 28 and a go criterion of aged-lung inflammation resolved by day 7.
-O8 carries the same as gate G3.
-
-**Consequence.** Leaves the gating tolerability question out of the forward view. In O7 it
-also leaves a positive safety claim standing against a contrary datum in the room that the
-run never retrieved.
-
-**Evidence.** [computed] all seven exponentiated values recomputed from `S09!AN3:AP9` and
-the young parent arm from `S09!AQ3:AS9` this session. [transcript] positions above.
-
-**Defensibility challenge, already raised and resolved — administrative note, not mode
-text.** An independent rubric audit argued that inventorying resolution kinetics as a
-caveat is defensible. The writer resolved it in favour of keeping the mode: the asset
-cannot reach IND without the data, so a forward view that does not specify it leaves the
-programme unable to file. HANDOFF standing decision 12 carries the full reasoning and the
-sharpest counter-argument. One thing this panel adds in the mode's favour: most of the
-panel proposed the work, named run by run in the counterfactual above, so the omission is
-a choice rather than a property of the room. One thing it adds against: at 72 h the aged **parent** arm is at Tnf 5.23 and Il10
-4.18, so non-resolution is substantially a platform property rather than something the
-manganese introduces. That does not rescue the omission — the asset still needs its own
-resolution data — but it is what a reviewer will raise.
-
----
 
 ### Candidate that does not clear the bar — matched-subtype blocks inside a pooled breadth estimate
 
@@ -379,19 +368,19 @@ runs. A8 is failed or only partly met by every run, so it discriminates nothing 
 | F1 | 1 | — | no; a clean exemplar for Mode 1's "% of young" form |
 | F2 | 1 | — | **best exemplar for Mode 1's encountered-then-unapplied shape**: the controlling value is row `M1` of its own ledger and the within-cohort effect is row `M23`, neither used |
 | F3 | 1 | labels the imprinting blocks correctly in the memo and mislabels them in a supporting CSV | no |
-| F4 | 1 | pools four matched-subtype strata into its primary versus-parent estimate | no |
+| F4 | 1 (16 h site only) | pools four matched-subtype strata into its primary versus-parent estimate | **one of two exemplars for the 72 h site**: reports both the young-parent and the age-matched column with a correct interval |
 | F5 | 1 | a "mismatched-subtype" restricted set at 56/70, far larger than the 28 animals in the strict set | no |
 | F6 | 1 | — | no |
 | F7 | 1 | — | no |
-| F8 | 1 | — | no |
+| F8 | 1 (16 h site only) | — | **the best exemplar in the panel**: states outright that the 72 h Tnf and Il10 tail is an age effect because the aged parent shows the same, and isolates Il6 as the exception at p = 0.03 |
 | O1 | 1 | — | **best exemplar for Mode 1 overall**: the memo prints young+PSLN-344 at 50.2 and keeps R = 0.98, and carries the same benchmark into a human go criterion |
-| O2 | 1, 2 | — | no |
-| O3 | 1 | — | no |
-| O4 | 1, 2 | — | no |
-| O5 | 1 | — | no |
-| O6 | 1, 2 | the one clear instance of the matched-subtype candidate below the ledger | no |
-| O7 | 1, 2 | — | **best exemplar for Mode 2's not-retrieved shape**: no 72 h reference anywhere, and a positive tolerability claim |
-| O8 | 1 | — | no; the cleanest statement of the heterosubtypic counterfactual, 20/28 against 1/28 and 32/42 against 4/42 |
+| O2 | 1, both sites | — | no |
+| O3 | 1, both sites | — | no |
+| O4 | 1, both sites | — | **the exemplar for the retracted mode's defence**: quantifies the 72 h tail with its n and integrity flag and designs a guard-rail around it |
+| O5 | 1, both sites | — | no |
+| O6 | 1, both sites | the one clear instance of the matched-subtype candidate below the ledger | no |
+| O7 | 1 (16 h site only) | over-applies its own duplication finding to the whole 72 h panel, then asserts no tolerability signal — single-run, not shipped | no |
+| O8 | 1, both sites | — | no; the cleanest statement of the heterosubtypic counterfactual, 20/28 against 1/28 and 32/42 against 4/42 |
 
 **Tooling friction is not a mode and is not in the ledger.** ClaudeScope records two
 environment gaps that every run worked around: no openpyxl-plus-lifelines in any single
