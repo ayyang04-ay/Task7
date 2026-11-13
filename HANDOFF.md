@@ -131,9 +131,9 @@ Mantel-Cox inline, t-tests via an inline incomplete beta.
 | Grader guidelines | `task/grader-guidelines.txt` | 5,666 | `c545a600076a` |
 | Data room | `data-room/adjuvant_program_dataset.xlsx` | 56,787 | `f293502992c7` |
 | Data room | `data-room/adjuvant_program_annotation.pdf` | 59,700 | `83f2e9fb45db` |
-| Reviewer golden (any of the three) | `task/golden-response.md` | 24,972 | `55bfe5837780` |
-| Reviewer golden (any of the three) | `task/golden-response.txt` | 24,777 | `e77e485a55fa` |
-| Reviewer golden (any of the three) | `task/golden-response.pdf` | 41,946 | `937d3e808cdd` |
+| Reviewer golden (any of the three) | `task/golden-response.md` | 25,496 | `4a91dfde8b74` |
+| Reviewer golden (any of the three) | `task/golden-response.txt` | 25,301 | `85596cc96c4b` |
+| Reviewer golden (any of the three) | `task/golden-response.pdf` | 42,325 | `fc8ca86bd09b` |
 
 Prompt is 201 words, grader 898. Check each paste against `build/paste-checks.txt`,
 which carries word count, character count, hash prefix and required last line. The
@@ -611,6 +611,29 @@ occ=[m for s in w for r in s.iter_rows() for c in r if isinstance(c.value,str)
 print(len(occ),'occurrences',len(set(occ)),'distinct')
 print({k:v for k,v in collections.Counter(occ).items() if v>1})"
 ```
+
+**Golden corrected 2026-11-13, and the audit extended with it.** The Study 3 resolution
+clause read "a property of the formulation and not of the aged lung", derived from the
+within-young comparison alone (young+candidate 3.13 against young+parent 1.59). The aged
+**parent** arm contradicts the exclusive form: it is already at 3.43 against 1.59, and
+against untreated 3.45-fold at p < 0.0001. Recomputed, the formulation effect is
+significant in young animals (1.97, p = 0.0126) and null in aged (1.29, p = 0.2619), while
+the age effect is significant on the parent (2.16, p = 0.0009) and null on the candidate
+(1.42, p = 0.1756). Both variables raise the residual, neither adds significantly on top
+of the other, and the block cannot separate them further. The clause now states both
+components and that limit; the surviving conclusion, that it will not resolve itself in a
+younger population, is unchanged and now rests on an explicit figure.
+
+Found by the Phase 2 probe on the FA's second mode, which the same evidence retracted.
+Worth recording for what it is: **the golden had read a two-variable design on one
+diagonal — a milder version of the error the FA's one surviving mode reports, on the same
+block.** Forcing-chain leg 19, design pillar 8 and the false-optimum row that would have
+penalised a solver for calling it an ageing feature are all corrected to match, in
+`build/anton-brief-psql25c1.md`, and so is leg 19 of `fa/solvability-checklist.md`.
+`audit-golden.py` gained seven checks and two asserts over the four contrasts, so the
+corrected clause is computed rather than asserted; coverage is 246 diffed checks and
+`CORRESPONDENCE` is 120 of 120. Evidence in `fa/psql25c1/solvability_screen.md` and
+`fa/psql25c1/probe_notes.md`.
 
 **`audit-golden.py` gaps: CLOSED.** The second reference audit enumerated 24
 load-bearing claims the script did not cover. Coverage went from **109 to 246 diffed

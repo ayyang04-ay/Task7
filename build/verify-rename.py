@@ -76,7 +76,10 @@ ANNOTATED = {
                          'not verbatim at the compound name',
     'task/golden-response.md': 'reference-audit corrections: the subclass paragraph now '
                                'names the group-mean reduction that actually produces '
-                               'its figures, plus four accuracy fixes',
+                               'its figures, plus four accuracy fixes; and the Study 3 '
+                               'resolution clause no longer claims non-resolution is a '
+                               'formulation property and not an aged-lung one, which '
+                               'the aged parent arm at 3.43 contradicts',
     'task/golden-response.txt': 'generated from golden-response.md',
     'build/make-annotation-pdf.py': 'SOURCE_DATE_EPOCH moved later than the workbook, '
                                     'which the annotation previously predated by six '

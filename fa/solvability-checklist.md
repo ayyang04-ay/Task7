@@ -88,7 +88,7 @@ broken room rather than a hard one.
 | 16 | second `S09-A` block is the 72h panel | Ifnb1 4.01 against `S01-A` 72h; block 1 at 36.3 against 16h | identifies the mislabel and says how |
 | 17 | `S09-A` is log10 | sheet header; PBS arm exponentiates to 1.00 | exponentiates, by either route |
 | 18 | all seven analytes unresolved at 72h | block 2 exponentiated | reports all seven, not one |
-| 19 | non-resolution is a formulation property | young+candidate 3.13 against young+comparator 1.59 | makes the within-young comparison |
+| 19 | non-resolution has a formulation component and an ageing component, neither exclusive | young+candidate 3.13 against young+comparator 1.59; aged+comparator 3.43 against young+comparator 1.59 | makes either within-arm comparison. **Corrected 2026-11-13:** the leg previously read "is a formulation property", which the aged parent arm contradicts; see `fa/psql25c1/solvability_screen.md` |
 | 20 | tolerability assays carry controls | `S08-D` comparator+R848, `S03-E` cholera toxin | names a positive control |
 | 21 | dose at plateau | `S08-A` | reads the dose-response |
 | 22 | no accessible antigen-independent marker | enumeration by compartment | separates peripherally accessible from lung-local |

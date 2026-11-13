@@ -208,6 +208,34 @@ for lbl,x,y,claim in (('age deficit  aged+nS vs young+nS','aged+nS','young+nS',N
 assert welch_p(_arm['young+nS'],_arm['young+AM'])<0.05, \
     'the golden now says PSLN-344 raises the young response significantly'
 
+print('\n72 h RESIDUAL, FOUR CONTRASTS (Ifnb1 72h, S01-A, Welch t)')
+# Added 2026-11-13. The golden's Study 3 clause used to read "a property of the
+# formulation and not of the aged lung", on the within-young comparison alone. The aged
+# PARENT arm contradicts the exclusive form: it is already at 3.43 against 1.59 young,
+# p = 0.0009. Both variables raise the residual and neither adds significantly on top of
+# the other, so the clause now states both components and the limit. These four p-values
+# are what the corrected clause rests on, so they are computed rather than asserted.
+_a72 = {k: V('S01', range(8,13), [r]) for k, r in
+        (('aged+nS',5), ('aged+AM',8), ('young+nS',9), ('young+AM',10))}
+for lbl, x, y, claim in (
+        ('formulation effect in young  344Y/212Y', 'young+AM', 'young+nS', 0.0126),
+        ('formulation effect in aged   344/212',   'aged+AM',  'aged+nS',  0.2619),
+        ('age effect on the parent     212/212Y',  'aged+nS',  'young+nS', 0.0009),
+        ('age effect on the candidate  344/344Y',  'aged+AM',  'young+AM', 0.1756)):
+    pv = welch_p(_a72[x], _a72[y])
+    print('   %-40s ratio %5.2f  p = %.4f' % (lbl, st.mean(_a72[x])/st.mean(_a72[y]), pv))
+    chk(lbl, pv, claim, 2e-3)
+# young+candidate against untreated: the clause's surviving conclusion, that it will not
+# resolve itself in a younger population, rests on this one.
+_sham72 = V('S01', range(8,13), [3])
+chk('young+344 vs untreated, p', welch_p(_a72['young+AM'], _sham72), 0.0041, 2e-3)
+chk('young+344 mean', st.mean(_a72['young+AM']), 3.13, 2e-3)
+chk('aged+212 mean',  st.mean(_a72['aged+nS']),  3.43, 2e-3)
+assert welch_p(_a72['aged+nS'], _a72['young+nS']) < 0.05, \
+    'the golden now says ageing raises the 72 h residual on the parent formulation'
+assert welch_p(_a72['aged+AM'], _a72['aged+nS']) > 0.05, \
+    'the golden now says the formulation adds nothing significant in aged animals'
+
 print('\nS15-H: does the package exclude a non-specific antiviral state?')
 # The golden now asserts that adjuvant alone protects nobody at the 3-day interval,
 # which is what retires the alternative. Recomputed here because that claim is
@@ -604,6 +632,8 @@ _LITERALS = [
     '0.93','0.22','4.9','6.1',
     # the 2x2 and the two re-readings
     '0.79','0.95','0.73','1.42','1.65','24.35','1.02','1.35','1.29','1.97','3.13',
+    # the corrected 72 h resolution clause: both components and the limit
+    '3.43','0.0041','0.0126','0.2619','0.1756',
     # the analyte panel and both timepoint anchors
     '36.3','4.01','27.41','9.23','8.44','7.19','4.16','2.01',
     # the eighteen, and the two pooled means

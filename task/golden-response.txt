@@ -363,9 +363,15 @@ Study 3. Resolution kinetics, as the gating tolerability study.
   untreated
   reference (Ccl2 27.41, Ccl3 9.23, Tnf 8.44, Il6 7.19, Il10 4.16, Ifnb1 4.01,
   Ccl5 2.01, each 10 to the power of the mean log10 of three replicates), and no
-  arm carries a later timepoint. Young animals given PSLN-344 also fail to clear, so
-  this is a property of the formulation and not of the aged lung, which means it
-  will not resolve itself in a younger population.
+  arm carries a later timepoint. Young animals given PSLN-344 also fail to clear,
+  3.13 against 0.996 untreated (p = 0.0041), so it will not resolve itself in a
+  younger population. The attribution goes no further than that, and the block does
+  not let it: the formulation raises the residual in young animals (3.13 against
+  1.59, p = 0.0126) and ageing raises it on the parent formulation (3.43 against
+  1.59, p = 0.0009), while neither adds significantly on top of the other (candidate
+  over parent in aged animals 1.29, p = 0.2619; aged over young on the candidate
+  1.42, p = 0.1756). Both contribute and the design cannot separate them further,
+  which is itself why this study has to carry age-matched parent and untreated arms.
 - Endpoints: time for Ifnb1, Tnf, Il10 and Ccl5 to return to the untreated
   reference. Lung histopathology and body weight, supporting.
 - Population: 20-month-old animals, same strain and route.

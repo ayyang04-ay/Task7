@@ -380,9 +380,16 @@ test now asks to be counted.
    peripheral accessibility and the regulatory bridge, not the efficacy correlate.
    GM-CSF at 36h is the antigen-independent pharmacodynamic marker of adjuvant
    activity and carries the same lung-local access problem.
-8. **The 72h non-resolution is a formulation property, not an ageing one.** Young
-   animals given the candidate also fail to resolve, 3.13 against 1.59. A
-   toxicology and CMC question rather than an efficacy one, and the gating study.
+8. **The 72h non-resolution has both a formulation and an ageing component, and
+   the block cannot separate them.** Young animals given the candidate also fail to
+   resolve, 3.13 against 1.59 (p = 0.0126), so it will not resolve itself in a
+   younger population. But the aged lung on the parent formulation already fails to
+   clear, 3.43 against 1.59 (p = 0.0009), and neither variable adds significantly on
+   top of the other (1.29, p = 0.2619 and 1.42, p = 0.1756). A toxicology and CMC
+   question rather than an efficacy one, and the gating study. Corrected 2026-11-13:
+   this pillar previously read "a formulation property, not an ageing one", which
+   the aged parent arm contradicts. A solver calling it an ageing feature is making
+   a supportable observation and must not be marked down for it.
 
 ### What the package does not support
 
@@ -423,7 +430,7 @@ test now asks to be counted.
 | 16 | S09-A block 2 is the 72h panel | Ifnb1 4.01 against S01-A 72h; block 1 at 36.3 against 16h |
 | 17 | S09-A is log10 | sheet header; PBS arm exponentiates to 1.00 |
 | 18 | all seven analytes unresolved at 72h | block 2 exponentiated |
-| 19 | non-resolution is a formulation property | young+cand 3.13 against young+comp 1.59 |
+| 19 | non-resolution has a formulation component, shown inside the young cohort, and an ageing component, shown on the parent arm; neither is exclusive | young+cand 3.13 against young+comp 1.59; aged+comp 3.43 against young+comp 1.59 |
 | 20 | tolerability assays carry controls | S08-D comp+R848, S03-E cholera toxin |
 | 21 | dose at plateau | S08-A |
 | 22 | no accessible antigen-independent marker | enumeration by compartment |
@@ -580,7 +587,7 @@ strain-specific-readouts-treated-as-asset-value
 | cellular without addressing innate | d3 cellular data are positive | innate still running at 72h, and d3 is inside the innate window | S09-A block 2 + external kinetics |
 | transience from Ifnb1 or in log space | Ifnb1 is the headline analyte | 7 of 7 elevated; Ccl2 27.41x | S09-A + units |
 | 72h state is within the young range | young runs 101.59 on Ccl2 and 41.45 on Ccl3 against 27.41 and 9.23 | the direction inverts rather than the degree: young is at or below its untreated reference on Tnf 0.48, Il10 0.11, Ccl5 0.55 and Ifnb1 1.39 where the aged candidate is 8.44, 4.16, 2.01 and 4.01 | S09-A block 2, all four arms |
-| 72h non-resolution as an aged-lung property | the asset is an ageing asset | young animals given the candidate also fail to resolve | S01-A rows 9 and 10 |
+| 72h non-resolution as an aged-lung property **and nothing else** | the asset is an ageing asset | young animals given the candidate also fail to resolve, 3.13 against 1.59. Note the converse is equally unsupported: the aged parent arm is at 3.43, so calling it a formulation property and not an ageing one is also wrong, and a solver naming the ageing component is correct | S01-A rows 9 and 10 |
 | S06-C and S06-D as two experiments | differently labelled | 28 of 28 identical | S06 |
 | 69x HAI rise | arithmetic mean is the library default | implies a sham titre of 6.0, below a 1:10 floor | S03-C |
 | subclass ratio as printed | it is the panel built for it | one arm's subclass sum would exceed its own total IgG by 16.1x for H1N1 and 11.3x for H3N2 | S03-B/S03-F, S13-A-D, S03-A/S03-E |
