@@ -8,7 +8,7 @@ reviewer asks for panel context.
 | Item | What happened | Read |
 |---|---|---|
 | **A5 / B4** (age-versus-adjuvant confound) | Fails in all sixteen runs | The task's one reliable trap. It is also the only item that both models fail without exception, so it is carrying the whole discrimination load. Worth knowing before the trap is ever softened |
-| **A8** (the antigen-dose comparison named as unanswerable) | Not met or only partly met in all sixteen | **Discriminates nothing, and the requirement is weaker than the item implies.** Independently confirmed: the room holds each antigen at exactly one dose (0.5 µg HA CA09, 1 µg Aichi) and zero runs name the fixed dose as unanswerable. But the prompt does not ask for an inventory of unanswerable questions, and ten runs proposed a licensed high-dose comparator, which is the commercially relevant form of the question. The item is a grading-document requirement with no prompt or room basis, which is why it is a calibration note and not a mode |
+| **A8** (the antigen-dose comparison named as unanswerable) | Not met or only partly met in all sixteen | **Discriminates nothing, and the requirement is weaker than the item implies.** Independently confirmed: the room holds each antigen at exactly one dose (0.5 µg HA CA09, 1 µg Aichi) and zero runs name the fixed dose as unanswerable. But the prompt does not ask for an inventory of unanswerable questions, and ten runs proposed a licensed high-dose comparator, which is the commercially relevant form of the question. The item is a grading-document requirement with no prompt or room basis, which is why it is a calibration note and not a mode. Checked for the obvious near-miss: no run conflates the **adjuvant** dose-sparing claim from `S08-A` with antigen sparing — F2, O2, O5, O6 and O8 all scope it correctly. **Salvageable as a grader item if reworded** from an inventory requirement to a comparator-design requirement in A7's shape: *a next-study arm that varies antigen dose at the asset's own route*. Where runs do propose a high-dose antigen arm it is intramuscular (F1, F2, F4, O1, O2, O5, O6, O7, O8), so route and dose move together and the arm cannot answer the question it is nominally there for. Fine as a scored design requirement; still not an FA mode, because those runs frame the arm as a standard-of-care benchmark, which is what it legitimately is |
 | **B1, B2, B5, B6, B8, B9, B10** | Fired nowhere | Seven of the ten pre-registered penalties are inert on this panel. B2 in particular: every run found the mislabelled 72 h panel and exponentiated the log10 scale correctly, so the scale trap is solved by both models every time |
 | **B7** (treating `S06-C` and `S06-D` as independent) | Fired nowhere as written | Every run found the 28-of-28 identity and excluded `S06-D` from its primary estimate. Two runs (F6, F7) use `S06-D` inside a day-3 pool while disclosing the identity in the same table |
 | **A11 / B3** (resolution kinetics proposed as work) | Failed by O2, O4, O6, O7 on the grader's reading | **Looked discriminating and dissolved on the probe.** The item asks for a dedicated resolution study on a three-animal single-timepoint panel in which the candidate does not separate from the age-matched parent on five of seven analytes. Three of the four "failing" runs carried the finding into a safety or PD plan anyway. The item as written penalises a defensible prioritisation call, so it does not discriminate reasoning — it discriminates study-plan formatting. Worth rewording or retiring. Full evidence in `probe_notes.md` |
@@ -53,6 +53,30 @@ absent, so every run built a multi-env pipeline; and the image has no document r
 all, so no run could visually check the PDF or DOCX it shipped. The second is worth
 flagging to whoever owns the image — sixteen of sixteen runs produced a document they were
 unable to inspect.
+
+## The heterosubtypic frame is derivable from the room — keep the prompt as it is
+
+HANDOFF records the prompt's silence on breadth as "still open": the prompt never uses
+heterosubtypic, cross-subtype, breadth, drift or mismatch, while A1, A2, A6's second limb
+and B1's second limb all turn on a cross-subtype value proposition. Checked this session
+and the note's own verdict, "defensible as difficulty", is the right one. The frame is
+carried by the data room on three independent legs.
+
+| Leg | Evidence |
+|---|---|
+| The challenge design | The annotation states each block's vaccine and challenge, and the independent aged challenge experiments are mostly deliberately mismatched: `S06-A`/`S06-B` Aichi H3N2 → PR8 H1N1, `S06-E` rows 34–68 the same at day 60, `S06-G` CA09 H1N1 → Perth H3N2, `S06-C`/`S06-F` bivalent → rgH5N1, `S15-H` bivalent → rgH5N1 at day 3, and `S09-B`/`S09-D`/`S09-F` repeating it in young animals. Homologous or matched: `S03-I`, `S03-J` and the two imprinting blocks only |
+| A paired cross-versus-matched recall experiment | `S05-F` and `S05-G` immunise with the **bivalent H1N1+H3N2** vaccine and restimulate *in vitro* with **rgH5N1**, a subtype the vaccine does not contain. `S14-A` is the deliberate partner: the same animals restimulated with the vaccine's own CA09 and Aichi. That pair has one purpose |
+| The humoral assays cannot reach it | Every HAI and neutralisation block measures against a vaccine strain and nothing else — CA09 H1N1 in `S03-C`/`S03-D`, Aichi H3N2 in `S03-G`/`S03-H`. The challenge viruses are PR8 H1N1, Perth H3N2, rgH5N1 and wild-type VN04 H5N1. **No antibody assay in the room is run against any heterosubtypic challenge virus**, which is what makes A2 and A10 derivable rather than asserted |
+
+**And the panel settles it empirically: all sixteen runs reached a cross-subtype framing
+unprompted.** The annotation carries no purpose, aim or objective language at all, by
+design and consistently with its transcribing register, so none of them was told.
+
+**Do not name heterosubtypic protection in the prompt.** It would hand the solver the
+inference A1, A2 and A3 exist to test, converting a derivation into a transcription and
+retiring the three heaviest A items. The residual exposure is that the frame is
+inferentially load-bearing, so a reviewer may ask whether it is derivable; the table above
+is the answer.
 
 ## The 72 h panel is the task's best feature and the grader does not use it
 
