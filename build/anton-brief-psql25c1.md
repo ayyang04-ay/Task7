@@ -18,6 +18,61 @@ Asset is the adjuvant, not a vaccine. Stated indication is IAV vaccine developme
 in older adults. Decision is advance or not, for a portfolio review at which every
 asset has to be justified. No dates anywhere, and no fabricated content.
 
+### Modality classification (added 2026-11-18)
+
+**The asset is a small-molecule STING agonist. The development candidate is that
+molecule in a manganese-complexed, pulmonary-surfactant-biomimetic liposomal
+formulation, and the go/no-go is on the molecule as tested — which is to say, in the
+formulation it was tested in, because that is the only data the package contains.**
+
+This is a description of what the package already is, not a change to it. Nothing in
+the prompt, the workbook or the annotation moves. Stated here because the
+classification was not previously written down and the programme's guidance turns on
+it.
+
+| | |
+|---|---|
+| Active moiety | a cyclic dinucleotide STING agonist, `CDN-1807` in the shipped room. Two nucleotides; a new chemical entity, not a biologic. The room states no molecular weight, so nothing in the task turns on one |
+| Development candidate | the active encapsulated in a surfactant-biomimetic liposome (DPPC, DPPG, DPPE-PEG2000, cholesterol) with Mn2+ incorporated by coordination polymerization |
+| Comparator | the identical liposome and the identical active at the identical dose, without the Mn2+ |
+| Precedent for the classification | formulation-differentiated small-molecule programmes are ordinary: liposomal amphotericin B, liposomal doxorubicin, nab-paclitaxel. None is a biologic |
+
+**What this framing must not be allowed to imply, and the three reasons it cannot be
+pushed further.**
+
+1. **The formulation stays fully visible to the solver.** It is in the annotation's
+   Materials section, in `S08-B` encapsulation efficiency, in `S08-C` and `S01-B`
+   particle uptake with the `Sftpa1-/-Sftpd-/-` arm, in the empty-liposome sham, in
+   the dose unit "micrograms of adjuvant", and in the comparator set. Removing or
+   obscuring any of it would be the companion document asserting what the data
+   denies, which standing rule 2 forbids.
+2. **The measured benefit is attributable to the formulation, not to the active.**
+   Both arms carry the same molecule at the same dose, so every unit of the efficacy
+   delta belongs to the Mn2+ formulation. This is a feature of the task rather than a
+   problem with it: the solver is asked for a go/no-go on an asset whose entire
+   measured advantage comes from how it is formulated, which is a real portfolio
+   tension and is where the task's difficulty lives.
+3. **The failure mode the FA reports IS the formulation contrast.** Mode 1 is a
+   denominator that varies age and formulation together. Any reframing that removed
+   formulation as a variable would delete the only mode in the ledger and fail the
+   gate in standing decision 3. So the classification above is the furthest this can
+   be taken, and it is taken without touching a single datum.
+
+**Open, for whoever owns the programme guidance.** Whether a small-molecule active
+with an enabling formulation counts under a small-molecule-only scope is their call,
+not ours. If the scope means modality class — small molecule against biologic
+against cell and gene — this qualifies as written. If it means the asset must be the
+bare molecule with no formulation component, it does not, and no wording changes
+that. Ask before submitting; the cost of asking is one line and the cost of being
+wrong is the whole task.
+
+**Available to pre-register for a future panel, and NOT to be read back into the
+current one.** Under this framing a solver could attribute the formulation's effect
+to the active moiety — advancing "the molecule" on data that only discriminates the
+particle. The 16-run panel ran before this classification was written down, so its
+transcripts are not evidence either way and must not be screened for it after the
+fact.
+
 ### What the answer must carry
 Asked as questions, not headings. No output object is named; the reply is the
 deliverable. In the solver's own words: whether to advance; the case for that call,
@@ -725,3 +780,21 @@ of one trajectory and a thin mode set.
 - Route of administration added to the annotation must-contain list, with the
   GM-CSF route inconsistency and the OVA ug/ul inconsistency added to the
   reproduce-verbatim list.
+
+### Revision 4 — 2026-11-18
+
+- **Modality classification written down** in section 1: the asset is a small-molecule
+  STING agonist and the development candidate is that molecule in a Mn2+-complexed
+  surfactant-biomimetic liposomal formulation, with the go/no-go on the molecule as
+  tested. A description of what the package already was, added because the programme
+  guidance turns on it. **Nothing in the prompt, the workbook or the annotation moved** —
+  `task/prompt.txt` `cfc0f29bde3c`, `task/grader-guidelines.txt` `c545a600076a`,
+  `adjuvant_program_dataset.xlsx` `f293502992c7` and `adjuvant_program_annotation.pdf`
+  `83f2e9fb45db` are all unchanged, so the 16-run panel stands and no rerun is needed.
+  Two earlier framings were considered and rejected as fabrication: calling the asset a
+  bare small molecule, and calling it a small peptide. Both are contradicted by the
+  formulation readouts the room carries, and the peptide version additionally by the
+  260 nm assay and the cyclic-dinucleotide naming. Reasoning in section 1.
+- Resolution pillar and forcing-chain leg 19 corrected on 2026-11-13; see the golden's
+  Study 3 and `fa/psql25c1/solvability_screen.md`.
+
