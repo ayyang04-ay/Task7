@@ -1,0 +1,16 @@
+stratum,block,PSLN344,PSLN212,integrity_flag,weight_implied_PSLN344,weight_implied_PSLN212
+S03-I homologous H1N1 d14,S03-I,7/7,0/7,major,,3
+S03-J WT H5N1 d2 (age not stated),S03-J,10/10,3/10,major,,
+S06-A PR8 d14,S06-A,6/7,1/7,major,,
+S06-B PR8 d3,S06-B,5/7,0/7,none detected,,
+S06-C rgH5N1 d14,S06-C,7/7,2/7,critical,,1
+S06-D rgH5N1 d3,S06-D,7/7,2/7,critical,5,
+S06-E PR8 d60,S06-E,5/7,0/7,minor,6,1
+S06-F rgH5N1 d60,S06-F,5/7,1/7,moderate,,
+S06-G Perth H3N2 d60,S06-G,4/7,0/7,major,7,
+S06-E' naive (14 mo) PR8,"S06-E'(r71-98,G-K)",6/7,0/7,moderate,,
+S06-E' imprinted (14 mo) PR8,"S06-E'(r71-98,G-K)",6/7,4/7,moderate,,
+S06-F' naive (14 mo) Perth,"S06-F'(r71-98,M-Q)",6/7,0/7,moderate,,
+S06-F' imprinted (14 mo) Perth,"S06-F'(r71-98,M-Q)",6/7,0/7,moderate,,
+S15-L aged C57BL/6,S15-L,6/7,0/7,critical,,
+S15-N aged Swiss Webster,S15-N,6/7,2/7,major,,

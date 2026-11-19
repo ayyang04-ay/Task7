@@ -1,0 +1,34 @@
+OK  pooled d2-14 survival PSLN-344                             independent=42/45   proposal=42/45
+OK  pooled d2-14 survival Sham                                 independent=1/45   proposal=1/45
+OK  pooled d2-14 survival PSLN-212                             independent=8/45   proposal=8/45
+OK  d60 survival PSLN-344                                      independent=14/21   proposal=14/21
+OK  d60 survival PSLN-212                                      independent=1/21   proposal=1/21
+OK  d60 unchallenged untreated survivors                       independent=17/21   proposal=17/21
+OK  d60 unchallenged deaths                                    independent=4/21   proposal=4/21
+OK  S15-H vaccine+344 / 344 alone / vaccine alone              independent=6/7 0/7 0/7   proposal=6/7 0/7 0/7
+OK  aged C57BL/6 + Swiss Webster PSLN-344                      independent=12/14   proposal=12/14
+OK  14-month mice PSLN-344 (4 arms)                            independent=24/28   proposal=24/28
+OK  14-month mice PSLN-212 (4 arms)                            independent=4/28   proposal=4/28
+OK  HAI GMT H1N1 aged 344                                      independent=368   proposal=368
+OK  HAI GMT H1N1 aged 212                                      independent=46   proposal=46
+OK  HAI GMT H3N2 aged 344                                      independent=320   proposal=320
+OK  HAI GMT H3N2 aged 212                                      independent=35   proposal=35
+OK  IgG GMT H1N1 aged 344                                      independent=7,305   proposal=7,305
+OK  neutralising GMT H1N1 aged 344                             independent=3,840   proposal=3,840
+OK  IgG2a:IgG1 recomputed aged 344 (S13-A col B / S13-B col F) independent=2.1   proposal=2.1
+OK  IgG2a:IgG1 recomputed aged 212                             independent=0.6   proposal=0.6
+OK  IgG2a:IgG1 S03-B as printed under PSLN-344                 independent=0.6   proposal=0.6
+OK  Ifnb1 16h geometric mean aged 344                          independent=37   proposal=37
+OK  Ifnb1 16h geometric mean aged 212                          independent=17   proposal=17
+OK  Ifnb1 16h geometric mean young 212                         independent=37   proposal=37
+OK  Gm-csf 36h geometric mean 344                              independent=8.5   proposal=8.5
+OK  S02-H Ifnar-null w/o cDC mean                              independent=2.1   proposal=2.1
+OK  S02-H WT w/o cDC mean                                      independent=19.7   proposal=19.7
+OK  CNS Tnf PSLN-344 / PBS                                     independent=1.59   proposal=1.59
+OK  S08-D mean max weight loss PSLN-344 (cols Q-U)             independent=3.6   proposal=3.6
+OK  S08-D mean max weight loss vaccine (cols AA-AE)            independent=1.8   proposal=1.8
+OK  S08-D mean max weight loss PSLN-212/R848 (cols V-Z)        independent=10.0   proposal=10.0
+OK  S09-A 2nd panel Tnf PSLN-344 geometric fold (cols AN-AP)   independent=8.4   proposal=8.4
+OK  S11-A vs S11-B identical cells                             independent=35   proposal=35
+
+ALL CHECKS PASSED

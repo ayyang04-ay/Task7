@@ -1,0 +1,218 @@
+   block                                                  measurand   scale  p_group   p_time  p_interaction  df_resid
+0  S01-D                    Lung monocytes (CD11b+Ly6C+CD11c-Ly6G-)  linear    5e-30 2.85e-31        2.6e-17        80
+1  S01-E                                             Lung CD11b+ DC  linear 6.11e-25 1.08e-39       6.74e-15       100
+2  S02-F                                    Lung Gm-csf (Csf2) mRNA   log10 2.72e-20   0.0011        0.00374        36
+3  S05-A  Lung NP366-374 tetramer+ CD8 T (n=2 observed; stated n=3)  linear 4.85e-06 8.24e-05          0.599         9
+4  S05-B   MLN NP366-374 tetramer+ CD8 T (n=2 observed; stated n=3)  linear  0.00146 0.000519          0.304         9
+5  S07-A                                Lung Ly6C+CCR2+ macrophages   log10 8.67e-07 1.13e-06       0.000352        20
+6  S08-A                       Lung Ifnb1 mRNA, 16 h, dose-response   log10  2.1e-23 5.82e-37       3.92e-11        40
+7  S11-A                                  Lung alveolar macrophages  linear 1.38e-33 1.55e-09          0.045        80
+8  S11-B                                           Lung neutrophils  linear 2.62e-33 4.33e-09         0.0276        80
+9  S11-D                                              Lung NK cells  linear  6.9e-12 1.17e-05          0.335        80
+
+time                  0.0    2.0    4.0    6.0    8.0   16.0  36.0  72.0  3.0    5.0    7.0    10.0  30.0  1.0    20.0   40.0
+block group                                                                                                                  
+S01-D Sham            8.00  10.36  10.42  11.24   9.48   NaN   NaN   NaN   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+      PSLN-212        9.40  12.48  16.72  13.22   9.66   NaN   NaN   NaN   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+      PSLN-344        9.18  15.00  30.56  24.48  18.44   NaN   NaN   NaN   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+      PSLN-212(Y)    10.84  15.64  32.22  25.22  14.08   NaN   NaN   NaN   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+S01-E Sham            1.34   1.94   4.80   4.32   2.44   NaN   NaN   NaN   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+      PSLN-212        1.68   3.72   8.28   7.80   6.04   NaN   NaN   NaN   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+      PSLN-344        1.30   4.72  18.88  15.38  13.68   NaN   NaN   NaN   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+      PSLN-212(Y)     1.24   3.80  21.40  12.98   9.48   NaN   NaN   NaN   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+      PSLN-344(Y)     1.06   4.90  22.60  16.30  10.50   NaN   NaN   NaN   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+S02-F Sham             NaN    NaN    NaN    NaN    NaN  1.00  1.21  1.16   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+      PSLN-212         NaN    NaN    NaN    NaN    NaN  1.49  1.59  1.39   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+      PSLN-344         NaN    NaN    NaN    NaN    NaN  6.00  8.74  3.85   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+S05-A PSLN-212         NaN    NaN    NaN    NaN    NaN   NaN   NaN   NaN  2.09   5.12   6.90    NaN   NaN   NaN    NaN    NaN
+      PSLN-344         NaN    NaN    NaN    NaN    NaN   NaN   NaN   NaN  6.68  12.01  14.25    NaN   NaN   NaN    NaN    NaN
+      PSLN-212Y        NaN    NaN    NaN    NaN    NaN   NaN   NaN   NaN  9.85  13.45  15.15    NaN   NaN   NaN    NaN    NaN
+S05-B PSLN-212         NaN    NaN    NaN    NaN    NaN   NaN   NaN   NaN  1.18   1.67   2.61    NaN   NaN   NaN    NaN    NaN
+      PSLN-344         NaN    NaN    NaN    NaN    NaN   NaN   NaN   NaN  1.81   3.16   4.36    NaN   NaN   NaN    NaN    NaN
+      PSLN-212Y        NaN    NaN    NaN    NaN    NaN   NaN   NaN   NaN  2.04   4.28   5.74    NaN   NaN   NaN    NaN    NaN
+S07-A PSLN-212        1.37  10.11    NaN    NaN    NaN   NaN   NaN   NaN   NaN  19.03    NaN  14.56  4.16   NaN    NaN    NaN
+      PSLN-344        1.95   3.27    NaN    NaN    NaN   NaN   NaN   NaN   NaN   3.42    NaN   2.88  2.35   NaN    NaN    NaN
+S08-A PSLN-212         NaN    NaN    NaN    NaN    NaN   NaN   NaN   NaN   NaN   4.10    NaN   8.92   NaN  1.36  12.57  14.87
+      PSLN-344         NaN    NaN    NaN    NaN    NaN   NaN   NaN   NaN   NaN   8.27    NaN  21.09   NaN  1.38  45.83  50.23
+      CMP-204          NaN    NaN    NaN    NaN    NaN   NaN   NaN   NaN   NaN   3.80    NaN   6.26   NaN  1.00   7.29   7.96
+      PSLN-344/R848    NaN    NaN    NaN    NaN    NaN   NaN   NaN   NaN   NaN   6.71    NaN  14.71   NaN  1.03  29.45  34.91
+S11-A PSLN-212       20.32  28.24  30.90  27.50  23.94   NaN   NaN   NaN   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+      PSLN-344       21.18  29.62  32.26  31.00  28.78   NaN   NaN   NaN   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+      PSLN-212(Y)    36.64  44.72  48.50  46.88  40.36   NaN   NaN   NaN   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+      Vaccine        20.42  22.64  20.74  21.54  22.44   NaN   NaN   NaN   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+S11-B PSLN-212       20.02  28.12  31.32  27.18  24.42   NaN   NaN   NaN   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+      PSLN-344       21.04  27.14  31.80  30.96  28.84   NaN   NaN   NaN   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+      PSLN-212(Y)    36.76  43.14  48.44  46.46  40.78   NaN   NaN   NaN   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+      Vaccine        20.38  23.00  20.82  20.82  22.50   NaN   NaN   NaN   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+S11-D PSLN-212       26.34  28.82  24.70  21.76  25.46   NaN   NaN   NaN   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+      PSLN-344       25.64  34.02  31.08  23.88  24.06   NaN   NaN   NaN   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+      PSLN-212(Y)    17.40  23.14  18.10  17.60  18.14   NaN   NaN   NaN   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+      Vaccine        27.80  28.46  27.48  24.32  25.92   NaN   NaN   NaN   NaN    NaN    NaN    NaN   NaN   NaN    NaN    NaN
+
+     block                                                  measurand        g1           g2  time time_unit  mean1  mean2      effect  estimate  welch_p  n1  n2  holm_p_within_block_pair
+0    S01-D                    Lung monocytes (CD11b+Ly6C+CD11c-Ly6G-)  PSLN-344     PSLN-212     0       day   9.18    9.4  difference     -0.22    0.755   5   5                     0.755
+1    S01-D                    Lung monocytes (CD11b+Ly6C+CD11c-Ly6G-)  PSLN-344     PSLN-212     2       day     15   12.5  difference      2.52     0.29   5   5                      0.58
+2    S01-D                    Lung monocytes (CD11b+Ly6C+CD11c-Ly6G-)  PSLN-344     PSLN-212     4       day   30.6   16.7  difference      13.8  0.00159   5   5                   0.00476
+3    S01-D                    Lung monocytes (CD11b+Ly6C+CD11c-Ly6G-)  PSLN-344     PSLN-212     6       day   24.5   13.2  difference      11.3 0.000157   5   5                  0.000628
+4    S01-D                    Lung monocytes (CD11b+Ly6C+CD11c-Ly6G-)  PSLN-344     PSLN-212     8       day   18.4   9.66  difference      8.78 1.33e-05   5   5                  6.63e-05
+5    S01-D                    Lung monocytes (CD11b+Ly6C+CD11c-Ly6G-)  PSLN-344         Sham     0       day   9.18      8  difference      1.18   0.0149   5   5                    0.0299
+6    S01-D                    Lung monocytes (CD11b+Ly6C+CD11c-Ly6G-)  PSLN-344         Sham     2       day     15   10.4  difference      4.64   0.0862   5   5                    0.0862
+7    S01-D                    Lung monocytes (CD11b+Ly6C+CD11c-Ly6G-)  PSLN-344         Sham     4       day   30.6   10.4  difference      20.1 0.000572   5   5                   0.00172
+8    S01-D                    Lung monocytes (CD11b+Ly6C+CD11c-Ly6G-)  PSLN-344         Sham     6       day   24.5   11.2  difference      13.2 7.36e-05   5   5                  0.000294
+9    S01-D                    Lung monocytes (CD11b+Ly6C+CD11c-Ly6G-)  PSLN-344         Sham     8       day   18.4   9.48  difference      8.96 1.84e-07   5   5                  9.21e-07
+10   S01-D                    Lung monocytes (CD11b+Ly6C+CD11c-Ly6G-)  PSLN-344  PSLN-212(Y)     0       day   9.18   10.8  difference     -1.66   0.0301   5   5                     0.121
+11   S01-D                    Lung monocytes (CD11b+Ly6C+CD11c-Ly6G-)  PSLN-344  PSLN-212(Y)     2       day     15   15.6  difference     -0.64    0.785   5   5                         1
+12   S01-D                    Lung monocytes (CD11b+Ly6C+CD11c-Ly6G-)  PSLN-344  PSLN-212(Y)     4       day   30.6   32.2  difference     -1.66    0.561   5   5                         1
+13   S01-D                    Lung monocytes (CD11b+Ly6C+CD11c-Ly6G-)  PSLN-344  PSLN-212(Y)     6       day   24.5   25.2  difference     -0.74    0.676   5   5                         1
+14   S01-D                    Lung monocytes (CD11b+Ly6C+CD11c-Ly6G-)  PSLN-344  PSLN-212(Y)     8       day   18.4   14.1  difference      4.36  0.00596   5   5                    0.0298
+20   S01-E                                             Lung CD11b+ DC  PSLN-344     PSLN-212     0       day    1.3   1.68  difference     -0.38    0.135   5   5                     0.198
+21   S01-E                                             Lung CD11b+ DC  PSLN-344     PSLN-212     2       day   4.72   3.72  difference         1   0.0992   5   5                     0.198
+22   S01-E                                             Lung CD11b+ DC  PSLN-344     PSLN-212     4       day   18.9   8.28  difference      10.6    0.049   5   5                     0.147
+23   S01-E                                             Lung CD11b+ DC  PSLN-344     PSLN-212     6       day   15.4    7.8  difference      7.58   0.0122   5   5                    0.0489
+24   S01-E                                             Lung CD11b+ DC  PSLN-344     PSLN-212     8       day   13.7   6.04  difference      7.64  0.00179   5   5                   0.00896
+25   S01-E                                             Lung CD11b+ DC  PSLN-344         Sham     0       day    1.3   1.34  difference     -0.04    0.749   5   5                     0.749
+26   S01-E                                             Lung CD11b+ DC  PSLN-344         Sham     2       day   4.72   1.94  difference      2.78  0.00164   5   5                   0.00655
+27   S01-E                                             Lung CD11b+ DC  PSLN-344         Sham     4       day   18.9    4.8  difference      14.1   0.0194   5   5                    0.0387
+28   S01-E                                             Lung CD11b+ DC  PSLN-344         Sham     6       day   15.4   4.32  difference      11.1  0.00249   5   5                   0.00746
+29   S01-E                                             Lung CD11b+ DC  PSLN-344         Sham     8       day   13.7   2.44  difference      11.2 0.000777   5   5                   0.00388
+30   S01-E                                             Lung CD11b+ DC  PSLN-344  PSLN-212(Y)     0       day    1.3   1.24  difference      0.06     0.58   5   5                         1
+31   S01-E                                             Lung CD11b+ DC  PSLN-344  PSLN-212(Y)     2       day   4.72    3.8  difference      0.92    0.263   5   5                         1
+32   S01-E                                             Lung CD11b+ DC  PSLN-344  PSLN-212(Y)     4       day   18.9   21.4  difference     -2.52    0.552   5   5                         1
+33   S01-E                                             Lung CD11b+ DC  PSLN-344  PSLN-212(Y)     6       day   15.4     13  difference       2.4    0.283   5   5                         1
+34   S01-E                                             Lung CD11b+ DC  PSLN-344  PSLN-212(Y)     8       day   13.7   9.48  difference       4.2   0.0236   5   5                     0.118
+45   S02-F                                    Lung Gm-csf (Csf2) mRNA  PSLN-344     PSLN-212    16      hour      6   1.49       ratio      4.21 0.000506   5   5                   0.00101
+46   S02-F                                    Lung Gm-csf (Csf2) mRNA  PSLN-344     PSLN-212    36      hour   8.74   1.59       ratio      5.36 3.84e-05   5   5                  0.000115
+47   S02-F                                    Lung Gm-csf (Csf2) mRNA  PSLN-344     PSLN-212    72      hour   3.85   1.39       ratio      2.63  0.00365   5   5                   0.00365
+48   S02-F                                    Lung Gm-csf (Csf2) mRNA  PSLN-344         Sham    16      hour      6  0.998       ratio      6.09 8.89e-06   5   5                  1.78e-05
+49   S02-F                                    Lung Gm-csf (Csf2) mRNA  PSLN-344         Sham    36      hour   8.74   1.21       ratio      7.13 1.42e-06   5   5                  4.26e-06
+50   S02-F                                    Lung Gm-csf (Csf2) mRNA  PSLN-344         Sham    72      hour   3.85   1.16       ratio      3.18  0.00114   5   5                   0.00114
+54   S05-A  Lung NP366-374 tetramer+ CD8 T (n=2 observed; stated n=3)  PSLN-344     PSLN-212     3       day   6.68   2.09  difference      4.59   0.0421   2   2                    0.0842
+55   S05-A  Lung NP366-374 tetramer+ CD8 T (n=2 observed; stated n=3)  PSLN-344     PSLN-212     5       day     12   5.12  difference      6.89   0.0249   2   2                    0.0747
+56   S05-A  Lung NP366-374 tetramer+ CD8 T (n=2 observed; stated n=3)  PSLN-344     PSLN-212     7       day   14.2    6.9  difference      7.35   0.0917   2   2                    0.0917
+57   S05-A  Lung NP366-374 tetramer+ CD8 T (n=2 observed; stated n=3)  PSLN-344    PSLN-212Y     3       day   6.68   9.85  difference     -3.17     0.14   2   2                     0.421
+58   S05-A  Lung NP366-374 tetramer+ CD8 T (n=2 observed; stated n=3)  PSLN-344    PSLN-212Y     5       day     12   13.4  difference     -1.44    0.413   2   2                     0.826
+59   S05-A  Lung NP366-374 tetramer+ CD8 T (n=2 observed; stated n=3)  PSLN-344    PSLN-212Y     7       day   14.2   15.2  difference      -0.9     0.69   2   2                     0.826
+60   S05-B   MLN NP366-374 tetramer+ CD8 T (n=2 observed; stated n=3)  PSLN-344     PSLN-212     3       day   1.81   1.19  difference     0.625   0.0933   2   2                     0.264
+61   S05-B   MLN NP366-374 tetramer+ CD8 T (n=2 observed; stated n=3)  PSLN-344     PSLN-212     5       day   3.16   1.67  difference      1.49    0.103   2   2                     0.264
+62   S05-B   MLN NP366-374 tetramer+ CD8 T (n=2 observed; stated n=3)  PSLN-344     PSLN-212     7       day   4.36   2.61  difference      1.75    0.088   2   2                     0.264
+63   S05-B   MLN NP366-374 tetramer+ CD8 T (n=2 observed; stated n=3)  PSLN-344    PSLN-212Y     3       day   1.81   2.04  difference    -0.235    0.263   2   2                      0.63
+64   S05-B   MLN NP366-374 tetramer+ CD8 T (n=2 observed; stated n=3)  PSLN-344    PSLN-212Y     5       day   3.16   4.29  difference     -1.12    0.526   2   2                      0.63
+65   S05-B   MLN NP366-374 tetramer+ CD8 T (n=2 observed; stated n=3)  PSLN-344    PSLN-212Y     7       day   4.36   5.74  difference     -1.38     0.21   2   2                      0.63
+66   S07-A                                Lung Ly6C+CCR2+ macrophages  PSLN-344     PSLN-212     0       day   1.95   1.37       ratio      1.42    0.366   3   3                     0.366
+67   S07-A                                Lung Ly6C+CCR2+ macrophages  PSLN-344     PSLN-212     2       day   3.27   10.1       ratio     0.335   0.0327   3   3                    0.0981
+68   S07-A                                Lung Ly6C+CCR2+ macrophages  PSLN-344     PSLN-212     5       day   3.42     19       ratio     0.181   0.0013   3   3                   0.00649
+69   S07-A                                Lung Ly6C+CCR2+ macrophages  PSLN-344     PSLN-212    10       day   2.88   14.6       ratio     0.183   0.0241   3   3                    0.0963
+70   S07-A                                Lung Ly6C+CCR2+ macrophages  PSLN-344     PSLN-212    30       day   2.35   4.16       ratio     0.596    0.176   3   3                     0.353
+71   S08-A                       Lung Ifnb1 mRNA, 16 h, dose-response  PSLN-344     PSLN-212     1        ug   1.38   1.36       ratio      1.01    0.871   3   3                     0.871
+72   S08-A                       Lung Ifnb1 mRNA, 16 h, dose-response  PSLN-344     PSLN-212     5        ug   8.27    4.1       ratio      2.02   0.0133   3   3                    0.0266
+73   S08-A                       Lung Ifnb1 mRNA, 16 h, dose-response  PSLN-344     PSLN-212    10        ug   21.1   8.92       ratio      2.35  0.00396   3   3                    0.0119
+74   S08-A                       Lung Ifnb1 mRNA, 16 h, dose-response  PSLN-344     PSLN-212    20        ug   45.8   12.6       ratio      3.64  0.00033   3   3                   0.00165
+75   S08-A                       Lung Ifnb1 mRNA, 16 h, dose-response  PSLN-344     PSLN-212    40        ug   50.2   14.9       ratio      3.38  0.00125   3   3                   0.00502
+86   S11-A                                  Lung alveolar macrophages  PSLN-344     PSLN-212     0       day   21.2   20.3  difference      0.86    0.593   5   5                         1
+87   S11-A                                  Lung alveolar macrophages  PSLN-344     PSLN-212     2       day   29.6   28.2  difference      1.38    0.654   5   5                         1
+88   S11-A                                  Lung alveolar macrophages  PSLN-344     PSLN-212     4       day   32.3   30.9  difference      1.36    0.721   5   5                         1
+89   S11-A                                  Lung alveolar macrophages  PSLN-344     PSLN-212     6       day     31   27.5  difference       3.5     0.11   5   5                     0.549
+90   S11-A                                  Lung alveolar macrophages  PSLN-344     PSLN-212     8       day   28.8   23.9  difference      4.84    0.134   5   5                     0.549
+91   S11-A                                  Lung alveolar macrophages  PSLN-344      Vaccine     0       day   21.2   20.4  difference      0.76    0.701   5   5                     0.701
+92   S11-A                                  Lung alveolar macrophages  PSLN-344      Vaccine     2       day   29.6   22.6  difference      6.98   0.0629   5   5                     0.189
+93   S11-A                                  Lung alveolar macrophages  PSLN-344      Vaccine     4       day   32.3   20.7  difference      11.5  0.00619   5   5                    0.0248
+94   S11-A                                  Lung alveolar macrophages  PSLN-344      Vaccine     6       day     31   21.5  difference      9.46   0.0048   5   5                     0.024
+95   S11-A                                  Lung alveolar macrophages  PSLN-344      Vaccine     8       day   28.8   22.4  difference      6.34   0.0677   5   5                     0.189
+96   S11-A                                  Lung alveolar macrophages  PSLN-344  PSLN-212(Y)     0       day   21.2   36.6  difference     -15.5 9.21e-06   5   5                   4.6e-05
+97   S11-A                                  Lung alveolar macrophages  PSLN-344  PSLN-212(Y)     2       day   29.6   44.7  difference     -15.1  0.00238   5   5                   0.00476
+98   S11-A                                  Lung alveolar macrophages  PSLN-344  PSLN-212(Y)     4       day   32.3   48.5  difference     -16.2  0.00106   5   5                   0.00317
+99   S11-A                                  Lung alveolar macrophages  PSLN-344  PSLN-212(Y)     6       day     31   46.9  difference     -15.9 3.47e-05   5   5                  0.000139
+100  S11-A                                  Lung alveolar macrophages  PSLN-344  PSLN-212(Y)     8       day   28.8   40.4  difference     -11.6  0.00737   5   5                   0.00737
+106  S11-B                                           Lung neutrophils  PSLN-344     PSLN-212     0       day     21     20  difference      1.02    0.372   5   5                         1
+107  S11-B                                           Lung neutrophils  PSLN-344     PSLN-212     2       day   27.1   28.1  difference     -0.98    0.696   5   5                         1
+108  S11-B                                           Lung neutrophils  PSLN-344     PSLN-212     4       day   31.8   31.3  difference      0.48    0.885   5   5                         1
+109  S11-B                                           Lung neutrophils  PSLN-344     PSLN-212     6       day     31   27.2  difference      3.78    0.128   5   5                     0.604
+110  S11-B                                           Lung neutrophils  PSLN-344     PSLN-212     8       day   28.8   24.4  difference      4.42    0.121   5   5                     0.604
+111  S11-B                                           Lung neutrophils  PSLN-344      Vaccine     0       day     21   20.4  difference      0.66    0.695   5   5                     0.695
+112  S11-B                                           Lung neutrophils  PSLN-344      Vaccine     2       day   27.1     23  difference      4.14    0.157   5   5                     0.315
+113  S11-B                                           Lung neutrophils  PSLN-344      Vaccine     4       day   31.8   20.8  difference        11   0.0128   5   5                    0.0514
+114  S11-B                                           Lung neutrophils  PSLN-344      Vaccine     6       day     31   20.8  difference      10.1  0.00385   5   5                    0.0193
+115  S11-B                                           Lung neutrophils  PSLN-344      Vaccine     8       day   28.8   22.5  difference      6.34   0.0328   5   5                    0.0985
+116  S11-B                                           Lung neutrophils  PSLN-344  PSLN-212(Y)     0       day     21   36.8  difference     -15.7 0.000547   5   5                   0.00219
+117  S11-B                                           Lung neutrophils  PSLN-344  PSLN-212(Y)     2       day   27.1   43.1  difference       -16  0.00147   5   5                   0.00442
+118  S11-B                                           Lung neutrophils  PSLN-344  PSLN-212(Y)     4       day   31.8   48.4  difference     -16.6  0.00165   5   5                   0.00442
+119  S11-B                                           Lung neutrophils  PSLN-344  PSLN-212(Y)     6       day     31   46.5  difference     -15.5 0.000323   5   5                   0.00161
+120  S11-B                                           Lung neutrophils  PSLN-344  PSLN-212(Y)     8       day   28.8   40.8  difference     -11.9  0.00189   5   5                   0.00442
+126  S11-D                                              Lung NK cells  PSLN-344     PSLN-212     0       day   25.6   26.3  difference      -0.7    0.806   5   5                     0.925
+127  S11-D                                              Lung NK cells  PSLN-344     PSLN-212     2       day     34   28.8  difference       5.2   0.0532   5   5                     0.266
+128  S11-D                                              Lung NK cells  PSLN-344     PSLN-212     4       day   31.1   24.7  difference      6.38   0.0665   5   5                     0.266
+129  S11-D                                              Lung NK cells  PSLN-344     PSLN-212     6       day   23.9   21.8  difference      2.12    0.411   5   5                     0.925
+130  S11-D                                              Lung NK cells  PSLN-344     PSLN-212     8       day   24.1   25.5  difference      -1.4    0.308   5   5                     0.925
+131  S11-D                                              Lung NK cells  PSLN-344      Vaccine     0       day   25.6   27.8  difference     -2.16    0.606   5   5                         1
+132  S11-D                                              Lung NK cells  PSLN-344      Vaccine     2       day     34   28.5  difference      5.56   0.0373   5   5                     0.187
+133  S11-D                                              Lung NK cells  PSLN-344      Vaccine     4       day   31.1   27.5  difference       3.6    0.276   5   5                         1
+134  S11-D                                              Lung NK cells  PSLN-344      Vaccine     6       day   23.9   24.3  difference     -0.44    0.859   5   5                         1
+135  S11-D                                              Lung NK cells  PSLN-344      Vaccine     8       day   24.1   25.9  difference     -1.86    0.316   5   5                         1
+136  S11-D                                              Lung NK cells  PSLN-344  PSLN-212(Y)     0       day   25.6   17.4  difference      8.24  0.00499   5   5                     0.015
+137  S11-D                                              Lung NK cells  PSLN-344  PSLN-212(Y)     2       day     34   23.1  difference      10.9   0.0021   5   5                    0.0094
+138  S11-D                                              Lung NK cells  PSLN-344  PSLN-212(Y)     4       day   31.1   18.1  difference        13  0.00188   5   5                    0.0094
+139  S11-D                                              Lung NK cells  PSLN-344  PSLN-212(Y)     6       day   23.9   17.6  difference      6.28   0.0179   5   5                     0.018
+140  S11-D                                              Lung NK cells  PSLN-344  PSLN-212(Y)     8       day   24.1   18.1  difference      5.92  0.00901   5   5                     0.018
+
+    block                                                  measurand          group      auc  auc_se  peak_mean  peak_time time_unit  baseline_mean  last_mean  last_time
+0   S01-D                    Lung monocytes (CD11b+Ly6C+CD11c-Ly6G-)           Sham     81.5    1.65       11.2          6       day              8       9.48          8
+1   S01-D                    Lung monocytes (CD11b+Ly6C+CD11c-Ly6G-)       PSLN-212      104    2.89       16.7          4       day            9.4       9.66          8
+2   S01-D                    Lung monocytes (CD11b+Ly6C+CD11c-Ly6G-)       PSLN-344      168    6.38       30.6          4       day           9.18       18.4          8
+3   S01-D                    Lung monocytes (CD11b+Ly6C+CD11c-Ly6G-)    PSLN-212(Y)      171    4.68       32.2          4       day           10.8       14.1          8
+4   S01-E                                             Lung CD11b+ DC           Sham     25.9    2.36        4.8          4       day           1.34       2.44          8
+5   S01-E                                             Lung CD11b+ DC       PSLN-212     47.3    2.33       8.28          4       day           1.68       6.04          8
+6   S01-E                                             Lung CD11b+ DC       PSLN-344     92.9    8.66       18.9          4       day            1.3       13.7          8
+7   S01-E                                             Lung CD11b+ DC    PSLN-212(Y)     87.1    2.51       21.4          4       day           1.24       9.48          8
+8   S01-E                                             Lung CD11b+ DC    PSLN-344(Y)     99.2    3.66       22.6          4       day           1.06       10.5          8
+9   S02-F                                    Lung Gm-csf (Csf2) mRNA       PSLN-344      374    29.7       8.74         36      hour              6       3.85         72
+10  S02-F                                    Lung Gm-csf (Csf2) mRNA       PSLN-212     84.4    3.26       1.59         36      hour           1.49       1.39         72
+11  S02-F                                    Lung Gm-csf (Csf2) mRNA           Sham     64.9    3.79       1.21         36      hour          0.998       1.16         72
+12  S05-A  Lung NP366-374 tetramer+ CD8 T (n=2 observed; stated n=3)       PSLN-212     19.2    1.76        6.9          7       day           2.09        6.9          7
+13  S05-A  Lung NP366-374 tetramer+ CD8 T (n=2 observed; stated n=3)       PSLN-344       45    2.02       14.2          7       day           6.68       14.2          7
+14  S05-A  Lung NP366-374 tetramer+ CD8 T (n=2 observed; stated n=3)      PSLN-212Y     51.9    2.74       15.2          7       day           9.85       15.2          7
+15  S05-B   MLN NP366-374 tetramer+ CD8 T (n=2 observed; stated n=3)       PSLN-212     7.14   0.342       2.61          7       day           1.19       2.61          7
+16  S05-B   MLN NP366-374 tetramer+ CD8 T (n=2 observed; stated n=3)       PSLN-344     12.5   0.719       4.36          7       day           1.81       4.36          7
+17  S05-B   MLN NP366-374 tetramer+ CD8 T (n=2 observed; stated n=3)      PSLN-212Y     16.4    2.54       5.74          7       day           2.04       5.74          7
+18  S07-A                                Lung Ly6C+CCR2+ macrophages       PSLN-212      326    22.5         19          5       day           1.37       4.16         30
+19  S07-A                                Lung Ly6C+CCR2+ macrophages       PSLN-344     83.3    10.5       3.42          5       day           1.95       2.35         30
+20  S08-A                       Lung Ifnb1 mRNA, 16 h, dose-response        CMP-204      255    12.2       7.96         40        ug              1       7.96         40
+21  S08-A                       Lung Ifnb1 mRNA, 16 h, dose-response       PSLN-212      425    19.9       14.9         40        ug           1.36       14.9         40
+22  S08-A                       Lung Ifnb1 mRNA, 16 h, dose-response       PSLN-344 1.39e+03    76.4       50.2         40        ug           1.38       50.2         40
+23  S08-A                       Lung Ifnb1 mRNA, 16 h, dose-response  PSLN-344/R848      933    65.7       34.9         40        ug           1.03       34.9         40
+24  S11-A                                  Lung alveolar macrophages        Vaccine      173    5.83       22.6          2       day           20.4       22.4          8
+25  S11-A                                  Lung alveolar macrophages       PSLN-212      218    6.56       30.9          4       day           20.3       23.9          8
+26  S11-A                                  Lung alveolar macrophages       PSLN-344      236    8.33       32.3          4       day           21.2       28.8          8
+27  S11-A                                  Lung alveolar macrophages    PSLN-212(Y)      357    5.79       48.5          4       day           36.6       40.4          8
+28  S11-B                                           Lung neutrophils        Vaccine      172    5.42         23          2       day           20.4       22.5          8
+29  S11-B                                           Lung neutrophils       PSLN-212      218    4.78       31.3          4       day             20       24.4          8
+30  S11-B                                           Lung neutrophils       PSLN-344      230    8.12       31.8          4       day             21       28.8          8
+31  S11-B                                           Lung neutrophils    PSLN-212(Y)      354    7.46       48.4          4       day           36.8       40.8          8
+32  S11-D                                              Lung NK cells        Vaccine      214    7.29       28.5          2       day           27.8       25.9          8
+33  S11-D                                              Lung NK cells       PSLN-212      202    6.64       28.8          2       day           26.3       25.5          8
+34  S11-D                                              Lung NK cells       PSLN-344      228     6.8         34          2       day           25.6       24.1          8
+35  S11-D                                              Lung NK cells    PSLN-212(Y)      153    4.79       23.1          2       day           17.4       18.1          8
+
+    block        g1           g2     auc1  auc2  ratio      z        p
+0   S01-D  PSLN-344     PSLN-212      168   104   1.61    9.1  8.7e-20
+1   S01-D  PSLN-344  PSLN-212(Y)      168   171   0.98 -0.427    0.669
+2   S01-D  PSLN-344         Sham      168  81.5   2.06   13.1 4.82e-39
+3   S01-E  PSLN-344     PSLN-212     92.9  47.3   1.96   5.09 3.66e-07
+4   S01-E  PSLN-344  PSLN-212(Y)     92.9  87.1   1.07   0.65    0.516
+5   S01-E  PSLN-344         Sham     92.9  25.9   3.59   7.47 8.09e-14
+6   S02-F  PSLN-344     PSLN-212      374  84.4   4.43   9.69 3.36e-22
+7   S02-F  PSLN-344         Sham      374  64.9   5.76   10.3 5.63e-25
+8   S05-A  PSLN-344     PSLN-212       45  19.2   2.34    9.6 7.81e-22
+9   S05-A  PSLN-344    PSLN-212Y       45  51.9  0.866  -2.04   0.0414
+10  S05-B  PSLN-344     PSLN-212     12.5  7.14   1.75   6.73 1.74e-11
+11  S05-B  PSLN-344    PSLN-212Y     12.5  16.4  0.764  -1.46    0.143
+12  S07-A  PSLN-344     PSLN-212     83.3   326  0.255  -9.78 1.42e-22
+13  S08-A  PSLN-344     PSLN-212 1.39e+03   425   3.26   12.2  3.2e-34
+14  S11-A  PSLN-344     PSLN-212      236   218   1.08   1.72   0.0863
+15  S11-A  PSLN-344  PSLN-212(Y)      236   357   0.66    -12 4.39e-33
+16  S11-A  PSLN-344      Vaccine      236   173   1.36    6.2 5.57e-10
+17  S11-B  PSLN-344     PSLN-212      230   218   1.06   1.27    0.203
+18  S11-B  PSLN-344  PSLN-212(Y)      230   354   0.65  -11.2 2.69e-29
+19  S11-B  PSLN-344      Vaccine      230   172   1.33   5.89  3.8e-09
+20  S11-D  PSLN-344     PSLN-212      228   202   1.13   2.66  0.00773
+21  S11-D  PSLN-344  PSLN-212(Y)      228   153   1.49   8.95 3.49e-19
+22  S11-D  PSLN-344      Vaccine      228   214   1.06   1.35    0.178

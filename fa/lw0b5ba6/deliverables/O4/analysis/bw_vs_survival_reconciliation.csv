@@ -1,0 +1,74 @@
+bw_block,group,n_weight_cols,alive_by_weights,disappear,flat3,flat2,implied_survivors_strict,implied_survivors_loose,linked_survival,survival_record,detail
+S08-D,PSLN-212(Y),5,4,0,0,1,5,4,,,E:flatline=2@d8
+S08-D,CMP-204,5,5,0,0,0,5,5,,,
+S08-D,PSLN-212,5,5,0,0,0,5,5,,,
+S08-D,PSLN-344,5,5,0,0,0,5,5,,,
+S08-D,PSLN-212/R848,5,4,1,0,0,4,4,,,W:disappears@d10
+S08-D,Vaccine,5,5,0,0,0,5,5,,,
+S09-C,PSLN-212(Y),8,8,0,0,0,8,8,S09-B,8/8 (deaths d[]),
+S09-C,Sham,8,0,8,0,0,0,0,S09-B,"0/8 (deaths d[6, 6, 6, 7, 7, 7, 8, 8])",O:disappears@d10; P:disappears@d10; Q:disappears@d10; R:disappears@d10; S:disappears@d10; T:disappears@d8; U:disappears@d10; V:disappears@d10
+S09-C,PSLN-344(Y),8,8,0,0,0,8,8,S09-B,8/8 (deaths d[]),
+S09-E,PSLN-212(Y),8,8,0,0,0,8,8,S09-D,8/8 (deaths d[]),
+S09-E,Sham,8,0,8,0,0,0,0,S09-D,"0/8 (deaths d[7, 8, 8, 8, 8, 8, 9, 9])",O:disappears@d10; P:disappears@d8; Q:disappears@d10; R:disappears@d10; S:disappears@d8; T:disappears@d10; U:disappears@d10; V:disappears@d10
+S09-E,PSLN-344(Y),8,8,0,0,0,8,8,S09-D,8/8 (deaths d[]),
+S09-G,PSLN-212(Y),8,8,0,0,0,8,8,S09-F,8/8 (deaths d[]),
+S09-G,Sham,8,0,8,0,0,0,0,S09-F,"0/7 (deaths d[6, 6, 6, 7, 8, 8, 8])",O:disappears@d10; P:disappears@d8; Q:disappears@d8; R:disappears@d10; S:disappears@d10; T:disappears@d8; U:disappears@d10; V:disappears@d8
+S09-G,PSLN-344(Y),8,8,0,0,0,8,8,S09-F,8/8 (deaths d[]),
+S13-F,PSLN-212(Y),7,7,0,0,0,7,7,S03-I,7/7 (deaths d[]),
+S13-F,Sham,7,0,7,0,0,0,0,S03-I,"0/7 (deaths d[5, 6, 6, 6, 8, 8, 11])",I:disappears@d8; J:disappears@d10; K:disappears@d8; L:disappears@d10; M:disappears@d12; N:disappears@d12; O:disappears@d12
+S13-F,PSLN-212,7,3,0,4,0,3,3,S03-I,"0/7 (deaths d[5, 5, 5, 6, 6, 6, 6])",P:flatline>=3@d10; Q:flatline>=3@d10; R:flatline>=3@d10; S:flatline>=3@d10
+S13-F,PSLN-344,7,7,0,0,0,7,7,S03-I,7/7 (deaths d[]),
+S13-F,Naive,7,0,7,0,0,0,0,S03-I,GROUP NOT IN SURVIVAL BLOCK,AD:disappears@d6; AE:disappears@d8; AF:disappears@d8; AG:disappears@d8; AH:disappears@d6; AI:disappears@d8; AJ:disappears@d8
+S13-G,PSLN-344,10,10,0,0,0,10,10,S03-J,10/10 (deaths d[]),
+S13-G,Sham,10,5,0,2,3,8,5,S03-J,"1/10 (deaths d[3, 4, 9, 9, 9, 10, 10, 10, 10])",N:flatline>=3@d10; R:flatline=2@d12; S:flatline=2@d12; T:flatline=2@d12; U:flatline>=3@d10
+S13-G,Naive,10,1,0,9,0,1,1,S03-J,GROUP NOT IN SURVIVAL BLOCK,V:flatline>=3@d10; W:flatline>=3@d4; X:flatline>=3@d4; Y:flatline>=3@d6; Z:flatline>=3@d10; AA:flatline>=3@d10; AB:flatline>=3@d10; AC:flatline>=3@d10; AD:flatline>=3@d10
+S15-A,PSLN-212(Y),7,7,0,0,0,7,7,S06-A,7/7 (deaths d[]),
+S15-A,Sham,7,0,7,0,0,0,0,S06-A,"0/7 (deaths d[4, 4, 4, 5, 5, 7, 7])",I:disappears@d8; J:disappears@d6; K:disappears@d6; L:disappears@d8; M:disappears@d8; N:disappears@d8; O:disappears@d6
+S15-A,PSLN-212,7,1,0,6,0,1,1,S06-A,"1/7 (deaths d[4, 6, 6, 8, 9, 10])",P:flatline>=3@d4; Q:flatline>=3@d6; R:flatline>=3@d6; T:flatline>=3@d6; U:flatline>=3@d8; V:flatline>=3@d8
+S15-A,PSLN-344,7,6,0,1,0,6,6,S06-A,6/7 (deaths d[8]),AA:flatline>=3@d6
+S15-B,PSLN-212(Y),7,7,0,0,0,7,7,S06-B,7/7 (deaths d[]),
+S15-B,Sham,7,0,7,0,0,0,0,S06-B,"0/7 (deaths d[4, 4, 4, 5, 5, 6, 6])",I:disappears@d8; J:disappears@d8; K:disappears@d6; L:disappears@d4; M:disappears@d6; N:disappears@d6; O:disappears@d8
+S15-B,PSLN-212,7,0,0,7,0,0,0,S06-B,"0/7 (deaths d[4, 4, 6, 6, 6, 7, 10])",P:flatline>=3@d4; Q:flatline>=3@d6; R:flatline>=3@d8; S:flatline>=3@d8; T:flatline>=3@d8; U:flatline>=3@d6; V:flatline>=3@d10
+S15-B,PSLN-344,7,4,0,2,1,5,4,S06-B,"5/7 (deaths d[8, 10])",W:flatline>=3@d8; X:flatline>=3@d8; Z:flatline=2@d12
+S15-C,PSLN-212(Y),7,7,0,0,0,7,7,S06-C,7/7 (deaths d[]),
+S15-C,Sham,7,0,7,0,0,0,0,S06-C,"0/7 (deaths d[4, 4, 5, 6, 6, 6, 7])",I:disappears@d6; J:disappears@d6; K:disappears@d6; L:disappears@d8; M:disappears@d8; N:disappears@d8; O:disappears@d10
+S15-C,PSLN-212,7,1,0,6,0,1,1,S06-C,"2/7 (deaths d[5, 8, 10, 10, 12])",P:flatline>=3@d10; Q:flatline>=3@d8; S:flatline>=3@d8; T:flatline>=3@d10; U:flatline>=3@d10; V:flatline>=3@d6
+S15-C,PSLN-344,7,7,0,0,0,7,7,S06-C,7/7 (deaths d[]),
+S15-D,PSLN-212(Y),7,5,0,2,0,5,5,S06-D,7/7 (deaths d[]),F:flatline>=3@d8; G:flatline>=3@d10
+S15-D,Sham,7,0,7,0,0,0,0,S06-D,"0/7 (deaths d[4, 4, 5, 6, 6, 6, 7])",I:disappears@d6; J:disappears@d6; K:disappears@d6; L:disappears@d6; M:disappears@d8; N:disappears@d6; O:disappears@d6
+S15-D,PSLN-212,7,2,0,4,1,3,2,S06-D,"2/7 (deaths d[5, 8, 10, 10, 12])",P:flatline>=3@d8; Q:flatline>=3@d6; T:flatline>=3@d6; U:flatline=2@d12; V:flatline>=3@d10
+S15-D,PSLN-344,7,5,0,2,0,5,5,S06-D,7/7 (deaths d[]),W:flatline>=3@d8; AC:flatline>=3@d8
+S15-E,PSLN-212(Y),7,7,0,0,0,7,7,S06-E,7/7 (deaths d[]),
+S15-E,Sham,7,0,7,0,0,0,0,S06-E,"0/7 (deaths d[4, 5, 5, 5, 5, 6, 6])",I:disappears@d6; J:disappears@d6; K:disappears@d6; L:disappears@d6; M:disappears@d6; N:disappears@d8; O:disappears@d8
+S15-E,PSLN-212,7,1,0,6,0,1,1,S06-E,"0/7 (deaths d[5, 5, 5, 6, 6, 8, 11])",Q:flatline>=3@d10; R:flatline>=3@d6; S:flatline>=3@d8; T:flatline>=3@d6; U:flatline>=3@d6; V:flatline>=3@d6
+S15-E,PSLN-344,7,6,0,1,0,6,6,S06-E,"5/7 (deaths d[8, 10])",W:flatline>=3@d8
+S15-E,Untreated,7,6,0,1,0,6,6,S06-E,6/7 (deaths d[4]),AE:flatline>=3@d4
+S15-F,PSLN-212(Y),7,7,0,0,0,7,7,S06-F,7/7 (deaths d[]),
+S15-F,Sham,7,0,7,0,0,0,0,S06-F,"0/7 (deaths d[4, 4, 4, 5, 5, 6, 6])",I:disappears@d4; J:disappears@d6; K:disappears@d6; L:disappears@d4; M:disappears@d6; N:disappears@d6; O:disappears@d8
+S15-F,PSLN-212,7,1,0,6,0,1,1,S06-F,"1/7 (deaths d[4, 5, 6, 6, 6, 7])",P:flatline>=3@d6; Q:flatline>=3@d6; R:flatline>=3@d8; S:flatline>=3@d6; T:flatline>=3@d4; V:flatline>=3@d6
+S15-F,PSLN-344,7,5,0,2,0,5,5,S06-F,"5/7 (deaths d[7, 8])",W:flatline>=3@d6; Z:flatline>=3@d6
+S15-F,Untreated,7,7,0,0,0,7,7,S06-F,7/7 (deaths d[]),
+S15-G,PSLN-212(Y),7,7,0,0,0,7,7,S06-G,7/7 (deaths d[]),
+S15-G,Sham,7,0,7,0,0,0,0,S06-G,"0/7 (deaths d[4, 4, 5, 6, 6, 7, 7])",I:disappears@d6; J:disappears@d6; K:disappears@d8; L:disappears@d8; M:disappears@d8; N:disappears@d8; O:disappears@d8
+S15-G,PSLN-212,7,0,0,7,0,0,0,S06-G,"0/7 (deaths d[6, 6, 8, 8, 8, 11, 11])",P:flatline>=3@d8; Q:flatline>=3@d8; R:flatline>=3@d8; S:flatline>=3@d8; T:flatline>=3@d8; U:flatline>=3@d10; V:flatline>=3@d10
+S15-G,PSLN-344,7,5,0,0,2,7,5,S06-G,"4/7 (deaths d[8, 9, 11])",W:flatline=2@d12; Z:flatline=2@d12
+S15-G,Untreated,7,4,0,3,0,4,4,S06-G,"4/7 (deaths d[3, 7, 10])",AD:flatline>=3@d4; AE:flatline>=3@d8; AF:flatline>=3@d10
+S15-I,3d Vaccine,7,0,7,0,0,0,0,S15-H,"0/7 (deaths d[4, 5, 5, 5, 6, 6, 7])",I:disappears@d6; J:disappears@d6; K:disappears@d6; L:disappears@d6; M:disappears@d8; N:disappears@d8; O:disappears@d8
+S15-I,3d PSLN-344,7,0,7,0,0,0,0,S15-H,"0/7 (deaths d[5, 5, 6, 6, 6, 7, 8])",P:disappears@d6; Q:disappears@d8; R:disappears@d6; S:disappears@d8; T:disappears@d10; U:disappears@d8; V:disappears@d8
+S15-I,3d Vaccine+PSLN-344,7,6,0,0,1,7,6,S15-H,6/7 (deaths d[12]),Y:flatline=2@d12
+S15-J,Naive+PSLN-212,7,0,7,0,0,0,0,"S06-E'(r71-98,G-K)","0/7 (deaths d[4, 4, 5, 6, 6, 6, 8])",I:disappears@d8; J:disappears@d6; K:disappears@d6; L:disappears@d4; M:disappears@d6; N:disappears@d8; O:disappears@d4
+S15-J,Imprinting+PSLN-212,7,4,3,0,0,4,4,"S06-E'(r71-98,G-K)","4/7 (deaths d[6, 8, 8])",P:disappears@d8; R:disappears@d8; T:disappears@d6
+S15-J,Naive+PSLN-344,7,5,1,0,1,6,5,"S06-E'(r71-98,G-K)",6/7 (deaths d[5]),AA:flatline=2@d12; AB:disappears@d6
+S15-J,Imprinting+PSLN-344,7,6,0,1,0,6,6,"S06-E'(r71-98,G-K)",6/7 (deaths d[8]),AG:flatline>=3@d6
+S15-K,Naive+PSLN-212,7,0,7,0,0,0,0,"S06-F'(r71-98,M-Q)","0/7 (deaths d[4, 4, 6, 6, 7, 8, 8])",I:disappears@d8; J:disappears@d10; K:disappears@d6; L:disappears@d8; M:disappears@d6; N:disappears@d8; O:disappears@d4
+S15-K,Imprinting+PSLN-212,7,0,7,0,0,0,0,"S06-F'(r71-98,M-Q)","0/7 (deaths d[4, 4, 5, 5, 5, 6, 6])",P:disappears@d6; Q:disappears@d6; R:disappears@d4; S:disappears@d6; T:disappears@d8; U:disappears@d4; V:disappears@d6
+S15-K,Naive+PSLN-344,7,6,1,0,0,6,6,"S06-F'(r71-98,M-Q)",6/7 (deaths d[8]),AA:disappears@d8
+S15-K,Imprinting+PSLN-344,7,6,1,0,0,6,6,"S06-F'(r71-98,M-Q)",6/7 (deaths d[7]),AD:disappears@d8
+S15-M,PSLN-212(Y),7,7,0,0,0,7,7,S15-L,6/7 (deaths d[12]),
+S15-M,Sham,7,0,7,0,0,0,0,S15-L,"0/7 (deaths d[4, 4, 6, 6, 6, 8, 8])",P:disappears@d4; Q:disappears@d6; R:disappears@d6; S:disappears@d4; T:disappears@d8; U:disappears@d6; V:disappears@d10
+S15-M,PSLN-212,7,0,0,6,1,1,0,S15-L,"0/7 (deaths d[6, 7, 7, 8, 8, 9, 11])",W:flatline>=3@d8; X:flatline>=3@d6; Y:flatline>=3@d6; Z:flatline>=3@d8; AA:flatline=2@d12; AB:flatline>=3@d8; AC:flatline>=3@d4
+S15-M,PSLN-344,7,6,0,1,0,6,6,S15-L,6/7 (deaths d[8]),AH:flatline>=3@d6
+S15-O,PSLN-212(Y),7,7,0,0,0,7,7,S15-N,7/7 (deaths d[]),
+S15-O,Sham,7,0,7,0,0,0,0,S15-N,"0/7 (deaths d[5, 6, 6, 8, 8, 8, 10])",P:disappears@d6; Q:disappears@d8; R:disappears@d8; S:disappears@d10; T:disappears@d10; U:disappears@d12; V:disappears@d10
+S15-O,PSLN-212,7,2,0,4,1,3,2,S15-N,"2/7 (deaths d[6, 10, 10, 10, 12])",W:flatline>=3@d10; X:flatline>=3@d10; Y:flatline=2@d12; Z:flatline>=3@d10; AB:flatline>=3@d6
+S15-O,PSLN-344,7,6,0,1,0,6,6,S15-N,6/7 (deaths d[8]),AH:flatline>=3@d6

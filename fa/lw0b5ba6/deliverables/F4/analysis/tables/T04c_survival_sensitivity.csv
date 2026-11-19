@@ -1,0 +1,4 @@
+scenario,PSLN344,PSLN344_pct,PSLN344_ci95,PSLN212,PSLN212_pct,PSLN212_ci95,Sham,p_fisher_344_vs_212,p_fisher_344_vs_sham
+survival tables as printed,42/45,93.3,81.7-98.6,8/45,17.8,8.0-32.1,1/45,1.0368953738823693e-13,1.3451667995605195e-20
+all table conflicts resolved against PSLN-344,40/45,88.9,75.9-96.3,12/45,26.7,14.6-41.9,1/45,2.083944009981793e-09,1.5100850821072584e-18
+all aged-BALB/c PSLN-344 arms challenged d2-d14 incl. S15-H (no matched Sham/212 arm there),48/52,92.3,81.5-97.9,,,,,,

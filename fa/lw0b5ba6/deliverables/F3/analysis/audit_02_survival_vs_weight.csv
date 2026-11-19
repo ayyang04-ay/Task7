@@ -1,0 +1,70 @@
+surv_block,weight_block,design,group,surv_n,surv_deaths,surv_death_days,wt_n,wt_exits,wt_exit_detail,deaths_timing_matched,status
+S03-I,S13-F,"aged BALB/c | bivalent vaccine | 10x mLD50 CA09 H1N1, day 14 (homologous)",Sham,7.0,7.0,"5,6,6,6,8,8,11",7.0,7.0,BLANK@d8; BLANK@d10; BLANK@d8; BLANK@d10; BLANK@d12; BLANK@d12; BLANK@d12,5.0,count agrees; timing differs for 2
+S03-I,S13-F,"aged BALB/c | bivalent vaccine | 10x mLD50 CA09 H1N1, day 14 (homologous)",CMP-204,7.0,4.0,"6,7,8,10",,,(group absent),,GROUP LABEL PRESENT IN ONLY ONE TABLE
+S03-I,S13-F,"aged BALB/c | bivalent vaccine | 10x mLD50 CA09 H1N1, day 14 (homologous)",PSLN-212,7.0,7.0,"5,5,5,6,6,6,6",7.0,4.0,LOCF@d10; LOCF@d10; LOCF@d10; LOCF@d10,0.0,DEATH COUNT DIFFERS
+S03-I,S13-F,"aged BALB/c | bivalent vaccine | 10x mLD50 CA09 H1N1, day 14 (homologous)",PSLN-344,7.0,0.0,,7.0,0.0,,0.0,agree
+S03-I,S13-F,"aged BALB/c | bivalent vaccine | 10x mLD50 CA09 H1N1, day 14 (homologous)",PSLN-212(Y),7.0,0.0,,7.0,0.0,,0.0,agree
+S03-I,S13-F,"aged BALB/c | bivalent vaccine | 10x mLD50 CA09 H1N1, day 14 (homologous)",Naïve,,,(group absent),7.0,7.0,BLANK@d6; BLANK@d8; BLANK@d8; BLANK@d8; BLANK@d6; BLANK@d8; BLANK@d8,,GROUP LABEL PRESENT IN ONLY ONE TABLE
+S03-J,S13-G,"aged BALB/c | rgH5N1 vaccine | wild-type VN04 H5N1, day 2",Sham,10.0,9.0,"3,4,9,9,9,10,10,10,10",10.0,5.0,LOCF@d10; LOCF@d12; LOCF@d12; LOCF@d12; LOCF@d10,2.0,DEATH COUNT DIFFERS
+S03-J,S13-G,"aged BALB/c | rgH5N1 vaccine | wild-type VN04 H5N1, day 2",PSLN-212,10.0,7.0,"10,10,11,11,12,12,12",,,(group absent),,GROUP LABEL PRESENT IN ONLY ONE TABLE
+S03-J,S13-G,"aged BALB/c | rgH5N1 vaccine | wild-type VN04 H5N1, day 2",PSLN-344,10.0,0.0,,10.0,0.0,,0.0,agree
+S03-J,S13-G,"aged BALB/c | rgH5N1 vaccine | wild-type VN04 H5N1, day 2",Naïve,,,(group absent),10.0,9.0,LOCF@d10; LOCF@d4; LOCF@d4; LOCF@d6; LOCF@d10; LOCF@d10; LOCF@d10; LOCF@d10; LOCF@d10,,GROUP LABEL PRESENT IN ONLY ONE TABLE
+S06-A,S15-A,"aged BALB/c | H3N2 vaccine | 5x mLD50 PR8 H1N1, day 14",Sham,7.0,7.0,"4,4,4,5,5,7,7",7.0,7.0,BLANK@d8; BLANK@d6; BLANK@d6; BLANK@d8; BLANK@d8; BLANK@d8; BLANK@d6,5.0,count agrees; timing differs for 2
+S06-A,S15-A,"aged BALB/c | H3N2 vaccine | 5x mLD50 PR8 H1N1, day 14",PSLN-212,7.0,6.0,"4,6,6,8,9,10",7.0,6.0,LOCF@d4; LOCF@d6; LOCF@d6; LOCF@d6; LOCF@d8; LOCF@d8,6.0,agree
+S06-A,S15-A,"aged BALB/c | H3N2 vaccine | 5x mLD50 PR8 H1N1, day 14",PSLN-344,7.0,1.0,8,7.0,1.0,LOCF@d6,1.0,agree
+S06-A,S15-A,"aged BALB/c | H3N2 vaccine | 5x mLD50 PR8 H1N1, day 14",PSLN-212(Y),7.0,0.0,,7.0,0.0,,0.0,agree
+S06-B,S15-B,"aged BALB/c | H3N2 vaccine | 5x mLD50 PR8 H1N1, day 3",Sham,7.0,7.0,"4,4,4,5,5,6,6",7.0,7.0,BLANK@d8; BLANK@d8; BLANK@d6; BLANK@d4; BLANK@d6; BLANK@d6; BLANK@d8,6.0,count agrees; timing differs for 1
+S06-B,S15-B,"aged BALB/c | H3N2 vaccine | 5x mLD50 PR8 H1N1, day 3",PSLN-212,7.0,7.0,"4,4,6,6,6,7,10",7.0,7.0,LOCF@d4; LOCF@d6; LOCF@d8; LOCF@d8; LOCF@d8; LOCF@d6; LOCF@d10,5.0,count agrees; timing differs for 2
+S06-B,S15-B,"aged BALB/c | H3N2 vaccine | 5x mLD50 PR8 H1N1, day 3",PSLN-344,7.0,2.0,"8,10",7.0,2.0,LOCF@d8; LOCF@d8,2.0,agree
+S06-B,S15-B,"aged BALB/c | H3N2 vaccine | 5x mLD50 PR8 H1N1, day 3",PSLN-212(Y),7.0,0.0,,7.0,0.0,,0.0,agree
+S06-C,S15-C,"aged BALB/c | bivalent vaccine | 5x mLD50 rgH5N1, day 14",Sham,7.0,7.0,"4,4,5,6,6,6,7",7.0,7.0,BLANK@d6; BLANK@d6; BLANK@d6; BLANK@d8; BLANK@d8; BLANK@d8; BLANK@d10,6.0,count agrees; timing differs for 1
+S06-C,S15-C,"aged BALB/c | bivalent vaccine | 5x mLD50 rgH5N1, day 14",PSLN-212,7.0,5.0,"5,8,10,10,12",7.0,6.0,LOCF@d10; LOCF@d8; LOCF@d8; LOCF@d10; LOCF@d10; LOCF@d6,5.0,DEATH COUNT DIFFERS
+S06-C,S15-C,"aged BALB/c | bivalent vaccine | 5x mLD50 rgH5N1, day 14",PSLN-344,7.0,0.0,,7.0,0.0,,0.0,agree
+S06-C,S15-C,"aged BALB/c | bivalent vaccine | 5x mLD50 rgH5N1, day 14",PSLN-212(Y),7.0,0.0,,7.0,0.0,,0.0,agree
+S06-D,S15-D,"aged BALB/c | bivalent vaccine | 5x mLD50 rgH5N1, day 3",Sham,7.0,7.0,"4,4,5,6,6,6,7",7.0,7.0,BLANK@d6; BLANK@d6; BLANK@d6; BLANK@d6; BLANK@d8; BLANK@d6; BLANK@d6,7.0,agree
+S06-D,S15-D,"aged BALB/c | bivalent vaccine | 5x mLD50 rgH5N1, day 3",PSLN-212,7.0,5.0,"5,8,10,10,12",7.0,5.0,LOCF@d8; LOCF@d6; LOCF@d6; LOCF@d12; LOCF@d10,5.0,agree
+S06-D,S15-D,"aged BALB/c | bivalent vaccine | 5x mLD50 rgH5N1, day 3",PSLN-344,7.0,0.0,,7.0,2.0,LOCF@d8; LOCF@d8,0.0,DEATH COUNT DIFFERS
+S06-D,S15-D,"aged BALB/c | bivalent vaccine | 5x mLD50 rgH5N1, day 3",PSLN-212(Y),7.0,0.0,,7.0,2.0,LOCF@d8; LOCF@d10,0.0,DEATH COUNT DIFFERS
+S06-E(r34),S15-E,"aged BALB/c | H3N2 vaccine | 5x mLD50 PR8 H1N1, day 60",Sham,7.0,7.0,"4,5,5,5,5,6,6",7.0,7.0,BLANK@d6; BLANK@d6; BLANK@d6; BLANK@d6; BLANK@d6; BLANK@d8; BLANK@d8,7.0,agree
+S06-E(r34),S15-E,"aged BALB/c | H3N2 vaccine | 5x mLD50 PR8 H1N1, day 60",PSLN-212,7.0,7.0,"5,5,5,6,6,8,11",7.0,6.0,LOCF@d10; LOCF@d6; LOCF@d8; LOCF@d6; LOCF@d6; LOCF@d6,6.0,DEATH COUNT DIFFERS
+S06-E(r34),S15-E,"aged BALB/c | H3N2 vaccine | 5x mLD50 PR8 H1N1, day 60",PSLN-344,7.0,2.0,"8,10",7.0,1.0,LOCF@d8,1.0,DEATH COUNT DIFFERS
+S06-E(r34),S15-E,"aged BALB/c | H3N2 vaccine | 5x mLD50 PR8 H1N1, day 60",PSLN-212(Y),7.0,0.0,,7.0,0.0,,0.0,agree
+S06-E(r34),S15-E,"aged BALB/c | H3N2 vaccine | 5x mLD50 PR8 H1N1, day 60",Untreated,7.0,1.0,4,7.0,1.0,LOCF@d4,1.0,agree
+S06-F(r34),S15-F,"aged BALB/c | bivalent vaccine | 5x mLD50 rgH5N1, day 60",Sham,7.0,7.0,"4,4,4,5,5,6,6",7.0,7.0,BLANK@d4; BLANK@d6; BLANK@d6; BLANK@d4; BLANK@d6; BLANK@d6; BLANK@d8,7.0,agree
+S06-F(r34),S15-F,"aged BALB/c | bivalent vaccine | 5x mLD50 rgH5N1, day 60",PSLN-212,7.0,6.0,"4,5,6,6,6,7",7.0,6.0,LOCF@d6; LOCF@d6; LOCF@d8; LOCF@d6; LOCF@d4; LOCF@d6,6.0,agree
+S06-F(r34),S15-F,"aged BALB/c | bivalent vaccine | 5x mLD50 rgH5N1, day 60",PSLN-344,7.0,2.0,"7,8",7.0,2.0,LOCF@d6; LOCF@d6,2.0,agree
+S06-F(r34),S15-F,"aged BALB/c | bivalent vaccine | 5x mLD50 rgH5N1, day 60",PSLN-212(Y),7.0,0.0,,7.0,0.0,,0.0,agree
+S06-F(r34),S15-F,"aged BALB/c | bivalent vaccine | 5x mLD50 rgH5N1, day 60",Untreated,7.0,0.0,,7.0,0.0,,0.0,agree
+S06-G,S15-G,"aged BALB/c | H1N1 vaccine | 5x mLD50 Perth H3N2, day 60",Sham,7.0,7.0,"4,4,5,6,6,7,7",7.0,7.0,BLANK@d6; BLANK@d6; BLANK@d8; BLANK@d8; BLANK@d8; BLANK@d8; BLANK@d8,6.0,count agrees; timing differs for 1
+S06-G,S15-G,"aged BALB/c | H1N1 vaccine | 5x mLD50 Perth H3N2, day 60",PSLN-212,7.0,7.0,"6,6,8,8,8,11,11",7.0,7.0,LOCF@d8; LOCF@d8; LOCF@d8; LOCF@d8; LOCF@d8; LOCF@d10; LOCF@d10,5.0,count agrees; timing differs for 2
+S06-G,S15-G,"aged BALB/c | H1N1 vaccine | 5x mLD50 Perth H3N2, day 60",PSLN-344,7.0,3.0,"8,9,11",7.0,2.0,LOCF@d12; LOCF@d12,1.0,DEATH COUNT DIFFERS
+S06-G,S15-G,"aged BALB/c | H1N1 vaccine | 5x mLD50 Perth H3N2, day 60",PSLN-212(Y),7.0,0.0,,7.0,0.0,,0.0,agree
+S06-G,S15-G,"aged BALB/c | H1N1 vaccine | 5x mLD50 Perth H3N2, day 60",Untreated,7.0,3.0,"3,7,10",7.0,3.0,LOCF@d4; LOCF@d8; LOCF@d10,3.0,agree
+S15-H,S15-I,"aged BALB/c | vaccine / PSLN-344 / both, 3 days before 5x mLD50 rgH5N1",3d Vaccine,7.0,7.0,"4,5,5,5,6,6,7",7.0,7.0,BLANK@d6; BLANK@d6; BLANK@d6; BLANK@d6; BLANK@d8; BLANK@d8; BLANK@d8,7.0,agree
+S15-H,S15-I,"aged BALB/c | vaccine / PSLN-344 / both, 3 days before 5x mLD50 rgH5N1",3d PSLN-344,7.0,7.0,"5,5,6,6,6,7,8",7.0,7.0,BLANK@d6; BLANK@d8; BLANK@d6; BLANK@d8; BLANK@d10; BLANK@d8; BLANK@d8,7.0,agree
+S15-H,S15-I,"aged BALB/c | vaccine / PSLN-344 / both, 3 days before 5x mLD50 rgH5N1",3d Vaccine+PSLN-344,7.0,1.0,12,7.0,1.0,LOCF@d12,1.0,agree
+S06-E(r71),S15-J,14-month BALB/c +/- PR8 imprinting | bivalent vaccine | 5x LD50 PR8 H1N1,Naïve+PSLN-212,7.0,7.0,"4,4,5,6,6,6,8",7.0,7.0,BLANK@d8; BLANK@d6; BLANK@d6; BLANK@d4; BLANK@d6; BLANK@d8; BLANK@d4,7.0,agree
+S06-E(r71),S15-J,14-month BALB/c +/- PR8 imprinting | bivalent vaccine | 5x LD50 PR8 H1N1,Imprinting+PSLN-212,7.0,3.0,"6,8,8",7.0,3.0,BLANK@d8; BLANK@d8; BLANK@d6,3.0,agree
+S06-E(r71),S15-J,14-month BALB/c +/- PR8 imprinting | bivalent vaccine | 5x LD50 PR8 H1N1,Naïve+PSLN-344,7.0,1.0,5,7.0,1.0,BLANK@d6,1.0,agree
+S06-E(r71),S15-J,14-month BALB/c +/- PR8 imprinting | bivalent vaccine | 5x LD50 PR8 H1N1,Imprinting+PSLN-344,7.0,1.0,8,7.0,1.0,LOCF@d6,1.0,agree
+S06-F(r71),S15-K,"14-month BALB/c +/- PR8 imprinting | bivalent vaccine | 5x LD50 Perth H3N2, day 14",Naïve+PSLN-212,7.0,7.0,"4,4,6,6,7,8,8",7.0,7.0,BLANK@d8; BLANK@d10; BLANK@d6; BLANK@d8; BLANK@d6; BLANK@d8; BLANK@d4,7.0,agree
+S06-F(r71),S15-K,"14-month BALB/c +/- PR8 imprinting | bivalent vaccine | 5x LD50 Perth H3N2, day 14",Imprinting+PSLN-212,7.0,7.0,"4,4,5,5,5,6,6",7.0,7.0,BLANK@d6; BLANK@d6; BLANK@d4; BLANK@d6; BLANK@d8; BLANK@d4; BLANK@d6,7.0,agree
+S06-F(r71),S15-K,"14-month BALB/c +/- PR8 imprinting | bivalent vaccine | 5x LD50 Perth H3N2, day 14",Naïve+PSLN-344,7.0,1.0,8,7.0,1.0,BLANK@d8,1.0,agree
+S06-F(r71),S15-K,"14-month BALB/c +/- PR8 imprinting | bivalent vaccine | 5x LD50 Perth H3N2, day 14",Imprinting+PSLN-344,7.0,1.0,7,7.0,1.0,BLANK@d8,1.0,agree
+S15-L,S15-M,aged C57BL/6 (20 mo) | bivalent vaccine | challenge not stated,Sham,7.0,7.0,"4,4,6,6,6,8,8",7.0,7.0,BLANK@d4; BLANK@d6; BLANK@d6; BLANK@d4; BLANK@d8; BLANK@d6; BLANK@d10,7.0,agree
+S15-L,S15-M,aged C57BL/6 (20 mo) | bivalent vaccine | challenge not stated,PSLN-212,7.0,7.0,"6,7,7,8,8,9,11",7.0,7.0,LOCF@d8; LOCF@d6; LOCF@d6; LOCF@d8; LOCF@d12; LOCF@d8; LOCF@d4,7.0,agree
+S15-L,S15-M,aged C57BL/6 (20 mo) | bivalent vaccine | challenge not stated,PSLN-344,7.0,1.0,8,7.0,1.0,LOCF@d6,1.0,agree
+S15-L,S15-M,aged C57BL/6 (20 mo) | bivalent vaccine | challenge not stated,PSLN-212(Y),7.0,1.0,12,7.0,0.0,,0.0,DEATH COUNT DIFFERS
+S15-N,S15-O,aged Swiss Webster (20 mo) | bivalent vaccine | challenge not stated,Sham,7.0,7.0,"5,6,6,8,8,8,10",7.0,7.0,BLANK@d6; BLANK@d8; BLANK@d8; BLANK@d10; BLANK@d10; BLANK@d12; BLANK@d10,7.0,agree
+S15-N,S15-O,aged Swiss Webster (20 mo) | bivalent vaccine | challenge not stated,PSLN-212,7.0,5.0,"6,10,10,10,12",7.0,5.0,LOCF@d10; LOCF@d10; LOCF@d12; LOCF@d10; LOCF@d6,5.0,agree
+S15-N,S15-O,aged Swiss Webster (20 mo) | bivalent vaccine | challenge not stated,PSLN-344,7.0,1.0,8,7.0,1.0,LOCF@d6,1.0,agree
+S15-N,S15-O,aged Swiss Webster (20 mo) | bivalent vaccine | challenge not stated,PSLN-212(Y),7.0,0.0,,7.0,0.0,,0.0,agree
+S09-B,S09-C,"young BALB/c | H3N2 vaccine | 5x mLD50 PR8 H1N1, day 21",Sham,8.0,8.0,"6,6,6,7,7,7,8,8",8.0,8.0,BLANK@d10; BLANK@d10; BLANK@d10; BLANK@d10; BLANK@d10; BLANK@d8; BLANK@d10; BLANK@d10,3.0,count agrees; timing differs for 5
+S09-B,S09-C,"young BALB/c | H3N2 vaccine | 5x mLD50 PR8 H1N1, day 21",PSLN-344Y,8.0,0.0,,8.0,0.0,,0.0,agree
+S09-B,S09-C,"young BALB/c | H3N2 vaccine | 5x mLD50 PR8 H1N1, day 21",PSLN-212Y,8.0,0.0,,8.0,0.0,,0.0,agree
+S09-D,S09-E,"young BALB/c | H1N1 vaccine | 5x mLD50 Perth H3N2, day 21",Sham,8.0,8.0,"7,8,8,8,8,8,9,9",8.0,8.0,BLANK@d10; BLANK@d8; BLANK@d10; BLANK@d10; BLANK@d8; BLANK@d10; BLANK@d10; BLANK@d10,8.0,agree
+S09-D,S09-E,"young BALB/c | H1N1 vaccine | 5x mLD50 Perth H3N2, day 21",PSLN-344Y,8.0,0.0,,8.0,0.0,,0.0,agree
+S09-D,S09-E,"young BALB/c | H1N1 vaccine | 5x mLD50 Perth H3N2, day 21",PSLN-212Y,8.0,0.0,,8.0,0.0,,0.0,agree
+S09-F,S09-G,"young BALB/c | bivalent vaccine | 5x mLD50 rgH5N1, day 180",Sham,7.0,7.0,"6,6,6,7,8,8,8",8.0,8.0,BLANK@d10; BLANK@d8; BLANK@d8; BLANK@d10; BLANK@d10; BLANK@d8; BLANK@d10; BLANK@d8,7.0,ANIMAL COUNT DIFFERS
+S09-F,S09-G,"young BALB/c | bivalent vaccine | 5x mLD50 rgH5N1, day 180",PSLN-344Y,8.0,0.0,,8.0,0.0,,0.0,agree
+S09-F,S09-G,"young BALB/c | bivalent vaccine | 5x mLD50 rgH5N1, day 180",PSLN-212Y,8.0,0.0,,8.0,0.0,,0.0,agree

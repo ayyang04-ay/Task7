@@ -1,0 +1,8 @@
+    block label_cell           label  stated_n                           observed_n_by_group  match
+27  S03-J    S03!G15       S03-J n=9         9             PSLN-212=10; PSLN-344=10; Sham=10  False
+37  S05-A     S05!A1  S05-A n=3 Lung         3           PSLN-212=2; PSLN-212Y=2; PSLN-344=2  False
+38  S05-B     S05!A6   S05-B n=3 MLN         3           PSLN-212=2; PSLN-212Y=2; PSLN-344=2  False
+69  S09-F    S09!A64       S09-F n=8         8              PSLN-212Y=8; PSLN-344Y=8; Sham=7  False
+84  S13-E     S13!R1       S13-E n=5         5  CMP-204(Y)=7; Naïve=7; PSLN-344(Y)=7; Sham=7  False
+
+blocks checked: 107  mismatches: 5

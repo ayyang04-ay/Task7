@@ -1,0 +1,17 @@
+comparison,p1,p2,target_power,n_per_group,achieved_power
+PSLN-344 vs PSLN-212 in aged mice (observed 84% vs 12%),0.84,0.12,0.8,8,0.8240718542601481
+PSLN-344 vs PSLN-212 in aged mice (observed 84% vs 12%),0.84,0.12,0.9,11,0.9247095299062454
+PSLN-344 vs an active comparator achieving 50% survival,0.84,0.5,0.8,34,0.8091344496558504
+PSLN-344 vs an active comparator achieving 50% survival,0.84,0.5,0.9,43,0.9042981697356124
+PSLN-344 vs an active comparator achieving 60% survival,0.84,0.6,0.8,61,0.803919658626715
+PSLN-344 vs an active comparator achieving 60% survival,0.84,0.6,0.9,78,0.9015828860637836
+Day-60 durability: PSLN-344 (observed 67%) vs PSLN-212 (5%),0.67,0.05,0.8,11,0.8300588673164926
+Day-60 durability: PSLN-344 (observed 67%) vs PSLN-212 (5%),0.67,0.05,0.9,13,0.9237421534039476
+Lower dose retaining efficacy: detect a drop from 84% to 50%,0.84,0.5,0.8,34,0.8091344496558504
+Lower dose retaining efficacy: detect a drop from 84% to 50%,0.84,0.5,0.9,43,0.9042981697356124
+Conservative planning: true PSLN-344 survival 70% vs comparator 15%,0.7,0.15,0.8,16,0.8440189260735923
+Conservative planning: true PSLN-344 survival 70% vs comparator 15%,0.7,0.15,0.9,18,0.9133637138108813
+"HAI / neutralising titre: detect a 2-fold GMT difference (pooled within-group SD 0.80 log2, from S03-C/D/G/H)",,,0.8,12,0.8
+"HAI / neutralising titre: detect a 2-fold GMT difference (pooled within-group SD 0.80 log2, from S03-C/D/G/H)",,,0.9,15,0.9
+"HAI / neutralising titre: detect a 4-fold GMT difference (pooled within-group SD 0.80 log2, from S03-C/D/G/H)",,,0.8,4,0.8
+"HAI / neutralising titre: detect a 4-fold GMT difference (pooled within-group SD 0.80 log2, from S03-C/D/G/H)",,,0.9,5,0.9

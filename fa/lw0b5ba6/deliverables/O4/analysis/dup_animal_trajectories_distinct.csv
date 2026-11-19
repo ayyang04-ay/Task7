@@ -1,0 +1,35 @@
+animal_1,animal_2,same_block,distinct_exact_values,exact_days,integer_offset_days,values
+S09-E:N [PSLN-212(Y)],S09-G:N [PSLN-212(Y)],False,7,"[2, 4, 6, 8, 10, 12, 14]",[],"[np.float64(91.8), np.float64(92.2), np.float64(94.5), np.float64(96.4), np.float64(98.8), np.float64(100.2), np.float64(102.3)]"
+S09-E:AA [PSLN-344(Y)],S15-M:L [PSLN-212(Y)],False,7,"[2, 4, 6, 8, 10, 12, 14]",[],"[np.float64(91.2), np.float64(92.3), np.float64(95.2), np.float64(96.4), np.float64(97.5), np.float64(98.2), np.float64(99.1)]"
+S15-C:Z [PSLN-344],S15-I:Z [3d Vaccine+PSLN-344],False,6,"[2, 4, 6, 8, 10, 12]",[],"[np.float64(90.9), np.float64(92.3), np.float64(94.2), np.float64(96.9), np.float64(98.9), np.float64(100.3)]"
+S15-C:AC [PSLN-344],S15-I:AC [3d Vaccine+PSLN-344],False,6,"[2, 4, 6, 8, 10, 12]",[],"[np.float64(88.2), np.float64(90.2), np.float64(93.1), np.float64(94.5), np.float64(96.6), np.float64(97.9)]"
+S09-E:X [PSLN-344(Y)],S15-M:I [PSLN-212(Y)],False,6,"[2, 6, 8, 10, 12, 14]","[(4, np.float64(6.0))]","[np.float64(94.512195), np.float64(99.085366), np.float64(99.817073), np.float64(100.0756), np.float64(100.304878), np.float64(103.0)]"
+S15-C:Y [PSLN-344],S15-I:Y [3d Vaccine+PSLN-344],False,6,"[2, 4, 6, 8, 10, 12]",[],"[np.float64(77.9), np.float64(80.4), np.float64(83.1), np.float64(85.6), np.float64(91.4), np.float64(96.6)]"
+S15-C:X [PSLN-344],S15-I:X [3d Vaccine+PSLN-344],False,6,"[2, 4, 6, 8, 10, 12]",[],"[np.float64(90.5), np.float64(91.7), np.float64(92.1), np.float64(94.8), np.float64(98.2), np.float64(99.8)]"
+S15-C:AA [PSLN-344],S15-I:AA [3d Vaccine+PSLN-344],False,6,"[2, 4, 6, 8, 10, 12]",[],"[np.float64(85.1), np.float64(86.6), np.float64(86.7), np.float64(87.8), np.float64(91.5), np.float64(95.1)]"
+S15-C:AB [PSLN-344],S15-I:AB [3d Vaccine+PSLN-344],False,6,"[2, 4, 6, 8, 10, 12]",[],"[np.float64(87.0), np.float64(88.0), np.float64(89.9), np.float64(92.9), np.float64(93.1), np.float64(96.6)]"
+S15-A:Y [PSLN-344],S15-M:AF [PSLN-344],False,5,"[4, 6, 10, 12, 14]","[(2, np.float64(-1.0)), (8, np.float64(-2.0))]","[np.float64(82.9972), np.float64(90.79832), np.float64(92.81709), np.float64(93.05013), np.float64(94.1)]"
+S09-E:L [PSLN-212(Y)],S15-C:G [PSLN-212(Y)],False,5,"[6, 8, 10, 12, 14]",[],"[np.float64(89.3), np.float64(93.4), np.float64(98.5), np.float64(103.2), np.float64(105.3)]"
+S09-E:Y [PSLN-344(Y)],S15-M:J [PSLN-212(Y)],False,5,"[6, 8, 10, 12, 14]","[(4, np.float64(2.0))]","[np.float64(96.358543), np.float64(98.039216), np.float64(98.319328), np.float64(101.3125), np.float64(102.2)]"
+S09-E:Z [PSLN-344(Y)],S15-M:K [PSLN-212(Y)],False,5,"[6, 8, 10, 12, 14]",[],"[np.float64(86.3), np.float64(89.1), np.float64(90.2), np.float64(92.2), np.float64(97.3)]"
+S09-E:AB [PSLN-344(Y)],S15-M:M [PSLN-212(Y)],False,5,"[2, 6, 8, 10, 12]",[],"[np.float64(89.7), np.float64(93.7), np.float64(94.6), np.float64(98.1), np.float64(99.5)]"
+S15-A:X [PSLN-344],S15-M:AE [PSLN-344],False,5,"[4, 6, 10, 12, 14]","[(2, np.float64(-1.0))]","[np.float64(89.09091), np.float64(92.42424), np.float64(93.63636), np.float64(96.46503), np.float64(98.4)]"
+S15-C:W [PSLN-344],S15-I:W [3d Vaccine+PSLN-344],False,4,"[4, 6, 8, 12]",[],"[np.float64(91.5), np.float64(92.4), np.float64(96.7), np.float64(98.2)]"
+S15-A:H [PSLN-212(Y)],S15-M:O [PSLN-212(Y)],False,4,"[8, 10, 12, 14]",[],"[np.float64(92.2), np.float64(96.6), np.float64(98.1), np.float64(99.2)]"
+S09-E:AC [PSLN-344(Y)],S15-M:N [PSLN-212(Y)],False,4,"[6, 8, 10, 12]",[],"[np.float64(90.6), np.float64(94.7), np.float64(96.9), np.float64(98.3)]"
+S15-M:AG [PSLN-344],S15-O:AG [PSLN-344],False,3,"[4, 6, 14]",[],"[np.float64(87.2), np.float64(93.5), np.float64(100.3)]"
+S15-D:X [PSLN-344],S15-O:K [PSLN-212(Y)],False,3,"[8, 12, 14]",[],"[np.float64(91.6), np.float64(99.2), np.float64(100.3)]"
+S15-M:AI [PSLN-344],S15-O:AI [PSLN-344],False,3,"[4, 6, 12]",[],"[np.float64(89.6), np.float64(93.1), np.float64(97.9)]"
+S15-C:M [Sham],S15-M:T [Sham],False,3,"[2, 4, 6]",[],"[np.float64(84.1), np.float64(91.0), np.float64(98.4)]"
+S09-C:H [PSLN-212(Y)],S09-C:X [PSLN-344(Y)],True,3,"[2, 8, 12]",[],"[np.float64(88.9), np.float64(95.2), np.float64(100.3)]"
+S09-E:AD [PSLN-344(Y)],S09-G:AD [PSLN-344(Y)],False,3,"[6, 8, 10]",[],"[np.float64(88.2), np.float64(89.1), np.float64(90.2)]"
+S15-A:W [PSLN-344],S15-G:E [PSLN-212(Y)],False,3,"[2, 4, 14]",[],"[np.float64(93.5), np.float64(95.6), np.float64(98.2)]"
+S13-F:X [PSLN-344],S15-A:AC [PSLN-344],False,3,"[8, 12, 14]",[],"[np.float64(93.2), np.float64(100.3), np.float64(100.6)]"
+S15-A:Z [PSLN-344],S15-F:H [PSLN-212(Y)],False,3,"[2, 6, 8]",[],"[np.float64(86.9), np.float64(88.2), np.float64(98.2)]"
+S08-D:G [CMP-204],S15-F:B [PSLN-212(Y)],False,1,[10],"[(2, np.float64(-2.0)), (4, np.float64(5.0)), (6, np.float64(6.0)), (8, np.float64(2.0))]",[np.float64(101.2821)]
+S08-D:I [CMP-204],S15-F:D [PSLN-212(Y)],False,0,[],"[(2, np.float64(-1.0)), (4, np.float64(3.0)), (6, np.float64(8.0)), (8, np.float64(15.0)), (10, np.float64(10.0))]",[]
+S08-D:K [CMP-204],S15-F:C [PSLN-212(Y)],False,0,[],"[(2, np.float64(-5.0)), (4, np.float64(4.0)), (6, np.float64(11.0)), (8, np.float64(9.0)), (10, np.float64(8.0))]",[]
+S08-D:J [CMP-204],S15-F:E [PSLN-212(Y)],False,0,[],"[(2, np.float64(3.0)), (4, np.float64(9.0)), (6, np.float64(8.0)), (8, np.float64(16.0)), (10, np.float64(16.0))]",[]
+S15-A:Y [PSLN-344],S15-J:AF [Imprinting+PSLN-344],False,0,[],"[(2, np.float64(2.0)), (6, np.float64(-9.0)), (8, np.float64(-8.0)), (10, np.float64(-6.0)), (12, np.float64(-9.0))]",[]
+S15-J:AF [Imprinting+PSLN-344],S15-M:AF [PSLN-344],False,0,[],"[(2, np.float64(-3.0)), (6, np.float64(9.0)), (8, np.float64(6.0)), (10, np.float64(6.0)), (12, np.float64(9.0))]",[]
+S15-J:AD [Imprinting+PSLN-344],S15-M:AD [PSLN-344],False,0,[],"[(2, np.float64(2.0)), (4, np.float64(1.0)), (6, np.float64(1.0)), (8, np.float64(3.0)), (10, np.float64(5.0)), (12, np.float64(3.0))]",[]

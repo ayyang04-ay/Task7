@@ -1,0 +1,22 @@
+window,arm,blocks,surv,pct,ci
+d2-3,PSLN-344,"S03-J,S06-B,S06-D,S15-H",28/31,90.3,74-98
+d2-3,PSLN-212,"S03-J,S06-B,S06-D,S15-H",5/24,20.8,7-42
+d2-3,Sham,"S03-J,S06-B,S06-D,S15-H",1/24,4.2,0-21
+d2-3,PSLN-212(Y),"S03-J,S06-B,S06-D,S15-H",14/14,100.0,77-100
+d14,PSLN-344,"S03-I,S06-A,S06-C",20/21,95.2,76-100
+d14,PSLN-212,"S03-I,S06-A,S06-C",3/21,14.3,3-36
+d14,Sham,"S03-I,S06-A,S06-C",0/21,0.0,0-16
+d14,PSLN-212(Y),"S03-I,S06-A,S06-C",21/21,100.0,84-100
+d14 excl. S06-C,PSLN-344,"S03-I,S06-A",13/14,92.9,66-100
+d14 excl. S06-C,PSLN-212,"S03-I,S06-A",1/14,7.1,0-34
+d14 excl. S06-C,Sham,"S03-I,S06-A",0/14,0.0,0-23
+d14 excl. S06-C,PSLN-212(Y),"S03-I,S06-A",14/14,100.0,77-100
+d60,PSLN-344,"S06-E(r34),S06-F(r34),S06-G",14/21,66.7,43-85
+d60,PSLN-212,"S06-E(r34),S06-F(r34),S06-G",1/21,4.8,0-24
+d60,Sham,"S06-E(r34),S06-F(r34),S06-G",0/21,0.0,0-16
+d60,PSLN-212(Y),"S06-E(r34),S06-F(r34),S06-G",21/21,100.0,84-100
+d60,Untreated,"S06-E(r34),S06-F(r34),S06-G",17/21,81.0,58-95
+strain panel (timing not stated),PSLN-344,"S15-L,S15-N",12/14,85.7,57-98
+strain panel (timing not stated),PSLN-212,"S15-L,S15-N",2/14,14.3,2-43
+strain panel (timing not stated),Sham,"S15-L,S15-N",0/14,0.0,0-23
+strain panel (timing not stated),PSLN-212(Y),"S15-L,S15-N",13/14,92.9,66-100

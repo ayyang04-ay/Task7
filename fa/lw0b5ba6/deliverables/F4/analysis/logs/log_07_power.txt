@@ -1,0 +1,22 @@
+pooled within-group SD of log10 titre: [('S03-C', np.float64(0.2)), ('S03-G', np.float64(0.2)), ('S03-D', np.float64(0.282)), ('S03-H', np.float64(0.241)), ('S03-A', np.float64(0.269)), ('S03-E', np.float64(0.314))]
+scenario   conservative (85% vs 30%)  more conservative (80% vs 35%)  observed pooled effect (92% vs 18%)  pessimistic (75% vs 40%)  weight-table-adjusted (88% vs 20%)
+n_per_arm                                                                                                                                                              
+7                              0.355                           0.211                                0.730                     0.114                               0.607
+8                              0.497                           0.316                                0.858                     0.180                               0.755
+10                             0.540                           0.333                                0.902                     0.179                               0.803
+12                             0.722                           0.499                                0.973                     0.292                               0.926
+14                             0.775                           0.544                                0.986                     0.316                               0.948
+15                             0.796                           0.564                                0.990                     0.326                               0.962
+16                             0.844                           0.626                                0.995                     0.378                               0.977
+18                             0.913                           0.734                                0.999                     0.481                               0.992
+20                             0.931                           0.757                                0.999                     0.493                               0.994
+24                             0.974                           0.862                                1.000                     0.620                               0.999
+30                             0.992                           0.928                                1.000                     0.719                               1.000
+                                                 endpoint           scenario  p_test  p_ref  n_per_arm  power
+55  HAI/neutralising GMT ratio (t-test on log10, SD=0.28)  2-fold difference     NaN    NaN         15    0.8
+56  HAI/neutralising GMT ratio (t-test on log10, SD=0.28)  2-fold difference     NaN    NaN         20    0.9
+57  HAI/neutralising GMT ratio (t-test on log10, SD=0.28)  4-fold difference     NaN    NaN          5    0.8
+58  HAI/neutralising GMT ratio (t-test on log10, SD=0.28)  4-fold difference     NaN    NaN          6    0.9
+59  HAI/neutralising GMT ratio (t-test on log10, SD=0.28)  8-fold difference     NaN    NaN          3    0.8
+60  HAI/neutralising GMT ratio (t-test on log10, SD=0.28)  8-fold difference     NaN    NaN          4    0.9
+power of the existing n=7 design: {'observed pooled effect (92% vs 18%)': np.float64(0.73), 'conservative (85% vs 30%)': np.float64(0.36), 'more conservative (80% vs 35%)': np.float64(0.21), 'weight-table-adjusted (88% vs 20%)': np.float64(0.61), 'pessimistic (75% vs 40%)': np.float64(0.11)}

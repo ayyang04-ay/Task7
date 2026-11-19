@@ -1,0 +1,4 @@
+data,n,counts_digit_0_to_9,chi2,p
+immunology / qPCR blocks recorded to 1 decimal(s),700,"[41, 69, 126, 99, 59, 97, 62, 52, 38, 57]",103.6,2.9758265519710417e-18
+immunology / qPCR blocks recorded to 2 decimal(s),711,"[94, 74, 136, 101, 48, 92, 40, 59, 36, 31]",148.6,1.7492538523266446e-27
+"body weights recorded to 1 decimal (day > 0, carried-forward repeats removed)",2410,"[112, 346, 363, 362, 164, 360, 245, 169, 126, 163]",422.4,2.3038604780758806e-85

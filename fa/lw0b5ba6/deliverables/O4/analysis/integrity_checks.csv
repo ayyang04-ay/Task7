@@ -1,0 +1,15 @@
+id,check,result,detail
+C2,S06-C (S06!M3:Q30) identical to S06-D (S06!A34:E61),True,28/28 rows identical across days + 4 group columns
+C4,S09-C day-12 PSLN-212Y (G18:N18) vs PSLN-344Y (W18:AD18),True,"[97.7, 95.2, 93.3, 93.5, 99.1, 96.9, 100.3, 99.8] vs [97.7, 95.2, 93.3, 93.5, 99.1, 96.9, 100.3, 99.8]"
+C5,S01-B AECII/PSLN-SRB (S01!B14:F14) vs S08-C AECII-PSLN-SRB (S08!A14:A18),3,"shared values [12.2, 17.5, 17.7]"
+C5,S01-B AECI/PSLN-SRB (S01!B15:F15) vs S08-C AECII-PSLN-344-SRB (S08!B14:B18),2,"shared values [4.13, 4.92]"
+M2,S09-A panel 2 Ifnb1 (S09!Y3:AS3) matches S01-A 72 h (S01!H3:L10),21/21,tolerance 0.011 after 10^x
+M2,"S09-A panel 1 Ifnb1 (S09!B3:V3) matches S01-A 16 h (S01!B3:F10); ""PBS"" compared with S01-A ""Sham""",21/21,tolerance 0.011 after 10^x
+m5,S04-B Tfh:Tfr (S04!A15:D19) equals (100-Foxp3%)/Foxp3% from S04!A8:D12,True,20/20 animals
+m1,"S03-J stated n (S03!G15 ""n=9"") vs observed per group","{'Sham': 10, 'PSLN-212': 10, 'PSLN-344': 10}",S03!G46 day value missing: True
+m1,"S13-E stated n (S13!R1 ""n=5"") vs observed per group","{'Naive': 7, 'Sham': 7, 'CMP-204(Y)': 7, 'PSLN-344(Y)': 7}",
+m1,Sham records: S09-B (annotation says 7) and S09-F (annotation says 8),"S09-B=8, S09-F=7",
+m1,S05-A/B stated n=3 vs observations per group per day,2,two value columns per group (e.g. S05!B3:C3)
+M5,"Unchallenged aged sentinel deaths (S06!L62:L68, R62:R68, F99:F105)",4,"{'S06-E': [4], 'S06-F': [], 'S06-G': [7, 3, 10]}"
+M6,"S07-C group labels (S07!B15, C15)",True,'Ly6C-CD206+ MΦ' / 'Ly6C-CD206+ MΦ'
+M7,S08 rows 89-101 content,unlabelled,"[(89, 14, 0, None), (90, 14, 0, None), (91, 14, 0, None), (92, 14, 0, None), (93, 14, 0, None), (94, 14, 0, None), (95, 14, None, 0), (96, 14, None, 0), (97, 14, None, 0), (98, 14, None, 0), (99, 14, None, 0), (100, 14, None, 0), (101, 14, None, 0)]"

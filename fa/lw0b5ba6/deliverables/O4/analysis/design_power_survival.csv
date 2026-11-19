@@ -1,0 +1,22 @@
+scenario,p_PSLN344,p_PSLN212,n_per_group,power
+observed pooled (S06-D removed),0.84,0.13,8,0.816
+observed pooled (S06-D removed),0.84,0.13,10,0.85025
+observed pooled (S06-D removed),0.84,0.13,12,0.94875
+observed pooled (S06-D removed),0.84,0.13,15,0.97525
+observed pooled (S06-D removed),0.84,0.13,18,0.996
+observed pooled (S06-D removed),0.84,0.13,20,0.9965
+observed pooled (S06-D removed),0.84,0.13,25,1.0
+conservative: 50-pt difference,0.7,0.2,8,0.41
+conservative: 50-pt difference,0.7,0.2,10,0.41975
+conservative: 50-pt difference,0.7,0.2,12,0.61325
+conservative: 50-pt difference,0.7,0.2,15,0.6685
+conservative: 50-pt difference,0.7,0.2,18,0.8315
+conservative: 50-pt difference,0.7,0.2,20,0.84775
+conservative: 50-pt difference,0.7,0.2,25,0.9475
+half the observed difference (~35 pts),0.6,0.25,8,0.17375
+half the observed difference (~35 pts),0.6,0.25,10,0.17725
+half the observed difference (~35 pts),0.6,0.25,12,0.30425
+half the observed difference (~35 pts),0.6,0.25,15,0.319
+half the observed difference (~35 pts),0.6,0.25,18,0.481
+half the observed difference (~35 pts),0.6,0.25,20,0.49475
+half the observed difference (~35 pts),0.6,0.25,25,0.6685

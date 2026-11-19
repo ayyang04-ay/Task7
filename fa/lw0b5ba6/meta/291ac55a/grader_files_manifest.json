@@ -1,0 +1,10 @@
+{
+  "note": "grader_files/ was EXCLUDED from this export by the exporter's selection — its bytes were not downloaded. Re-export with it selected to include them. The original gs:// references are still listed here for provenance.",
+  "included": false,
+  "embedded": false,
+  "embedded_path": null,
+  "embedded_file_count": 0,
+  "problem_version_id": "e031e3a6-3ae7-4e6f-a57c-c563c545a89d",
+  "source": "excluded by export selection",
+  "grader_files_referenced": []
+}

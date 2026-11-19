@@ -1,0 +1,127 @@
+         block          arm  table_n  table_surv  weight_n  weight_surv  agree
+0        S03-I     PSLN-344      7.0         7.0       7.0          7.0   True
+1        S03-I     PSLN-212      7.0         0.0       7.0          3.0  False
+2        S03-I         Sham      7.0         0.0       7.0          0.0   True
+3        S03-I  PSLN-212(Y)      7.0         7.0       7.0          7.0   True
+4        S03-J     PSLN-344     10.0        10.0      10.0         10.0   True
+5        S03-J     PSLN-212     10.0         3.0       NaN          NaN  False
+6        S03-J         Sham     10.0         1.0      10.0          5.0  False
+7        S03-J  PSLN-212(Y)      NaN         NaN       NaN          NaN  False
+8        S06-A     PSLN-344      7.0         6.0       7.0          6.0   True
+9        S06-A     PSLN-212      7.0         1.0       7.0          1.0   True
+10       S06-A         Sham      7.0         0.0       7.0          0.0   True
+11       S06-A  PSLN-212(Y)      7.0         7.0       7.0          7.0   True
+12       S06-B     PSLN-344      7.0         5.0       7.0          5.0   True
+13       S06-B     PSLN-212      7.0         0.0       7.0          0.0   True
+14       S06-B         Sham      7.0         0.0       7.0          0.0   True
+15       S06-B  PSLN-212(Y)      7.0         7.0       7.0          7.0   True
+16       S06-C     PSLN-344      7.0         7.0       7.0          7.0   True
+17       S06-C     PSLN-212      7.0         2.0       7.0          1.0  False
+18       S06-C         Sham      7.0         0.0       7.0          0.0   True
+19       S06-C  PSLN-212(Y)      7.0         7.0       7.0          7.0   True
+20       S06-D     PSLN-344      7.0         7.0       7.0          5.0  False
+21       S06-D     PSLN-212      7.0         2.0       7.0          2.0   True
+22       S06-D         Sham      7.0         0.0       7.0          0.0   True
+23       S06-D  PSLN-212(Y)      7.0         7.0       7.0          5.0  False
+24  S06-E(r34)     PSLN-344      7.0         5.0       7.0          6.0  False
+25  S06-E(r34)     PSLN-212      7.0         0.0       7.0          1.0  False
+26  S06-E(r34)         Sham      7.0         0.0       7.0          0.0   True
+27  S06-E(r34)  PSLN-212(Y)      7.0         7.0       7.0          7.0   True
+28  S06-F(r34)     PSLN-344      7.0         5.0       7.0          5.0   True
+29  S06-F(r34)     PSLN-212      7.0         1.0       7.0          1.0   True
+30  S06-F(r34)         Sham      7.0         0.0       7.0          0.0   True
+31  S06-F(r34)  PSLN-212(Y)      7.0         7.0       7.0          7.0   True
+32       S06-G     PSLN-344      7.0         4.0       7.0          5.0  False
+33       S06-G     PSLN-212      7.0         0.0       7.0          0.0   True
+34       S06-G         Sham      7.0         0.0       7.0          0.0   True
+35       S06-G  PSLN-212(Y)      7.0         7.0       7.0          7.0   True
+36       S15-L     PSLN-344      7.0         6.0       7.0          6.0   True
+37       S15-L     PSLN-212      7.0         0.0       7.0          0.0   True
+38       S15-L         Sham      7.0         0.0       7.0          0.0   True
+39       S15-L  PSLN-212(Y)      7.0         6.0       7.0          7.0  False
+40       S15-N     PSLN-344      7.0         6.0       7.0          6.0   True
+41       S15-N     PSLN-212      7.0         2.0       7.0          2.0   True
+42       S15-N         Sham      7.0         0.0       7.0          0.0   True
+43       S15-N  PSLN-212(Y)      7.0         7.0       7.0          7.0   True
+
+                                                                                                                           scenario                         source          arm            surv  pct     lo   hi  fisher_p
+0                                                                                                                     all 11 blocks     survival tables as printed     PSLN-344           68/80   85   75.3   92       NaN
+1                                                                                                                     all 11 blocks  implied by body-weight tables     PSLN-344           68/80   85   75.3   92       NaN
+2                                                                                                                     all 11 blocks     survival tables as printed     PSLN-212           11/80 13.8   7.07 23.3       NaN
+3                                                               all 11 blocks (weight tables; S03-J/S13-G comparator arms unmapped)  implied by body-weight tables     PSLN-212           11/70 15.7   8.11 26.4       NaN
+4                                                                                                                     all 11 blocks     survival tables as printed         Sham            1/80 1.25 0.0316 6.77       NaN
+5                                                               all 11 blocks (weight tables; S03-J/S13-G comparator arms unmapped)  implied by body-weight tables         Sham            0/70    0      0 5.13       NaN
+6                                                                                                                     all 11 blocks     survival tables as printed  PSLN-212(Y)           69/70 98.6   92.3  100       NaN
+7                                                                                                                     all 11 blocks  implied by body-weight tables  PSLN-212(Y)           68/70 97.1   90.1 99.7       NaN
+8                                                                                                                   excluding S06-C     survival tables as printed     PSLN-344           61/73 83.6     73 91.2       NaN
+9                                                                                                                   excluding S06-C  implied by body-weight tables     PSLN-344           61/73 83.6     73 91.2       NaN
+10                                                                                                                  excluding S06-C     survival tables as printed     PSLN-212            9/73 12.3    5.8 22.1       NaN
+11                                                            excluding S06-C (weight tables; S03-J/S13-G comparator arms unmapped)  implied by body-weight tables     PSLN-212           10/63 15.9   7.88 27.3       NaN
+12                                                                                                                  excluding S06-C     survival tables as printed         Sham            1/73 1.37 0.0347  7.4       NaN
+13                                                            excluding S06-C (weight tables; S03-J/S13-G comparator arms unmapped)  implied by body-weight tables         Sham            0/63    0      0 5.69       NaN
+14                                                                                                                  excluding S06-C     survival tables as printed  PSLN-212(Y)           62/63 98.4   91.5  100       NaN
+15                                                                                                                  excluding S06-C  implied by body-weight tables  PSLN-212(Y)           61/63 96.8     89 99.6       NaN
+16                                                        excluding S06-C, S03-I, S03-J (the three with label/duplication problems)     survival tables as printed     PSLN-344           44/56 78.6   65.6 88.4       NaN
+17                                                        excluding S06-C, S03-I, S03-J (the three with label/duplication problems)  implied by body-weight tables     PSLN-344           44/56 78.6   65.6 88.4       NaN
+18                                                        excluding S06-C, S03-I, S03-J (the three with label/duplication problems)     survival tables as printed     PSLN-212            6/56 10.7   4.03 21.9       NaN
+19  excluding S06-C, S03-I, S03-J (the three with label/duplication problems) (weight tables; S03-J/S13-G comparator arms unmapped)  implied by body-weight tables     PSLN-212            7/56 12.5   5.18 24.1       NaN
+20                                                        excluding S06-C, S03-I, S03-J (the three with label/duplication problems)     survival tables as printed         Sham            0/56    0      0 6.38       NaN
+21  excluding S06-C, S03-I, S03-J (the three with label/duplication problems) (weight tables; S03-J/S13-G comparator arms unmapped)  implied by body-weight tables         Sham            0/56    0      0 6.38       NaN
+22                                                        excluding S06-C, S03-I, S03-J (the three with label/duplication problems)     survival tables as printed  PSLN-212(Y)           55/56 98.2   90.4  100       NaN
+23                                                        excluding S06-C, S03-I, S03-J (the three with label/duplication problems)  implied by body-weight tables  PSLN-212(Y)           54/56 96.4   87.7 99.6       NaN
+24                                                          ADVERSE BOUND excl. S06-C: fewest PSLN-344 survivors from either source            min(table, weights)     PSLN-344           59/73 80.8   69.9 89.1       NaN
+25                                                            ADVERSE BOUND excl. S06-C: most PSLN-212 survivors from either source            max(table, weights)     PSLN-212           15/73 20.5     12 31.6       NaN
+26                                                                        ADVERSE BOUND: PSLN-344 vs PSLN-212 (unstratified Fisher)                                              59/73 vs 15/73 60.3    NaN  NaN  1.97e-13
+
+            block                                             measurand            direction  AUC_protected_vs_unprotected  complete_separation  unprotected_extreme  protected_extreme  AUC_aged344_vs_aged212  n_per_group
+0       S01-A/16h                 Lung Ifnb1 mRNA, 16 h, adjuvant alone  higher in protected                             1                 True                   19               32.6                       1            5
+1       S01-A/72h                 Lung Ifnb1 mRNA, 72 h, adjuvant alone  higher in protected                          0.64                False                 4.03               0.64                    0.76            5
+2           S01-F                                       Lung cDC1, 72 h  higher in protected                             1                 True                 27.6               31.7                       1            5
+3           S01-G                                       Lung cDC2, 72 h   lower in protected                             1                 True                 71.6               66.3                       1            5
+4           S02-A                  Lung CCR7+ migratory CD11b+ DC, 72 h  higher in protected                             1                 True                 9.96                 20                       1            5
+5           S02-B                             MLN CD11b+CD103- DC, 72 h  higher in protected                          0.99                False                 25.9               25.5                    0.96            5
+6      S02-D CD40                         CD40+ of MLN CD11b+ DC, day 3  higher in protected                             1                 True                 6.92               7.96                       1            5
+7      S02-D CD86                         CD86+ of MLN CD11b+ DC, day 3  higher in protected                             1                 True                 10.1               10.9                       1            5
+8           S03-A                      Serum IgG anti-CA09 H1N1, day 14  higher in protected                             1                 True                  813           3.39e+03                       1            5
+9           S03-C                            HAI anti-CA09 H1N1, day 14  higher in protected                             1                 True                   80                160                       1            5
+10          S03-D             Neutralising titre anti-CA09 H1N1, day 14  higher in protected                         0.995                False                  960                960                    0.98            5
+11          S03-E                     Serum IgG anti-Aichi H3N2, day 14  higher in protected                             1                 True                  778           2.28e+03                       1            5
+12          S03-G                           HAI anti-Aichi H3N2, day 14  higher in protected                             1                 True                   80                160                       1            5
+13          S03-H            Neutralising titre anti-Aichi H3N2, day 14  higher in protected                             1                 True                  480                960                       1            5
+14          S03-K                    MLN germinal-centre B cells, day 7  higher in protected                             1                 True                 3.15               4.62                       1            5
+15   S04-A/ICOSlo                               MLN ICOS-low Tfh, day 7  higher in protected                          0.96                False                 3.76               3.58                    0.96            5
+16   S04-A/ICOShi                              MLN ICOS-high Tfh, day 7  higher in protected                             1                 True                 4.65               6.66                       1            5
+17    S04-B Foxp3           MLN Tfr (Foxp3+ of CXCR5+ICOShi CD4), day 7   lower in protected                             1                 True                 18.5               13.2                       1            5
+18  S04-B Tfh:Tfr                           MLN Tfh:Tfr quotient, day 7  higher in protected                             1                 True                 4.41               6.58                       1            5
+19          S04-C                                       MLN Tfr, day 30   lower in protected                         0.815                False                   12               18.1                     0.8            5
+20          S04-D                         Lung Treg (CD4+Foxp3+), day 7   lower in protected                             1                 True                 4.92               3.43                       1            3
+21          S05-D                              Lung Ki-67+ CD8 T, day 3  higher in protected                             1                 True                 5.37               6.17                       1            5
+22          S05-E                               Lung GZMB+ CD8 T, day 3  higher in protected                             1                 True                 3.94               4.22                       1            5
+23          S05-F   MLN IFN-g+ CD8 T after rgH5N1 restimulation, day 14  higher in protected                             1                 True                 2.17               5.18                       1            5
+24          S05-G   MLN IFN-g+ CD8 T after rgH5N1 restimulation, day 60  higher in protected                             1                 True                 4.21                7.1                       1            5
+25          S05-H    MLN GZMB+ CD8 T after rgH5N1 restimulation, day 60  higher in protected                             1                 True                  1.4               2.32                       1            5
+26          S05-I      Lung resident-memory CD8 T (CD69+CD103+), day 25  higher in protected                             1                 True                 1.53               3.03                       1            5
+27          S11-E                               Lung CD206+ macrophages   lower in protected                             1                 True                 59.6               55.3                       1            5
+28          S13-H                               IgG+ of MLN B220+ cells  higher in protected                             1                 True                 14.2               18.2                       1            5
+29          S13-I   Serum IgG anti-CA09 H1N1, day 28 after day-14 boost  higher in protected                          0.98                False             7.06e+03           6.18e+03                    0.92            5
+30          S13-J  Serum IgG anti-Aichi H3N2, day 28 after day-14 boost  higher in protected                             1                 True             2.34e+03           4.89e+03                       1            5
+31     S14-A H1N1        MLN IFN-g+ CD8 T after CA09 H1N1 restimulation  higher in protected                             1                 True                  5.7                7.9                       1            5
+32     S14-A H3N2       MLN IFN-g+ CD8 T after Aichi H3N2 restimulation  higher in protected                             1                 True                  4.8                7.5                       1            5
+
+                                                                                                       comparison   p1   p2  target_power  n_per_group  achieved_power
+0                                                         PSLN-344 vs PSLN-212 in aged mice (observed 84% vs 12%) 0.84 0.12           0.8            8           0.824
+1                                                         PSLN-344 vs PSLN-212 in aged mice (observed 84% vs 12%) 0.84 0.12           0.9           11           0.925
+2                                                         PSLN-344 vs an active comparator achieving 50% survival 0.84  0.5           0.8           34           0.809
+3                                                         PSLN-344 vs an active comparator achieving 50% survival 0.84  0.5           0.9           43           0.904
+4                                                         PSLN-344 vs an active comparator achieving 60% survival 0.84  0.6           0.8           61           0.804
+5                                                         PSLN-344 vs an active comparator achieving 60% survival 0.84  0.6           0.9           78           0.902
+6                                                     Day-60 durability: PSLN-344 (observed 67%) vs PSLN-212 (5%) 0.67 0.05           0.8           11            0.83
+7                                                     Day-60 durability: PSLN-344 (observed 67%) vs PSLN-212 (5%) 0.67 0.05           0.9           13           0.924
+8                                                    Lower dose retaining efficacy: detect a drop from 84% to 50% 0.84  0.5           0.8           34           0.809
+9                                                    Lower dose retaining efficacy: detect a drop from 84% to 50% 0.84  0.5           0.9           43           0.904
+10                                            Conservative planning: true PSLN-344 survival 70% vs comparator 15%  0.7 0.15           0.8           16           0.844
+11                                            Conservative planning: true PSLN-344 survival 70% vs comparator 15%  0.7 0.15           0.9           18           0.913
+12  HAI / neutralising titre: detect a 2-fold GMT difference (pooled within-group SD 0.80 log2, from S03-C/D/G/H)  NaN  NaN           0.8           12             0.8
+13  HAI / neutralising titre: detect a 2-fold GMT difference (pooled within-group SD 0.80 log2, from S03-C/D/G/H)  NaN  NaN           0.9           15             0.9
+14  HAI / neutralising titre: detect a 4-fold GMT difference (pooled within-group SD 0.80 log2, from S03-C/D/G/H)  NaN  NaN           0.8            4             0.8
+15  HAI / neutralising titre: detect a 4-fold GMT difference (pooled within-group SD 0.80 log2, from S03-C/D/G/H)  NaN  NaN           0.9            5             0.9

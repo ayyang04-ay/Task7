@@ -1,0 +1,214 @@
+====================================================================================================
+a. S08-A  lung Ifnb1 (fold vs untreated, 16 h) vs dose; sigmoid Emax model  E = 1 + (Emax-1) * D^h / (ED50^h + D^h), fitted on log10(E)
+====================================================================================================
+         mean                                     std                                
+group CMP-204 PSLN-212 PSLN-344 PSLN-344/R848 CMP-204 PSLN-212 PSLN-344 PSLN-344/R848
+dose                                                                                 
+1.0      1.00     1.36     1.38          1.03    0.06     0.12     0.16          0.19
+5.0      3.80     4.10     8.27          6.71    0.40     0.82     1.53          1.14
+10.0     6.26     8.92    21.09         14.71    0.55     0.36     2.64          2.22
+20.0     7.29    12.57    45.83         29.45    0.98     1.51     6.47          6.26
+40.0     7.96    14.87    50.23         34.91    1.45     2.56     8.74          6.17
+        group  Emax  Emax_lo  Emax_hi  ED50_ug  ED50_lo  ED50_hi  hill  hill_lo  hill_hi  fitted_E_at_20ug  fraction_of_Emax_at_20ug  mean_20ug  mean_40ug  ratio_40_vs_20  p_40_vs_20_welch_log
+      CMP-204  7.58     6.88     8.63     5.67     4.99     6.82   2.8     2.24     3.97              7.39                     0.972       7.29       7.96            1.09                  0.55
+     PSLN-212  16.6     13.8     19.6     10.8     8.41       14  1.68     1.47     2.08              12.5                     0.737       12.6       14.9            1.18                 0.276
+     PSLN-344  58.7     48.9     69.1     13.3     10.9     16.4  1.99      1.8     2.25                41                     0.693       45.8       50.2             1.1                 0.554
+PSLN-344/R848  35.9     30.5       44     11.2     9.21     14.4  2.21     1.89     2.57              28.4                     0.783       29.4       34.9            1.19                  0.33
+
+PSLN-344 vs PSLN-212 at each dose (ratio of geometric means, Welch on log10):
+    1 ug: 1.01x   p=0.8705
+    5 ug: 2.02x   p=0.0133
+   10 ug: 2.35x   p=0.0040
+   20 ug: 3.64x   p=0.0003
+   40 ug: 3.38x   p=0.0013
+Cross-check at 20 ug against S01-A 16 h (independent block label, aged): CMP-204: S08-A 7.3 vs S01-A 7.8; PSLN-212: S08-A 12.6 vs S01-A 16.6; PSLN-344: S08-A 45.8 vs S01-A 37.1
+
+====================================================================================================
+b. S09-A  (printed log10, relative to untreated) -> geometric-mean fold; panel 2 is treated as 72 h (see integrity check C)
+====================================================================================================
+group                               PBS  CMP-204  PSLN-212  PSLN-R848  PSLN-212/R848  PSLN-344  PSLN-212(y)
+panel                        x                                                                             
+16h (panel 1)                Ifnb1  1.0      7.6      16.5        4.3           24.0      36.3         37.8
+                             Il6    1.0      2.3       5.6        2.0           31.0      36.1         60.3
+                             Ccl2   1.0      5.5       7.6        2.5          226.0     590.1       1390.5
+                             Ccl3   1.0      1.2       1.1        4.2            3.8      29.8         57.3
+                             Ccl5   1.0      1.6       2.6        0.8            8.2      19.8         62.1
+                             Tnf    1.0      7.0      15.7      130.3          202.3      40.5         13.9
+                             Il10   1.0      3.3       3.7       28.6          179.4       7.3          1.8
+72h (panel 2, printed '16h') Ifnb1  1.0      2.2       3.4        1.2            1.6       4.0          1.4
+                             Il6    1.0      1.1       1.9        4.1           33.8       7.2          3.1
+                             Ccl2   1.0      5.7       5.2       10.2           58.4      27.4        101.6
+                             Ccl3   1.0      1.3       4.7        0.7           13.6       9.2         41.5
+                             Ccl5   1.0      1.1       1.2        1.1           54.7       2.0          0.5
+                             Tnf    1.0      2.5       5.2       28.4           50.2       8.4          0.5
+                             Il10   1.0      3.5       4.2        4.2           45.0       4.2          0.1
+
+Key contrasts (ratio of geometric means; n=3 per group, Welch on log10):
+                       panel analyte        a           b  fold_a   fold_b  ratio  p_welch_log
+               16h (panel 1)   Ifnb1 PSLN-344    PSLN-212    36.3     16.5   2.21      0.00561
+               16h (panel 1)   Ifnb1 PSLN-344 PSLN-212(y)    36.3     37.8   0.96        0.754
+               16h (panel 1)   Ifnb1 PSLN-344         PBS    36.3        1   36.3      0.00457
+72h (panel 2, printed '16h')   Ifnb1 PSLN-344    PSLN-212    4.01      3.4   1.18        0.665
+72h (panel 2, printed '16h')   Ifnb1 PSLN-344 PSLN-212(y)    4.01     1.39   2.87        0.109
+72h (panel 2, printed '16h')   Ifnb1 PSLN-344         PBS    4.01        1   4.01        0.039
+               16h (panel 1)     Il6 PSLN-344    PSLN-212    36.1     5.57   6.48       0.0209
+               16h (panel 1)     Il6 PSLN-344 PSLN-212(y)    36.1     60.3  0.598        0.336
+               16h (panel 1)     Il6 PSLN-344         PBS    36.1        1   36.1      0.00293
+72h (panel 2, printed '16h')     Il6 PSLN-344    PSLN-212    7.19     1.86   3.85       0.0263
+72h (panel 2, printed '16h')     Il6 PSLN-344 PSLN-212(y)    7.19      3.1   2.32       0.0846
+72h (panel 2, printed '16h')     Il6 PSLN-344         PBS    7.19        1   7.19      0.00829
+               16h (panel 1)    Ccl2 PSLN-344    PSLN-212     590     7.63   77.4      0.00226
+               16h (panel 1)    Ccl2 PSLN-344 PSLN-212(y)     590 1.39e+03  0.424        0.217
+               16h (panel 1)    Ccl2 PSLN-344         PBS     590        1    590     0.000425
+72h (panel 2, printed '16h')    Ccl2 PSLN-344    PSLN-212    27.4     5.23   5.24      0.00997
+72h (panel 2, printed '16h')    Ccl2 PSLN-344 PSLN-212(y)    27.4      102   0.27       0.0105
+72h (panel 2, printed '16h')    Ccl2 PSLN-344         PBS    27.4        1   27.4      0.00103
+               16h (panel 1)    Ccl3 PSLN-344    PSLN-212    29.8     1.12   26.7     0.000786
+               16h (panel 1)    Ccl3 PSLN-344 PSLN-212(y)    29.8     57.3  0.521        0.135
+               16h (panel 1)    Ccl3 PSLN-344         PBS    29.8        1   29.8       0.0194
+72h (panel 2, printed '16h')    Ccl3 PSLN-344    PSLN-212    9.23     4.73   1.95       0.0756
+72h (panel 2, printed '16h')    Ccl3 PSLN-344 PSLN-212(y)    9.23     41.5  0.223       0.0105
+72h (panel 2, printed '16h')    Ccl3 PSLN-344         PBS    9.23        1   9.23      0.00171
+               16h (panel 1)    Ccl5 PSLN-344    PSLN-212    19.8     2.62   7.58       0.0247
+               16h (panel 1)    Ccl5 PSLN-344 PSLN-212(y)    19.8     62.1  0.319       0.0699
+               16h (panel 1)    Ccl5 PSLN-344         PBS    19.8        1   19.8      0.00475
+72h (panel 2, printed '16h')    Ccl5 PSLN-344    PSLN-212    2.01     1.21   1.66       0.0819
+72h (panel 2, printed '16h')    Ccl5 PSLN-344 PSLN-212(y)    2.01    0.546   3.68       0.0757
+72h (panel 2, printed '16h')    Ccl5 PSLN-344         PBS    2.01        1   2.01       0.0161
+               16h (panel 1)     Tnf PSLN-344    PSLN-212    40.5     15.7   2.58        0.108
+               16h (panel 1)     Tnf PSLN-344 PSLN-212(y)    40.5     13.9   2.92      0.00904
+               16h (panel 1)     Tnf PSLN-344         PBS    40.5        1   40.5      0.00782
+72h (panel 2, printed '16h')     Tnf PSLN-344    PSLN-212    8.44     5.23   1.62       0.0515
+72h (panel 2, printed '16h')     Tnf PSLN-344 PSLN-212(y)    8.44    0.475   17.8      0.00762
+72h (panel 2, printed '16h')     Tnf PSLN-344         PBS    8.44        1   8.44      0.00482
+               16h (panel 1)    Il10 PSLN-344    PSLN-212    7.31     3.71   1.97        0.194
+               16h (panel 1)    Il10 PSLN-344 PSLN-212(y)    7.31     1.84   3.98       0.0212
+               16h (panel 1)    Il10 PSLN-344         PBS    7.31        1   7.31      0.00697
+72h (panel 2, printed '16h')    Il10 PSLN-344    PSLN-212    4.16     4.18  0.995        0.991
+72h (panel 2, printed '16h')    Il10 PSLN-344 PSLN-212(y)    4.16    0.114   36.6      0.00151
+72h (panel 2, printed '16h')    Il10 PSLN-344         PBS    4.16        1   4.16       0.0571
+
+R848-containing formulations vs PSLN-344 at 16 h:
+        panel analyte             a        b  fold_a  fold_b   ratio  p_welch_log
+16h (panel 1)   Ifnb1 PSLN-212/R848 PSLN-344      24    36.3   0.661       0.0419
+16h (panel 1)   Ifnb1     PSLN-R848 PSLN-344    4.34    36.3   0.119       0.0264
+16h (panel 1)     Il6 PSLN-212/R848 PSLN-344      31    36.1    0.86        0.753
+16h (panel 1)     Il6     PSLN-R848 PSLN-344    1.97    36.1  0.0547      0.00934
+16h (panel 1)    Ccl2 PSLN-212/R848 PSLN-344     226     590   0.383        0.145
+16h (panel 1)    Ccl2     PSLN-R848 PSLN-344     2.5     590 0.00424      0.00107
+16h (panel 1)    Ccl3 PSLN-212/R848 PSLN-344     3.8    29.8   0.127      0.00499
+16h (panel 1)    Ccl3     PSLN-R848 PSLN-344    4.23    29.8   0.142      0.00372
+16h (panel 1)    Ccl5 PSLN-212/R848 PSLN-344    8.18    19.8   0.413        0.109
+16h (panel 1)    Ccl5     PSLN-R848 PSLN-344   0.756    19.8  0.0382      0.00224
+16h (panel 1)     Tnf PSLN-212/R848 PSLN-344     202    40.5    4.99      0.00392
+16h (panel 1)     Tnf     PSLN-R848 PSLN-344     130    40.5    3.22       0.0308
+16h (panel 1)    Il10 PSLN-212/R848 PSLN-344     179    7.31    24.5      0.00584
+16h (panel 1)    Il10     PSLN-R848 PSLN-344    28.6    7.31    3.92       0.0238
+
+====================================================================================================
+c. S11-A (alveolar macrophages) vs S11-B (neutrophils): cell-by-cell comparison
+====================================================================================================
+identical values in the same position: 35 of 100
+rep          1  2  3  4  5
+group                     
+Vaccine      4  5  0  0  0
+PSLN-212     5  0  0  0  0
+PSLN-344     5  5  0  0  0
+PSLN-212(Y)  5  5  0  0  1
+group-by-day means: Pearson r = 0.9970; max |difference| = 2.48 percentage points; mean |difference| = 0.43
+            S11-A mean                         S11-B mean                        
+x                    0     2     4     6     8          0     2     4     6     8
+group                                                                            
+Vaccine           20.4  22.6  20.7  21.5  22.4       20.4  23.0  20.8  20.8  22.5
+PSLN-212          20.3  28.2  30.9  27.5  23.9       20.0  28.1  31.3  27.2  24.4
+PSLN-344          21.2  29.6  32.3  31.0  28.8       21.0  27.1  31.8  31.0  28.8
+PSLN-212(Y)       36.6  44.7  48.5  46.9  40.4       36.8  43.1  48.4  46.5  40.8
+
+====================================================================================================
+d. TIME COURSES: two-way ANOVA (group x day, type II) + peak-day contrast
+====================================================================================================
+
+S01-D:  group p=5.00e-30  day p=2.85e-31  interaction p=2.60e-17
+group   Sham  PSLN-212  PSLN-344  PSLN-212(Y)
+x                                            
+0       8.00      9.40      9.18        10.84
+2      10.36     12.48     15.00        15.64
+4      10.42     16.72     30.56        32.22
+6      11.24     13.22     24.48        25.22
+8       9.48      9.66     18.44        14.08
+
+S01-E:  group p=6.11e-25  day p=1.08e-39  interaction p=6.74e-15
+group  Sham  PSLN-212  PSLN-344  PSLN-212(Y)  PSLN-344(Y)
+x                                                        
+0      1.34      1.68      1.30         1.24         1.06
+2      1.94      3.72      4.72         3.80         4.90
+4      4.80      8.28     18.88        21.40        22.60
+6      4.32      7.80     15.38        12.98        16.30
+8      2.44      6.04     13.68         9.48        10.50
+
+S02-F:  group p=8.72e-18  day p=5.01e-05  interaction p=5.27e-06
+group  PSLN-344  PSLN-212  Sham
+x                              
+16h        6.00      1.49  1.00
+36h        8.74      1.59  1.21
+72h        3.85      1.39  1.16
+
+S07-A:  group p=2.15e-07  day p=1.07e-05  interaction p=8.59e-05
+group  PSLN-212  PSLN-344
+x                        
+0          1.37      1.95
+2         10.11      3.27
+5         19.03      3.42
+10        14.56      2.88
+30         4.16      2.35
+
+S11-A:  group p=1.38e-33  day p=1.55e-09  interaction p=4.50e-02
+group  Vaccine  PSLN-212  PSLN-344  PSLN-212(Y)
+x                                              
+0        20.42     20.32     21.18        36.64
+2        22.64     28.24     29.62        44.72
+4        20.74     30.90     32.26        48.50
+6        21.54     27.50     31.00        46.88
+8        22.44     23.94     28.78        40.36
+
+S11-D:  group p=6.90e-12  day p=1.17e-05  interaction p=3.35e-01
+group  Vaccine  PSLN-212  PSLN-344  PSLN-212(Y)
+x                                              
+0        27.80     26.34     25.64        17.40
+2        28.46     28.82     34.02        23.14
+4        27.48     24.70     31.08        18.10
+6        24.32     21.76     23.88        17.60
+8        25.92     25.46     24.06        18.14
+
+====================================================================================================
+e. IgG after one dose (d14: S03-A, S03-E) vs after prime-boost (d28, boost d14: S13-I, S13-J); geometric means
+====================================================================================================
+  CA09 H1N1
+     Sham         d14 GMT       56   d28 post-boost GMT       57   boost/prime = 1.0x
+     CMP-204      d14 GMT      181   d28 post-boost GMT      940   boost/prime = 5.2x
+     PSLN-212     d14 GMT      393   d28 post-boost GMT     4411   boost/prime = 11.2x
+     PSLN-344     d14 GMT     7305   d28 post-boost GMT    15651   boost/prime = 2.1x
+     PSLN-212(Y)  d14 GMT    11959   d28 post-boost GMT    40739   boost/prime = 3.4x
+     one dose PSLN-344 vs two doses PSLN-212 (aged): ratio 1.66x, Welch p=0.125
+  Aichi H3N2
+     Sham         d14 GMT       52   d28 post-boost GMT      101   boost/prime = 1.9x
+     CMP-204      d14 GMT      200   d28 post-boost GMT      474   boost/prime = 2.4x
+     PSLN-212     d14 GMT      426   d28 post-boost GMT     1086   boost/prime = 2.6x
+     PSLN-344     d14 GMT     5701   d28 post-boost GMT    12435   boost/prime = 2.2x
+     PSLN-212(Y)  d14 GMT    13855   d28 post-boost GMT    43472   boost/prime = 3.1x
+     one dose PSLN-344 vs two doses PSLN-212 (aged): ratio 5.25x, Welch p=0.002
+
+====================================================================================================
+f. DOES Mn ADD ANYTHING IN YOUNG ANIMALS?  PSLN-344(Y) vs PSLN-212(Y)
+====================================================================================================
+   S01-A   Ifnb1 16h  16h  344(Y)  50.70 vs 212(Y)  37.60  ratio 1.35  Welch p=0.014  MWU p=0.016
+   S01-A   Ifnb1 72h  72h  344(Y)   3.13 vs 212(Y)   1.59  ratio 1.97  Welch p=0.013  MWU p=0.032
+   S01-E              0    344(Y)   1.06 vs 212(Y)   1.24  ratio 0.85  Welch p=0.309  MWU p=0.548
+   S01-E              2    344(Y)   4.90 vs 212(Y)   3.80  ratio 1.29  Welch p=0.232  MWU p=0.095
+   S01-E              4    344(Y)  22.60 vs 212(Y)  21.40  ratio 1.06  Welch p=0.457  MWU p=0.690
+   S01-E              6    344(Y)  16.30 vs 212(Y)  12.98  ratio 1.26  Welch p=0.036  MWU p=0.056
+   S01-E              8    344(Y)  10.50 vs 212(Y)   9.48  ratio 1.11  Welch p=0.313  MWU p=0.421
+   S01-F              72h  344(Y)  44.26 vs 212(Y)  43.42  ratio 1.02  Welch p=0.750  MWU p=0.841
+   S01-G              72h  344(Y)  51.36 vs 212(Y)  54.08  ratio 0.95  Welch p=0.569  MWU p=0.690
+   S02-C                   344(Y)  11.12 vs 212(Y)   9.39  ratio 1.18  Welch p=0.137  MWU p=0.222
+   S02-E                   344(Y)  31.40 vs 212(Y)  26.24  ratio 1.20  Welch p=0.257  MWU p=0.222

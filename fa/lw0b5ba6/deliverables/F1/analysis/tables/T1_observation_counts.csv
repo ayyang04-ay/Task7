@@ -1,0 +1,516 @@
+sheet,block,analyte,group,n_obs,timepoints,detail
+S01,S01-A,Ifnb1 lung 16h (fold vs untreated),Sham,5,1,
+S01,S01-A,Ifnb1 lung 16h (fold vs untreated),CMP-204,5,1,
+S01,S01-A,Ifnb1 lung 16h (fold vs untreated),PSLN-212,5,1,
+S01,S01-A,Ifnb1 lung 16h (fold vs untreated),PSLN-R848,5,1,
+S01,S01-A,Ifnb1 lung 16h (fold vs untreated),PSLN-212/R848,5,1,
+S01,S01-A,Ifnb1 lung 16h (fold vs untreated),PSLN-344,5,1,
+S01,S01-A,Ifnb1 lung 16h (fold vs untreated),PSLN-212(Y),5,1,
+S01,S01-A,Ifnb1 lung 16h (fold vs untreated),PSLN-344(Y),5,1,
+S01,S01-A,Ifnb1 lung 72h (fold vs untreated),Sham,5,1,
+S01,S01-A,Ifnb1 lung 72h (fold vs untreated),CMP-204,5,1,
+S01,S01-A,Ifnb1 lung 72h (fold vs untreated),PSLN-212,5,1,
+S01,S01-A,Ifnb1 lung 72h (fold vs untreated),PSLN-R848,5,1,
+S01,S01-A,Ifnb1 lung 72h (fold vs untreated),PSLN-212/R848,5,1,
+S01,S01-A,Ifnb1 lung 72h (fold vs untreated),PSLN-344,5,1,
+S01,S01-A,Ifnb1 lung 72h (fold vs untreated),PSLN-212(Y),5,1,
+S01,S01-A,Ifnb1 lung 72h (fold vs untreated),PSLN-344(Y),5,1,
+S01,S01-B,SRB+ alveolar epithelial cells (%),AECII/PSLN-SRB,5,1,
+S01,S01-B,SRB+ alveolar epithelial cells (%),AECI/PSLN-SRB,5,1,
+S01,S01-B,SRB+ alveolar epithelial cells (%),AECII/FreeSRB,5,1,
+S01,S01-B,SRB+ alveolar epithelial cells (%),AECI/FreeSRB,5,1,
+S01,S01-C,DiD+ alveolar macrophages (%),WT,4,1,
+S01,S01-C,DiD+ alveolar macrophages (%),SPA/D,4,1,
+S01,S01-D,lung monocytes CD11b+Ly6C+ (%),Sham,5,5,0:5 2:5 4:5 6:5 8:5
+S01,S01-D,lung monocytes CD11b+Ly6C+ (%),PSLN-212,5,5,0:5 2:5 4:5 6:5 8:5
+S01,S01-D,lung monocytes CD11b+Ly6C+ (%),PSLN-344,5,5,0:5 2:5 4:5 6:5 8:5
+S01,S01-D,lung monocytes CD11b+Ly6C+ (%),PSLN-212(Y),5,5,0:5 2:5 4:5 6:5 8:5
+S01,S01-E,lung CD11b+ DC (%),Sham,5,5,0:5 2:5 4:5 6:5 8:5
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,5,5,0:5 2:5 4:5 6:5 8:5
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,5,5,0:5 2:5 4:5 6:5 8:5
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),5,5,0:5 2:5 4:5 6:5 8:5
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),5,5,0:5 2:5 4:5 6:5 8:5
+S01,S01-F,lung cDC1 XCR1+ (%) 72h,Sham,5,1,
+S01,S01-F,lung cDC1 XCR1+ (%) 72h,PSLN-212,5,1,
+S01,S01-F,lung cDC1 XCR1+ (%) 72h,PSLN-344,5,1,
+S01,S01-F,lung cDC1 XCR1+ (%) 72h,PSLN-212(Y),5,1,
+S01,S01-F,lung cDC1 XCR1+ (%) 72h,PSLN-344(Y),5,1,
+S01,S01-G,lung cDC2 CD172a+ (%) 72h,Sham,5,1,
+S01,S01-G,lung cDC2 CD172a+ (%) 72h,PSLN-212,5,1,
+S01,S01-G,lung cDC2 CD172a+ (%) 72h,PSLN-344,5,1,
+S01,S01-G,lung cDC2 CD172a+ (%) 72h,PSLN-212(Y),5,1,
+S01,S01-G,lung cDC2 CD172a+ (%) 72h,PSLN-344(Y),5,1,
+S02,S02-A,lung CCR7+ migratory CD11b+ DC (%) 72h,Sham,5,1,
+S02,S02-A,lung CCR7+ migratory CD11b+ DC (%) 72h,PSLN-212,5,1,
+S02,S02-A,lung CCR7+ migratory CD11b+ DC (%) 72h,PSLN-344,5,1,
+S02,S02-A,lung CCR7+ migratory CD11b+ DC (%) 72h,PSLN-212(Y),5,1,
+S02,S02-B,MLN CD11b+CD103- DC (%) 72h,Sham,5,1,
+S02,S02-B,MLN CD11b+CD103- DC (%) 72h,PSLN-212,5,1,
+S02,S02-B,MLN CD11b+CD103- DC (%) 72h,PSLN-344,5,1,
+S02,S02-B,MLN CD11b+CD103- DC (%) 72h,PSLN-212(Y),5,1,
+S02,S02-C,MLN OVA-AF647+ DC (%) 36h,PSLN-212,5,1,
+S02,S02-C,MLN OVA-AF647+ DC (%) 36h,PSLN-344,5,1,
+S02,S02-C,MLN OVA-AF647+ DC (%) 36h,PSLN-212(Y),5,1,
+S02,S02-C,MLN OVA-AF647+ DC (%) 36h,PTX,5,1,
+S02,S02-C,MLN OVA-AF647+ DC (%) 36h,PSLN-344(Y),5,1,
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%) d3,Sham,5,1,
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%) d3,PSLN-212,5,1,
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%) d3,PSLN-344,5,1,
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%) d3,PSLN-212(Y),5,1,
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%) d3,Sham,5,1,
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%) d3,PSLN-212,5,1,
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%) d3,PSLN-344,5,1,
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%) d3,PSLN-212(Y),5,1,
+S02,S02-E,OT-I proliferation with MLN CD11b+ DC (%),PSLN-212,5,1,
+S02,S02-E,OT-I proliferation with MLN CD11b+ DC (%),PSLN-344,5,1,
+S02,S02-E,OT-I proliferation with MLN CD11b+ DC (%),PSLN-212(Y),5,1,
+S02,S02-E,OT-I proliferation with MLN CD11b+ DC (%),PTX,5,1,
+S02,S02-E,OT-I proliferation with MLN CD11b+ DC (%),PSLN-344(Y),5,1,
+S02,S02-F,Gm-csf lung (fold vs untreated),PSLN-344,5,3,16h:5 36h:5 72h:5
+S02,S02-F,Gm-csf lung (fold vs untreated),PSLN-212,5,3,16h:5 36h:5 72h:5
+S02,S02-F,Gm-csf lung (fold vs untreated),Sham,5,3,16h:5 36h:5 72h:5
+S02,S02-G,lung Ly6C+CD11c+MHC-II+ (moDC-like) (%) d5,GM-CSF,5,1,
+S02,S02-G,lung Ly6C+CD11c+MHC-II+ (moDC-like) (%) d5,PSLN-212,5,1,
+S02,S02-G,lung Ly6C+CD11c+MHC-II+ (moDC-like) (%) d5,PSLN-212+GM-CSF,5,1,
+S02,S02-H,CD45.2+ moDC (%) d3,WT w/o cDC,5,1,
+S02,S02-H,CD45.2+ moDC (%) d3,WT w/ cDC,5,1,
+S02,S02-H,CD45.2+ moDC (%) d3,IFN w/o cDC,5,1,
+S02,S02-H,CD45.2+ moDC (%) d3,IFN w/ cDC,5,1,
+S02,S02-H,CD45.2+ moDC (%) d3,GMCSF,5,1,
+S02,S02-I,lung GZMB+ CD8 T (%) d5,PSLN-344(Y),5,1,
+S02,S02-I,lung GZMB+ CD8 T (%) d5,PSLN-344(Y)+INCB3344,5,1,
+S03,S03-A,serum IgG anti-CA09 H1N1 d14 (titre),Sham,5,1,
+S03,S03-A,serum IgG anti-CA09 H1N1 d14 (titre),CMP-204,5,1,
+S03,S03-A,serum IgG anti-CA09 H1N1 d14 (titre),PSLN-212,5,1,
+S03,S03-A,serum IgG anti-CA09 H1N1 d14 (titre),PSLN-344,5,1,
+S03,S03-A,serum IgG anti-CA09 H1N1 d14 (titre),PSLN-212(Y),5,1,
+S03,S03-B,IgG2a/IgG1 anti-CA09 H1N1 d14 (ratio),PSLN-212,5,1,
+S03,S03-B,IgG2a/IgG1 anti-CA09 H1N1 d14 (ratio),PSLN-344,5,1,
+S03,S03-B,IgG2a/IgG1 anti-CA09 H1N1 d14 (ratio),PSLN-212(Y),5,1,
+S03,S03-C,HAI anti-CA09 H1N1 d14 (titre),Sham,5,1,
+S03,S03-C,HAI anti-CA09 H1N1 d14 (titre),CMP-204,5,1,
+S03,S03-C,HAI anti-CA09 H1N1 d14 (titre),PSLN-212,5,1,
+S03,S03-C,HAI anti-CA09 H1N1 d14 (titre),PSLN-344,5,1,
+S03,S03-C,HAI anti-CA09 H1N1 d14 (titre),PSLN-212(Y),5,1,
+S03,S03-D,neutralising anti-CA09 H1N1 d14 (titre),Sham,5,1,
+S03,S03-D,neutralising anti-CA09 H1N1 d14 (titre),CMP-204,5,1,
+S03,S03-D,neutralising anti-CA09 H1N1 d14 (titre),PSLN-212,5,1,
+S03,S03-D,neutralising anti-CA09 H1N1 d14 (titre),PSLN-344,5,1,
+S03,S03-D,neutralising anti-CA09 H1N1 d14 (titre),PSLN-212(Y),5,1,
+S03,S03-E,serum IgG anti-Aichi H3N2 d14 (titre),Sham,5,1,
+S03,S03-E,serum IgG anti-Aichi H3N2 d14 (titre),CMP-204,5,1,
+S03,S03-E,serum IgG anti-Aichi H3N2 d14 (titre),PSLN-212,5,1,
+S03,S03-E,serum IgG anti-Aichi H3N2 d14 (titre),PSLN-344,5,1,
+S03,S03-E,serum IgG anti-Aichi H3N2 d14 (titre),PSLN-212(Y),5,1,
+S03,S03-F,IgG2a/IgG1 anti-Aichi H3N2 d14 (ratio),PSLN-212,5,1,
+S03,S03-F,IgG2a/IgG1 anti-Aichi H3N2 d14 (ratio),PSLN-344,5,1,
+S03,S03-F,IgG2a/IgG1 anti-Aichi H3N2 d14 (ratio),PSLN-212(Y),5,1,
+S03,S03-G,HAI anti-Aichi H3N2 d14 (titre),Sham,5,1,
+S03,S03-G,HAI anti-Aichi H3N2 d14 (titre),CMP-204,5,1,
+S03,S03-G,HAI anti-Aichi H3N2 d14 (titre),PSLN-212,5,1,
+S03,S03-G,HAI anti-Aichi H3N2 d14 (titre),PSLN-344,5,1,
+S03,S03-G,HAI anti-Aichi H3N2 d14 (titre),PSLN-212(Y),5,1,
+S03,S03-H,neutralising anti-Aichi H3N2 d14 (titre),Sham,5,1,
+S03,S03-H,neutralising anti-Aichi H3N2 d14 (titre),CMP-204,5,1,
+S03,S03-H,neutralising anti-Aichi H3N2 d14 (titre),PSLN-212,5,1,
+S03,S03-H,neutralising anti-Aichi H3N2 d14 (titre),PSLN-344,5,1,
+S03,S03-H,neutralising anti-Aichi H3N2 d14 (titre),PSLN-212(Y),5,1,
+S03,S03-I,time to event,Sham,7,1,"events=7 censored=0 days=[5.0, 6.0, 6.0, 6.0, 8.0, 8.0, 11.0]"
+S03,S03-I,time to event,CMP-204,7,1,"events=4 censored=3 days=[6.0, 7.0, 8.0, 10.0, 14.0, 14.0, 14.0]"
+S03,S03-I,time to event,PSLN-212,7,1,"events=7 censored=0 days=[5.0, 5.0, 5.0, 6.0, 6.0, 6.0, 6.0]"
+S03,S03-I,time to event,PSLN-344,7,1,"events=0 censored=7 days=[14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S03,S03-I,time to event,PSLN-212(Y),7,1,"events=0 censored=7 days=[14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S03,S03-J,time to event,Sham,10,1,"events=9 censored=1 days=[3.0, 4.0, 9.0, 9.0, 9.0, 10.0, 10.0, 10.0, 10.0, 21.0]"
+S03,S03-J,time to event,PSLN-212,10,1,"events=7 censored=3 days=[10.0, 10.0, 11.0, 11.0, 12.0, 12.0, 12.0, 21.0, 21.0, 21.0]"
+S03,S03-J,time to event,PSLN-344,10,1,"events=0 censored=10 days=[21.0, 21.0, 21.0, 21.0, 21.0, 21.0, 21.0, 21.0, 21.0, nan]"
+S03,S03-K,MLN GC B cells CXCR5+GL7+ (%) d7,Sham,5,1,
+S03,S03-K,MLN GC B cells CXCR5+GL7+ (%) d7,PSLN-212,5,1,
+S03,S03-K,MLN GC B cells CXCR5+GL7+ (%) d7,PSLN-344,5,1,
+S03,S03-K,MLN GC B cells CXCR5+GL7+ (%) d7,PSLN-212(Y),5,1,
+S03,S03-L,Aicda MLN B cells d5 (fold),Sham,3,1,
+S03,S03-L,E47 MLN B cells d5 (fold),Sham,3,1,
+S03,S03-L,Aicda MLN B cells d5 (fold),PSLN-212,3,1,
+S03,S03-L,E47 MLN B cells d5 (fold),PSLN-212,3,1,
+S03,S03-L,Aicda MLN B cells d5 (fold),PSLN-344,3,1,
+S03,S03-L,E47 MLN B cells d5 (fold),PSLN-344,3,1,
+S04,S04-A,Tfh ICOS-low CXCR5+PD1+ (%) d7,Sham,5,1,
+S04,S04-A,Tfh ICOS-high CXCR5+PD1+ (%) d7,Sham,5,1,
+S04,S04-A,Tfh ICOS-low CXCR5+PD1+ (%) d7,PSLN-212,5,1,
+S04,S04-A,Tfh ICOS-high CXCR5+PD1+ (%) d7,PSLN-212,5,1,
+S04,S04-A,Tfh ICOS-low CXCR5+PD1+ (%) d7,PSLN-344,5,1,
+S04,S04-A,Tfh ICOS-high CXCR5+PD1+ (%) d7,PSLN-344,5,1,
+S04,S04-A,Tfh ICOS-low CXCR5+PD1+ (%) d7,PSLN-212(Y),5,1,
+S04,S04-A,Tfh ICOS-high CXCR5+PD1+ (%) d7,PSLN-212(Y),5,1,
+S04,S04-B Foxp3+,Tfr Foxp3+ in CXCR5+ (%) d7,Sham,5,1,
+S04,S04-B Foxp3+,Tfr Foxp3+ in CXCR5+ (%) d7,PSLN-212,5,1,
+S04,S04-B Foxp3+,Tfr Foxp3+ in CXCR5+ (%) d7,PSLN-344,5,1,
+S04,S04-B Foxp3+,Tfr Foxp3+ in CXCR5+ (%) d7,PSLN-212(Y),5,1,
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio d7,Sham,5,1,
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio d7,PSLN-212,5,1,
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio d7,PSLN-344,5,1,
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio d7,PSLN-212(Y),5,1,
+S04,S04-C,Tfr (%) d30,Sham,5,1,
+S04,S04-C,Tfr (%) d30,PSLN-212,5,1,
+S04,S04-C,Tfr (%) d30,PSLN-344,5,1,
+S04,S04-C,Tfr (%) d30,PSLN-212(Y),5,1,
+S04,S04-D,lung Treg CD4+Foxp3+ (%) d7,Sham,3,1,
+S04,S04-D,lung Treg CD4+Foxp3+ (%) d7,PSLN-212,3,1,
+S04,S04-D,lung Treg CD4+Foxp3+ (%) d7,PSLN-344,3,1,
+S04,S04-D,lung Treg CD4+Foxp3+ (%) d7,PSLN-212(Y),3,1,
+S05,S05-A,"NP366-374 tetramer+ of CD8 T, lung (%)",PSLN-212,2,3,3:2 5:2 7:2
+S05,S05-A,"NP366-374 tetramer+ of CD8 T, lung (%)",PSLN-344,2,3,3:2 5:2 7:2
+S05,S05-A,"NP366-374 tetramer+ of CD8 T, lung (%)",PSLN-212Y,2,3,3:2 5:2 7:2
+S05,S05-B,"NP366-374 tetramer+ of CD8 T, MLN (%)",PSLN-212,2,3,3:2 5:2 7:2
+S05,S05-B,"NP366-374 tetramer+ of CD8 T, MLN (%)",PSLN-344,2,3,3:2 5:2 7:2
+S05,S05-B,"NP366-374 tetramer+ of CD8 T, MLN (%)",PSLN-212Y,2,3,3:2 5:2 7:2
+S05,S05-C,proliferating OT-I (%) d4,Lung,3,1,
+S05,S05-C,proliferating OT-I (%) d4,Lung+PTX,3,1,
+S05,S05-C,proliferating OT-I (%) d4,MLN,3,1,
+S05,S05-C,proliferating OT-I (%) d4,MLN+PTX,3,1,
+S05,S05-D,lung Ki-67+ CD8 T (%) d3,Sham,5,1,
+S05,S05-D,lung Ki-67+ CD8 T (%) d3,PSLN-212,5,1,
+S05,S05-D,lung Ki-67+ CD8 T (%) d3,PSLN-344,5,1,
+S05,S05-D,lung Ki-67+ CD8 T (%) d3,PSLN-212(Y),5,1,
+S05,S05-E,lung GZMB+ CD8 T (%) d3,Sham,5,1,
+S05,S05-E,lung GZMB+ CD8 T (%) d3,PSLN-212,5,1,
+S05,S05-E,lung GZMB+ CD8 T (%) d3,PSLN-344,5,1,
+S05,S05-E,lung GZMB+ CD8 T (%) d3,PSLN-212(Y),5,1,
+S05,S05-F,"MLN IFNg+ CD8 T, rgH5N1 restim (%) d14",Sham,5,1,
+S05,S05-F,"MLN IFNg+ CD8 T, rgH5N1 restim (%) d14",PSLN-212,5,1,
+S05,S05-F,"MLN IFNg+ CD8 T, rgH5N1 restim (%) d14",PSLN-344,5,1,
+S05,S05-F,"MLN IFNg+ CD8 T, rgH5N1 restim (%) d14",PSLN-212(Y),5,1,
+S05,S05-G,"MLN IFNg+ CD8 T, rgH5N1 restim (%) d60",Sham,5,1,
+S05,S05-G,"MLN IFNg+ CD8 T, rgH5N1 restim (%) d60",PSLN-212,5,1,
+S05,S05-G,"MLN IFNg+ CD8 T, rgH5N1 restim (%) d60",PSLN-344,5,1,
+S05,S05-G,"MLN IFNg+ CD8 T, rgH5N1 restim (%) d60",PSLN-212(Y),5,1,
+S05,S05-H,MLN GZMB+ CD8 T (%) d60,Sham,5,1,
+S05,S05-H,MLN GZMB+ CD8 T (%) d60,PSLN-212,5,1,
+S05,S05-H,MLN GZMB+ CD8 T (%) d60,PSLN-344,5,1,
+S05,S05-H,MLN GZMB+ CD8 T (%) d60,PSLN-212(Y),5,1,
+S05,S05-I,lung TRM CD69+CD103+ CD8 (%) d25,Sham,5,1,
+S05,S05-I,lung TRM CD69+CD103+ CD8 (%) d25,PSLN-212,5,1,
+S05,S05-I,lung TRM CD69+CD103+ CD8 (%) d25,PSLN-344,5,1,
+S05,S05-I,lung TRM CD69+CD103+ CD8 (%) d25,PSLN-212(Y),5,1,
+S06,S06-A,time to event,Sham,7,1,"events=7 censored=0 days=[4.0, 4.0, 4.0, 5.0, 5.0, 7.0, 7.0]"
+S06,S06-A,time to event,PSLN-212,7,1,"events=6 censored=1 days=[4.0, 6.0, 6.0, 8.0, 9.0, 10.0, 14.0]"
+S06,S06-A,time to event,PSLN-344,7,1,"events=1 censored=6 days=[8.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S06,S06-A,time to event,PSLN-212(Y),7,1,"events=0 censored=7 days=[14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S06,S06-B,time to event,Sham,7,1,"events=7 censored=0 days=[4.0, 4.0, 4.0, 5.0, 5.0, 6.0, 6.0]"
+S06,S06-B,time to event,PSLN-212,7,1,"events=7 censored=0 days=[4.0, 4.0, 6.0, 6.0, 6.0, 7.0, 10.0]"
+S06,S06-B,time to event,PSLN-344,7,1,"events=2 censored=5 days=[8.0, 10.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S06,S06-B,time to event,PSLN-212(Y),7,1,"events=0 censored=7 days=[14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S06,S06-C,time to event,Sham,7,1,"events=7 censored=0 days=[4.0, 4.0, 5.0, 6.0, 6.0, 6.0, 7.0]"
+S06,S06-C,time to event,PSLN-212,7,1,"events=5 censored=2 days=[5.0, 8.0, 10.0, 10.0, 12.0, 14.0, 14.0]"
+S06,S06-C,time to event,PSLN-344,7,1,"events=0 censored=7 days=[14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S06,S06-C,time to event,PSLN-212(Y),7,1,"events=0 censored=7 days=[14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S06,S06-D,time to event,Sham,7,1,"events=7 censored=0 days=[4.0, 4.0, 5.0, 6.0, 6.0, 6.0, 7.0]"
+S06,S06-D,time to event,PSLN-212,7,1,"events=5 censored=2 days=[5.0, 8.0, 10.0, 10.0, 12.0, 14.0, 14.0]"
+S06,S06-D,time to event,PSLN-344,7,1,"events=0 censored=7 days=[14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S06,S06-D,time to event,PSLN-212(Y),7,1,"events=0 censored=7 days=[14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S06,S06-E (rows 34-68),time to event,Sham,7,1,"events=7 censored=0 days=[4.0, 5.0, 5.0, 5.0, 5.0, 6.0, 6.0]"
+S06,S06-E (rows 34-68),time to event,PSLN-212,7,1,"events=7 censored=0 days=[5.0, 5.0, 5.0, 6.0, 6.0, 8.0, 11.0]"
+S06,S06-E (rows 34-68),time to event,PSLN-344,7,1,"events=2 censored=5 days=[10.0, 8.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S06,S06-E (rows 34-68),time to event,PSLN-212(Y),7,1,"events=0 censored=7 days=[14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S06,S06-E (rows 34-68),time to event,Untreated,7,1,"events=1 censored=6 days=[4.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S06,S06-F (rows 34-68),time to event,Sham,7,1,"events=7 censored=0 days=[4.0, 4.0, 4.0, 5.0, 5.0, 6.0, 6.0]"
+S06,S06-F (rows 34-68),time to event,PSLN-212,7,1,"events=6 censored=1 days=[4.0, 5.0, 6.0, 6.0, 6.0, 7.0, 14.0]"
+S06,S06-F (rows 34-68),time to event,PSLN-344,7,1,"events=2 censored=5 days=[7.0, 8.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S06,S06-F (rows 34-68),time to event,PSLN-212(Y),7,1,"events=0 censored=7 days=[14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S06,S06-F (rows 34-68),time to event,Untreated,7,1,"events=0 censored=7 days=[14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S06,S06-G,time to event,Sham,7,1,"events=7 censored=0 days=[4.0, 4.0, 5.0, 6.0, 6.0, 7.0, 7.0]"
+S06,S06-G,time to event,PSLN-212,7,1,"events=7 censored=0 days=[6.0, 6.0, 8.0, 8.0, 8.0, 11.0, 11.0]"
+S06,S06-G,time to event,PSLN-344,7,1,"events=3 censored=4 days=[9.0, 11.0, 8.0, 14.0, 14.0, 14.0, 14.0]"
+S06,S06-G,time to event,PSLN-212(Y),7,1,"events=0 censored=7 days=[14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S06,S06-G,time to event,Untreated,7,1,"events=3 censored=4 days=[7.0, 3.0, 10.0, 14.0, 14.0, 14.0, 14.0]"
+S06,S06-E (rows 71-105),time to event,Naive+PSLN-212,7,1,"events=7 censored=0 days=[4.0, 4.0, 5.0, 6.0, 6.0, 6.0, 8.0]"
+S06,S06-E (rows 71-105),time to event,Imprinting+PSLN-212,7,1,"events=3 censored=4 days=[6.0, 8.0, 8.0, 14.0, 14.0, 14.0, 14.0]"
+S06,S06-E (rows 71-105),time to event,Naive+PSLN-344,7,1,"events=1 censored=6 days=[5.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S06,S06-E (rows 71-105),time to event,Imprinting+PSLN-344,7,1,"events=1 censored=6 days=[8.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S06,S06-F (rows 71-105),time to event,Naive+PSLN-212,7,1,"events=7 censored=0 days=[4.0, 4.0, 6.0, 6.0, 7.0, 8.0, 8.0]"
+S06,S06-F (rows 71-105),time to event,Imprinting+PSLN-212,7,1,"events=7 censored=0 days=[4.0, 4.0, 5.0, 5.0, 5.0, 6.0, 6.0]"
+S06,S06-F (rows 71-105),time to event,Naive+PSLN-344,7,1,"events=1 censored=6 days=[8.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S06,S06-F (rows 71-105),time to event,Imprinting+PSLN-344,7,1,"events=1 censored=6 days=[7.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5 cells),PSLN-212,3,5,0:3 2:3 5:3 10:3 30:3
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5 cells),PSLN-344,3,5,0:3 2:3 5:3 10:3 30:3
+S07,S07-B,lung CD11b+Ly6C+ monocytes (%),PSLN-344,5,1,
+S07,S07-B,lung CD11b+Ly6C+ monocytes (%),PSLN-344+INCB3344,5,1,
+S07,S07-B,lung Ly6C+ macrophages (%),PSLN-344,5,1,
+S07,S07-B,lung Ly6C+ macrophages (%),PSLN-344+INCB3344,5,1,
+S07,S07-C,lung Treg (%) d4 after MPhi transfer,"col B (printed ""Ly6C-CD206+ MPhi"")",5,1,
+S07,S07-C,lung Treg (%) d4 after MPhi transfer,"col C (printed ""Ly6C-CD206+ MPhi"")",5,1,
+S08,S08-A,Ifnb1 lung 16h (fold) dose-response,CMP-204,3,5,1:3 5:3 10:3 20:3 40:3
+S08,S08-A,Ifnb1 lung 16h (fold) dose-response,PSLN-212,3,5,1:3 5:3 10:3 20:3 40:3
+S08,S08-A,Ifnb1 lung 16h (fold) dose-response,PSLN-344,3,5,1:3 5:3 10:3 20:3 40:3
+S08,S08-A,Ifnb1 lung 16h (fold) dose-response,PSLN-344/R848,3,5,1:3 5:3 10:3 20:3 40:3
+S08,S08-B,encapsulation efficiency (%),CMP-204,3,1,
+S08,S08-B,encapsulation efficiency (%),PSLN-212,3,1,
+S08,S08-B,encapsulation efficiency (%),PSLN-R848,3,1,
+S08,S08-B,encapsulation efficiency (%),PSLN-212/R848,3,1,
+S08,S08-B,encapsulation efficiency (%),PSLN-344,3,1,
+S08,S08-C,SRB+ alveolar epithelial cells (%) 16h,AECII-PSLN-SRB,5,1,
+S08,S08-C,SRB+ alveolar epithelial cells (%) 16h,AECII-PSLN-344-SRB,5,1,
+S08,S08-C,SRB+ alveolar epithelial cells (%) 16h,AECI-PSLN-SRB,5,1,
+S08,S08-C,SRB+ alveolar epithelial cells (%) 16h,AECI-PSLN-344-SRB,5,1,
+S08,S08-D,body weight after immunisation (% d0),PSLN-212(Y),5,6,0:5 2:5 4:5 6:5 8:5 10:5
+S08,S08-D,body weight after immunisation (% d0),CMP-204,5,6,0:5 2:5 4:5 6:5 8:5 10:5
+S08,S08-D,body weight after immunisation (% d0),PSLN-212,5,6,0:5 2:5 4:5 6:5 8:5 10:5
+S08,S08-D,body weight after immunisation (% d0),PSLN-344,5,6,0:5 2:5 4:5 6:5 8:5 10:5
+S08,S08-D,body weight after immunisation (% d0),PSLN-212/R848,4-5,6,0:5 2:5 4:5 6:5 8:5 10:4
+S08,S08-D,body weight after immunisation (% d0),Vaccine,5,6,0:5 2:5 4:5 6:5 8:5 10:5
+S08,S08 rows 89-101 (UNLABELLED),unlabelled region,col C (no label),6,1,"events=0 censored=6 days=[14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S08,S08 rows 89-101 (UNLABELLED),unlabelled region,col D (no label),7,1,"events=0 censored=7 days=[14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S09,S09-A (cols A-U),Ifnb1 lung log10 fold,PBS,3,1,
+S09,S09-A (cols A-U),Ifnb1 lung log10 fold,CMP-204,3,1,
+S09,S09-A (cols A-U),Ifnb1 lung log10 fold,PSLN-212,3,1,
+S09,S09-A (cols A-U),Ifnb1 lung log10 fold,PSLN-R848,3,1,
+S09,S09-A (cols A-U),Ifnb1 lung log10 fold,PSLN-212/R848,3,1,
+S09,S09-A (cols A-U),Ifnb1 lung log10 fold,PSLN-344,3,1,
+S09,S09-A (cols A-U),Ifnb1 lung log10 fold,PSLN-212(y),3,1,
+S09,S09-A (cols X-AS),Ifnb1 lung log10 fold,PBS,3,1,
+S09,S09-A (cols X-AS),Ifnb1 lung log10 fold,CMP-204,3,1,
+S09,S09-A (cols X-AS),Ifnb1 lung log10 fold,PSLN-212,3,1,
+S09,S09-A (cols X-AS),Ifnb1 lung log10 fold,PSLN-R848,3,1,
+S09,S09-A (cols X-AS),Ifnb1 lung log10 fold,PSLN-212/R848,3,1,
+S09,S09-A (cols X-AS),Ifnb1 lung log10 fold,PSLN-344,3,1,
+S09,S09-A (cols X-AS),Ifnb1 lung log10 fold,PSLN-212(y),3,1,
+S09,S09-A (cols A-U),Il6 lung log10 fold,PBS,3,1,
+S09,S09-A (cols A-U),Il6 lung log10 fold,CMP-204,3,1,
+S09,S09-A (cols A-U),Il6 lung log10 fold,PSLN-212,3,1,
+S09,S09-A (cols A-U),Il6 lung log10 fold,PSLN-R848,3,1,
+S09,S09-A (cols A-U),Il6 lung log10 fold,PSLN-212/R848,3,1,
+S09,S09-A (cols A-U),Il6 lung log10 fold,PSLN-344,3,1,
+S09,S09-A (cols A-U),Il6 lung log10 fold,PSLN-212(y),3,1,
+S09,S09-A (cols X-AS),Il6 lung log10 fold,PBS,3,1,
+S09,S09-A (cols X-AS),Il6 lung log10 fold,CMP-204,3,1,
+S09,S09-A (cols X-AS),Il6 lung log10 fold,PSLN-212,3,1,
+S09,S09-A (cols X-AS),Il6 lung log10 fold,PSLN-R848,3,1,
+S09,S09-A (cols X-AS),Il6 lung log10 fold,PSLN-212/R848,3,1,
+S09,S09-A (cols X-AS),Il6 lung log10 fold,PSLN-344,3,1,
+S09,S09-A (cols X-AS),Il6 lung log10 fold,PSLN-212(y),3,1,
+S09,S09-A (cols A-U),Ccl2 lung log10 fold,PBS,3,1,
+S09,S09-A (cols A-U),Ccl2 lung log10 fold,CMP-204,3,1,
+S09,S09-A (cols A-U),Ccl2 lung log10 fold,PSLN-212,3,1,
+S09,S09-A (cols A-U),Ccl2 lung log10 fold,PSLN-R848,3,1,
+S09,S09-A (cols A-U),Ccl2 lung log10 fold,PSLN-212/R848,3,1,
+S09,S09-A (cols A-U),Ccl2 lung log10 fold,PSLN-344,3,1,
+S09,S09-A (cols A-U),Ccl2 lung log10 fold,PSLN-212(y),3,1,
+S09,S09-A (cols X-AS),Ccl2 lung log10 fold,PBS,3,1,
+S09,S09-A (cols X-AS),Ccl2 lung log10 fold,CMP-204,3,1,
+S09,S09-A (cols X-AS),Ccl2 lung log10 fold,PSLN-212,3,1,
+S09,S09-A (cols X-AS),Ccl2 lung log10 fold,PSLN-R848,3,1,
+S09,S09-A (cols X-AS),Ccl2 lung log10 fold,PSLN-212/R848,3,1,
+S09,S09-A (cols X-AS),Ccl2 lung log10 fold,PSLN-344,3,1,
+S09,S09-A (cols X-AS),Ccl2 lung log10 fold,PSLN-212(y),3,1,
+S09,S09-A (cols A-U),Ccl3 lung log10 fold,PBS,3,1,
+S09,S09-A (cols A-U),Ccl3 lung log10 fold,CMP-204,3,1,
+S09,S09-A (cols A-U),Ccl3 lung log10 fold,PSLN-212,3,1,
+S09,S09-A (cols A-U),Ccl3 lung log10 fold,PSLN-R848,3,1,
+S09,S09-A (cols A-U),Ccl3 lung log10 fold,PSLN-212/R848,3,1,
+S09,S09-A (cols A-U),Ccl3 lung log10 fold,PSLN-344,3,1,
+S09,S09-A (cols A-U),Ccl3 lung log10 fold,PSLN-212(y),3,1,
+S09,S09-A (cols X-AS),Ccl3 lung log10 fold,PBS,3,1,
+S09,S09-A (cols X-AS),Ccl3 lung log10 fold,CMP-204,3,1,
+S09,S09-A (cols X-AS),Ccl3 lung log10 fold,PSLN-212,3,1,
+S09,S09-A (cols X-AS),Ccl3 lung log10 fold,PSLN-R848,3,1,
+S09,S09-A (cols X-AS),Ccl3 lung log10 fold,PSLN-212/R848,3,1,
+S09,S09-A (cols X-AS),Ccl3 lung log10 fold,PSLN-344,3,1,
+S09,S09-A (cols X-AS),Ccl3 lung log10 fold,PSLN-212(y),3,1,
+S09,S09-A (cols A-U),Ccl5 lung log10 fold,PBS,3,1,
+S09,S09-A (cols A-U),Ccl5 lung log10 fold,CMP-204,3,1,
+S09,S09-A (cols A-U),Ccl5 lung log10 fold,PSLN-212,3,1,
+S09,S09-A (cols A-U),Ccl5 lung log10 fold,PSLN-R848,3,1,
+S09,S09-A (cols A-U),Ccl5 lung log10 fold,PSLN-212/R848,3,1,
+S09,S09-A (cols A-U),Ccl5 lung log10 fold,PSLN-344,3,1,
+S09,S09-A (cols A-U),Ccl5 lung log10 fold,PSLN-212(y),3,1,
+S09,S09-A (cols X-AS),Ccl5 lung log10 fold,PBS,3,1,
+S09,S09-A (cols X-AS),Ccl5 lung log10 fold,CMP-204,3,1,
+S09,S09-A (cols X-AS),Ccl5 lung log10 fold,PSLN-212,3,1,
+S09,S09-A (cols X-AS),Ccl5 lung log10 fold,PSLN-R848,3,1,
+S09,S09-A (cols X-AS),Ccl5 lung log10 fold,PSLN-212/R848,3,1,
+S09,S09-A (cols X-AS),Ccl5 lung log10 fold,PSLN-344,3,1,
+S09,S09-A (cols X-AS),Ccl5 lung log10 fold,PSLN-212(y),3,1,
+S09,S09-A (cols A-U),Tnf lung log10 fold,PBS,3,1,
+S09,S09-A (cols A-U),Tnf lung log10 fold,CMP-204,3,1,
+S09,S09-A (cols A-U),Tnf lung log10 fold,PSLN-212,3,1,
+S09,S09-A (cols A-U),Tnf lung log10 fold,PSLN-R848,3,1,
+S09,S09-A (cols A-U),Tnf lung log10 fold,PSLN-212/R848,3,1,
+S09,S09-A (cols A-U),Tnf lung log10 fold,PSLN-344,3,1,
+S09,S09-A (cols A-U),Tnf lung log10 fold,PSLN-212(y),3,1,
+S09,S09-A (cols X-AS),Tnf lung log10 fold,PBS,3,1,
+S09,S09-A (cols X-AS),Tnf lung log10 fold,CMP-204,3,1,
+S09,S09-A (cols X-AS),Tnf lung log10 fold,PSLN-212,3,1,
+S09,S09-A (cols X-AS),Tnf lung log10 fold,PSLN-R848,3,1,
+S09,S09-A (cols X-AS),Tnf lung log10 fold,PSLN-212/R848,3,1,
+S09,S09-A (cols X-AS),Tnf lung log10 fold,PSLN-344,3,1,
+S09,S09-A (cols X-AS),Tnf lung log10 fold,PSLN-212(y),3,1,
+S09,S09-A (cols A-U),Il10 lung log10 fold,PBS,3,1,
+S09,S09-A (cols A-U),Il10 lung log10 fold,CMP-204,3,1,
+S09,S09-A (cols A-U),Il10 lung log10 fold,PSLN-212,3,1,
+S09,S09-A (cols A-U),Il10 lung log10 fold,PSLN-R848,3,1,
+S09,S09-A (cols A-U),Il10 lung log10 fold,PSLN-212/R848,3,1,
+S09,S09-A (cols A-U),Il10 lung log10 fold,PSLN-344,3,1,
+S09,S09-A (cols A-U),Il10 lung log10 fold,PSLN-212(y),3,1,
+S09,S09-A (cols X-AS),Il10 lung log10 fold,PBS,3,1,
+S09,S09-A (cols X-AS),Il10 lung log10 fold,CMP-204,3,1,
+S09,S09-A (cols X-AS),Il10 lung log10 fold,PSLN-212,3,1,
+S09,S09-A (cols X-AS),Il10 lung log10 fold,PSLN-R848,3,1,
+S09,S09-A (cols X-AS),Il10 lung log10 fold,PSLN-212/R848,3,1,
+S09,S09-A (cols X-AS),Il10 lung log10 fold,PSLN-344,3,1,
+S09,S09-A (cols X-AS),Il10 lung log10 fold,PSLN-212(y),3,1,
+S09,S09-B,time to event,Sham,8,1,"events=8 censored=0 days=[6.0, 6.0, 6.0, 7.0, 7.0, 7.0, 8.0, 8.0]"
+S09,S09-B,time to event,PSLN-344Y,8,1,"events=0 censored=8 days=[14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S09,S09-B,time to event,PSLN-212Y,8,1,"events=0 censored=8 days=[14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S09,S09-C,body weight (% d0),PSLN-212Y,8,8,0:8 2:8 4:8 6:8 8:8 10:8 12:8 14:8
+S09,S09-C,body weight (% d0),Sham,7-8,5,0:8 2:8 4:8 6:8 8:7
+S09,S09-C,body weight (% d0),PSLN-344Y,8,8,0:8 2:8 4:8 6:8 8:8 10:8 12:8 14:8
+S09,S09-D,time to event,Sham,8,1,"events=8 censored=0 days=[7.0, 8.0, 8.0, 8.0, 8.0, 8.0, 9.0, 9.0]"
+S09,S09-D,time to event,PSLN-344Y,8,1,"events=0 censored=8 days=[14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S09,S09-D,time to event,PSLN-212Y,8,1,"events=0 censored=8 days=[14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S09,S09-E,body weight (% d0),PSLN-212Y,8,8,0:8 2:8 4:8 6:8 8:8 10:8 12:8 14:8
+S09,S09-E,body weight (% d0),Sham,6-8,5,0:8 2:8 4:8 6:8 8:6
+S09,S09-E,body weight (% d0),PSLN-344Y,8,8,0:8 2:8 4:8 6:8 8:8 10:8 12:8 14:8
+S09,S09-F,time to event,Sham,7,1,"events=7 censored=0 days=[6.0, 6.0, 6.0, 7.0, 8.0, 8.0, 8.0]"
+S09,S09-F,time to event,PSLN-344Y,8,1,"events=0 censored=8 days=[14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S09,S09-F,time to event,PSLN-212Y,8,1,"events=0 censored=8 days=[14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S09,S09-G,body weight (% d0),PSLN-212Y,8,8,0:8 2:8 4:8 6:8 8:8 10:8 12:8 14:8
+S09,S09-G,body weight (% d0),Sham,4-8,5,0:8 2:8 4:8 6:8 8:4
+S09,S09-G,body weight (% d0),PSLN-344Y,8,8,0:8 2:8 4:8 6:8 8:8 10:8 12:8 14:8
+S10,S10-A,CNS Ifnb1 36h (fold),PBS,5,1,
+S10,S10-A,CNS Ifnb1 36h (fold),Sham,5,1,
+S10,S10-A,CNS Ifnb1 36h (fold),PSLN-344,5,1,
+S10,S10-A,CNS Ifnb1 36h (fold),CT,5,1,
+S10,S10-A,CNS Tnf 36h (fold),PBS,5,1,
+S10,S10-A,CNS Tnf 36h (fold),Sham,5,1,
+S10,S10-A,CNS Tnf 36h (fold),PSLN-344,5,1,
+S10,S10-A,CNS Tnf 36h (fold),CT,5,1,
+S10,S10-A,CNS Isg15 36h (fold),PBS,5,1,
+S10,S10-A,CNS Isg15 36h (fold),Sham,5,1,
+S10,S10-A,CNS Isg15 36h (fold),PSLN-344,5,1,
+S10,S10-A,CNS Isg15 36h (fold),CT,5,1,
+S11,S11-A,lung alveolar macrophages (%),Vaccine,5,5,0:5 2:5 4:5 6:5 8:5
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,5,5,0:5 2:5 4:5 6:5 8:5
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,5,5,0:5 2:5 4:5 6:5 8:5
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),5,5,0:5 2:5 4:5 6:5 8:5
+S11,S11-B,lung neutrophils (%),Vaccine,5,5,0:5 2:5 4:5 6:5 8:5
+S11,S11-B,lung neutrophils (%),PSLN-212,5,5,0:5 2:5 4:5 6:5 8:5
+S11,S11-B,lung neutrophils (%),PSLN-344,5,5,0:5 2:5 4:5 6:5 8:5
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),5,5,0:5 2:5 4:5 6:5 8:5
+S11,S11-C,recruited lung monocytes (%) d3,CBX+,5,1,
+S11,S11-C,recruited lung monocytes (%) d3,CBX-,5,1,
+S11,S11-D,lung NK cells (%),Vaccine,5,5,0:5 2:5 4:5 6:5 8:5
+S11,S11-D,lung NK cells (%),PSLN-212,5,5,0:5 2:5 4:5 6:5 8:5
+S11,S11-D,lung NK cells (%),PSLN-344,5,5,0:5 2:5 4:5 6:5 8:5
+S11,S11-D,lung NK cells (%),PSLN-212(Y),5,5,0:5 2:5 4:5 6:5 8:5
+S11,S11-E,lung CD206+ macrophages (%),Sham,5,1,
+S11,S11-E,lung CD206+ macrophages (%),PSLN-212,5,1,
+S11,S11-E,lung CD206+ macrophages (%),PSLN-344,5,1,
+S11,S11-E,lung CD206+ macrophages (%),PSLN-212(Y),5,1,
+S12,S12-A,infiltrating CD45.2+ monocytes (%) d3,WT to WT,3,1,
+S12,S12-A,infiltrating CD45.2+ monocytes (%) d3,IFNAR-/- to WT,3,1,
+S13,S13-A,serum IgG2a anti-CA09 d14 (titre),PSLN-212,5,1,
+S13,S13-A,serum IgG2a anti-CA09 d14 (titre),PSLN-344,5,1,
+S13,S13-A,serum IgG2a anti-CA09 d14 (titre),PSLN-212(Y),5,1,
+S13,S13-B,serum IgG1 anti-CA09 d14 (titre),PSLN-212,5,1,
+S13,S13-B,serum IgG1 anti-CA09 d14 (titre),PSLN-344,5,1,
+S13,S13-B,serum IgG1 anti-CA09 d14 (titre),PSLN-212(Y),5,1,
+S13,S13-C,serum IgG2a anti-Aichi d14 (titre),PSLN-212,5,1,
+S13,S13-C,serum IgG2a anti-Aichi d14 (titre),PSLN-344,5,1,
+S13,S13-C,serum IgG2a anti-Aichi d14 (titre),PSLN-212(Y),5,1,
+S13,S13-D,serum IgG1 anti-Aichi d14 (titre),PSLN-212,5,1,
+S13,S13-D,serum IgG1 anti-Aichi d14 (titre),PSLN-344,5,1,
+S13,S13-D,serum IgG1 anti-Aichi d14 (titre),PSLN-212(Y),5,1,
+S13,S13-E,time to event,Naive,7,1,"events=7 censored=0 days=[6.0, 7.0, 7.0, 7.0, 8.0, 8.0, 8.0]"
+S13,S13-E,time to event,Sham,7,1,"events=6 censored=1 days=[7.0, 9.0, 9.0, 10.0, 11.0, 11.0, 14.0]"
+S13,S13-E,time to event,CMP-204(Y),7,1,"events=0 censored=7 days=[14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S13,S13-E,time to event,PSLN-344(Y),7,1,"events=0 censored=7 days=[14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S13,S13-F,body weight (% d0),PSLN-212(Y),7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S13,S13-F,body weight (% d0),Sham,3-7,6,0:7 2:7 4:7 6:7 8:5 10:3
+S13,S13-F,body weight (% d0),PSLN-212,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S13,S13-F,body weight (% d0),PSLN-344,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S13,S13-F,body weight (% d0),Naive,5-7,4,0:7 2:7 4:7 6:5
+S13,S13-G,body weight (% d0),PSLN-344,10,8,0:10 2:10 4:10 6:10 8:10 10:10 12:10 14:10
+S13,S13-G,body weight (% d0),Sham,10,8,0:10 2:10 4:10 6:10 8:10 10:10 12:10 14:10
+S13,S13-G,body weight (% d0),Naive,10,8,0:10 2:10 4:10 6:10 8:10 10:10 12:10 14:10
+S13,S13-H,IgG+ of MLN B220+ cells (%),Sham,5,1,
+S13,S13-H,IgG+ of MLN B220+ cells (%),PSLN-212,5,1,
+S13,S13-H,IgG+ of MLN B220+ cells (%),PSLN-344,5,1,
+S13,S13-H,IgG+ of MLN B220+ cells (%),PSLN-212(Y),5,1,
+S13,S13-I,serum IgG anti-CA09 d28 post-boost (titre),Sham,5,1,
+S13,S13-I,serum IgG anti-CA09 d28 post-boost (titre),CMP-204,5,1,
+S13,S13-I,serum IgG anti-CA09 d28 post-boost (titre),PSLN-212,5,1,
+S13,S13-I,serum IgG anti-CA09 d28 post-boost (titre),PSLN-344,5,1,
+S13,S13-I,serum IgG anti-CA09 d28 post-boost (titre),PSLN-212(Y),5,1,
+S13,S13-J,serum IgG anti-Aichi d28 post-boost (titre),Sham,5,1,
+S13,S13-J,serum IgG anti-Aichi d28 post-boost (titre),CMP-204,5,1,
+S13,S13-J,serum IgG anti-Aichi d28 post-boost (titre),PSLN-212,5,1,
+S13,S13-J,serum IgG anti-Aichi d28 post-boost (titre),PSLN-344,5,1,
+S13,S13-J,serum IgG anti-Aichi d28 post-boost (titre),PSLN-212(Y),5,1,
+S14,S14-A H1N1,"MLN IFNg+ CD8 T, CA09 H1N1 restim (%)",Sham,5,1,
+S14,S14-A H1N1,"MLN IFNg+ CD8 T, CA09 H1N1 restim (%)",PSLN-212,5,1,
+S14,S14-A H1N1,"MLN IFNg+ CD8 T, CA09 H1N1 restim (%)",PSLN-344,5,1,
+S14,S14-A H1N1,"MLN IFNg+ CD8 T, CA09 H1N1 restim (%)",PSLN-212(Y),5,1,
+S14,S14-A H3N2,"MLN IFNg+ CD8 T, Aichi H3N2 restim (%)",Sham,5,1,
+S14,S14-A H3N2,"MLN IFNg+ CD8 T, Aichi H3N2 restim (%)",PSLN-212,5,1,
+S14,S14-A H3N2,"MLN IFNg+ CD8 T, Aichi H3N2 restim (%)",PSLN-344,5,1,
+S14,S14-A H3N2,"MLN IFNg+ CD8 T, Aichi H3N2 restim (%)",PSLN-212(Y),5,1,
+S15,S15-A,body weight (% d0),PSLN-212(Y),7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-A,body weight (% d0),Sham,4-7,4,0:7 2:7 4:7 6:4
+S15,S15-A,body weight (% d0),PSLN-212,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-A,body weight (% d0),PSLN-344,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-B,body weight (% d0),PSLN-212(Y),7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-B,body weight (% d0),Sham,3-7,4,0:7 2:7 4:6 6:3
+S15,S15-B,body weight (% d0),PSLN-212,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-B,body weight (% d0),PSLN-344,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-C,body weight (% d0),PSLN-212(Y),7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-C,body weight (% d0),Sham,1-7,5,0:7 2:7 4:7 6:4 8:1
+S15,S15-C,body weight (% d0),PSLN-212,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-C,body weight (% d0),PSLN-344,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-D,body weight (% d0),PSLN-212(Y),7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-D,body weight (% d0),Sham,1-7,4,0:7 2:7 4:7 6:1
+S15,S15-D,body weight (% d0),PSLN-212,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-D,body weight (% d0),PSLN-344,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-E,body weight (% d0),PSLN-212(Y),7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-E,body weight (% d0),Sham,2-7,4,0:7 2:7 4:7 6:2
+S15,S15-E,body weight (% d0),PSLN-212,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-E,body weight (% d0),PSLN-344,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-E,body weight (% d0),Untreated,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-F,body weight (% d0),PSLN-212(Y),7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-F,body weight (% d0),Sham,1-7,4,0:7 2:7 4:5 6:1
+S15,S15-F,body weight (% d0),PSLN-212,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-F,body weight (% d0),PSLN-344,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-F,body weight (% d0),Untreated,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-G,body weight (% d0),PSLN-212(Y),7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-G,body weight (% d0),Sham,5-7,4,0:7 2:7 4:7 6:5
+S15,S15-G,body weight (% d0),PSLN-212,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-G,body weight (% d0),PSLN-344,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-G,body weight (% d0),Untreated,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-H,time to event,3d Vaccine,7,1,"events=7 censored=0 days=[4.0, 5.0, 5.0, 5.0, 6.0, 6.0, 7.0]"
+S15,S15-H,time to event,3d PSLN-344,7,1,"events=7 censored=0 days=[5.0, 5.0, 6.0, 6.0, 6.0, 7.0, 8.0]"
+S15,S15-H,time to event,3d Vaccine+PSLN-344,7,1,"events=1 censored=6 days=[12.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S15,S15-I,body weight (% d0),3d Vaccine,3-7,4,0:7 2:7 4:7 6:3
+S15,S15-I,body weight (% d0),3d PSLN-344,1-7,5,0:7 2:7 4:7 6:5 8:1
+S15,S15-I,body weight (% d0),3d Vaccine+PSLN-344,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-J,body weight (% d0),Naive+PSLN-212,2-7,4,0:7 2:7 4:5 6:2
+S15,S15-J,body weight (% d0),Imprinting+PSLN-212,4-7,8,0:7 2:7 4:7 6:6 8:4 10:4 12:4 14:4
+S15,S15-J,body weight (% d0),Naive+PSLN-344,6-7,8,0:7 2:7 4:7 6:6 8:6 10:6 12:6 14:6
+S15,S15-J,body weight (% d0),Imprinting+PSLN-344,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-K,body weight (% d0),Naive+PSLN-212,1-7,5,0:7 2:7 4:6 6:4 8:1
+S15,S15-K,body weight (% d0),Imprinting+PSLN-212,1-7,4,0:7 2:7 4:5 6:1
+S15,S15-K,body weight (% d0),Naive+PSLN-344,6-7,8,0:7 2:7 4:7 6:7 8:6 10:6 12:6 14:6
+S15,S15-K,body weight (% d0),Imprinting+PSLN-344,6-7,8,0:7 2:7 4:7 6:7 8:6 10:6 12:6 14:6
+S15,S15-L,time to event,Sham,7,1,"events=7 censored=0 days=[4.0, 4.0, 6.0, 6.0, 6.0, 8.0, 8.0]"
+S15,S15-L,time to event,PSLN-212,7,1,"events=7 censored=0 days=[6.0, 7.0, 7.0, 8.0, 8.0, 9.0, 11.0]"
+S15,S15-L,time to event,PSLN-344,7,1,"events=1 censored=6 days=[8.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S15,S15-L,time to event,PSLN-212(Y),7,1,"events=1 censored=6 days=[12.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S15,S15-M,body weight (% d0),PSLN-212(Y),7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-M,body weight (% d0),Sham,1-7,5,0:7 2:7 4:5 6:2 8:1
+S15,S15-M,body weight (% d0),PSLN-212,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-M,body weight (% d0),PSLN-344,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-N,time to event,Sham,7,1,"events=7 censored=0 days=[5.0, 6.0, 6.0, 8.0, 8.0, 8.0, 10.0]"
+S15,S15-N,time to event,PSLN-212,7,1,"events=5 censored=2 days=[6.0, 10.0, 10.0, 10.0, 12.0, 14.0, 14.0]"
+S15,S15-N,time to event,PSLN-344,7,1,"events=1 censored=6 days=[8.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S15,S15-N,time to event,PSLN-212(Y),7,1,"events=0 censored=7 days=[14.0, 14.0, 14.0, 14.0, 14.0, 14.0, 14.0]"
+S15,S15-O,body weight (% d0),PSLN-212(Y),7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-O,body weight (% d0),Sham,1-7,6,0:7 2:7 4:7 6:6 8:4 10:1
+S15,S15-O,body weight (% d0),PSLN-212,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7
+S15,S15-O,body weight (% d0),PSLN-344,7,8,0:7 2:7 4:7 6:7 8:7 10:7 12:7 14:7

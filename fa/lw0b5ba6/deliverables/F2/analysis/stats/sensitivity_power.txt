@@ -1,0 +1,53 @@
+(a) POOLED SURVIVAL IN AGED ANIMALS - SENSITIVITY TO SUBSETS (time-to-event blocks as printed; CMH stratified by experiment)
+                                            subset           comparator  strata psln344  psln344_pct psln344_ci95 comparator_surv  comparator_pct comparator_ci95   cmh_p
+                 all aged experiments (as printed)      PSLN-212 (aged)      15  92/108           85        77-91          15/108              14            8-22 1.8e-25
+                 all aged experiments (as printed) Sham / vaccine alone      12   74/87           85        76-92            1/87             1.1             0-6   1e-27
+            excluding S06-D (arms duplicate S06-C)      PSLN-212 (aged)      14  85/101           84        76-91          13/101              13            7-21 6.8e-24
+            excluding S06-D (arms duplicate S06-C) Sham / vaccine alone      11   67/80           84        74-91            1/80             1.2             0-7 6.3e-25
+excluding every experiment with any integrity flag      PSLN-212 (aged)       8   46/56           82        70-91            8/56              14            6-26 1.4e-12
+excluding every experiment with any integrity flag Sham / vaccine alone       4   22/28           79        59-92            0/28               0            0-12   6e-09
+              20-month BALB/c only (S03, S06-A..G)      PSLN-212 (aged)       9   56/66           85        74-92            9/66              14            6-24 2.6e-16
+              20-month BALB/c only (S03, S06-A..G) Sham / vaccine alone       9   56/66           85        74-92            1/66             1.5             0-8 2.6e-21
+            heterosubtypic d14 only (S06-A, S06-C)      PSLN-212 (aged)       2   13/14           93       66-100            3/14              21            5-51  0.0002
+            heterosubtypic d14 only (S06-A, S06-C) Sham / vaccine alone       2   13/14           93       66-100            0/14               0            0-23 1.9e-06
+     early d2-d3 only (S03-J, S06-B, S06-D, S15-H)      PSLN-212 (aged)       3   22/24           92        73-99            5/24              21            7-42 6.8e-07
+     early d2-d3 only (S03-J, S06-B, S06-D, S15-H) Sham / vaccine alone       4   28/31           90        74-98            1/31             3.2            0-17 1.8e-11
+            durable d60 only (S06-E, S06-F, S06-G)      PSLN-212 (aged)       3   14/21           67        43-85            1/21             4.8            0-24 4.8e-05
+            durable d60 only (S06-E, S06-F, S06-G) Sham / vaccine alone       3   14/21           67        43-85            0/21               0            0-16 9.5e-06
+other strains (S15-L C57BL/6, S15-N Swiss Webster)      PSLN-212 (aged)       2   12/14           86        57-98            2/14              14            2-43 0.00023
+other strains (S15-L C57BL/6, S15-N Swiss Webster) Sham / vaccine alone       2   12/14           86        57-98            0/14               0            0-23   1e-05
+     14-month, +/- imprinting (S06-E(2), S06-F(2))      PSLN-212 (aged)       4   24/28           86        67-96            4/28              14            4-33 1.1e-07
+
+Integrity flags used for the 'no flag' subset:
+   S03-I: PSLN-212 arm: 0/7 in S03-I vs 3/7 implied by S13-F; group sets differ (CMP-204 vs Naive)
+   S03-J: stated n=9 vs 10 rows; one PSLN-344 row has no time; control-arm labels differ from S13-G
+   S06-C: Sham and PSLN-212 arms identical to S06-D; S15-C PSLN-344 weights duplicated in S15-I; S15-C PSLN-212 1/7 vs 2/7
+   S06-D: Sham and PSLN-212 arms identical to S06-C; S15-D implies 5/7 for PSLN-344 and for PSLN-212(Y)
+   S06-E: S15-E implies PSLN-212 1/7 (vs 0/7) and PSLN-344 6/7 (vs 5/7)
+   S06-G: S15-G implies PSLN-344 5/7 (vs 4/7)
+   S15-L: S15-M weights share series with S15-A, S15-C and S09-E; young arm 6/7 vs 7/7; challenge virus not stated
+   S15-H: S15-I Vaccine+PSLN-344 weights duplicate S15-C PSLN-344
+   S15-N: challenge virus not stated (survival and weight blocks agree)
+
+(b) DURABILITY / TIMING CONTRASTS FOR PSLN-344 IN AGED BALB/c (time-to-event blocks)
+   d14 (S03-I, S06-A, S06-C) 20/21 vs d60 (S06-E, S06-F, S06-G) 14/21: Fisher p = 0.045
+   matched models only: d14 S06-A + S06-C 13/14 vs d60 S06-E + S06-F 10/14: Fisher p = 0.326
+   d60 PSLN-344 challenged 14/21 vs untreated unchallenged 17/21: Fisher p = 0.484
+   early d2-d3 28/31 vs d14 20/21: Fisher p = 0.639
+   young PSLN-212(Y) at d60: 21/21; young PSLN-344Y/PSLN-212Y at d180 (S09-F): 8/8 and 8/8
+
+(c) LAST REAL BODY WEIGHT (% of day 0) OF ANIMALS THAT DID NOT SURVIVE, d60 experiments (S15-E, S15-F, S15-G)
+   PSLN-344   n=5  last weights: 79.8, 85.3, 83.9, 80.3, 77.5  mean 81.4%   cells: S15-E:W47, S15-F:W56, S15-F:Z56, S15-G:W69, S15-G:Z69
+   Untreated  n=4  last weights: 94.5, 96.6, 95.0, 95.7  mean 95.5%   cells: S15-E:AE45, S15-G:AD65, S15-G:AE67, S15-G:AF68
+   PSLN-212   n=19  last weights: 78.5, 82.2, 80.3, 81.1, 80.4, 79.2, 82.1, 78.2, 81.3, 84.9, 83.8, 81.6, 78.8, 80.2, 80.2, 79.8, 81.7, 83.5, 82.2  mean 81.0%   cells: S15-E:Q48, S15-E:R46, S15-E:S47, S15-E:T46, S15-E:U46, S15-E:V46, S15-F:P56, S15-F:Q56, S15-F:R57, S15-F:S56, S15-F:T55, S15-F:V56, S15-G:P67, S15-G:Q67, S15-G:R67, S15-G:S67, S15-G:T67, S15-G:U68, S15-G:V68
+   Sham       n=21  last weights: 84.7, 86.3, 85.1, 87.3, 87.9, 81.4, 81.5, 92.9, 82.8, 82.7, 95.4, 85.9, 86.9, 81.2, 81.6, 84.4, 79.3, 80.5, 82.9, 82.2, 79.7  mean 84.4%   cells: S15-E:I45, S15-E:J45, S15-E:K45, S15-E:L45, S15-E:M45, S15-E:N46, S15-E:O46, S15-F:I54, S15-F:J55, S15-F:K55, S15-F:L54, S15-F:M55, S15-F:N55, S15-F:O56, S15-G:I65, S15-G:J65, S15-G:K66, S15-G:L66, S15-G:M66, S15-G:N66, S15-G:O66
+   PSLN-344 non-survivors vs untreated non-survivors: Welch p = 0.0003; Mann-Whitney exact p = 0.0159
+
+(d) SAMPLE SIZE (per arm) FOR THE PROPOSED STUDIES - two-sided Fisher exact, alpha 0.05, exact power by enumeration
+n_per_arm                                                    8      10     12     15     20     25     30     40     50
+scenario                                                                                                               
+PSLN-344 vs PSLN-212, pooled observed (85% vs 14%)        0.807  0.850  0.951  0.978  0.997  1.000  1.000  1.000  1.000
+PSLN-344 vs PSLN-212, worst-case reading (83% vs 18%)     0.697  0.740  0.888  0.935  0.986  0.999  1.000  1.000  1.000
+PSLN-344 vs an active comparator giving 50% (85% vs 50%)  0.163  0.199  0.302  0.371  0.573  0.676  0.777  0.898  0.957
+durability: 90% vs 67%                                    0.044  0.080  0.130  0.196  0.311  0.389  0.476  0.648  0.757
+durability: d14 95% vs d60 67%                            0.061  0.130  0.217  0.347  0.533  0.646  0.731  0.890  0.948

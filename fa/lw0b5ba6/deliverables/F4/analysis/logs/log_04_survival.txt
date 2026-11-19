@@ -1,0 +1,193 @@
+                                                                                      scenario PSLN344  PSLN344_pct PSLN344_ci95 PSLN212  PSLN212_pct PSLN212_ci95  Sham  p_fisher_344_vs_212  p_fisher_344_vs_sham
+0                                                                   survival tables as printed   42/45         93.3    81.7-98.6    8/45         17.8     8.0-32.1  1/45         1.036895e-13          1.345167e-20
+1                                                all table conflicts resolved against PSLN-344   40/45         88.9    75.9-96.3   12/45         26.7    14.6-41.9  1/45         2.083944e-09          1.510085e-18
+2  all aged-BALB/c PSLN-344 arms challenged d2-d14 incl. S15-H (no matched Sham/212 arm there)   48/52         92.3    81.5-97.9     NaN          NaN          NaN   NaN                  NaN                   NaN
+
+             block                group challenge_day_post_vacc  n_rows  n_with_day  deaths  survivors  survival_pct  ci95_lo  ci95_hi  median_days_to_death             death_days
+0            S03-I                 Sham                     d14       7           7       7          0           0.0      0.0     41.0                   6.0         5 6 6 6 8 8 11
+1            S03-I              CMP-204                     d14       7           7       4          3          42.9      9.9     81.6                  10.0               6 7 8 10
+2            S03-I             PSLN-212                     d14       7           7       7          0           0.0      0.0     41.0                   6.0          5 5 5 6 6 6 6
+3            S03-I             PSLN-344                     d14       7           7       0          7         100.0     59.0    100.0                   inf                       
+4            S03-I          PSLN-212(Y)                     d14       7           7       0          7         100.0     59.0    100.0                   inf                       
+5            S03-J                 Sham                      d2      10          10       9          1          10.0      0.3     44.5                   9.0  3 4 9 9 9 10 10 10 10
+6            S03-J             PSLN-212                      d2      10          10       7          3          30.0      6.7     65.2                  12.0   10 10 11 11 12 12 12
+7            S03-J             PSLN-344                      d2      10           9       0         10         100.0     69.2    100.0                   inf                       
+8            S06-A                 Sham                     d14       7           7       7          0           0.0      0.0     41.0                   5.0          4 4 4 5 5 7 7
+9            S06-A             PSLN-212                     d14       7           7       6          1          14.3      0.4     57.9                   8.0           4 6 6 8 9 10
+10           S06-A             PSLN-344                     d14       7           7       1          6          85.7     42.1     99.6                   inf                      8
+11           S06-A          PSLN-212(Y)                     d14       7           7       0          7         100.0     59.0    100.0                   inf                       
+12           S06-B                 Sham                      d3       7           7       7          0           0.0      0.0     41.0                   5.0          4 4 4 5 5 6 6
+13           S06-B             PSLN-212                      d3       7           7       7          0           0.0      0.0     41.0                   6.0         4 4 6 6 6 7 10
+14           S06-B             PSLN-344                      d3       7           7       2          5          71.4     29.0     96.3                   inf                   8 10
+15           S06-B          PSLN-212(Y)                      d3       7           7       0          7         100.0     59.0    100.0                   inf                       
+16           S06-C                 Sham                     d14       7           7       7          0           0.0      0.0     41.0                   6.0          4 4 5 6 6 6 7
+17           S06-C             PSLN-212                     d14       7           7       5          2          28.6      3.7     71.0                  10.0           5 8 10 10 12
+18           S06-C             PSLN-344                     d14       7           7       0          7         100.0     59.0    100.0                   inf                       
+19           S06-C          PSLN-212(Y)                     d14       7           7       0          7         100.0     59.0    100.0                   inf                       
+20           S06-D                 Sham                      d3       7           7       7          0           0.0      0.0     41.0                   6.0          4 4 5 6 6 6 7
+21           S06-D             PSLN-212                      d3       7           7       5          2          28.6      3.7     71.0                  10.0           5 8 10 10 12
+22           S06-D             PSLN-344                      d3       7           7       0          7         100.0     59.0    100.0                   inf                       
+23           S06-D          PSLN-212(Y)                      d3       7           7       0          7         100.0     59.0    100.0                   inf                       
+24           S06-E                 Sham                     d60       7           7       7          0           0.0      0.0     41.0                   5.0          4 5 5 5 5 6 6
+25           S06-E             PSLN-212                     d60       7           7       7          0           0.0      0.0     41.0                   6.0         5 5 5 6 6 8 11
+26           S06-E             PSLN-344                     d60       7           7       2          5          71.4     29.0     96.3                   inf                   8 10
+27           S06-E          PSLN-212(Y)                     d60       7           7       0          7         100.0     59.0    100.0                   inf                       
+28           S06-E            Untreated                     d60       7           7       1          6          85.7     42.1     99.6                   inf                      4
+29           S06-F                 Sham                     d60       7           7       7          0           0.0      0.0     41.0                   5.0          4 4 4 5 5 6 6
+30           S06-F             PSLN-212                     d60       7           7       6          1          14.3      0.4     57.9                   6.0            4 5 6 6 6 7
+31           S06-F             PSLN-344                     d60       7           7       2          5          71.4     29.0     96.3                   inf                    7 8
+32           S06-F          PSLN-212(Y)                     d60       7           7       0          7         100.0     59.0    100.0                   inf                       
+33           S06-F            Untreated                     d60       7           7       0          7         100.0     59.0    100.0                   inf                       
+34           S06-G                 Sham                     d60       7           7       7          0           0.0      0.0     41.0                   6.0          4 4 5 6 6 7 7
+35           S06-G             PSLN-212                     d60       7           7       7          0           0.0      0.0     41.0                   8.0        6 6 8 8 8 11 11
+36           S06-G             PSLN-344                     d60       7           7       3          4          57.1     18.4     90.1                   inf                 8 9 11
+37           S06-G          PSLN-212(Y)                     d60       7           7       0          7         100.0     59.0    100.0                   inf                       
+38           S06-G            Untreated                     d60       7           7       3          4          57.1     18.4     90.1                   inf                 3 7 10
+39      S06-E(r71)       Naive+PSLN-212              not stated       7           7       7          0           0.0      0.0     41.0                   6.0          4 4 5 6 6 6 8
+40      S06-E(r71)  Imprinting+PSLN-212              not stated       7           7       3          4          57.1     18.4     90.1                   inf                  6 8 8
+41      S06-E(r71)       Naive+PSLN-344              not stated       7           7       1          6          85.7     42.1     99.6                   inf                      5
+42      S06-E(r71)  Imprinting+PSLN-344              not stated       7           7       1          6          85.7     42.1     99.6                   inf                      8
+43      S06-F(r71)       Naive+PSLN-212                     d14       7           7       7          0           0.0      0.0     41.0                   6.0          4 4 6 6 7 8 8
+44      S06-F(r71)  Imprinting+PSLN-212                     d14       7           7       7          0           0.0      0.0     41.0                   5.0          4 4 5 5 5 6 6
+45      S06-F(r71)       Naive+PSLN-344                     d14       7           7       1          6          85.7     42.1     99.6                   inf                      8
+46      S06-F(r71)  Imprinting+PSLN-344                     d14       7           7       1          6          85.7     42.1     99.6                   inf                      7
+47  S08-unlabelled                 colC                 unknown       6           6       0          6         100.0     54.1    100.0                   inf                       
+48  S08-unlabelled                 colD                 unknown       7           7       0          7         100.0     59.0    100.0                   inf                       
+49           S09-B                 Sham                     d21       8           8       8          0           0.0      0.0     36.9                   7.0        6 6 6 7 7 7 8 8
+50           S09-B            PSLN-344Y                     d21       8           8       0          8         100.0     63.1    100.0                   inf                       
+51           S09-B            PSLN-212Y                     d21       8           8       0          8         100.0     63.1    100.0                   inf                       
+52           S09-D                 Sham                     d21       8           8       8          0           0.0      0.0     36.9                   8.0        7 8 8 8 8 8 9 9
+53           S09-D            PSLN-344Y                     d21       8           8       0          8         100.0     63.1    100.0                   inf                       
+54           S09-D            PSLN-212Y                     d21       8           8       0          8         100.0     63.1    100.0                   inf                       
+55           S09-F                 Sham                    d180       7           7       7          0           0.0      0.0     41.0                   7.0          6 6 6 7 8 8 8
+56           S09-F            PSLN-344Y                    d180       8           8       0          8         100.0     63.1    100.0                   inf                       
+57           S09-F            PSLN-212Y                    d180       8           8       0          8         100.0     63.1    100.0                   inf                       
+58           S13-E                Naive                     d14       7           7       7          0           0.0      0.0     41.0                   7.0          6 7 7 7 8 8 8
+59           S13-E                 Sham                     d14       7           7       6          1          14.3      0.4     57.9                  10.0         7 9 9 10 11 11
+60           S13-E           CMP-204(Y)                     d14       7           7       0          7         100.0     59.0    100.0                   inf                       
+61           S13-E          PSLN-344(Y)                     d14       7           7       0          7         100.0     59.0    100.0                   inf                       
+62           S15-H           3d Vaccine                      d3       7           7       7          0           0.0      0.0     41.0                   5.0          4 5 5 5 6 6 7
+63           S15-H          3d PSLN-344                      d3       7           7       7          0           0.0      0.0     41.0                   6.0          5 5 6 6 6 7 8
+64           S15-H  3d Vaccine+PSLN-344                      d3       7           7       1          6          85.7     42.1     99.6                   inf                     12
+65           S15-L                 Sham              not stated       7           7       7          0           0.0      0.0     41.0                   6.0          4 4 6 6 6 8 8
+66           S15-L             PSLN-212              not stated       7           7       7          0           0.0      0.0     41.0                   8.0         6 7 7 8 8 9 11
+67           S15-L             PSLN-344              not stated       7           7       1          6          85.7     42.1     99.6                   inf                      8
+68           S15-L          PSLN-212(Y)              not stated       7           7       1          6          85.7     42.1     99.6                   inf                     12
+69           S15-N                 Sham              not stated       7           7       7          0           0.0      0.0     41.0                   8.0         5 6 6 8 8 8 10
+70           S15-N             PSLN-212              not stated       7           7       5          2          28.6      3.7     71.0                  10.0          6 10 10 10 12
+71           S15-N             PSLN-344              not stated       7           7       1          6          85.7     42.1     99.6                   inf                      8
+72           S15-N          PSLN-212(Y)              not stated       7           7       0          7         100.0     59.0    100.0                   inf                       
+
+         block           test_group            ref_group surv_test surv_ref  risk_diff_pct  logrank_chi2  p_logrank_asymptotic  p_logrank_permutation perm_method  p_fisher_exact
+0        S03-I             PSLN-344                 Sham       7/7      0/7          100.0         14.24              0.000161               0.000583       exact        0.000583
+1        S03-I             PSLN-344             PSLN-212       7/7      0/7          100.0         12.76              0.000354               0.000583       exact        0.000583
+2        S03-I             PSLN-344              CMP-204       7/7      3/7           57.1          5.24              0.022062               0.069930       exact        0.069930
+3        S03-I             PSLN-344          PSLN-212(Y)       7/7      7/7            0.0          0.00              1.000000               1.000000  degenerate        1.000000
+4        S03-I             PSLN-212                 Sham       0/7      0/7            0.0          3.64              0.056366               0.101981       exact        1.000000
+5        S03-I              CMP-204                 Sham       3/7      0/7           42.9          3.65              0.056209               0.074009       exact        0.192308
+6        S03-I          PSLN-212(Y)                 Sham       7/7      0/7          100.0         14.24              0.000161               0.000583       exact        0.000583
+7        S03-J             PSLN-344                 Sham       9/9     1/10           90.0         14.17              0.000167               0.000119       exact        0.000119
+8        S03-J             PSLN-344             PSLN-212       9/9     3/10           70.0          9.32              0.002272               0.003096       exact        0.003096
+9        S03-J             PSLN-212                 Sham      3/10     1/10           20.0          6.73              0.009480               0.011540       exact        0.582043
+10       S06-A             PSLN-344                 Sham       6/7      0/7           85.7         13.84              0.000199               0.000583       exact        0.004662
+11       S06-A             PSLN-344             PSLN-212       6/7      1/7           71.4          6.96              0.008314               0.016900       exact        0.029138
+12       S06-A             PSLN-344          PSLN-212(Y)       6/7      7/7          -14.3          1.00              0.317311               1.000000       exact        1.000000
+13       S06-A             PSLN-212                 Sham       1/7      0/7           14.3          4.91              0.026658               0.041958       exact        1.000000
+14       S06-A          PSLN-212(Y)                 Sham       7/7      0/7          100.0         13.84              0.000199               0.000583       exact        0.000583
+15       S06-B             PSLN-344                 Sham       5/7      0/7           71.4         13.84              0.000199               0.000583       exact        0.020979
+16       S06-B             PSLN-344             PSLN-212       5/7      0/7           71.4         10.98              0.000923               0.001748       exact        0.020979
+17       S06-B             PSLN-344          PSLN-212(Y)       5/7      7/7          -28.6          2.16              0.141350               0.461538       exact        0.461538
+18       S06-B             PSLN-212                 Sham       0/7      0/7            0.0          2.91              0.088098               0.147436       exact        1.000000
+19       S06-B          PSLN-212(Y)                 Sham       7/7      0/7          100.0         13.84              0.000199               0.000583       exact        0.000583
+20       S06-C             PSLN-344                 Sham       7/7      0/7          100.0         13.93              0.000190               0.000583       exact        0.000583
+21       S06-C             PSLN-344             PSLN-212       7/7      2/7           71.4          7.34              0.006758               0.020979       exact        0.020979
+22       S06-C             PSLN-344          PSLN-212(Y)       7/7      7/7            0.0          0.00              1.000000               1.000000  degenerate        1.000000
+23       S06-C             PSLN-212                 Sham       2/7      0/7           28.6          9.22              0.002394               0.005245       exact        0.461538
+24       S06-C          PSLN-212(Y)                 Sham       7/7      0/7          100.0         13.93              0.000190               0.000583       exact        0.000583
+25       S06-D             PSLN-344                 Sham       7/7      0/7          100.0         13.93              0.000190               0.000583       exact        0.000583
+26       S06-D             PSLN-344             PSLN-212       7/7      2/7           71.4          7.34              0.006758               0.020979       exact        0.020979
+27       S06-D             PSLN-344          PSLN-212(Y)       7/7      7/7            0.0          0.00              1.000000               1.000000  degenerate        1.000000
+28       S06-D             PSLN-212                 Sham       2/7      0/7           28.6          9.22              0.002394               0.005245       exact        0.461538
+29       S06-D          PSLN-212(Y)                 Sham       7/7      0/7          100.0         13.93              0.000190               0.000583       exact        0.000583
+30       S06-E             PSLN-344                 Sham       5/7      0/7           71.4         13.65              0.000220               0.000583       exact        0.020979
+31       S06-E             PSLN-344             PSLN-212       5/7      0/7           71.4         10.00              0.001565               0.004079       exact        0.020979
+32       S06-E             PSLN-344          PSLN-212(Y)       5/7      7/7          -28.6          2.16              0.141350               0.461538       exact        0.461538
+33       S06-E             PSLN-212                 Sham       0/7      0/7            0.0          2.54              0.110983               0.204545       exact        1.000000
+34       S06-E          PSLN-212(Y)                 Sham       7/7      0/7          100.0         13.65              0.000220               0.000583       exact        0.000583
+35       S06-E             PSLN-344            Untreated       5/7      6/7          -14.3          0.28              0.593712               1.000000       exact        1.000000
+36       S06-E          PSLN-212(Y)            Untreated       7/7      6/7           14.3          1.00              0.317311               1.000000       exact        1.000000
+37       S06-F             PSLN-344                 Sham       5/7      0/7           71.4         13.84              0.000199               0.000583       exact        0.020979
+38       S06-F             PSLN-344             PSLN-212       5/7      1/7           57.1          6.74              0.009419               0.011655       exact        0.102564
+39       S06-F             PSLN-344          PSLN-212(Y)       5/7      7/7          -28.6          2.16              0.141350               0.461538       exact        0.461538
+40       S06-F             PSLN-212                 Sham       1/7      0/7           14.3          3.37              0.066444               0.112471       exact        1.000000
+41       S06-F          PSLN-212(Y)                 Sham       7/7      0/7          100.0         13.84              0.000199               0.000583       exact        0.000583
+42       S06-F             PSLN-344            Untreated       5/7      7/7          -28.6          2.16              0.141350               0.461538       exact        0.461538
+43       S06-F          PSLN-212(Y)            Untreated       7/7      7/7            0.0          0.00              1.000000               1.000000  degenerate        1.000000
+44       S06-G             PSLN-344                 Sham       4/7      0/7           57.1         13.67              0.000218               0.000583       exact        0.069930
+45       S06-G             PSLN-344             PSLN-212       4/7      0/7           57.1          5.90              0.015145               0.019814       exact        0.069930
+46       S06-G             PSLN-344          PSLN-212(Y)       4/7      7/7          -42.9          3.55              0.059661               0.192308       exact        0.192308
+47       S06-G             PSLN-212                 Sham       0/7      0/7            0.0          7.48              0.006252               0.009907       exact        1.000000
+48       S06-G          PSLN-212(Y)                 Sham       7/7      0/7          100.0         13.67              0.000218               0.000583       exact        0.000583
+49       S06-G             PSLN-344            Untreated       4/7      4/7            0.0          0.03              0.854995               0.755245       exact        1.000000
+50       S06-G          PSLN-212(Y)            Untreated       7/7      4/7           42.9          3.55              0.059661               0.192308       exact        0.192308
+51  S06-E(r71)       Naive+PSLN-344       Naive+PSLN-212       6/7      0/7           85.7          9.22              0.002394               0.003497       exact        0.004662
+52  S06-E(r71)  Imprinting+PSLN-344  Imprinting+PSLN-212       6/7      4/7           28.6          1.43              0.232117               0.437063       exact        0.559441
+53  S06-E(r71)  Imprinting+PSLN-212       Naive+PSLN-212       4/7      0/7           57.1          8.57              0.003416               0.007576       exact        0.069930
+54  S06-E(r71)  Imprinting+PSLN-344       Naive+PSLN-344       6/7      6/7            0.0          0.00              0.956558               1.000000       exact        1.000000
+55  S06-F(r71)       Naive+PSLN-344       Naive+PSLN-212       6/7      0/7           85.7         11.74              0.000611               0.001748       exact        0.004662
+56  S06-F(r71)  Imprinting+PSLN-344  Imprinting+PSLN-212       6/7      0/7           85.7         13.62              0.000223               0.000583       exact        0.004662
+57  S06-F(r71)  Imprinting+PSLN-212       Naive+PSLN-212       0/7      0/7            0.0          3.16              0.075668               0.103730       exact        1.000000
+58  S06-F(r71)  Imprinting+PSLN-344       Naive+PSLN-344       6/7      6/7            0.0          0.00              0.956558               1.000000       exact        1.000000
+59       S09-B            PSLN-344Y                 Sham       8/8      0/8          100.0         16.03              0.000062               0.000155       exact        0.000155
+60       S09-B            PSLN-212Y                 Sham       8/8      0/8          100.0         16.03              0.000062               0.000155       exact        0.000155
+61       S09-B            PSLN-344Y            PSLN-212Y       8/8      8/8            0.0          0.00              1.000000               1.000000  degenerate        1.000000
+62       S09-D            PSLN-344Y                 Sham       8/8      0/8          100.0         15.96              0.000065               0.000155       exact        0.000155
+63       S09-D            PSLN-212Y                 Sham       8/8      0/8          100.0         15.96              0.000065               0.000155       exact        0.000155
+64       S09-D            PSLN-344Y            PSLN-212Y       8/8      8/8            0.0          0.00              1.000000               1.000000  degenerate        1.000000
+65       S09-F            PSLN-344Y                 Sham       8/8      0/7          100.0         14.79              0.000120               0.000155       exact        0.000155
+66       S09-F            PSLN-212Y                 Sham       8/8      0/7          100.0         14.79              0.000120               0.000155       exact        0.000155
+67       S09-F            PSLN-344Y            PSLN-212Y       8/8      8/8            0.0          0.00              1.000000               1.000000  degenerate        1.000000
+68       S13-E          PSLN-344(Y)                 Sham       7/7      1/7           85.7          9.96              0.001597               0.004662       exact        0.004662
+69       S13-E           CMP-204(Y)                 Sham       7/7      1/7           85.7          9.96              0.001597               0.004662       exact        0.004662
+70       S13-E          PSLN-344(Y)           CMP-204(Y)       7/7      7/7            0.0          0.00              1.000000               1.000000  degenerate        1.000000
+71       S13-E                 Sham                Naive       1/7      0/7           14.3          8.93              0.002810               0.004079       exact        1.000000
+72       S13-E          PSLN-344(Y)                Naive       7/7      0/7          100.0         13.05              0.000303               0.000583       exact        0.000583
+73       S15-H  3d Vaccine+PSLN-344           3d Vaccine       6/7      0/7           85.7         14.24              0.000161               0.000583       exact        0.004662
+74       S15-H  3d Vaccine+PSLN-344          3d PSLN-344       6/7      0/7           85.7         14.46              0.000143               0.000583       exact        0.004662
+75       S15-H          3d PSLN-344           3d Vaccine       0/7      0/7            0.0          1.51              0.218944               0.310606       exact        1.000000
+76       S15-L             PSLN-344                 Sham       6/7      0/7           85.7         11.52              0.000688               0.001748       exact        0.004662
+77       S15-L             PSLN-344             PSLN-212       6/7      0/7           85.7         10.66              0.001092               0.002914       exact        0.004662
+78       S15-L             PSLN-344          PSLN-212(Y)       6/7      6/7            0.0          0.00              0.956558               1.000000       exact        1.000000
+79       S15-L             PSLN-212                 Sham       0/7      0/7            0.0          3.39              0.065735               0.086830       exact        1.000000
+80       S15-L          PSLN-212(Y)                 Sham       6/7      0/7           85.7         13.62              0.000223               0.000583       exact        0.004662
+81       S15-N             PSLN-344                 Sham       6/7      0/7           85.7         10.73              0.001054               0.002914       exact        0.004662
+82       S15-N             PSLN-344             PSLN-212       6/7      2/7           57.1          3.64              0.056269               0.086247       exact        0.102564
+83       S15-N             PSLN-344          PSLN-212(Y)       6/7      7/7          -14.3          1.00              0.317311               1.000000       exact        1.000000
+84       S15-N             PSLN-212                 Sham       2/7      0/7           28.6          6.67              0.009799               0.014569       exact        0.461538
+85       S15-N          PSLN-212(Y)                 Sham       7/7      0/7          100.0         13.88              0.000195               0.000583       exact        0.000583
+
+                                                                    analysis   test_group    ref_group surv_test  surv_test_pct   test_ci95 surv_ref  surv_ref_pct    ref_ci95  MH_risk_diff_pct      MH_rd_ci95  stratified_logrank_chi2  p_stratified_logrank
+0                       Aged BALB/c, single dose, challenge d2-d14 (6 expts)     PSLN-344         Sham     42/45           93.3   81.7-98.6     1/45           2.2    0.1-11.8              91.1    83.3 to 98.9                    83.66          5.890150e-20
+1                       Aged BALB/c, single dose, challenge d2-d14 (6 expts)     PSLN-344     PSLN-212     42/45           93.3   81.7-98.6     8/45          17.8    8.0-32.1              75.6    63.2 to 88.0                    53.91          2.093926e-13
+2                       Aged BALB/c, single dose, challenge d2-d14 (6 expts)     PSLN-212         Sham      8/45           17.8    8.0-32.1     1/45           2.2    0.1-11.8              15.6     4.3 to 26.8                    20.72          5.327986e-06
+3                  Same, excluding S03-J (age not stated in block) (5 expts)     PSLN-344         Sham     32/35           91.4   76.9-98.2     0/35           0.0    0.0-10.0              91.4    83.0 to 99.9                    69.77          6.655721e-17
+4                  Same, excluding S03-J (age not stated in block) (5 expts)     PSLN-344     PSLN-212     32/35           91.4   76.9-98.2     5/35          14.3    4.8-30.3              77.1    63.4 to 90.9                    44.62          2.386992e-11
+5                          Aged BALB/c heterosubtypic only, d3+d14 (4 expts)     PSLN-344         Sham     25/28           89.3   71.8-97.7     0/28           0.0    0.0-12.3              89.3    78.7 to 99.9                    55.54          9.161487e-14
+6                          Aged BALB/c heterosubtypic only, d3+d14 (4 expts)     PSLN-344     PSLN-212     25/28           89.3   71.8-97.7     5/28          17.9    6.1-36.9              71.4    54.3 to 88.6                    32.37          1.272826e-08
+7                    Aged BALB/c heterosubtypic, challenge d3 only (2 expts)     PSLN-344     PSLN-212     12/14           85.7   57.2-98.2     2/14          14.3    1.8-42.8              71.4    47.8 to 95.1                    18.30          1.888859e-05
+8                   Aged BALB/c heterosubtypic, challenge d14 only (2 expts)     PSLN-344     PSLN-212     13/14           92.9   66.1-99.8     3/14          21.4    4.7-50.8              71.4    46.6 to 96.2                    14.20          1.644389e-04
+9           Aged+344 vs young+212 benchmark, heterosubtypic d3+d14 (4 expts)     PSLN-344  PSLN-212(Y)     25/28           89.3   71.8-97.7    28/28         100.0  87.7-100.0             -10.7   -21.3 to -0.1                     3.16          7.536824e-02
+10                         Aged+344 vs young+212 benchmark, d3-d14 (5 expts)     PSLN-344  PSLN-212(Y)     32/35           91.4   76.9-98.2    35/35         100.0  90.0-100.0              -8.6   -17.0 to -0.1                     3.16          7.536824e-02
+11                                      Aged BALB/c, challenge d60 (3 expts)     PSLN-344         Sham     14/21           66.7   43.0-85.4     0/21           0.0    0.0-16.1              66.7    46.7 to 86.6                    41.15          1.411888e-10
+12                                      Aged BALB/c, challenge d60 (3 expts)     PSLN-344     PSLN-212     14/21           66.7   43.0-85.4     1/21           4.8    0.1-23.8              61.9    40.2 to 83.7                    22.27          2.365056e-06
+13                            Aged+344 vs young+212 benchmark, d60 (3 expts)     PSLN-344  PSLN-212(Y)     14/21           66.7   43.0-85.4    21/21         100.0  83.9-100.0             -33.3  -53.3 to -13.4                     7.87          5.030014e-03
+14  Aged+344 challenged vs age-matched untreated UNCHALLENGED, d60 (3 expts)     PSLN-344    Untreated     14/21           66.7   43.0-85.4    17/21          81.0   58.1-94.6             -14.3   -39.2 to 10.7                     0.60          4.398163e-01
+15        Young+212 challenged vs aged untreated UNCHALLENGED, d60 (3 expts)  PSLN-212(Y)    Untreated     21/21          100.0  83.9-100.0    17/21          81.0   58.1-94.6              19.0     4.1 to 34.0                     4.54          3.310657e-02
+16                                    Aged C57BL/6 + Swiss Webster (2 expts)     PSLN-344         Sham     12/14           85.7   57.2-98.2     0/14           0.0    0.0-23.2              85.7   67.4 to 100.0                    22.24          2.405403e-06
+17                                    Aged C57BL/6 + Swiss Webster (2 expts)     PSLN-344     PSLN-212     12/14           85.7   57.2-98.2     2/14          14.3    1.8-42.8              71.4    46.6 to 96.2                    13.65          2.198075e-04
+18               14-mo BALB/c, naive or PR8-imprinted (2 expts, 4 arms each)     PSLN-344     PSLN-212     24/28           85.7   67.3-96.0     4/28          14.3    4.0-32.7              71.4    53.9 to 89.0                    33.36          7.640818e-09
+
+                                                                           q            a                 b  p_fisher
+0                      PSLN-344 aged: heterosubtypic d3/d14 vs d60 (waning?)        25/28             14/21  0.076006
+1     d60: PSLN-344 challenged vs Untreated unchallenged (attrition ceiling)        14/21             17/21  0.484078
+2  Background 14-day mortality, untreated unchallenged aged mice (S06-E/F/G)  4/21 deaths  95% CI 5.4-41.9%       NaN

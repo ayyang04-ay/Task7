@@ -1,0 +1,92 @@
+animal_1,animal_2,same_block,days_exact,days_integer_offset,n_exact,n_int_offset
+S09-E col AA (PSLN-344(Y)),S15-M col L (PSLN-212(Y)),False,"[2, 4, 6, 8, 10, 12, 14]",[],7,0
+S09-E col N (PSLN-212(Y)),S09-G col N (PSLN-212(Y)),False,"[2, 4, 6, 8, 10, 12, 14]",[],7,0
+S09-E col X (PSLN-344(Y)),S15-M col I (PSLN-212(Y)),False,"[2, 6, 8, 10, 12, 14]","[(4, np.float64(6.0))]",6,1
+S15-A col AA (PSLN-344),S15-O col AH (PSLN-344),False,"[4, 6, 8, 10, 12, 14]",[],6,0
+S15-A col P (PSLN-212),S15-B col P (PSLN-212),False,"[4, 6, 8, 10, 12, 14]",[],6,0
+S15-C col AA (PSLN-344),S15-I col AA (3d Vaccine+PSLN-344),False,"[2, 4, 6, 8, 10, 12]",[],6,0
+S15-C col AB (PSLN-344),S15-I col AB (3d Vaccine+PSLN-344),False,"[2, 4, 6, 8, 10, 12]",[],6,0
+S15-C col AC (PSLN-344),S15-I col AC (3d Vaccine+PSLN-344),False,"[2, 4, 6, 8, 10, 12]",[],6,0
+S15-C col X (PSLN-344),S15-I col X (3d Vaccine+PSLN-344),False,"[2, 4, 6, 8, 10, 12]",[],6,0
+S15-C col Y (PSLN-344),S15-I col Y (3d Vaccine+PSLN-344),False,"[2, 4, 6, 8, 10, 12]",[],6,0
+S15-C col Z (PSLN-344),S15-I col Z (3d Vaccine+PSLN-344),False,"[2, 4, 6, 8, 10, 12]",[],6,0
+S09-E col AB (PSLN-344(Y)),S15-M col M (PSLN-212(Y)),False,"[2, 6, 8, 10, 12]",[],5,0
+S09-E col L (PSLN-212(Y)),S15-C col G (PSLN-212(Y)),False,"[6, 8, 10, 12, 14]",[],5,0
+S09-E col Y (PSLN-344(Y)),S15-M col J (PSLN-212(Y)),False,"[6, 8, 10, 12, 14]","[(4, np.float64(2.0))]",5,1
+S09-E col Z (PSLN-344(Y)),S15-M col K (PSLN-212(Y)),False,"[6, 8, 10, 12, 14]",[],5,0
+S13-G col W (Naive),S15-A col R (PSLN-212),False,"[6, 8, 10, 12, 14]",[],5,0
+S15-A col AA (PSLN-344),S15-M col AH (PSLN-344),False,"[6, 8, 10, 12, 14]",[],5,0
+S15-A col P (PSLN-212),S15-B col Q (PSLN-212),False,"[6, 8, 10, 12, 14]",[],5,0
+S15-A col P (PSLN-212),S15-F col V (PSLN-212),False,"[6, 8, 10, 12, 14]",[],5,0
+S15-A col T (PSLN-212),S15-M col AC (PSLN-212),False,"[6, 8, 10, 12, 14]",[],5,0
+S15-A col X (PSLN-344),S15-M col AE (PSLN-344),False,"[4, 6, 10, 12, 14]","[(2, np.float64(-1.0))]",5,1
+S15-A col Y (PSLN-344),S15-M col AF (PSLN-344),False,"[4, 6, 10, 12, 14]","[(2, np.float64(-1.0)), (8, np.float64(-2.0))]",5,2
+S15-B col P (PSLN-212),S15-F col V (PSLN-212),False,"[6, 8, 10, 12, 14]",[],5,0
+S15-B col Q (PSLN-212),S15-F col V (PSLN-212),False,"[6, 8, 10, 12, 14]",[],5,0
+S15-B col R (PSLN-212),S15-M col AB (PSLN-212),False,"[2, 8, 10, 12, 14]",[],5,0
+S15-M col AH (PSLN-344),S15-O col AH (PSLN-344),False,"[6, 8, 10, 12, 14]",[],5,0
+S09-E col AC (PSLN-344(Y)),S15-M col N (PSLN-212(Y)),False,"[6, 8, 10, 12]",[],4,0
+S13-G col N (Sham),S15-B col S (PSLN-212),False,"[4, 10, 12, 14]",[],4,0
+S13-G col W (Naive),S15-B col X (PSLN-344),False,"[8, 10, 12, 14]",[],4,0
+S13-G col Y (Naive),S15-G col T (PSLN-212),False,"[8, 10, 12, 14]",[],4,0
+S15-A col H (PSLN-212(Y)),S15-M col O (PSLN-212(Y)),False,"[8, 10, 12, 14]",[],4,0
+S15-A col R (PSLN-212),S15-B col X (PSLN-344),False,"[8, 10, 12, 14]",[],4,0
+S15-A col U (PSLN-212),S15-B col S (PSLN-212),False,"[8, 10, 12, 14]",[],4,0
+S15-A col U (PSLN-212),S15-F col R (PSLN-212),False,"[8, 10, 12, 14]",[],4,0
+S15-A col V (PSLN-212),S15-C col Q (PSLN-212),False,"[8, 10, 12, 14]",[],4,0
+S15-A col V (PSLN-212),S15-M col W (PSLN-212),False,"[8, 10, 12, 14]",[],4,0
+S15-B col R (PSLN-212),S15-D col W (PSLN-344),False,"[8, 10, 12, 14]",[],4,0
+S15-B col S (PSLN-212),S15-F col R (PSLN-212),False,"[8, 10, 12, 14]",[],4,0
+S15-B col U (PSLN-212),S15-E col S (PSLN-212),False,"[8, 10, 12, 14]",[],4,0
+S15-C col Q (PSLN-212),S15-M col W (PSLN-212),False,"[8, 10, 12, 14]",[],4,0
+S15-C col W (PSLN-344),S15-I col W (3d Vaccine+PSLN-344),False,"[4, 6, 8, 12]",[],4,0
+S15-D col F (PSLN-212(Y)),S15-F col P (PSLN-212),False,"[8, 10, 12, 14]",[],4,0
+S15-D col W (PSLN-344),S15-M col AB (PSLN-212),False,"[8, 10, 12, 14]",[],4,0
+S15-E col W (PSLN-344),S15-G col S (PSLN-212),False,"[8, 10, 12, 14]",[],4,0
+S15-G col Q (PSLN-212),S15-M col Z (PSLN-212),False,"[8, 10, 12, 14]",[],4,0
+S15-G col R (PSLN-212),S15-M col Z (PSLN-212),False,"[8, 10, 12, 14]",[],4,0
+S09-E col AD (PSLN-344(Y)),S09-G col AD (PSLN-344(Y)),False,"[6, 8, 10]",[],3,0
+S13-F col P (PSLN-212),S15-B col W (PSLN-344),False,"[10, 12, 14]",[],3,0
+S13-F col P (PSLN-212),S15-E col Q (PSLN-212),False,"[10, 12, 14]",[],3,0
+S13-F col S (PSLN-212),S15-B col W (PSLN-344),False,"[10, 12, 14]",[],3,0
+S13-F col S (PSLN-212),S15-E col Q (PSLN-212),False,"[10, 12, 14]",[],3,0
+S13-F col X (PSLN-344),S15-A col AC (PSLN-344),False,"[8, 12, 14]",[],3,0
+S13-G col N (Sham),S15-A col U (PSLN-212),False,"[10, 12, 14]",[],3,0
+S13-G col N (Sham),S15-C col P (PSLN-212),False,"[10, 12, 14]",[],3,0
+S13-G col N (Sham),S15-D col V (PSLN-212),False,"[10, 12, 14]",[],3,0
+S13-G col N (Sham),S15-F col R (PSLN-212),False,"[10, 12, 14]",[],3,0
+S15-A col U (PSLN-212),S15-C col P (PSLN-212),False,"[10, 12, 14]",[],3,0
+S15-A col U (PSLN-212),S15-D col V (PSLN-212),False,"[10, 12, 14]",[],3,0
+S15-A col U (PSLN-212),S15-O col Y (PSLN-212),False,"[2, 12, 14]",[],3,0
+S15-A col V (PSLN-212),S15-G col U (PSLN-212),False,"[10, 12, 14]",[],3,0
+S15-A col W (PSLN-344),S15-G col E (PSLN-212(Y)),False,"[2, 4, 14]",[],3,0
+S15-A col Z (PSLN-344),S15-F col H (PSLN-212(Y)),False,"[2, 6, 8]",[],3,0
+S15-B col S (PSLN-212),S15-C col P (PSLN-212),False,"[10, 12, 14]",[],3,0
+S15-B col S (PSLN-212),S15-D col V (PSLN-212),False,"[10, 12, 14]",[],3,0
+S15-B col V (PSLN-212),S15-E col T (PSLN-212),False,"[10, 12, 14]",[],3,0
+S15-B col W (PSLN-344),S15-E col Q (PSLN-212),False,"[10, 12, 14]",[],3,0
+S15-C col M (Sham),S15-M col T (Sham),False,"[2, 4, 6]",[],3,0
+S15-C col P (PSLN-212),S15-D col V (PSLN-212),False,"[10, 12, 14]",[],3,0
+S15-C col P (PSLN-212),S15-F col R (PSLN-212),False,"[10, 12, 14]",[],3,0
+S15-C col Q (PSLN-212),S15-G col U (PSLN-212),False,"[10, 12, 14]",[],3,0
+S15-D col V (PSLN-212),S15-F col R (PSLN-212),False,"[10, 12, 14]",[],3,0
+S15-D col X (PSLN-344),S15-O col K (PSLN-212(Y)),False,"[8, 12, 14]",[],3,0
+S15-E col R (PSLN-212),S15-G col V (PSLN-212),False,"[10, 12, 14]",[],3,0
+S15-E col R (PSLN-212),S15-O col W (PSLN-212),False,"[10, 12, 14]",[],3,0
+S15-E col U (PSLN-212),S15-O col X (PSLN-212),False,"[10, 12, 14]",[],3,0
+S15-G col U (PSLN-212),S15-M col W (PSLN-212),False,"[10, 12, 14]",[],3,0
+S15-G col V (PSLN-212),S15-O col W (PSLN-212),False,"[10, 12, 14]",[],3,0
+S15-M col AG (PSLN-344),S15-O col AG (PSLN-344),False,"[4, 6, 14]",[],3,0
+S15-M col AI (PSLN-344),S15-O col AI (PSLN-344),False,"[4, 6, 12]",[],3,0
+S08-D col G (CMP-204),S15-F col B (PSLN-212(Y)),False,[10],"[(2, np.float64(-2.0)), (4, np.float64(5.0)), (6, np.float64(6.0)), (8, np.float64(2.0))]",1,4
+S08-D col I (CMP-204),S15-F col D (PSLN-212(Y)),False,[],"[(2, np.float64(-1.0)), (4, np.float64(3.0)), (6, np.float64(8.0)), (8, np.float64(15.0)), (10, np.float64(10.0))]",0,5
+S08-D col J (CMP-204),S15-F col E (PSLN-212(Y)),False,[],"[(2, np.float64(3.0)), (4, np.float64(9.0)), (6, np.float64(8.0)), (8, np.float64(16.0)), (10, np.float64(16.0))]",0,5
+S08-D col K (CMP-204),S15-F col C (PSLN-212(Y)),False,[],"[(2, np.float64(-5.0)), (4, np.float64(4.0)), (6, np.float64(11.0)), (8, np.float64(9.0)), (10, np.float64(8.0))]",0,5
+S15-A col Y (PSLN-344),S15-J col AF (Imprinting+PSLN-344),False,[],"[(2, np.float64(2.0)), (6, np.float64(-9.0)), (8, np.float64(-8.0)), (10, np.float64(-6.0)), (12, np.float64(-9.0))]",0,5
+S15-J col AD (Imprinting+PSLN-344),S15-M col AD (PSLN-344),False,[],"[(2, np.float64(2.0)), (4, np.float64(1.0)), (6, np.float64(1.0)), (8, np.float64(3.0)), (10, np.float64(5.0)), (12, np.float64(3.0))]",0,6
+S15-J col AF (Imprinting+PSLN-344),S15-M col AF (PSLN-344),False,[],"[(2, np.float64(-3.0)), (6, np.float64(9.0)), (8, np.float64(6.0)), (10, np.float64(6.0)), (12, np.float64(9.0))]",0,5
+S15-B col P (PSLN-212),S15-B col Q (PSLN-212),True,"[6, 8, 10, 12, 14]",[],5,0
+S15-G col Q (PSLN-212),S15-G col R (PSLN-212),True,"[8, 10, 12, 14]",[],4,0
+S09-C col H (PSLN-212(Y)),S09-C col X (PSLN-344(Y)),True,"[2, 8, 12]",[],3,0
+S13-F col P (PSLN-212),S13-F col S (PSLN-212),True,"[10, 12, 14]",[],3,0
+S13-G col AA (Naive),S13-G col X (Naive),True,"[10, 12, 14]",[],3,0

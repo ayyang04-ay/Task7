@@ -1,0 +1,8 @@
+{
+  "autoQaEnabled": true,
+  "latestChainStatus": "completed",
+  "latestChainCompletedAt": "2026-11-19T10:55:17.322338Z",
+  "runCount": 8,
+  "completedRunCount": 8,
+  "minRunsForQa": 4
+}

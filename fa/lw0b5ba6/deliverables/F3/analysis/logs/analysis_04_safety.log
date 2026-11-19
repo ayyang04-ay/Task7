@@ -1,0 +1,111 @@
+S08-D body weight after vaccination (percent of day 0)
+           group          cells  n_day0  n_day10  mean_d0  mean_d2  mean_d4  mean_d6  mean_d8  mean_d10  mean_nadir  sd_nadir  worst_animal  max_loss_pct  n_loss_ge5pct  n_loss_ge10pct
+0    PSLN-212(Y)    S08!B21:F26       5        5      100     98.4     97.7      100      100       101        97.6      1.25            96             4              0               0
+1        CMP-204    S08!G21:K26       5        5      100     97.1       96     97.1      100       101        95.9      2.02          93.2           6.8              1               0
+2       PSLN-212    S08!L21:P26       5        5      100     98.3       97     98.5      100       101          97      1.71          94.5           5.5              1               0
+3       PSLN-344    S08!Q21:U26       5        5      100     97.5     96.7     97.4     98.6      99.8        96.4       1.5          94.2           5.8              1               0
+4  PSLN-212/R848    S08!V21:Z26       5        4      100     97.7     95.1     93.9     91.7      90.6          90      5.02          84.7          15.3              4               4
+5        Vaccine  S08!AA21:AE26       5        5      100     98.4     98.8     99.6     99.9       100        98.2      1.08          97.1           2.9              0               0
+                    contrast  nadir1  nadir2  diff  ci_lo  ci_hi  welch_p  mw_exact_p
+0        PSLN-344 vs Vaccine    96.4    98.2  -1.8  -3.74  0.143   0.0648      0.0952
+1       PSLN-344 vs PSLN-212    96.4      97 -0.62  -2.98   1.74     0.56       0.548
+2    PSLN-344 vs PSLN-212(Y)    96.4    97.6 -1.19  -3.22  0.842    0.213       0.421
+3        PSLN-344 vs CMP-204    96.4    95.9 0.478  -2.16   3.12    0.684       0.841
+4  PSLN-212/R848 vs PSLN-344      90    96.4 -6.44  -12.6 -0.297   0.0432       0.151
+5   PSLN-212/R848 vs Vaccine      90    98.2 -8.24  -14.4  -2.07   0.0199      0.0556
+6        PSLN-212 vs Vaccine      97    98.2 -1.18  -3.34  0.975    0.235        0.31
+
+S09-A geometric-mean fold vs untreated
+group                                                PBS  CMP-204  PSLN-212  PSLN-R848  PSLN-212/R848  PSLN-344  PSLN-212(y)
+panel                                       analyte                                                                         
+16 h                                        Ifnb1    1.0      7.6      16.5        4.3           24.0      36.3         37.8
+                                            Il6      1.0      2.3       5.6        2.0           31.0      36.1         60.3
+                                            Ccl2     1.0      5.5       7.6        2.5          226.0     590.1       1390.5
+                                            Ccl3     1.0      1.2       1.1        4.2            3.8      29.8         57.3
+                                            Ccl5     1.0      1.6       2.6        0.8            8.2      19.8         62.1
+                                            Tnf      1.0      7.0      15.7      130.3          202.3      40.5         13.9
+                                            Il10     1.0      3.3       3.7       28.6          179.4       7.3          1.8
+72 h [printed as 16h; = S01-A 72 h animals] Ifnb1    1.0      2.2       3.4        1.2            1.6       4.0          1.4
+                                            Il6      1.0      1.1       1.9        4.1           33.8       7.2          3.1
+                                            Ccl2     1.0      5.7       5.2       10.2           58.4      27.4        101.6
+                                            Ccl3     1.0      1.3       4.7        0.7           13.6       9.2         41.5
+                                            Ccl5     1.0      1.1       1.2        1.1           54.7       2.0          0.5
+                                            Tnf      1.0      2.5       5.2       28.4           50.2       8.4          0.5
+                                            Il10     1.0      3.5       4.2        4.2           45.0       4.2          0.1
+                                           panel analyte        g1           g2  fold_ratio  welch_p  student_p
+0                                           16 h   Ifnb1  PSLN-344          PBS        36.3  0.00457   0.000434
+1                                           16 h   Ifnb1  PSLN-344     PSLN-212        2.21  0.00561    0.00555
+2                                           16 h   Ifnb1  PSLN-344  PSLN-212(y)        0.96    0.754      0.751
+8                                           16 h     Il6  PSLN-344          PBS        36.1  0.00293    0.00291
+9                                           16 h     Il6  PSLN-344     PSLN-212        6.48   0.0209     0.0196
+10                                          16 h     Il6  PSLN-344  PSLN-212(y)       0.598    0.336      0.328
+16                                          16 h    Ccl2  PSLN-344          PBS         590 0.000425   0.000411
+17                                          16 h    Ccl2  PSLN-344     PSLN-212        77.4  0.00226    0.00101
+18                                          16 h    Ccl2  PSLN-344  PSLN-212(y)       0.424    0.217      0.217
+24                                          16 h    Ccl3  PSLN-344          PBS        29.8   0.0194    0.00645
+25                                          16 h    Ccl3  PSLN-344     PSLN-212        26.7 0.000786   0.000749
+26                                          16 h    Ccl3  PSLN-344  PSLN-212(y)       0.521    0.135      0.135
+32                                          16 h    Ccl5  PSLN-344          PBS        19.8  0.00475    0.00159
+33                                          16 h    Ccl5  PSLN-344     PSLN-212        7.58   0.0247    0.00469
+34                                          16 h    Ccl5  PSLN-344  PSLN-212(y)       0.319   0.0699     0.0686
+40                                          16 h     Tnf  PSLN-344          PBS        40.5  0.00782   0.000506
+41                                          16 h     Tnf  PSLN-344     PSLN-212        2.58    0.108     0.0545
+42                                          16 h     Tnf  PSLN-344  PSLN-212(y)        2.92  0.00904    0.00223
+48                                          16 h    Il10  PSLN-344          PBS        7.31  0.00697    0.00695
+49                                          16 h    Il10  PSLN-344     PSLN-212        1.97    0.194      0.192
+50                                          16 h    Il10  PSLN-344  PSLN-212(y)        3.98   0.0212     0.0125
+56   72 h [printed as 16h; = S01-A 72 h animals]   Ifnb1  PSLN-344          PBS        4.01    0.039     0.0149
+57   72 h [printed as 16h; = S01-A 72 h animals]   Ifnb1  PSLN-344     PSLN-212        1.18    0.665      0.648
+58   72 h [printed as 16h; = S01-A 72 h animals]   Ifnb1  PSLN-344  PSLN-212(y)        2.87    0.109      0.107
+64   72 h [printed as 16h; = S01-A 72 h animals]     Il6  PSLN-344          PBS        7.19  0.00829    0.00829
+65   72 h [printed as 16h; = S01-A 72 h animals]     Il6  PSLN-344     PSLN-212        3.85   0.0263     0.0133
+66   72 h [printed as 16h; = S01-A 72 h animals]     Il6  PSLN-344  PSLN-212(y)        2.32   0.0846     0.0533
+72   72 h [printed as 16h; = S01-A 72 h animals]    Ccl2  PSLN-344          PBS        27.4  0.00103   0.000724
+73   72 h [printed as 16h; = S01-A 72 h animals]    Ccl2  PSLN-344     PSLN-212        5.24  0.00997    0.00177
+74   72 h [printed as 16h; = S01-A 72 h animals]    Ccl2  PSLN-344  PSLN-212(y)        0.27   0.0105     0.0103
+80   72 h [printed as 16h; = S01-A 72 h animals]    Ccl3  PSLN-344          PBS        9.23  0.00171    0.00159
+81   72 h [printed as 16h; = S01-A 72 h animals]    Ccl3  PSLN-344     PSLN-212        1.95   0.0756     0.0754
+82   72 h [printed as 16h; = S01-A 72 h animals]    Ccl3  PSLN-344  PSLN-212(y)       0.223   0.0105    0.00896
+88   72 h [printed as 16h; = S01-A 72 h animals]    Ccl5  PSLN-344          PBS        2.01   0.0161     0.0139
+89   72 h [printed as 16h; = S01-A 72 h animals]    Ccl5  PSLN-344     PSLN-212        1.66   0.0819     0.0661
+90   72 h [printed as 16h; = S01-A 72 h animals]    Ccl5  PSLN-344  PSLN-212(y)        3.68   0.0757     0.0348
+96   72 h [printed as 16h; = S01-A 72 h animals]     Tnf  PSLN-344          PBS        8.44  0.00482    0.00181
+97   72 h [printed as 16h; = S01-A 72 h animals]     Tnf  PSLN-344     PSLN-212        1.62   0.0515      0.041
+98   72 h [printed as 16h; = S01-A 72 h animals]     Tnf  PSLN-344  PSLN-212(y)        17.8  0.00762    0.00159
+104  72 h [printed as 16h; = S01-A 72 h animals]    Il10  PSLN-344          PBS        4.16   0.0571     0.0555
+105  72 h [printed as 16h; = S01-A 72 h animals]    Il10  PSLN-344     PSLN-212       0.995    0.991      0.991
+106  72 h [printed as 16h; = S01-A 72 h animals]    Il10  PSLN-344  PSLN-212(y)        36.6  0.00151    0.00117
+
+S10-A CNS transcripts
+   analyte     group      cells  n  mean    sd   geo
+0    Ifnb1       PBS  S10!A3:A7  5     1 0.228 0.976
+1    Ifnb1      Sham  S10!B3:B7  5  1.17 0.336  1.12
+2    Ifnb1  PSLN-344  S10!C3:C7  5  1.32  0.41  1.27
+3    Ifnb1        CT  S10!D3:D7  5   5.5  1.19   5.4
+4      Tnf       PBS  S10!F3:F7  5     1 0.219  0.98
+5      Tnf      Sham  S10!G3:G7  5  1.32 0.394  1.28
+6      Tnf  PSLN-344  S10!H3:H7  5  1.59 0.486  1.54
+7      Tnf        CT  S10!I3:I7  5   3.5  1.22  3.33
+8    Isg15       PBS  S10!K3:K7  5     1 0.335  0.96
+9    Isg15      Sham  S10!L3:L7  5  1.04 0.174  1.03
+10   Isg15  PSLN-344  S10!M3:M7  5  1.13 0.207  1.12
+11   Isg15        CT  S10!N3:N7  5  2.68 0.741  2.59
+   analyte                       g1        g2  ratio  ci_lo  ci_hi  welch_p  mw_exact_p
+0    Ifnb1                 PSLN-344       PBS    1.3  0.842   2.01    0.199      0.0952
+1    Ifnb1                 PSLN-344      Sham   1.14  0.694   1.86    0.568       0.548
+2    Ifnb1                       CT       PBS   5.54   3.92   7.83 4.36e-06     0.00794
+3    Ifnb1                       CT  PSLN-344   4.26   2.82   6.44 8.43e-05     0.00794
+4    Ifnb1                     Sham       PBS   1.15  0.729    1.8    0.504        0.31
+5    Ifnb1  ANOVA (4 groups, log10)              NaN    NaN    NaN 1.78e-07         NaN
+6      Tnf                 PSLN-344       PBS   1.57   1.05   2.34   0.0331      0.0556
+7      Tnf                 PSLN-344      Sham    1.2  0.775   1.87    0.361       0.421
+8      Tnf                       CT       PBS    3.4   2.19   5.29 0.000326     0.00794
+9      Tnf                       CT  PSLN-344   2.17   1.34   3.51  0.00594      0.0159
+10     Tnf                     Sham       PBS    1.3  0.881   1.93    0.156        0.31
+11     Tnf  ANOVA (4 groups, log10)              NaN    NaN    NaN  5.3e-05         NaN
+12   Isg15                 PSLN-344       PBS   1.16  0.787   1.72    0.385       0.421
+13   Isg15                 PSLN-344      Sham   1.08  0.836   1.41    0.497       0.841
+14   Isg15                       CT       PBS    2.7   1.75   4.17 0.000756     0.00794
+15   Isg15                       CT  PSLN-344   2.33   1.64   3.31 0.000798     0.00794
+16   Isg15                     Sham       PBS   1.07  0.727   1.58    0.678       0.841
+17   Isg15  ANOVA (4 groups, log10)              NaN    NaN    NaN 2.18e-05         NaN

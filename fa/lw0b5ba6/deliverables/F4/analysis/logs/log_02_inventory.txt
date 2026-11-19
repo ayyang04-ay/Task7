@@ -1,0 +1,112 @@
+                block           kind                                                                                 groups               n_obs_per_group_per_level  stated_n  n_min  n_max  n_mismatch
+0               S01-A         scalar  Sham; CMP-204; PSLN-212; PSLN-R848; PSLN-212/R848; PSLN-344; PSLN-212(Y); PSLN-344(Y)  [5]; [5]; [5]; [5]; [5]; [5]; [5]; [5]       5.0      5      5       False
+1               S01-B         scalar                             AECII/PSLN-SRB; AECI/PSLN-SRB; AECII/FreeSRB; AECI/FreeSRB                      [5]; [5]; [5]; [5]       5.0      5      5       False
+2               S01-C         scalar                                                                              WT; SPA/D                                [4]; [4]       4.0      4      4       False
+3               S01-D         scalar                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                      [5]; [5]; [5]; [5]       5.0      5      5       False
+4               S01-E         scalar                                     Sham; PSLN-212; PSLN-344; PSLN-212(Y); PSLN-344(Y)                 [5]; [5]; [5]; [5]; [5]       5.0      5      5       False
+5               S01-F         scalar                                     Sham; PSLN-212; PSLN-344; PSLN-212(Y); PSLN-344(Y)                 [5]; [5]; [5]; [5]; [5]       5.0      5      5       False
+6               S01-G         scalar                                     Sham; PSLN-212; PSLN-344; PSLN-212(Y); PSLN-344(Y)                 [5]; [5]; [5]; [5]; [5]       5.0      5      5       False
+7               S02-A         scalar                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                      [5]; [5]; [5]; [5]       5.0      5      5       False
+8               S02-B         scalar                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                      [5]; [5]; [5]; [5]       5.0      5      5       False
+9               S02-C         scalar                                      PSLN-212; PSLN-344; PSLN-212(Y); PTX; PSLN-344(Y)                 [5]; [5]; [5]; [5]; [5]       5.0      5      5       False
+10         S02-D CD40         scalar                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                      [5]; [5]; [5]; [5]       5.0      5      5       False
+11         S02-D CD86         scalar                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                      [5]; [5]; [5]; [5]       5.0      5      5       False
+12              S02-E         scalar                                      PSLN-212; PSLN-344; PSLN-212(Y); PTX; PSLN-344(Y)                 [5]; [5]; [5]; [5]; [5]       5.0      5      5       False
+13              S02-F         scalar                                                               PSLN-344; PSLN-212; Sham                           [5]; [5]; [5]       5.0      5      5       False
+14              S02-G         scalar                                                      GM-CSF; PSLN-212; PSLN-212+GM-CSF                           [5]; [5]; [5]       5.0      5      5       False
+15              S02-H         scalar                                  WT w/o cDC; WT w/ cDC; IFN w/o cDC; IFN w/ cDC; GMCSF                 [5]; [5]; [5]; [5]; [5]       5.0      5      5       False
+16              S02-I         scalar                                                      PSLN-344(Y); PSLN-344(Y)+INCB3344                                [5]; [5]       5.0      5      5       False
+17              S03-A         scalar                                         Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y)                 [5]; [5]; [5]; [5]; [5]       5.0      5      5       False
+18              S03-B         scalar                                                        PSLN-212; PSLN-344; PSLN-212(Y)                           [5]; [5]; [5]       5.0      5      5       False
+19              S03-C         scalar                                         Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y)                 [5]; [5]; [5]; [5]; [5]       5.0      5      5       False
+20              S03-D         scalar                                         Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y)                 [5]; [5]; [5]; [5]; [5]       5.0      5      5       False
+21              S03-E         scalar                                         Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y)                 [5]; [5]; [5]; [5]; [5]       5.0      5      5       False
+22              S03-F         scalar                                                        PSLN-212; PSLN-344; PSLN-212(Y)                           [5]; [5]; [5]       5.0      5      5       False
+23              S03-G         scalar                                         Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y)                 [5]; [5]; [5]; [5]; [5]       5.0      5      5       False
+24              S03-H         scalar                                         Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y)                 [5]; [5]; [5]; [5]; [5]       5.0      5      5       False
+25              S03-K         scalar                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                      [5]; [5]; [5]; [5]       5.0      5      5       False
+26              S03-L         scalar                                                               Sham; PSLN-212; PSLN-344                           [3]; [3]; [3]       3.0      3      3       False
+27              S04-A         scalar                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                      [5]; [5]; [5]; [5]       5.0      5      5       False
+28        S04-B Foxp3         scalar                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                      [5]; [5]; [5]; [5]       5.0      5      5       False
+29      S04-B Tfh:Tfr         scalar                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                      [5]; [5]; [5]; [5]       5.0      5      5       False
+30              S04-C         scalar                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                      [5]; [5]; [5]; [5]       5.0      5      5       False
+31              S04-D         scalar                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                      [3]; [3]; [3]; [3]       3.0      3      3       False
+32              S05-A         scalar                                                          PSLN-212; PSLN-344; PSLN-212Y                           [2]; [2]; [2]       3.0      2      2        True
+33              S05-B         scalar                                                          PSLN-212; PSLN-344; PSLN-212Y                           [2]; [2]; [2]       3.0      2      2        True
+34              S05-C         scalar                                                           Lung; Lung+PTX; MLN; MLN+PTX                      [3]; [3]; [3]; [3]       3.0      3      3       False
+35              S05-D         scalar                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                      [5]; [5]; [5]; [5]       5.0      5      5       False
+36              S05-E         scalar                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                      [5]; [5]; [5]; [5]       5.0      5      5       False
+37              S05-F         scalar                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                      [5]; [5]; [5]; [5]       5.0      5      5       False
+38              S05-G         scalar                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                      [5]; [5]; [5]; [5]       5.0      5      5       False
+39              S05-H         scalar                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                      [5]; [5]; [5]; [5]       5.0      5      5       False
+40              S05-I         scalar                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                      [5]; [5]; [5]; [5]       5.0      5      5       False
+41              S07-A         scalar                                                                     PSLN-212; PSLN-344                                [3]; [3]       3.0      3      3       False
+42              S07-B         scalar                                                            PSLN-344; PSLN-344+INCB3344                                [5]; [5]       5.0      5      5       False
+43              S07-C         scalar                   colB: Ly6C-CD206+ MΦ (as printed); colC: Ly6C-CD206+ MΦ (as printed)                                [5]; [5]       5.0      5      5       False
+44              S08-A         scalar                                             CMP-204; PSLN-212; PSLN-344; PSLN-344/R848                      [3]; [3]; [3]; [3]       3.0      3      3       False
+45              S08-B         scalar                                  CMP-204; PSLN-212; PSLN-R848; PSLN-212/R848; PSLN-344                 [3]; [3]; [3]; [3]; [3]       3.0      3      3       False
+46              S08-C         scalar                   AECII-PSLN-SRB; AECII-PSLN-344-SRB; AECI-PSLN-SRB; AECI-PSLN-344-SRB                      [5]; [5]; [5]; [5]       5.0      5      5       False
+47    S09-A(cols A-V)         scalar                PBS; CMP-204; PSLN-212; PSLN-R848; PSLN-212/R848; PSLN-344; PSLN-212(y)       [3]; [3]; [3]; [3]; [3]; [3]; [3]       3.0      3      3       False
+48   S09-A(cols X-AS)         scalar                PBS; CMP-204; PSLN-212; PSLN-R848; PSLN-212/R848; PSLN-344; PSLN-212(y)       [3]; [3]; [3]; [3]; [3]; [3]; [3]       3.0      3      3       False
+49              S10-A         scalar                                                                PBS; Sham; PSLN-344; CT                      [5]; [5]; [5]; [5]       5.0      5      5       False
+50              S11-A         scalar                                               Vaccine; PSLN-212; PSLN-344; PSLN-212(Y)                      [5]; [5]; [5]; [5]       5.0      5      5       False
+51              S11-B         scalar                                               Vaccine; PSLN-212; PSLN-344; PSLN-212(Y)                      [5]; [5]; [5]; [5]       5.0      5      5       False
+52              S11-C         scalar                                                                             CBX+; CBX-                                [5]; [5]       5.0      5      5       False
+53              S11-D         scalar                                               Vaccine; PSLN-212; PSLN-344; PSLN-212(Y)                      [5]; [5]; [5]; [5]       5.0      5      5       False
+54              S11-E         scalar                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                      [5]; [5]; [5]; [5]       5.0      5      5       False
+55              S12-A         scalar                                                               WT to WT; IFNAR-/- to WT                                [3]; [3]       3.0      3      3       False
+56              S13-A         scalar                                                        PSLN-212; PSLN-344; PSLN-212(Y)                           [5]; [5]; [5]       5.0      5      5       False
+57              S13-B         scalar                                                        PSLN-212; PSLN-344; PSLN-212(Y)                           [5]; [5]; [5]       5.0      5      5       False
+58              S13-C         scalar                                                        PSLN-212; PSLN-344; PSLN-212(Y)                           [5]; [5]; [5]       5.0      5      5       False
+59              S13-D         scalar                                                        PSLN-212; PSLN-344; PSLN-212(Y)                           [5]; [5]; [5]       5.0      5      5       False
+60              S13-H         scalar                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                      [5]; [5]; [5]; [5]       5.0      5      5       False
+61              S13-I         scalar                                         Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y)                 [5]; [5]; [5]; [5]; [5]       5.0      5      5       False
+62              S13-J         scalar                                         Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y)                 [5]; [5]; [5]; [5]; [5]       5.0      5      5       False
+63         S14-A H1N1         scalar                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                      [5]; [5]; [5]; [5]       5.0      5      5       False
+64         S14-A H3N2         scalar                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                      [5]; [5]; [5]; [5]       5.0      5      5       False
+65              S03-I  time-to-event                                         Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y)                           7; 7; 7; 7; 7       7.0      7      7       False
+66              S03-J  time-to-event                                                               Sham; PSLN-212; PSLN-344                              10; 10; 10       9.0     10     10        True
+67              S06-A  time-to-event                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                              7; 7; 7; 7       7.0      7      7       False
+68              S06-B  time-to-event                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                              7; 7; 7; 7       7.0      7      7       False
+69              S06-C  time-to-event                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                              7; 7; 7; 7       7.0      7      7       False
+70              S06-D  time-to-event                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                              7; 7; 7; 7       7.0      7      7       False
+71              S06-E  time-to-event                                       Sham; PSLN-212; PSLN-344; PSLN-212(Y); Untreated                           7; 7; 7; 7; 7       7.0      7      7       False
+72              S06-F  time-to-event                                       Sham; PSLN-212; PSLN-344; PSLN-212(Y); Untreated                           7; 7; 7; 7; 7       7.0      7      7       False
+73              S06-G  time-to-event                                       Sham; PSLN-212; PSLN-344; PSLN-212(Y); Untreated                           7; 7; 7; 7; 7       7.0      7      7       False
+74         S06-E(r71)  time-to-event               Naïve+PSLN-212; Imprinting+PSLN-212; Naïve+PSLN-344; Imprinting+PSLN-344                              7; 7; 7; 7       7.0      7      7       False
+75         S06-F(r71)  time-to-event               Naïve+PSLN-212; Imprinting+PSLN-212; Naïve+PSLN-344; Imprinting+PSLN-344                              7; 7; 7; 7       7.0      7      7       False
+76     S08-unlabelled  time-to-event                                                                             colC; colD                                    6; 7       NaN      6      7        True
+77              S09-B  time-to-event                                                             Sham; PSLN-344Y; PSLN-212Y                                 8; 8; 8       8.0      8      8       False
+78              S09-D  time-to-event                                                             Sham; PSLN-344Y; PSLN-212Y                                 8; 8; 8       8.0      8      8       False
+79              S09-F  time-to-event                                                             Sham; PSLN-344Y; PSLN-212Y                                 7; 8; 8       8.0      7      8        True
+80              S13-E  time-to-event                                                   Naïve; Sham; CMP-204(Y); PSLN-344(Y)                              7; 7; 7; 7       5.0      7      7        True
+81              S15-H  time-to-event                                           3d Vaccine; 3d PSLN-344; 3d Vaccine+PSLN-344                                 7; 7; 7       7.0      7      7       False
+82              S15-L  time-to-event                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                              7; 7; 7; 7       7.0      7      7       False
+83              S15-N  time-to-event                                                  Sham; PSLN-212; PSLN-344; PSLN-212(Y)                              7; 7; 7; 7       7.0      7      7       False
+84              S08-D    body weight                       PSLN-212(Y); CMP-204; PSLN-212; PSLN-344; PSLN-212/R848; Vaccine                5; 5; 5; 5; 5; 5 (day 0)       5.0      5      5       False
+85              S09-C    body weight                                                             PSLN-212Y; Sham; PSLN-344Y                         8; 8; 8 (day 0)       8.0      8      8       False
+86              S09-E    body weight                                                             PSLN-212Y; Sham; PSLN-344Y                         8; 8; 8 (day 0)       8.0      8      8       False
+87              S09-G    body weight                                                             PSLN-212Y; Sham; PSLN-344Y                         8; 8; 8 (day 0)       8.0      8      8       False
+88              S13-F    body weight                                           PSLN-212(Y); Sham; PSLN-212; PSLN-344; Naïve                   7; 7; 7; 7; 7 (day 0)       7.0      7      7       False
+89              S13-G    body weight                                                                  PSLN-344; Sham; Naïve                      10; 10; 10 (day 0)      10.0     10     10       False
+90              S15-A    body weight                                                  PSLN-212(Y); Sham; PSLN-212; PSLN-344                      7; 7; 7; 7 (day 0)       7.0      7      7       False
+91              S15-B    body weight                                                  PSLN-212(Y); Sham; PSLN-212; PSLN-344                      7; 7; 7; 7 (day 0)       7.0      7      7       False
+92              S15-C    body weight                                                  PSLN-212(Y); Sham; PSLN-212; PSLN-344                      7; 7; 7; 7 (day 0)       7.0      7      7       False
+93              S15-D    body weight                                                  PSLN-212(Y); Sham; PSLN-212; PSLN-344                      7; 7; 7; 7 (day 0)       7.0      7      7       False
+94              S15-E    body weight                                       PSLN-212(Y); Sham; PSLN-212; PSLN-344; Untreated                   7; 7; 7; 7; 7 (day 0)       7.0      7      7       False
+95              S15-F    body weight                                       PSLN-212(Y); Sham; PSLN-212; PSLN-344; Untreated                   7; 7; 7; 7; 7 (day 0)       7.0      7      7       False
+96              S15-G    body weight                                       PSLN-212(Y); Sham; PSLN-212; PSLN-344; Untreated                   7; 7; 7; 7; 7 (day 0)       7.0      7      7       False
+97              S15-I    body weight                                           3d Vaccine; 3d PSLN-344; 3d Vaccine+PSLN-344                         7; 7; 7 (day 0)       7.0      7      7       False
+98              S15-J    body weight               Naïve+PSLN-212; Imprinting+PSLN-212; Naïve+PSLN-344; Imprinting+PSLN-344                      7; 7; 7; 7 (day 0)       7.0      7      7       False
+99              S15-K    body weight               Naïve+PSLN-212; Imprinting+PSLN-212; Naïve+PSLN-344; Imprinting+PSLN-344                      7; 7; 7; 7 (day 0)       7.0      7      7       False
+100             S15-M    body weight                                                  PSLN-212(Y); Sham; PSLN-212; PSLN-344                      7; 7; 7; 7 (day 0)       7.0      7      7       False
+101             S15-O    body weight                                                  PSLN-212(Y); Sham; PSLN-212; PSLN-344                      7; 7; 7; 7 (day 0)       7.0      7      7       False
+
+Blocks where stated n != observations:
+             block           kind  stated_n n_obs_per_group_per_level                                groups
+32           S05-A         scalar       3.0             [2]; [2]; [2]         PSLN-212; PSLN-344; PSLN-212Y
+33           S05-B         scalar       3.0             [2]; [2]; [2]         PSLN-212; PSLN-344; PSLN-212Y
+66           S03-J  time-to-event       9.0                10; 10; 10              Sham; PSLN-212; PSLN-344
+76  S08-unlabelled  time-to-event       NaN                      6; 7                            colC; colD
+79           S09-F  time-to-event       8.0                   7; 8; 8            Sham; PSLN-344Y; PSLN-212Y
+80           S13-E  time-to-event       5.0                7; 7; 7; 7  Naïve; Sham; CMP-204(Y); PSLN-344(Y)

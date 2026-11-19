@@ -1,0 +1,72 @@
+block,group,n,deaths,survivors,surv_frac,death_days,max_followup,missing_day_values,cohort
+S03-I,Sham,7,7,0,0/7,"[5, 6, 6, 6, 8, 8, 11]",11.0,0,aged BALB/c
+S03-I,CMP-204,7,4,3,3/7,"[6, 7, 8, 10]",14.0,0,aged BALB/c
+S03-I,PSLN-212,7,7,0,0/7,"[5, 5, 5, 6, 6, 6, 6]",6.0,0,aged BALB/c
+S03-I,PSLN-344,7,0,7,7/7,[],14.0,0,aged BALB/c
+S03-I,PSLN-212(Y),7,0,7,7/7,[],14.0,0,aged BALB/c
+S03-J,Sham,10,9,1,1/10,"[3, 4, 9, 9, 9, 10, 10, 10, 10]",21.0,0,age not stated (default aged)
+S03-J,PSLN-212,10,7,3,3/10,"[10, 10, 11, 11, 12, 12, 12]",21.0,0,age not stated (default aged)
+S03-J,PSLN-344,10,0,10,10/10,[],21.0,1,age not stated (default aged)
+S06-A,Sham,7,7,0,0/7,"[4, 4, 4, 5, 5, 7, 7]",7.0,0,aged BALB/c
+S06-A,PSLN-212,7,6,1,1/7,"[4, 6, 6, 8, 9, 10]",14.0,0,aged BALB/c
+S06-A,PSLN-344,7,1,6,6/7,[8],14.0,0,aged BALB/c
+S06-A,PSLN-212(Y),7,0,7,7/7,[],14.0,0,aged BALB/c
+S06-B,Sham,7,7,0,0/7,"[4, 4, 4, 5, 5, 6, 6]",6.0,0,aged BALB/c
+S06-B,PSLN-212,7,7,0,0/7,"[4, 4, 6, 6, 6, 7, 10]",10.0,0,aged BALB/c
+S06-B,PSLN-344,7,2,5,5/7,"[8, 10]",14.0,0,aged BALB/c
+S06-B,PSLN-212(Y),7,0,7,7/7,[],14.0,0,aged BALB/c
+S06-C,Sham,7,7,0,0/7,"[4, 4, 5, 6, 6, 6, 7]",7.0,0,aged BALB/c
+S06-C,PSLN-212,7,5,2,2/7,"[5, 8, 10, 10, 12]",14.0,0,aged BALB/c
+S06-C,PSLN-344,7,0,7,7/7,[],14.0,0,aged BALB/c
+S06-C,PSLN-212(Y),7,0,7,7/7,[],14.0,0,aged BALB/c
+S06-D,Sham,7,7,0,0/7,"[4, 4, 5, 6, 6, 6, 7]",7.0,0,aged BALB/c
+S06-D,PSLN-212,7,5,2,2/7,"[5, 8, 10, 10, 12]",14.0,0,aged BALB/c
+S06-D,PSLN-344,7,0,7,7/7,[],14.0,0,aged BALB/c
+S06-D,PSLN-212(Y),7,0,7,7/7,[],14.0,0,aged BALB/c
+S06-E,Sham,7,7,0,0/7,"[4, 5, 5, 5, 5, 6, 6]",6.0,0,aged BALB/c
+S06-E,PSLN-212,7,7,0,0/7,"[5, 5, 5, 6, 6, 8, 11]",11.0,0,aged BALB/c
+S06-E,PSLN-344,7,2,5,5/7,"[8, 10]",14.0,0,aged BALB/c
+S06-E,PSLN-212(Y),7,0,7,7/7,[],14.0,0,aged BALB/c
+S06-E,Untreated,7,1,6,6/7,[4],14.0,0,aged BALB/c
+S06-F,Sham,7,7,0,0/7,"[4, 4, 4, 5, 5, 6, 6]",6.0,0,aged BALB/c
+S06-F,PSLN-212,7,6,1,1/7,"[4, 5, 6, 6, 6, 7]",14.0,0,aged BALB/c
+S06-F,PSLN-344,7,2,5,5/7,"[7, 8]",14.0,0,aged BALB/c
+S06-F,PSLN-212(Y),7,0,7,7/7,[],14.0,0,aged BALB/c
+S06-F,Untreated,7,0,7,7/7,[],14.0,0,aged BALB/c
+S06-G,Sham,7,7,0,0/7,"[4, 4, 5, 6, 6, 7, 7]",7.0,0,aged BALB/c
+S06-G,PSLN-212,7,7,0,0/7,"[6, 6, 8, 8, 8, 11, 11]",11.0,0,aged BALB/c
+S06-G,PSLN-344,7,3,4,4/7,"[8, 9, 11]",14.0,0,aged BALB/c
+S06-G,PSLN-212(Y),7,0,7,7/7,[],14.0,0,aged BALB/c
+S06-G,Untreated,7,3,4,4/7,"[3, 7, 10]",14.0,0,aged BALB/c
+"S06-E'(r71-98,G-K)",Naive+PSLN-212,7,7,0,0/7,"[4, 4, 5, 6, 6, 6, 8]",8.0,0,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",Imprinting+PSLN-212,7,3,4,4/7,"[6, 8, 8]",14.0,0,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",Naive+PSLN-344,7,1,6,6/7,[5],14.0,0,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",Imprinting+PSLN-344,7,1,6,6/7,[8],14.0,0,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",Naive+PSLN-212,7,7,0,0/7,"[4, 4, 6, 6, 7, 8, 8]",8.0,0,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",Imprinting+PSLN-212,7,7,0,0/7,"[4, 4, 5, 5, 5, 6, 6]",6.0,0,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",Naive+PSLN-344,7,1,6,6/7,[8],14.0,0,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",Imprinting+PSLN-344,7,1,6,6/7,[7],14.0,0,14-mo BALB/c (10-mo imprint)
+S09-B,Sham,8,8,0,0/8,"[6, 6, 6, 7, 7, 7, 8, 8]",8.0,0,young BALB/c
+S09-B,PSLN-344(Y),8,0,8,8/8,[],14.0,0,young BALB/c
+S09-B,PSLN-212(Y),8,0,8,8/8,[],14.0,0,young BALB/c
+S09-D,Sham,8,8,0,0/8,"[7, 8, 8, 8, 8, 8, 9, 9]",9.0,0,young BALB/c
+S09-D,PSLN-344(Y),8,0,8,8/8,[],14.0,0,young BALB/c
+S09-D,PSLN-212(Y),8,0,8,8/8,[],14.0,0,young BALB/c
+S09-F,Sham,7,7,0,0/7,"[6, 6, 6, 7, 8, 8, 8]",8.0,0,young BALB/c
+S09-F,PSLN-344(Y),8,0,8,8/8,[],14.0,0,young BALB/c
+S09-F,PSLN-212(Y),8,0,8,8/8,[],14.0,0,young BALB/c
+S13-E,Naive,7,7,0,0/7,"[6, 7, 7, 7, 8, 8, 8]",8.0,0,young BALB/c
+S13-E,Sham,7,6,1,1/7,"[7, 9, 9, 10, 11, 11]",14.0,0,young BALB/c
+S13-E,CMP-204(Y),7,0,7,7/7,[],14.0,0,young BALB/c
+S13-E,PSLN-344(Y),7,0,7,7/7,[],14.0,0,young BALB/c
+S15-H,3d Vaccine,7,7,0,0/7,"[4, 5, 5, 5, 6, 6, 7]",7.0,0,aged BALB/c
+S15-H,3d PSLN-344,7,7,0,0/7,"[5, 5, 6, 6, 6, 7, 8]",8.0,0,aged BALB/c
+S15-H,3d Vaccine+PSLN-344,7,1,6,6/7,[12],14.0,0,aged BALB/c
+S15-L,Sham,7,7,0,0/7,"[4, 4, 6, 6, 6, 8, 8]",8.0,0,aged C57BL/6 (20 mo)
+S15-L,PSLN-212,7,7,0,0/7,"[6, 7, 7, 8, 8, 9, 11]",11.0,0,aged C57BL/6 (20 mo)
+S15-L,PSLN-344,7,1,6,6/7,[8],14.0,0,aged C57BL/6 (20 mo)
+S15-L,PSLN-212(Y),7,1,6,6/7,[12],14.0,0,aged C57BL/6 (20 mo)
+S15-N,Sham,7,7,0,0/7,"[5, 6, 6, 8, 8, 8, 10]",10.0,0,aged Swiss Webster (20 mo)
+S15-N,PSLN-212,7,5,2,2/7,"[6, 10, 10, 10, 12]",14.0,0,aged Swiss Webster (20 mo)
+S15-N,PSLN-344,7,1,6,6/7,[8],14.0,0,aged Swiss Webster (20 mo)
+S15-N,PSLN-212(Y),7,0,7,7/7,[],14.0,0,aged Swiss Webster (20 mo)

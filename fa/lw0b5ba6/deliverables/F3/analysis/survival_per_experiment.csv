@@ -1,0 +1,72 @@
+exp,block,cells,age,vaccine,challenge,chal_day,window,arm,group_cells,n,deaths,survivors,surv_pct,ci_lo,ci_hi,death_days,median_death_day,rows_missing_day
+E01,S03-I,S03!A16:F51,aged >=20 mo BALB/c,bivalent H1N1+H3N2,10x mLD50 CA09 H1N1 (homologous),14.0,d14,CMP-204,C24:C30,7,4,3,42.9,9.9,81.6,"6,7,8,10",7.5,0
+E01,S03-I,S03!A16:F51,aged >=20 mo BALB/c,bivalent H1N1+H3N2,10x mLD50 CA09 H1N1 (homologous),14.0,d14,PSLN-212,D31:D37,7,7,0,0.0,0.0,41.0,"5,5,5,6,6,6,6",6.0,0
+E01,S03-I,S03!A16:F51,aged >=20 mo BALB/c,bivalent H1N1+H3N2,10x mLD50 CA09 H1N1 (homologous),14.0,d14,PSLN-212(Y),F45:F51,7,0,7,100.0,59.0,100.0,,,0
+E01,S03-I,S03!A16:F51,aged >=20 mo BALB/c,bivalent H1N1+H3N2,10x mLD50 CA09 H1N1 (homologous),14.0,d14,PSLN-344,E38:E44,7,0,7,100.0,59.0,100.0,,,0
+E01,S03-I,S03!A16:F51,aged >=20 mo BALB/c,bivalent H1N1+H3N2,10x mLD50 CA09 H1N1 (homologous),14.0,d14,Sham,B17:B23,7,7,0,0.0,0.0,41.0,"5,6,6,6,8,8,11",6.0,0
+E02,S03-J,S03!G16:J46,aged >=20 mo BALB/c,rgH5N1,wild-type VN04 H5N1 (BSL-3),2.0,d2-3,PSLN-212,I27:I36,10,7,3,30.0,6.7,65.2,"10,10,11,11,12,12,12",11.0,0
+E02,S03-J,S03!G16:J46,aged >=20 mo BALB/c,rgH5N1,wild-type VN04 H5N1 (BSL-3),2.0,d2-3,PSLN-344,J37:J46,10,0,10,100.0,69.2,100.0,,,1
+E02,S03-J,S03!G16:J46,aged >=20 mo BALB/c,rgH5N1,wild-type VN04 H5N1 (BSL-3),2.0,d2-3,Sham,H17:H26,10,9,1,10.0,0.3,44.5,"3,4,9,9,9,10,10,10,10",9.0,0
+E03,S06-A,S06!A2:E30,aged >=20 mo BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1 (heterosubtypic),14.0,d14,PSLN-212,C10:C16,7,6,1,14.3,0.4,57.9,"4,6,6,8,9,10",7.0,0
+E03,S06-A,S06!A2:E30,aged >=20 mo BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1 (heterosubtypic),14.0,d14,PSLN-212(Y),E24:E30,7,0,7,100.0,59.0,100.0,,,0
+E03,S06-A,S06!A2:E30,aged >=20 mo BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1 (heterosubtypic),14.0,d14,PSLN-344,D17:D23,7,1,6,85.7,42.1,99.6,8,8.0,0
+E03,S06-A,S06!A2:E30,aged >=20 mo BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1 (heterosubtypic),14.0,d14,Sham,B3:B9,7,7,0,0.0,0.0,41.0,"4,4,4,5,5,7,7",5.0,0
+E04,S06-B,S06!G2:K30,aged >=20 mo BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1 (heterosubtypic),3.0,d2-3,PSLN-212,I10:I16,7,7,0,0.0,0.0,41.0,"4,4,6,6,6,7,10",6.0,0
+E04,S06-B,S06!G2:K30,aged >=20 mo BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1 (heterosubtypic),3.0,d2-3,PSLN-212(Y),K24:K30,7,0,7,100.0,59.0,100.0,,,0
+E04,S06-B,S06!G2:K30,aged >=20 mo BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1 (heterosubtypic),3.0,d2-3,PSLN-344,J17:J23,7,2,5,71.4,29.0,96.3,"8,10",9.0,0
+E04,S06-B,S06!G2:K30,aged >=20 mo BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1 (heterosubtypic),3.0,d2-3,Sham,H3:H9,7,7,0,0.0,0.0,41.0,"4,4,4,5,5,6,6",5.0,0
+E05,S06-C,S06!M2:Q30,aged >=20 mo BALB/c,bivalent H1N1+H3N2,5x mLD50 rgH5N1 (heterosubtypic),14.0,d14,PSLN-212,O10:O16,7,5,2,28.6,3.7,71.0,"5,8,10,10,12",10.0,0
+E05,S06-C,S06!M2:Q30,aged >=20 mo BALB/c,bivalent H1N1+H3N2,5x mLD50 rgH5N1 (heterosubtypic),14.0,d14,PSLN-212(Y),Q24:Q30,7,0,7,100.0,59.0,100.0,,,0
+E05,S06-C,S06!M2:Q30,aged >=20 mo BALB/c,bivalent H1N1+H3N2,5x mLD50 rgH5N1 (heterosubtypic),14.0,d14,PSLN-344,P17:P23,7,0,7,100.0,59.0,100.0,,,0
+E05,S06-C,S06!M2:Q30,aged >=20 mo BALB/c,bivalent H1N1+H3N2,5x mLD50 rgH5N1 (heterosubtypic),14.0,d14,Sham,N3:N9,7,7,0,0.0,0.0,41.0,"4,4,5,6,6,6,7",6.0,0
+E06,S06-D,S06!A33:E61,aged >=20 mo BALB/c,bivalent H1N1+H3N2,5x mLD50 rgH5N1 (heterosubtypic),3.0,d2-3,PSLN-212,C41:C47,7,5,2,28.6,3.7,71.0,"5,8,10,10,12",10.0,0
+E06,S06-D,S06!A33:E61,aged >=20 mo BALB/c,bivalent H1N1+H3N2,5x mLD50 rgH5N1 (heterosubtypic),3.0,d2-3,PSLN-212(Y),E55:E61,7,0,7,100.0,59.0,100.0,,,0
+E06,S06-D,S06!A33:E61,aged >=20 mo BALB/c,bivalent H1N1+H3N2,5x mLD50 rgH5N1 (heterosubtypic),3.0,d2-3,PSLN-344,D48:D54,7,0,7,100.0,59.0,100.0,,,0
+E06,S06-D,S06!A33:E61,aged >=20 mo BALB/c,bivalent H1N1+H3N2,5x mLD50 rgH5N1 (heterosubtypic),3.0,d2-3,Sham,B34:B40,7,7,0,0.0,0.0,41.0,"4,4,5,6,6,6,7",6.0,0
+E07,S06-E(r34),S06!G33:L68,aged >=20 mo BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1 (heterosubtypic),60.0,d60,PSLN-212,I41:I47,7,7,0,0.0,0.0,41.0,"5,5,5,6,6,8,11",6.0,0
+E07,S06-E(r34),S06!G33:L68,aged >=20 mo BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1 (heterosubtypic),60.0,d60,PSLN-212(Y),K55:K61,7,0,7,100.0,59.0,100.0,,,0
+E07,S06-E(r34),S06!G33:L68,aged >=20 mo BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1 (heterosubtypic),60.0,d60,PSLN-344,J48:J54,7,2,5,71.4,29.0,96.3,"8,10",9.0,0
+E07,S06-E(r34),S06!G33:L68,aged >=20 mo BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1 (heterosubtypic),60.0,d60,Sham,H34:H40,7,7,0,0.0,0.0,41.0,"4,5,5,5,5,6,6",5.0,0
+E07,S06-E(r34),S06!G33:L68,aged >=20 mo BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1 (heterosubtypic),60.0,d60,Untreated,L62:L68,7,1,6,85.7,42.1,99.6,4,4.0,0
+E08,S06-F(r34),S06!M33:R68,aged >=20 mo BALB/c,bivalent H1N1+H3N2,5x mLD50 rgH5N1 (heterosubtypic),60.0,d60,PSLN-212,O41:O47,7,6,1,14.3,0.4,57.9,"4,5,6,6,6,7",6.0,0
+E08,S06-F(r34),S06!M33:R68,aged >=20 mo BALB/c,bivalent H1N1+H3N2,5x mLD50 rgH5N1 (heterosubtypic),60.0,d60,PSLN-212(Y),Q55:Q61,7,0,7,100.0,59.0,100.0,,,0
+E08,S06-F(r34),S06!M33:R68,aged >=20 mo BALB/c,bivalent H1N1+H3N2,5x mLD50 rgH5N1 (heterosubtypic),60.0,d60,PSLN-344,P48:P54,7,2,5,71.4,29.0,96.3,"7,8",7.5,0
+E08,S06-F(r34),S06!M33:R68,aged >=20 mo BALB/c,bivalent H1N1+H3N2,5x mLD50 rgH5N1 (heterosubtypic),60.0,d60,Sham,N34:N40,7,7,0,0.0,0.0,41.0,"4,4,4,5,5,6,6",5.0,0
+E08,S06-F(r34),S06!M33:R68,aged >=20 mo BALB/c,bivalent H1N1+H3N2,5x mLD50 rgH5N1 (heterosubtypic),60.0,d60,Untreated,R62:R68,7,0,7,100.0,59.0,100.0,,,0
+E09,S06-G,S06!A70:F105,aged >=20 mo BALB/c,CA09 H1N1,5x mLD50 Perth H3N2 (heterosubtypic),60.0,d60,PSLN-212,C78:C84,7,7,0,0.0,0.0,41.0,"6,6,8,8,8,11,11",8.0,0
+E09,S06-G,S06!A70:F105,aged >=20 mo BALB/c,CA09 H1N1,5x mLD50 Perth H3N2 (heterosubtypic),60.0,d60,PSLN-212(Y),E92:E98,7,0,7,100.0,59.0,100.0,,,0
+E09,S06-G,S06!A70:F105,aged >=20 mo BALB/c,CA09 H1N1,5x mLD50 Perth H3N2 (heterosubtypic),60.0,d60,PSLN-344,D85:D91,7,3,4,57.1,18.4,90.1,"8,9,11",9.0,0
+E09,S06-G,S06!A70:F105,aged >=20 mo BALB/c,CA09 H1N1,5x mLD50 Perth H3N2 (heterosubtypic),60.0,d60,Sham,B71:B77,7,7,0,0.0,0.0,41.0,"4,4,5,6,6,7,7",6.0,0
+E09,S06-G,S06!A70:F105,aged >=20 mo BALB/c,CA09 H1N1,5x mLD50 Perth H3N2 (heterosubtypic),60.0,d60,Untreated,F99:F105,7,3,4,57.1,18.4,90.1,"3,7,10",7.0,0
+E10,S15-H,S15!A72:D93,aged >=20 mo BALB/c,bivalent / none,5x mLD50 rgH5N1,3.0,d2-3,3d PSLN-344,C80:C86,7,7,0,0.0,0.0,41.0,"5,5,6,6,6,7,8",6.0,0
+E10,S15-H,S15!A72:D93,aged >=20 mo BALB/c,bivalent / none,5x mLD50 rgH5N1,3.0,d2-3,3d Vaccine,B73:B79,7,7,0,0.0,0.0,41.0,"4,5,5,5,6,6,7",5.0,0
+E10,S15-H,S15!A72:D93,aged >=20 mo BALB/c,bivalent / none,5x mLD50 rgH5N1,3.0,d2-3,3d Vaccine+PSLN-344,D87:D93,7,1,6,85.7,42.1,99.6,12,12.0,0
+E11,S06-E(r71),S06!G70:K98,"14 mo BALB/c (10 mo + 4 mo), +/- PR8 imprinting",bivalent H1N1+H3N2,5x LD50 PR8 H1N1,,not stated,Imprinting+PSLN-212,I78:I84,7,3,4,57.1,18.4,90.1,"6,8,8",8.0,0
+E11,S06-E(r71),S06!G70:K98,"14 mo BALB/c (10 mo + 4 mo), +/- PR8 imprinting",bivalent H1N1+H3N2,5x LD50 PR8 H1N1,,not stated,Imprinting+PSLN-344,K92:K98,7,1,6,85.7,42.1,99.6,8,8.0,0
+E11,S06-E(r71),S06!G70:K98,"14 mo BALB/c (10 mo + 4 mo), +/- PR8 imprinting",bivalent H1N1+H3N2,5x LD50 PR8 H1N1,,not stated,Naive+PSLN-212,H71:H77,7,7,0,0.0,0.0,41.0,"4,4,5,6,6,6,8",6.0,0
+E11,S06-E(r71),S06!G70:K98,"14 mo BALB/c (10 mo + 4 mo), +/- PR8 imprinting",bivalent H1N1+H3N2,5x LD50 PR8 H1N1,,not stated,Naive+PSLN-344,J85:J91,7,1,6,85.7,42.1,99.6,5,5.0,0
+E12,S06-F(r71),S06!M70:Q98,"14 mo BALB/c (10 mo + 4 mo), +/- PR8 imprinting",bivalent H1N1+H3N2,5x LD50 Perth H3N2,14.0,d14,Imprinting+PSLN-212,O78:O84,7,7,0,0.0,0.0,41.0,"4,4,5,5,5,6,6",5.0,0
+E12,S06-F(r71),S06!M70:Q98,"14 mo BALB/c (10 mo + 4 mo), +/- PR8 imprinting",bivalent H1N1+H3N2,5x LD50 Perth H3N2,14.0,d14,Imprinting+PSLN-344,Q92:Q98,7,1,6,85.7,42.1,99.6,7,7.0,0
+E12,S06-F(r71),S06!M70:Q98,"14 mo BALB/c (10 mo + 4 mo), +/- PR8 imprinting",bivalent H1N1+H3N2,5x LD50 Perth H3N2,14.0,d14,Naive+PSLN-212,N71:N77,7,7,0,0.0,0.0,41.0,"4,4,6,6,7,8,8",6.0,0
+E12,S06-F(r71),S06!M70:Q98,"14 mo BALB/c (10 mo + 4 mo), +/- PR8 imprinting",bivalent H1N1+H3N2,5x LD50 Perth H3N2,14.0,d14,Naive+PSLN-344,P85:P91,7,1,6,85.7,42.1,99.6,8,8.0,0
+E13,S15-L,S15!A102:E130,aged 20 mo C57BL/6,bivalent H1N1+H3N2,not stated,,not stated,PSLN-212,C110:C116,7,7,0,0.0,0.0,41.0,"6,7,7,8,8,9,11",8.0,0
+E13,S15-L,S15!A102:E130,aged 20 mo C57BL/6,bivalent H1N1+H3N2,not stated,,not stated,PSLN-212(Y),E124:E130,7,1,6,85.7,42.1,99.6,12,12.0,0
+E13,S15-L,S15!A102:E130,aged 20 mo C57BL/6,bivalent H1N1+H3N2,not stated,,not stated,PSLN-344,D117:D123,7,1,6,85.7,42.1,99.6,8,8.0,0
+E13,S15-L,S15!A102:E130,aged 20 mo C57BL/6,bivalent H1N1+H3N2,not stated,,not stated,Sham,B103:B109,7,7,0,0.0,0.0,41.0,"4,4,6,6,6,8,8",6.0,0
+E14,S15-N,S15!A133:E161,aged 20 mo Swiss Webster (outbred),bivalent H1N1+H3N2,not stated,,not stated,PSLN-212,C141:C147,7,5,2,28.6,3.7,71.0,"6,10,10,10,12",10.0,0
+E14,S15-N,S15!A133:E161,aged 20 mo Swiss Webster (outbred),bivalent H1N1+H3N2,not stated,,not stated,PSLN-212(Y),E155:E161,7,0,7,100.0,59.0,100.0,,,0
+E14,S15-N,S15!A133:E161,aged 20 mo Swiss Webster (outbred),bivalent H1N1+H3N2,not stated,,not stated,PSLN-344,D148:D154,7,1,6,85.7,42.1,99.6,8,8.0,0
+E14,S15-N,S15!A133:E161,aged 20 mo Swiss Webster (outbred),bivalent H1N1+H3N2,not stated,,not stated,Sham,B134:B140,7,7,0,0.0,0.0,41.0,"5,6,6,8,8,8,10",8.0,0
+Y01,S09-B,S09!A11:D35,young BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1,21.0,d21,PSLN-212(Y),D28:D35,8,0,8,100.0,63.1,100.0,,,0
+Y01,S09-B,S09!A11:D35,young BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1,21.0,d21,PSLN-344(Y),C20:C27,8,0,8,100.0,63.1,100.0,,,0
+Y01,S09-B,S09!A11:D35,young BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1,21.0,d21,Sham,B12:B19,8,8,0,0.0,0.0,36.9,"6,6,6,7,7,7,8,8",7.0,0
+Y02,S09-D,S09!A38:D62,young BALB/c,CA09 H1N1,5x mLD50 Perth H3N2,21.0,d21,PSLN-212(Y),D55:D62,8,0,8,100.0,63.1,100.0,,,0
+Y02,S09-D,S09!A38:D62,young BALB/c,CA09 H1N1,5x mLD50 Perth H3N2,21.0,d21,PSLN-344(Y),C47:C54,8,0,8,100.0,63.1,100.0,,,0
+Y02,S09-D,S09!A38:D62,young BALB/c,CA09 H1N1,5x mLD50 Perth H3N2,21.0,d21,Sham,B39:B46,8,8,0,0.0,0.0,36.9,"7,8,8,8,8,8,9,9",8.0,0
+Y03,S09-F,S09!A65:D88,young BALB/c,bivalent H1N1+H3N2,5x mLD50 rgH5N1,180.0,d180,PSLN-212(Y),D81:D88,8,0,8,100.0,63.1,100.0,,,0
+Y03,S09-F,S09!A65:D88,young BALB/c,bivalent H1N1+H3N2,5x mLD50 rgH5N1,180.0,d180,PSLN-344(Y),C73:C80,8,0,8,100.0,63.1,100.0,,,0
+Y03,S09-F,S09!A65:D88,young BALB/c,bivalent H1N1+H3N2,5x mLD50 rgH5N1,180.0,d180,Sham,B66:B72,7,7,0,0.0,0.0,41.0,"6,6,6,7,8,8,8",7.0,0
+Y04,S13-E,S13!R2:V30,young BALB/c,bivalent H1N1+H3N2,10x mLD50 CA09 H1N1 (homologous),14.0,d14,CMP-204(Y),U17:U23,7,0,7,100.0,59.0,100.0,,,0
+Y04,S13-E,S13!R2:V30,young BALB/c,bivalent H1N1+H3N2,10x mLD50 CA09 H1N1 (homologous),14.0,d14,Naive,S3:S9,7,7,0,0.0,0.0,41.0,"6,7,7,7,8,8,8",7.0,0
+Y04,S13-E,S13!R2:V30,young BALB/c,bivalent H1N1+H3N2,10x mLD50 CA09 H1N1 (homologous),14.0,d14,PSLN-344(Y),V24:V30,7,0,7,100.0,59.0,100.0,,,0
+Y04,S13-E,S13!R2:V30,young BALB/c,bivalent H1N1+H3N2,10x mLD50 CA09 H1N1 (homologous),14.0,d14,Sham,T10:T16,7,6,1,14.3,0.4,57.9,"7,9,9,10,11,11",9.5,0

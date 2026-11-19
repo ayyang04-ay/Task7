@@ -1,0 +1,90 @@
+{
+  "id": "7a4b2d8f-7b4d-4a63-8a0b-29e1569dc49a",
+  "problem_run_id": "723b22d4-0719-42e4-b4e9-46bb7bd577d7",
+  "grading_run_id": "08e85a1d-f1f3-4a2c-bffc-25fe8cf4cb38",
+  "grading_strategy_type": "agentic_grader",
+  "is_auxiliary_grade": false,
+  "normalized_score": 0.95,
+  "subscores": [
+    {
+      "name": "overall",
+      "score": 0.95,
+      "max_score": 1,
+      "weight": 1,
+      "reasoning": "I checked the model's deliverables against the original workbook and annotation, which I parsed myself with zipfile/XML and zlib/ASCII85 decoding. All output files were readable.\n\n**Deliverables found**\n- A proposal (docx, about 85K characters, 5 embedded figures).\n- An evidence-ledger workbook with 13 sheets: ledger, survival, pairwise tests, integrity log and others.\n- Figures and analysis scripts with their outputs. I did not run the scripts.\n\n**Coverage of what the task asked for.** Every requested element is present.\n- **Recommendation first:** \"Keep PSLN-344, on a gated budget\", with explicit conditions for dropping it.\n- **How the asset looks:** a scored table across efficacy, durability, safety, dose, translatability, manufacturing, data package and comparator position.\n- **Next studies:** Gate 1 is Step 0 (reconcile to raw records), Study 1 (human cells), Study 2 (blinded aged-mouse repeat with Mn-only and STING-loss arms) and Study 3 (intranasal Mn safety). Gate 2 is ferret, manufacturing lock and an antigen partner. Each study lists what it must establish, endpoints with thresholds tied to current values, and stop criteria.\n- **Target population for the TAM check:** 65+ as primary, 50–64 as secondary, pandemic/H5N1 as a separate segment, each backed by data. It also lists what market research should size and explains why no TAM figure is given.\n- **Mechanism:** an 8-link chain that states the test type behind each link and names what is missing (no STING-deficient control, no Mn-only particle).\n- **Biomarkers:** ordered by time, with clinical analogues, plus readouts it says should not be used.\n- **What dropping it gives up and what it avoids:** covered.\n- **Considered and ruled out:** covered, including dropping now, a stand-alone antiviral, all-adult targeting, CMP-204, R848 combinations, GM-CSF and two doses of PSLN-212.\n- **Important reframing:** the data support an adjuvant, not a stand-alone drug (PSLN-344 without vaccine protected 0/7). Mn²⁺ should be treated as an active component, not as part of the vehicle.\n\n**Numbers I recomputed from the originals.** All matched.\n- Every survival arm in S03-I/J, S06-A–G, both second S06 blocks, S15-H/L/N and S09-B/D/F.\n- Pooled survival of 92/108 vs 15/108 vs 1/87, and the worst-case reading of 90/108 vs 19/108.\n- The flag-free subset of 46/56 vs 8/56.\n- The 20-month subset of 68/80 vs 11/80.\n- Stratified (CMH) χ² of about 109, with a risk difference of 71 points.\n- Fisher p-values: 0.045, 0.33, 0.0006, 0.07 and 0.48.\n- Exact power: 95% and 89% at 12 per arm; 90% and 89% at 40 per arm.\n- Ifnb1 37.1 / 16.6 / 37.6; Gm-csf 6.0 vs 1.5.\n- IgG geometric-mean titres 7,305 / 393 / 11,959 and 5,701 / 426 / 13,855.\n- HAI titres 368 / 46 / 485 and 320 / 35 / 368; neutralising titres.\n- Dendritic-cell, Tfh, germinal-centre, CD8 and Trm means.\n- S09-A values back-transformed from log10: Ccl2 590, Tnf 40/130/202, and Tnf 8.4 at 72 h.\n- S08-D peak weight loss of 3.6% vs 1.8%.\n- S10-A CNS fold changes.\n- Day-60 death weights (77.5–85.3 vs 94.5–96.6) and the Mann-Whitney p of 0.016.\n- Cell citations I spot-checked point to the right ranges.\n\n**Integrity findings I confirmed are real**\n- S03-B/F headers are permuted. All 15 ratios per virus match S13, and correcting them reverses the reading in the asset's favour.\n- The second S09-A panel is the 72-hour data mislabelled as 16 h.\n- S11-B repeats 35 of 100 values from S11-A in the same positions (r = 0.997).\n- The S08-C headers appear swapped.\n- The S04-B Tfh:Tfr quotient equals (100 − Foxp3)/Foxp3.\n- S06-C and S06-D have identical control arms.\n- Body-weight series recur across experiments: 40 identical values between S15-C and S15-I, and 32 between S09-E and S15-M.\n- Mismatches between printed n and rows present, including S09-F Sham being misattributed to S09-B in the annotation.\n- Font-split copied values in S01-A, where the Arial cells are the ones that reappear in S09-A.\n- Background deaths in the untreated group.\n\nThese were handled sensibly: excluded, recomputed, or carried at both readings. The model is candid that nothing was checked against raw records.\n\n**Minor issues**\n- It says \"five tested links\" while the figure shows six green tags.\n- It reports \"40 of 48\" identical values where I count 40 of 49.\n- It does not say explicitly why it took PSLN-344 to be the asset, although that choice is well founded.\n- The document is very dense.\n- Layout was not rendered, which the model acknowledged.\n\nNone of these affects the conclusions. This is an objective, accurate, fully cited committee package with excellent handling of the data's traps."
+    }
+  ],
+  "weight": 1,
+  "allow_unbounded": false,
+  "created_at": "2026-11-19T07:41:02.220174Z",
+  "has_metadata": true,
+  "metadata_byte_size": 451394,
+  "metadata": {
+    "agentic_grader": {
+      "cc_harness": false,
+      "container_mode": "fresh_with_policy_setup",
+      "scoring_mode": "single_score",
+      "grading_model": "claude-opus-5-5",
+      "grading_model_slug": "claude-opus-5-5",
+      "grading_container_id": "smart-log-pfmdfk-qjfjgx",
+      "grader_error": false,
+      "full_debug_s3_hint": "biome/agentic-grading-transcripts/smart-log-pfmdfk-qjfjgx/grading_debug.json",
+      "grading_turns_count": null,
+      "grading_tokens_consumed": null,
+      "grader_context_window_effective": 1000000,
+      "grader_context_window_source": "default",
+      "policy_outputs_transfer": {
+        "mode": "snapshot_mount",
+        "snapshot_source": "pre_grade",
+        "snapshot_ttl": null,
+        "snapshot_seconds": 1.349663008004427,
+        "reader_uid": 1000,
+        "handin_max_bytes": 2147483648,
+        "grading_box_seconds": 43.849,
+        "grading_box_attempts": 1,
+        "mount_verified": true,
+        "unmounted": true,
+        "detach_checks": [
+          "mounts",
+          "same_device",
+          "ext4_sysfs",
+          "device_read"
+        ],
+        "device_read_refused": true,
+        "present_seconds": 0.573,
+        "probe": "dir",
+        "measured_bytes": 4989863,
+        "entries": 75,
+        "status": "ok",
+        "declared_path_missing": false,
+        "declared_path_wrong_type": false,
+        "copied_files": 69,
+        "copied_bytes": 4917214,
+        "copies_inert": true
+      },
+      "import_shadowing_set_aside": [],
+      "grader_attempts": 1,
+      "grader_failed_attempts": [],
+      "grader_failed_attempt_errors": [],
+      "grader_failed_attempts_ms": 0,
+      "grader_planted_shape": null,
+      "policy_markup_hits": 0,
+      "handin_integrity": "unchanged",
+      "handin_integrity_drift_only": true
+    },
+    "rubric_evaluations": [
+      {
+        "name": "overall",
+        "score": 0.95,
+        "max_score": 1,
+        "weight": 1,
+        "reasoning": "I checked the model's deliverables against the original workbook and annotation, which I parsed myself with zipfile/XML and zlib/ASCII85 decoding. All output files were readable.\n\n**Deliverables found**\n- A proposal (docx, about 85K characters, 5 embedded figures).\n- An evidence-ledger workbook with 13 sheets: ledger, survival, pairwise tests, integrity log and others.\n- Figures and analysis scripts with their outputs. I did not run the scripts.\n\n**Coverage of what the task asked for.** Every requested element is present.\n- **Recommendation first:** \"Keep PSLN-344, on a gated budget\", with explicit conditions for dropping it.\n- **How the asset looks:** a scored table across efficacy, durability, safety, dose, translatability, manufacturing, data package and comparator position.\n- **Next studies:** Gate 1 is Step 0 (reconcile to raw records), Study 1 (human cells), Study 2 (blinded aged-mouse repeat with Mn-only and STING-loss arms) and Study 3 (intranasal Mn safety). Gate 2 is ferret, manufacturing lock and an antigen partner. Each study lists what it must establish, endpoints with thresholds tied to current values, and stop criteria.\n- **Target population for the TAM check:** 65+ as primary, 50–64 as secondary, pandemic/H5N1 as a separate segment, each backed by data. It also lists what market research should size and explains why no TAM figure is given.\n- **Mechanism:** an 8-link chain that states the test type behind each link and names what is missing (no STING-deficient control, no Mn-only particle).\n- **Biomarkers:** ordered by time, with clinical analogues, plus readouts it says should not be used.\n- **What dropping it gives up and what it avoids:** covered.\n- **Considered and ruled out:** covered, including dropping now, a stand-alone antiviral, all-adult targeting, CMP-204, R848 combinations, GM-CSF and two doses of PSLN-212.\n- **Important reframing:** the data support an adjuvant, not a stand-alone drug (PSLN-344 without vaccine protected 0/7). Mn²⁺ should be treated as an active component, not as part of the vehicle.\n\n**Numbers I recomputed from the originals.** All matched.\n- Every survival arm in S03-I/J, S06-A–G, both second S06 blocks, S15-H/L/N and S09-B/D/F.\n- Pooled survival of 92/108 vs 15/108 vs 1/87, and the worst-case reading of 90/108 vs 19/108.\n- The flag-free subset of 46/56 vs 8/56.\n- The 20-month subset of 68/80 vs 11/80.\n- Stratified (CMH) χ² of about 109, with a risk difference of 71 points.\n- Fisher p-values: 0.045, 0.33, 0.0006, 0.07 and 0.48.\n- Exact power: 95% and 89% at 12 per arm; 90% and 89% at 40 per arm.\n- Ifnb1 37.1 / 16.6 / 37.6; Gm-csf 6.0 vs 1.5.\n- IgG geometric-mean titres 7,305 / 393 / 11,959 and 5,701 / 426 / 13,855.\n- HAI titres 368 / 46 / 485 and 320 / 35 / 368; neutralising titres.\n- Dendritic-cell, Tfh, germinal-centre, CD8 and Trm means.\n- S09-A values back-transformed from log10: Ccl2 590, Tnf 40/130/202, and Tnf 8.4 at 72 h.\n- S08-D peak weight loss of 3.6% vs 1.8%.\n- S10-A CNS fold changes.\n- Day-60 death weights (77.5–85.3 vs 94.5–96.6) and the Mann-Whitney p of 0.016.\n- Cell citations I spot-checked point to the right ranges.\n\n**Integrity findings I confirmed are real**\n- S03-B/F headers are permuted. All 15 ratios per virus match S13, and correcting them reverses the reading in the asset's favour.\n- The second S09-A panel is the 72-hour data mislabelled as 16 h.\n- S11-B repeats 35 of 100 values from S11-A in the same positions (r = 0.997).\n- The S08-C headers appear swapped.\n- The S04-B Tfh:Tfr quotient equals (100 − Foxp3)/Foxp3.\n- S06-C and S06-D have identical control arms.\n- Body-weight series recur across experiments: 40 identical values between S15-C and S15-I, and 32 between S09-E and S15-M.\n- Mismatches between printed n and rows present, including S09-F Sham being misattributed to S09-B in the annotation.\n- Font-split copied values in S01-A, where the Arial cells are the ones that reappear in S09-A.\n- Background deaths in the untreated group.\n\nThese were handled sensibly: excluded, recomputed, or carried at both readings. The model is candid that nothing was checked against raw records.\n\n**Minor issues**\n- It says \"five tested links\" while the figure shows six green tags.\n- It reports \"40 of 48\" identical values where I count 40 of 49.\n- It does not say explicitly why it took PSLN-344 to be the asset, although that choice is well founded.\n- The document is very dense.\n- Layout was not rendered, which the model acknowledged.\n\nNone of these affects the conclusions. This is an objective, accurate, fully cited committee package with excellent handling of the data's traps."
+      }
+    ],
+    "strategy_type": "agentic_grader",
+    "grade_key": "agentic_grader",
+    "label": null,
+    "strategy_weight": 1,
+    "is_auxiliary": false
+  }
+}

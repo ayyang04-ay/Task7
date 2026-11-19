@@ -1,0 +1,62 @@
+endpoint,scenario,p_test,p_ref,n_per_arm,power
+"survival (Fisher exact, 2-sided 0.05)",observed pooled effect (92% vs 18%),0.92,0.18,7,0.73
+"survival (Fisher exact, 2-sided 0.05)",observed pooled effect (92% vs 18%),0.92,0.18,8,0.858
+"survival (Fisher exact, 2-sided 0.05)",observed pooled effect (92% vs 18%),0.92,0.18,10,0.902
+"survival (Fisher exact, 2-sided 0.05)",observed pooled effect (92% vs 18%),0.92,0.18,12,0.973
+"survival (Fisher exact, 2-sided 0.05)",observed pooled effect (92% vs 18%),0.92,0.18,14,0.986
+"survival (Fisher exact, 2-sided 0.05)",observed pooled effect (92% vs 18%),0.92,0.18,15,0.99
+"survival (Fisher exact, 2-sided 0.05)",observed pooled effect (92% vs 18%),0.92,0.18,16,0.995
+"survival (Fisher exact, 2-sided 0.05)",observed pooled effect (92% vs 18%),0.92,0.18,18,0.999
+"survival (Fisher exact, 2-sided 0.05)",observed pooled effect (92% vs 18%),0.92,0.18,20,0.999
+"survival (Fisher exact, 2-sided 0.05)",observed pooled effect (92% vs 18%),0.92,0.18,24,1.0
+"survival (Fisher exact, 2-sided 0.05)",observed pooled effect (92% vs 18%),0.92,0.18,30,1.0
+"survival (Fisher exact, 2-sided 0.05)",conservative (85% vs 30%),0.85,0.3,7,0.355
+"survival (Fisher exact, 2-sided 0.05)",conservative (85% vs 30%),0.85,0.3,8,0.497
+"survival (Fisher exact, 2-sided 0.05)",conservative (85% vs 30%),0.85,0.3,10,0.54
+"survival (Fisher exact, 2-sided 0.05)",conservative (85% vs 30%),0.85,0.3,12,0.722
+"survival (Fisher exact, 2-sided 0.05)",conservative (85% vs 30%),0.85,0.3,14,0.775
+"survival (Fisher exact, 2-sided 0.05)",conservative (85% vs 30%),0.85,0.3,15,0.796
+"survival (Fisher exact, 2-sided 0.05)",conservative (85% vs 30%),0.85,0.3,16,0.844
+"survival (Fisher exact, 2-sided 0.05)",conservative (85% vs 30%),0.85,0.3,18,0.913
+"survival (Fisher exact, 2-sided 0.05)",conservative (85% vs 30%),0.85,0.3,20,0.931
+"survival (Fisher exact, 2-sided 0.05)",conservative (85% vs 30%),0.85,0.3,24,0.974
+"survival (Fisher exact, 2-sided 0.05)",conservative (85% vs 30%),0.85,0.3,30,0.992
+"survival (Fisher exact, 2-sided 0.05)",more conservative (80% vs 35%),0.8,0.35,7,0.211
+"survival (Fisher exact, 2-sided 0.05)",more conservative (80% vs 35%),0.8,0.35,8,0.316
+"survival (Fisher exact, 2-sided 0.05)",more conservative (80% vs 35%),0.8,0.35,10,0.333
+"survival (Fisher exact, 2-sided 0.05)",more conservative (80% vs 35%),0.8,0.35,12,0.499
+"survival (Fisher exact, 2-sided 0.05)",more conservative (80% vs 35%),0.8,0.35,14,0.544
+"survival (Fisher exact, 2-sided 0.05)",more conservative (80% vs 35%),0.8,0.35,15,0.564
+"survival (Fisher exact, 2-sided 0.05)",more conservative (80% vs 35%),0.8,0.35,16,0.626
+"survival (Fisher exact, 2-sided 0.05)",more conservative (80% vs 35%),0.8,0.35,18,0.734
+"survival (Fisher exact, 2-sided 0.05)",more conservative (80% vs 35%),0.8,0.35,20,0.757
+"survival (Fisher exact, 2-sided 0.05)",more conservative (80% vs 35%),0.8,0.35,24,0.862
+"survival (Fisher exact, 2-sided 0.05)",more conservative (80% vs 35%),0.8,0.35,30,0.928
+"survival (Fisher exact, 2-sided 0.05)",weight-table-adjusted (88% vs 20%),0.88,0.2,7,0.607
+"survival (Fisher exact, 2-sided 0.05)",weight-table-adjusted (88% vs 20%),0.88,0.2,8,0.755
+"survival (Fisher exact, 2-sided 0.05)",weight-table-adjusted (88% vs 20%),0.88,0.2,10,0.803
+"survival (Fisher exact, 2-sided 0.05)",weight-table-adjusted (88% vs 20%),0.88,0.2,12,0.926
+"survival (Fisher exact, 2-sided 0.05)",weight-table-adjusted (88% vs 20%),0.88,0.2,14,0.948
+"survival (Fisher exact, 2-sided 0.05)",weight-table-adjusted (88% vs 20%),0.88,0.2,15,0.962
+"survival (Fisher exact, 2-sided 0.05)",weight-table-adjusted (88% vs 20%),0.88,0.2,16,0.977
+"survival (Fisher exact, 2-sided 0.05)",weight-table-adjusted (88% vs 20%),0.88,0.2,18,0.992
+"survival (Fisher exact, 2-sided 0.05)",weight-table-adjusted (88% vs 20%),0.88,0.2,20,0.994
+"survival (Fisher exact, 2-sided 0.05)",weight-table-adjusted (88% vs 20%),0.88,0.2,24,0.999
+"survival (Fisher exact, 2-sided 0.05)",weight-table-adjusted (88% vs 20%),0.88,0.2,30,1.0
+"survival (Fisher exact, 2-sided 0.05)",pessimistic (75% vs 40%),0.75,0.4,7,0.114
+"survival (Fisher exact, 2-sided 0.05)",pessimistic (75% vs 40%),0.75,0.4,8,0.18
+"survival (Fisher exact, 2-sided 0.05)",pessimistic (75% vs 40%),0.75,0.4,10,0.179
+"survival (Fisher exact, 2-sided 0.05)",pessimistic (75% vs 40%),0.75,0.4,12,0.292
+"survival (Fisher exact, 2-sided 0.05)",pessimistic (75% vs 40%),0.75,0.4,14,0.316
+"survival (Fisher exact, 2-sided 0.05)",pessimistic (75% vs 40%),0.75,0.4,15,0.326
+"survival (Fisher exact, 2-sided 0.05)",pessimistic (75% vs 40%),0.75,0.4,16,0.378
+"survival (Fisher exact, 2-sided 0.05)",pessimistic (75% vs 40%),0.75,0.4,18,0.481
+"survival (Fisher exact, 2-sided 0.05)",pessimistic (75% vs 40%),0.75,0.4,20,0.493
+"survival (Fisher exact, 2-sided 0.05)",pessimistic (75% vs 40%),0.75,0.4,24,0.62
+"survival (Fisher exact, 2-sided 0.05)",pessimistic (75% vs 40%),0.75,0.4,30,0.719
+"HAI/neutralising GMT ratio (t-test on log10, SD=0.28)",2-fold difference,,,15,0.8
+"HAI/neutralising GMT ratio (t-test on log10, SD=0.28)",2-fold difference,,,20,0.9
+"HAI/neutralising GMT ratio (t-test on log10, SD=0.28)",4-fold difference,,,5,0.8
+"HAI/neutralising GMT ratio (t-test on log10, SD=0.28)",4-fold difference,,,6,0.9
+"HAI/neutralising GMT ratio (t-test on log10, SD=0.28)",8-fold difference,,,3,0.8
+"HAI/neutralising GMT ratio (t-test on log10, SD=0.28)",8-fold difference,,,4,0.9

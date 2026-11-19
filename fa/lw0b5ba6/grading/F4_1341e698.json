@@ -1,0 +1,90 @@
+{
+  "id": "771371aa-779f-4db7-a33d-74cde5e646e8",
+  "problem_run_id": "1341e698-3124-46bc-94f8-8e70c3b034a1",
+  "grading_run_id": "1e8f5d1f-b303-401d-98ac-57d05142f04b",
+  "grading_strategy_type": "agentic_grader",
+  "is_auxiliary_grade": false,
+  "normalized_score": 0.94,
+  "subscores": [
+    {
+      "name": "overall",
+      "score": 0.94,
+      "max_score": 1,
+      "weight": 1,
+      "reasoning": "I checked the model's committee package against the original workbook and annotation, using my own parsers (stdlib XML for the xlsx and R `survival`). I recomputed each figure myself rather than trusting the model's scripts, logs or register.\n\n**What was delivered**\n- A 13-page PDF with matching Markdown and self-contained HTML versions.\n- Six figures.\n- An analysis folder with scripts, tables, logs and a register (`T10_numbers_cited`) linking each quoted number to its source block and analysis table.\n\n**Does it cover what was asked?** All ten required parts are present, in the requested order:\n1. **Recommendation first:** keep PSLN-344 conditionally, with gates and a data audit before any new spend.\n2. **Next studies:** each has a \"must establish\" statement, numeric endpoints tied to observed values, and stop criteria.\n3. **Asset assessment:** a scorecard of how the asset looks.\n4. **Target demographic for the TAM check:** adults 65 and over on annual flu vaccination, plus expansion and exclusion segments and filters for market research.\n5. **Mechanism of action:** an evidence table by link in the chain, with an explicit list of gaps.\n6. **Biomarkers:** each mapped to a human read-out.\n7. **What dropping would give up, and why dropping could still be right.**\n8. **What was considered and ruled out.**\n9. **Integrity log:** 22 data-integrity issues.\n10. **External knowledge:** clearly labelled wherever it is used.\n\n**Judgement on framing**\n- It correctly identifies the asset, on the data, as an intranasal vaccine adjuvant for aged hosts rather than a stand-alone STING drug. Adjuvant alone and vaccine alone each protected 0/7; together, 6/7.\n- It notes the user's description could mean the Mn-free PSLN-212 and says it would drop that version.\n- It flags the central attribution gap: there is no Mn-only arm and no STING-deficient arm.\n- It flags that the effect appears only in aged mice.\n- It notes the unchallenged aged controls died at 4/21, so these animals cannot serve as challenge controls and waning cannot be separated from old-age deaths.\n\n**Numbers I recomputed, all matching the proposal**\n- **Survival counts:** every count in the Appendix B table, across 18 time-to-event blocks.\n  - Pooled 42/45 vs 8/45 vs 1/45 (32/35, 5/35, 0/35 without S03-J), with 95% CI 82–99%.\n  - Stratified log-rank p about 1e-13.\n  - Day 60: 14/21 vs young 21/21, stratified log-rank p = 0.005; vs unchallenged controls, Fisher p = 0.48.\n  - Unchallenged deaths 4/21, CI 5–42%.\n  - Swiss Webster was the only experiment where PSLN-344 did not significantly beat PSLN-212 (asymptotic p = 0.056; the model's exact p = 0.086 is plausible).\n- **Antibody titres:**\n  - HAI geometric mean titres 368/46 and 320/35, i.e. 8.0- and 9.2-fold, or 76% and 87% of young.\n  - Neutralising titre 3,840 vs 418.\n  - IgG 7,305 rising to 15,651 after boost, 38% of young.\n- **Mechanism and cell read-outs:** Ifnb1 37×/17×/37×; Gm-csf 8.5×; S02-H 19.7% vs 2.1%, rescued to 12.4%; CCR2 antagonist 9.9% to 3.3%; Tfr 10.8% vs 26.7% (p = 0.005); S01-D day-8 monocytes 18.4% vs 14.1% (p = 0.006).\n- **Dose, tolerability and safety:**\n  - Dose-response: 16%, 42% and 91% of the 40 µg response.\n  - Encapsulation 54.8 ± 5.1%.\n  - Post-dose weight loss: 3.6% (worst 5.8%), vaccine alone 1.8%, R848 combination 10.0% with 4 of 5 animals at 10% or more.\n  - Lung Tnf/Il6 8.4×/7.2× vs young 0.48×/3.1×.\n  - Brain Tnf 1.59× (p ≈ 0.05).\n  - Young mice in the 180-day study regained weight more slowly with PSLN-344: 95.6% vs 99.2% (p = 0.004).\n- **Power:** 36% at n = 7 and 91% at n = 18 (exact Fisher, recomputed).\n- **38 immune read-outs:** median 70% of young (range 29–98%) vs 20% for PSLN-212; 36 of 38 significant. I re-counted this from the model's T07 table rather than rederiving each ratio from the workbook, though the individual group means I spot-checked all matched the workbook.\n\n**Integrity findings I confirmed**\n- **S03-B/F:** the column headers are rotated. The per-animal ratios equal the S13-A–D subclass titres shifted by one group, so read as printed PSLN-344 looks like 0.6 when it is really 2.1.\n- **S09-A:** the panel labelled 16 h holds all 21 Ifnb1 values of the S01-A 72 h panel.\n- **S11-A/B:** 35 of 100 values are identical in the same cell.\n- **S06-C/D:** identical survival vectors for Sham and PSLN-212 in two different experiments.\n- **Re-used weight trajectories:** S15-C's PSLN-344 animals reappear in S15-I, and young BALB/c trajectories reappear as C57BL/6 animals in S15-M.\n- **Stated n vs observations:** mismatches in S03-J, S13-E, S09-B/F and S05-A/B.\n- **Other label problems:** S03-J has a flag without a day, S07-C carries a duplicate label, and S08 rows 89–101 are unlabelled.\n\n**Minor issues**\n- It says \"females only\", but sex is stated only for BALB/c.\n- \"Matches\" overstates the S08-C/S01-B value overlap; the values are close, not identical.\n- One 14-month comparison quoted (6/7 vs 0/7) is the more favourable of two (the other was 6/7 vs 4/7).\n- The document is long and dense for a committee.\n\nNone of these affect the conclusions. I could not render the PDF here, but it is a valid 13-page file with embedded fonts and images, and the transcript shows the model checking its rendered pages. Overall this is accurate, well-sourced and objectively framed work with only cosmetic issues."
+    }
+  ],
+  "weight": 1,
+  "allow_unbounded": false,
+  "created_at": "2026-11-19T07:56:55.804633Z",
+  "has_metadata": true,
+  "metadata_byte_size": 422061,
+  "metadata": {
+    "agentic_grader": {
+      "cc_harness": false,
+      "container_mode": "fresh_with_policy_setup",
+      "scoring_mode": "single_score",
+      "grading_model": "claude-opus-5-5",
+      "grading_model_slug": "claude-opus-5-5",
+      "grading_container_id": "elite-unity-gfvbjk-kknwws",
+      "grader_error": false,
+      "full_debug_s3_hint": "biome/agentic-grading-transcripts/elite-unity-gfvbjk-kknwws/grading_debug.json",
+      "grading_turns_count": null,
+      "grading_tokens_consumed": null,
+      "grader_context_window_effective": 1000000,
+      "grader_context_window_source": "default",
+      "policy_outputs_transfer": {
+        "mode": "snapshot_mount",
+        "snapshot_source": "pre_grade",
+        "snapshot_ttl": null,
+        "snapshot_seconds": 1.2613289488945156,
+        "reader_uid": 1000,
+        "handin_max_bytes": 2147483648,
+        "grading_box_seconds": 39.883,
+        "grading_box_attempts": 1,
+        "mount_verified": true,
+        "unmounted": true,
+        "detach_checks": [
+          "mounts",
+          "same_device",
+          "ext4_sysfs",
+          "device_read"
+        ],
+        "device_read_refused": true,
+        "present_seconds": 0.611,
+        "probe": "dir",
+        "measured_bytes": 10316619,
+        "entries": 76,
+        "status": "ok",
+        "declared_path_missing": false,
+        "declared_path_wrong_type": false,
+        "copied_files": 71,
+        "copied_bytes": 10243736,
+        "copies_inert": true
+      },
+      "import_shadowing_set_aside": [],
+      "grader_attempts": 1,
+      "grader_failed_attempts": [],
+      "grader_failed_attempt_errors": [],
+      "grader_failed_attempts_ms": 0,
+      "grader_planted_shape": null,
+      "policy_markup_hits": 0,
+      "handin_integrity": "unchanged",
+      "handin_integrity_drift_only": true
+    },
+    "rubric_evaluations": [
+      {
+        "name": "overall",
+        "score": 0.94,
+        "max_score": 1,
+        "weight": 1,
+        "reasoning": "I checked the model's committee package against the original workbook and annotation, using my own parsers (stdlib XML for the xlsx and R `survival`). I recomputed each figure myself rather than trusting the model's scripts, logs or register.\n\n**What was delivered**\n- A 13-page PDF with matching Markdown and self-contained HTML versions.\n- Six figures.\n- An analysis folder with scripts, tables, logs and a register (`T10_numbers_cited`) linking each quoted number to its source block and analysis table.\n\n**Does it cover what was asked?** All ten required parts are present, in the requested order:\n1. **Recommendation first:** keep PSLN-344 conditionally, with gates and a data audit before any new spend.\n2. **Next studies:** each has a \"must establish\" statement, numeric endpoints tied to observed values, and stop criteria.\n3. **Asset assessment:** a scorecard of how the asset looks.\n4. **Target demographic for the TAM check:** adults 65 and over on annual flu vaccination, plus expansion and exclusion segments and filters for market research.\n5. **Mechanism of action:** an evidence table by link in the chain, with an explicit list of gaps.\n6. **Biomarkers:** each mapped to a human read-out.\n7. **What dropping would give up, and why dropping could still be right.**\n8. **What was considered and ruled out.**\n9. **Integrity log:** 22 data-integrity issues.\n10. **External knowledge:** clearly labelled wherever it is used.\n\n**Judgement on framing**\n- It correctly identifies the asset, on the data, as an intranasal vaccine adjuvant for aged hosts rather than a stand-alone STING drug. Adjuvant alone and vaccine alone each protected 0/7; together, 6/7.\n- It notes the user's description could mean the Mn-free PSLN-212 and says it would drop that version.\n- It flags the central attribution gap: there is no Mn-only arm and no STING-deficient arm.\n- It flags that the effect appears only in aged mice.\n- It notes the unchallenged aged controls died at 4/21, so these animals cannot serve as challenge controls and waning cannot be separated from old-age deaths.\n\n**Numbers I recomputed, all matching the proposal**\n- **Survival counts:** every count in the Appendix B table, across 18 time-to-event blocks.\n  - Pooled 42/45 vs 8/45 vs 1/45 (32/35, 5/35, 0/35 without S03-J), with 95% CI 82–99%.\n  - Stratified log-rank p about 1e-13.\n  - Day 60: 14/21 vs young 21/21, stratified log-rank p = 0.005; vs unchallenged controls, Fisher p = 0.48.\n  - Unchallenged deaths 4/21, CI 5–42%.\n  - Swiss Webster was the only experiment where PSLN-344 did not significantly beat PSLN-212 (asymptotic p = 0.056; the model's exact p = 0.086 is plausible).\n- **Antibody titres:**\n  - HAI geometric mean titres 368/46 and 320/35, i.e. 8.0- and 9.2-fold, or 76% and 87% of young.\n  - Neutralising titre 3,840 vs 418.\n  - IgG 7,305 rising to 15,651 after boost, 38% of young.\n- **Mechanism and cell read-outs:** Ifnb1 37×/17×/37×; Gm-csf 8.5×; S02-H 19.7% vs 2.1%, rescued to 12.4%; CCR2 antagonist 9.9% to 3.3%; Tfr 10.8% vs 26.7% (p = 0.005); S01-D day-8 monocytes 18.4% vs 14.1% (p = 0.006).\n- **Dose, tolerability and safety:**\n  - Dose-response: 16%, 42% and 91% of the 40 µg response.\n  - Encapsulation 54.8 ± 5.1%.\n  - Post-dose weight loss: 3.6% (worst 5.8%), vaccine alone 1.8%, R848 combination 10.0% with 4 of 5 animals at 10% or more.\n  - Lung Tnf/Il6 8.4×/7.2× vs young 0.48×/3.1×.\n  - Brain Tnf 1.59× (p ≈ 0.05).\n  - Young mice in the 180-day study regained weight more slowly with PSLN-344: 95.6% vs 99.2% (p = 0.004).\n- **Power:** 36% at n = 7 and 91% at n = 18 (exact Fisher, recomputed).\n- **38 immune read-outs:** median 70% of young (range 29–98%) vs 20% for PSLN-212; 36 of 38 significant. I re-counted this from the model's T07 table rather than rederiving each ratio from the workbook, though the individual group means I spot-checked all matched the workbook.\n\n**Integrity findings I confirmed**\n- **S03-B/F:** the column headers are rotated. The per-animal ratios equal the S13-A–D subclass titres shifted by one group, so read as printed PSLN-344 looks like 0.6 when it is really 2.1.\n- **S09-A:** the panel labelled 16 h holds all 21 Ifnb1 values of the S01-A 72 h panel.\n- **S11-A/B:** 35 of 100 values are identical in the same cell.\n- **S06-C/D:** identical survival vectors for Sham and PSLN-212 in two different experiments.\n- **Re-used weight trajectories:** S15-C's PSLN-344 animals reappear in S15-I, and young BALB/c trajectories reappear as C57BL/6 animals in S15-M.\n- **Stated n vs observations:** mismatches in S03-J, S13-E, S09-B/F and S05-A/B.\n- **Other label problems:** S03-J has a flag without a day, S07-C carries a duplicate label, and S08 rows 89–101 are unlabelled.\n\n**Minor issues**\n- It says \"females only\", but sex is stated only for BALB/c.\n- \"Matches\" overstates the S08-C/S01-B value overlap; the values are close, not identical.\n- One 14-month comparison quoted (6/7 vs 0/7) is the more favourable of two (the other was 6/7 vs 4/7).\n- The document is long and dense for a committee.\n\nNone of these affect the conclusions. I could not render the PDF here, but it is a valid 13-page file with embedded fonts and images, and the transcript shows the model checking its rendered pages. Overall this is accurate, well-sourced and objectively framed work with only cosmetic issues."
+      }
+    ],
+    "strategy_type": "agentic_grader",
+    "grade_key": "agentic_grader",
+    "label": null,
+    "strategy_weight": 1,
+    "is_auxiliary": false
+  }
+}

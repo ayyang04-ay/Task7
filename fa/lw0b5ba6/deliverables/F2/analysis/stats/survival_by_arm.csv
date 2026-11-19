@@ -1,0 +1,72 @@
+block,age,vaccine,challenge,interval,match,group,n,deaths,survivors,survival_pct,ci95_lo,ci95_hi,median_survival_d,death_days,n_missing_time,cells
+S03-I,aged BALB/c,bivalent (CA09 H1N1 + Aichi H3N2),10x mLD50 CA09 H1N1,d14,homologous,Sham,7,7,0,0.0,0.0,40.96163972250034,6.0,5 6 6 6 8 8 11,0,S03!B17:B23
+S03-I,aged BALB/c,bivalent (CA09 H1N1 + Aichi H3N2),10x mLD50 CA09 H1N1,d14,homologous,CMP-204,7,4,3,42.857142857142854,9.898827844250786,81.59484323599169,10.0,6 7 8 10,0,S03!C24:C30
+S03-I,aged BALB/c,bivalent (CA09 H1N1 + Aichi H3N2),10x mLD50 CA09 H1N1,d14,homologous,PSLN-212,7,7,0,0.0,0.0,40.96163972250034,6.0,5 5 5 6 6 6 6,0,S03!D31:D37
+S03-I,aged BALB/c,bivalent (CA09 H1N1 + Aichi H3N2),10x mLD50 CA09 H1N1,d14,homologous,PSLN-344,7,0,7,100.0,59.038360277499656,100.0,inf,,0,S03!E38:E44
+S03-I,aged BALB/c,bivalent (CA09 H1N1 + Aichi H3N2),10x mLD50 CA09 H1N1,d14,homologous,PSLN-212(Y),7,0,7,100.0,59.038360277499656,100.0,inf,,0,S03!F45:F51
+S03-J,aged,"rgH5N1, single dose",wild-type VN04 H5N1 (dose not stated),d2,"homologous (H5N1), early",Sham,10,9,1,10.0,0.2528578544461785,44.50161170281954,9.0,3 4 9 9 9 10 10 10 10,0,S03!H17:H26
+S03-J,aged,"rgH5N1, single dose",wild-type VN04 H5N1 (dose not stated),d2,"homologous (H5N1), early",PSLN-212,10,7,3,30.0,6.673951117773447,65.24528500599973,12.0,10 10 11 11 12 12 12,0,S03!I27:I36
+S03-J,aged,"rgH5N1, single dose",wild-type VN04 H5N1 (dose not stated),d2,"homologous (H5N1), early",PSLN-344,10,0,10,100.0,69.15028921812392,100.0,inf,,1,S03!J37:J46
+S06-A,aged BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1,d14,heterosubtypic,Sham,7,7,0,0.0,0.0,40.96163972250034,5.0,4 4 4 5 5 7 7,0,S06!B3:B9
+S06-A,aged BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1,d14,heterosubtypic,PSLN-212,7,6,1,14.285714285714286,0.3610296861900583,57.87231970431952,8.0,4 6 6 8 9 10,0,S06!C10:C16
+S06-A,aged BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1,d14,heterosubtypic,PSLN-344,7,1,6,85.71428571428571,42.12768029568048,99.63897031380993,inf,8,0,S06!D17:D23
+S06-A,aged BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1,d14,heterosubtypic,PSLN-212(Y),7,0,7,100.0,59.038360277499656,100.0,inf,,0,S06!E24:E30
+S06-B,aged BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1,d3,"heterosubtypic, early",Sham,7,7,0,0.0,0.0,40.96163972250034,5.0,4 4 4 5 5 6 6,0,S06!H3:H9
+S06-B,aged BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1,d3,"heterosubtypic, early",PSLN-212,7,7,0,0.0,0.0,40.96163972250034,6.0,4 4 6 6 6 7 10,0,S06!I10:I16
+S06-B,aged BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1,d3,"heterosubtypic, early",PSLN-344,7,2,5,71.42857142857143,29.04208637373427,96.33074338239145,inf,8 10,0,S06!J17:J23
+S06-B,aged BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1,d3,"heterosubtypic, early",PSLN-212(Y),7,0,7,100.0,59.038360277499656,100.0,inf,,0,S06!K24:K30
+S06-C,aged BALB/c,bivalent,5x mLD50 rgH5N1,d14,heterosubtypic,Sham,7,7,0,0.0,0.0,40.96163972250034,6.0,4 4 5 6 6 6 7,0,S06!N3:N9
+S06-C,aged BALB/c,bivalent,5x mLD50 rgH5N1,d14,heterosubtypic,PSLN-212,7,5,2,28.571428571428573,3.6692566176085553,70.95791362626572,10.0,5 8 10 10 12,0,S06!O10:O16
+S06-C,aged BALB/c,bivalent,5x mLD50 rgH5N1,d14,heterosubtypic,PSLN-344,7,0,7,100.0,59.038360277499656,100.0,inf,,0,S06!P17:P23
+S06-C,aged BALB/c,bivalent,5x mLD50 rgH5N1,d14,heterosubtypic,PSLN-212(Y),7,0,7,100.0,59.038360277499656,100.0,inf,,0,S06!Q24:Q30
+S06-D,aged BALB/c,bivalent,5x mLD50 rgH5N1,d3,"heterosubtypic, early",Sham,7,7,0,0.0,0.0,40.96163972250034,6.0,4 4 5 6 6 6 7,0,S06!B34:B40
+S06-D,aged BALB/c,bivalent,5x mLD50 rgH5N1,d3,"heterosubtypic, early",PSLN-212,7,5,2,28.571428571428573,3.6692566176085553,70.95791362626572,10.0,5 8 10 10 12,0,S06!C41:C47
+S06-D,aged BALB/c,bivalent,5x mLD50 rgH5N1,d3,"heterosubtypic, early",PSLN-344,7,0,7,100.0,59.038360277499656,100.0,inf,,0,S06!D48:D54
+S06-D,aged BALB/c,bivalent,5x mLD50 rgH5N1,d3,"heterosubtypic, early",PSLN-212(Y),7,0,7,100.0,59.038360277499656,100.0,inf,,0,S06!E55:E61
+S06-E,aged BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1,d60,"heterosubtypic, durable",Sham,7,7,0,0.0,0.0,40.96163972250034,5.0,4 5 5 5 5 6 6,0,S06!H34:H40
+S06-E,aged BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1,d60,"heterosubtypic, durable",PSLN-212,7,7,0,0.0,0.0,40.96163972250034,6.0,5 5 5 6 6 8 11,0,S06!I41:I47
+S06-E,aged BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1,d60,"heterosubtypic, durable",PSLN-344,7,2,5,71.42857142857143,29.04208637373427,96.33074338239145,inf,8 10,0,S06!J48:J54
+S06-E,aged BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1,d60,"heterosubtypic, durable",PSLN-212(Y),7,0,7,100.0,59.038360277499656,100.0,inf,,0,S06!K55:K61
+S06-E,aged BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1,d60,"heterosubtypic, durable",Untreated,7,1,6,85.71428571428571,42.12768029568048,99.63897031380993,inf,4,0,S06!L62:L68
+S06-F,aged BALB/c,bivalent,5x mLD50 rgH5N1,d60,"heterosubtypic, durable",Sham,7,7,0,0.0,0.0,40.96163972250034,5.0,4 4 4 5 5 6 6,0,S06!N34:N40
+S06-F,aged BALB/c,bivalent,5x mLD50 rgH5N1,d60,"heterosubtypic, durable",PSLN-212,7,6,1,14.285714285714286,0.3610296861900583,57.87231970431952,6.0,4 5 6 6 6 7,0,S06!O41:O47
+S06-F,aged BALB/c,bivalent,5x mLD50 rgH5N1,d60,"heterosubtypic, durable",PSLN-344,7,2,5,71.42857142857143,29.04208637373427,96.33074338239145,inf,7 8,0,S06!P48:P54
+S06-F,aged BALB/c,bivalent,5x mLD50 rgH5N1,d60,"heterosubtypic, durable",PSLN-212(Y),7,0,7,100.0,59.038360277499656,100.0,inf,,0,S06!Q55:Q61
+S06-F,aged BALB/c,bivalent,5x mLD50 rgH5N1,d60,"heterosubtypic, durable",Untreated,7,0,7,100.0,59.038360277499656,100.0,inf,,0,S06!R62:R68
+S06-G,aged BALB/c,CA09 H1N1,5x mLD50 Perth H3N2,d60,"heterosubtypic, durable",Sham,7,7,0,0.0,0.0,40.96163972250034,6.0,4 4 5 6 6 7 7,0,S06!B71:B77
+S06-G,aged BALB/c,CA09 H1N1,5x mLD50 Perth H3N2,d60,"heterosubtypic, durable",PSLN-212,7,7,0,0.0,0.0,40.96163972250034,8.0,6 6 8 8 8 11 11,0,S06!C78:C84
+S06-G,aged BALB/c,CA09 H1N1,5x mLD50 Perth H3N2,d60,"heterosubtypic, durable",PSLN-344,7,3,4,57.142857142857146,18.4051567640083,90.10117215574921,inf,8 9 11,0,S06!D85:D91
+S06-G,aged BALB/c,CA09 H1N1,5x mLD50 Perth H3N2,d60,"heterosubtypic, durable",PSLN-212(Y),7,0,7,100.0,59.038360277499656,100.0,inf,,0,S06!E92:E98
+S06-G,aged BALB/c,CA09 H1N1,5x mLD50 Perth H3N2,d60,"heterosubtypic, durable",Untreated,7,3,4,57.142857142857146,18.4051567640083,90.10117215574921,inf,3 7 10,0,S06!F99:F105
+S06-E(2) imprinting/PR8,"14-month BALB/c (10 mo + 4 mo), +/- prior PR8 infection",bivalent,5x LD50 PR8 H1N1,not stated,imprinting model,Naive+PSLN-212,7,7,0,0.0,0.0,40.96163972250034,6.0,4 4 5 6 6 6 8,0,S06!H71:H77
+S06-E(2) imprinting/PR8,"14-month BALB/c (10 mo + 4 mo), +/- prior PR8 infection",bivalent,5x LD50 PR8 H1N1,not stated,imprinting model,Imprinting+PSLN-212,7,3,4,57.142857142857146,18.4051567640083,90.10117215574921,inf,6 8 8,0,S06!I78:I84
+S06-E(2) imprinting/PR8,"14-month BALB/c (10 mo + 4 mo), +/- prior PR8 infection",bivalent,5x LD50 PR8 H1N1,not stated,imprinting model,Naive+PSLN-344,7,1,6,85.71428571428571,42.12768029568048,99.63897031380993,inf,5,0,S06!J85:J91
+S06-E(2) imprinting/PR8,"14-month BALB/c (10 mo + 4 mo), +/- prior PR8 infection",bivalent,5x LD50 PR8 H1N1,not stated,imprinting model,Imprinting+PSLN-344,7,1,6,85.71428571428571,42.12768029568048,99.63897031380993,inf,8,0,S06!K92:K98
+S06-F(2) imprinting/Perth,"14-month BALB/c (10 mo + 4 mo), +/- prior PR8 infection",bivalent,5x LD50 Perth H3N2,d14,imprinting model,Naive+PSLN-212,7,7,0,0.0,0.0,40.96163972250034,6.0,4 4 6 6 7 8 8,0,S06!N71:N77
+S06-F(2) imprinting/Perth,"14-month BALB/c (10 mo + 4 mo), +/- prior PR8 infection",bivalent,5x LD50 Perth H3N2,d14,imprinting model,Imprinting+PSLN-212,7,7,0,0.0,0.0,40.96163972250034,5.0,4 4 5 5 5 6 6,0,S06!O78:O84
+S06-F(2) imprinting/Perth,"14-month BALB/c (10 mo + 4 mo), +/- prior PR8 infection",bivalent,5x LD50 Perth H3N2,d14,imprinting model,Naive+PSLN-344,7,1,6,85.71428571428571,42.12768029568048,99.63897031380993,inf,8,0,S06!P85:P91
+S06-F(2) imprinting/Perth,"14-month BALB/c (10 mo + 4 mo), +/- prior PR8 infection",bivalent,5x LD50 Perth H3N2,d14,imprinting model,Imprinting+PSLN-344,7,1,6,85.71428571428571,42.12768029568048,99.63897031380993,inf,7,0,S06!Q92:Q98
+S09-B,young BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1,d21,heterosubtypic,Sham,8,8,0,0.0,0.0,36.94166475528192,7.0,6 6 6 7 7 7 8 8,0,S09!B12:B19
+S09-B,young BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1,d21,heterosubtypic,PSLN-344Y,8,0,8,100.0,63.058335244718066,100.0,inf,,0,S09!C20:C27
+S09-B,young BALB/c,Aichi H3N2,5x mLD50 PR8 H1N1,d21,heterosubtypic,PSLN-212Y,8,0,8,100.0,63.058335244718066,100.0,inf,,0,S09!D28:D35
+S09-D,young BALB/c,CA09 H1N1,5x mLD50 Perth H3N2,d21,heterosubtypic,Sham,8,8,0,0.0,0.0,36.94166475528192,8.0,7 8 8 8 8 8 9 9,0,S09!B39:B46
+S09-D,young BALB/c,CA09 H1N1,5x mLD50 Perth H3N2,d21,heterosubtypic,PSLN-344Y,8,0,8,100.0,63.058335244718066,100.0,inf,,0,S09!C47:C54
+S09-D,young BALB/c,CA09 H1N1,5x mLD50 Perth H3N2,d21,heterosubtypic,PSLN-212Y,8,0,8,100.0,63.058335244718066,100.0,inf,,0,S09!D55:D62
+S09-F,young BALB/c,bivalent,5x mLD50 VN04 rgH5N1,d180,"heterosubtypic, durable",Sham,7,7,0,0.0,0.0,40.96163972250034,7.0,6 6 6 7 8 8 8,0,S09!B66:B72
+S09-F,young BALB/c,bivalent,5x mLD50 VN04 rgH5N1,d180,"heterosubtypic, durable",PSLN-344Y,8,0,8,100.0,63.058335244718066,100.0,inf,,0,S09!C73:C80
+S09-F,young BALB/c,bivalent,5x mLD50 VN04 rgH5N1,d180,"heterosubtypic, durable",PSLN-212Y,8,0,8,100.0,63.058335244718066,100.0,inf,,0,S09!D81:D88
+S13-E,young BALB/c,as S03-I,10x mLD50 CA09 H1N1,d14,homologous,Naive,7,7,0,0.0,0.0,40.96163972250034,7.0,6 7 7 7 8 8 8,0,S13!S3:S9
+S13-E,young BALB/c,as S03-I,10x mLD50 CA09 H1N1,d14,homologous,Sham,7,6,1,14.285714285714286,0.3610296861900583,57.87231970431952,10.0,7 9 9 10 11 11,0,S13!T10:T16
+S13-E,young BALB/c,as S03-I,10x mLD50 CA09 H1N1,d14,homologous,CMP-204(Y),7,0,7,100.0,59.038360277499656,100.0,inf,,0,S13!U17:U23
+S13-E,young BALB/c,as S03-I,10x mLD50 CA09 H1N1,d14,homologous,PSLN-344(Y),7,0,7,100.0,59.038360277499656,100.0,inf,,0,S13!V24:V30
+S15-H,aged BALB/c,bivalent / none,5x mLD50 VN04 rgH5N1,d3,"component control, early",3d Vaccine,7,7,0,0.0,0.0,40.96163972250034,5.0,4 5 5 5 6 6 7,0,S15!B73:B79
+S15-H,aged BALB/c,bivalent / none,5x mLD50 VN04 rgH5N1,d3,"component control, early",3d PSLN-344,7,7,0,0.0,0.0,40.96163972250034,6.0,5 5 6 6 6 7 8,0,S15!C80:C86
+S15-H,aged BALB/c,bivalent / none,5x mLD50 VN04 rgH5N1,d3,"component control, early",3d Vaccine+PSLN-344,7,1,6,85.71428571428571,42.12768029568048,99.63897031380993,inf,12,0,S15!D87:D93
+S15-L,aged C57BL/6 (20 mo),bivalent,not stated,not stated,second inbred strain,Sham,7,7,0,0.0,0.0,40.96163972250034,6.0,4 4 6 6 6 8 8,0,S15!B103:B109
+S15-L,aged C57BL/6 (20 mo),bivalent,not stated,not stated,second inbred strain,PSLN-212,7,7,0,0.0,0.0,40.96163972250034,8.0,6 7 7 8 8 9 11,0,S15!C110:C116
+S15-L,aged C57BL/6 (20 mo),bivalent,not stated,not stated,second inbred strain,PSLN-344,7,1,6,85.71428571428571,42.12768029568048,99.63897031380993,inf,8,0,S15!D117:D123
+S15-L,aged C57BL/6 (20 mo),bivalent,not stated,not stated,second inbred strain,PSLN-212(Y),7,1,6,85.71428571428571,42.12768029568048,99.63897031380993,inf,12,0,S15!E124:E130
+S15-N,aged Swiss Webster (20 mo),bivalent,not stated,not stated,outbred strain,Sham,7,7,0,0.0,0.0,40.96163972250034,8.0,5 6 6 8 8 8 10,0,S15!B134:B140
+S15-N,aged Swiss Webster (20 mo),bivalent,not stated,not stated,outbred strain,PSLN-212,7,5,2,28.571428571428573,3.6692566176085553,70.95791362626572,10.0,6 10 10 10 12,0,S15!C141:C147
+S15-N,aged Swiss Webster (20 mo),bivalent,not stated,not stated,outbred strain,PSLN-344,7,1,6,85.71428571428571,42.12768029568048,99.63897031380993,inf,8,0,S15!D148:D154
+S15-N,aged Swiss Webster (20 mo),bivalent,not stated,not stated,outbred strain,PSLN-212(Y),7,0,7,100.0,59.038360277499656,100.0,inf,,0,S15!E155:E161

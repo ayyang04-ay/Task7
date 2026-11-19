@@ -1,0 +1,17 @@
+scenario,p1,p0,target_power,n_per_group,achieved_power
+"Observed effect: PSLN-344 84% vs PSLN-212 12% (T7, excl. S06-D)",0.84,0.12,0.8,8,0.8240718542601481
+"Observed effect: PSLN-344 84% vs PSLN-212 12% (T7, excl. S06-D)",0.84,0.12,0.9,11,0.9247095299062454
+Conservative planning: 75% vs 25%,0.75,0.25,0.8,18,0.8330051490141455
+Conservative planning: 75% vs 25%,0.75,0.25,0.9,23,0.9105464820972863
+Attribution arm (e.g. Mn-only or cGAMP+Mn) 80% vs 40%,0.8,0.4,0.8,27,0.8024322046637302
+Attribution arm (e.g. Mn-only or cGAMP+Mn) 80% vs 40%,0.8,0.4,0.9,33,0.9010170987109785
+Attribution arm 80% vs 50%,0.8,0.5,0.8,44,0.8020895152439883
+Attribution arm 80% vs 50%,0.8,0.5,0.9,58,0.9060359070833552
+Durability: d14 93% vs d60 67% (T8),0.93,0.67,0.8,40,0.8044466738295892
+Durability: d14 93% vs d60 67% (T8),0.93,0.67,0.9,52,0.9040794618710133
+Sex effect / strain effect 85% vs 55%,0.85,0.55,0.8,41,0.8062079762034247
+Sex effect / strain effect 85% vs 55%,0.85,0.55,0.9,53,0.903157211502267
+historical n=7: 0.84 vs 0.12,0.84,0.12,,7,0.6889670344348456
+historical n=7: 0.75 vs 0.25,0.75,0.25,,7,0.28113083541393274
+historical n=7: 0.8 vs 0.4,0.8,0.4,,7,0.15399816527872007
+historical n=7: 0.93 vs 0.67,0.93,0.67,,7,0.028187102440887353

@@ -1,0 +1,22 @@
+group    CMP-204  PSLN-212  PSLN-344  PSLN-344/R848
+dose_ug                                            
+1.0         1.00      1.36      1.38           1.03
+5.0         3.80      4.10      8.27           6.71
+10.0        6.26      8.92     21.09          14.71
+20.0        7.29     12.57     45.83          29.45
+40.0        7.96     14.87     50.23          34.91
+
+           group      cells  Emax_fold  Emax_lo  Emax_hi  ED50_ug  ED50_lo  ED50_hi  hill  hill_lo  hill_hi  resid_sd_log10  pred_20ug  pred_40ug  frac_of_plateau_at_20ug
+0        CMP-204  S08!B3:D7       6.58     5.84     7.46     5.67     4.91     6.73   2.8     2.01        8          0.0503       7.39       7.55                    0.972
+1       PSLN-212  S08!E3:G7       15.6     12.6     20.3     10.8     7.98     16.4  1.68     1.35     2.21          0.0618       12.5         15                    0.737
+2       PSLN-344  S08!H3:J7       57.7       47     74.4     13.3     10.3     18.2  1.99     1.69     2.39          0.0686         41       52.9                    0.693
+3  PSLN-344/R848  S08!K3:M7       34.9     28.2     47.4     11.2     8.43     16.5  2.21     1.73        3          0.0826       28.4         34                    0.783
+
+PSLN-344 20 vs 40 ug (Welch on log10): p=0.554; ratio 40/20 = 1.10
+  dose  1 ug: PSLN-344/PSLN-212 ratio = 1.01  Welch p=0.8705
+  dose  5 ug: PSLN-344/PSLN-212 ratio = 2.02  Welch p=0.0133
+  dose 10 ug: PSLN-344/PSLN-212 ratio = 2.35  Welch p=0.0040
+  dose 20 ug: PSLN-344/PSLN-212 ratio = 3.64  Welch p=0.0003
+  dose 40 ug: PSLN-344/PSLN-212 ratio = 3.38  Welch p=0.0013
+
+PSLN-344 dose predicted to match the PSLN-212 20-ug response (12.6-fold): 6.6 ug

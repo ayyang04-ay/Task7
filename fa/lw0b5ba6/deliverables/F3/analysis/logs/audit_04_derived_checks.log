@@ -1,0 +1,77 @@
+====================================================================================================
+(1) IgG2a/IgG1 quotient: S03-B (H1N1) vs S13-A / S13-B ;  S03-F (H3N2) vs S13-C / S13-D
+
+  CA09 H1N1: recomputed IgG2a/IgG1 per animal from S13-A/S13-B:
+     PSLN-212     [0.7396 0.8001 0.2919 0.4803 0.5772]  geo-mean=0.54
+     PSLN-344     [2.5827 1.7224 4.1898 0.8475 1.3764]  geo-mean=1.85
+     PSLN-212(Y)  [4.4364 4.5767 1.1795 1.172  3.4946]  geo-mean=2.50
+  S03-B as printed:
+     PSLN-212     [4.4364 4.5765 1.1793 1.172  3.4946]  geo-mean=2.50
+     PSLN-344     [0.7396 0.8001 0.2919 0.4803 0.5772]  geo-mean=0.54
+     PSLN-212(Y)  [2.5827 1.7224 4.1898 0.8475 1.3764]  geo-mean=1.85
+  which recomputed group does each printed column equal?
+     S03-B column printed as "PSLN-212"  ==  S13-A/S13-B ratio for "PSLN-212(Y)"   <-- LABEL DOES NOT MATCH
+     S03-B column printed as "PSLN-344"  ==  S13-A/S13-B ratio for "PSLN-212"   <-- LABEL DOES NOT MATCH
+     S03-B column printed as "PSLN-212(Y)"  ==  S13-A/S13-B ratio for "PSLN-344"   <-- LABEL DOES NOT MATCH
+
+  Aichi H3N2: recomputed IgG2a/IgG1 per animal from S13-C/S13-D:
+     PSLN-212     [0.8854 0.6065 0.4908 0.3141 0.2616]  geo-mean=0.46
+     PSLN-344     [5.4639 3.4205 2.2582 1.0874 1.4037]  geo-mean=2.30
+     PSLN-212(Y)  [3.879  3.0615 3.1737 2.6347 1.7068]  geo-mean=2.79
+  S03-F as printed:
+     PSLN-212     [3.879  3.0595 3.1737 2.6347 1.7064]  geo-mean=2.79
+     PSLN-344     [0.8853 0.6064 0.4909 0.3141 0.2616]  geo-mean=0.46
+     PSLN-212(Y)  [5.4639 3.4205 2.2582 1.0874 1.4037]  geo-mean=2.30
+  which recomputed group does each printed column equal?
+     S03-F column printed as "PSLN-344"  ==  S13-C/S13-D ratio for "PSLN-212"   <-- LABEL DOES NOT MATCH
+     S03-F column printed as "PSLN-212(Y)"  ==  S13-C/S13-D ratio for "PSLN-344"   <-- LABEL DOES NOT MATCH
+
+====================================================================================================
+(2) Tfh:Tfr quotient S04-B vs Foxp3+ fraction S04-B
+   Sham         printed [3.8309 2.7736 2.5587 4.4054 4.2083]  recomputed (100-Foxp3)/Foxp3 [3.8309 2.7736 2.5587 4.4054 4.2083]  match=True
+   PSLN-212     printed [1.8409 3.8309 2.1056 3.1152 3.7847]  recomputed (100-Foxp3)/Foxp3 [1.8409 3.8309 2.1056 3.1152 3.7847]  match=True
+   PSLN-344     printed [10.9048  7.8496  6.6923  9.3093  7.6207]  recomputed (100-Foxp3)/Foxp3 [10.9048  7.8496  6.6923  9.3093  7.6207]  match=True
+   PSLN-212(Y)  printed [13.2857 29.303  15.9492  6.5758 15.129 ]  recomputed (100-Foxp3)/Foxp3 [13.2857 29.303  15.9492  6.5758 15.129 ]  match=True
+
+====================================================================================================
+(3) S09-A (log10, n=3) vs S01-A (linear, n=5): Ifnb1 row
+   S09-A/panel1(A-V) (label printed on sheet: "S09-A 16h n=3 Log10")
+      PBS            10^x = [1.84 0.62 0.88]   equals: ['S01-A/16h "Sham" first 3 of 5']
+      CMP-204        10^x = [ 6.16 10.61  6.79]   equals: ['S01-A/16h "CMP-204" first 3 of 5']
+      PSLN-212       10^x = [13.39 17.55 19.01]   equals: ['S01-A/16h "PSLN-212" first 3 of 5']
+      PSLN-R848      10^x = [8.62 4.28 2.22]   equals: ['S01-A/16h "PSLN-R848" first 3 of 5']
+      PSLN-212/R848  10^x = [29.09 22.78 20.93]   equals: []
+      PSLN-344       10^x = [44.31 32.58 33.21]   equals: []
+      PSLN-212(y)    10^x = [36.54 42.93 34.51]   equals: []
+   S09-A/panel2(X-AS) (label printed on sheet: "S09-A 16h n=3 Log10")
+      PBS            10^x = [1.21 0.84 0.98]   equals: ['S01-A/72h "Sham" first 3 of 5']
+      CMP-204        10^x = [1.71 2.46 2.46]   equals: ['S01-A/72h "CMP-204" first 3 of 5']
+      PSLN-212       10^x = [3.07 3.18 4.03]   equals: []
+      PSLN-R848      10^x = [1.3  1.24 1.2 ]   equals: []
+      PSLN-212/R848  10^x = [1.49 1.67 1.79]   equals: ['S01-A/72h "PSLN-212/R848" first 3 of 5']
+      PSLN-344       10^x = [7.01 4.   2.3 ]   equals: ['S01-A/72h "PSLN-344" first 3 of 5']
+      PSLN-212(y)    10^x = [0.64 1.86 2.28]   equals: []
+
+====================================================================================================
+(4) SRB uptake: S01-B vs S08-C
+   S01-B AECII/PSLN-SRB     [17.7 17.5 14.9 16.7 12.2]  mean=15.80
+   S01-B AECI/PSLN-SRB      [4.92 2.38 4.13 2.92 4.81]  mean=3.83
+   S01-B AECII/FreeSRB      [0.67 0.12 0.33 0.34 0.43]  mean=0.38
+   S01-B AECI/FreeSRB       [0.59 0.2  0.46 0.16 0.25]  mean=0.33
+   S08-C AECII-PSLN-SRB     [17.7 17.5 18.9 12.2 12.5]  mean=15.76
+   S08-C AECII-PSLN-344-SRB [4.92 2.35 4.61 4.13 3.02]  mean=3.81
+   S08-C AECI-PSLN-SRB      [14.32 15.11 15.12 11.83 12.42]  mean=13.76
+   S08-C AECI-PSLN-344-SRB  [2.93 3.53 3.79 2.52 2.23]  mean=3.00
+
+====================================================================================================
+(5) rgH5N1-restimulated vs H1N1/H3N2-restimulated IFN-g+ CD8 (S05-F vs S14-A) and other like-for-like repeats
+   S05-F {'Sham': np.float64(0.67), 'PSLN-212': np.float64(1.5), 'PSLN-344': np.float64(6.36), 'PSLN-212(Y)': np.float64(9.18)}
+   S14-A H1N1 {'Sham': np.float64(0.82), 'PSLN-212': np.float64(3.14), 'PSLN-344': np.float64(11.02), 'PSLN-212(Y)': np.float64(13.7)}
+   S14-A H3N2 {'Sham': np.float64(1.04), 'PSLN-212': np.float64(3.58), 'PSLN-344': np.float64(9.86), 'PSLN-212(Y)': np.float64(13.98)}
+   S05-G {'Sham': np.float64(1.46), 'PSLN-212': np.float64(3.04), 'PSLN-344': np.float64(9.86), 'PSLN-212(Y)': np.float64(14.36)}
+   S05-E {'Sham': np.float64(0.99), 'PSLN-212': np.float64(2.99), 'PSLN-344': np.float64(5.69), 'PSLN-212(Y)': np.float64(9.61)}
+   S02-I {'PSLN-344(Y)': np.float64(6.77), 'PSLN-344(Y)+INCB3344': np.float64(1.39)}
+   S01-D {}
+   S07-B/Mono {'PSLN-344': np.float64(9.86), 'PSLN-344+INCB3344': np.float64(3.26)}
+   S11-C {'CBX+': np.float64(3.08), 'CBX-': np.float64(7.28)}
+   S12-A {'WT to WT': np.float64(21.27), 'IFNAR-/- to WT': np.float64(15.37)}

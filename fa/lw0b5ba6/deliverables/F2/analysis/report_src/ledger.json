@@ -1,0 +1,821 @@
+[
+ {
+  "id": "L001",
+  "section": "1",
+  "statement": "Pooled survival, aged animals, vaccine + PSLN-344 vs vaccine + PSLN-212 (15 head-to-head comparisons in 13 experiment blocks)",
+  "value": "92/108 (85%, 95% CI 77-91) vs 15/108 (14%, 95% CI 8-22)",
+  "workbook_source": "status columns of S03-I, S03-J, S06-A to S06-G, S06-E and S06-F second blocks, S15-L, S15-N (and S15-H for the sham comparison)",
+  "analysis_output": "stats/survival_pooled.csv (script 05)",
+  "method": "Cochran-Mantel-Haenszel stratified by experiment, chi2 = 109, p < 1e-20; Mantel-Haenszel risk difference 71 points; exact (Clopper-Pearson) CIs"
+ },
+ {
+  "id": "L002",
+  "section": "1",
+  "statement": "Pooled survival, vaccine + PSLN-344 vs vaccine + empty liposome or vaccine alone (12 comparisons)",
+  "value": "74/87 (85%) vs 1/87 (1%)",
+  "workbook_source": "status columns of S03-I, S03-J, S06-A to S06-G, S06-E and S06-F second blocks, S15-L, S15-N (and S15-H for the sham comparison)",
+  "analysis_output": "stats/survival_pooled.csv (script 05)",
+  "method": "CMH chi2 = 119, p < 1e-20"
+ },
+ {
+  "id": "L003",
+  "section": "1",
+  "statement": "Same, worst reading of the workbook (lower of survival-block and weight-block count for PSLN-344, higher for each comparator)",
+  "value": "90/108 (83%) vs 19/108 (18%) for PSLN-212; 72/87 vs 5/87 for sham",
+  "workbook_source": "status columns of S03-I, S03-J, S06-A to S06-G, S06-E and S06-F second blocks, S15-L, S15-N (and S15-H for the sham comparison); paired weight blocks S13-F, S13-G, S15-A to S15-O",
+  "analysis_output": "stats/survival_pooled.csv (script 05); stats/survival_reconciliation.csv",
+  "method": "CMH p < 1e-20 for both"
+ },
+ {
+  "id": "L004",
+  "section": "1",
+  "statement": "Same, after removing every experiment with an integrity flag (kept: S06-A, S06-B, S06-F, S15-N, S06-E and S06-F second blocks)",
+  "value": "46/56 (82%) vs 8/56 (14%) for PSLN-212; 22/28 vs 0/28 for sham",
+  "workbook_source": "as above, subset",
+  "analysis_output": "stats/survival_sensitivity.csv (script 08)",
+  "method": "CMH p = 1.4e-12 and 6.0e-09"
+ },
+ {
+  "id": "L005",
+  "section": "1",
+  "statement": "Subset of animals aged 20 months or more (11 experiment blocks)",
+  "value": "68/80 vs 11/80",
+  "workbook_source": "S03-I, S03-J, S06-A to S06-G, S15-L, S15-N",
+  "analysis_output": "stats/survival_by_arm.csv (script 04)",
+  "method": "sum of arms"
+ },
+ {
+  "id": "L006",
+  "section": "1",
+  "statement": "Matched-strain (homologous) challenge, day 14, PSLN-344",
+  "value": "7/7",
+  "workbook_source": "S03!E38:E44",
+  "analysis_output": "stats/survival_by_arm.csv (script 04)",
+  "method": "vs Sham 0/7: exact log-rank p = 0.0006"
+ },
+ {
+  "id": "L007",
+  "section": "1",
+  "statement": "Cross-subtype (heterosubtypic) challenge at day 14, PSLN-344 vs PSLN-212",
+  "value": "13/14 vs 3/14",
+  "workbook_source": "S06-A S06!D17:D23; S06-C S06!P17:P23",
+  "analysis_output": "stats/survival_by_arm.csv (script 04)",
+  "method": "sum of two experiments"
+ },
+ {
+  "id": "L008",
+  "section": "1",
+  "statement": "Challenge 2 to 3 days after a single dose, PSLN-344 (vs sham or vaccine alone)",
+  "value": "28/31 vs 1/31",
+  "workbook_source": "S03-J, S06-B, S06-D, S15-H",
+  "analysis_output": "stats/survival_by_arm.csv (script 04); stats/sensitivity_power.txt",
+  "method": "sum of four experiments"
+ },
+ {
+  "id": "L009",
+  "section": "1",
+  "statement": "Wild-type H5N1 challenge 2 days after one dose: PSLN-344 vs the two comparator arms as labelled (Sham, PSLN-212)",
+  "value": "10/10 vs 1/10 and 3/10",
+  "workbook_source": "S03!H17:J46 (days in G17:G46; G46 empty)",
+  "analysis_output": "stats/survival_by_arm.csv (script 04)",
+  "method": "exact log-rank p = 0.0001 and 0.003; see integrity item D-07"
+ },
+ {
+  "id": "L010",
+  "section": "1",
+  "statement": "Other mouse strains (aged C57BL/6 and Swiss Webster), PSLN-344 vs PSLN-212",
+  "value": "12/14 vs 2/14",
+  "workbook_source": "S15!B103:E130; S15!B134:E161",
+  "analysis_output": "stats/survival_by_arm.csv (script 04)",
+  "method": "sum of two experiments; challenge virus not stated; see D-08, D-15"
+ },
+ {
+  "id": "L011",
+  "section": "1",
+  "statement": "14-month animals with or without prior PR8 infection, PSLN-344 vs PSLN-212",
+  "value": "24/28 vs 4/28",
+  "workbook_source": "S06!H71:K98; S06!N71:Q98",
+  "analysis_output": "stats/survival_by_arm.csv (script 04)",
+  "method": "sum of four arms each"
+ },
+ {
+  "id": "L012",
+  "section": "3",
+  "statement": "14-month animals without prior infection: PSLN-344 vs PSLN-212",
+  "value": "12/14 vs 0/14",
+  "workbook_source": "S06!H71:H77, J85:J91, N71:N77, P85:P91",
+  "analysis_output": "stats/survival_by_arm.csv (script 04)",
+  "method": "sum of two experiments"
+ },
+ {
+  "id": "L013",
+  "section": "3",
+  "statement": "14-month animals with prior PR8 infection: PSLN-344 vs PSLN-212",
+  "value": "12/14 vs 4/14",
+  "workbook_source": "S06!I78:I84, K92:K98, O78:O84, Q92:Q98",
+  "analysis_output": "stats/survival_by_arm.csv (script 04)",
+  "method": "sum of two experiments"
+ },
+ {
+  "id": "L014",
+  "section": "1",
+  "statement": "Adjuvant without vaccine, vaccine without adjuvant, and both, challenged on day 3",
+  "value": "0/7, 0/7, 6/7",
+  "workbook_source": "S15!B73:D93",
+  "analysis_output": "stats/survival_by_arm.csv (script 04)",
+  "method": "exact log-rank, both vs alone p = 0.0006"
+ },
+ {
+  "id": "L015",
+  "section": "1",
+  "statement": "Young animals, three challenge models (S09-B and S09-D challenged 21 days after the dose, S09-F 180 days after): PSLN-344 vs PSLN-212 (vs sham)",
+  "value": "S09-B: 8/8 vs 8/8 (0/8); S09-D: 8/8 vs 8/8 (0/8); S09-F: 8/8 vs 8/8 (0/7)",
+  "workbook_source": "S09!B12:D35; S09!B39:D62; S09!B66:D88",
+  "analysis_output": "stats/survival_by_arm.csv (script 04)",
+  "method": "counts"
+ },
+ {
+  "id": "L016",
+  "section": "1",
+  "statement": "Day-60 challenge: PSLN-344, PSLN-212, sham, young PSLN-212, untreated-unchallenged",
+  "value": "14/21 (67%), 1/21, 0/21, 21/21, 17/21",
+  "workbook_source": "S06!H34:L68; S06!N34:R68; S06!B71:F105",
+  "analysis_output": "stats/survival_by_arm.csv (script 04); stats/sensitivity_power.txt",
+  "method": "sum of S06-E, S06-F, S06-G"
+ },
+ {
+  "id": "L017",
+  "section": "1",
+  "statement": "Day-14 challenge (S03-I, S06-A, S06-C) vs day-60 challenge, PSLN-344",
+  "value": "20/21 vs 14/21",
+  "workbook_source": "as above",
+  "analysis_output": "stats/sensitivity_power.txt (script 08)",
+  "method": "Fisher exact p = 0.045"
+ },
+ {
+  "id": "L018",
+  "section": "6",
+  "statement": "Day-60 challenged PSLN-344 vs untreated-unchallenged animals",
+  "value": "14/21 vs 17/21",
+  "workbook_source": "as above",
+  "analysis_output": "stats/sensitivity_power.txt",
+  "method": "Fisher exact p = 0.48"
+ },
+ {
+  "id": "L019",
+  "section": "6",
+  "statement": "Durability restricted to the two models run at both intervals (S06-A and S06-C at day 14; S06-E and S06-F at day 60), PSLN-344",
+  "value": "13/14 vs 10/14",
+  "workbook_source": "S06!D17:D23, P17:P23 vs S06!J48:J54, P48:P54",
+  "analysis_output": "stats/sensitivity_power.txt (script 08, part b)",
+  "method": "Fisher exact p = 0.33"
+ },
+ {
+  "id": "L020",
+  "section": "1",
+  "statement": "Last recorded body weight of animals that died: PSLN-344 after day-60 challenge vs untreated-unchallenged",
+  "value": "77.5 to 85.3% of starting weight, i.e. a loss of 15 to 23% (mean 81.4%, n = 5) vs 94.5 to 96.6% (mean 95.5%, n = 4)",
+  "workbook_source": "S15!W47, W56, Z56, W69, Z69 vs S15!AE45, AD65, AE67, AF68",
+  "analysis_output": "stats/sensitivity_power.txt (script 08, part c)",
+  "method": "exact Mann-Whitney p = 0.016"
+ },
+ {
+  "id": "L021",
+  "section": "1",
+  "statement": "Lung Ifnb1 at 16 h, fold vs untreated: PSLN-344 aged, PSLN-212 aged, PSLN-212 young",
+  "value": "37.1, 16.6, 37.6 (ratio 2.2; aged as % of young: 99% and 44%)",
+  "workbook_source": "S01!B8:F8; S01!B5:F5; S01!B9:F9",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch on log10 p < 0.0001; exact Mann-Whitney p = 0.008; Tukey p < 0.0001; PSLN-344 vs young p = 0.82"
+ },
+ {
+  "id": "L022",
+  "section": "1",
+  "statement": "Lung Gm-csf, fold vs untreated, 16 h and 36 h: PSLN-344 vs PSLN-212 (sham at 16 h)",
+  "value": "16 h: 6.0 vs 1.5 (4.0x; sham 1.0); 36 h: 8.7 vs 1.6 (5.5x)",
+  "workbook_source": "S02!B17:P19",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch on log10 p = 0.0005 and <0.0001; PSLN-212 vs sham at 16 h p = 0.076"
+ },
+ {
+  "id": "L023",
+  "section": "1",
+  "statement": "Immune readouts (of 25) in which aged PSLN-344 reaches at least 60% of the young benchmark",
+  "value": "18 of 25; range 29% to 98%; lowest: CD40+ of node CD11b+ DC (29%), IgG2a, H1N1 (GMT) (35%)",
+  "workbook_source": "blocks listed in stats/restoration_chain.csv",
+  "analysis_output": "stats/restoration_chain.csv (script 10); Figure 3",
+  "method": "group mean (geometric mean for titres and Ifnb1) divided by the young PSLN-212 mean"
+ },
+ {
+  "id": "L024",
+  "section": "1",
+  "statement": "Peak weight loss after intranasal dosing, aged, no challenge: PSLN-344, vaccine alone, PSLN-212, CMP-204, PSLN-212/R848",
+  "value": "3.6% (worst animal 5.8%), 1.8%, 3.0%, 4.1%, 10.0% (worst 15.3%)",
+  "workbook_source": "S08!B21:AE26",
+  "analysis_output": "stats/bodyweight_by_arm.csv (script 06)",
+  "method": "n = 5; mean of each animal's lowest weight; PSLN-344 vs vaccine alone Welch p = 0.065"
+ },
+ {
+  "id": "L025",
+  "section": "1",
+  "statement": "Mean weight on day 10 after dosing: PSLN-344, PSLN-212/R848",
+  "value": "99.8% (n = 5), 90.7% (n = 4; one animal has no day-10 value)",
+  "workbook_source": "S08!Q26:Z26",
+  "analysis_output": "stats/bodyweight_daily.csv (script 06)",
+  "method": "mean of animals with a reading"
+ },
+ {
+  "id": "L026",
+  "section": "1",
+  "statement": "CNS transcripts at 36 h, fold vs untreated: PSLN-344 (cholera-toxin control) for Ifnb1, Tnf, Isg15",
+  "value": "Ifnb1 1.3 (5.5); Tnf 1.6 (3.5); Isg15 1.1 (2.7)",
+  "workbook_source": "S10!A3:N7",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; PSLN-344 vs PBS, Welch: Ifnb1 p = 0.17, Tnf p = 0.050 (Tukey 0.54), Isg15 p = 0.49; PSLN-344 vs vaccine + empty liposome Tnf p = 0.36"
+ },
+ {
+  "id": "L027",
+  "section": "1",
+  "statement": "Lung Tnf and Il6 at 72 h, geometric-mean fold vs untreated: PSLN-344 aged; PSLN-212 aged; PSLN-212 young",
+  "value": "Tnf 8.4, 5.2, 0.5; Il6 7.2, 1.9, 3.1",
+  "workbook_source": "S09!Y4:AS4 (Il6), S09!Y8:AS8 (Tnf); panel printed '16h', identified as 72 h (D-02)",
+  "analysis_output": "stats/S09A_geomean_fold.csv, S09A_contrasts.csv (script 07)",
+  "method": "n = 3; values are log10 in the workbook; PSLN-344 vs young: Tnf p = 0.008, Il6 p = 0.085"
+ },
+ {
+  "id": "L028",
+  "section": "6",
+  "statement": "Lung Tnf and Il10 at 16 h, geometric-mean fold: PSLN-344 aged vs PSLN-212 young",
+  "value": "Tnf 40 vs 14; Il10 7.3 vs 1.8",
+  "workbook_source": "S09!B8:V9",
+  "analysis_output": "stats/S09A_geomean_fold.csv, S09A_contrasts.csv (script 07)",
+  "method": "n = 3; Welch on log10 p = 0.009 and 0.021"
+ },
+ {
+  "id": "L029",
+  "section": "1",
+  "statement": "Ifnb1 dose-response, fitted ceiling (Emax) and ED50: PSLN-344 vs PSLN-212",
+  "value": "Emax 59 (95% CI 49-69) vs 17 (14-20), ratio 3.5; ED50 13 ug (11-16) vs 11 ug (8-14)",
+  "workbook_source": "S08!B3:M7",
+  "analysis_output": "stats/S08A_dose_response_fit.csv (script 07)",
+  "method": "sigmoid Emax model fitted on log10 response, n = 3 per dose, bootstrap CI (2,000 resamples within dose)"
+ },
+ {
+  "id": "L030",
+  "section": "1",
+  "statement": "Ifnb1 at 5, 20 and 40 ug of PSLN-344; share of the fitted ceiling reached at 20 ug",
+  "value": "8.3, 45.8, 50.2 (5 ug = 18% of the 20-ug response; 40 vs 20 ug ratio 1.10, p = 0.55); 69% of ceiling",
+  "workbook_source": "S08!H4:J4, H6:J7",
+  "analysis_output": "stats/S08A_dose_response_fit.csv",
+  "method": "means; Welch on log10 for 40 vs 20 ug"
+ },
+ {
+  "id": "L031",
+  "section": "5",
+  "statement": "Serum IgG geometric-mean titre, day 14, one dose: PSLN-344, PSLN-212 (aged), PSLN-212 young; ratio",
+  "value": "H1N1: 7,305, 393, 11,959; 18.6x; H3N2: 5,701, 426, 13,855; 13.4x",
+  "workbook_source": "S03!A3:E7; S03!A10:E14",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch on log10 p < 0.0001 and <0.0001; exact Mann-Whitney p = 0.008 and 0.008"
+ },
+ {
+  "id": "L032",
+  "section": "5",
+  "statement": "HAI geometric-mean titre, day 14: PSLN-344, PSLN-212 (aged), PSLN-212 young; ratio; lowest PSLN-344 animal",
+  "value": "H1N1: 368, 46, 485; 8.0x; H3N2: 320, 35, 368; 9.2x; lowest PSLN-344 titre 160 and 160; PSLN-212 range 40-80 and 20-80",
+  "workbook_source": "S03!K3:O7; S03!K10:O14",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; printed 0 = below the 1:10 starting dilution, set to 5; Welch on log10 p = 0.0004 and 0.0002"
+ },
+ {
+  "id": "L033",
+  "section": "5",
+  "statement": "Neutralising geometric-mean titre, day 14: PSLN-344 vs PSLN-212 (aged); ratio",
+  "value": "H1N1: 3,840 vs 418; 9.2x; H3N2: 2,533 vs 276; 9.2x",
+  "workbook_source": "S03!Q3:U7; S03!Q10:U14",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch on log10 p = 0.002 and 0.0004"
+ },
+ {
+  "id": "L034",
+  "section": "5",
+  "statement": "IgG2a/IgG1 ratio recomputed per animal from S13 titres: PSLN-344, PSLN-212 (aged), PSLN-212 young",
+  "value": "H1N1: 2.14, 0.58, 2.97; H3N2: 2.73, 0.51, 2.89",
+  "workbook_source": "S13!A3:G7 (H1N1); S13!I3:O7 (H3N2)",
+  "analysis_output": "integrity/C_derived_quantities.csv (script 02)",
+  "method": "mean of per-animal ratios, n = 5"
+ },
+ {
+  "id": "L035",
+  "section": "9",
+  "statement": "IgG2a/IgG1 as printed in S03-B and S03-F under the header PSLN-344",
+  "value": "0.58 and 0.51",
+  "workbook_source": "S03!H3:H7; S03!H10:H14",
+  "analysis_output": "integrity/C_derived_quantities.csv",
+  "method": "column means; headers permuted (D-01)"
+ },
+ {
+  "id": "L036",
+  "section": "8",
+  "statement": "IgG geometric-mean titre after a day-14 boost (day 28), aged: PSLN-212 and PSLN-344; vs one dose of PSLN-344 at day 14",
+  "value": "H1N1: 4,411 and 15,651; one dose PSLN-344 7,305; H3N2: 1,086 and 12,435; one dose PSLN-344 5,701",
+  "workbook_source": "S13!F53:J57; S13!L53:P57; S03!A3:E7; S03!A10:E14",
+  "analysis_output": "stats/special_analyses.txt (script 07, part e)",
+  "method": "n = 5; one dose PSLN-344 vs two doses PSLN-212, Welch on log10: H1N1 p = 0.12, H3N2 p = 0.002"
+ },
+ {
+  "id": "L037",
+  "section": "4",
+  "statement": "Lung monocytes, day 4: PSLN-344 vs PSLN-212",
+  "value": "30.6 vs 16.7% (1.8x higher)",
+  "workbook_source": "S01!L26:P26; S01!G26:K26",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch p = 0.002; exact Mann-Whitney p = 0.008"
+ },
+ {
+  "id": "L038",
+  "section": "4",
+  "statement": "Lung CD11b+ dendritic cells, day 4: PSLN-344 vs PSLN-212",
+  "value": "18.9 vs 8.3% (2.3x higher)",
+  "workbook_source": "S01!L32:P32; S01!G32:K32",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch p = 0.049; exact Mann-Whitney p = 0.008"
+ },
+ {
+  "id": "L039",
+  "section": "4",
+  "statement": "CCR7+ migratory CD11b+ DC in lung, 72 h: PSLN-344 vs PSLN-212",
+  "value": "30.7 vs 7.3% (4.2x higher)",
+  "workbook_source": "S02!C3:C7; S02!B3:B7",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch p = 0.002; exact Mann-Whitney p = 0.008"
+ },
+ {
+  "id": "L040",
+  "section": "4",
+  "statement": "Antigen-carrying DC in draining node, 36 h: PSLN-344 vs PSLN-212",
+  "value": "7.1 vs 1.8% (4.0x higher)",
+  "workbook_source": "S02!L3:L7; S02!K3:K7",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch p = 0.0007; exact Mann-Whitney p = 0.008"
+ },
+ {
+  "id": "L041",
+  "section": "4",
+  "statement": "Ex vivo cross-priming of CD8 T cells by node CD11b+ DC: PSLN-344 vs PSLN-212",
+  "value": "18.7 vs 0.8% (24.3x higher)",
+  "workbook_source": "S02!L10:L14; S02!K10:K14",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch p = 0.0001; exact Mann-Whitney p = 0.008"
+ },
+ {
+  "id": "L042",
+  "section": "5",
+  "statement": "CD40+ of node CD11b+ DC: PSLN-344 vs PSLN-212",
+  "value": "11.2 vs 5.6% (2.0x higher)",
+  "workbook_source": "S02!C10:C14; S02!B10:B14",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch p = 0.011; exact Mann-Whitney p = 0.008; young 38.7%"
+ },
+ {
+  "id": "L043",
+  "section": "5",
+  "statement": "CD86+ of node CD11b+ DC: PSLN-344 vs PSLN-212",
+  "value": "14.5 vs 8.1% (1.8x higher)",
+  "workbook_source": "S02!H10:H14; S02!G10:G14",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch p = 0.003; exact Mann-Whitney p = 0.008; young 37.9%"
+ },
+ {
+  "id": "L044",
+  "section": "4",
+  "statement": "ICOS-high follicular helper T cells, day 7: PSLN-344 vs PSLN-212",
+  "value": "10.3 vs 3.8% (2.7x higher)",
+  "workbook_source": "S04!G4:K4; S04!G3:K3",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch p = 0.009; exact Mann-Whitney p = 0.008"
+ },
+ {
+  "id": "L045",
+  "section": "4",
+  "statement": "Foxp3+ (regulatory) share of follicular T cells, day 7: PSLN-344 vs PSLN-212",
+  "value": "10.8 vs 26.7% (2.5x lower)",
+  "workbook_source": "S04!C8:C12; S04!B8:B12",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch p = 0.005; exact Mann-Whitney p = 0.008"
+ },
+ {
+  "id": "L046",
+  "section": "4",
+  "statement": "Germinal-centre B cells, day 7: PSLN-344 vs PSLN-212",
+  "value": "6.5 vs 2.3% (2.8x higher)",
+  "workbook_source": "S03!N17:N21; S03!M17:M21",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch p = 0.002; exact Mann-Whitney p = 0.008"
+ },
+ {
+  "id": "L047",
+  "section": "4",
+  "statement": "Lung regulatory T cells, day 7: PSLN-344 vs PSLN-212",
+  "value": "3.0 vs 6.7% (2.2x lower)",
+  "workbook_source": "S04!C29:C31; S04!B29:B31",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 3; Welch p = 0.0003; exact Mann-Whitney p = 0.10"
+ },
+ {
+  "id": "L048",
+  "section": "4",
+  "statement": "IFN-gamma+ CD8 T cells recalled by rgH5N1 antigen, day 14: PSLN-344 vs PSLN-212",
+  "value": "6.4 vs 1.5% (4.2x higher)",
+  "workbook_source": "S05!C33:C37; S05!B33:B37",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch p = 0.0001; exact Mann-Whitney p = 0.008"
+ },
+ {
+  "id": "L049",
+  "section": "5",
+  "statement": "IFN-gamma+ CD8 T cells recalled by rgH5N1 antigen, day 60: PSLN-344 vs PSLN-212",
+  "value": "9.9 vs 3.0% (3.2x higher)",
+  "workbook_source": "S05!C40:C44; S05!B40:B44",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch p = 0.003; exact Mann-Whitney p = 0.008"
+ },
+ {
+  "id": "L050",
+  "section": "4",
+  "statement": "Lung resident-memory CD8 T cells, day 25: PSLN-344 vs PSLN-212",
+  "value": "4.0 vs 1.0% (4.0x higher)",
+  "workbook_source": "S05!C54:C58; S05!B54:B58",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch p < 0.0001; exact Mann-Whitney p = 0.008"
+ },
+ {
+  "id": "L051",
+  "section": "5",
+  "statement": "GZMB+ CD8 T cells in lung, day 3: PSLN-344 vs PSLN-212",
+  "value": "5.7 vs 3.0% (1.9x higher)",
+  "workbook_source": "S05!C26:C30; S05!B26:B30",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch p = 0.001; exact Mann-Whitney p = 0.008"
+ },
+ {
+  "id": "L052",
+  "section": "4",
+  "statement": "CD206+ macrophages in lung: PSLN-344 vs PSLN-212",
+  "value": "48.9 vs 71.5% (1.5x lower)",
+  "workbook_source": "S11!C31:C35; S11!B31:B35",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch p = 0.002; exact Mann-Whitney p = 0.008"
+ },
+ {
+  "id": "L053",
+  "section": "5",
+  "statement": "Alveolar macrophages, % of lung cells, day 4: PSLN-344 vs PSLN-212",
+  "value": "32.3 vs 30.9% (1.0x higher)",
+  "workbook_source": "S11!L5:P5; S11!G5:K5",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch p = 0.72; exact Mann-Whitney p = 0.84"
+ },
+ {
+  "id": "L054",
+  "section": "5",
+  "statement": "Foxp3+ share of follicular T cells at day 30: PSLN-344, PSLN-212, sham, young",
+  "value": "14.0, 18.0, 13.9, 7.4%",
+  "workbook_source": "S04!A22:D26",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; PSLN-344 vs sham Welch p = 0.94"
+ },
+ {
+  "id": "L055",
+  "section": "4",
+  "statement": "Ly6C+CCR2+ macrophages in lung on day 5 (x10^5): PSLN-212 vs PSLN-344",
+  "value": "19 vs 3.4",
+  "workbook_source": "S07!B5:G5",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 3; Welch p = 0.036"
+ },
+ {
+  "id": "L056",
+  "section": "4",
+  "statement": "Labelled particle in alveolar macrophages: wild-type vs Sftpa1/Sftpd knockout",
+  "value": "43% vs 13%",
+  "workbook_source": "S01!B20:E21",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 4; Welch p < 0.0001"
+ },
+ {
+  "id": "L057",
+  "section": "4",
+  "statement": "Tracer-positive alveolar epithelial cells after PSLN-SRB: type II, type I; free tracer type II",
+  "value": "15.8%, 3.8%, 0.4%",
+  "workbook_source": "S01!B14:F16",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; type II particle vs free Welch p = 0.0001"
+ },
+ {
+  "id": "L058",
+  "section": "4",
+  "statement": "Recruited lung monocytes with PSLN-344, without vs with gap-junction blocker (carbenoxolone)",
+  "value": "7.3% vs 3.1%",
+  "workbook_source": "S11!A17:B21",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch p = 0.004"
+ },
+ {
+  "id": "L059",
+  "section": "4",
+  "statement": "Lung monocytes with PSLN-344, without vs with CCR2 antagonist",
+  "value": "9.9% vs 3.3%",
+  "workbook_source": "S07!B10:C14",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch p = 0.001"
+ },
+ {
+  "id": "L060",
+  "section": "4",
+  "statement": "GZMB+ CD8 T cells in lung (young, PSLN-344), without vs with CCR2 antagonist",
+  "value": "6.8% vs 1.4%",
+  "workbook_source": "S02!H30:I34",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch p < 0.0001"
+ },
+ {
+  "id": "L061",
+  "section": "4",
+  "statement": "Donor-derived monocyte-derived DC: wild-type donor, IFNAR-deficient donor, IFNAR-deficient donor + GM-CSF",
+  "value": "20%, 2%, 12%",
+  "workbook_source": "S02!B30:F34",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; WT vs IFNAR-deficient Welch p = 0.0004; rescue vs IFNAR-deficient p = 0.003"
+ },
+ {
+  "id": "L062",
+  "section": "4",
+  "statement": "Monocyte-derived-DC-like cells in lung: PSLN-212, PSLN-212 + recombinant GM-CSF, GM-CSF alone",
+  "value": "5.9%, 13.8%, 1.5%",
+  "workbook_source": "S02!B22:D26",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch p = 0.002"
+ },
+ {
+  "id": "L063",
+  "section": "4",
+  "statement": "Pertussis-toxin group: antigen-carrying DC in node; ex vivo CD8 priming",
+  "value": "2.4%; 2.5%",
+  "workbook_source": "S02!N3:N7; S02!N10:N14",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; adjuvant given to this group is not stated (D-15)"
+ },
+ {
+  "id": "L064",
+  "section": "4",
+  "statement": "Proliferating transferred CD8 T cells: lung without/with pertussis toxin; node without/with",
+  "value": "59% / 55%; 31% / 7%",
+  "workbook_source": "S05!A13:D15",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 3; lung p = 0.57; node p = 0.007"
+ },
+ {
+  "id": "L065",
+  "section": "4",
+  "statement": "Lung regulatory T cells after transfer of sorted macrophage subsets (two columns, identical labels)",
+  "value": "10.4% vs 5.1%",
+  "workbook_source": "S07!B16:C20",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; Welch p = 0.003; direction not attributable (D-12)"
+ },
+ {
+  "id": "L066",
+  "section": "4",
+  "statement": "Lung Ccl2 at 16 h, geometric-mean fold: PSLN-344 aged, PSLN-212 aged, PSLN-212 young",
+  "value": "590, 7.6, 1391",
+  "workbook_source": "S09!B5:V5",
+  "analysis_output": "stats/S09A_geomean_fold.csv, S09A_contrasts.csv (script 07)",
+  "method": "n = 3; PSLN-344 vs PSLN-212 Welch on log10 p = 0.002"
+ },
+ {
+  "id": "L067",
+  "section": "8",
+  "statement": "Ifnb1 at 16 h for the alternatives (aged): CMP-204, PSLN-R848, PSLN-212/R848; young PSLN-344 vs young PSLN-212",
+  "value": "7.8, 5.0, 24.3; 50.7 vs 37.6 (1.35x)",
+  "workbook_source": "S01!B4:F4, B6:F7, B9:F10",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03); stats/special_analyses.txt part f",
+  "method": "n = 5; young PSLN-344 vs PSLN-212 Welch p = 0.014"
+ },
+ {
+  "id": "L068",
+  "section": "8",
+  "statement": "Lung Tnf and Il10 at 16 h, geometric-mean fold: PSLN-R848, PSLN-212/R848, PSLN-344",
+  "value": "Tnf 130, 202, 40; Il10 29, 179, 7.3",
+  "workbook_source": "S09!K8:S9",
+  "analysis_output": "stats/S09A_geomean_fold.csv, S09A_contrasts.csv (script 07)",
+  "method": "n = 3; all R848 vs PSLN-344 contrasts p < 0.05 (Welch on log10)"
+ },
+ {
+  "id": "L069",
+  "section": "2",
+  "statement": "Tnf-to-Ifnb1 fold ratio at 16 h: PSLN-344, PSLN-212/R848, PSLN-R848",
+  "value": "1.1, 8.4, 30",
+  "workbook_source": "S09!K3:S3, K8:S8",
+  "analysis_output": "stats/S09A_geomean_fold.csv, S09A_contrasts.csv (script 07)",
+  "method": "ratio of geometric-mean folds"
+ },
+ {
+  "id": "L070",
+  "section": "8",
+  "statement": "Ifnb1 at 20 ug: 'PSLN-344/R848' vs PSLN-344",
+  "value": "29.4 vs 45.8",
+  "workbook_source": "S08!H6:M6",
+  "analysis_output": "stats/special_analyses.txt (script 07, part a)",
+  "method": "n = 3"
+ },
+ {
+  "id": "L071",
+  "section": "8",
+  "statement": "CMP-204 (cGAMP liposome) in aged animals: survival after matched-strain challenge; day-14 IgG GMT (H1N1)",
+  "value": "3/7; 181",
+  "workbook_source": "S03!C24:C30; S03!B3:B7",
+  "analysis_output": "stats/survival_by_arm.csv (script 04); stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "counts; geometric mean, n = 5"
+ },
+ {
+  "id": "L072",
+  "section": "2",
+  "statement": "Encapsulation efficiency: PSLN-344, PSLN-212, CMP-204",
+  "value": "PSLN-344 54.8% (49.3-59.4); PSLN-212 59.6% (54.9-64.0); CMP-204 65.2% (59.1-71.1)",
+  "workbook_source": "S08!A11:O11",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "mean (range), 3 preparations"
+ },
+ {
+  "id": "L073",
+  "section": "2",
+  "statement": "Power of a two-arm survival comparison at 12 per arm: 85% vs 14%; 83% vs 18%",
+  "value": "95%; 89%",
+  "workbook_source": "effect sizes from the pooled survival analysis",
+  "analysis_output": "stats/power_table.csv (script 08)",
+  "method": "two-sided Fisher exact at 0.05, exact enumeration"
+ },
+ {
+  "id": "L074",
+  "section": "2",
+  "statement": "Power at 40 per arm: 85% vs 50% (active comparator); 95% vs 67% (durability)",
+  "value": "90%; 89%",
+  "workbook_source": "assumed comparator rate; observed day-14 and day-60 rates",
+  "analysis_output": "stats/power_table.csv",
+  "method": "as above"
+ },
+ {
+  "id": "L075",
+  "section": "6",
+  "statement": "Peak weight loss after challenge among survivors, range of arm means: PSLN-344 aged; PSLN-212 young",
+  "value": "7 to 15%; 7 to 12%",
+  "workbook_source": "S13-F, S13-G, S15-A to S15-G, S15-O",
+  "analysis_output": "stats/bodyweight_by_arm.csv (script 06)",
+  "method": "per-animal lowest weight while alive; arms with duplicated series (S15-D, S15-I, S15-M) left out"
+ },
+ {
+  "id": "L076",
+  "section": "9",
+  "statement": "Data-integrity findings logged; of which change a conclusion if the workbook is read as printed",
+  "value": "24; 8",
+  "workbook_source": "see Appendix D",
+  "analysis_output": "integrity/integrity_report.txt (script 02); integrity_log.py",
+  "method": "curated from automated checks"
+ },
+ {
+  "id": "L077",
+  "section": "9",
+  "statement": "S11-B values identical in position to S11-A",
+  "value": "35 of 100; group-by-day means r = 0.997",
+  "workbook_source": "S11!B3:U7 vs S11!B10:U14",
+  "analysis_output": "stats/special_analyses.txt (script 07, part c)",
+  "method": "cell-by-cell comparison"
+ },
+ {
+  "id": "L078",
+  "section": "9",
+  "statement": "S09-A Ifnb1 values (back-transformed) found in S01-A: first panel in the 16-h values; second panel in the 72-h values",
+  "value": "21 of 21; 21 of 21",
+  "workbook_source": "S09!B3:V3, Y3:AS3 vs S01!B3:F9, H3:L9",
+  "analysis_output": "integrity/C_derived_quantities.csv (script 02)",
+  "method": "10^x matched to within rounding"
+ },
+ {
+  "id": "L079",
+  "section": "6",
+  "statement": "Survival in the 10 aged experiments that carry a young arm (Figure 3, last row): PSLN-344, PSLN-212, young PSLN-212",
+  "value": "58/70 vs 8/70; young 69/70",
+  "workbook_source": "S03-I, S06-A to S06-G, S15-L, S15-N status columns",
+  "analysis_output": "stats/restoration_chain.csv (script 10)",
+  "method": "sum of arms"
+ },
+ {
+  "id": "L080",
+  "section": "4",
+  "statement": "Donor-derived monocytes infiltrating the lung: wild-type vs IFNAR-deficient donor cells (young recipients)",
+  "value": "21% vs 15%",
+  "workbook_source": "S12!A3:B5",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 3; Welch p = 0.12"
+ },
+ {
+  "id": "L081",
+  "section": "3",
+  "statement": "IgG geometric-mean titre with PSLN-344 in aged animals: day 28 after a day-14 boost vs day 14 after one dose",
+  "value": "H1N1 2.1 times; H3N2 2.2 times",
+  "workbook_source": "S13!I53:I57, O53:O57 vs S03!D3:D7, D10:D14",
+  "analysis_output": "stats/special_analyses.txt (script 07, part e)",
+  "method": "ratio of geometric means, n = 5; different animals at the two timepoints"
+ },
+ {
+  "id": "L082",
+  "section": "6",
+  "statement": "Lung Ifnb1 at 16 h in the S09-A panel (geometric mean, n = 3): PSLN-344 aged vs PSLN-212 young",
+  "value": "36 vs 38",
+  "workbook_source": "S09!Q3:V3",
+  "analysis_output": "stats/S09A_geomean_fold.csv, S09A_contrasts.csv (script 07)",
+  "method": "subset of the S01-A animals (D-02)"
+ },
+ {
+  "id": "L083",
+  "section": "6",
+  "statement": "Chemokines at 16 h, PSLN-344 aged as % of PSLN-212 young: Ccl2, Ccl3, Ccl5",
+  "value": "42%, 52%, 32%",
+  "workbook_source": "S09!Q5:V7",
+  "analysis_output": "stats/S09A_geomean_fold.csv, S09A_contrasts.csv (script 07)",
+  "method": "ratio of geometric-mean folds, n = 3"
+ },
+ {
+  "id": "L084",
+  "section": "6",
+  "statement": "Lung monocytes on day 8: PSLN-344 aged, PSLN-212 young, sham aged",
+  "value": "18.4%, 14.1%, 9.5%",
+  "workbook_source": "S01!B28:U28",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "n = 5; PSLN-344 aged vs PSLN-212 young Welch p = 0.006"
+ },
+ {
+  "id": "L085",
+  "section": "6",
+  "statement": "Lung Tnf at 72 h, PSLN-344 vs PSLN-212 in aged animals",
+  "value": "1.6 times",
+  "workbook_source": "S09!AE8:AG8, AN8:AP8",
+  "analysis_output": "stats/S09A_geomean_fold.csv, S09A_contrasts.csv (script 07)",
+  "method": "Welch on log10 p = 0.052"
+ },
+ {
+  "id": "L086",
+  "section": "6",
+  "statement": "Share of the young benchmark reached by aged PSLN-344, by stage",
+  "value": "Innate sensing (lung): 98 to 98%; Cell recruitment (lung): 86 to 95%; DC migration & priming: 29 to 88%; Helper T / germinal centre: 67 to 95%; Antibody, day 14 (one dose): 35 to 87%; CD8 T cells: 59 to 94%",
+  "workbook_source": "see stats/restoration_chain.csv",
+  "analysis_output": "stats/restoration_chain.csv (script 10)",
+  "method": "as L022"
+ },
+ {
+  "id": "L087",
+  "section": "5",
+  "statement": "Young-benchmark values quoted in the biomarker table (PSLN-212 in young animals)",
+  "value": "monocytes d4 32%; CD11b+ DC d4 21%; ICOS-high Tfh 13.6%; Foxp3+ share 7%; IFN-g+ CD8 d14 9.2%, d60 14.4%; lung Trm 6.0%; HAI GMT 485 and 368",
+  "workbook_source": "S01!Q26:U26; S01!Q32:U32; S04!G5:K5; S04!D8:D12; S05!D33:D37; S05!D40:D44; S05!D54:D58; S03!O3:O7; S03!O10:O14",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "means (geometric means for HAI), n = 5"
+ },
+ {
+  "id": "L088",
+  "section": "5",
+  "statement": "CD40+ and CD86+ of node CD11b+ DC, aged PSLN-344 as % of young",
+  "value": "29% and 38%",
+  "workbook_source": "S02!C10:D14; S02!H10:I14",
+  "analysis_output": "stats/continuous_summary.csv, continuous_pairwise.csv (script 03)",
+  "method": "ratio of means"
+ },
+ {
+  "id": "L089",
+  "section": "9",
+  "statement": "Body-weight values identical between S15-C PSLN-344 and S15-I Vaccine+PSLN-344; between S09-E PSLN-344Y and S15-M PSLN-212(Y)",
+  "value": "40 of 48 (7 animals); 32 of 42 (6 animals)",
+  "workbook_source": "S15!W24:AC30 vs S15!W73:AC79; S09!W40:AD46 vs S15!I104:O110",
+  "analysis_output": "integrity/B2_duplicate_bodyweight_trajectories_real_values.csv (script 02 + follow-up)",
+  "method": "same-day, same-animal-position comparison of non-frozen values"
+ },
+ {
+  "id": "L090",
+  "section": "9",
+  "statement": "S06-D (rgH5N1 challenge 3 days after dosing): survivors in the survival block vs implied by the body-weight block S15-D, for PSLN-344 and young PSLN-212; same design in S15-H",
+  "value": "PSLN-344 7/7 vs 5/7; young 7/7 vs 5/7; S15-H 6/7",
+  "workbook_source": "S06!D48:E61; S15!B33:H40, W33:AC40; S15!D87:D93",
+  "analysis_output": "stats/survival_reconciliation.csv (script 05)",
+  "method": "frozen final weights counted as deaths (D-05, D-09)"
+ },
+ {
+  "id": "L091",
+  "section": "9",
+  "statement": "Fisher exact p for PSLN-344 7/7 vs PSLN-212 in matched-strain challenge under the two records (0/7 in S03-I; 3/7 implied by S13-F)",
+  "value": "0.0006; 0.07",
+  "workbook_source": "S03!D31:E44; S13!P33:V40",
+  "analysis_output": "computed in script 14",
+  "method": "two-sided Fisher exact"
+ }
+]

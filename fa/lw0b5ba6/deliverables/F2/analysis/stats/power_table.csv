@@ -1,0 +1,46 @@
+scenario,n_per_arm,power
+"PSLN-344 vs PSLN-212, pooled observed (85% vs 14%)",8,0.807
+"PSLN-344 vs PSLN-212, pooled observed (85% vs 14%)",10,0.85
+"PSLN-344 vs PSLN-212, pooled observed (85% vs 14%)",12,0.951
+"PSLN-344 vs PSLN-212, pooled observed (85% vs 14%)",15,0.978
+"PSLN-344 vs PSLN-212, pooled observed (85% vs 14%)",20,0.997
+"PSLN-344 vs PSLN-212, pooled observed (85% vs 14%)",25,1.0
+"PSLN-344 vs PSLN-212, pooled observed (85% vs 14%)",30,1.0
+"PSLN-344 vs PSLN-212, pooled observed (85% vs 14%)",40,1.0
+"PSLN-344 vs PSLN-212, pooled observed (85% vs 14%)",50,1.0
+"PSLN-344 vs PSLN-212, worst-case reading (83% vs 18%)",8,0.697
+"PSLN-344 vs PSLN-212, worst-case reading (83% vs 18%)",10,0.74
+"PSLN-344 vs PSLN-212, worst-case reading (83% vs 18%)",12,0.888
+"PSLN-344 vs PSLN-212, worst-case reading (83% vs 18%)",15,0.935
+"PSLN-344 vs PSLN-212, worst-case reading (83% vs 18%)",20,0.986
+"PSLN-344 vs PSLN-212, worst-case reading (83% vs 18%)",25,0.999
+"PSLN-344 vs PSLN-212, worst-case reading (83% vs 18%)",30,1.0
+"PSLN-344 vs PSLN-212, worst-case reading (83% vs 18%)",40,1.0
+"PSLN-344 vs PSLN-212, worst-case reading (83% vs 18%)",50,1.0
+PSLN-344 vs an active comparator giving 50% (85% vs 50%),8,0.163
+PSLN-344 vs an active comparator giving 50% (85% vs 50%),10,0.199
+PSLN-344 vs an active comparator giving 50% (85% vs 50%),12,0.302
+PSLN-344 vs an active comparator giving 50% (85% vs 50%),15,0.371
+PSLN-344 vs an active comparator giving 50% (85% vs 50%),20,0.573
+PSLN-344 vs an active comparator giving 50% (85% vs 50%),25,0.676
+PSLN-344 vs an active comparator giving 50% (85% vs 50%),30,0.777
+PSLN-344 vs an active comparator giving 50% (85% vs 50%),40,0.898
+PSLN-344 vs an active comparator giving 50% (85% vs 50%),50,0.957
+durability: d14 95% vs d60 67%,8,0.061
+durability: d14 95% vs d60 67%,10,0.13
+durability: d14 95% vs d60 67%,12,0.217
+durability: d14 95% vs d60 67%,15,0.347
+durability: d14 95% vs d60 67%,20,0.533
+durability: d14 95% vs d60 67%,25,0.646
+durability: d14 95% vs d60 67%,30,0.731
+durability: d14 95% vs d60 67%,40,0.89
+durability: d14 95% vs d60 67%,50,0.948
+durability: 90% vs 67%,8,0.044
+durability: 90% vs 67%,10,0.08
+durability: 90% vs 67%,12,0.13
+durability: 90% vs 67%,15,0.196
+durability: 90% vs 67%,20,0.311
+durability: 90% vs 67%,25,0.389
+durability: 90% vs 67%,30,0.476
+durability: 90% vs 67%,40,0.648
+durability: 90% vs 67%,50,0.757

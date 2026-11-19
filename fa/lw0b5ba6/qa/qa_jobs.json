@@ -1,0 +1,93 @@
+[
+  {
+    "id": "31a5f591-87cd-467b-8990-bae4d9d04ce9",
+    "qaType": "env_linter",
+    "status": "completed",
+    "itemCount": 2,
+    "findingCount": 2,
+    "resultSummary": "Engineering issues — The grader has no reference material. No grader guidance, reference answer or grader files exist, and the grader prompt's problem-specific guidance section is empty. Each grading therefore rebuilds the 15-sheet workbook analysis from scratch. Full-length hand-ins took 445–558 s to grade in this check, and one took 633 s in an earlier check, against a 600 s grading budget. No grading has failed yet: 0 failures across the 8 stored runs and 6 rollouts graded here. Adding reference values and a list of the planted data defects would shorten grading and make it steadier.\n\nTask & domain issues — The prompt describes the asset only as \"a small-molecule STING agonist … and an appropriate vehicle\". It does not name the compound or the indication. The files show an intranasal influenza-vaccine adjuvant programme, and only the PDF's document metadata names PSLN-344. An answer that assumes the usual oncology use gets ~0.02, so the indication has to be found in the files. That is a fair test, but one sentence naming the asset and indication would remove the ambiguity.\n\nOtherwise the grading held up under every probe:\n- An empty hand-in scored 0.0 and an unsourced oncology proposal 0.02.\n- Hand-ins omitting one or more required sections scored 0.38, 0.40 and 0.60.\n- A complete proposal written by a different route scored 0.78; the grader docked it for real content defects it named, not for its format.\n- The standard leak and tamper probes were clean.",
+    "claudescopeUrl": null,
+    "errorMessage": null,
+    "createdAt": "2026-11-19T08:31:50.637602+00:00",
+    "completedAt": "2026-11-19T10:55:17.322338+00:00",
+    "createdBy": "louisciano@mercor.com"
+  },
+  {
+    "id": "1a62f699-4dab-451c-b7c0-b10254ad6274",
+    "qaType": "reward_hacking",
+    "status": "completed",
+    "itemCount": 2,
+    "findingCount": 2,
+    "resultSummary": "Task & domain issues — No reward hack found. I graded six hand-ins that should score low: an empty hand-in (0.0), a proposal with invented numbers (0.12), two no-work answers drawn from a separate model call (0.02 and 0.03), and two proposals each missing several requested sections (0.55 and 0.32). All were scored well below stored runs (0.90–0.95). Placing a named pipe, a symlink to /, a symlink loop and unreadable entries in /tmp/outputs did not make grading fail: the hand-in was graded normally at 0.02. Two informational notes: (1) the prompt calls the asset an unnamed \\\"small-molecule STING agonist\\\", while the data describe an intranasal influenza-vaccine adjuvant with several candidate preparations (PSLN-344 is the inferred asset), and model answers written without the data default to oncology; (2) the grader has no task-specific guidance or reference values, so every grading re-derives the 15-sheet workbook (7–10 minutes), and which data defects it credits or penalises rests on what it rediscovers.",
+    "claudescopeUrl": null,
+    "errorMessage": null,
+    "createdAt": "2026-11-19T08:31:50.573225+00:00",
+    "completedAt": "2026-11-19T09:45:27.868703+00:00",
+    "createdBy": "louisciano@mercor.com"
+  },
+  {
+    "id": "c9cac485-7301-4978-8a93-dadc4323b323",
+    "qaType": "data_quality",
+    "status": "completed",
+    "itemCount": 1,
+    "findingCount": 1,
+    "resultSummary": "Scanned 1 problems with input files. 1 candidate findings; 0 passed gate (→ env_linter).",
+    "claudescopeUrl": null,
+    "errorMessage": null,
+    "createdAt": "2026-11-19T08:31:50.513048+00:00",
+    "completedAt": "2026-11-19T08:36:52.116097+00:00",
+    "createdBy": "louisciano@mercor.com"
+  },
+  {
+    "id": "3d2bbf3e-7ff3-4220-a3f7-790a54dcf015",
+    "qaType": "claudescope",
+    "status": "completed",
+    "itemCount": 1,
+    "findingCount": 0,
+    "resultSummary": "ClaudeScope analysis completed: 5 clusters identified",
+    "claudescopeUrl": null,
+    "errorMessage": null,
+    "createdAt": "2026-11-19T08:31:50.409817+00:00",
+    "completedAt": "2026-11-19T08:36:39.873351+00:00",
+    "createdBy": "louisciano@mercor.com"
+  },
+  {
+    "id": "16213b5c-00a2-4851-86b6-0a7d102cdbc6",
+    "qaType": "difficulty",
+    "status": "completed",
+    "itemCount": 1,
+    "findingCount": 1,
+    "resultSummary": "1 immediate findings",
+    "claudescopeUrl": null,
+    "errorMessage": null,
+    "createdAt": "2026-11-19T08:19:12.154030+00:00",
+    "completedAt": "2026-11-19T08:19:12.322860+00:00",
+    "createdBy": "taygeta.alniyat.azmidi@mercor.expert"
+  },
+  {
+    "id": "2a755bfa-1e6b-42da-9390-6aa505fe6ae4",
+    "qaType": "difficulty",
+    "status": "completed",
+    "itemCount": 1,
+    "findingCount": 1,
+    "resultSummary": "1 immediate findings",
+    "claudescopeUrl": null,
+    "errorMessage": null,
+    "createdAt": "2026-11-19T07:22:20.630406+00:00",
+    "completedAt": "2026-11-19T07:22:20.707179+00:00",
+    "createdBy": "taygeta.alniyat.azmidi@mercor.expert"
+  },
+  {
+    "id": "49daff57-c0cc-4c2b-8595-56566cf6eb2c",
+    "qaType": "problem_linter",
+    "status": "completed",
+    "itemCount": 1,
+    "findingCount": 1,
+    "resultSummary": "Problem-definition review of e031e3a6 (STING-agonist portfolio-review task, agentic grader) found one error. The task is realistic and clearly scoped, and it has no hints, no suffix and no authored time budget. However, the record gives its single-score agentic grader no reference: no rubric, no grader_guidance, no grader_files and no golden patch. The environment description says outputs are graded against expert reference solutions and rubrics. The grader can recompute cited numbers from /tmp/world with bash, but nothing tells it the expected keep/drop verdict, the deciding data findings, or the MoA, biomarkers and target demographic the data supports, so it must redo the expert analysis within 600 s to judge. No prompt, hints or consistency issues were found. Static analysis only: the image's grade-time behaviour and the bundle's contents could not be read.",
+    "claudescopeUrl": null,
+    "errorMessage": null,
+    "createdAt": "2026-11-19T06:02:18.920056+00:00",
+    "completedAt": "2026-11-19T06:05:30.060722+00:00",
+    "createdBy": "taygeta.alniyat.azmidi@mercor.expert"
+  }
+]

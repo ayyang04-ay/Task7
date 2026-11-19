@@ -1,0 +1,103 @@
+block,kind,groups,n_obs_per_group_per_level,stated_n,n_min,n_max,n_mismatch
+S01-A,scalar,Sham; CMP-204; PSLN-212; PSLN-R848; PSLN-212/R848; PSLN-344; PSLN-212(Y); PSLN-344(Y),[5]; [5]; [5]; [5]; [5]; [5]; [5]; [5],5.0,5,5,False
+S01-B,scalar,AECII/PSLN-SRB; AECI/PSLN-SRB; AECII/FreeSRB; AECI/FreeSRB,[5]; [5]; [5]; [5],5.0,5,5,False
+S01-C,scalar,WT; SPA/D,[4]; [4],4.0,4,4,False
+S01-D,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5],5.0,5,5,False
+S01-E,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y); PSLN-344(Y),[5]; [5]; [5]; [5]; [5],5.0,5,5,False
+S01-F,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y); PSLN-344(Y),[5]; [5]; [5]; [5]; [5],5.0,5,5,False
+S01-G,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y); PSLN-344(Y),[5]; [5]; [5]; [5]; [5],5.0,5,5,False
+S02-A,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5],5.0,5,5,False
+S02-B,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5],5.0,5,5,False
+S02-C,scalar,PSLN-212; PSLN-344; PSLN-212(Y); PTX; PSLN-344(Y),[5]; [5]; [5]; [5]; [5],5.0,5,5,False
+S02-D CD40,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5],5.0,5,5,False
+S02-D CD86,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5],5.0,5,5,False
+S02-E,scalar,PSLN-212; PSLN-344; PSLN-212(Y); PTX; PSLN-344(Y),[5]; [5]; [5]; [5]; [5],5.0,5,5,False
+S02-F,scalar,PSLN-344; PSLN-212; Sham,[5]; [5]; [5],5.0,5,5,False
+S02-G,scalar,GM-CSF; PSLN-212; PSLN-212+GM-CSF,[5]; [5]; [5],5.0,5,5,False
+S02-H,scalar,WT w/o cDC; WT w/ cDC; IFN w/o cDC; IFN w/ cDC; GMCSF,[5]; [5]; [5]; [5]; [5],5.0,5,5,False
+S02-I,scalar,PSLN-344(Y); PSLN-344(Y)+INCB3344,[5]; [5],5.0,5,5,False
+S03-A,scalar,Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5]; [5],5.0,5,5,False
+S03-B,scalar,PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5],5.0,5,5,False
+S03-C,scalar,Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5]; [5],5.0,5,5,False
+S03-D,scalar,Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5]; [5],5.0,5,5,False
+S03-E,scalar,Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5]; [5],5.0,5,5,False
+S03-F,scalar,PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5],5.0,5,5,False
+S03-G,scalar,Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5]; [5],5.0,5,5,False
+S03-H,scalar,Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5]; [5],5.0,5,5,False
+S03-K,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5],5.0,5,5,False
+S03-L,scalar,Sham; PSLN-212; PSLN-344,[3]; [3]; [3],3.0,3,3,False
+S04-A,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5],5.0,5,5,False
+S04-B Foxp3,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5],5.0,5,5,False
+S04-B Tfh:Tfr,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5],5.0,5,5,False
+S04-C,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5],5.0,5,5,False
+S04-D,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y),[3]; [3]; [3]; [3],3.0,3,3,False
+S05-A,scalar,PSLN-212; PSLN-344; PSLN-212Y,[2]; [2]; [2],3.0,2,2,True
+S05-B,scalar,PSLN-212; PSLN-344; PSLN-212Y,[2]; [2]; [2],3.0,2,2,True
+S05-C,scalar,Lung; Lung+PTX; MLN; MLN+PTX,[3]; [3]; [3]; [3],3.0,3,3,False
+S05-D,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5],5.0,5,5,False
+S05-E,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5],5.0,5,5,False
+S05-F,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5],5.0,5,5,False
+S05-G,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5],5.0,5,5,False
+S05-H,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5],5.0,5,5,False
+S05-I,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5],5.0,5,5,False
+S07-A,scalar,PSLN-212; PSLN-344,[3]; [3],3.0,3,3,False
+S07-B,scalar,PSLN-344; PSLN-344+INCB3344,[5]; [5],5.0,5,5,False
+S07-C,scalar,colB: Ly6C-CD206+ MΦ (as printed); colC: Ly6C-CD206+ MΦ (as printed),[5]; [5],5.0,5,5,False
+S08-A,scalar,CMP-204; PSLN-212; PSLN-344; PSLN-344/R848,[3]; [3]; [3]; [3],3.0,3,3,False
+S08-B,scalar,CMP-204; PSLN-212; PSLN-R848; PSLN-212/R848; PSLN-344,[3]; [3]; [3]; [3]; [3],3.0,3,3,False
+S08-C,scalar,AECII-PSLN-SRB; AECII-PSLN-344-SRB; AECI-PSLN-SRB; AECI-PSLN-344-SRB,[5]; [5]; [5]; [5],5.0,5,5,False
+S09-A(cols A-V),scalar,PBS; CMP-204; PSLN-212; PSLN-R848; PSLN-212/R848; PSLN-344; PSLN-212(y),[3]; [3]; [3]; [3]; [3]; [3]; [3],3.0,3,3,False
+S09-A(cols X-AS),scalar,PBS; CMP-204; PSLN-212; PSLN-R848; PSLN-212/R848; PSLN-344; PSLN-212(y),[3]; [3]; [3]; [3]; [3]; [3]; [3],3.0,3,3,False
+S10-A,scalar,PBS; Sham; PSLN-344; CT,[5]; [5]; [5]; [5],5.0,5,5,False
+S11-A,scalar,Vaccine; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5],5.0,5,5,False
+S11-B,scalar,Vaccine; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5],5.0,5,5,False
+S11-C,scalar,CBX+; CBX-,[5]; [5],5.0,5,5,False
+S11-D,scalar,Vaccine; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5],5.0,5,5,False
+S11-E,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5],5.0,5,5,False
+S12-A,scalar,WT to WT; IFNAR-/- to WT,[3]; [3],3.0,3,3,False
+S13-A,scalar,PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5],5.0,5,5,False
+S13-B,scalar,PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5],5.0,5,5,False
+S13-C,scalar,PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5],5.0,5,5,False
+S13-D,scalar,PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5],5.0,5,5,False
+S13-H,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5],5.0,5,5,False
+S13-I,scalar,Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5]; [5],5.0,5,5,False
+S13-J,scalar,Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5]; [5],5.0,5,5,False
+S14-A H1N1,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5],5.0,5,5,False
+S14-A H3N2,scalar,Sham; PSLN-212; PSLN-344; PSLN-212(Y),[5]; [5]; [5]; [5],5.0,5,5,False
+S03-I,time-to-event,Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y),7; 7; 7; 7; 7,7.0,7,7,False
+S03-J,time-to-event,Sham; PSLN-212; PSLN-344,10; 10; 10,9.0,10,10,True
+S06-A,time-to-event,Sham; PSLN-212; PSLN-344; PSLN-212(Y),7; 7; 7; 7,7.0,7,7,False
+S06-B,time-to-event,Sham; PSLN-212; PSLN-344; PSLN-212(Y),7; 7; 7; 7,7.0,7,7,False
+S06-C,time-to-event,Sham; PSLN-212; PSLN-344; PSLN-212(Y),7; 7; 7; 7,7.0,7,7,False
+S06-D,time-to-event,Sham; PSLN-212; PSLN-344; PSLN-212(Y),7; 7; 7; 7,7.0,7,7,False
+S06-E,time-to-event,Sham; PSLN-212; PSLN-344; PSLN-212(Y); Untreated,7; 7; 7; 7; 7,7.0,7,7,False
+S06-F,time-to-event,Sham; PSLN-212; PSLN-344; PSLN-212(Y); Untreated,7; 7; 7; 7; 7,7.0,7,7,False
+S06-G,time-to-event,Sham; PSLN-212; PSLN-344; PSLN-212(Y); Untreated,7; 7; 7; 7; 7,7.0,7,7,False
+S06-E(r71),time-to-event,Naïve+PSLN-212; Imprinting+PSLN-212; Naïve+PSLN-344; Imprinting+PSLN-344,7; 7; 7; 7,7.0,7,7,False
+S06-F(r71),time-to-event,Naïve+PSLN-212; Imprinting+PSLN-212; Naïve+PSLN-344; Imprinting+PSLN-344,7; 7; 7; 7,7.0,7,7,False
+S08-unlabelled,time-to-event,colC; colD,6; 7,,6,7,True
+S09-B,time-to-event,Sham; PSLN-344Y; PSLN-212Y,8; 8; 8,8.0,8,8,False
+S09-D,time-to-event,Sham; PSLN-344Y; PSLN-212Y,8; 8; 8,8.0,8,8,False
+S09-F,time-to-event,Sham; PSLN-344Y; PSLN-212Y,7; 8; 8,8.0,7,8,True
+S13-E,time-to-event,Naïve; Sham; CMP-204(Y); PSLN-344(Y),7; 7; 7; 7,5.0,7,7,True
+S15-H,time-to-event,3d Vaccine; 3d PSLN-344; 3d Vaccine+PSLN-344,7; 7; 7,7.0,7,7,False
+S15-L,time-to-event,Sham; PSLN-212; PSLN-344; PSLN-212(Y),7; 7; 7; 7,7.0,7,7,False
+S15-N,time-to-event,Sham; PSLN-212; PSLN-344; PSLN-212(Y),7; 7; 7; 7,7.0,7,7,False
+S08-D,body weight,PSLN-212(Y); CMP-204; PSLN-212; PSLN-344; PSLN-212/R848; Vaccine,5; 5; 5; 5; 5; 5 (day 0),5.0,5,5,False
+S09-C,body weight,PSLN-212Y; Sham; PSLN-344Y,8; 8; 8 (day 0),8.0,8,8,False
+S09-E,body weight,PSLN-212Y; Sham; PSLN-344Y,8; 8; 8 (day 0),8.0,8,8,False
+S09-G,body weight,PSLN-212Y; Sham; PSLN-344Y,8; 8; 8 (day 0),8.0,8,8,False
+S13-F,body weight,PSLN-212(Y); Sham; PSLN-212; PSLN-344; Naïve,7; 7; 7; 7; 7 (day 0),7.0,7,7,False
+S13-G,body weight,PSLN-344; Sham; Naïve,10; 10; 10 (day 0),10.0,10,10,False
+S15-A,body weight,PSLN-212(Y); Sham; PSLN-212; PSLN-344,7; 7; 7; 7 (day 0),7.0,7,7,False
+S15-B,body weight,PSLN-212(Y); Sham; PSLN-212; PSLN-344,7; 7; 7; 7 (day 0),7.0,7,7,False
+S15-C,body weight,PSLN-212(Y); Sham; PSLN-212; PSLN-344,7; 7; 7; 7 (day 0),7.0,7,7,False
+S15-D,body weight,PSLN-212(Y); Sham; PSLN-212; PSLN-344,7; 7; 7; 7 (day 0),7.0,7,7,False
+S15-E,body weight,PSLN-212(Y); Sham; PSLN-212; PSLN-344; Untreated,7; 7; 7; 7; 7 (day 0),7.0,7,7,False
+S15-F,body weight,PSLN-212(Y); Sham; PSLN-212; PSLN-344; Untreated,7; 7; 7; 7; 7 (day 0),7.0,7,7,False
+S15-G,body weight,PSLN-212(Y); Sham; PSLN-212; PSLN-344; Untreated,7; 7; 7; 7; 7 (day 0),7.0,7,7,False
+S15-I,body weight,3d Vaccine; 3d PSLN-344; 3d Vaccine+PSLN-344,7; 7; 7 (day 0),7.0,7,7,False
+S15-J,body weight,Naïve+PSLN-212; Imprinting+PSLN-212; Naïve+PSLN-344; Imprinting+PSLN-344,7; 7; 7; 7 (day 0),7.0,7,7,False
+S15-K,body weight,Naïve+PSLN-212; Imprinting+PSLN-212; Naïve+PSLN-344; Imprinting+PSLN-344,7; 7; 7; 7 (day 0),7.0,7,7,False
+S15-M,body weight,PSLN-212(Y); Sham; PSLN-212; PSLN-344,7; 7; 7; 7 (day 0),7.0,7,7,False
+S15-O,body weight,PSLN-212(Y); Sham; PSLN-212; PSLN-344,7; 7; 7; 7 (day 0),7.0,7,7,False

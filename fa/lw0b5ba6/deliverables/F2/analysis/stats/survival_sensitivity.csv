@@ -1,0 +1,18 @@
+subset,comparator,strata,psln344,psln344_pct,psln344_ci95,comparator_surv,comparator_pct,comparator_ci95,cmh_p
+all aged experiments (as printed),PSLN-212 (aged),15,92/108,85.2,77-91,15/108,13.9,8-22,1.7723244880696949e-25
+all aged experiments (as printed),Sham / vaccine alone,12,74/87,85.1,76-92,1/87,1.1,0-6,1.002610485905538e-27
+excluding S06-D (arms duplicate S06-C),PSLN-212 (aged),14,85/101,84.2,76-91,13/101,12.9,7-21,6.77148723136723e-24
+excluding S06-D (arms duplicate S06-C),Sham / vaccine alone,11,67/80,83.8,74-91,1/80,1.2,0-7,6.3492217798717775e-25
+excluding every experiment with any integrity flag,PSLN-212 (aged),8,46/56,82.1,70-91,8/56,14.3,6-26,1.3937855428866954e-12
+excluding every experiment with any integrity flag,Sham / vaccine alone,4,22/28,78.6,59-92,0/28,0.0,0-12,6.020741064039456e-09
+"20-month BALB/c only (S03, S06-A..G)",PSLN-212 (aged),9,56/66,84.8,74-92,9/66,13.6,6-24,2.6409527115128136e-16
+"20-month BALB/c only (S03, S06-A..G)",Sham / vaccine alone,9,56/66,84.8,74-92,1/66,1.5,0-8,2.586017571539502e-21
+"heterosubtypic d14 only (S06-A, S06-C)",PSLN-212 (aged),2,13/14,92.9,66-100,3/14,21.4,5-51,0.00020013803374389907
+"heterosubtypic d14 only (S06-A, S06-C)",Sham / vaccine alone,2,13/14,92.9,66-100,0/14,0.0,0-23,1.944123696243531e-06
+"early d2-d3 only (S03-J, S06-B, S06-D, S15-H)",PSLN-212 (aged),3,22/24,91.7,73-99,5/24,20.8,7-42,6.788034624253774e-07
+"early d2-d3 only (S03-J, S06-B, S06-D, S15-H)",Sham / vaccine alone,4,28/31,90.3,74-98,1/31,3.2,0-17,1.7925514730661513e-11
+"durable d60 only (S06-E, S06-F, S06-G)",PSLN-212 (aged),3,14/21,66.7,43-85,1/21,4.8,0-24,4.817015922879496e-05
+"durable d60 only (S06-E, S06-F, S06-G)",Sham / vaccine alone,3,14/21,66.7,43-85,0/21,0.0,0-16,9.54691984523815e-06
+"other strains (S15-L C57BL/6, S15-N Swiss Webster)",PSLN-212 (aged),2,12/14,85.7,57-98,2/14,14.3,2-43,0.00023332510314954974
+"other strains (S15-L C57BL/6, S15-N Swiss Webster)",Sham / vaccine alone,2,12/14,85.7,57-98,0/14,0.0,0-23,1.005996825446398e-05
+"14-month, +/- imprinting (S06-E(2), S06-F(2))",PSLN-212 (aged),4,24/28,85.7,67-96,4/28,14.3,4-33,1.0601762089840973e-07

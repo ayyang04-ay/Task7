@@ -1,0 +1,25 @@
+{
+  "note": "task_files/ was EXCLUDED from this export by the exporter's selection — its bytes were not downloaded. Re-export with it selected to include them. The original gs:// references are still listed here for provenance.",
+  "included": false,
+  "embedded": false,
+  "embedded_path": null,
+  "embedded_file_count": 0,
+  "source": "excluded by export selection",
+  "input_files": [
+    {
+      "source": "environment",
+      "remote_path": "gs://anthropic-argonrl-dog-bowl-us-central1-0/biome/environment_files/4e4205ea-4857-47f9-86e4-ff2e0245a3eb/anton-weights.squashfs",
+      "local_path": "/opt/weights"
+    },
+    {
+      "source": "environment",
+      "remote_path": "gs://anthropic-argonrl-dog-bowl-us-central1-0/biome/environment_files/4e4205ea-4857-47f9-86e4-ff2e0245a3eb/anton-refdbs.squashfs",
+      "local_path": "/opt/refdbs"
+    },
+    {
+      "source": "environment",
+      "remote_path": "gs://anthropic-argonrl-dog-bowl-us-central1-0/biome/environment_files/2e3eb299-7d22-4082-be2e-180e73ccf90d/bundles/none+snap_52076e0947eb49a4be5abe96ecb0ce25.v3/bundle.zip",
+      "local_path": "/tmp/world"
+    }
+  ]
+}

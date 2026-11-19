@@ -1,0 +1,515 @@
+block,sheet,group,days,event,cell_days,cell_event,desc,cohort
+S03-I,S03,Sham,5.0,1,S03!A17,S03!B17,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,Sham,6.0,1,S03!A18,S03!B18,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,Sham,6.0,1,S03!A19,S03!B19,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,Sham,6.0,1,S03!A20,S03!B20,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,Sham,8.0,1,S03!A21,S03!B21,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,Sham,8.0,1,S03!A22,S03!B22,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,Sham,11.0,1,S03!A23,S03!B23,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,CMP-204,6.0,1,S03!A24,S03!C24,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,CMP-204,7.0,1,S03!A25,S03!C25,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,CMP-204,8.0,1,S03!A26,S03!C26,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,CMP-204,10.0,1,S03!A27,S03!C27,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,CMP-204,14.0,0,S03!A28,S03!C28,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,CMP-204,14.0,0,S03!A29,S03!C29,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,CMP-204,14.0,0,S03!A30,S03!C30,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,PSLN-212,5.0,1,S03!A31,S03!D31,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,PSLN-212,5.0,1,S03!A32,S03!D32,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,PSLN-212,5.0,1,S03!A33,S03!D33,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,PSLN-212,6.0,1,S03!A34,S03!D34,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,PSLN-212,6.0,1,S03!A35,S03!D35,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,PSLN-212,6.0,1,S03!A36,S03!D36,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,PSLN-212,6.0,1,S03!A37,S03!D37,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,PSLN-344,14.0,0,S03!A38,S03!E38,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,PSLN-344,14.0,0,S03!A39,S03!E39,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,PSLN-344,14.0,0,S03!A40,S03!E40,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,PSLN-344,14.0,0,S03!A41,S03!E41,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,PSLN-344,14.0,0,S03!A42,S03!E42,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,PSLN-344,14.0,0,S03!A43,S03!E43,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,PSLN-344,14.0,0,S03!A44,S03!E44,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,PSLN-212(Y),14.0,0,S03!A45,S03!F45,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,PSLN-212(Y),14.0,0,S03!A46,S03!F46,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,PSLN-212(Y),14.0,0,S03!A47,S03!F47,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,PSLN-212(Y),14.0,0,S03!A48,S03!F48,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,PSLN-212(Y),14.0,0,S03!A49,S03!F49,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,PSLN-212(Y),14.0,0,S03!A50,S03!F50,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-I,S03,PSLN-212(Y),14.0,0,S03!A51,S03!F51,Bivalent vax; 10x mLD50 CA09 H1N1 d14 (homologous),aged BALB/c
+S03-J,S03,Sham,3.0,1,S03!G17,S03!H17,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,Sham,4.0,1,S03!G18,S03!H18,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,Sham,9.0,1,S03!G19,S03!H19,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,Sham,9.0,1,S03!G20,S03!H20,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,Sham,9.0,1,S03!G21,S03!H21,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,Sham,10.0,1,S03!G22,S03!H22,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,Sham,10.0,1,S03!G23,S03!H23,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,Sham,10.0,1,S03!G24,S03!H24,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,Sham,10.0,1,S03!G25,S03!H25,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,Sham,21.0,0,S03!G26,S03!H26,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,PSLN-212,10.0,1,S03!G27,S03!I27,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,PSLN-212,10.0,1,S03!G28,S03!I28,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,PSLN-212,11.0,1,S03!G29,S03!I29,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,PSLN-212,11.0,1,S03!G30,S03!I30,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,PSLN-212,12.0,1,S03!G31,S03!I31,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,PSLN-212,12.0,1,S03!G32,S03!I32,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,PSLN-212,12.0,1,S03!G33,S03!I33,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,PSLN-212,21.0,0,S03!G34,S03!I34,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,PSLN-212,21.0,0,S03!G35,S03!I35,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,PSLN-212,21.0,0,S03!G36,S03!I36,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,PSLN-344,21.0,0,S03!G37,S03!J37,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,PSLN-344,21.0,0,S03!G38,S03!J38,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,PSLN-344,21.0,0,S03!G39,S03!J39,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,PSLN-344,21.0,0,S03!G40,S03!J40,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,PSLN-344,21.0,0,S03!G41,S03!J41,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,PSLN-344,21.0,0,S03!G42,S03!J42,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,PSLN-344,21.0,0,S03!G43,S03!J43,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,PSLN-344,21.0,0,S03!G44,S03!J44,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,PSLN-344,21.0,0,S03!G45,S03!J45,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S03-J,S03,PSLN-344,,0,S03!G46,S03!J46,"rgH5N1 vax; WT VN04 H5N1 d2 (homologous, rapid)",age not stated (default aged)
+S06-A,S06,Sham,4.0,1,S06!A3,S06!B3,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,Sham,4.0,1,S06!A4,S06!B4,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,Sham,4.0,1,S06!A5,S06!B5,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,Sham,5.0,1,S06!A6,S06!B6,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,Sham,5.0,1,S06!A7,S06!B7,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,Sham,7.0,1,S06!A8,S06!B8,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,Sham,7.0,1,S06!A9,S06!B9,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,PSLN-212,4.0,1,S06!A10,S06!C10,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,PSLN-212,6.0,1,S06!A11,S06!C11,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,PSLN-212,6.0,1,S06!A12,S06!C12,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,PSLN-212,8.0,1,S06!A13,S06!C13,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,PSLN-212,9.0,1,S06!A14,S06!C14,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,PSLN-212,10.0,1,S06!A15,S06!C15,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,PSLN-212,14.0,0,S06!A16,S06!C16,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,PSLN-344,8.0,1,S06!A17,S06!D17,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,PSLN-344,14.0,0,S06!A18,S06!D18,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,PSLN-344,14.0,0,S06!A19,S06!D19,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,PSLN-344,14.0,0,S06!A20,S06!D20,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,PSLN-344,14.0,0,S06!A21,S06!D21,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,PSLN-344,14.0,0,S06!A22,S06!D22,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,PSLN-344,14.0,0,S06!A23,S06!D23,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,PSLN-212(Y),14.0,0,S06!A24,S06!E24,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,PSLN-212(Y),14.0,0,S06!A25,S06!E25,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,PSLN-212(Y),14.0,0,S06!A26,S06!E26,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,PSLN-212(Y),14.0,0,S06!A27,S06!E27,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,PSLN-212(Y),14.0,0,S06!A28,S06!E28,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,PSLN-212(Y),14.0,0,S06!A29,S06!E29,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-A,S06,PSLN-212(Y),14.0,0,S06!A30,S06!E30,H3N2 vax; 5x PR8 H1N1 d14 (heterosubtypic),aged BALB/c
+S06-B,S06,Sham,4.0,1,S06!G3,S06!H3,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,Sham,4.0,1,S06!G4,S06!H4,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,Sham,4.0,1,S06!G5,S06!H5,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,Sham,5.0,1,S06!G6,S06!H6,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,Sham,5.0,1,S06!G7,S06!H7,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,Sham,6.0,1,S06!G8,S06!H8,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,Sham,6.0,1,S06!G9,S06!H9,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,PSLN-212,4.0,1,S06!G10,S06!I10,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,PSLN-212,4.0,1,S06!G11,S06!I11,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,PSLN-212,6.0,1,S06!G12,S06!I12,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,PSLN-212,6.0,1,S06!G13,S06!I13,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,PSLN-212,6.0,1,S06!G14,S06!I14,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,PSLN-212,7.0,1,S06!G15,S06!I15,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,PSLN-212,10.0,1,S06!G16,S06!I16,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,PSLN-344,8.0,1,S06!G17,S06!J17,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,PSLN-344,10.0,1,S06!G18,S06!J18,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,PSLN-344,14.0,0,S06!G19,S06!J19,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,PSLN-344,14.0,0,S06!G20,S06!J20,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,PSLN-344,14.0,0,S06!G21,S06!J21,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,PSLN-344,14.0,0,S06!G22,S06!J22,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,PSLN-344,14.0,0,S06!G23,S06!J23,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,PSLN-212(Y),14.0,0,S06!G24,S06!K24,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,PSLN-212(Y),14.0,0,S06!G25,S06!K25,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,PSLN-212(Y),14.0,0,S06!G26,S06!K26,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,PSLN-212(Y),14.0,0,S06!G27,S06!K27,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,PSLN-212(Y),14.0,0,S06!G28,S06!K28,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,PSLN-212(Y),14.0,0,S06!G29,S06!K29,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-B,S06,PSLN-212(Y),14.0,0,S06!G30,S06!K30,"H3N2 vax; 5x PR8 H1N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-C,S06,Sham,4.0,1,S06!M3,S06!N3,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,Sham,4.0,1,S06!M4,S06!N4,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,Sham,5.0,1,S06!M5,S06!N5,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,Sham,6.0,1,S06!M6,S06!N6,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,Sham,6.0,1,S06!M7,S06!N7,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,Sham,6.0,1,S06!M8,S06!N8,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,Sham,7.0,1,S06!M9,S06!N9,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,PSLN-212,5.0,1,S06!M10,S06!O10,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,PSLN-212,8.0,1,S06!M11,S06!O11,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,PSLN-212,10.0,1,S06!M12,S06!O12,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,PSLN-212,10.0,1,S06!M13,S06!O13,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,PSLN-212,12.0,1,S06!M14,S06!O14,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,PSLN-212,14.0,0,S06!M15,S06!O15,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,PSLN-212,14.0,0,S06!M16,S06!O16,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,PSLN-344,14.0,0,S06!M17,S06!P17,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,PSLN-344,14.0,0,S06!M18,S06!P18,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,PSLN-344,14.0,0,S06!M19,S06!P19,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,PSLN-344,14.0,0,S06!M20,S06!P20,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,PSLN-344,14.0,0,S06!M21,S06!P21,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,PSLN-344,14.0,0,S06!M22,S06!P22,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,PSLN-344,14.0,0,S06!M23,S06!P23,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,PSLN-212(Y),14.0,0,S06!M24,S06!Q24,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,PSLN-212(Y),14.0,0,S06!M25,S06!Q25,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,PSLN-212(Y),14.0,0,S06!M26,S06!Q26,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,PSLN-212(Y),14.0,0,S06!M27,S06!Q27,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,PSLN-212(Y),14.0,0,S06!M28,S06!Q28,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,PSLN-212(Y),14.0,0,S06!M29,S06!Q29,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-C,S06,PSLN-212(Y),14.0,0,S06!M30,S06!Q30,Bivalent vax; 5x rgH5N1 d14 (heterosubtypic),aged BALB/c
+S06-D,S06,Sham,4.0,1,S06!A34,S06!B34,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,Sham,4.0,1,S06!A35,S06!B35,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,Sham,5.0,1,S06!A36,S06!B36,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,Sham,6.0,1,S06!A37,S06!B37,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,Sham,6.0,1,S06!A38,S06!B38,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,Sham,6.0,1,S06!A39,S06!B39,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,Sham,7.0,1,S06!A40,S06!B40,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,PSLN-212,5.0,1,S06!A41,S06!C41,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,PSLN-212,8.0,1,S06!A42,S06!C42,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,PSLN-212,10.0,1,S06!A43,S06!C43,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,PSLN-212,10.0,1,S06!A44,S06!C44,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,PSLN-212,12.0,1,S06!A45,S06!C45,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,PSLN-212,14.0,0,S06!A46,S06!C46,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,PSLN-212,14.0,0,S06!A47,S06!C47,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,PSLN-344,14.0,0,S06!A48,S06!D48,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,PSLN-344,14.0,0,S06!A49,S06!D49,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,PSLN-344,14.0,0,S06!A50,S06!D50,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,PSLN-344,14.0,0,S06!A51,S06!D51,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,PSLN-344,14.0,0,S06!A52,S06!D52,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,PSLN-344,14.0,0,S06!A53,S06!D53,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,PSLN-344,14.0,0,S06!A54,S06!D54,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,PSLN-212(Y),14.0,0,S06!A55,S06!E55,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,PSLN-212(Y),14.0,0,S06!A56,S06!E56,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,PSLN-212(Y),14.0,0,S06!A57,S06!E57,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,PSLN-212(Y),14.0,0,S06!A58,S06!E58,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,PSLN-212(Y),14.0,0,S06!A59,S06!E59,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,PSLN-212(Y),14.0,0,S06!A60,S06!E60,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-D,S06,PSLN-212(Y),14.0,0,S06!A61,S06!E61,"Bivalent vax; 5x rgH5N1 d3 (heterosubtypic, rapid)",aged BALB/c
+S06-E,S06,Sham,4.0,1,S06!G34,S06!H34,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,Sham,5.0,1,S06!G35,S06!H35,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,Sham,5.0,1,S06!G36,S06!H36,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,Sham,5.0,1,S06!G37,S06!H37,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,Sham,5.0,1,S06!G38,S06!H38,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,Sham,6.0,1,S06!G39,S06!H39,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,Sham,6.0,1,S06!G40,S06!H40,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,PSLN-212,5.0,1,S06!G41,S06!I41,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,PSLN-212,5.0,1,S06!G42,S06!I42,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,PSLN-212,5.0,1,S06!G43,S06!I43,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,PSLN-212,6.0,1,S06!G44,S06!I44,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,PSLN-212,6.0,1,S06!G45,S06!I45,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,PSLN-212,8.0,1,S06!G46,S06!I46,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,PSLN-212,11.0,1,S06!G47,S06!I47,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,PSLN-344,10.0,1,S06!G48,S06!J48,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,PSLN-344,8.0,1,S06!G49,S06!J49,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,PSLN-344,14.0,0,S06!G50,S06!J50,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,PSLN-344,14.0,0,S06!G51,S06!J51,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,PSLN-344,14.0,0,S06!G52,S06!J52,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,PSLN-344,14.0,0,S06!G53,S06!J53,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,PSLN-344,14.0,0,S06!G54,S06!J54,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,PSLN-212(Y),14.0,0,S06!G55,S06!K55,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,PSLN-212(Y),14.0,0,S06!G56,S06!K56,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,PSLN-212(Y),14.0,0,S06!G57,S06!K57,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,PSLN-212(Y),14.0,0,S06!G58,S06!K58,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,PSLN-212(Y),14.0,0,S06!G59,S06!K59,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,PSLN-212(Y),14.0,0,S06!G60,S06!K60,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,PSLN-212(Y),14.0,0,S06!G61,S06!K61,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,Untreated,4.0,1,S06!G62,S06!L62,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,Untreated,14.0,0,S06!G63,S06!L63,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,Untreated,14.0,0,S06!G64,S06!L64,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,Untreated,14.0,0,S06!G65,S06!L65,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,Untreated,14.0,0,S06!G66,S06!L66,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,Untreated,14.0,0,S06!G67,S06!L67,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-E,S06,Untreated,14.0,0,S06!G68,S06!L68,"H3N2 vax; 5x PR8 H1N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,Sham,4.0,1,S06!M34,S06!N34,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,Sham,4.0,1,S06!M35,S06!N35,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,Sham,4.0,1,S06!M36,S06!N36,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,Sham,5.0,1,S06!M37,S06!N37,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,Sham,5.0,1,S06!M38,S06!N38,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,Sham,6.0,1,S06!M39,S06!N39,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,Sham,6.0,1,S06!M40,S06!N40,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,PSLN-212,4.0,1,S06!M41,S06!O41,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,PSLN-212,5.0,1,S06!M42,S06!O42,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,PSLN-212,6.0,1,S06!M43,S06!O43,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,PSLN-212,6.0,1,S06!M44,S06!O44,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,PSLN-212,6.0,1,S06!M45,S06!O45,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,PSLN-212,7.0,1,S06!M46,S06!O46,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,PSLN-212,14.0,0,S06!M47,S06!O47,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,PSLN-344,7.0,1,S06!M48,S06!P48,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,PSLN-344,8.0,1,S06!M49,S06!P49,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,PSLN-344,14.0,0,S06!M50,S06!P50,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,PSLN-344,14.0,0,S06!M51,S06!P51,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,PSLN-344,14.0,0,S06!M52,S06!P52,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,PSLN-344,14.0,0,S06!M53,S06!P53,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,PSLN-344,14.0,0,S06!M54,S06!P54,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,PSLN-212(Y),14.0,0,S06!M55,S06!Q55,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,PSLN-212(Y),14.0,0,S06!M56,S06!Q56,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,PSLN-212(Y),14.0,0,S06!M57,S06!Q57,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,PSLN-212(Y),14.0,0,S06!M58,S06!Q58,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,PSLN-212(Y),14.0,0,S06!M59,S06!Q59,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,PSLN-212(Y),14.0,0,S06!M60,S06!Q60,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,PSLN-212(Y),14.0,0,S06!M61,S06!Q61,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,Untreated,14.0,0,S06!M62,S06!R62,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,Untreated,14.0,0,S06!M63,S06!R63,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,Untreated,14.0,0,S06!M64,S06!R64,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,Untreated,14.0,0,S06!M65,S06!R65,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,Untreated,14.0,0,S06!M66,S06!R66,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,Untreated,14.0,0,S06!M67,S06!R67,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-F,S06,Untreated,14.0,0,S06!M68,S06!R68,"Bivalent vax; 5x rgH5N1 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,Sham,4.0,1,S06!A71,S06!B71,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,Sham,4.0,1,S06!A72,S06!B72,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,Sham,5.0,1,S06!A73,S06!B73,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,Sham,6.0,1,S06!A74,S06!B74,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,Sham,6.0,1,S06!A75,S06!B75,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,Sham,7.0,1,S06!A76,S06!B76,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,Sham,7.0,1,S06!A77,S06!B77,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,PSLN-212,6.0,1,S06!A78,S06!C78,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,PSLN-212,6.0,1,S06!A79,S06!C79,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,PSLN-212,8.0,1,S06!A80,S06!C80,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,PSLN-212,8.0,1,S06!A81,S06!C81,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,PSLN-212,8.0,1,S06!A82,S06!C82,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,PSLN-212,11.0,1,S06!A83,S06!C83,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,PSLN-212,11.0,1,S06!A84,S06!C84,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,PSLN-344,9.0,1,S06!A85,S06!D85,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,PSLN-344,11.0,1,S06!A86,S06!D86,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,PSLN-344,8.0,1,S06!A87,S06!D87,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,PSLN-344,14.0,0,S06!A88,S06!D88,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,PSLN-344,14.0,0,S06!A89,S06!D89,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,PSLN-344,14.0,0,S06!A90,S06!D90,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,PSLN-344,14.0,0,S06!A91,S06!D91,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,PSLN-212(Y),14.0,0,S06!A92,S06!E92,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,PSLN-212(Y),14.0,0,S06!A93,S06!E93,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,PSLN-212(Y),14.0,0,S06!A94,S06!E94,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,PSLN-212(Y),14.0,0,S06!A95,S06!E95,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,PSLN-212(Y),14.0,0,S06!A96,S06!E96,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,PSLN-212(Y),14.0,0,S06!A97,S06!E97,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,PSLN-212(Y),14.0,0,S06!A98,S06!E98,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,Untreated,7.0,1,S06!A99,S06!F99,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,Untreated,3.0,1,S06!A100,S06!F100,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,Untreated,10.0,1,S06!A101,S06!F101,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,Untreated,14.0,0,S06!A102,S06!F102,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,Untreated,14.0,0,S06!A103,S06!F103,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,Untreated,14.0,0,S06!A104,S06!F104,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+S06-G,S06,Untreated,14.0,0,S06!A105,S06!F105,"H1N1 vax; 5x Perth H3N2 d60 (heterosubtypic, durable)",aged BALB/c
+"S06-E'(r71-98,G-K)",S06,Naive+PSLN-212,4.0,1,S06!G71,S06!H71,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Naive+PSLN-212,4.0,1,S06!G72,S06!H72,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Naive+PSLN-212,5.0,1,S06!G73,S06!H73,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Naive+PSLN-212,6.0,1,S06!G74,S06!H74,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Naive+PSLN-212,6.0,1,S06!G75,S06!H75,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Naive+PSLN-212,6.0,1,S06!G76,S06!H76,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Naive+PSLN-212,8.0,1,S06!G77,S06!H77,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Imprinting+PSLN-212,6.0,1,S06!G78,S06!I78,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Imprinting+PSLN-212,8.0,1,S06!G79,S06!I79,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Imprinting+PSLN-212,8.0,1,S06!G80,S06!I80,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Imprinting+PSLN-212,14.0,0,S06!G81,S06!I81,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Imprinting+PSLN-212,14.0,0,S06!G82,S06!I82,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Imprinting+PSLN-212,14.0,0,S06!G83,S06!I83,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Imprinting+PSLN-212,14.0,0,S06!G84,S06!I84,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Naive+PSLN-344,5.0,1,S06!G85,S06!J85,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Naive+PSLN-344,14.0,0,S06!G86,S06!J86,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Naive+PSLN-344,14.0,0,S06!G87,S06!J87,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Naive+PSLN-344,14.0,0,S06!G88,S06!J88,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Naive+PSLN-344,14.0,0,S06!G89,S06!J89,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Naive+PSLN-344,14.0,0,S06!G90,S06!J90,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Naive+PSLN-344,14.0,0,S06!G91,S06!J91,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Imprinting+PSLN-344,8.0,1,S06!G92,S06!K92,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Imprinting+PSLN-344,14.0,0,S06!G93,S06!K93,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Imprinting+PSLN-344,14.0,0,S06!G94,S06!K94,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Imprinting+PSLN-344,14.0,0,S06!G95,S06!K95,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Imprinting+PSLN-344,14.0,0,S06!G96,S06!K96,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Imprinting+PSLN-344,14.0,0,S06!G97,S06!K97,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-E'(r71-98,G-K)",S06,Imprinting+PSLN-344,14.0,0,S06!G98,S06!K98,Imprinting model; bivalent vax; 5x PR8 H1N1,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Naive+PSLN-212,4.0,1,S06!M71,S06!N71,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Naive+PSLN-212,4.0,1,S06!M72,S06!N72,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Naive+PSLN-212,6.0,1,S06!M73,S06!N73,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Naive+PSLN-212,6.0,1,S06!M74,S06!N74,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Naive+PSLN-212,7.0,1,S06!M75,S06!N75,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Naive+PSLN-212,8.0,1,S06!M76,S06!N76,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Naive+PSLN-212,8.0,1,S06!M77,S06!N77,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Imprinting+PSLN-212,4.0,1,S06!M78,S06!O78,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Imprinting+PSLN-212,4.0,1,S06!M79,S06!O79,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Imprinting+PSLN-212,5.0,1,S06!M80,S06!O80,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Imprinting+PSLN-212,5.0,1,S06!M81,S06!O81,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Imprinting+PSLN-212,5.0,1,S06!M82,S06!O82,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Imprinting+PSLN-212,6.0,1,S06!M83,S06!O83,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Imprinting+PSLN-212,6.0,1,S06!M84,S06!O84,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Naive+PSLN-344,8.0,1,S06!M85,S06!P85,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Naive+PSLN-344,14.0,0,S06!M86,S06!P86,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Naive+PSLN-344,14.0,0,S06!M87,S06!P87,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Naive+PSLN-344,14.0,0,S06!M88,S06!P88,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Naive+PSLN-344,14.0,0,S06!M89,S06!P89,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Naive+PSLN-344,14.0,0,S06!M90,S06!P90,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Naive+PSLN-344,14.0,0,S06!M91,S06!P91,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Imprinting+PSLN-344,7.0,1,S06!M92,S06!Q92,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Imprinting+PSLN-344,14.0,0,S06!M93,S06!Q93,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Imprinting+PSLN-344,14.0,0,S06!M94,S06!Q94,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Imprinting+PSLN-344,14.0,0,S06!M95,S06!Q95,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Imprinting+PSLN-344,14.0,0,S06!M96,S06!Q96,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Imprinting+PSLN-344,14.0,0,S06!M97,S06!Q97,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+"S06-F'(r71-98,M-Q)",S06,Imprinting+PSLN-344,14.0,0,S06!M98,S06!Q98,Imprinting model; bivalent vax; 5x Perth H3N2 d14,14-mo BALB/c (10-mo imprint)
+S09-B,S09,Sham,6.0,1,S09!A12,S09!B12,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-B,S09,Sham,6.0,1,S09!A13,S09!B13,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-B,S09,Sham,6.0,1,S09!A14,S09!B14,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-B,S09,Sham,7.0,1,S09!A15,S09!B15,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-B,S09,Sham,7.0,1,S09!A16,S09!B16,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-B,S09,Sham,7.0,1,S09!A17,S09!B17,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-B,S09,Sham,8.0,1,S09!A18,S09!B18,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-B,S09,Sham,8.0,1,S09!A19,S09!B19,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-B,S09,PSLN-344(Y),14.0,0,S09!A20,S09!C20,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-B,S09,PSLN-344(Y),14.0,0,S09!A21,S09!C21,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-B,S09,PSLN-344(Y),14.0,0,S09!A22,S09!C22,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-B,S09,PSLN-344(Y),14.0,0,S09!A23,S09!C23,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-B,S09,PSLN-344(Y),14.0,0,S09!A24,S09!C24,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-B,S09,PSLN-344(Y),14.0,0,S09!A25,S09!C25,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-B,S09,PSLN-344(Y),14.0,0,S09!A26,S09!C26,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-B,S09,PSLN-344(Y),14.0,0,S09!A27,S09!C27,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-B,S09,PSLN-212(Y),14.0,0,S09!A28,S09!D28,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-B,S09,PSLN-212(Y),14.0,0,S09!A29,S09!D29,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-B,S09,PSLN-212(Y),14.0,0,S09!A30,S09!D30,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-B,S09,PSLN-212(Y),14.0,0,S09!A31,S09!D31,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-B,S09,PSLN-212(Y),14.0,0,S09!A32,S09!D32,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-B,S09,PSLN-212(Y),14.0,0,S09!A33,S09!D33,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-B,S09,PSLN-212(Y),14.0,0,S09!A34,S09!D34,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-B,S09,PSLN-212(Y),14.0,0,S09!A35,S09!D35,H3N2 vax; 5x PR8 H1N1 d21,young BALB/c
+S09-D,S09,Sham,7.0,1,S09!A39,S09!B39,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-D,S09,Sham,8.0,1,S09!A40,S09!B40,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-D,S09,Sham,8.0,1,S09!A41,S09!B41,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-D,S09,Sham,8.0,1,S09!A42,S09!B42,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-D,S09,Sham,8.0,1,S09!A43,S09!B43,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-D,S09,Sham,8.0,1,S09!A44,S09!B44,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-D,S09,Sham,9.0,1,S09!A45,S09!B45,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-D,S09,Sham,9.0,1,S09!A46,S09!B46,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-D,S09,PSLN-344(Y),14.0,0,S09!A47,S09!C47,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-D,S09,PSLN-344(Y),14.0,0,S09!A48,S09!C48,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-D,S09,PSLN-344(Y),14.0,0,S09!A49,S09!C49,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-D,S09,PSLN-344(Y),14.0,0,S09!A50,S09!C50,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-D,S09,PSLN-344(Y),14.0,0,S09!A51,S09!C51,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-D,S09,PSLN-344(Y),14.0,0,S09!A52,S09!C52,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-D,S09,PSLN-344(Y),14.0,0,S09!A53,S09!C53,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-D,S09,PSLN-344(Y),14.0,0,S09!A54,S09!C54,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-D,S09,PSLN-212(Y),14.0,0,S09!A55,S09!D55,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-D,S09,PSLN-212(Y),14.0,0,S09!A56,S09!D56,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-D,S09,PSLN-212(Y),14.0,0,S09!A57,S09!D57,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-D,S09,PSLN-212(Y),14.0,0,S09!A58,S09!D58,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-D,S09,PSLN-212(Y),14.0,0,S09!A59,S09!D59,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-D,S09,PSLN-212(Y),14.0,0,S09!A60,S09!D60,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-D,S09,PSLN-212(Y),14.0,0,S09!A61,S09!D61,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-D,S09,PSLN-212(Y),14.0,0,S09!A62,S09!D62,H1N1 vax; 5x Perth H3N2 d21,young BALB/c
+S09-F,S09,Sham,6.0,1,S09!A66,S09!B66,Bivalent vax; 5x rgH5N1 d180,young BALB/c
+S09-F,S09,Sham,6.0,1,S09!A67,S09!B67,Bivalent vax; 5x rgH5N1 d180,young BALB/c
+S09-F,S09,Sham,6.0,1,S09!A68,S09!B68,Bivalent vax; 5x rgH5N1 d180,young BALB/c
+S09-F,S09,Sham,7.0,1,S09!A69,S09!B69,Bivalent vax; 5x rgH5N1 d180,young BALB/c
+S09-F,S09,Sham,8.0,1,S09!A70,S09!B70,Bivalent vax; 5x rgH5N1 d180,young BALB/c
+S09-F,S09,Sham,8.0,1,S09!A71,S09!B71,Bivalent vax; 5x rgH5N1 d180,young BALB/c
+S09-F,S09,Sham,8.0,1,S09!A72,S09!B72,Bivalent vax; 5x rgH5N1 d180,young BALB/c
+S09-F,S09,PSLN-344(Y),14.0,0,S09!A73,S09!C73,Bivalent vax; 5x rgH5N1 d180,young BALB/c
+S09-F,S09,PSLN-344(Y),14.0,0,S09!A74,S09!C74,Bivalent vax; 5x rgH5N1 d180,young BALB/c
+S09-F,S09,PSLN-344(Y),14.0,0,S09!A75,S09!C75,Bivalent vax; 5x rgH5N1 d180,young BALB/c
+S09-F,S09,PSLN-344(Y),14.0,0,S09!A76,S09!C76,Bivalent vax; 5x rgH5N1 d180,young BALB/c
+S09-F,S09,PSLN-344(Y),14.0,0,S09!A77,S09!C77,Bivalent vax; 5x rgH5N1 d180,young BALB/c
+S09-F,S09,PSLN-344(Y),14.0,0,S09!A78,S09!C78,Bivalent vax; 5x rgH5N1 d180,young BALB/c
+S09-F,S09,PSLN-344(Y),14.0,0,S09!A79,S09!C79,Bivalent vax; 5x rgH5N1 d180,young BALB/c
+S09-F,S09,PSLN-344(Y),14.0,0,S09!A80,S09!C80,Bivalent vax; 5x rgH5N1 d180,young BALB/c
+S09-F,S09,PSLN-212(Y),14.0,0,S09!A81,S09!D81,Bivalent vax; 5x rgH5N1 d180,young BALB/c
+S09-F,S09,PSLN-212(Y),14.0,0,S09!A82,S09!D82,Bivalent vax; 5x rgH5N1 d180,young BALB/c
+S09-F,S09,PSLN-212(Y),14.0,0,S09!A83,S09!D83,Bivalent vax; 5x rgH5N1 d180,young BALB/c
+S09-F,S09,PSLN-212(Y),14.0,0,S09!A84,S09!D84,Bivalent vax; 5x rgH5N1 d180,young BALB/c
+S09-F,S09,PSLN-212(Y),14.0,0,S09!A85,S09!D85,Bivalent vax; 5x rgH5N1 d180,young BALB/c
+S09-F,S09,PSLN-212(Y),14.0,0,S09!A86,S09!D86,Bivalent vax; 5x rgH5N1 d180,young BALB/c
+S09-F,S09,PSLN-212(Y),14.0,0,S09!A87,S09!D87,Bivalent vax; 5x rgH5N1 d180,young BALB/c
+S09-F,S09,PSLN-212(Y),14.0,0,S09!A88,S09!D88,Bivalent vax; 5x rgH5N1 d180,young BALB/c
+S13-E,S13,Naive,6.0,1,S13!R3,S13!S3,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,Naive,7.0,1,S13!R4,S13!S4,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,Naive,7.0,1,S13!R5,S13!S5,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,Naive,7.0,1,S13!R6,S13!S6,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,Naive,8.0,1,S13!R7,S13!S7,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,Naive,8.0,1,S13!R8,S13!S8,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,Naive,8.0,1,S13!R9,S13!S9,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,Sham,7.0,1,S13!R10,S13!T10,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,Sham,9.0,1,S13!R11,S13!T11,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,Sham,9.0,1,S13!R12,S13!T12,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,Sham,10.0,1,S13!R13,S13!T13,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,Sham,11.0,1,S13!R14,S13!T14,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,Sham,11.0,1,S13!R15,S13!T15,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,Sham,14.0,0,S13!R16,S13!T16,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,CMP-204(Y),14.0,0,S13!R17,S13!U17,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,CMP-204(Y),14.0,0,S13!R18,S13!U18,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,CMP-204(Y),14.0,0,S13!R19,S13!U19,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,CMP-204(Y),14.0,0,S13!R20,S13!U20,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,CMP-204(Y),14.0,0,S13!R21,S13!U21,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,CMP-204(Y),14.0,0,S13!R22,S13!U22,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,CMP-204(Y),14.0,0,S13!R23,S13!U23,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,PSLN-344(Y),14.0,0,S13!R24,S13!V24,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,PSLN-344(Y),14.0,0,S13!R25,S13!V25,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,PSLN-344(Y),14.0,0,S13!R26,S13!V26,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,PSLN-344(Y),14.0,0,S13!R27,S13!V27,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,PSLN-344(Y),14.0,0,S13!R28,S13!V28,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,PSLN-344(Y),14.0,0,S13!R29,S13!V29,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S13-E,S13,PSLN-344(Y),14.0,0,S13!R30,S13!V30,Bivalent vax; 10x CA09 H1N1 d14,young BALB/c
+S15-H,S15,3d Vaccine,4.0,1,S15!A73,S15!B73,Vaccine and/or PSLN-344 3 d before 5x rgH5N1,aged BALB/c
+S15-H,S15,3d Vaccine,5.0,1,S15!A74,S15!B74,Vaccine and/or PSLN-344 3 d before 5x rgH5N1,aged BALB/c
+S15-H,S15,3d Vaccine,5.0,1,S15!A75,S15!B75,Vaccine and/or PSLN-344 3 d before 5x rgH5N1,aged BALB/c
+S15-H,S15,3d Vaccine,5.0,1,S15!A76,S15!B76,Vaccine and/or PSLN-344 3 d before 5x rgH5N1,aged BALB/c
+S15-H,S15,3d Vaccine,6.0,1,S15!A77,S15!B77,Vaccine and/or PSLN-344 3 d before 5x rgH5N1,aged BALB/c
+S15-H,S15,3d Vaccine,6.0,1,S15!A78,S15!B78,Vaccine and/or PSLN-344 3 d before 5x rgH5N1,aged BALB/c
+S15-H,S15,3d Vaccine,7.0,1,S15!A79,S15!B79,Vaccine and/or PSLN-344 3 d before 5x rgH5N1,aged BALB/c
+S15-H,S15,3d PSLN-344,5.0,1,S15!A80,S15!C80,Vaccine and/or PSLN-344 3 d before 5x rgH5N1,aged BALB/c
+S15-H,S15,3d PSLN-344,5.0,1,S15!A81,S15!C81,Vaccine and/or PSLN-344 3 d before 5x rgH5N1,aged BALB/c
+S15-H,S15,3d PSLN-344,6.0,1,S15!A82,S15!C82,Vaccine and/or PSLN-344 3 d before 5x rgH5N1,aged BALB/c
+S15-H,S15,3d PSLN-344,6.0,1,S15!A83,S15!C83,Vaccine and/or PSLN-344 3 d before 5x rgH5N1,aged BALB/c
+S15-H,S15,3d PSLN-344,6.0,1,S15!A84,S15!C84,Vaccine and/or PSLN-344 3 d before 5x rgH5N1,aged BALB/c
+S15-H,S15,3d PSLN-344,7.0,1,S15!A85,S15!C85,Vaccine and/or PSLN-344 3 d before 5x rgH5N1,aged BALB/c
+S15-H,S15,3d PSLN-344,8.0,1,S15!A86,S15!C86,Vaccine and/or PSLN-344 3 d before 5x rgH5N1,aged BALB/c
+S15-H,S15,3d Vaccine+PSLN-344,12.0,1,S15!A87,S15!D87,Vaccine and/or PSLN-344 3 d before 5x rgH5N1,aged BALB/c
+S15-H,S15,3d Vaccine+PSLN-344,14.0,0,S15!A88,S15!D88,Vaccine and/or PSLN-344 3 d before 5x rgH5N1,aged BALB/c
+S15-H,S15,3d Vaccine+PSLN-344,14.0,0,S15!A89,S15!D89,Vaccine and/or PSLN-344 3 d before 5x rgH5N1,aged BALB/c
+S15-H,S15,3d Vaccine+PSLN-344,14.0,0,S15!A90,S15!D90,Vaccine and/or PSLN-344 3 d before 5x rgH5N1,aged BALB/c
+S15-H,S15,3d Vaccine+PSLN-344,14.0,0,S15!A91,S15!D91,Vaccine and/or PSLN-344 3 d before 5x rgH5N1,aged BALB/c
+S15-H,S15,3d Vaccine+PSLN-344,14.0,0,S15!A92,S15!D92,Vaccine and/or PSLN-344 3 d before 5x rgH5N1,aged BALB/c
+S15-H,S15,3d Vaccine+PSLN-344,14.0,0,S15!A93,S15!D93,Vaccine and/or PSLN-344 3 d before 5x rgH5N1,aged BALB/c
+S15-L,S15,Sham,4.0,1,S15!A103,S15!B103,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,Sham,4.0,1,S15!A104,S15!B104,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,Sham,6.0,1,S15!A105,S15!B105,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,Sham,6.0,1,S15!A106,S15!B106,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,Sham,6.0,1,S15!A107,S15!B107,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,Sham,8.0,1,S15!A108,S15!B108,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,Sham,8.0,1,S15!A109,S15!B109,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,PSLN-212,6.0,1,S15!A110,S15!C110,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,PSLN-212,7.0,1,S15!A111,S15!C111,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,PSLN-212,7.0,1,S15!A112,S15!C112,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,PSLN-212,8.0,1,S15!A113,S15!C113,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,PSLN-212,8.0,1,S15!A114,S15!C114,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,PSLN-212,9.0,1,S15!A115,S15!C115,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,PSLN-212,11.0,1,S15!A116,S15!C116,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,PSLN-344,8.0,1,S15!A117,S15!D117,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,PSLN-344,14.0,0,S15!A118,S15!D118,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,PSLN-344,14.0,0,S15!A119,S15!D119,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,PSLN-344,14.0,0,S15!A120,S15!D120,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,PSLN-344,14.0,0,S15!A121,S15!D121,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,PSLN-344,14.0,0,S15!A122,S15!D122,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,PSLN-344,14.0,0,S15!A123,S15!D123,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,PSLN-212(Y),12.0,1,S15!A124,S15!E124,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,PSLN-212(Y),14.0,0,S15!A125,S15!E125,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,PSLN-212(Y),14.0,0,S15!A126,S15!E126,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,PSLN-212(Y),14.0,0,S15!A127,S15!E127,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,PSLN-212(Y),14.0,0,S15!A128,S15!E128,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,PSLN-212(Y),14.0,0,S15!A129,S15!E129,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-L,S15,PSLN-212(Y),14.0,0,S15!A130,S15!E130,Bivalent vax; challenge (aged C57BL/6),aged C57BL/6 (20 mo)
+S15-N,S15,Sham,5.0,1,S15!A134,S15!B134,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,Sham,6.0,1,S15!A135,S15!B135,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,Sham,6.0,1,S15!A136,S15!B136,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,Sham,8.0,1,S15!A137,S15!B137,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,Sham,8.0,1,S15!A138,S15!B138,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,Sham,8.0,1,S15!A139,S15!B139,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,Sham,10.0,1,S15!A140,S15!B140,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,PSLN-212,6.0,1,S15!A141,S15!C141,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,PSLN-212,10.0,1,S15!A142,S15!C142,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,PSLN-212,10.0,1,S15!A143,S15!C143,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,PSLN-212,10.0,1,S15!A144,S15!C144,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,PSLN-212,12.0,1,S15!A145,S15!C145,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,PSLN-212,14.0,0,S15!A146,S15!C146,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,PSLN-212,14.0,0,S15!A147,S15!C147,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,PSLN-344,8.0,1,S15!A148,S15!D148,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,PSLN-344,14.0,0,S15!A149,S15!D149,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,PSLN-344,14.0,0,S15!A150,S15!D150,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,PSLN-344,14.0,0,S15!A151,S15!D151,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,PSLN-344,14.0,0,S15!A152,S15!D152,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,PSLN-344,14.0,0,S15!A153,S15!D153,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,PSLN-344,14.0,0,S15!A154,S15!D154,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,PSLN-212(Y),14.0,0,S15!A155,S15!E155,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,PSLN-212(Y),14.0,0,S15!A156,S15!E156,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,PSLN-212(Y),14.0,0,S15!A157,S15!E157,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,PSLN-212(Y),14.0,0,S15!A158,S15!E158,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,PSLN-212(Y),14.0,0,S15!A159,S15!E159,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,PSLN-212(Y),14.0,0,S15!A160,S15!E160,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)
+S15-N,S15,PSLN-212(Y),14.0,0,S15!A161,S15!E161,Bivalent vax; challenge (aged Swiss Webster),aged Swiss Webster (20 mo)

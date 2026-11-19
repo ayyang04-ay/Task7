@@ -1,0 +1,15 @@
+check,printed_block,printed_group,printed_mean,matches_recomputed_group
+IgG2a/IgG1 CA09 H1N1,S03-B,PSLN-212,2.9717721999999993,PSLN-212(Y)
+IgG2a/IgG1 CA09 H1N1,S03-B,PSLN-344,0.5778322,PSLN-212
+IgG2a/IgG1 CA09 H1N1,S03-B,PSLN-212(Y),2.143764,PSLN-344
+IgG2a/IgG1 Aichi H3N2,S03-F,PSLN-212,2.8906494,PSLN-212(Y)
+IgG2a/IgG1 Aichi H3N2,S03-F,PSLN-344,0.5116666,PSLN-212
+IgG2a/IgG1 Aichi H3N2,S03-F,PSLN-212(Y),2.7267356000000005,PSLN-344
+Tfh:Tfr,S04-B Tfh:Tfr,Sham,3.5553920000000003,(100-Foxp3%)/Foxp3% of same group
+Tfh:Tfr,S04-B Tfh:Tfr,PSLN-212,2.9354664,(100-Foxp3%)/Foxp3% of same group
+Tfh:Tfr,S04-B Tfh:Tfr,PSLN-344,8.4753188,(100-Foxp3%)/Foxp3% of same group
+Tfh:Tfr,S04-B Tfh:Tfr,PSLN-212(Y),16.0485356,(100-Foxp3%)/Foxp3% of same group
+S09-A vs S01-A,"S09-A panel1 (cols A-V, printed 16h)",all 7 groups (Ifnb1 row),,21/21 values equal 10^x of S01-A Ifnb1 16h
+S09-A vs S01-A,"S09-A panel1 (cols A-V, printed 16h)",all 7 groups (Ifnb1 row),,0/21 values equal 10^x of S01-A Ifnb1 72h
+S09-A vs S01-A,"S09-A panel2 (cols X-AS, printed 16h)",all 7 groups (Ifnb1 row),,0/21 values equal 10^x of S01-A Ifnb1 16h
+S09-A vs S01-A,"S09-A panel2 (cols X-AS, printed 16h)",all 7 groups (Ifnb1 row),,21/21 values equal 10^x of S01-A Ifnb1 72h

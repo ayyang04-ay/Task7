@@ -1,0 +1,36 @@
+(a) duplicated vectors across different block/group: 12
+                                           kind                          a   a_cells                                    b      b_cells  n                                                                                        values
+0   near-identical vector (4/5 positions equal)        (S03-C, Sham, -, -)     K3:K7                  (S03-G, Sham, -, -)      K10:K14  5                                 ((10.0, 10.0, 10.0, 0.0, 0.0), (10.0, 10.0, 10.0, 20.0, 0.0))
+1   near-identical vector (4/5 positions equal)     (S03-C, CMP-204, -, -)     L3:L7               (S03-G, CMP-204, -, -)      L10:L14  5                              ((40.0, 10.0, 20.0, 20.0, 40.0), (40.0, 40.0, 20.0, 20.0, 40.0))
+2   near-identical vector (4/5 positions equal)    (S03-C, PSLN-344, -, -)     N3:N7              (S03-G, PSLN-344, -, -)      N10:N14  5                    ((320.0, 640.0, 160.0, 320.0, 640.0), (320.0, 640.0, 160.0, 320.0, 320.0))
+3                      identical ordered vector  (S09-C, PSLN-212Y, 12, -)   G18:N18            (S09-C, PSLN-344Y, 12, -)     W18:AD18  8                                             (97.7, 95.2, 93.3, 93.5, 99.1, 96.9, 100.3, 99.8)
+7                      identical ordered vector        (S15-A, Sham, 4, -)     I5:O5              (S15-M, PSLN-212, 4, -)   W105:AC105  7                                              (91.1, 89.4231, 90.1099, 92.1, 92.1, 88.3, 83.1)
+23  near-identical vector (6/7 positions equal)    (S15-C, PSLN-344, 2, -)  W24:AC24   (S15-I, 3d Vaccine+PSLN-344, 2, -)     W73:AC73  7  ((100.6, 99.8, 96.6, 100.3, 95.1, 96.6, 97.9), (100.3, 99.8, 96.6, 100.3, 95.1, 96.6, 97.9))
+24                     identical ordered vector    (S15-C, PSLN-344, 4, -)  W25:AC25   (S15-I, 3d Vaccine+PSLN-344, 4, -)     W74:AC74  7                                                    (96.7, 98.2, 91.4, 98.9, 91.5, 92.9, 93.1)
+25                     identical ordered vector    (S15-C, PSLN-344, 6, -)  W26:AC26   (S15-I, 3d Vaccine+PSLN-344, 6, -)     W75:AC75  7                                                    (91.5, 92.1, 85.6, 94.2, 86.6, 89.9, 88.2)
+26                     identical ordered vector    (S15-C, PSLN-344, 8, -)  W27:AC27   (S15-I, 3d Vaccine+PSLN-344, 8, -)     W76:AC76  7                                                    (92.4, 90.5, 83.1, 90.9, 86.7, 87.0, 90.2)
+27  near-identical vector (6/7 positions equal)   (S15-C, PSLN-344, 10, -)  W28:AC28  (S15-I, 3d Vaccine+PSLN-344, 10, -)     W77:AC77  7      ((94.6, 91.7, 80.4, 92.3, 85.1, 88.0, 94.5), (94.5, 91.7, 80.4, 92.3, 85.1, 88.0, 94.5))
+28                     identical ordered vector   (S15-C, PSLN-344, 12, -)  W29:AC29  (S15-I, 3d Vaccine+PSLN-344, 12, -)     W78:AC78  7                                                    (98.2, 94.8, 77.9, 96.9, 87.8, 93.1, 96.6)
+29  near-identical vector (5/7 positions equal)   (S15-C, PSLN-344, 14, -)  W30:AC30             (S15-M, PSLN-344, 14, -)  AD110:AJ110  7  ((102.5, 98.4, 90.1, 100.3, 85.1, 87.0, 99.4), (102.5, 98.4, 94.1, 100.3, 85.1, 97.3, 99.4))
+
+(b) survival tables identical in every group:
+    group-level: S06-B / S06-F(r34)  group Sham: ((4, 1.0), (4, 1.0), (4, 1.0), (5, 1.0), (5, 1.0), (6, 1.0), (6, 1.0))
+    S06-C == S06-D
+
+(c) positional overlap between blocks of identical layout (excluding 100-at-day-0 rows):
+   block1 block2  comparable_cells  identical_cells   pct
+7   S11-A  S11-B               100               35  35.0
+10  S15-A  S15-M               159               23  14.5
+14  S15-M  S15-O               161               18  11.2
+0   S03-C  S03-G                25               17  68.0
+12  S15-C  S15-M               161               12   7.5
+5   S09-E  S09-G               139               11   7.9
+11  S15-A  S15-O               164               10   6.1
+8   S15-A  S15-B               161               10   6.2
+6   S09-E  S15-C               117                9   7.7
+13  S15-C  S15-O               166                8   4.8
+1   S03-D  S03-H                25                8  32.0
+2   S09-C  S09-E               141                7   5.0
+4   S09-C  S15-E               114                5   4.4
+3   S09-C  S13-F               123                5   4.1
+9   S15-A  S15-D               161                5   3.1

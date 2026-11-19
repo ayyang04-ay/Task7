@@ -1,0 +1,8 @@
+                                                 animals  identical  common
+a_block a_group     b_block b_group                                        
+S09-E   PSLN-212Y   S09-G   PSLN-212Y                  1          7       7
+                    S15-C   PSLN-212(Y)                1          5       7
+        PSLN-344Y   S15-M   PSLN-212(Y)                6         32      42
+S15-A   PSLN-212(Y) S15-M   PSLN-212(Y)                1          4       7
+        PSLN-344    S15-M   PSLN-344                   2         10      14
+S15-C   PSLN-344    S15-I   3d Vaccine+PSLN-344        7         40      48

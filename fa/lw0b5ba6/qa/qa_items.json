@@ -1,0 +1,140 @@
+[
+  {
+    "id": "826bcada-f17a-49a6-8565-2ac6d2e60143",
+    "qaJobId": "31a5f591-87cd-467b-8990-bae4d9d04ce9",
+    "title": "Prompt does not name the asset or indication; the files describe an intranasal flu-vaccine adjuvant, not an oncology drug",
+    "description": "Task prompt: \"a proprietary asset, a small-molecule STING agonist, which includes both the active drug and an appropriate vehicle\". It gives no compound name and no indication.\n\nThe inputs are /tmp/world/filesystem/psln_program_dataset.xlsx (15 sheets) and psln_program_annotation.pdf. They describe an intranasal influenza-vaccine adjuvant programme covering more than one candidate. The only place the lead asset is named (PSLN-344) is the PDF's document metadata (Subject field), not the body text.\n\nSTING agonists are best known as intratumoral oncology agents, so the natural reading of the prompt points the wrong way. Evidence:\n- I graded a proposal with every requested section present but an oncology framing (ADU-S100/MK-1454, CT26/B16F10 models, PD-1-refractory solid tumours). It scored 0.02. The grader's stated reason was that it was \"an unsourced proposal for the wrong therapeutic area\".\n- The earlier reward-hacking check reports that its three no-work answers also assumed oncology and scored 0.02–0.03.\n\nThe stored runs that read the files resolve this correctly and score 0.90–0.95 (e.g. 723b22d4 at 0.95 and 619b246b at 0.90). The impact is therefore limited, and discovering the indication from the data may be intended.\n\nSuggested fix: add one sentence to the prompt naming the lead compound (PSLN-344) and its intended use (intranasal vaccine adjuvant). Alternatively, if discovering it is part of the test, say in the prompt that the indication is to be determined from the data.",
+    "type": "env_linter",
+    "severity": "info",
+    "discipline": "non_technical",
+    "fixOwnership": "env_author",
+    "failureMode": "prompt_ambiguity",
+    "problemRunIds": [
+      "619b246b-e985-4242-bf05-746b731569ed",
+      "723b22d4-0719-42e4-b4e9-46bb7bd577d7"
+    ],
+    "isEnvLevel": false,
+    "createdAt": "2026-11-19T10:55:17.276674Z"
+  },
+  {
+    "id": "6302bfcb-2f05-4c09-b459-75143b933f06",
+    "qaJobId": "31a5f591-87cd-467b-8990-bae4d9d04ce9",
+    "title": "No grader guidance or reference values, so each grading re-derives the whole workbook and runs close to the 600 s budget",
+    "description": "The problem's grading strategy is agentic_grader (single_score), with:\n- grader_guidance: null\n- grader_files: null\n- no rubric and no reference answer\n- an empty \"Problem-Specific Grading Guidance\" section in the grader prompt.\n\nThe grader therefore opens the 15-sheet workbook and the PDF and recomputes the figures itself on every grading. Its conversations in this check show it doing so.\n\nThe result is correct but slow. Grading durations in this check:\n\n| Hand-in | Grading time |\n|---|---|\n| Complete alternative proposal | 545 s |\n| Citations removed | 558 s |\n| Omission variants | 445 s and 456 s |\n\nThe earlier reward-hacking check recorded a 633 s grading. The grading budget is the default 600 s (grading_timeout_seconds 600 in environment.json). No grading has failed: 0 failures and a timeout rate of 0 across the 8 stored runs, and 0 across the 6 rollouts here. This is therefore a margin risk, not a demonstrated failure.\n\nThere is a second effect. Without a reference list of the planted data problems, the grader's judgement of which data-integrity issues a response should catch rests entirely on what it re-discovers in each grading. Examples it found in grading here:\n- inconsistent units between S03-J, S13-E and S05-A/B\n- duplicated block labels on S06\n- repeated group labels in S07-C\n- S10-A summarised as mean±SD rather than per-animal values\n\nSuggested fix: add grader_guidance or a grader_files reference listing the key computed values, the lead asset and indication, and the planted data defects a strong response should flag. This shortens grading and makes the grader's checklist the same across gradings.",
+    "type": "env_linter",
+    "severity": "info",
+    "discipline": "non_technical",
+    "fixOwnership": "env_author",
+    "failureMode": "grader_guidance_missing_ground_truth",
+    "problemRunIds": [
+      "619b246b-e985-4242-bf05-746b731569ed",
+      "723b22d4-0719-42e4-b4e9-46bb7bd577d7"
+    ],
+    "isEnvLevel": false,
+    "createdAt": "2026-11-19T10:55:17.276674Z"
+  },
+  {
+    "id": "73a6051b-a9af-4ab8-9a2b-95115d444d4c",
+    "qaJobId": "1a62f699-4dab-451c-b7c0-b10254ad6274",
+    "title": "Grader has no task-specific guidance or reference values; it must re-derive the whole 15-sheet workbook at every grading",
+    "description": "What's wrong: the problem version has no grader_guidance, rubric, grader_files or reference answer. The grader prompt's \"Problem-Specific Grading Guidance\" section is empty. The dataset contains deliberate-looking inconsistencies:\n- S03-B/S03-F IgG2a/IgG1 ratio headers are permuted against the S13 subclass titres.\n- S11-B duplicates S11-A replicate columns.\n- The second S09-A panel is the log10 of the S01-A 72 h data.\n- S06-C and S06-D are identical.\n- S15-C and S15-I share body-weight traces.\n\nHow well a response handles these can only be judged by the grader rediscovering them each time.\n\nHow I know, from graded rollouts:\n- A proposal with correct structure and block citations but invented key numbers (92/108 changed to 104/108, Ifnb1 37.1 changed to 58.4-fold, HAI 368 changed to 1,280, and a false claim of no integrity problems) scored 0.12. The grader recomputed the figures from the workbook, so verification worked this time.\n- That grading took 455 s. Grading an accurate compact proposal took 633 s. Stored grader run 32ae525e used 60 bash calls.\n- In the accurate-proposal grading, the grader deducted for workbook issues it found on its own that no guidance names: S06-G untreated controls 4/7 surviving, S08-C headers permuted, S13-F/G group sets not matching S03-I/J.\n\nImpact: no false positive observed. But scoring rests wholly on what the grader happens to re-derive in each session, and what it finds can vary between gradings.\n\nFix: add grader_guidance listing the key reference values (e.g. aged survival 92/108 vs 15/108; day-60 durability 14/21; Ifnb1 37.1 vs 16.6-fold [S01-A]; HAI 368 vs 46 [S03-C]) and the planted data defects a strong response should catch.",
+    "type": "reward_hacking",
+    "severity": "info",
+    "discipline": "non_technical",
+    "fixOwnership": "env_author",
+    "failureMode": "grader_guidance_missing_ground_truth",
+    "problemRunIds": [
+      "32ae525e-114f-41da-bad3-a449759a9bb3"
+    ],
+    "isEnvLevel": false,
+    "createdAt": "2026-11-19T09:45:27.848697Z"
+  },
+  {
+    "id": "f0afa018-74bb-415c-8c4f-19b0a0f1fd12",
+    "qaJobId": "1a62f699-4dab-451c-b7c0-b10254ad6274",
+    "title": "Prompt calls the asset an unnamed 'small-molecule STING agonist' but the data cover an intranasal flu-vaccine adjuvant with several candidates",
+    "description": "What's wrong: the task prompt says \"a proprietary asset, a small-molecule STING agonist, which includes both the active drug and an appropriate vehicle\". It names no asset and no indication. The inputs are /tmp/world/filesystem/psln_program_dataset.xlsx (15 study sheets, S01–S15) and psln_program_annotation.pdf (19 pages; PDF Subject metadata \"Per-block annotation of the PSLN-344 preclinical dataset\"). They describe an intranasal adjuvant for inactivated influenza vaccine in aged mice: CDN-1807 in a surfactant-biomimetic liposome, with Mn2+ (PSLN-344) or without it (PSLN-212). They also contain other candidate preparations (CMP-204, PSLN-R848, PSLN-212/R848). The only pointer to which one is \"the asset\" is the PDF's subject line.\n\nHow I know: I read the prompt and inputs in a fresh container. I drew 3 answers from a separate model call that saw only the prompt. All three assumed an oncology STING programme (tumour models, anti-PD-1 combinations). In my graded rollout of an accurate proposal, the grader listed \"treating PSLN-344 as 'the asset' is an assumption, though it is stated explicitly\" under weaknesses. All 8 stored runs (e.g. 723b22d4, 0.95) chose PSLN-344 and stated that choice.\n\nImpact: small so far. Scores are tight (0.90–0.95) and no run was marked down much for its choice. But the wording invites oncology framing, and whether the asset is PSLN-344 or PSLN-212 is left to inference.\n\nFix: name the asset (PSLN-344) and the intended indication in the prompt, or say that identifying them from the files is part of the task.",
+    "type": "reward_hacking",
+    "severity": "info",
+    "discipline": "non_technical",
+    "fixOwnership": "env_author",
+    "failureMode": "prompt_ambiguity",
+    "problemRunIds": [
+      "723b22d4-0719-42e4-b4e9-46bb7bd577d7"
+    ],
+    "isEnvLevel": false,
+    "createdAt": "2026-11-19T09:45:27.848697Z"
+  },
+  {
+    "id": "e3bd9a54-5505-491d-8147-fa16998251a7",
+    "qaJobId": "c9cac485-7301-4978-8a93-dadc4323b323",
+    "title": "undisclosed_constraints: The prompt demands citations but never specifies the required citation format or",
+    "description": "Requiring citations without specifying a format is a normal business request, not an undisclosed constraint; the grader would reasonably accept any clear citation approach rather than penalize on an unstated format standard.",
+    "type": "data_quality",
+    "severity": "info",
+    "discipline": "non_technical",
+    "fixOwnership": null,
+    "failureMode": "undisclosed_constraints",
+    "problemRunIds": [],
+    "isEnvLevel": false,
+    "createdAt": "2026-11-19T08:36:52.101039Z"
+  },
+  {
+    "id": "4132409a-8ae6-44f7-aafe-4f583a3e0210",
+    "qaJobId": "3d2bbf3e-7ff3-4220-a3f7-790a54dcf015",
+    "title": "moderate_ambiguous_asset_identity_and_framing_mismatch",
+    "description": "The prompt describes the asset as a \"small-molecule STING agonist, which includes both the active drug and an appropriate vehicle\". That wording suggests a therapeutic, possibly in oncology. The supplied data instead cover only an intranasal influenza vaccine adjuvant: a cyclic dinucleotide plus Mn²⁺ in a liposome, tested in aged mice. The data contain several candidate preparations (PSLN-344, PSLN-212, CMP-204), and the prompt never says which one is \"the asset\". Agents must infer it from an annotation PDF subject line and state their assumption. The central recommendation reverses depending on that choice: keep PSLN-344, drop PSLN-212. A domain expert could not be certain of the intended asset or indication from the prompt alone.",
+    "type": "claudescope",
+    "severity": "error",
+    "discipline": null,
+    "fixOwnership": null,
+    "failureMode": null,
+    "problemRunIds": [
+      "05938b91-be05-4745-bfbd-409c231f0cd4"
+    ],
+    "isEnvLevel": false,
+    "createdAt": "2026-11-19T08:36:39.828732Z"
+  },
+  {
+    "id": "d4f91e19-3bd3-4662-a82f-70853f6d798f",
+    "qaJobId": "16213b5c-00a2-4851-86b6-0a7d102cdbc6",
+    "title": "Problem too easy: task_f9c4675def384c5e820284adce63119b",
+    "description": "Pass rate 94% (over 4 runs) exceeds 90%. This could indicate the problem is too simple to be useful for training, but pass rates depend on the model and sampling config — check whether this is expected.",
+    "type": "difficulty",
+    "severity": "warning",
+    "discipline": "non_technical",
+    "fixOwnership": null,
+    "failureMode": null,
+    "problemRunIds": [],
+    "isEnvLevel": false,
+    "createdAt": "2026-11-19T08:19:12.247257Z"
+  },
+  {
+    "id": "aae37f3e-cb90-4b03-aa0a-c1e9a2b916d3",
+    "qaJobId": "2a755bfa-1e6b-42da-9390-6aa505fe6ae4",
+    "title": "Problem too easy: task_f9c4675def384c5e820284adce63119b",
+    "description": "Pass rate 92% (over 4 runs) exceeds 90%. This could indicate the problem is too simple to be useful for training, but pass rates depend on the model and sampling config — check whether this is expected.",
+    "type": "difficulty",
+    "severity": "warning",
+    "discipline": "non_technical",
+    "fixOwnership": null,
+    "failureMode": null,
+    "problemRunIds": [],
+    "isEnvLevel": false,
+    "createdAt": "2026-11-19T07:22:20.678687Z"
+  },
+  {
+    "id": "6619fe13-d6d6-4b24-8cc3-254fc5f526af",
+    "qaJobId": "49daff57-c0cc-4c2b-8595-56566cf6eb2c",
+    "title": "STING-agonist portfolio-review task: agentic grader has no reference solution, rubric or grader_guidance for the keep/drop verdict, MoA and biomarkers",
+    "description": "**Category:** grading\n\n### Problem\nThe task asks for an objective keep/drop recommendation on a proprietary small-molecule STING agonist, based on the data bundled in `/tmp/world`. It also asks for a committee proposal covering: next studies with endpoints, a target demographic, a data-backed MoA, biomarkers for validating efficacy, and what was \"considered and ruled out\". The prompt adds: \"Every number you rely on needs to cite the relevant data and analysis, because the committee will check.\" A single `agentic_grader` does the grading (`claude-opus-5-5`, `scoring_mode: single_score`, `container: fresh_with_policy_setup`, `grader_extra_tools: [bash, str_replace_editor]`, `grading_timeout_seconds: 600`).\n\nThe record gives that grader nothing to grade against:\n- there is no `rubric` key\n- `agentic_grader_params.grader_guidance: null`, `grader_files: null`, `override_grader_prompt: null`\n- `extra_fields.rubric: null`, `extra_fields.grader_metadata: null`\n- there is no `golden_patch`\n\nThe environment's own description says the design is different: \"model outputs are graded against the expert reference solutions and task-specific rubrics\".\n\n### Evidence\nThe grader receives the task prompt (`include_task_prompt: true`), the end of the transcript (`policy_transcript_mode: episode_tail`), the model's outputs and the input files (`include_input_files: true`). With bash it can recompute a cited figure from `/tmp/world`, so it can catch a made-up number if it goes looking. The central judgment has no expected answer anywhere the grader can read:\n- whether the data supports keeping the asset (\"Would you keep this asset in our portfolio?\")\n- which finding in the data decides that\n- which indication or demographic, MoA and biomarkers the data actually supports\n- which alternatives an expert would rule out\n\nTo grade, the grader must redo the expert analysis itself within 600 s and then compare the answer with its own conclusion. Nothing in the record lets it mark down a fluent, well-cited proposal that reaches the wrong verdict or misses the data's key signal. Two runs that reach opposite verdicts can get similar scores. Six separate deliverables go into one score, with no acceptance criteria for any of them.\n\n### Verification method\nStatic analysis only, from the problem-version record. This session could not read how the `anton-omni` image behaves at grade time (its MCP server lists a hidden `setup_agentic_grader` tool) or what the `/tmp/world` bundle contains. Nothing in the record points the grader at reference material.\n\n### Recommendation\nWrite the expert reference solution into `agentic_grader_params.grader_guidance`, or add it as a `grader_files` entry (these reach the grader under `container: fresh_with_policy_setup`). Keep it out of `/tmp/world` and anything else the model's container receives. It should contain:\n1. The expected recommendation and the specific data findings behind it, each with its source file and value or analysis.\n2. The key numbers a correct answer must cite, with tolerances.\n3. Which indications or target demographics, MoA and biomarkers the data supports, and which ones it contradicts.\n4. The alternatives a strong answer should consider and rule out.\n5. How to score a wrong verdict with strong analysis compared with a right verdict with thin support, and how to treat numbers that can't be traced to the data.\n\nTo check the fix:\n- (a) Grade a confident, well-formatted answer that gives the opposite verdict and uses plausible but untraceable numbers. Expect a low score.\n- (b) Grade the author's own reference answer. Expect a high score.",
+    "type": "problem_linter",
+    "severity": "error",
+    "discipline": "non_technical",
+    "fixOwnership": "env_author",
+    "failureMode": "grader_guidance_missing_ground_truth",
+    "problemRunIds": [],
+    "isEnvLevel": false,
+    "createdAt": "2026-11-19T06:05:30.045167Z"
+  }
+]

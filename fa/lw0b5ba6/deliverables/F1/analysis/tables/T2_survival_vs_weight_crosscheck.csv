@@ -1,0 +1,70 @@
+surv_block,weight_block,desc,group,surv_n,surv_deaths,surv_death_days,wt_n,wt_deaths,wt_ambig,wt_last_weigh_days,wt_convention,verdict
+S03-I,S13-F,"aged BALB/c, bivalent vacc, 10xLD50 CA09 H1N1 d14",Sham,7.0,7.0,"[5.0, 6.0, 6.0, 6.0, 8.0, 8.0, 11.0]",7.0,7.0,0.0,"[6.0, 6.0, 8.0, 8.0, 10.0, 10.0, 10.0]",blank,agree
+S03-I,S13-F,"aged BALB/c, bivalent vacc, 10xLD50 CA09 H1N1 d14",CMP-204,7.0,4.0,"[6.0, 7.0, 8.0, 10.0]",,,,,,group only in survival block
+S03-I,S13-F,"aged BALB/c, bivalent vacc, 10xLD50 CA09 H1N1 d14",PSLN-212,7.0,7.0,"[5.0, 5.0, 5.0, 6.0, 6.0, 6.0, 6.0]",7.0,4.0,0.0,"[10.0, 10.0, 10.0, 10.0]",LOCF,DEATH COUNT MISMATCH (7 vs 4)
+S03-I,S13-F,"aged BALB/c, bivalent vacc, 10xLD50 CA09 H1N1 d14",PSLN-344,7.0,0.0,[],7.0,0.0,0.0,[],,agree
+S03-I,S13-F,"aged BALB/c, bivalent vacc, 10xLD50 CA09 H1N1 d14",PSLN-212(Y),7.0,0.0,[],7.0,0.0,0.0,[],,agree
+S03-I,S13-F,"aged BALB/c, bivalent vacc, 10xLD50 CA09 H1N1 d14",Naive,,,,7.0,7.0,0.0,"[4.0, 4.0, 6.0, 6.0, 6.0, 6.0, 6.0]",blank,group only in weight block
+S03-J,S13-G,"rgH5N1 vacc, wt VN04 H5N1 d2",Sham,10.0,9.0,"[3.0, 4.0, 9.0, 9.0, 9.0, 10.0, 10.0, 10.0, 10.0]",10.0,5.0,0.0,"[10.0, 10.0, 12.0, 12.0, 12.0]",LOCF,DEATH COUNT MISMATCH (9 vs 5)
+S03-J,S13-G,"rgH5N1 vacc, wt VN04 H5N1 d2",PSLN-212,10.0,7.0,"[10.0, 10.0, 11.0, 11.0, 12.0, 12.0, 12.0]",,,,,,group only in survival block
+S03-J,S13-G,"rgH5N1 vacc, wt VN04 H5N1 d2",PSLN-344,10.0,0.0,[],10.0,0.0,0.0,[],,agree
+S03-J,S13-G,"rgH5N1 vacc, wt VN04 H5N1 d2",Naive,,,,10.0,9.0,0.0,"[4.0, 4.0, 6.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]",LOCF,group only in weight block
+S06-A,S15-A,"Aichi H3N2 vacc, PR8 H1N1 d14",Sham,7.0,7.0,"[4.0, 4.0, 4.0, 5.0, 5.0, 7.0, 7.0]",7.0,7.0,0.0,"[4.0, 4.0, 4.0, 6.0, 6.0, 6.0, 6.0]",blank,agree
+S06-A,S15-A,"Aichi H3N2 vacc, PR8 H1N1 d14",PSLN-212,7.0,6.0,"[4.0, 6.0, 6.0, 8.0, 9.0, 10.0]",7.0,6.0,0.0,"[4.0, 6.0, 6.0, 6.0, 8.0, 8.0]",LOCF,agree
+S06-A,S15-A,"Aichi H3N2 vacc, PR8 H1N1 d14",PSLN-344,7.0,1.0,[8.0],7.0,1.0,0.0,[6.0],LOCF,agree
+S06-A,S15-A,"Aichi H3N2 vacc, PR8 H1N1 d14",PSLN-212(Y),7.0,0.0,[],7.0,0.0,0.0,[],,agree
+S06-B,S15-B,"Aichi H3N2 vacc, PR8 H1N1 d3",Sham,7.0,7.0,"[4.0, 4.0, 4.0, 5.0, 5.0, 6.0, 6.0]",7.0,7.0,0.0,"[2.0, 4.0, 4.0, 4.0, 6.0, 6.0, 6.0]",blank,agree
+S06-B,S15-B,"Aichi H3N2 vacc, PR8 H1N1 d3",PSLN-212,7.0,7.0,"[4.0, 4.0, 6.0, 6.0, 6.0, 7.0, 10.0]",7.0,7.0,0.0,"[4.0, 6.0, 6.0, 8.0, 8.0, 8.0, 10.0]",LOCF,agree
+S06-B,S15-B,"Aichi H3N2 vacc, PR8 H1N1 d3",PSLN-344,7.0,2.0,"[8.0, 10.0]",7.0,2.0,1.0,"[8.0, 8.0]",LOCF,agree
+S06-B,S15-B,"Aichi H3N2 vacc, PR8 H1N1 d3",PSLN-212(Y),7.0,0.0,[],7.0,0.0,0.0,[],,agree
+S06-C,S15-C,"bivalent vacc, rgH5N1 d14",Sham,7.0,7.0,"[4.0, 4.0, 5.0, 6.0, 6.0, 6.0, 7.0]",7.0,7.0,0.0,"[4.0, 4.0, 4.0, 6.0, 6.0, 6.0, 8.0]",blank,agree
+S06-C,S15-C,"bivalent vacc, rgH5N1 d14",PSLN-212,7.0,5.0,"[5.0, 8.0, 10.0, 10.0, 12.0]",7.0,6.0,0.0,"[6.0, 8.0, 8.0, 10.0, 10.0, 10.0]",LOCF,DEATH COUNT MISMATCH (5 vs 6)
+S06-C,S15-C,"bivalent vacc, rgH5N1 d14",PSLN-344,7.0,0.0,[],7.0,0.0,0.0,[],,agree
+S06-C,S15-C,"bivalent vacc, rgH5N1 d14",PSLN-212(Y),7.0,0.0,[],7.0,0.0,0.0,[],,agree
+S06-D,S15-D,"bivalent vacc, rgH5N1 d3",Sham,7.0,7.0,"[4.0, 4.0, 5.0, 6.0, 6.0, 6.0, 7.0]",7.0,7.0,0.0,"[4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 6.0]",blank,agree
+S06-D,S15-D,"bivalent vacc, rgH5N1 d3",PSLN-212,7.0,5.0,"[5.0, 8.0, 10.0, 10.0, 12.0]",7.0,5.0,0.0,"[6.0, 6.0, 8.0, 10.0, 12.0]",LOCF,agree
+S06-D,S15-D,"bivalent vacc, rgH5N1 d3",PSLN-344,7.0,0.0,[],7.0,2.0,0.0,"[8.0, 8.0]",LOCF,DEATH COUNT MISMATCH (0 vs 2)
+S06-D,S15-D,"bivalent vacc, rgH5N1 d3",PSLN-212(Y),7.0,0.0,[],7.0,2.0,0.0,"[8.0, 10.0]",LOCF,DEATH COUNT MISMATCH (0 vs 2)
+S06-E (rows 34-68),S15-E,"Aichi vacc, PR8 d60",Sham,7.0,7.0,"[4.0, 5.0, 5.0, 5.0, 5.0, 6.0, 6.0]",7.0,7.0,0.0,"[4.0, 4.0, 4.0, 4.0, 4.0, 6.0, 6.0]",blank,agree
+S06-E (rows 34-68),S15-E,"Aichi vacc, PR8 d60",PSLN-212,7.0,7.0,"[5.0, 5.0, 5.0, 6.0, 6.0, 8.0, 11.0]",7.0,6.0,0.0,"[6.0, 6.0, 6.0, 6.0, 8.0, 10.0]",LOCF,DEATH COUNT MISMATCH (7 vs 6)
+S06-E (rows 34-68),S15-E,"Aichi vacc, PR8 d60",PSLN-344,7.0,2.0,"[8.0, 10.0]",7.0,1.0,0.0,[8.0],LOCF,DEATH COUNT MISMATCH (2 vs 1)
+S06-E (rows 34-68),S15-E,"Aichi vacc, PR8 d60",PSLN-212(Y),7.0,0.0,[],7.0,0.0,0.0,[],,agree
+S06-E (rows 34-68),S15-E,"Aichi vacc, PR8 d60",Untreated,7.0,1.0,[4.0],7.0,1.0,0.0,[4.0],LOCF,agree
+S06-F (rows 34-68),S15-F,"bivalent vacc, rgH5N1 d60",Sham,7.0,7.0,"[4.0, 4.0, 4.0, 5.0, 5.0, 6.0, 6.0]",7.0,7.0,0.0,"[2.0, 2.0, 4.0, 4.0, 4.0, 4.0, 6.0]",blank,agree
+S06-F (rows 34-68),S15-F,"bivalent vacc, rgH5N1 d60",PSLN-212,7.0,6.0,"[4.0, 5.0, 6.0, 6.0, 6.0, 7.0]",7.0,6.0,0.0,"[4.0, 6.0, 6.0, 6.0, 6.0, 8.0]",LOCF,agree
+S06-F (rows 34-68),S15-F,"bivalent vacc, rgH5N1 d60",PSLN-344,7.0,2.0,"[7.0, 8.0]",7.0,2.0,0.0,"[6.0, 6.0]",LOCF,agree
+S06-F (rows 34-68),S15-F,"bivalent vacc, rgH5N1 d60",PSLN-212(Y),7.0,0.0,[],7.0,0.0,0.0,[],,agree
+S06-F (rows 34-68),S15-F,"bivalent vacc, rgH5N1 d60",Untreated,7.0,0.0,[],7.0,0.0,0.0,[],,agree
+S06-G,S15-G,"CA09 vacc, Perth H3N2 d60",Sham,7.0,7.0,"[4.0, 4.0, 5.0, 6.0, 6.0, 7.0, 7.0]",7.0,7.0,0.0,"[4.0, 4.0, 6.0, 6.0, 6.0, 6.0, 6.0]",blank,agree
+S06-G,S15-G,"CA09 vacc, Perth H3N2 d60",PSLN-212,7.0,7.0,"[6.0, 6.0, 8.0, 8.0, 8.0, 11.0, 11.0]",7.0,7.0,0.0,"[8.0, 8.0, 8.0, 8.0, 8.0, 10.0, 10.0]",LOCF,agree
+S06-G,S15-G,"CA09 vacc, Perth H3N2 d60",PSLN-344,7.0,3.0,"[8.0, 9.0, 11.0]",7.0,2.0,0.0,"[12.0, 12.0]",LOCF,DEATH COUNT MISMATCH (3 vs 2)
+S06-G,S15-G,"CA09 vacc, Perth H3N2 d60",PSLN-212(Y),7.0,0.0,[],7.0,0.0,0.0,[],,agree
+S06-G,S15-G,"CA09 vacc, Perth H3N2 d60",Untreated,7.0,3.0,"[3.0, 7.0, 10.0]",7.0,3.0,0.0,"[4.0, 8.0, 10.0]",LOCF,agree
+S06-E (rows 71-105),S15-J,"imprinting, PR8",Naive+PSLN-212,7.0,7.0,"[4.0, 4.0, 5.0, 6.0, 6.0, 6.0, 8.0]",7.0,7.0,0.0,"[2.0, 2.0, 4.0, 4.0, 4.0, 6.0, 6.0]",blank,agree
+S06-E (rows 71-105),S15-J,"imprinting, PR8",Imprinting+PSLN-212,7.0,3.0,"[6.0, 8.0, 8.0]",7.0,3.0,0.0,"[4.0, 6.0, 6.0]",blank,agree
+S06-E (rows 71-105),S15-J,"imprinting, PR8",Naive+PSLN-344,7.0,1.0,[5.0],7.0,1.0,1.0,[4.0],blank,agree
+S06-E (rows 71-105),S15-J,"imprinting, PR8",Imprinting+PSLN-344,7.0,1.0,[8.0],7.0,1.0,0.0,[6.0],LOCF,agree
+S06-F (rows 71-105),S15-K,"imprinting, Perth H3N2",Naive+PSLN-212,7.0,7.0,"[4.0, 4.0, 6.0, 6.0, 7.0, 8.0, 8.0]",7.0,7.0,0.0,"[2.0, 4.0, 4.0, 6.0, 6.0, 6.0, 8.0]",blank,agree
+S06-F (rows 71-105),S15-K,"imprinting, Perth H3N2",Imprinting+PSLN-212,7.0,7.0,"[4.0, 4.0, 5.0, 5.0, 5.0, 6.0, 6.0]",7.0,7.0,0.0,"[2.0, 2.0, 4.0, 4.0, 4.0, 4.0, 6.0]",blank,agree
+S06-F (rows 71-105),S15-K,"imprinting, Perth H3N2",Naive+PSLN-344,7.0,1.0,[8.0],7.0,1.0,0.0,[6.0],blank,agree
+S06-F (rows 71-105),S15-K,"imprinting, Perth H3N2",Imprinting+PSLN-344,7.0,1.0,[7.0],7.0,1.0,0.0,[6.0],blank,agree
+S09-B,S09-C,"young, Aichi vacc, PR8 d21",Sham,8.0,8.0,"[6.0, 6.0, 6.0, 7.0, 7.0, 7.0, 8.0, 8.0]",8.0,8.0,0.0,"[6.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0]",blank,agree
+S09-B,S09-C,"young, Aichi vacc, PR8 d21",PSLN-344Y,8.0,0.0,[],8.0,0.0,0.0,[],,agree
+S09-B,S09-C,"young, Aichi vacc, PR8 d21",PSLN-212Y,8.0,0.0,[],8.0,0.0,0.0,[],,agree
+S09-D,S09-E,"young, CA09 vacc, Perth d21",Sham,8.0,8.0,"[7.0, 8.0, 8.0, 8.0, 8.0, 8.0, 9.0, 9.0]",8.0,8.0,0.0,"[6.0, 6.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0]",blank,agree
+S09-D,S09-E,"young, CA09 vacc, Perth d21",PSLN-344Y,8.0,0.0,[],8.0,0.0,0.0,[],,agree
+S09-D,S09-E,"young, CA09 vacc, Perth d21",PSLN-212Y,8.0,0.0,[],8.0,0.0,0.0,[],,agree
+S09-F,S09-G,"young, bivalent, rgH5N1 d180",Sham,7.0,7.0,"[6.0, 6.0, 6.0, 7.0, 8.0, 8.0, 8.0]",8.0,8.0,0.0,"[6.0, 6.0, 6.0, 6.0, 8.0, 8.0, 8.0, 8.0]",blank,N MISMATCH (7 vs 8)
+S09-F,S09-G,"young, bivalent, rgH5N1 d180",PSLN-344Y,8.0,0.0,[],8.0,0.0,0.0,[],,agree
+S09-F,S09-G,"young, bivalent, rgH5N1 d180",PSLN-212Y,8.0,0.0,[],8.0,0.0,0.0,[],,agree
+S15-H,S15-I,"aged, 3d, rgH5N1",3d Vaccine,7.0,7.0,"[4.0, 5.0, 5.0, 5.0, 6.0, 6.0, 7.0]",7.0,7.0,0.0,"[4.0, 4.0, 4.0, 4.0, 6.0, 6.0, 6.0]",blank,agree
+S15-H,S15-I,"aged, 3d, rgH5N1",3d PSLN-344,7.0,7.0,"[5.0, 5.0, 6.0, 6.0, 6.0, 7.0, 8.0]",7.0,7.0,0.0,"[4.0, 4.0, 6.0, 6.0, 6.0, 6.0, 8.0]",blank,agree
+S15-H,S15-I,"aged, 3d, rgH5N1",3d Vaccine+PSLN-344,7.0,1.0,[12.0],7.0,1.0,0.0,[12.0],LOCF,agree
+S15-L,S15-M,C57BL/6,Sham,7.0,7.0,"[4.0, 4.0, 6.0, 6.0, 6.0, 8.0, 8.0]",7.0,7.0,0.0,"[2.0, 2.0, 4.0, 4.0, 4.0, 6.0, 8.0]",blank,agree
+S15-L,S15-M,C57BL/6,PSLN-212,7.0,7.0,"[6.0, 7.0, 7.0, 8.0, 8.0, 9.0, 11.0]",7.0,7.0,0.0,"[4.0, 6.0, 6.0, 8.0, 8.0, 8.0, 12.0]",LOCF,agree
+S15-L,S15-M,C57BL/6,PSLN-344,7.0,1.0,[8.0],7.0,1.0,0.0,[6.0],LOCF,agree
+S15-L,S15-M,C57BL/6,PSLN-212(Y),7.0,1.0,[12.0],7.0,0.0,0.0,[],,DEATH COUNT MISMATCH (1 vs 0)
+S15-N,S15-O,Swiss Webster,Sham,7.0,7.0,"[5.0, 6.0, 6.0, 8.0, 8.0, 8.0, 10.0]",7.0,7.0,0.0,"[4.0, 6.0, 6.0, 8.0, 8.0, 8.0, 10.0]",blank,agree
+S15-N,S15-O,Swiss Webster,PSLN-212,7.0,5.0,"[6.0, 10.0, 10.0, 10.0, 12.0]",7.0,5.0,0.0,"[6.0, 10.0, 10.0, 10.0, 12.0]",LOCF,agree
+S15-N,S15-O,Swiss Webster,PSLN-344,7.0,1.0,[8.0],7.0,1.0,0.0,[6.0],LOCF,agree
+S15-N,S15-O,Swiss Webster,PSLN-212(Y),7.0,0.0,[],7.0,0.0,0.0,[],,agree

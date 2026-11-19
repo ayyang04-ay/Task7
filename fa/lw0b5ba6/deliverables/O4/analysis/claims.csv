@@ -1,0 +1,44 @@
+claim_id,statement,blocks,cells,analysis_file,method
+E01,Lung Ifnb1 16 h: PSLN-344 vs PSLN-212 (aged) and vs young PSLN-212,S01-A,PSLN-344: S01!B8:F8; PSLN-212: S01!B5:F5; PSLN-212(Y): S01!B9:F9,block_contrasts.csv,Welch t on log2
+E02,HAI GMT H1N1 and H3N2 d14,S03-C; S03-G,PSLN-344: S03!N3:N7; PSLN-212: S03!M3:M7; PSLN-212(Y): S03!O3:O7; Sham: S03!K3:K7 | PSLN-344: S03!N10:N14; PSLN-212: S03!M10:M14; PSLN-212(Y): S03!O10:O14; Sham: S03!K10:K14,block_group_summary.csv; block_contrasts.csv,GMT; Welch t on log2 (0 -> 5)
+E03,Restoration index median 0.71 (IQR 0.60-0.80) across 32 unflagged read-outs,"S01-A(16h), S01-D(d4), S01-F, S02-A, S02-B, S02-C, S02-D CD40, S02-D CD86, S03-A, S03-C, S03-D, S03-E, S03-G, S03-H, S03-K, S04-A ICOShi, S04-B Foxp3, S04-D, S05-D, S05-E, S05-F, S05-G, S05-H, S05-I, S13-A, S13-B, S13-C, S13-D, S13-I, S13-J, S14-A H1N1, S14-A H3N2",group cell ranges in ledger sheet Group_summary,"ledger sheet Contrasts (rows ""Restoration index""); figures.py",(344-212)/(212Y-212) on analysis scale (log2 for titres/fold)
+E04,Pooled survival and sensitivity scenarios A-F,"S03-I,S03-J,S06-A..G,S06-E',S06-F',S15-L,S15-N","per-animal cells in ledger sheet Tidy_survival (cell_days, cell_event)","ledger sheets Survival_counts, Survival_pooled, Survival_strata_flags",exact stratified (conditional) test; MH risk difference
+I01,18 cross-experiment animal pairs share >=4 identical live weight readings vs 0.005 expected,"S08-D,S09-C/E/G,S13-F/G,S15-A..O",all body-weight cells (ledger sheet Tidy_bodyweight),"dup_null.py; ledger sheets Dup_chance_benchmark, Dup_trajectories, Dup_exact_highprec_bw",per-day empirical collision probability; Poisson-binomial expectation
+I02,S06-C rows 3-30 identical to S06-D rows 34-61,S06-C; S06-D,S06!M3:Q30 vs S06!A34:E61,integrity_checks.py; ledger sheet Integrity_checks,cell-by-cell identity
+I03,S11-A vs S11-B 35/100 position-matched identical values (0.85 expected),S11-A; S11-B,S11!B3:U7 vs S11!B10:U14,dup_exact_bw.py; ledger sheet Dup_S11A_vs_S11B,"position match; 20,000 permutations"
+E05,Ifnb1 dose-response Emax/ED50 and dose matching,S08-A,S08!B3:M7,dose_response_S08A_emax.csv,"Emax (Hill) fit, inverse prediction"
+E06,"Lung Ifnb1 16 h, fold (GM): group values and PSLN-344 vs PSLN-212 contrast",S01-A,Sham: S01!B3:F3; PSLN-212: S01!B5:F5; PSLN-344: S01!B8:F8; PSLN-212(Y): S01!B9:F9,block_group_summary.csv; block_contrasts.csv,Welch t on log2
+E07,"Lung Csf2 (GM-CSF) 36 h, fold (GM): group values and PSLN-344 vs PSLN-212 contrast",S02-F,Sham: S02!L18:P18; PSLN-212: S02!G18:K18; PSLN-344: S02!B18:F18,block_group_summary.csv; block_contrasts.csv,Welch t on log2
+E08,"Lung monocytes day 4, %: group values and PSLN-344 vs PSLN-212 contrast",S01-D,Sham: S01!B26:F26; PSLN-212: S01!G26:K26; PSLN-344: S01!L26:P26; PSLN-212(Y): S01!Q26:U26,block_group_summary.csv; block_contrasts.csv,Welch t
+E09,"Lung cDC1 72 h, %: group values and PSLN-344 vs PSLN-212 contrast",S01-F,Sham: S01!B36:F36; PSLN-212: S01!G36:K36; PSLN-344: S01!L36:P36; PSLN-212(Y): S01!Q36:U36,block_group_summary.csv; block_contrasts.csv,Welch t
+E10a,"Lung CCR7⁺ migratory CD11b⁺ DC 72 h, %: group values and PSLN-344 vs PSLN-212 contrast",S02-A,Sham: S02!A3:A7; PSLN-212: S02!B3:B7; PSLN-344: S02!C3:C7; PSLN-212(Y): S02!D3:D7,block_group_summary.csv; block_contrasts.csv,Welch t
+E10b,"MLN antigen⁺ DC 36 h, %: group values and PSLN-344 vs PSLN-212 contrast",S02-C,PSLN-212: S02!K3:K7; PSLN-344: S02!L3:L7; PSLN-212(Y): S02!M3:M7,block_group_summary.csv; block_contrasts.csv,Welch t
+E10c,"MLN CD40⁺ CD11b⁺ DC day 3, %: group values and PSLN-344 vs PSLN-212 contrast",S02-D,Sham: S02!A10:A14; PSLN-212: S02!B10:B14; PSLN-344: S02!C10:C14; PSLN-212(Y): S02!D10:D14,block_group_summary.csv; block_contrasts.csv,Welch t
+E11a,"MLN ICOS-hi Tfh day 7, %: group values and PSLN-344 vs PSLN-212 contrast",S04-A,Sham: S04!G2:K2; PSLN-212: S04!G3:K3; PSLN-344: S04!G4:K4; PSLN-212(Y): S04!G5:K5,block_group_summary.csv; block_contrasts.csv,Welch t
+E11b,"MLN Tfr (Foxp3⁺) day 7, %: group values and PSLN-344 vs PSLN-212 contrast",S04-B,Sham: S04!A8:A12; PSLN-212: S04!B8:B12; PSLN-344: S04!C8:C12; PSLN-212(Y): S04!D8:D12,block_group_summary.csv; block_contrasts.csv,Welch t
+E11c,"MLN germinal-centre B day 7, %: group values and PSLN-344 vs PSLN-212 contrast",S03-K,Sham: S03!L17:L21; PSLN-212: S03!M17:M21; PSLN-344: S03!N17:N21; PSLN-212(Y): S03!O17:O21,block_group_summary.csv; block_contrasts.csv,Welch t
+E12a,"Serum IgG anti-H1N1 d14, GMT: group values and PSLN-344 vs PSLN-212 contrast",S03-A,Sham: S03!A3:A7; PSLN-212: S03!C3:C7; PSLN-344: S03!D3:D7; PSLN-212(Y): S03!E3:E7,block_group_summary.csv; block_contrasts.csv,Welch t on log2
+E12b,"Serum IgG anti-H3N2 d14, GMT: group values and PSLN-344 vs PSLN-212 contrast",S03-E,Sham: S03!A10:A14; PSLN-212: S03!C10:C14; PSLN-344: S03!D10:D14; PSLN-212(Y): S03!E10:E14,block_group_summary.csv; block_contrasts.csv,Welch t on log2
+E12c,"HAI anti-H1N1 d14, GMT: group values and PSLN-344 vs PSLN-212 contrast",S03-C,Sham: S03!K3:K7; PSLN-212: S03!M3:M7; PSLN-344: S03!N3:N7; PSLN-212(Y): S03!O3:O7,block_group_summary.csv; block_contrasts.csv,Welch t on log2
+E12d,"HAI anti-H3N2 d14, GMT: group values and PSLN-344 vs PSLN-212 contrast",S03-G,Sham: S03!K10:K14; PSLN-212: S03!M10:M14; PSLN-344: S03!N10:N14; PSLN-212(Y): S03!O10:O14,block_group_summary.csv; block_contrasts.csv,Welch t on log2
+E12e,"Neutralising anti-H1N1 d14, GMT: group values and PSLN-344 vs PSLN-212 contrast",S03-D,Sham: S03!Q3:Q7; PSLN-212: S03!S3:S7; PSLN-344: S03!T3:T7; PSLN-212(Y): S03!U3:U7,block_group_summary.csv; block_contrasts.csv,Welch t on log2
+E13a,"IFN-γ⁺ CD8, H5N1 restim. d14, %: group values and PSLN-344 vs PSLN-212 contrast",S05-F,Sham: S05!A33:A37; PSLN-212: S05!B33:B37; PSLN-344: S05!C33:C37; PSLN-212(Y): S05!D33:D37,block_group_summary.csv; block_contrasts.csv,Welch t
+E13b,"IFN-γ⁺ CD8, H5N1 restim. d60, %: group values and PSLN-344 vs PSLN-212 contrast",S05-G,Sham: S05!A40:A44; PSLN-212: S05!B40:B44; PSLN-344: S05!C40:C44; PSLN-212(Y): S05!D40:D44,block_group_summary.csv; block_contrasts.csv,Welch t
+E13c,"Lung TRM CD8 d25, %: group values and PSLN-344 vs PSLN-212 contrast",S05-I,Sham: S05!A54:A58; PSLN-212: S05!B54:B58; PSLN-344: S05!C54:C58; PSLN-212(Y): S05!D54:D58,block_group_summary.csv; block_contrasts.csv,Welch t
+E13d,"Lung GZMB⁺ CD8 d3, %: group values and PSLN-344 vs PSLN-212 contrast",S05-E,Sham: S05!A26:A30; PSLN-212: S05!B26:B30; PSLN-344: S05!C26:C30; PSLN-212(Y): S05!D26:D30,block_group_summary.csv; block_contrasts.csv,Welch t
+E14,"Partial restoration: CD40/CD86, GZMB+ CD8, IgG vs young",S02-D; S05-E; S03-A/E; S13-I/J,PSLN-344: S02!C10:C14; PSLN-212: S02!B10:B14; PSLN-212(Y): S02!D10:D14,block_contrasts.csv,Welch t; restoration index
+E15,Aged PSLN-344 Tnf/Il10 exceed young (16 h and panel-2 72 h),S09-A,S09!Q8:V9 (panel 1); S09!AN8:AS9 (panel 2),block_contrasts.csv,Welch t on log scale
+E16,"Mn effect in young: Ifnb1, antigen+ DC, OT-I, cDC1; young survival",S01-A; S02-C; S02-E; S01-F; S09-B/D/F,S01!B10:F10 vs B9:F9; S02!O3:O7 vs M3:M7; S02!O10:O14 vs M10:M14; S01!V36:Z36 vs Q36:U36,mechanism_contrasts.csv; survival_counts.csv,Welch t; counts
+E17,Per-experiment survival and log-rank p (PSLN-344 vs PSLN-212),"S03-I,S03-J,S06,S15-H/L/N",tidy_survival.csv (cell_days / cell_event columns),survival_tests.csv,log-rank (statsmodels survdiff); Fisher exact
+E18,Background mortality of unchallenged aged sentinels 4/21,S06-E; S06-F; S06-G,S06!L62:L68; S06!R62:R68; S06!F99:F105,stats_survival_pooled.py,Clopper-Pearson CI
+T01,Post-vaccination body-weight nadirs,S08-D,S08!B21:AE26,safety_S08D_bodyweight.csv,"per-animal minimum, group mean"
+T02,CNS transcripts 36 h: PSLN-344 and CT vs PBS and Sham,S10-A,S10!A3:N7,safety_S10A_CNS.csv,Welch t on log2
+Q01,Encapsulation efficiency PSLN-344 vs PSLN-212,S08-B,S08!M11:O11 vs S08!D11:F11,block_group_summary.csv,"mean ± SD, Welch t"
+M01,AM uptake depends on SP-A/SP-D,S01-C,S01!B20:E21,mechanism_contrasts.csv,Welch t
+M02,STING/IFN-b ceiling,S01-A; S08-A,S01!B5:F9; S08!B3:M7,block_contrasts.csv; dose_response_S08A_emax.csv,Welch t; Emax fit
+M03,CBX reduces monocyte recruitment,S11-C,S11!A17:B21,mechanism_contrasts.csv,Welch t
+M04,Chemokines and GM-CSF,S02-F; S09-A,S02!B17:K19; S09!H3:S9,block_contrasts.csv,Welch t on log2
+M05,CCR2-dependent monocyte influx,S01-D; S07-B; S12-A,S01!G26:P26; S07!B10:F14; S12!A3:B5,block_contrasts.csv; mechanism_contrasts.csv,Welch t
+M06,IFNAR and GM-CSF drive moDC,S02-H; S02-G,S02!B30:F34; S02!B22:D26,mechanism_contrasts.csv,Welch t
+B01,Regimen-level discrimination (AUC) of 23 candidate read-outs,see biomarker_candidates.csv,per block,biomarkers.py,"Mann-Whitney AUC, protective vs non-protective regimens"
+B02,HAI >=1:40 counts and homologous survival,S03-C; S03-I,S03!K3:O7; S03!A17:F51,biomarkers.py; survival_counts.csv,counts

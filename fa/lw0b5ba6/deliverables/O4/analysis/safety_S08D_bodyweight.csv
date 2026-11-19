@@ -1,0 +1,7 @@
+group,n_animals,mean_of_animal_nadirs,lowest_animal_nadir,nadir_day_of_group_mean,group_mean_at_nadir,n_missing_day10
+PSLN-212(Y),5,97.587358,96.0,4,97.67999999999999,0
+CMP-204,5,95.922102,93.20455,4,96.010992,0
+PSLN-212,5,97.02000000000001,94.5,4,97.02000000000001,0
+PSLN-344,5,96.4,94.2,4,96.67999999999999,0
+PSLN-212/R848,5,89.96000000000001,84.7,10,90.65,1
+Vaccine,5,98.2,97.1,2,98.44,0

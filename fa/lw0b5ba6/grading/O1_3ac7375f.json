@@ -1,0 +1,90 @@
+{
+  "id": "d72f92aa-88d7-4652-9ddd-3b5068562bc6",
+  "problem_run_id": "3ac7375f-279b-437c-9d53-870b1c2766f2",
+  "grading_run_id": "8dcd794d-553d-45f2-8110-07845f436dd1",
+  "grading_strategy_type": "agentic_grader",
+  "is_auxiliary_grade": false,
+  "normalized_score": 0.93,
+  "subscores": [
+    {
+      "name": "overall",
+      "score": 0.93,
+      "max_score": 1,
+      "weight": 1,
+      "reasoning": "I reviewed the model's deliverables in `/tmp/outputs`: the proposal (markdown and a 17-page PDF), an evidence workbook with 24 sheets, seven figures and the analysis code. I checked their numbers against the original `psln_program_dataset.xlsx` and the annotation PDF, using my own stdlib xlsx and PDF readers plus R's survival package. I also read the transcript, including the final reply to the user.\n\n**Coverage of the request:** the proposal covers everything asked for.\n- **Recommendation first:** keep the asset conditionally, and only as PSLN-344. Fund no IND-enabling work; release money one gate at a time (Gate 0 integrity audit, then Gate 1 independent replication plus CNS safety and CMC). Drop PSLN-212, the R848 combinations and CMP-204.\n- **Next steps:** a table of studies G0 and S1–S8, each with what it must establish, design, primary endpoint with a GO threshold, secondary endpoints and a KILL condition.\n- **Target demographic for TAM:** primary, secondary, exploratory and excluded segments. The age mapping is flagged as an assumption.\n- **Mechanism of action:** a 10-step table, each step labelled established, associated or gap. A \"restoration index\" analysis shows Mn²⁺ fully restores the IFN-β response but only about 20% of the CD40/CD86 gap.\n- **Biomarkers:** each comes with a proposed human analogue, and the report admits that no per-animal correlate of protection can be estimated from this data.\n- **What dropping gives up, and what was ruled out:** both have their own sections.\n- **Citations:** nearly every number has an E- or I-reference that resolves to workbook cells and the statistical method.\n\n**Accuracy — I recomputed these independently:**\n- **Pooled survival:** 51/63, 8/63, 0/63 and 62/63. Stratified log-rank χ² = 67.99; Mantel-Haenszel risk differences +68.3, +81.0 and −17.5 points. The Tier-A subset gives 21/28 vs 2/28 (+67.9 points, p = 4.6e-9). The day-3 and day-60 subsets also match.\n- **Per-experiment results:** PSLN-344 beat vehicle in 9/9 experiments and PSLN-212 in 8/9 (S15-N p = 0.056). Fisher p ≥ 0.46 for PSLN-212 vs vehicle in every experiment.\n- **Power table:** the exact calculation gives 0.61/0.81/0.93/0.96, and 0.79 at n = 25 for a 40-point difference.\n- **Ifnb1 geometric means:** 36.9, 16.5 and 37.5. The S09-A log10 fold changes are Ccl2 77x, Ccl3 27x, Il6 6.5x, Tnf 2.6x and Il10 2.0x.\n- **Other immunology values:** Gm-csf 4.2x and 5.4x; the antibody GMTs and HAI titres; restoration indices (CD40 0.17, CD86 0.22, GZMB 0.41, TRM 0.59); dose-response; encapsulation efficiency; weight nadirs; CNS fold changes.\n\nAll matched.\n\n**Data-integrity audit:** I checked the model's findings against the source and all held up.\n- **S11-A and S11-B:** 35 of 100 per-animal values are identical between the two cell types.\n- **S09-C:** day-12 weights are identical across two groups.\n- **Copied body weights:** S15-C and S15-I share about 40 same-position values, and \"copy-and-shift\" values recur (S08!G22 = 97.79487 vs S15!B54 = 99.79487).\n- **Rotated labels in S03-B/F:** the printed \"PSLN-344\" IgG2a/IgG1 ratios are exactly PSLN-212's ratios recomputed from S13. Read as printed, they would reverse the Th1 conclusion.\n- **S09-A second panel:** labelled 16 h but actually the 72 h data.\n- **Identical outcomes in S06-C and S06-D.**\n- **Deaths in unchallenged \"Untreated\" animals.**\n- **Duplicated labels** in S06 and S07-C.\n- **The unlabelled S08 region.**\n- **Mismatched group sizes:** stated n differs from the animals present in S03-J, S13-E and S05-A/B.\n- **An error in the annotation itself:** the 7-animal Sham group is in S09-F, not S09-B.\n\n**Weaknesses (all minor):**\n- The duplication example is given as \"40/48\" in the text but \"40/49\" in Fig. 6.\n- S06-A/B/E/F are graded Tier A even though their paired weight records are compromised; this is openly caveated.\n- The document is long for a committee, though it is well structured and leads with a scorecard.\n- It says nothing about IP or freedom to operate, or competitor products by name.\n- Cost and timing are deferred to Operations.\n\nThe \"keep conditionally\" call is defensible. The report says clearly when dropping would be the right decision, and it includes an Mn²⁺-only arm to test whether the proprietary drug or the manganese is driving the effect.\n\nOverall this is an excellent, rigorous and accurate response that goes well beyond the request in checking whether the data can be trusted."
+    }
+  ],
+  "weight": 1,
+  "allow_unbounded": false,
+  "created_at": "2026-11-19T07:17:46.062521Z",
+  "has_metadata": true,
+  "metadata_byte_size": 382833,
+  "metadata": {
+    "agentic_grader": {
+      "cc_harness": false,
+      "container_mode": "fresh_with_policy_setup",
+      "scoring_mode": "single_score",
+      "grading_model": "claude-opus-5-5",
+      "grading_model_slug": "claude-opus-5-5",
+      "grading_container_id": "mellow-burden-tdgrxq-smkpkp",
+      "grader_error": false,
+      "full_debug_s3_hint": "biome/agentic-grading-transcripts/mellow-burden-tdgrxq-smkpkp/grading_debug.json",
+      "grading_turns_count": null,
+      "grading_tokens_consumed": null,
+      "grader_context_window_effective": 1000000,
+      "grader_context_window_source": "default",
+      "policy_outputs_transfer": {
+        "mode": "snapshot_mount",
+        "snapshot_source": "pre_grade",
+        "snapshot_ttl": null,
+        "snapshot_seconds": 2.0030255469609983,
+        "reader_uid": 1000,
+        "handin_max_bytes": 2147483648,
+        "grading_box_seconds": 36.859,
+        "grading_box_attempts": 1,
+        "mount_verified": true,
+        "unmounted": true,
+        "detach_checks": [
+          "mounts",
+          "same_device",
+          "ext4_sysfs",
+          "device_read"
+        ],
+        "device_read_refused": true,
+        "present_seconds": 0.607,
+        "probe": "dir",
+        "measured_bytes": 3063285,
+        "entries": 38,
+        "status": "ok",
+        "declared_path_missing": false,
+        "declared_path_wrong_type": false,
+        "copied_files": 36,
+        "copied_bytes": 3016347,
+        "copies_inert": true
+      },
+      "import_shadowing_set_aside": [],
+      "grader_attempts": 1,
+      "grader_failed_attempts": [],
+      "grader_failed_attempt_errors": [],
+      "grader_failed_attempts_ms": 0,
+      "grader_planted_shape": null,
+      "policy_markup_hits": 0,
+      "handin_integrity": "unchanged",
+      "handin_integrity_drift_only": true
+    },
+    "rubric_evaluations": [
+      {
+        "name": "overall",
+        "score": 0.93,
+        "max_score": 1,
+        "weight": 1,
+        "reasoning": "I reviewed the model's deliverables in `/tmp/outputs`: the proposal (markdown and a 17-page PDF), an evidence workbook with 24 sheets, seven figures and the analysis code. I checked their numbers against the original `psln_program_dataset.xlsx` and the annotation PDF, using my own stdlib xlsx and PDF readers plus R's survival package. I also read the transcript, including the final reply to the user.\n\n**Coverage of the request:** the proposal covers everything asked for.\n- **Recommendation first:** keep the asset conditionally, and only as PSLN-344. Fund no IND-enabling work; release money one gate at a time (Gate 0 integrity audit, then Gate 1 independent replication plus CNS safety and CMC). Drop PSLN-212, the R848 combinations and CMP-204.\n- **Next steps:** a table of studies G0 and S1–S8, each with what it must establish, design, primary endpoint with a GO threshold, secondary endpoints and a KILL condition.\n- **Target demographic for TAM:** primary, secondary, exploratory and excluded segments. The age mapping is flagged as an assumption.\n- **Mechanism of action:** a 10-step table, each step labelled established, associated or gap. A \"restoration index\" analysis shows Mn²⁺ fully restores the IFN-β response but only about 20% of the CD40/CD86 gap.\n- **Biomarkers:** each comes with a proposed human analogue, and the report admits that no per-animal correlate of protection can be estimated from this data.\n- **What dropping gives up, and what was ruled out:** both have their own sections.\n- **Citations:** nearly every number has an E- or I-reference that resolves to workbook cells and the statistical method.\n\n**Accuracy — I recomputed these independently:**\n- **Pooled survival:** 51/63, 8/63, 0/63 and 62/63. Stratified log-rank χ² = 67.99; Mantel-Haenszel risk differences +68.3, +81.0 and −17.5 points. The Tier-A subset gives 21/28 vs 2/28 (+67.9 points, p = 4.6e-9). The day-3 and day-60 subsets also match.\n- **Per-experiment results:** PSLN-344 beat vehicle in 9/9 experiments and PSLN-212 in 8/9 (S15-N p = 0.056). Fisher p ≥ 0.46 for PSLN-212 vs vehicle in every experiment.\n- **Power table:** the exact calculation gives 0.61/0.81/0.93/0.96, and 0.79 at n = 25 for a 40-point difference.\n- **Ifnb1 geometric means:** 36.9, 16.5 and 37.5. The S09-A log10 fold changes are Ccl2 77x, Ccl3 27x, Il6 6.5x, Tnf 2.6x and Il10 2.0x.\n- **Other immunology values:** Gm-csf 4.2x and 5.4x; the antibody GMTs and HAI titres; restoration indices (CD40 0.17, CD86 0.22, GZMB 0.41, TRM 0.59); dose-response; encapsulation efficiency; weight nadirs; CNS fold changes.\n\nAll matched.\n\n**Data-integrity audit:** I checked the model's findings against the source and all held up.\n- **S11-A and S11-B:** 35 of 100 per-animal values are identical between the two cell types.\n- **S09-C:** day-12 weights are identical across two groups.\n- **Copied body weights:** S15-C and S15-I share about 40 same-position values, and \"copy-and-shift\" values recur (S08!G22 = 97.79487 vs S15!B54 = 99.79487).\n- **Rotated labels in S03-B/F:** the printed \"PSLN-344\" IgG2a/IgG1 ratios are exactly PSLN-212's ratios recomputed from S13. Read as printed, they would reverse the Th1 conclusion.\n- **S09-A second panel:** labelled 16 h but actually the 72 h data.\n- **Identical outcomes in S06-C and S06-D.**\n- **Deaths in unchallenged \"Untreated\" animals.**\n- **Duplicated labels** in S06 and S07-C.\n- **The unlabelled S08 region.**\n- **Mismatched group sizes:** stated n differs from the animals present in S03-J, S13-E and S05-A/B.\n- **An error in the annotation itself:** the 7-animal Sham group is in S09-F, not S09-B.\n\n**Weaknesses (all minor):**\n- The duplication example is given as \"40/48\" in the text but \"40/49\" in Fig. 6.\n- S06-A/B/E/F are graded Tier A even though their paired weight records are compromised; this is openly caveated.\n- The document is long for a committee, though it is well structured and leads with a scorecard.\n- It says nothing about IP or freedom to operate, or competitor products by name.\n- Cost and timing are deferred to Operations.\n\nThe \"keep conditionally\" call is defensible. The report says clearly when dropping would be the right decision, and it includes an Mn²⁺-only arm to test whether the proprietary drug or the manganese is driving the effect.\n\nOverall this is an excellent, rigorous and accurate response that goes well beyond the request in checking whether the data can be trusted."
+      }
+    ],
+    "strategy_type": "agentic_grader",
+    "grade_key": "agentic_grader",
+    "label": null,
+    "strategy_weight": 1,
+    "is_auxiliary": false
+  }
+}

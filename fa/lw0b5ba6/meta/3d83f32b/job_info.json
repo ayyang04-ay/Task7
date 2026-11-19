@@ -1,0 +1,53 @@
+{
+  "task_id": "f9c4675def384c5e820284adce63119b",
+  "problem_id": "task_f9c4675def384c5e820284adce63119b",
+  "job_id": "3d83f32b-025d-46c2-a84d-998cc987bc0c",
+  "job_name": "Studio - task_f9c4675def384c5e820284adce63119b",
+  "job_status": "completed",
+  "environment_id": "2e3eb299-7d22-4082-be2e-180e73ccf90d",
+  "environment_name": "vert_bio_v001_MER",
+  "model": "claude-fable-5-2",
+  "created_at": "2026-11-19T06:03:00.014979Z",
+  "completed_at": "2026-11-19T08:18:24.986753Z",
+  "completed_problems": 4,
+  "failed_problems": 0,
+  "total_problem_runs": 4,
+  "n_attempts_per_problem": 4,
+  "required_tools": [
+    "bash",
+    "str_replace_editor"
+  ],
+  "stats": {
+    "n_total": 4,
+    "n_completed": 4,
+    "n_scored": 4,
+    "mean_score": 0.9349999999999999,
+    "min_score": 0.91,
+    "max_score": 0.95,
+    "n_pass_at_08": 4,
+    "n_pass_at_05": 4,
+    "problem_version_ids": [
+      "e031e3a6-3ae7-4e6f-a57c-c563c545a89d"
+    ],
+    "n_refused": 0,
+    "refusal_rate": 0,
+    "clears_gate": false
+  },
+  "submit_gate": {
+    "max_avg_score": 0.55,
+    "rule": "ships only if the model does NOT solve it — mean score must be at or below max_avg_score",
+    "mean_score": 0.9349999999999999,
+    "clears_gate": false
+  },
+  "export_selection": {
+    "included": [
+      "outputs",
+      "transcripts",
+      "grading"
+    ],
+    "excluded": [
+      "task_files",
+      "grader_files"
+    ]
+  }
+}

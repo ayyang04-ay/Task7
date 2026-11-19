@@ -1,0 +1,40 @@
+423 numbers registered
+  early_344          42/45
+  early_344_ci       82–99
+  early_p_212        < 0.0001
+  early_p_sham       < 0.0001
+  worst_344          40/45
+  worst_p            < 0.0001
+  d60_344            14/21
+  d60_p_unt          = 0.48
+  bg_ci              5–42%
+  med_344            70
+  med_212            20
+  hai1_344           368
+  hai1_fold          8.0
+  ratio1_344         2.1
+  ifn_p              < 0.0001
+  wl_p               = 0.86
+  cns_Tnf            1.59
+  cns_Tnf_p          = 0.05
+  cns_Tnf_ci         0.00 to 1.19
+  emax_344_ci        44.0–62.5
+  iv_total           65
+  iv_dis             10
+  traj_pairs         25
+  traj_blockpairs    9
+  frac_shared        173
+  frac_total         268
+  pw18               91
+  n_hai4             6
+  y_down_lo          0.95
+  y_down_hi          1.26
+  y_down_nsig        0
+  y_down_n           7
+  nad_344            11
+  nad_344_n          67
+  nad_344_ge10       38
+  max_p_sham         0.003
+  imp_p              < 0.0001
+  h_p_ko             = 0.0004
+  h_p_gm             = 0.003

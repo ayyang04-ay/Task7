@@ -1,0 +1,119 @@
+SURVIVAL (time-to-event block) vs BODY-WEIGHT-IMPLIED SURVIVAL, every arm
+                tte_block bw_block               group tte_survivors bw_survivors        tte_death_days bw_last_real_day_of_nonsurvivors survivors_agree death_timing_compatible
+                    S03-I    S13-F                Sham           0/7          0/7        5 6 6 6 8 8 11                 6 6 8 8 10 10 10             yes                      no
+                    S03-I    S13-F             CMP-204           3/7 group absent              6 7 8 10                                                                         
+                    S03-I    S13-F            PSLN-212           0/7          3/7         5 5 5 6 6 6 6                      10 10 10 10              NO                        
+                    S03-I    S13-F            PSLN-344           7/7          7/7                                                                    yes                        
+                    S03-I    S13-F         PSLN-212(Y)           7/7          7/7                                                                    yes                        
+                    S03-J    S13-G                Sham          1/10         5/10 3 4 9 9 9 10 10 10 10                   10 10 12 12 12              NO                        
+                    S03-J    S13-G            PSLN-212          3/10 group absent  10 10 11 11 12 12 12                                                                         
+                    S03-J    S13-G            PSLN-344         10/10        10/10                                                                    yes                        
+                    S06-A    S15-A                Sham           0/7          0/7         4 4 4 5 5 7 7                    4 4 4 6 6 6 6             yes                      no
+                    S06-A    S15-A            PSLN-212           1/7          1/7          4 6 6 8 9 10                      4 6 6 6 8 8             yes                     yes
+                    S06-A    S15-A            PSLN-344           6/7          6/7                     8                                6             yes                     yes
+                    S06-A    S15-A         PSLN-212(Y)           7/7          7/7                                                                    yes                        
+                    S06-B    S15-B                Sham           0/7          0/7         4 4 4 5 5 6 6                    2 4 4 4 6 6 6             yes                      no
+                    S06-B    S15-B            PSLN-212           0/7          0/7        4 4 6 6 6 7 10                   4 6 6 8 8 8 10             yes                      no
+                    S06-B    S15-B            PSLN-344           5/7          5/7                  8 10                              8 8             yes                     yes
+                    S06-B    S15-B         PSLN-212(Y)           7/7          7/7                                                                    yes                        
+                    S06-C    S15-C                Sham           0/7          0/7         4 4 5 6 6 6 7                    4 4 4 6 6 6 8             yes                      no
+                    S06-C    S15-C            PSLN-212           2/7          1/7          5 8 10 10 12                   6 8 8 10 10 10              NO                        
+                    S06-C    S15-C            PSLN-344           7/7          7/7                                                                    yes                        
+                    S06-C    S15-C         PSLN-212(Y)           7/7          7/7                                                                    yes                        
+                    S06-D    S15-D                Sham           0/7          0/7         4 4 5 6 6 6 7                    4 4 4 4 4 4 6             yes                     yes
+                    S06-D    S15-D            PSLN-212           2/7          2/7          5 8 10 10 12                      6 6 8 10 12             yes                      no
+                    S06-D    S15-D            PSLN-344           7/7          5/7                                                    8 8              NO                        
+                    S06-D    S15-D         PSLN-212(Y)           7/7          5/7                                                   8 10              NO                        
+                    S06-E    S15-E                Sham           0/7          0/7         4 5 5 5 5 6 6                    4 4 4 4 4 6 6             yes                     yes
+                    S06-E    S15-E            PSLN-212           0/7          1/7        5 5 5 6 6 8 11                     6 6 6 6 8 10              NO                        
+                    S06-E    S15-E            PSLN-344           5/7          6/7                  8 10                                8              NO                        
+                    S06-E    S15-E         PSLN-212(Y)           7/7          7/7                                                                    yes                        
+                    S06-E    S15-E           Untreated           6/7          6/7                     4                                4             yes                     yes
+                    S06-F    S15-F                Sham           0/7          0/7         4 4 4 5 5 6 6                    2 2 4 4 4 4 6             yes                     yes
+                    S06-F    S15-F            PSLN-212           1/7          1/7           4 5 6 6 6 7                      4 6 6 6 6 8             yes                      no
+                    S06-F    S15-F            PSLN-344           5/7          5/7                   7 8                              6 6             yes                     yes
+                    S06-F    S15-F         PSLN-212(Y)           7/7          7/7                                                                    yes                        
+                    S06-F    S15-F           Untreated           7/7          7/7                                                                    yes                        
+                    S06-G    S15-G                Sham           0/7          0/7         4 4 5 6 6 7 7                    4 4 6 6 6 6 6             yes                      no
+                    S06-G    S15-G            PSLN-212           0/7          0/7       6 6 8 8 8 11 11                  8 8 8 8 8 10 10             yes                      no
+                    S06-G    S15-G            PSLN-344           4/7          5/7                8 9 11                            12 12              NO                        
+                    S06-G    S15-G         PSLN-212(Y)           7/7          7/7                                                                    yes                        
+                    S06-G    S15-G           Untreated           4/7          4/7                3 7 10                           4 8 10             yes                      no
+  S06-E(2) imprinting/PR8    S15-J      Naive+PSLN-212           0/7          0/7         4 4 5 6 6 6 8                    2 2 4 4 4 6 6             yes                     yes
+  S06-E(2) imprinting/PR8    S15-J Imprinting+PSLN-212           4/7          4/7                 6 8 8                            4 6 6             yes                     yes
+  S06-E(2) imprinting/PR8    S15-J      Naive+PSLN-344           6/7          6/7                     5                                4             yes                     yes
+  S06-E(2) imprinting/PR8    S15-J Imprinting+PSLN-344           6/7          6/7                     8                                6             yes                     yes
+S06-F(2) imprinting/Perth    S15-K      Naive+PSLN-212           0/7          0/7         4 4 6 6 7 8 8                    2 4 4 6 6 6 8             yes                     yes
+S06-F(2) imprinting/Perth    S15-K Imprinting+PSLN-212           0/7          0/7         4 4 5 5 5 6 6                    2 2 4 4 4 4 6             yes                     yes
+S06-F(2) imprinting/Perth    S15-K      Naive+PSLN-344           6/7          6/7                     8                                6             yes                     yes
+S06-F(2) imprinting/Perth    S15-K Imprinting+PSLN-344           6/7          6/7                     7                                6             yes                     yes
+                    S09-B    S09-C                Sham           0/8          0/8       6 6 6 7 7 7 8 8                  6 8 8 8 8 8 8 8             yes                      no
+                    S09-B    S09-C           PSLN-344Y           8/8          8/8                                                                    yes                        
+                    S09-B    S09-C           PSLN-212Y           8/8          8/8                                                                    yes                        
+                    S09-D    S09-E                Sham           0/8          0/8       7 8 8 8 8 8 9 9                  6 6 8 8 8 8 8 8             yes                     yes
+                    S09-D    S09-E           PSLN-344Y           8/8          8/8                                                                    yes                        
+                    S09-D    S09-E           PSLN-212Y           8/8          8/8                                                                    yes                        
+                    S09-F    S09-G                Sham           0/7          0/8         6 6 6 7 8 8 8                  6 6 6 6 8 8 8 8              NO                        
+                    S09-F    S09-G           PSLN-344Y           8/8          8/8                                                                    yes                        
+                    S09-F    S09-G           PSLN-212Y           8/8          8/8                                                                    yes                        
+                    S13-E                        Naive           0/7 group absent         6 7 7 7 8 8 8                                                                         
+                    S13-E                         Sham           1/7 group absent        7 9 9 10 11 11                                                                         
+                    S13-E                   CMP-204(Y)           7/7 group absent                                                                                               
+                    S13-E                  PSLN-344(Y)           7/7 group absent                                                                                               
+                    S15-H    S15-I          3d Vaccine           0/7          0/7         4 5 5 5 6 6 7                    4 4 4 4 6 6 6             yes                     yes
+                    S15-H    S15-I         3d PSLN-344           0/7          0/7         5 5 6 6 6 7 8                    4 4 6 6 6 6 8             yes                     yes
+                    S15-H    S15-I 3d Vaccine+PSLN-344           6/7          6/7                    12                               12             yes                     yes
+                    S15-L    S15-M                Sham           0/7          0/7         4 4 6 6 6 8 8                    2 2 4 4 4 6 8             yes                     yes
+                    S15-L    S15-M            PSLN-212           0/7          0/7        6 7 7 8 8 9 11                   4 6 6 8 8 8 12             yes                      no
+                    S15-L    S15-M            PSLN-344           6/7          6/7                     8                                6             yes                     yes
+                    S15-L    S15-M         PSLN-212(Y)           6/7          7/7                    12                                               NO                        
+                    S15-N    S15-O                Sham           0/7          0/7        5 6 6 8 8 8 10                   4 6 6 8 8 8 10             yes                     yes
+                    S15-N    S15-O            PSLN-212           2/7          2/7         6 10 10 10 12                    6 10 10 10 12             yes                     yes
+                    S15-N    S15-O            PSLN-344           6/7          6/7                     8                                6             yes                     yes
+                    S15-N    S15-O         PSLN-212(Y)           7/7          7/7                                                                    yes                        
+
+PER-STRATUM SURVIVORS (aged animals; vaccine + adjuvant)
+stratum 344_TTE 344_BW 344_WORST 212_TTE 212_BW 212_WORST sham_TTE sham_BW sham_WORST
+            7/7    7/7       7/7     0/7    3/7       3/7      0/7     0/7        0/7
+          10/10  10/10     10/10    3/10   3/10      3/10     1/10    5/10       5/10
+            6/7    6/7       6/7     1/7    1/7       1/7      0/7     0/7        0/7
+            5/7    5/7       5/7     0/7    0/7       0/7      0/7     0/7        0/7
+            7/7    7/7       7/7     2/7    1/7       2/7      0/7     0/7        0/7
+            7/7    5/7       5/7     2/7    2/7       2/7      0/7     0/7        0/7
+            5/7    6/7       5/7     0/7    1/7       1/7      0/7     0/7        0/7
+            5/7    5/7       5/7     1/7    1/7       1/7      0/7     0/7        0/7
+            4/7    5/7       4/7     0/7    0/7       0/7      0/7     0/7        0/7
+            6/7    6/7       6/7     0/7    0/7       0/7      0/7     0/7        0/7
+            6/7    6/7       6/7     2/7    2/7       2/7      0/7     0/7        0/7
+            6/7    6/7       6/7     0/7    0/7       0/7                            
+            6/7    6/7       6/7     4/7    4/7       4/7                            
+            6/7    6/7       6/7     0/7    0/7       0/7                            
+            6/7    6/7       6/7     0/7    0/7       0/7                            
+            6/7    6/7       6/7                               0/7     0/7        0/7
+
+POOLED SURVIVAL, AGED ANIMALS, stratified by experiment (Cochran-Mantel-Haenszel)
+reading                  comparator  n_strata psln344  psln344_pct psln344_ci comparator_surv  comparator_pct comparator_ci  cmh_chi2    cmh_p  mh_risk_diff_pct
+    TTE             PSLN-212 (aged)        15  92/108         85.2      77-91          15/108            13.9          8-22       109 1.77e-25              71.3
+    TTE Sham / vaccine alone (aged)        12   74/87         85.1      76-92            1/87            1.15           0-6       119    1e-27              83.9
+     BW             PSLN-212 (aged)        15  92/108         85.2      77-91          18/108            16.7         10-25      99.5 1.94e-23              68.5
+     BW Sham / vaccine alone (aged)        12   74/87         85.1      76-92            5/87            5.75          2-13       109 1.87e-25              79.3
+  WORST             PSLN-212 (aged)        15  90/108         83.3      75-90          19/108            17.6         11-26      92.8 5.82e-22              65.7
+  WORST Sham / vaccine alone (aged)        12   72/87         82.8      73-90            5/87            5.75          2-13       104 2.06e-24                77
+
+STRATIFIED LOG-RANK (time-to-event blocks as printed)
+   PSLN-344 vs PSLN-212 (aged): strata=15  O-E=-51.2  V=21.3  chi2=123.0  p=1.39e-28  hazard ratio (Peto) = 0.091 [0.059-0.139]
+   PSLN-344 vs Sham / vaccine alone: strata=12  O-E=-52.3  V=17.0  chi2=160.9  p=7.21e-37  hazard ratio (Peto) = 0.046 [0.029-0.074]
+
+DAY-60 CHALLENGES vs UNCHALLENGED, UNTREATED AGED ANIMALS (S06-E, S06-F, S06-G)
+   Sham         0/21 = 0%  (95% CI 0-16)   per experiment: 0/7, 0/7, 0/7   death days: 4 5 5 5 5 6 6 | 4 4 4 5 5 6 6 | 4 4 5 6 6 7 7
+   PSLN-212     1/21 = 5%  (95% CI 0-24)   per experiment: 0/7, 1/7, 0/7   death days: 5 5 5 6 6 8 11 | 4 5 6 6 6 7 | 6 6 8 8 8 11 11
+   PSLN-344     14/21 = 67%  (95% CI 43-85)   per experiment: 5/7, 5/7, 4/7   death days: 8 10 | 7 8 | 8 9 11
+   PSLN-212(Y)  21/21 = 100%  (95% CI 84-100)   per experiment: 7/7, 7/7, 7/7   death days:  |  | 
+   Untreated    17/21 = 81%  (95% CI 58-95)   per experiment: 6/7, 7/7, 4/7   death days: 4 |  | 3 7 10
+   Fisher exact PSLN-344 (14/21) vs Untreated-unchallenged (17/21): p = 0.484
+   Fisher exact PSLN-344 d60 (14/21) vs PSLN-344 d14 same models S06-A,S06-C (13/14): p = 0.108
+
+EARLY (d2/d3) vs d14 vs d60, PSLN-344 aged BALB/c, TTE blocks
+   d2-d3  28/31 = 90% (95% CI 74-98)  blocks ['S03-J', 'S06-B', 'S06-D', 'S15-H']
+   d14    20/21 = 95% (95% CI 76-100)  blocks ['S03-I', 'S06-A', 'S06-C']
+   d60    14/21 = 67% (95% CI 43-85)  blocks ['S06-E', 'S06-F', 'S06-G']

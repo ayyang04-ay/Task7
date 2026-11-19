@@ -1,0 +1,111 @@
+   weight_block                group   n  exits  mean_nadir_all  sd_nadir_all  mean_nadir_survivors  worst_survivor_nadir  median_nadir_day_survivors  mean_day14_survivors  n_survivors_below_95_at_d14
+0         S13-F          PSLN-212(Y)   7      0            93.5             3                  93.5                  89.7                           8                   100                            0
+1         S13-F                 Sham   7      7            79.4          2.07                   NaN                   NaN                         NaN                   NaN                            0
+2         S13-F             PSLN-212   7      4            82.9           5.9                    89                    87                           8                  96.8                            0
+3         S13-F             PSLN-344   7      0            91.5          2.06                  91.5                  88.8                           8                  99.1                            0
+4         S13-F                Naïve   7      7            82.5          3.46                   NaN                   NaN                         NaN                   NaN                            0
+5         S13-G             PSLN-344  10      0            93.5          2.19                  93.5                  91.3                           8                   100                            0
+6         S13-G                 Sham  10      5            85.3          7.33                  90.7                  79.2                          10                  96.3                            1
+7         S13-G                Naïve  10      9            78.8          2.75                  85.3                  85.3                          10                  95.6                            0
+8         S15-A          PSLN-212(Y)   7      0            90.8          3.24                  90.8                  85.7                           6                  99.3                            0
+9         S15-A                 Sham   7      7            85.3          3.14                   NaN                   NaN                         NaN                   NaN                            0
+10        S15-A             PSLN-212   7      6            82.1          1.99                  84.1                  84.1                           6                  93.2                            1
+11        S15-A             PSLN-344   7      1            86.8          3.25                    87                    83                           8                  97.2                            2
+12        S15-B          PSLN-212(Y)   7      0            88.1          2.79                  88.1                  84.3                           6                  98.6                            2
+13        S15-B                 Sham   7      7            83.1          5.26                   NaN                   NaN                         NaN                   NaN                            0
+14        S15-B             PSLN-212   7      7            81.1         0.929                   NaN                   NaN                         NaN                   NaN                            0
+15        S15-B             PSLN-344   7      2            84.1          4.65                  86.4                  83.3                           6                  95.5                            1
+16        S15-C          PSLN-212(Y)   7      0            91.9          2.64                  91.9                  88.2                           6                   100                            1
+17        S15-C                 Sham   7      7            84.4          1.79                   NaN                   NaN                         NaN                   NaN                            0
+18        S15-C             PSLN-212   7      6            82.6          2.72                  86.2                  86.2                           8                  96.1                            0
+19        S15-C             PSLN-344   7      0            87.3          4.74                  87.3                  77.9                           8                  94.7                            3
+20        S15-D          PSLN-212(Y)   7      2            88.4           6.6                  92.1                  89.1                           6                   101                            0
+21        S15-D                 Sham   7      7            90.6          4.54                   NaN                   NaN                         NaN                   NaN                            0
+22        S15-D             PSLN-212   7      5            82.9          3.67                    87                  83.9                           9                  93.3                            2
+23        S15-D             PSLN-344   7      2            86.1          3.66                  87.8                  85.2                           8                  94.8                            3
+24        S15-E          PSLN-212(Y)   7      0            90.4          3.33                  90.4                  86.1                           6                   100                            0
+25        S15-E                 Sham   7      7            84.9           2.6                   NaN                   NaN                         NaN                   NaN                            0
+26        S15-E             PSLN-212   7      6            81.8          4.26                  91.1                  91.1                           6                  99.7                            0
+27        S15-E             PSLN-344   7      1            88.5           5.6                  89.9                  85.1                           7                  98.7                            0
+28        S15-E            Untreated   7      1            97.5          2.09                    98                    95                          12                  98.2                            0
+29        S15-F          PSLN-212(Y)   7      0            87.9          4.03                  87.9                  82.4                           6                  98.9                            0
+30        S15-F                 Sham   7      7            86.8          5.43                   NaN                   NaN                         NaN                   NaN                            0
+31        S15-F             PSLN-212   7      6            82.2          2.22                  83.7                  83.7                           8                    89                            1
+32        S15-F             PSLN-344   7      2              85          3.52                  85.2                  80.3                           6                  96.8                            1
+33        S15-F            Untreated   7      0            97.5          1.17                  97.5                  95.5                          14                  97.8                            0
+34        S15-G          PSLN-212(Y)   7      0            89.5          2.11                  89.5                  87.1                           8                   100                            1
+35        S15-G                 Sham   7      7            81.5          1.82                   NaN                   NaN                         NaN                   NaN                            0
+36        S15-G             PSLN-212   7      7            80.9          1.62                   NaN                   NaN                         NaN                   NaN                            0
+37        S15-G             PSLN-344   7      2            85.6          4.86                  88.3                  86.5                           8                  95.5                            3
+38        S15-G            Untreated   7      3            97.1          1.46                  98.2                  97.4                          14                  98.2                            0
+39        S15-I           3d Vaccine   7      7            82.7          2.51                   NaN                   NaN                         NaN                   NaN                            0
+40        S15-I          3d PSLN-344   7      7            81.2          2.04                   NaN                   NaN                         NaN                   NaN                            0
+41        S15-I  3d Vaccine+PSLN-344   7      1            87.3          4.74                  88.9                  85.1                           8                  98.2                            1
+42        S15-J       Naïve+PSLN-212   7      7            86.6          3.51                   NaN                   NaN                         NaN                   NaN                            0
+43        S15-J  Imprinting+PSLN-212   7      3            85.4           2.1                  86.2                  84.3                           8                    95                            2
+44        S15-J       Naïve+PSLN-344   7      1            87.6          1.93                  87.3                  84.2                           8                  96.6                            2
+45        S15-J  Imprinting+PSLN-344   7      1            90.7          4.35                  92.1                  87.6                           7                   103                            0
+46        S15-K       Naïve+PSLN-212   7      7            83.9          2.61                   NaN                   NaN                         NaN                   NaN                            0
+47        S15-K  Imprinting+PSLN-212   7      7            84.7          2.04                   NaN                   NaN                         NaN                   NaN                            0
+48        S15-K       Naïve+PSLN-344   7      1            86.9          4.19                    88                  83.2                           6                  99.1                            1
+49        S15-K  Imprinting+PSLN-344   7      1            84.5          3.91                    85                  81.3                           6                  97.7                            2
+50        S15-M          PSLN-212(Y)   7      0              91           2.7                    91                  86.3                           6                  99.9                            0
+51        S15-M                 Sham   7      7              86           3.4                   NaN                   NaN                         NaN                   NaN                            0
+52        S15-M             PSLN-212   7      7            81.8          2.68                   NaN                   NaN                         NaN                   NaN                            0
+53        S15-M             PSLN-344   7      1            88.1          3.19                  88.6                    83                           6                  98.7                            1
+54        S15-O          PSLN-212(Y)   7      0            91.1          1.56                  91.1                  88.2                           6                   103                            0
+55        S15-O                 Sham   7      7            83.1           2.8                   NaN                   NaN                         NaN                   NaN                            0
+56        S15-O             PSLN-212   7      5            83.4          3.19                  87.9                  87.2                           8                    92                            2
+57        S15-O             PSLN-344   7      1            88.4          1.85                  88.9                  87.2                           6                   100                            0
+58        S09-C            PSLN-212Y   8      0            88.9          1.47                  88.9                    87                           8                  99.5                            0
+59        S09-C                 Sham   8      8            79.5          1.36                   NaN                   NaN                         NaN                   NaN                            0
+60        S09-C            PSLN-344Y   8      0            89.7          1.71                  89.7                  87.1                           8                  99.6                            0
+61        S09-E            PSLN-212Y   8      0            89.5          3.04                  89.5                  84.5                           7                   101                            0
+62        S09-E                 Sham   8      8            80.5          2.61                   NaN                   NaN                         NaN                   NaN                            0
+63        S09-E            PSLN-344Y   8      0            90.7          3.29                  90.7                  86.3                           7                   100                            0
+64        S09-G            PSLN-212Y   8      0            89.3          1.83                  89.3                  86.1                           8                  99.2                            1
+65        S09-G                 Sham   8      8            79.6          1.73                   NaN                   NaN                         NaN                   NaN                            0
+66        S09-G            PSLN-344Y   8      0            87.3           1.5                  87.3                  85.5                           8                  95.6                            2
+
+   weight_block         g1           g2  nadir1_survivors  nadir2_survivors  diff  welch_p  n1  n2  d14_1  d14_2   d14_p
+0         S13-F   PSLN-344  PSLN-212(Y)              91.5              93.5 -1.97     0.18   7   7   99.1    100   0.178
+1         S13-G   PSLN-344         Sham              93.5              90.7  2.76    0.408  10   5    100   96.3   0.409
+2         S15-A   PSLN-344  PSLN-212(Y)                87              90.8 -3.77   0.0705   6   7   97.2   99.3   0.211
+3         S15-B   PSLN-344  PSLN-212(Y)              86.4              88.1 -1.62    0.372   5   7   95.5   98.6   0.217
+4         S15-C   PSLN-344  PSLN-212(Y)              87.3              91.9 -4.62   0.0495   7   7   94.7    100  0.0972
+5         S15-D   PSLN-344  PSLN-212(Y)              87.8              92.1 -4.26  0.00979   5   5   94.8    101  0.0245
+6         S15-E   PSLN-344  PSLN-212(Y)              89.9              90.4 -0.47    0.837   6   7   98.7    100   0.447
+7         S15-F   PSLN-344  PSLN-212(Y)              85.2              87.9 -2.74    0.293   5   7   96.8   98.9   0.338
+8         S15-G   PSLN-344  PSLN-212(Y)              88.3              89.5 -1.23    0.294   5   7   95.5    100  0.0819
+9         S15-M   PSLN-344  PSLN-212(Y)              88.6                91 -2.43    0.172   6   7   98.7   99.9   0.416
+10        S15-O   PSLN-344  PSLN-212(Y)              88.9              91.1 -2.16    0.019   6   7    100    103  0.0327
+11        S09-C  PSLN-344Y    PSLN-212Y              89.7              88.9  0.85    0.305   8   8   99.6   99.5   0.925
+12        S09-E  PSLN-344Y    PSLN-212Y              90.7              89.5  1.25    0.445   8   8    100    101   0.531
+13        S09-G  PSLN-344Y    PSLN-212Y              87.3              89.3 -2.06   0.0276   8   8   95.6   99.2 0.00385
+
+   weight_block                group  naive_day14_mean_of_printed_cells  n_cells_at_d14  survivors_only_day14_mean  n_survivors  n_LOCF_cells_included_in_naive
+2         S13-F             PSLN-212                               86.7               7                       96.8            3                               4
+6         S13-G                 Sham                               88.1              10                       96.3            5                               5
+7         S13-G                Naïve                               79.9              10                       95.6            1                               9
+10        S15-A             PSLN-212                               83.4               7                       93.2            1                               6
+11        S15-A             PSLN-344                               95.5               7                       97.2            6                               1
+14        S15-B             PSLN-212                               81.1               7                        NaN            0                               7
+15        S15-B             PSLN-344                               90.6               7                       95.5            5                               2
+18        S15-C             PSLN-212                                 84               7                       96.1            1                               6
+20        S15-D          PSLN-212(Y)                               94.6               7                        101            5                               2
+22        S15-D             PSLN-212                               84.7               7                       93.3            2                               5
+23        S15-D             PSLN-344                               91.2               7                       94.8            5                               2
+26        S15-E             PSLN-212                               83.1               7                       99.7            1                               6
+27        S15-E             PSLN-344                                 96               7                       98.7            6                               1
+28        S15-E            Untreated                               97.6               7                       98.2            6                               1
+31        S15-F             PSLN-212                                 83               7                         89            1                               6
+32        S15-F             PSLN-344                               93.3               7                       96.8            5                               2
+36        S15-G             PSLN-212                               80.9               7                        NaN            0                               7
+37        S15-G             PSLN-344                               90.8               7                       95.5            5                               2
+38        S15-G            Untreated                               97.1               7                       98.2            4                               3
+41        S15-I  3d Vaccine+PSLN-344                               95.3               7                       98.2            6                               1
+45        S15-J  Imprinting+PSLN-344                               99.7               7                        103            6                               1
+52        S15-M             PSLN-212                               81.8               7                        NaN            0                               7
+53        S15-M             PSLN-344                               96.7               7                       98.7            6                               1
+56        S15-O             PSLN-212                               84.5               7                         92            2                               5
+57        S15-O             PSLN-344                               97.9               7                        100            6                               1

@@ -1,0 +1,4 @@
+scenario,n_per_group_80,n_per_group_90
+weight-nadir difference / NI margin of 3 points (SD 3.5),23,30
+weight-nadir difference / NI margin of 4 points (SD 3.5),14,18
+weight-nadir difference / NI margin of 5 points (SD 3.5),9,12

@@ -1,0 +1,144 @@
+
+=== S11-A vs S11-B: 35 identical cells in identical positions
+   t=0  Vaccine B3  ==  Vaccine B10   value=23.5
+   t=4  Vaccine B5  ==  Vaccine B12   value=18.2
+   t=6  Vaccine B6  ==  Vaccine B13   value=22.5
+   t=8  Vaccine B7  ==  Vaccine B14   value=25.3
+   t=0  Vaccine C3  ==  Vaccine C10   value=17.2
+   t=2  Vaccine C4  ==  Vaccine C11   value=21.2
+   t=4  Vaccine C5  ==  Vaccine C12   value=23.5
+   t=6  Vaccine C6  ==  Vaccine C13   value=19.1
+   t=8  Vaccine C7  ==  Vaccine C14   value=19.6
+   t=0  PSLN-212 G3  ==  PSLN-212 G10   value=18.7
+   t=2  PSLN-212 G4  ==  PSLN-212 G11   value=28.9
+   t=4  PSLN-212 G5  ==  PSLN-212 G12   value=33.0
+   t=6  PSLN-212 G6  ==  PSLN-212 G13   value=28.3
+   t=8  PSLN-212 G7  ==  PSLN-212 G14   value=25.2
+   t=0  PSLN-344 L3  ==  PSLN-344 L10   value=22.2
+   t=2  PSLN-344 L4  ==  PSLN-344 L11   value=31.2
+   t=4  PSLN-344 L5  ==  PSLN-344 L12   value=36.0
+   t=6  PSLN-344 L6  ==  PSLN-344 L13   value=34.3
+   t=8  PSLN-344 L7  ==  PSLN-344 L14   value=33.6
+   t=0  PSLN-344 M3  ==  PSLN-344 M10   value=19.8
+   t=2  PSLN-344 M4  ==  PSLN-344 M11   value=23.4
+   t=4  PSLN-344 M5  ==  PSLN-344 M12   value=29.4
+   t=6  PSLN-344 M6  ==  PSLN-344 M13   value=27.8
+   t=8  PSLN-344 M7  ==  PSLN-344 M14   value=24.8
+   t=0  PSLN-212(Y) Q3  ==  PSLN-212(Y) Q10   value=39.2
+   t=2  PSLN-212(Y) Q4  ==  PSLN-212(Y) Q11   value=47.5
+   t=4  PSLN-212(Y) Q5  ==  PSLN-212(Y) Q12   value=53.0
+   t=6  PSLN-212(Y) Q6  ==  PSLN-212(Y) Q13   value=49.0
+   t=8  PSLN-212(Y) Q7  ==  PSLN-212(Y) Q14   value=42.4
+   t=0  PSLN-212(Y) R3  ==  PSLN-212(Y) R10   value=34.4
+   t=2  PSLN-212(Y) R4  ==  PSLN-212(Y) R11   value=42.1
+   t=4  PSLN-212(Y) R5  ==  PSLN-212(Y) R12   value=44.1
+   t=6  PSLN-212(Y) R6  ==  PSLN-212(Y) R13   value=44.5
+   t=8  PSLN-212(Y) R7  ==  PSLN-212(Y) R14   value=39.0
+   t=4  PSLN-212(Y) U5  ==  PSLN-212(Y) U12   value=52.1
+
+=== S15-A vs S15-M: 23 identical cells in identical positions
+   t=4  PSLN-212(Y) D5  ==  PSLN-212(Y) K105   value=94.5
+   t=4  PSLN-212(Y) F5  ==  PSLN-212(Y) M105   value=94.1
+   t=2  PSLN-212(Y) G4  ==  PSLN-212(Y) N104   value=98.3
+   t=8  PSLN-212(Y) H7  ==  PSLN-212(Y) O107   value=92.2
+   t=10  PSLN-212(Y) H8  ==  PSLN-212(Y) O108   value=96.6
+   t=12  PSLN-212(Y) H9  ==  PSLN-212(Y) O109   value=98.1
+   t=14  PSLN-212(Y) H10  ==  PSLN-212(Y) O110   value=99.2
+   t=4  PSLN-344 X5  ==  PSLN-344 AE105   value=92.42424
+   t=6  PSLN-344 X6  ==  PSLN-344 AE106   value=89.09091
+   t=10  PSLN-344 X8  ==  PSLN-344 AE108   value=93.63636
+   t=12  PSLN-344 X9  ==  PSLN-344 AE109   value=96.46503
+   t=14  PSLN-344 X10  ==  PSLN-344 AE110   value=98.4
+   t=4  PSLN-344 Y5  ==  PSLN-344 AF105   value=92.81709
+   t=6  PSLN-344 Y6  ==  PSLN-344 AF106   value=82.9972
+   t=10  PSLN-344 Y8  ==  PSLN-344 AF108   value=90.79832
+   t=12  PSLN-344 Y9  ==  PSLN-344 AF109   value=93.05013
+   t=14  PSLN-344 Y10  ==  PSLN-344 AF110   value=94.1
+   t=6  PSLN-344 AA6  ==  PSLN-344 AH106   value=85.1
+   t=8  PSLN-344 AA7  ==  PSLN-344 AH107   value=85.1
+   t=10  PSLN-344 AA8  ==  PSLN-344 AH108   value=85.1
+   t=12  PSLN-344 AA9  ==  PSLN-344 AH109   value=85.1
+   t=14  PSLN-344 AA10  ==  PSLN-344 AH110   value=85.1
+   t=4  PSLN-344 AC5  ==  PSLN-344 AJ105   value=95.8
+
+=== S15-M vs S15-O: 18 identical cells in identical positions
+   t=4  PSLN-212(Y) N105  ==  PSLN-212(Y) N136   value=93.5
+   t=12  PSLN-212(Y) N109  ==  PSLN-212(Y) N140   value=98.3
+   t=14  PSLN-212(Y) O110  ==  PSLN-212(Y) O141   value=99.2
+   t=2  Sham Q104  ==  Sham Q135   value=97.02924
+   t=4  Sham Q105  ==  Sham Q136   value=85.08772
+   t=4  Sham R105  ==  Sham R136   value=87.46082
+   t=2  PSLN-212 AA104  ==  PSLN-212 AA135   value=99.2
+   t=4  PSLN-344 AG105  ==  PSLN-344 AG136   value=93.5
+   t=6  PSLN-344 AG106  ==  PSLN-344 AG137   value=87.2
+   t=14  PSLN-344 AG110  ==  PSLN-344 AG141   value=100.3
+   t=6  PSLN-344 AH106  ==  PSLN-344 AH137   value=85.1
+   t=8  PSLN-344 AH107  ==  PSLN-344 AH138   value=85.1
+   t=10  PSLN-344 AH108  ==  PSLN-344 AH139   value=85.1
+   t=12  PSLN-344 AH109  ==  PSLN-344 AH140   value=85.1
+   t=14  PSLN-344 AH110  ==  PSLN-344 AH141   value=85.1
+   t=4  PSLN-344 AI105  ==  PSLN-344 AI136   value=93.1
+   t=6  PSLN-344 AI106  ==  PSLN-344 AI137   value=89.6
+   t=12  PSLN-344 AI109  ==  PSLN-344 AI140   value=97.9
+
+=== S15-C vs S15-M: 12 identical cells in identical positions
+   t=4  Sham J25  ==  Sham Q105   value=85.0877193
+   t=2  Sham M24  ==  Sham T104   value=98.4
+   t=4  Sham M25  ==  Sham T105   value=91.0
+   t=6  Sham M26  ==  Sham T106   value=84.1
+   t=8  Sham O27  ==  Sham V107   value=82.1
+   t=2  PSLN-212 T24  ==  PSLN-212 AA104   value=99.2
+   t=14  PSLN-344 W30  ==  PSLN-344 AD110   value=102.5
+   t=14  PSLN-344 X30  ==  PSLN-344 AE110   value=98.4
+   t=14  PSLN-344 Z30  ==  PSLN-344 AG110   value=100.3
+   t=10  PSLN-344 AA28  ==  PSLN-344 AH108   value=85.1
+   t=14  PSLN-344 AA30  ==  PSLN-344 AH110   value=85.1
+   t=14  PSLN-344 AC30  ==  PSLN-344 AJ110   value=99.4
+
+=== S09-E vs S09-G: 11 identical cells in identical positions
+   t=2  PSLN-212Y N40  ==  PSLN-212Y N67   value=100.2
+   t=4  PSLN-212Y N41  ==  PSLN-212Y N68   value=96.4
+   t=6  PSLN-212Y N42  ==  PSLN-212Y N69   value=92.2
+   t=8  PSLN-212Y N43  ==  PSLN-212Y N70   value=91.8
+   t=10  PSLN-212Y N44  ==  PSLN-212Y N71   value=94.5
+   t=12  PSLN-212Y N45  ==  PSLN-212Y N72   value=98.8
+   t=14  PSLN-212Y N46  ==  PSLN-212Y N73   value=102.3
+   t=8  Sham O43  ==  Sham O70   value=79.1
+   t=6  PSLN-344Y AD42  ==  PSLN-344Y AD69   value=88.2
+   t=8  PSLN-344Y AD43  ==  PSLN-344Y AD70   value=89.1
+   t=10  PSLN-344Y AD44  ==  PSLN-344Y AD71   value=90.2
+
+=== S15-A vs S15-O: 10 identical cells in identical positions
+   t=6  PSLN-212(Y) G6  ==  PSLN-212(Y) N137   value=88.2
+   t=6  PSLN-212(Y) H6  ==  PSLN-212(Y) O137   value=89.7
+   t=14  PSLN-212(Y) H10  ==  PSLN-212(Y) O141   value=99.2
+   t=2  PSLN-344 Y4  ==  PSLN-344 AF135   value=98.67787
+   t=4  PSLN-344 AA5  ==  PSLN-344 AH136   value=89.7
+   t=6  PSLN-344 AA6  ==  PSLN-344 AH137   value=85.1
+   t=8  PSLN-344 AA7  ==  PSLN-344 AH138   value=85.1
+   t=10  PSLN-344 AA8  ==  PSLN-344 AH139   value=85.1
+   t=12  PSLN-344 AA9  ==  PSLN-344 AH140   value=85.1
+   t=14  PSLN-344 AA10  ==  PSLN-344 AH141   value=85.1
+
+=== S15-A vs S15-B: 10 identical cells in identical positions
+   t=2  PSLN-212(Y) D4  ==  PSLN-212(Y) D14   value=100.3
+   t=4  PSLN-212 P5  ==  PSLN-212 P15   value=81.6
+   t=6  PSLN-212 P6  ==  PSLN-212 P16   value=81.6
+   t=8  PSLN-212 P7  ==  PSLN-212 P17   value=81.6
+   t=10  PSLN-212 P8  ==  PSLN-212 P18   value=81.6
+   t=12  PSLN-212 P9  ==  PSLN-212 P19   value=81.6
+   t=14  PSLN-212 P10  ==  PSLN-212 P20   value=81.6
+   t=4  PSLN-212 Q5  ==  PSLN-212 Q15   value=88.6
+   t=6  PSLN-212 S6  ==  PSLN-212 S16   value=84.1
+   t=8  PSLN-344 AB7  ==  PSLN-344 AB17   value=87.9
+
+=== S09-E vs S15-C: 9 identical cells in identical positions
+   t=14  PSLN-212Y G46  ==  PSLN-212(Y) B30   value=101.8
+   t=14  PSLN-212Y H46  ==  PSLN-212(Y) C30   value=103.1
+   t=10  PSLN-212Y J44  ==  PSLN-212(Y) E28   value=93.5
+   t=12  PSLN-212Y J45  ==  PSLN-212(Y) E29   value=96.2
+   t=6  PSLN-212Y L42  ==  PSLN-212(Y) G26   value=89.3
+   t=8  PSLN-212Y L43  ==  PSLN-212(Y) G27   value=93.4
+   t=10  PSLN-212Y L44  ==  PSLN-212(Y) G28   value=98.5
+   t=12  PSLN-212Y L45  ==  PSLN-212(Y) G29   value=103.2
+   t=14  PSLN-212Y L46  ==  PSLN-212(Y) G30   value=105.3

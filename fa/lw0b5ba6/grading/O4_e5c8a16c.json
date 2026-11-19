@@ -1,0 +1,90 @@
+{
+  "id": "4e73762b-f34f-4fc2-9bd7-97cf53c7592e",
+  "problem_run_id": "e5c8a16c-7876-42e9-96f8-0ee64cd5acc1",
+  "grading_run_id": "0fda4679-519f-461b-bb02-b94aa3c7da08",
+  "grading_strategy_type": "agentic_grader",
+  "is_auxiliary_grade": false,
+  "normalized_score": 0.91,
+  "subscores": [
+    {
+      "name": "overall",
+      "score": 0.91,
+      "max_score": 1,
+      "weight": 1,
+      "reasoning": "I graded the deliverables against the original workbook and annotation PDF (`/tmp/world/filesystem`) and recomputed the key numbers myself.\n\n**What I checked:**\n- **Outputs.** There is a 14-page PDF, a matching Markdown file, an evidence-ledger workbook with 27 sheets, 7 figures and the analysis scripts and CSVs. The PDF text extracts cleanly and matches the Markdown. The final chat message agrees with the documents.\n- **Structure against the prompt.**\n  - It opens with the recommendation: HOLD, do not advance, freeze spending, two time-boxed checks (\"gates\"), termination by default. It also answers the forced choice: \"if strictly advance or drop, drop.\"\n  - Section 2 comes next: a study-by-study table giving what each study must establish, design, endpoints, go thresholds and stop criteria. The thresholds follow a stated rule (at least half the observed effect on the log scale), and I confirmed the arithmetic, e.g. √8.0 ≈ 2.8 and √18.6 ≈ 4.3.\n  - It also includes the \"what we give up\" statement, a mechanism chain graded by strength of evidence, tiered biomarkers with human-accessible equivalents, a TAM demographic (≥65 core, 60–64 as a sensitivity case, sub-segments, exclusions, inputs market research should supply), a considered/ruled-out table, and claim IDs that point to cell ranges in the ledger.\n- **Numbers recomputed from the raw cells.** Everything I checked matched exactly:\n  - Ifnb1 at 16 h: 37.1 vs 16.6 vs 37.6; ratio 2.23× (CI 1.85–2.69).\n  - HAI GMT: 368 vs 46 (8.0×, CI 3.9–16.4) and 320 vs 35.\n  - IgG GMT: 7,305 vs 393 (18.6×).\n  - Csf2 at 36 h: 5.4×.\n  - Monocytes: +13.8 points (p=0.002); CD40 p=0.01; Tfr p=0.005; CBX p=0.004.\n  - S09-A log10 conversions: Tnf 40.5 vs 13.9; Ccl2 77×.\n  - Encapsulation efficiency: 54.8 ± 5.1%; S08-D weight nadir 96.4%; S10-A ratios 1.14/1.20/1.57.\n  - Every per-experiment survival count; pooled 92/108 vs 15/108 and 85/101 vs 13/101; the worst case of 17/101; sentinel deaths 4/21.\n- **Data-integrity findings.** All verified against the originals:\n  - S06-C and S06-D are identical row for row.\n  - S11-A and S11-B share 35 of 100 position-matched values (I counted 35/100 myself).\n  - S09-C day-12 weights are identical across two groups.\n  - S01-B and S08-C share values under different labels.\n  - S15-I reproduces S15-C trajectories for 6 of 7 animals.\n  - S15-M reproduces S09-E weights, with exact-integer edits.\n  - The S03-B IgG2a/IgG1 ratios reproduce the S13 titres only with the group labels rotated in a cycle.\n  - The S09-A panel 2 labelled \"16h\" is actually the S01-A 72 h data, and S09-A \"PBS\" is S01-A \"Sham\".\n  - Tfh:Tfr equals (100−Foxp3)/Foxp3.\n  - The survival records disagree with their companion body-weight records (S13-F/G, S15-D).\n  - Also flagged: the orphan region in S08, mismatches between stated and observed n, the duplicate S07-C label, and OT-I and NP-tetramer readouts in BALB/c mice.\n  \n  I wrote my own trajectory-matching script and it also found exactly 18 pairs of animals in different experiments sharing at least 4 identical live weight readings, confirming the headline \"18 vs 0.005\".\n- **Framing.** The model notes the missing Mn-only control and the IP risk, the lack of a standard-of-care benchmark, that mucosal IgA was never measured, and the safety gaps for intranasal Mn²⁺ and the CNS. It labels outside literature as external context with no numbers. It shows young mice gain nothing from Mn²⁺, which is why the target population is older adults.\n\n**Weaknesses (minor):**\n- The HOLD/frozen recommendation is somewhat hedged, though it gives a clear forced-choice answer.\n- The document is very dense for a committee.\n- Fold-changes switch between arithmetic and geometric means in places (both labelled).\n- One biomarker sentence is worded awkwardly (\"All of them … in 22 of 23\").\n- It does not challenge the user's \"small-molecule STING agonist / appropriate vehicle\" framing, though the title describes the product correctly.\n- It does not state outright that antigen-dependent protection 2–3 days after vaccination is biologically implausible; it only withholds those claims because of the integrity flags.\n\n**Score: 0.91.** The work is exceptionally thorough, accurate and objective, the citations check out, and every prompt requirement is met. Only the minor issues above keep it below 1.0."
+    }
+  ],
+  "weight": 1,
+  "allow_unbounded": false,
+  "created_at": "2026-11-19T07:16:29.037479Z",
+  "has_metadata": true,
+  "metadata_byte_size": 364932,
+  "metadata": {
+    "agentic_grader": {
+      "cc_harness": false,
+      "container_mode": "fresh_with_policy_setup",
+      "scoring_mode": "single_score",
+      "grading_model": "claude-opus-5-5",
+      "grading_model_slug": "claude-opus-5-5",
+      "grading_container_id": "lovely-model-mwmbpp-wrvtgv",
+      "grader_error": false,
+      "full_debug_s3_hint": "biome/agentic-grading-transcripts/lovely-model-mwmbpp-wrvtgv/grading_debug.json",
+      "grading_turns_count": null,
+      "grading_tokens_consumed": null,
+      "grader_context_window_effective": 1000000,
+      "grader_context_window_source": "default",
+      "policy_outputs_transfer": {
+        "mode": "snapshot_mount",
+        "snapshot_source": "pre_grade",
+        "snapshot_ttl": null,
+        "snapshot_seconds": 0.5937161169713363,
+        "reader_uid": 1000,
+        "handin_max_bytes": 2147483648,
+        "grading_box_seconds": 40.379,
+        "grading_box_attempts": 1,
+        "mount_verified": true,
+        "unmounted": true,
+        "detach_checks": [
+          "mounts",
+          "same_device",
+          "ext4_sysfs",
+          "device_read"
+        ],
+        "device_read_refused": true,
+        "present_seconds": 0.809,
+        "probe": "dir",
+        "measured_bytes": 5708193,
+        "entries": 67,
+        "status": "ok",
+        "declared_path_missing": false,
+        "declared_path_wrong_type": false,
+        "copied_files": 65,
+        "copied_bytes": 5642524,
+        "copies_inert": true
+      },
+      "import_shadowing_set_aside": [],
+      "grader_attempts": 1,
+      "grader_failed_attempts": [],
+      "grader_failed_attempt_errors": [],
+      "grader_failed_attempts_ms": 0,
+      "grader_planted_shape": null,
+      "policy_markup_hits": 0,
+      "handin_integrity": "unchanged",
+      "handin_integrity_drift_only": true
+    },
+    "rubric_evaluations": [
+      {
+        "name": "overall",
+        "score": 0.91,
+        "max_score": 1,
+        "weight": 1,
+        "reasoning": "I graded the deliverables against the original workbook and annotation PDF (`/tmp/world/filesystem`) and recomputed the key numbers myself.\n\n**What I checked:**\n- **Outputs.** There is a 14-page PDF, a matching Markdown file, an evidence-ledger workbook with 27 sheets, 7 figures and the analysis scripts and CSVs. The PDF text extracts cleanly and matches the Markdown. The final chat message agrees with the documents.\n- **Structure against the prompt.**\n  - It opens with the recommendation: HOLD, do not advance, freeze spending, two time-boxed checks (\"gates\"), termination by default. It also answers the forced choice: \"if strictly advance or drop, drop.\"\n  - Section 2 comes next: a study-by-study table giving what each study must establish, design, endpoints, go thresholds and stop criteria. The thresholds follow a stated rule (at least half the observed effect on the log scale), and I confirmed the arithmetic, e.g. √8.0 ≈ 2.8 and √18.6 ≈ 4.3.\n  - It also includes the \"what we give up\" statement, a mechanism chain graded by strength of evidence, tiered biomarkers with human-accessible equivalents, a TAM demographic (≥65 core, 60–64 as a sensitivity case, sub-segments, exclusions, inputs market research should supply), a considered/ruled-out table, and claim IDs that point to cell ranges in the ledger.\n- **Numbers recomputed from the raw cells.** Everything I checked matched exactly:\n  - Ifnb1 at 16 h: 37.1 vs 16.6 vs 37.6; ratio 2.23× (CI 1.85–2.69).\n  - HAI GMT: 368 vs 46 (8.0×, CI 3.9–16.4) and 320 vs 35.\n  - IgG GMT: 7,305 vs 393 (18.6×).\n  - Csf2 at 36 h: 5.4×.\n  - Monocytes: +13.8 points (p=0.002); CD40 p=0.01; Tfr p=0.005; CBX p=0.004.\n  - S09-A log10 conversions: Tnf 40.5 vs 13.9; Ccl2 77×.\n  - Encapsulation efficiency: 54.8 ± 5.1%; S08-D weight nadir 96.4%; S10-A ratios 1.14/1.20/1.57.\n  - Every per-experiment survival count; pooled 92/108 vs 15/108 and 85/101 vs 13/101; the worst case of 17/101; sentinel deaths 4/21.\n- **Data-integrity findings.** All verified against the originals:\n  - S06-C and S06-D are identical row for row.\n  - S11-A and S11-B share 35 of 100 position-matched values (I counted 35/100 myself).\n  - S09-C day-12 weights are identical across two groups.\n  - S01-B and S08-C share values under different labels.\n  - S15-I reproduces S15-C trajectories for 6 of 7 animals.\n  - S15-M reproduces S09-E weights, with exact-integer edits.\n  - The S03-B IgG2a/IgG1 ratios reproduce the S13 titres only with the group labels rotated in a cycle.\n  - The S09-A panel 2 labelled \"16h\" is actually the S01-A 72 h data, and S09-A \"PBS\" is S01-A \"Sham\".\n  - Tfh:Tfr equals (100−Foxp3)/Foxp3.\n  - The survival records disagree with their companion body-weight records (S13-F/G, S15-D).\n  - Also flagged: the orphan region in S08, mismatches between stated and observed n, the duplicate S07-C label, and OT-I and NP-tetramer readouts in BALB/c mice.\n  \n  I wrote my own trajectory-matching script and it also found exactly 18 pairs of animals in different experiments sharing at least 4 identical live weight readings, confirming the headline \"18 vs 0.005\".\n- **Framing.** The model notes the missing Mn-only control and the IP risk, the lack of a standard-of-care benchmark, that mucosal IgA was never measured, and the safety gaps for intranasal Mn²⁺ and the CNS. It labels outside literature as external context with no numbers. It shows young mice gain nothing from Mn²⁺, which is why the target population is older adults.\n\n**Weaknesses (minor):**\n- The HOLD/frozen recommendation is somewhat hedged, though it gives a clear forced-choice answer.\n- The document is very dense for a committee.\n- Fold-changes switch between arithmetic and geometric means in places (both labelled).\n- One biomarker sentence is worded awkwardly (\"All of them … in 22 of 23\").\n- It does not challenge the user's \"small-molecule STING agonist / appropriate vehicle\" framing, though the title describes the product correctly.\n- It does not state outright that antigen-dependent protection 2–3 days after vaccination is biologically implausible; it only withholds those claims because of the integrity flags.\n\n**Score: 0.91.** The work is exceptionally thorough, accurate and objective, the citations check out, and every prompt requirement is met. Only the minor issues above keep it below 1.0."
+      }
+    ],
+    "strategy_type": "agentic_grader",
+    "grade_key": "agentic_grader",
+    "label": null,
+    "strategy_weight": 1,
+    "is_auxiliary": false
+  }
+}

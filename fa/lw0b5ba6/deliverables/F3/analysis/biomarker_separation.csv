@@ -1,0 +1,34 @@
+block,measurand,direction,AUC_protected_vs_unprotected,complete_separation,unprotected_extreme,protected_extreme,AUC_aged344_vs_aged212,n_per_group
+S01-A/16h,"Lung Ifnb1 mRNA, 16 h, adjuvant alone",higher in protected,1.0,True,19.01,32.58,1.0,5
+S01-A/72h,"Lung Ifnb1 mRNA, 72 h, adjuvant alone",higher in protected,0.64,False,4.03,0.64,0.76,5
+S01-F,"Lung cDC1, 72 h",higher in protected,1.0,True,27.6,31.7,1.0,5
+S01-G,"Lung cDC2, 72 h",lower in protected,1.0,True,71.6,66.3,1.0,5
+S02-A,"Lung CCR7+ migratory CD11b+ DC, 72 h",higher in protected,1.0,True,9.96,20.0,1.0,5
+S02-B,"MLN CD11b+CD103- DC, 72 h",higher in protected,0.99,False,25.9,25.5,0.96,5
+S02-D CD40,"CD40+ of MLN CD11b+ DC, day 3",higher in protected,1.0,True,6.92,7.96,1.0,5
+S02-D CD86,"CD86+ of MLN CD11b+ DC, day 3",higher in protected,1.0,True,10.12,10.9,1.0,5
+S03-A,"Serum IgG anti-CA09 H1N1, day 14",higher in protected,1.0,True,813.0,3393.0,1.0,5
+S03-C,"HAI anti-CA09 H1N1, day 14",higher in protected,1.0,True,80.0,160.0,1.0,5
+S03-D,"Neutralising titre anti-CA09 H1N1, day 14",higher in protected,0.995,False,960.0,960.0,0.98,5
+S03-E,"Serum IgG anti-Aichi H3N2, day 14",higher in protected,1.0,True,778.0,2283.0,1.0,5
+S03-G,"HAI anti-Aichi H3N2, day 14",higher in protected,1.0,True,80.0,160.0,1.0,5
+S03-H,"Neutralising titre anti-Aichi H3N2, day 14",higher in protected,1.0,True,480.0,960.0,1.0,5
+S03-K,"MLN germinal-centre B cells, day 7",higher in protected,1.0,True,3.15,4.62,1.0,5
+S04-A/ICOSlo,"MLN ICOS-low Tfh, day 7",higher in protected,0.96,False,3.759,3.5754,0.96,5
+S04-A/ICOShi,"MLN ICOS-high Tfh, day 7",higher in protected,1.0,True,4.6536,6.6603,1.0,5
+S04-B Foxp3,"MLN Tfr (Foxp3+ of CXCR5+ICOShi CD4), day 7",lower in protected,1.0,True,18.5,13.2,1.0,5
+S04-B Tfh:Tfr,"MLN Tfh:Tfr quotient, day 7",higher in protected,1.0,True,4.40541,6.57576,1.0,5
+S04-C,"MLN Tfr, day 30",lower in protected,0.815,False,12.0,18.1,0.8,5
+S04-D,"Lung Treg (CD4+Foxp3+), day 7",lower in protected,1.0,True,4.92,3.43,1.0,3
+S05-D,"Lung Ki-67+ CD8 T, day 3",higher in protected,1.0,True,5.37,6.17,1.0,5
+S05-E,"Lung GZMB+ CD8 T, day 3",higher in protected,1.0,True,3.94,4.22,1.0,5
+S05-F,"MLN IFN-g+ CD8 T after rgH5N1 restimulation, day 14",higher in protected,1.0,True,2.17,5.18,1.0,5
+S05-G,"MLN IFN-g+ CD8 T after rgH5N1 restimulation, day 60",higher in protected,1.0,True,4.21,7.1,1.0,5
+S05-H,"MLN GZMB+ CD8 T after rgH5N1 restimulation, day 60",higher in protected,1.0,True,1.4,2.32,1.0,5
+S05-I,"Lung resident-memory CD8 T (CD69+CD103+), day 25",higher in protected,1.0,True,1.53,3.03,1.0,5
+S11-E,Lung CD206+ macrophages,lower in protected,1.0,True,59.6,55.3,1.0,5
+S13-H,IgG+ of MLN B220+ cells,higher in protected,1.0,True,14.23,18.22,1.0,5
+S13-I,"Serum IgG anti-CA09 H1N1, day 28 after day-14 boost",higher in protected,0.98,False,7065.0,6175.0,0.92,5
+S13-J,"Serum IgG anti-Aichi H3N2, day 28 after day-14 boost",higher in protected,1.0,True,2336.0,4891.0,1.0,5
+S14-A H1N1,MLN IFN-g+ CD8 T after CA09 H1N1 restimulation,higher in protected,1.0,True,5.7,7.9,1.0,5
+S14-A H3N2,MLN IFN-g+ CD8 T after Aichi H3N2 restimulation,higher in protected,1.0,True,4.8,7.5,1.0,5

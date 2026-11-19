@@ -1,0 +1,90 @@
+{
+  "id": "2197d815-a6a8-48e0-8e4c-543e3bd23757",
+  "problem_run_id": "32ae525e-114f-41da-bad3-a449759a9bb3",
+  "grading_run_id": "ece6cfc2-db37-432c-8bed-353fd861854f",
+  "grading_strategy_type": "agentic_grader",
+  "is_auxiliary_grade": false,
+  "normalized_score": 0.94,
+  "subscores": [
+    {
+      "name": "overall",
+      "score": 0.94,
+      "max_score": 1,
+      "weight": 1,
+      "reasoning": "I checked the model's deliverables: the proposal as docx, PDF and markdown source, the evidence workbook, the figures, the analysis tables and the final message. I compared them with the original inputs (`psln_program_dataset.xlsx` and the annotation PDF) using my own R and Python code.\n\n**Task requirements**\n- **Recommendation first:** met. Section 1 opens with \"keep, but as a gated preclinical programme.\" The model says it took \"the asset\" to be PSLN-344 and gives the answer for PSLN-212 too (do not advance for older adults). Its final message asks the user to confirm which one is meant.\n- **Next studies, what each must establish, and endpoints:** met.\n  - There are six stages: a records audit (Step 0) and Studies 1–5.\n  - Each has a \"must establish\" line, endpoint thresholds shown against today's value, and a stop rule.\n  - The design comparisons are sensible: a Mn²⁺-only arm, a cGAMP+Mn²⁺ arm, an enhanced-vaccine comparator, manganese reaching the brain, and ferret studies.\n- **Target demographic for TAM:** met. The core segment is adults 65+ who receive seasonal inactivated vaccine. A segment table includes \"what to size.\" It makes clear this is an adjuvant, not a stand-alone product, and that it would replace the injected dose.\n- **Mechanism and biomarkers:** met.\n  - The mechanism figure separates links tested by an intervention from links that rest only on group differences.\n  - The biomarker table gives thresholds and says plainly that these are differences between regimens, not correlates within animals.\n- **What is given up, and what was ruled out:** met. Sections 6 and 7 cover both.\n- **Every number cited:** met. Each number carries an evidence tag, and the ledger maps it to cell ranges and to a script and output table.\n\n**Numbers I recomputed from the raw data (all match)**\n- **Survival counts:**\n  - Headline set: 44/56, 6/56 and 0/56.\n  - All experiments as printed: 68/80, 11/80 and 1/80; young benchmark 69/70.\n  - Rapid protection 21/24, day 14 vs day 60 20/21 vs 14/21, background deaths 4/21.\n- **Survival statistics:**\n  - Stratified log-rank χ² 60.7, p = 6.5e-15.\n  - Cox hazard ratio 0.107 (0.056–0.205).\n  - Clopper–Pearson intervals, and Fisher p-values of 0.045, 0.48, 2.3e-16, 0.005 and 6e-6.\n- **Immune and dose data:** interferon-β 16.6/37.1/37.6, dose–response means, S08-D weight lowest points (96.4 and 98.2), S09-A cytokines after converting the log10 values, and many flow read-outs (S02, S04, S05, S07, S11).\n- **Power:** 24 per arm gives 93% and 76%; n = 7 gives 69% and 3%.\n\n**Data defects the model flagged (checked against the raw data)**\n- S06-C and S06-D are identical. S15-D's carried-forward weights imply 2 PSLN-344 deaths and 2 young deaths, contradicting the 7/7 in the S06-D table.\n- S03-I and S03-J labels conflict with their weight blocks S13-F and S13-G.\n- The S03-B and S03-F ratio headers are rotated; I reproduced the ratios exactly from the S13 subclass titres.\n- 35 of S11-B's \"neutrophil\" values copy S11-A, and the second PSLN-212 animal copies the fourth.\n- The second S09-A panel is really the 72-hour data from S01-A.\n- S15-C and S15-I share traces, with 40 of 42 values identical (exact).\n- The group-size mismatch sits in S09-F, not S09-B as the annotation says.\n- The analysis is sensitive to all of these, and the model still gives the worst-case result.\n\n**Minor issues**\n- The document is long (25 pages), though it puts the recommendation first.\n- The model admits it could not view the docx or PDF layout. Their structure looks clean: embedded fonts, 10 tables, 9 figures and no leftover markdown.\n- Some thresholds are the model's own judgement, and it labels them as such.\n- The data-integrity pattern is framed as \"record defects\" plus an audit, not a stronger integrity escalation.\n- Small rounding differences (for example, an upper limit of 0.205 reported as 0.20).\n\nThis is an accurate, thoroughly traced deliverable that meets every requirement and has only minor issues."
+    }
+  ],
+  "weight": 1,
+  "allow_unbounded": false,
+  "created_at": "2026-11-19T08:15:03.549318Z",
+  "has_metadata": true,
+  "metadata_byte_size": 449200,
+  "metadata": {
+    "agentic_grader": {
+      "cc_harness": false,
+      "container_mode": "fresh_with_policy_setup",
+      "scoring_mode": "single_score",
+      "grading_model": "claude-opus-5-5",
+      "grading_model_slug": "claude-opus-5-5",
+      "grading_container_id": "safe-able-odd-stance",
+      "grader_error": false,
+      "full_debug_s3_hint": "biome/agentic-grading-transcripts/safe-able-odd-stance/grading_debug.json",
+      "grading_turns_count": null,
+      "grading_tokens_consumed": null,
+      "grader_context_window_effective": 1000000,
+      "grader_context_window_source": "default",
+      "policy_outputs_transfer": {
+        "mode": "snapshot_mount",
+        "snapshot_source": "pre_grade",
+        "snapshot_ttl": null,
+        "snapshot_seconds": 1.1394648109562695,
+        "reader_uid": 1000,
+        "handin_max_bytes": 2147483648,
+        "grading_box_seconds": 52.354,
+        "grading_box_attempts": 1,
+        "mount_verified": true,
+        "unmounted": true,
+        "detach_checks": [
+          "mounts",
+          "same_device",
+          "ext4_sysfs",
+          "device_read"
+        ],
+        "device_read_refused": true,
+        "present_seconds": 0.965,
+        "probe": "dir",
+        "measured_bytes": 8305974,
+        "entries": 75,
+        "status": "ok",
+        "declared_path_missing": false,
+        "declared_path_wrong_type": false,
+        "copied_files": 71,
+        "copied_bytes": 8224371,
+        "copies_inert": true
+      },
+      "import_shadowing_set_aside": [],
+      "grader_attempts": 1,
+      "grader_failed_attempts": [],
+      "grader_failed_attempt_errors": [],
+      "grader_failed_attempts_ms": 0,
+      "grader_planted_shape": null,
+      "policy_markup_hits": 0,
+      "handin_integrity": "unchanged",
+      "handin_integrity_drift_only": true
+    },
+    "rubric_evaluations": [
+      {
+        "name": "overall",
+        "score": 0.94,
+        "max_score": 1,
+        "weight": 1,
+        "reasoning": "I checked the model's deliverables: the proposal as docx, PDF and markdown source, the evidence workbook, the figures, the analysis tables and the final message. I compared them with the original inputs (`psln_program_dataset.xlsx` and the annotation PDF) using my own R and Python code.\n\n**Task requirements**\n- **Recommendation first:** met. Section 1 opens with \"keep, but as a gated preclinical programme.\" The model says it took \"the asset\" to be PSLN-344 and gives the answer for PSLN-212 too (do not advance for older adults). Its final message asks the user to confirm which one is meant.\n- **Next studies, what each must establish, and endpoints:** met.\n  - There are six stages: a records audit (Step 0) and Studies 1–5.\n  - Each has a \"must establish\" line, endpoint thresholds shown against today's value, and a stop rule.\n  - The design comparisons are sensible: a Mn²⁺-only arm, a cGAMP+Mn²⁺ arm, an enhanced-vaccine comparator, manganese reaching the brain, and ferret studies.\n- **Target demographic for TAM:** met. The core segment is adults 65+ who receive seasonal inactivated vaccine. A segment table includes \"what to size.\" It makes clear this is an adjuvant, not a stand-alone product, and that it would replace the injected dose.\n- **Mechanism and biomarkers:** met.\n  - The mechanism figure separates links tested by an intervention from links that rest only on group differences.\n  - The biomarker table gives thresholds and says plainly that these are differences between regimens, not correlates within animals.\n- **What is given up, and what was ruled out:** met. Sections 6 and 7 cover both.\n- **Every number cited:** met. Each number carries an evidence tag, and the ledger maps it to cell ranges and to a script and output table.\n\n**Numbers I recomputed from the raw data (all match)**\n- **Survival counts:**\n  - Headline set: 44/56, 6/56 and 0/56.\n  - All experiments as printed: 68/80, 11/80 and 1/80; young benchmark 69/70.\n  - Rapid protection 21/24, day 14 vs day 60 20/21 vs 14/21, background deaths 4/21.\n- **Survival statistics:**\n  - Stratified log-rank χ² 60.7, p = 6.5e-15.\n  - Cox hazard ratio 0.107 (0.056–0.205).\n  - Clopper–Pearson intervals, and Fisher p-values of 0.045, 0.48, 2.3e-16, 0.005 and 6e-6.\n- **Immune and dose data:** interferon-β 16.6/37.1/37.6, dose–response means, S08-D weight lowest points (96.4 and 98.2), S09-A cytokines after converting the log10 values, and many flow read-outs (S02, S04, S05, S07, S11).\n- **Power:** 24 per arm gives 93% and 76%; n = 7 gives 69% and 3%.\n\n**Data defects the model flagged (checked against the raw data)**\n- S06-C and S06-D are identical. S15-D's carried-forward weights imply 2 PSLN-344 deaths and 2 young deaths, contradicting the 7/7 in the S06-D table.\n- S03-I and S03-J labels conflict with their weight blocks S13-F and S13-G.\n- The S03-B and S03-F ratio headers are rotated; I reproduced the ratios exactly from the S13 subclass titres.\n- 35 of S11-B's \"neutrophil\" values copy S11-A, and the second PSLN-212 animal copies the fourth.\n- The second S09-A panel is really the 72-hour data from S01-A.\n- S15-C and S15-I share traces, with 40 of 42 values identical (exact).\n- The group-size mismatch sits in S09-F, not S09-B as the annotation says.\n- The analysis is sensitive to all of these, and the model still gives the worst-case result.\n\n**Minor issues**\n- The document is long (25 pages), though it puts the recommendation first.\n- The model admits it could not view the docx or PDF layout. Their structure looks clean: embedded fonts, 10 tables, 9 figures and no leftover markdown.\n- Some thresholds are the model's own judgement, and it labels them as such.\n- The data-integrity pattern is framed as \"record defects\" plus an audit, not a stronger integrity escalation.\n- Small rounding differences (for example, an upper limit of 0.205 reported as 0.20).\n\nThis is an accurate, thoroughly traced deliverable that meets every requirement and has only minor issues."
+      }
+    ],
+    "strategy_type": "agentic_grader",
+    "grade_key": "agentic_grader",
+    "label": null,
+    "strategy_weight": 1,
+    "is_auxiliary": false
+  }
+}
