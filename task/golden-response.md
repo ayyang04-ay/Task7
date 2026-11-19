@@ -16,10 +16,10 @@ Advance it.
 In all six configurations where aged animals were vaccinated and then challenged
 with a virus of a different subtype, PSLN-344 separated from the vaccine alone
 (p = 0.0002 in every block) and from PSLN-212, which is the same liposome without the
-manganese (p = 0.0009 to 0.0151). On survival the aged animals were not
+MN-2 (p = 0.0009 to 0.0151). On survival the aged animals were not
 distinguishable from young animals given PSLN-212 in any configuration (p = 0.060
 to 0.317). PSLN-212 itself fails to separate from vaccine alone in three of the
-six (p = 0.088, 0.111, 0.066), so the manganese is carrying the effect rather than
+six (p = 0.088, 0.111, 0.066), so the MN-2 is carrying the effect rather than
 the liposome.
 
 Two further blocks, S15-L and S15-N, are aged, vaccinated and challenged but state
