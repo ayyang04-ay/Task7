@@ -116,10 +116,13 @@ FROZEN = {
 # destroying occurrences; removing a whole sentence on purpose is a different thing. Declaring
 # the expected count rather than exempting the file keeps the check mechanical: if any of
 # these moves again, in either direction, it still trips.
+# ('exact', n) where any occurrence at all would be a real signal, so the count is pinned.
+# ('min', n) for prose documents, where later prose may legitimately add mentions but a drop
+# below the floor still means something was destroyed.
 DELIBERATE_LOSS = {
-    'task/prompt.txt': {'PSLN-344': 0},               # r5 dropped the asset name from the prompt
-    'build/make-artifacts.py': {'PSLN-344': 0},        # r5 moved the prompt slice marker
-    'build/anton-brief-psql25c1.md': {'PSLN-344': 3},  # r5 rewrote the prompt draft it holds
+    'task/prompt.txt': {'PSLN-344': ('exact', 0)},              # r5 dropped the asset name
+    'build/make-artifacts.py': {'PSLN-344': ('exact', 0)},      # r5 moved the slice marker
+    'build/anton-brief-psql25c1.md': {'PSLN-344': ('min', 3)},  # r5 rewrote the prompt draft
 }
 
 GUARD_IN_ANNOTATED = ['PSLN-344', 'CMP-204', 'R848', 'SRB', 'Ly6C', 'CD11b',
@@ -180,9 +183,11 @@ for rel, why in ANNOTATED.items():
     lost = {}
     for g in GUARD_IN_ANNOTATED:
         if g in allow:
-            if got_counts[g] != allow[g]:
-                bad.append('deliberate-loss declaration for %s is stale: declared %d, found %d'
-                           % (g, allow[g], got_counts[g]))
+            kind, want = allow[g]
+            ok = (got_counts[g] == want) if kind == 'exact' else (got_counts[g] >= want)
+            if not ok:
+                bad.append('deliberate-loss declaration for %s is stale: declared %s %d, found %d'
+                           % (g, kind, want, got_counts[g]))
         elif got_counts[g] < want_counts[g]:
             lost[g] = (want_counts[g], got_counts[g])
     if lost:
