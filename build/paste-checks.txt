@@ -3,13 +3,13 @@ Regenerate with: python3 -I make-artifacts.py
 
 prompt.txt
 ----------
-Word count      : 206
-Character count : 1194
-sha256 prefix   : f95327f4ae1d
-Paragraphs      : 5, each one unbroken line. Confirm no hard wraps survived the paste.
+Word count      : 231
+Character count : 1338
+sha256 prefix   : bf4e427cdf08
+Paragraphs      : 6, each one unbroken line. Confirm no hard wraps survived the paste.
 
 Required last line, in full:
-Tell me what you considered and ruled out.
+All the data is included and updated as of today (Nov1 2026). Make sure that your analyses and recommendations are grounded in our data, which is what the committee will trust the most.
 
 grader-guidelines.txt
 ---------------------

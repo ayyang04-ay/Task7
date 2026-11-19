@@ -1,5 +1,5 @@
 > **RUN LABELS SUPERSEDED, 2026-11-19 (brief revision 5).** The prompt was rewritten and is
-> now `f95327f4ae1d`, so the 16 runs analysed here answered a prompt that is no longer
+> now `bf4e427cdf08`, so the 16 runs analysed here answered a prompt that is no longer
 > shipped. **Every F1-F8 / O1-O8 label and every line-number citation in this file is
 > retired.** Re-screen against the new batch before anything here ships.
 >

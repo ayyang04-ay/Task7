@@ -1,9 +1,11 @@
-The asset is a small-molecule STING agonist. Preliminary data has indicated that STING is an attractive target, and we've moved into preclinical R&D to develop an efficacious drug and vehicle. For an upcoming portfolio review I need to justify every asset to the committee.
+I'm heading a project on a proprietary asset, a small-molecule STING agonist, which includes both the active drug and an appropriate vehicle. For an upcoming portfolio review I need to justify my project to the committee.
 
-The resulting data of these experiments is attached. All analysis and recommendations should be grounded in our data, which serves as ground truth.
+I want your objective recommendation. How does my asset look? Would you keep this asset in our portfolio?
 
-I want your recommendation: do we advance this asset? Regardless of yes or no, I need a strong defensible case to present, so build out the position with as much support and defense as the data allows. Every number you rely on needs to cite the relevant data and state how you reduced it, because the committee will check them.
+Build out a proposal for next steps for me to take to the committee. Lead with your recommendation. After the initial recommendation, identify and detail next steps: what would the next studies have to establish, and for each one, what are the endpoints, populations, comparators, readouts and timing? Every number you rely on needs to cite the relevant data and analysis, because the committee will check. The proposal should also include a target demographic so that our market research team can check the TAM. The proposal should also utilize our data to build out a clear MoA and any biomarkers we can use to validate efficacy.
 
-And either way I need the forward view, because if I drop this I have to be able to say what we are dropping and why. What is actually driving the protection? Is there a biomarker of efficacy worth carrying forward, could it go into patients, and in what role? What would the next studies have to establish, and for each one, what are the endpoints, populations, comparators, readouts and timing?
+If I drop this I have to be able to tell the committee exactly what we are giving up and why, so the case needs to be objective and defensible.
 
 Tell me what you considered and ruled out.
+
+All the data is included and updated as of today (Nov1 2026). Make sure that your analyses and recommendations are grounded in our data, which is what the committee will trust the most.

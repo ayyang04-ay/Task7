@@ -61,41 +61,70 @@ enabling carrier counts under a small-molecule-only scope is their call. If the 
 modality class, this qualifies. If it means the bare molecule, it does not, and no wording
 changes that. Ask before submitting.
 
-### Prompt draft (REVISION 5 — word count restated in the audit below), flat text as pasted
+### Prompt draft (REVISION 6 - word count restated in the audit below), flat text as pasted
 
-The asset is a small-molecule STING agonist. Preliminary data has indicated that STING is an attractive target, and we've moved into preclinical R&D to develop an efficacious drug and vehicle. For an upcoming portfolio review I need to justify every asset to the committee.
+I'm heading a project on a proprietary asset, a small-molecule STING agonist, which includes both the active drug and an appropriate vehicle. For an upcoming portfolio review I need to justify my project to the committee.
 
-The resulting data of these experiments is attached. All analysis and recommendations should be grounded in our data, which serves as ground truth.
+I want your objective recommendation. How does my asset look? Would you keep this asset in our portfolio?
 
-I want your recommendation: do we advance this asset? Regardless of yes or no, I need a strong defensible case to present, so build out the position with as much support and defense as the data allows. Every number you rely on needs to cite the relevant data and state how you reduced it, because the committee will check them.
+Build out a proposal for next steps for me to take to the committee. Lead with your recommendation. After the initial recommendation, identify and detail next steps: what would the next studies have to establish, and for each one, what are the endpoints, populations, comparators, readouts and timing? Every number you rely on needs to cite the relevant data and analysis, because the committee will check. The proposal should also include a target demographic so that our market research team can check the TAM. The proposal should also utilize our data to build out a clear MoA and any biomarkers we can use to validate efficacy.
 
-And either way I need the forward view, because if I drop this I have to be able to say what we are dropping and why. What is actually driving the protection? Is there a biomarker of efficacy worth carrying forward, could it go into patients, and in what role? What would the next studies have to establish, and for each one, what are the endpoints, populations, comparators, readouts and timing?
+If I drop this I have to be able to tell the committee exactly what we are giving up and why, so the case needs to be objective and defensible.
 
 Tell me what you considered and ruled out.
 
+All the data is included and updated as of today (Nov1 2026). Make sure that your analyses and recommendations are grounded in our data, which is what the committee will trust the most.
+
 ### Prompt audit
 
-Passes: no persona; terse brief, situation then ask then stop; no numbered steps,
+Passes: no persona; terse brief, situation then ask; no numbered steps,
 tool names, cautions or hints; load-bearing sources not named; spoken by the person
 who owns the decision; no decision rule stated; no answer set printed; the solver
-constructs the verdict in its own words with no format prescribed; what was ruled
+constructs the verdict in its own words, with no sections, length or order
+prescribed beyond asking that the recommendation come first, which the guidance
+permits in the prompt and forbids only in the grader; what was ruled
 out is asked as a question rather than mandated as a heading; reporting conventions
-mounted rather than stated; the asks are imperative and concrete; the
+mounted rather than stated; the
 wrong-but-attractive conclusion is expressible; flat text. Word count is whatever
 `build/paste-checks.txt` reports after regeneration — check it there, not here.
 
-Deprecations confirmed absent: no as-of date or analysis cut-off; no output file,
-path, directory or named artifact; no no-web or no-search line; no request for
-saved analysis artifacts; no mandated output headings or prescribed section order.
+As-of date: present from revision 6, stated as (Nov1 2026) in the closing
+paragraph. Revisions 1 to 5 carried none, which this brief previously recorded as a
+deliberate absence; that was wrong, since the date is a hard requirement and fixes
+the analysis to one point so the task solves the same way whenever it is solved. The
+date is in the past and so is legal. It is spelled as the writer wrote it.
 
-Provenance holds, one notch softer than before. "All analysis and recommendations
-should be grounded in our data" is on its own the weak phrasing the guidance names
-as insufficient, but the prompt also asks each number to cite the relevant data and
-state how it was reduced. The reduction clause is the load-bearing half: it is what
-makes a figure recomputable rather than merely attributed. Dropping the earlier
-file-level wording removes a pointer but not the guard. With saved artifacts
-deprecated this is the only remaining defence against invented figures, so it must
-not be cut back to the grounding sentence alone.
+Deprecations confirmed absent: no output file,
+path, directory or named artifact; no no-web or no-search line; no request for
+saved analysis artifacts; no mandated output headings.
+
+Three things this version does not pass cleanly, recorded rather than fixed. The
+closing paragraph puts the scene after the final ask, so the brief no longer reads
+situation then ask then stop; a truncated paste now loses the as-of date rather than
+the ruled-out line, and `paste-checks.txt` recomputes its required last line from
+whatever is actually last, so the check follows the text. "How does my asset look?"
+is an evaluative framing of the kind the guidance warns invites a posture rather than
+a product; it sits alongside two concrete asks for the same thing. And the demographic
+is wanted so market research "can check the TAM", which points at sizing work the
+room cannot support, since no epidemiology or pricing is mounted and the golden
+carries no TAM content.
+
+Provenance, revision 6. The prompt asks each number to "cite the relevant data and
+analysis" and no longer asks the solver to state how the figure was reduced. Earlier
+revisions carried the reduction clause and this brief argued it was the load-bearing
+half, on the grounds that it is what makes a figure recomputable rather than merely
+attributed, and that with saved artifacts deprecated it was the only remaining defence
+against invented figures. The writer's position is that the reduction is covered by the
+analysis step, and that is the shipped wording. Recorded because the change is
+deliberate and because the one verified failure mode is itself a reduction error, so if
+a future panel makes that mode harder to see in the transcripts, this clause is the
+first thing to look at.
+
+Grounding is also one notch softer than revision 5. "Which is what the committee will
+trust the most" replaces "which serves as ground truth". That is deliberate and it
+reduces the ambiguity QA filed as an error in findings 1 and 6, where the ground-truth
+framing against the workbook's seeded contradictions left audit-led declines
+unresolvable by the prompt.
 
 Three checklist items this version drops. Recorded so the choice is on the record
 rather than silent.
@@ -793,3 +822,33 @@ of one trajectory and a thin mode set.
 - `verify-rename.py`: `task/prompt.txt` and `build/make-artifacts.py` moved from the strict
   byte-identity list to the annotated class, and a `DELIBERATE_LOSS` map now declares the
   expected `PSLN-344` count per file rather than exempting the guard.
+
+### Revision 6 - 2026-11-19
+
+Prompt rewritten again, and the data-room files renamed. `task/prompt.txt` is now
+`bf4e427cdf08`, 231 words, 1,338 characters, 6 paragraphs. The previous revision was
+`f95327f4ae1d` at 206 words.
+
+- Opening is spoken in the first person by the person who owns the decision, and names
+  the asset as a small-molecule STING agonist "which includes both the active drug and an
+  appropriate vehicle". Revision 5's "improve our drug efficacy" wording was dropped: it
+  implied a second drug the room does not contain.
+- The decision is framed as portfolio retention rather than a bare "advance", which gives
+  the gate a referent. Sufficiency is judged against keeping the project funded.
+- An as-of date is present for the first time. See the prompt audit.
+- The answer set is no longer printed. Revision 5's "Regardless of yes or no" and a draft
+  "(yes or no)" both enumerated the two verdicts; neither survives.
+- Both branches now carry named products. Keep asks for the target demographic, the MoA
+  and the biomarkers; drop asks what is forfeited and why. Earlier drafts gated the three
+  keep products alone, which on the retired panel's 12-to-4 split would have left a
+  quarter of the runs producing a third of the deliverable.
+- "Lead with your recommendation" prescribes placement in the prompt, which the guidance
+  permits; it is the grader that must not score placement.
+- The reduction clause is gone and the grounding line is softer. Both are the writer's
+  call and both are recorded in the prompt audit.
+- Data room renamed from `adjuvant_program_*` to `psln_program_*`. Filenames only. Bytes
+  unchanged at `f293502992c7` and `83f2e9fb45db`, and the word "adjuvant" remains in the
+  annotation text 32 times.
+- Three items the audit records as not passing cleanly rather than fixed: the closing
+  paragraph puts scene after ask, "How does my asset look?" is an evaluative framing, and
+  the TAM clause points at sizing work the room cannot support.
