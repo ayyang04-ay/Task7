@@ -16,52 +16,73 @@ RLS short ID `psql25c1`, task `task_4ce55343502b4d17b2182158ad6e4533`, campaign
 
 ---
 
-## 1. START HERE — the sweep is done; the panel is the last unverified thing
+## 1. START HERE — the package is submission-ready; the panel has to be re-run
 
-**Everything mechanical and everything the verification sweep found is closed.** Three
-independent audits ran against the renamed files and their findings are actioned: a
-reference audit of every cited number, an adversarial leakage red-team, and an audit of
-every grader A and B item. Sections 7 and 8 carry what they found and what was done.
+**State as of 2026-11-19, branch `claude/exciting-cray-mkihzd-v3`, head `7b3508b`.**
 
-**One thing was never obtained and will not be: an independent solvability read.** See
-standing decision 13. Seven launches across four configurations died on the same
-`[reasoning_extraction]` safeguard flag, so the 16-run panel is the solvability test by
-decision rather than by omission. What to do with the first batch is in that decision,
-and `fa/solvability-checklist.md` is the screen to run against it.
+The five shipped artifacts are built, audited and consistent. The solvability screen has
+been run and the room passes. One failure mode is verified and written up. **The one thing
+blocking the deliverable is that the prompt changed after the panel ran, so the 16
+trajectories are retired and a new batch is needed.**
 
-**So the order of work from here is:**
+### What is done
 
-1. Re-verify the five artifacts and paste them per `build/paste-checks.txt` (section 4).
-2. Run the panel. 16 independent samples, no subagent fanout.
-3. **Before analysing for failure modes, screen the batch for solvability** against
-   `fa/solvability-checklist.md`. A route-necessary leg that no run reaches is a broken
-   room, not a failure mode, and the distinction decides whether the batch is FA
-   material or a rebuild. Legs 2, 3, 6 and 13 are the exposed ones: they rest on the
-   annotation alone, and the annotation absorbed 313 of the rename substitutions.
-4. Then the failure analysis. Section 9 has the ledger status and what supersedes what.
+| | |
+|---|---|
+| Prompt | `f95327f4ae1d`, 206 words. Rewritten in revision 5 for the small-molecule guidance |
+| Grader | `c545a600076a`. Regenerates from the brief with no drift |
+| Golden | `4a91dfde8b74`. 253 checks, 0 mismatches, `CORRESPONDENCE` 120/120 |
+| Data room | `f293502992c7` + `83f2e9fb45db`. 6,819/6,819 numeric cells identical to the publisher original |
+| Solvability | all 23 route-necessary legs derived by at least one run. The four annotation-only legs (2, 3, 6, 13) pass, so the annotation survived the renames |
+| Failure analysis | one mode, two sites, verified three ways. Ledger and writer handoff in `fa/psql25c1/` |
 
-**Why the sweep was needed, kept because it explains the shape of the repo.** The
-renames touched the workbook, the annotation, the golden, the brief and five scripts.
-Every check run against them in-session was mechanical: string counts, audits,
-correspondence, provenance greps. All green, and all insufficient twice before — a bulk
-rename of this class corrupted 73 identifiers the first time it ran, and a red-team
-found a published-compound-name leak in files that had already passed four provenance
-sweeps. The third recurrence was found in this session: the asset name itself was the
-source paper's title word. Independent adversarial reads found what greps did not, every
-time. Budget for them.
+### The order of work from here
 
-**Expect and do not treat as defects:** the workbook's internal contradictions, both
-`S09-A` headers reading 16h, `S06-D` duplicating `S06-C`, `S15-L`/`S15-N` carrying no
-stated challenge virus, the unlabelled region at `S08` rows 89–101, no timepoint past
-72 h, no HA dose-ranging, no per-animal link between an immune measure and an outcome,
-the stated-n mismatches, the `S10-A` block holding `S03-E` content, the `S06` duplicated
-printed labels, the `NP366-374` tetramer against the stated strain, and `S05-A`'s
-ambiguous immunogen.
+1. **Re-run the panel against the current prompt.** 16 independent samples, no subagent
+   fanout. This is the blocker, and it exists because revision 5 rewrote the prompt.
+2. **Re-screen the FA against the new batch.** Every file in `fa/psql25c1/` carries a
+   banner naming what survives the switch and what does not. The mode definition,
+   counterfactual figures, block lists and the 72 h contrasts all survive; run labels, line
+   numbers, attribution tables, prevalence and the exemplar identifications do not. The
+   screening is cheap the second time — the mode definition, the probes and the numeric
+   spellings are written and validated, so it is a re-count, not a re-derivation.
+3. **Then the writer types the FA in Studio**, from `fa/psql25c1/fa_outline.md` and
+   `fa_tables.md`, retyped rather than transcribed. Phases 3 and 4 of `anton-fa` (QC of the
+   draft, then clause-level drop-ins) have not run because there is no draft yet.
 
-**If a sweep is ever re-run**, the briefs that worked are worth reusing and are
-reconstructable from sections 7 and 8; `claude/solvability-room` is an orphan branch
-holding only the two data-room files, with no design document, golden, grader, script or
-history, kept as a ready-made isolated checkout for a manual solvability pass.
+### The one mode, in one line
+
+Every run in the retired panel measured the aged response against a **differently
+formulated** young arm: `S01-A` aged+candidate 37.11 over young+parent 37.60 gives the
+0.98 "restored to young" figure, while the same block holds young+candidate at 50.70 and
+the formulation-held comparison is 0.732. Second site: the same denominator on the 72 h
+panel, where it inflates the asset's risk rather than its benefit. Two runs got the 72 h
+version right (F4, F8 in the retired labels), which is the strongest evidence the room does
+not force the error — recover those exemplars from the new batch.
+
+### Open questions that are not Claude's to settle
+
+- **Does the programme guidance accept a small-molecule active with an enabling carrier?**
+  If it means modality class, this task qualifies as written. If it means the bare
+  molecule, it does not, and no wording changes that, because the formulation is in the
+  data rather than in the prose. Section 1 of the brief carries the full reasoning. Ask
+  before submitting.
+- **4 of 8 ClaudeScope clusters are missing** from the QA export (`findingCount: 8`,
+  `itemCount: 4`). The only open data gap that could still add a mode. A re-pull closes it.
+- **The grader's section C still names an "`S10-A` block holding `S03-E` content"** that the
+  workbook does not contain. Confirmed stale; the golden is clean, so no mode is affected.
+  One-line delete in `build/anton-brief-psql25c1.md` plus a regenerate, no rerun. Left
+  undone because the user judged the grader immaterial to the submission.
+
+### Two traps that have now bitten, in this order
+
+Both are in section 8 in full. Short form: `make-artifacts.py` slices the prompt out of the
+brief on the prompt's **literal opening words**, so any prompt rewrite must move the marker
+— and the marker must not match any other sentence in the brief, or the slice swallows
+whatever lies between. And `verify-rename.py` holds most files to byte-identity with
+`v2`-plus-substitutions, so a deliberate prose edit means moving the file to the annotated
+class; a deliberate *removal* of a never-touch identifier additionally needs declaring in
+`DELIBERATE_LOSS`.
 
 ---
 
@@ -274,9 +295,10 @@ The user settled all of these. Re-opening them has wasted time more than once.
 
 ## 6. What remains
 
-**Blocking:** the sweep in §1. Nothing else.
+**Blocking:** re-run the panel against the revision-5 prompt. Nothing else.
 
-**Then:** resubmit, re-run the panel, write the FA.
+**Then:** re-screen the FA against the new batch, and the writer types it in Studio from
+`fa/psql25c1/fa_outline.md`. Order of work and what survives the batch switch are in §1.
 
 **Both former open calls are now answered by the user. Do not reopen them.**
 
@@ -720,9 +742,21 @@ against a deliberate tamper.
 
 ---
 
-## 9. FA status — the gate is met
+## 9. FA status — one verified mode, awaiting a new batch
 
-Ledger in `fa/error_modes.md`, defect analysis in `fa/task-defects-and-fixes.md`.
+**Current work is in `fa/psql25c1/`, not in the files named below.** `fa/error_modes.md` is
+the 8-run batch from job `91694a59` and is superseded; it stays because §8 cites its Mode 1
+tightening as the source of the grader's B4 wording. The table below is that old batch.
+
+The current ledger, probe notes, solvability screen, QA triage, calibration notes and
+writer handoff are the seven files in `fa/psql25c1/`, each carrying a banner naming what
+survives the revision-5 batch switch. Short version: **one mode, two sites, all 16 runs of
+the retired panel** — the aged response measured against a differently formulated young
+arm. A second mode shipped and was retracted after a Phase 2 probe; three further
+candidates were dropped on the defensibility bar and moved into the should-have-done
+section, which is where the handoff format puts them.
+
+Defect analysis in `fa/task-defects-and-fixes.md`.
 
 | Mode | Trajectories |
 |---|---|
@@ -789,3 +823,60 @@ element's `data` field under `contexts[].conversation.data[].contents[]`, not in
 
 `build/pre-edit-workbook-backup.xlsx` is the publisher's original workbook, kept so any
 integrity claim stays re-checkable. Not uploaded to Studio.
+
+---
+
+## Appendix A. Retired section 1, as it read before 2026-11-19
+
+Kept because it records why the repo has the shape it does, and the solvability
+reasoning in standing decision 13 refers to it.
+
+### (retired) START HERE — the sweep is done; the panel is the last unverified thing
+
+**Everything mechanical and everything the verification sweep found is closed.** Three
+independent audits ran against the renamed files and their findings are actioned: a
+reference audit of every cited number, an adversarial leakage red-team, and an audit of
+every grader A and B item. Sections 7 and 8 carry what they found and what was done.
+
+**One thing was never obtained and will not be: an independent solvability read.** See
+standing decision 13. Seven launches across four configurations died on the same
+`[reasoning_extraction]` safeguard flag, so the 16-run panel is the solvability test by
+decision rather than by omission. What to do with the first batch is in that decision,
+and `fa/solvability-checklist.md` is the screen to run against it.
+
+**So the order of work from here is:**
+
+1. Re-verify the five artifacts and paste them per `build/paste-checks.txt` (section 4).
+2. Run the panel. 16 independent samples, no subagent fanout.
+3. **Before analysing for failure modes, screen the batch for solvability** against
+   `fa/solvability-checklist.md`. A route-necessary leg that no run reaches is a broken
+   room, not a failure mode, and the distinction decides whether the batch is FA
+   material or a rebuild. Legs 2, 3, 6 and 13 are the exposed ones: they rest on the
+   annotation alone, and the annotation absorbed 313 of the rename substitutions.
+4. Then the failure analysis. Section 9 has the ledger status and what supersedes what.
+
+**Why the sweep was needed, kept because it explains the shape of the repo.** The
+renames touched the workbook, the annotation, the golden, the brief and five scripts.
+Every check run against them in-session was mechanical: string counts, audits,
+correspondence, provenance greps. All green, and all insufficient twice before — a bulk
+rename of this class corrupted 73 identifiers the first time it ran, and a red-team
+found a published-compound-name leak in files that had already passed four provenance
+sweeps. The third recurrence was found in this session: the asset name itself was the
+source paper's title word. Independent adversarial reads found what greps did not, every
+time. Budget for them.
+
+**Expect and do not treat as defects:** the workbook's internal contradictions, both
+`S09-A` headers reading 16h, `S06-D` duplicating `S06-C`, `S15-L`/`S15-N` carrying no
+stated challenge virus, the unlabelled region at `S08` rows 89–101, no timepoint past
+72 h, no HA dose-ranging, no per-animal link between an immune measure and an outcome,
+the stated-n mismatches, the `S10-A` block holding `S03-E` content, the `S06` duplicated
+printed labels, the `NP366-374` tetramer against the stated strain, and `S05-A`'s
+ambiguous immunogen.
+
+**If a sweep is ever re-run**, the briefs that worked are worth reusing and are
+reconstructable from sections 7 and 8; `claude/solvability-room` is an orphan branch
+holding only the two data-room files, with no design document, golden, grader, script or
+history, kept as a ready-made isolated checkout for a manual solvability pass.
+
+---
+
