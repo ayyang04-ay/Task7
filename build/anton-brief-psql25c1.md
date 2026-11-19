@@ -14,85 +14,60 @@ and feed adjuvant_program_annotation.pdf. Change log at the end.
 ## 1. THE PROMPT
 
 ### Scene
-Asset is the adjuvant, not a vaccine. Stated indication is IAV vaccine development
-in older adults. Decision is advance or not, for a portfolio review at which every
-asset has to be justified. No dates anywhere, and no fabricated content.
+Asset is the adjuvant, not a vaccine. **Revision 5 removed the stated indication
+and population from the prompt**: it no longer says adjuvant, influenza, or older
+adults. All three are derivable from the room — every challenge block is vaccine
+plus adjuvant, every virus is influenza A, and the annotation states the ages — and
+the solver now has to construct the frame rather than be handed it. Decision is
+advance or not, for a portfolio review at which every asset has to be justified. No
+dates anywhere, and no fabricated content.
 
-### Modality classification (added 2026-11-18)
+### Modality classification (added 2026-11-18, trimmed in revision 5)
 
-**The asset is a small-molecule STING agonist. The development candidate is that
-molecule in a manganese-complexed, pulmonary-surfactant-biomimetic liposomal
-formulation, and the go/no-go is on the molecule as tested — which is to say, in the
-formulation it was tested in, because that is the only data the package contains.**
+**The active moiety is a small-molecule STING agonist. Its carrier is enabling rather than inert:
+candidate and comparator carry the same molecule at the same dose and differ only in the
+carrier's Mn2+, which is where the entire measured efficacy difference sits. The go/no-go
+is therefore on the molecule as tested.**
 
-This is a description of what the package already is, not a change to it. Nothing in
-the prompt, the workbook or the annotation moves. Stated here because the
-classification was not previously written down and the programme's guidance turns on
-it.
+Revision 5 moved the small-molecule framing into the prompt itself, so this section is now
+the design record rather than the only place it is written down. The formulation
+composition is not restated here — it is in the annotation's Materials section, which is
+where the solver should find it.
 
 | | |
 |---|---|
-| Active moiety | a cyclic dinucleotide STING agonist, `CDN-1807` in the shipped room. Two nucleotides; a new chemical entity, not a biologic. The room states no molecular weight, so nothing in the task turns on one |
-| Development candidate | the active encapsulated in a surfactant-biomimetic liposome (DPPC, DPPG, DPPE-PEG2000, cholesterol) with Mn2+ incorporated by coordination polymerization |
-| Comparator | the identical liposome and the identical active at the identical dose, without the Mn2+ |
-| Precedent for the classification | formulation-differentiated small-molecule programmes are ordinary: liposomal amphotericin B, liposomal doxorubicin, nab-paclitaxel. None is a biologic |
+| Active moiety | a cyclic dinucleotide STING agonist, `CDN-1807` in the shipped room. A new chemical entity, not a biologic. The room states no molecular weight and nothing turns on one |
+| Why the carrier is not inert | the active alone in the Mn-free liposome fails to separate from vaccine alone in three of six configurations (p = 0.088, 0.111, 0.066), while the Mn-complexed form separates in all six (p = 0.0009 to 0.0151). The carrier also has its own mechanism experiments: SP-A/D-dependent uptake via the `Sftpa1-/-Sftpd-/-` arm, and type I and type II alveolar epithelial targeting |
+| Precedent | formulation-differentiated small-molecule programmes are ordinary: liposomal amphotericin B, liposomal doxorubicin, nab-paclitaxel. None is a biologic |
 
-**What this framing must not be allowed to imply, and the three reasons it cannot be
-pushed further.**
+**Three limits, kept because each one has already been proposed and rejected once.**
 
-1. **The formulation stays fully visible to the solver.** It is in the annotation's
-   Materials section, in `S08-B` encapsulation efficiency, in `S08-C` and `S01-B`
-   particle uptake with the `Sftpa1-/-Sftpd-/-` arm, in the empty-liposome sham, in
-   the dose unit "micrograms of adjuvant", and in the comparator set. Removing or
-   obscuring any of it would be the companion document asserting what the data
-   denies, which standing rule 2 forbids.
-2. **The measured benefit is attributable to the formulation, not to the active.**
-   Both arms carry the same molecule at the same dose, so every unit of the efficacy
-   delta belongs to the Mn2+ formulation. This is a feature of the task rather than a
-   problem with it: the solver is asked for a go/no-go on an asset whose entire
-   measured advantage comes from how it is formulated, which is a real portfolio
-   tension and is where the task's difficulty lives.
-3. **The failure mode the FA reports IS the formulation contrast.** Mode 1 is a
-   denominator that varies age and formulation together. Any reframing that removed
-   formulation as a variable would delete the only mode in the ledger and fail the
-   gate in standing decision 3. So the classification above is the furthest this can
-   be taken, and it is taken without touching a single datum.
+1. The formulation stays fully visible in the room. Removing or obscuring it would have the
+   companion document assert what the data denies, which standing rule 2 forbids.
+2. The measured benefit belongs to the carrier, not the active. That is a feature — the
+   solver is asked for a go/no-go on an asset whose whole measured advantage comes from how
+   it is formulated.
+3. The FA's only failure mode IS the formulation contrast. Any reframing that removed
+   formulation as a variable would delete the ledger and fail the gate in standing
+   decision 3.
 
-**Open, for whoever owns the programme guidance.** Whether a small-molecule active
-with an enabling formulation counts under a small-molecule-only scope is their call,
-not ours. If the scope means modality class — small molecule against biologic
-against cell and gene — this qualifies as written. If it means the asset must be the
-bare molecule with no formulation component, it does not, and no wording changes
-that. Ask before submitting; the cost of asking is one line and the cost of being
-wrong is the whole task.
+**Rejected as fabrication, recorded so neither is retried:** calling the asset a bare small
+molecule with no carrier, and calling it a small peptide. Both are contradicted by the
+formulation readouts the room carries; the peptide version additionally by the 260 nm
+absorbance assay and by the room naming the payload a cyclic dinucleotide twice.
 
-**Available to pre-register for a future panel, and NOT to be read back into the
-current one.** Under this framing a solver could attribute the formulation's effect
-to the active moiety — advancing "the molecule" on data that only discriminates the
-particle. The 16-run panel ran before this classification was written down, so its
-transcripts are not evidence either way and must not be screened for it after the
-fact.
+**Open, for whoever owns the programme guidance.** Whether a small-molecule active with an
+enabling carrier counts under a small-molecule-only scope is their call. If the scope means
+modality class, this qualifies. If it means the bare molecule, it does not, and no wording
+changes that. Ask before submitting.
 
-### What the answer must carry
-Asked as questions, not headings. No output object is named; the reply is the
-deliverable. In the solver's own words: whether to advance; the case for that call,
-with as much support and defence as the data allows; the file and the reduction
-behind every number relied on; what is driving the protection; whether a biomarker
-of efficacy is worth carrying forward, whether it could go into patients and in
-what role; what the next studies have to establish, each with endpoints,
-populations, comparators, readouts and timing; and what was considered and ruled
-out.
+### Prompt draft (REVISION 5 — word count restated in the audit below), flat text as pasted
 
-### Out-of-scope
-None stated in the prompt as shipped. See item 3 of the audit below.
+The asset is a small-molecule STING agonist. Preliminary data has indicated that STING is an attractive target, and we've moved into preclinical R&D to develop an efficacious drug and vehicle. For an upcoming portfolio review I need to justify every asset to the committee.
 
-### Prompt draft (203 words), flat text as pasted
+The resulting data of these experiments is attached. All analysis and recommendations should be grounded in our data, which serves as ground truth.
 
-PSLN-344 is our manganese-complexed pulmonary-surfactant-biomimetic liposomal STING agonist. It has been in preclinical development as an adjuvant for IAV vaccine development in older adults. For an upcoming portfolio review I need to justify every asset to the committee.
-
-All of our data on PSLN-344 is dumped here. All analysis and recommendations should be grounded in our data, which serves as ground truth.
-
-I want your recommendation: do we advance this adjuvant? Regardless of yes or no, I need a strong defensible case to present, so build out the position with as much support and defense as the data allows. Every number you rely on needs to cite the relevant data and state how you reduced it, because the committee will check them.
+I want your recommendation: do we advance this asset? Regardless of yes or no, I need a strong defensible case to present, so build out the position with as much support and defense as the data allows. Every number you rely on needs to cite the relevant data and state how you reduced it, because the committee will check them.
 
 And either way I need the forward view, because if I drop this I have to be able to say what we are dropping and why. What is actually driving the protection? Is there a biomarker of efficacy worth carrying forward, could it go into patients, and in what role? What would the next studies have to establish, and for each one, what are the endpoints, populations, comparators, readouts and timing?
 
@@ -106,7 +81,8 @@ who owns the decision; no decision rule stated; no answer set printed; the solve
 constructs the verdict in its own words with no format prescribed; what was ruled
 out is asked as a question rather than mandated as a heading; reporting conventions
 mounted rather than stated; the asks are imperative and concrete; the
-wrong-but-attractive conclusion is expressible; 203 words; flat text.
+wrong-but-attractive conclusion is expressible; flat text. Word count is whatever
+`build/paste-checks.txt` reports after regeneration — check it there, not here.
 
 Deprecations confirmed absent: no as-of date or analysis cut-off; no output file,
 path, directory or named artifact; no no-web or no-search line; no request for
@@ -798,3 +774,22 @@ of one trajectory and a thin mode set.
 - Resolution pillar and forcing-chain leg 19 corrected on 2026-11-13; see the golden's
   Study 3 and `fa/psql25c1/solvability_screen.md`.
 
+### Revision 5 — 2026-11-19
+
+- **Prompt rewritten for the small-molecule guidance, and made vaguer on purpose.** The
+  asset is described as a small-molecule STING agonist with a drug-and-vehicle programme
+  behind it. Stated indication and population removed: the prompt no longer contains
+  adjuvant, influenza, IAV, older adults, liposomal, manganese or surfactant, and no longer
+  names the asset. All of it stays derivable from the room. 206 words, `f95327f4ae1d`.
+- **The panel is superseded.** The 16 runs answered the revision-4 prompt, so every
+  trajectory ID in `fa/psql25c1/` is retired. Re-run and re-screen before any of the FA
+  ships. This supersedes revision 4's "no rerun is needed" line above, which was true when
+  written.
+- Modality section trimmed: the prompt now carries the small-molecule framing, so §1 is the
+  design record rather than the only place it is stated. The formulation composition is no
+  longer restated there — it is in the annotation's Materials section, which is where the
+  solver should find it. Its opening sentence was reworded to "The active moiety" so it
+  cannot collide with the generator's prompt slice marker.
+- `verify-rename.py`: `task/prompt.txt` and `build/make-artifacts.py` moved from the strict
+  byte-identity list to the annotated class, and a `DELIBERATE_LOSS` map now declares the
+  expected `PSLN-344` count per file rather than exempting the guard.

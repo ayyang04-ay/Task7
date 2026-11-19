@@ -127,7 +127,7 @@ Mantel-Cox inline, t-tests via an inline incomplete beta.
 
 | Upload as | File | Bytes | sha256 |
 |---|---|---|---|
-| Prompt | `task/prompt.txt` | 1,187 | `cfc0f29bde3c` |
+| Prompt | `task/prompt.txt` | 1,194 | `f95327f4ae1d` |
 | Grader guidelines | `task/grader-guidelines.txt` | 5,666 | `c545a600076a` |
 | Data room | `data-room/adjuvant_program_dataset.xlsx` | 56,787 | `f293502992c7` |
 | Data room | `data-room/adjuvant_program_annotation.pdf` | 59,700 | `83f2e9fb45db` |
@@ -135,7 +135,7 @@ Mantel-Cox inline, t-tests via an inline incomplete beta.
 | Reviewer golden (any of the three) | `task/golden-response.txt` | 25,301 | `85596cc96c4b` |
 | Reviewer golden (any of the three) | `task/golden-response.pdf` | 42,325 | `fc8ca86bd09b` |
 
-Prompt is 201 words, grader 898. Check each paste against `build/paste-checks.txt`,
+Prompt is 206 words, grader 898. Check each paste against `build/paste-checks.txt`,
 which carries word count, character count, hash prefix and required last line. The
 line-break property is the one a diff will not show you: confirm in the form that each
 paragraph is still a single unbroken line, and that the grader's C list is present at
@@ -611,6 +611,32 @@ occ=[m for s in w for r in s.iter_rows() for c in r if isinstance(c.value,str)
 print(len(occ),'occurrences',len(set(occ)),'distinct')
 print({k:v for k,v in collections.Counter(occ).items() if v>1})"
 ```
+
+**Revision 5, 2026-11-19 — prompt rewritten, and the panel is superseded.**
+
+The guidance moved to small molecules. The prompt's opening now describes the asset as a
+small-molecule STING agonist with a drug-and-vehicle programme behind it, and the stated
+indication and population are gone: it no longer contains *adjuvant*, *influenza*, *IAV*,
+*older adults*, *liposomal*, *manganese* or *surfactant*, and no longer names the asset.
+All of it stays derivable from the room, so the work moves from the prompt to the solver.
+One side benefit: the prompt now carries no part of the formulation fingerprint.
+
+`task/prompt.txt` is `f95327f4ae1d`, 206 words. **The 16-run panel answered the previous
+prompt, so every trajectory ID in `fa/psql25c1/` is retired.** The modes should reproduce
+over the same room, but the ledger cannot claim a batch it has not read. Re-screen first.
+
+Two traps this sprang, both worth knowing before the next prompt edit:
+
+- `make-artifacts.py` slices the prompt out of the brief on the prompt's literal opening
+  words, so the marker moved with them. The first attempt used a sentence that also opened
+  the brief's modality section, so the slice swallowed that section and emitted a 657-word
+  prompt. The marker is now the longer `'The asset is a small-molecule STING agonist.
+  Preliminary data'`, and the modality section opens on "The active moiety" instead.
+- `task/prompt.txt` and `make-artifacts.py` were both in `verify-rename.py`'s strict
+  byte-identity list and both moved to the annotated class. Dropping the asset name then
+  tripped the never-touch guard, `PSLN-344` going from two occurrences to none. That is
+  declared rather than exempted, in a new `DELIBERATE_LOSS` map holding the expected count
+  per file, so an unintended change still trips.
 
 **Golden corrected 2026-11-13, and the audit extended with it.** The Study 3 resolution
 clause read "a property of the formulation and not of the aged lung", derived from the

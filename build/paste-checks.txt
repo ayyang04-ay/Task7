@@ -3,9 +3,9 @@ Regenerate with: python3 -I make-artifacts.py
 
 prompt.txt
 ----------
-Word count      : 201
-Character count : 1187
-sha256 prefix   : cfc0f29bde3c
+Word count      : 206
+Character count : 1194
+sha256 prefix   : f95327f4ae1d
 Paragraphs      : 5, each one unbroken line. Confirm no hard wraps survived the paste.
 
 Required last line, in full:

@@ -61,8 +61,6 @@ TEXT = [
     'build/label-mapping.tsv',
     'build/replacements.json',
     'build/replacements.README.txt',
-    'build/make-artifacts.py',
-    'task/prompt.txt',
     'fa/transcript-extract.py',
     'README.md',
 ]
@@ -89,6 +87,12 @@ ANNOTATED = {
     'build/anton-brief-psql25c1.md': 'grader A8 and B2/B3/B4/B8 rewritten after the '
                                      'rubric audit; the grader is generated from here',
     'task/grader-guidelines.txt': 'generated from the brief',
+    'task/prompt.txt': 'revision 5 rewrote the opening: the asset is described as a '
+                       'small-molecule STING agonist and the stated indication and '
+                       'population were removed, so the solver derives them from the '
+                       'room. Generated from the brief',
+    'build/make-artifacts.py': "the prompt slice marker is the prompt's literal opening "
+                               'words, so revision 5 moved it with them',
 }
 # Files deliberately left carrying superseded identifiers, because their job is to
 # record the prior state. Asserted BYTE-IDENTICAL to the reference, with no
@@ -105,6 +109,17 @@ ANNOTATED = {
 FROZEN = {
     'fa/task-defects-and-fixes.md': 'records the original filename as a Leak 1 vector '
                                     'and the pre-rename asset name',
+}
+
+# Identifier counts that revision 5 deliberately reduced, with the exact count expected
+# afterwards. The guard below exists to catch a rename rule firing INSIDE an identifier and
+# destroying occurrences; removing a whole sentence on purpose is a different thing. Declaring
+# the expected count rather than exempting the file keeps the check mechanical: if any of
+# these moves again, in either direction, it still trips.
+DELIBERATE_LOSS = {
+    'task/prompt.txt': {'PSLN-344': 0},               # r5 dropped the asset name from the prompt
+    'build/make-artifacts.py': {'PSLN-344': 0},        # r5 moved the prompt slice marker
+    'build/anton-brief-psql25c1.md': {'PSLN-344': 3},  # r5 rewrote the prompt draft it holds
 }
 
 GUARD_IN_ANNOTATED = ['PSLN-344', 'CMP-204', 'R848', 'SRB', 'Ly6C', 'CD11b',
@@ -161,8 +176,15 @@ for rel, why in ANNOTATED.items():
     # mentions of an identifier -- the first golden edit took PSLN-344 from 35 to 37 --
     # whereas a rename rule firing inside an identifier destroys occurrences and can
     # never create them. Asserting equality here produced a false positive.
-    lost = {g: (want_counts[g], got_counts[g])
-            for g in GUARD_IN_ANNOTATED if got_counts[g] < want_counts[g]}
+    allow = DELIBERATE_LOSS.get(rel, {})
+    lost = {}
+    for g in GUARD_IN_ANNOTATED:
+        if g in allow:
+            if got_counts[g] != allow[g]:
+                bad.append('deliberate-loss declaration for %s is stale: declared %d, found %d'
+                           % (g, allow[g], got_counts[g]))
+        elif got_counts[g] < want_counts[g]:
+            lost[g] = (want_counts[g], got_counts[g])
     if lost:
         bad.append('never-touch identifier lost occurrences: %s' % lost)
     if bad:

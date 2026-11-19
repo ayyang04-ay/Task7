@@ -1,3 +1,17 @@
+> **RUN LABELS SUPERSEDED, 2026-11-19 (brief revision 5).** The prompt was rewritten and is
+> now `f95327f4ae1d`, so the 16 runs analysed here answered a prompt that is no longer
+> shipped. **Every F1-F8 / O1-O8 label and every line-number citation in this file is
+> retired.** Re-screen against the new batch before anything here ships.
+>
+> Survives the switch, since none of it depends on which runs ran: the mode definition, all
+> counterfactual figures (computed from the room), the four-arm block list, the 72 h
+> contrasts, the strict-set survival counts, the dropped-candidate reasoning and the
+> defensibility arguments.
+>
+> Does not survive: run labels, line numbers, the per-run attribution tables, the prevalence
+> claim, and the exemplar identifications. Getting F4 and F8's 72 h exemplars back matters
+> most, since they are the strongest evidence the room does not force the error.
+
 # psql25c1 — QA triage, export `qa_report_psql25c1_v2_f3a468ce`
 
 Freshness: **fresh**. QA ran against problem version `f3a468ce`, the version both panel
