@@ -61,9 +61,9 @@ enabling carrier counts under a small-molecule-only scope is their call. If the 
 modality class, this qualifies. If it means the bare molecule, it does not, and no wording
 changes that. Ask before submitting.
 
-### Prompt draft (REVISION 6 - word count restated in the audit below), flat text as pasted
+### Prompt draft (REVISION 7 - word count restated in the audit below), flat text as pasted
 
-I'm heading a project on a proprietary asset, a small-molecule STING agonist, which includes both the active drug and an appropriate vehicle. For an upcoming portfolio review I need to justify my project to the committee.
+I'm heading a project to develop a proprietary asset, a small-molecule STING agonist, which includes both the active drug and an appropriate vehicle. The assets currently in development are designated PSLN-344 and PSLN-212 in these experiments. Ideally, we take the best asset forward. For an upcoming portfolio review I need to justify my project to the committee.
 
 I want your objective recommendation. How does my asset look? Would you keep this asset in our portfolio?
 
@@ -87,6 +87,33 @@ out is asked as a question rather than mandated as a heading; reporting conventi
 mounted rather than stated; the
 wrong-but-attractive conclusion is expressible; flat text. Word count is whatever
 `build/paste-checks.txt` reports after regeneration — check it there, not here.
+
+Asset identity: named from revision 7. The prompt designates PSLN-344 and PSLN-212 as
+the two preparations in development and asks that the best be taken forward. Revisions 1
+to 6 named no asset, and Taiga QA v1 raised that as an error on two checks: the only
+designation anywhere in the room is the annotation PDF's /Subject metadata, the body
+never uses the words asset, candidate, lead or test article, and PSLN-212 is named 176
+times against PSLN-344's 125, so prominence points at the comparator. Three answers drawn
+from a model that saw only the prompt all assumed an oncology STING programme, and a
+complete proposal written on that framing scored 0.02. The "active drug and an
+appropriate vehicle" phrasing is kept and is accurate once both are named, since the
+annotation states both encapsulate CDN-1807 and differ only in that PSLN-344 incorporates
+Mn2+ by coordination polymerization.
+
+What naming them costs, recorded as a deliberate trade. CMP-204 is no longer in
+contention, so declining to weigh its survival data is now licensed rather than a
+divergence. Under revision 6 two runs were marked down for exactly that: O3 at 0.90 and
+F3 at 0.91, the two lowest scores in the lw0b5ba6 panel, both for ruling out the cGAMP
+payload on Ifnb1 alone without the S03-I survival result, where CMP-204 was 3 of 7
+against PSLN-212's 0 of 7. The golden carries no CMP-204 content, so the comparison could
+not have been graded against it either way.
+
+A second consequence to carry into the golden. Naming both assets couples the asset
+choice to the target demographic, because both formulations sit at ceiling in young
+animals, 24 of 24 each. A split recommendation, PSLN-344 for 65-plus and PSLN-212 for
+younger adults where it is non-inferior and simpler, is responsive to both asks and
+defensible on the room. The golden says only that "for a 65-plus product the age-matched
+one is the relevant one" and never argues against the split.
 
 As-of date: present from revision 6, stated as (Nov1 2026) in the closing
 paragraph. Revisions 1 to 5 carried none, which this brief previously recorded as a
@@ -852,3 +879,22 @@ Prompt rewritten again, and the data-room files renamed. `task/prompt.txt` is no
 - Three items the audit records as not passing cleanly rather than fixed: the closing
   paragraph puts scene after ask, "How does my asset look?" is an evaluative framing, and
   the TAM clause points at sizing work the room cannot support.
+
+### Revision 7 - 2026-11-19
+
+Asset named. `task/prompt.txt` is now `e75574f8f69a`, 252 words, 1,482 characters, 6
+paragraphs. Revision 6 was `bf4e427cdf08` at 231 words.
+
+- Paragraph 1 only. The rest of the prompt is unchanged from revision 6.
+- "a project **to develop** a proprietary asset" is singular on purpose: one asset is the
+  intended outcome while two are in development. Writer-confirmed.
+- Closes the Taiga QA v1 asset-identity error. See the prompt audit for the evidence and
+  for the two costs, which are the CMP-204 divergence and the coupled demographic split.
+- PSLN-344 and PSLN-212 are the authored working names (renames 3 and 4, from AVB-101 and
+  the source publication's own title word), so naming them in the prompt points at
+  nothing outside the room.
+- The slice marker moved with the opening words, from "I'm heading a project on a
+  proprietary asset" to "I'm heading a project to develop a proprietary asset". Confirmed
+  to occur once in this brief.
+- Not changed: the as-of date spelling, the closing paragraph's position, the reduction
+  wording, and the three items the audit records as not passing cleanly.

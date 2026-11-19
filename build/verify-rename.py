@@ -87,14 +87,16 @@ ANNOTATED = {
     'build/anton-brief-psql25c1.md': 'grader A8 and B2/B3/B4/B8 rewritten after the '
                                      'rubric audit; the grader is generated from here',
     'task/grader-guidelines.txt': 'generated from the brief',
-    'task/prompt.txt': 'revision 6 rewrote it again: the asset is described as a '
+    'task/prompt.txt': 'revision 7 names PSLN-344 and PSLN-212 as the two assets in '
+                       'development and asks that the best go forward. Revision 6 before '
+                       'it: the asset is described as a '
                        'small-molecule STING agonist with a vehicle, the decision is '
                        'framed as portfolio retention, an as-of date was added, and '
                        'both the keep and drop branches carry named products. The '
                        'indication and population stay out, so the solver derives '
                        'them from the room. Generated from the brief',
     'build/make-artifacts.py': "the prompt slice marker is the prompt's literal opening "
-                               'words, so revisions 5 and 6 each moved it with them',
+                               'words, so revisions 5, 6 and 7 each moved it with them',
 }
 # Files deliberately left carrying superseded identifiers, because their job is to
 # record the prior state. Asserted BYTE-IDENTICAL to the reference, with no
@@ -122,7 +124,7 @@ FROZEN = {
 # ('min', n) for prose documents, where later prose may legitimately add mentions but a drop
 # below the floor still means something was destroyed.
 DELIBERATE_LOSS = {
-    'task/prompt.txt': {'PSLN-344': ('exact', 0)},              # r5 dropped the asset name
+    'task/prompt.txt': {'PSLN-344': ('exact', 1)},              # r5 dropped the asset name; r7 restored it, once
     'build/make-artifacts.py': {'PSLN-344': ('exact', 0)},      # r5 moved the slice marker
     'build/anton-brief-psql25c1.md': {'PSLN-344': ('min', 3)},  # r5 rewrote the prompt draft
 }

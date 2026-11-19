@@ -36,7 +36,7 @@ brief = open(BRIEF).read()
 
 print('Artifacts')
 prompt = emit('../task/prompt.txt',
-              slice_between(brief, "I'm heading a project on a proprietary asset, a small-molecule STING agonist, which includes both", '### Prompt audit'),
+              slice_between(brief, "I'm heading a project to develop a proprietary asset, a small-molecule STING agonist, which includes both", '### Prompt audit'),
               'task/prompt.txt')
 grader = emit('../task/grader-guidelines.txt',
               slice_between(brief, '### Grader framing', '\n\nA. Must be present')

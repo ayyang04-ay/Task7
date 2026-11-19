@@ -29,7 +29,7 @@ trajectories are retired and a new batch is needed.**
 
 | | |
 |---|---|
-| Prompt | `bf4e427cdf08`, 231 words, 6 paragraphs. Revision 6: portfolio-retention framing, an as-of date, and both branches given named products |
+| Prompt | `e75574f8f69a`, 252 words, 6 paragraphs. Revision 7 names PSLN-344 and PSLN-212 as the two assets in development and asks that the best go forward, closing the QA asset-identity error |
 | Grader | `c545a600076a`. Regenerates from the brief with no drift |
 | Golden | `4a91dfde8b74`. 253 checks, 0 mismatches, `CORRESPONDENCE` 120/120 |
 | Data room | `f293502992c7` + `83f2e9fb45db`. 6,819/6,819 numeric cells identical to the publisher original |
@@ -148,7 +148,7 @@ Mantel-Cox inline, t-tests via an inline incomplete beta.
 
 | Upload as | File | Bytes | sha256 |
 |---|---|---|---|
-| Prompt | `task/prompt.txt` | 1,338 | `bf4e427cdf08` |
+| Prompt | `task/prompt.txt` | 1,482 | `e75574f8f69a` |
 | Grader guidelines | `task/grader-guidelines.txt` | 5,666 | `c545a600076a` |
 | Data room | `data-room/psln_program_dataset.xlsx` | 56,787 | `f293502992c7` |
 | Data room | `data-room/psln_program_annotation.pdf` | 59,700 | `83f2e9fb45db` |
@@ -156,7 +156,7 @@ Mantel-Cox inline, t-tests via an inline incomplete beta.
 | Reviewer golden (any of the three) | `task/golden-response.txt` | 25,301 | `85596cc96c4b` |
 | Reviewer golden (any of the three) | `task/golden-response.pdf` | 42,325 | `fc8ca86bd09b` |
 
-Prompt is 231 words, grader 898. The prompt's last paragraph is the as-of date and grounding line, so that is what `paste-checks.txt` now names as the required last line, not the ruled-out question. Check each paste against `build/paste-checks.txt`,
+Prompt is 252 words, grader 898. The prompt's last paragraph is the as-of date and grounding line, so that is what `paste-checks.txt` now names as the required last line, not the ruled-out question. Check each paste against `build/paste-checks.txt`,
 which carries word count, character count, hash prefix and required last line. The
 line-break property is the one a diff will not show you: confirm in the form that each
 paragraph is still a single unbroken line, and that the grader's C list is present at
@@ -643,7 +643,7 @@ indication and population are gone: it no longer contains *adjuvant*, *influenza
 All of it stays derivable from the room, so the work moves from the prompt to the solver.
 One side benefit: the prompt now carries no part of the formulation fingerprint.
 
-`task/prompt.txt` is `bf4e427cdf08`, 231 words. **The 16-run panel answered an earlier
+`task/prompt.txt` is `e75574f8f69a`, 252 words. **The 16-run panel answered an earlier
 prompt, so every trajectory ID in `fa/psql25c1/` is retired.** The modes should reproduce
 over the same room, but the ledger cannot claim a batch it has not read. Re-screen first.
 
