@@ -26,22 +26,22 @@ SUBS = [
     ('AUP-0417', 'PCL-26-0417'),
     # rename 4 -- the asset name, which was the source publication's own compound name
     ('AMnESTI',  'PSLN-344'),
-    ('amnesti_preclinical_dataset.xlsx', 'adjuvant_program_dataset.xlsx'),
+    ('amnesti_preclinical_dataset.xlsx', 'psln_program_dataset.xlsx'),
     # rename 5 -- the encapsulated payload, which named the asset's own composition
     ('ADU-S100', 'CDN-1807'),
     # annotation renaming: the file was called trial_summary.pdf but contains no trial,
     # 19 pages of mouse work and no human data, and carried three different names across
     # its filename, its /Title and its page-1 heading. A red-team read the mismatch as a
     # label applied from outside by someone who had not read the document.
-    ('trial_summary.pdf', 'adjuvant_program_annotation.pdf'),
+    ('trial_summary.pdf', 'psln_program_annotation.pdf'),
     ('Study annotation', 'Dataset annotation'),
 ]
 
 # Files whose path changed. Key is the working-tree path, value the path on REF.
 REF_PATHS = {
-    'data-room/adjuvant_program_dataset.xlsx':
+    'data-room/psln_program_dataset.xlsx':
         'data-room/amnesti_preclinical_dataset.xlsx',
-    'data-room/adjuvant_program_annotation.pdf':
+    'data-room/psln_program_annotation.pdf':
         'data-room/trial_summary.pdf',
 }
 
@@ -202,7 +202,7 @@ for rel, why in ANNOTATED.items():
 
 # ------------------------------------------------------------------ workbook
 print('\nWorkbook: cell by cell')
-XLSX = 'data-room/adjuvant_program_dataset.xlsx'
+XLSX = 'data-room/psln_program_dataset.xlsx'
 ref_bytes = at_ref(XLSX, binary=True)
 tmp = os.path.join(HERE, '.ref-workbook.xlsx')
 open(tmp, 'wb').write(ref_bytes)
@@ -270,7 +270,7 @@ try:
     # is generated from golden-response.md, which is an ANNOTATED file above, so its text
     # legitimately differs by more than the substitutions; make-artifacts.py --check is
     # what verifies it against its own source.
-    for rel in ('data-room/adjuvant_program_annotation.pdf',):
+    for rel in ('data-room/psln_program_annotation.pdf',):
         rb = at_ref(rel, binary=True)
         t = os.path.join(HERE, '.ref.pdf')
         open(t, 'wb').write(rb)

@@ -71,8 +71,8 @@ TEXT_TARGETS = [
     'fa/error_modes.md',
     'README.md',
 ]
-XLSX_OLD = 'data-room/adjuvant_program_dataset.xlsx'
-XLSX_NEW = 'data-room/adjuvant_program_dataset.xlsx'
+XLSX_OLD = 'data-room/psln_program_dataset.xlsx'
+XLSX_NEW = 'data-room/psln_program_dataset.xlsx'
 BACKUP = 'build/pre-edit-workbook-backup.xlsx'
 
 # NOT targets, by design:

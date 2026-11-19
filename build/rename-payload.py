@@ -53,7 +53,7 @@ GUARD = [
 ]
 
 TEXT_TARGETS = ['build/annotation-source.md']
-XLSX = 'data-room/adjuvant_program_dataset.xlsx'
+XLSX = 'data-room/psln_program_dataset.xlsx'
 
 # NOT targets: HANDOFF.md (section 5 and 7 record the decision and its reversal, so a
 # substitution would rewrite the record), and rename-assets.py / rename-asset-name.py,

@@ -7,7 +7,7 @@ Studio: https://studio.mercor.com/annotator/tasks/task_4ce55343502b4d17b2182158a
 Revision 3. Every figure was recomputed from the shipped workbook in session.
 Legend and design facts come from the unmounted publication (Gao et al., Sci
 Immunol 2026, adz5242) and its supplementary materials, which stay out of the room
-and feed adjuvant_program_annotation.pdf. Change log at the end.
+and feed psln_program_annotation.pdf. Change log at the end.
 
 ---
 
@@ -131,8 +131,8 @@ protection pillar is supposed to reach.
 ### Manifest
 | File | Contents | States the world how |
 |---|---|---|
-| adjuvant_program_dataset.xlsx | 15 sheets, 101 per-animal data blocks | Shipped unmodified. 90 of 101 blocks do not name their measurand |
-| adjuvant_program_annotation.pdf (to author, ships as PDF) | Per-block annotation, methodology, formulation | Dry annotation only. See absence anchors. Markdown is no longer permitted in the room; the workbook stays .xlsx |
+| psln_program_dataset.xlsx | 15 sheets, 101 per-animal data blocks | Shipped unmodified. 90 of 101 blocks do not name their measurand |
+| psln_program_annotation.pdf (to author, ships as PDF) | Per-block annotation, methodology, formulation | Dry annotation only. See absence anchors. Markdown is no longer permitted in the room; the workbook stays .xlsx |
 
 No publication mounted. The MDAR reproducibility checklist shipped in the same
 supplementary archive is not mounted either; it is filed under a different DOI from
@@ -275,7 +275,7 @@ survival readout follows either. The causal chain is established
 up to the immune readouts and assumed from there to protection.
 
 ### Absence anchors (assert mechanically)
-adjuvant_program_annotation.pdf must NOT contain:
+psln_program_annotation.pdf must NOT contain:
 - any fold-change, ratio, percentage, effect size or p-value
 - "transient", "resolved", "returns to baseline", "sustained", or any judgment
   about the duration of the innate response
@@ -294,7 +294,7 @@ adjuvant_program_annotation.pdf must NOT contain:
 - any causal claim, including the direction of the blockade results
 - the source's figure titles
 
-adjuvant_program_annotation.pdf MUST contain: per block the measurand, units and scale, timepoint,
+psln_program_annotation.pdf MUST contain: per block the measurand, units and scale, timepoint,
 stated n, group identities and replicate count. Per block, the route of
 administration and the dose for every agent given. Per challenge block, vaccine
 composition including HA content, challenge virus, challenge dose as stated,
@@ -765,7 +765,7 @@ of one trajectory and a thin mode set.
   tested. A description of what the package already was, added because the programme
   guidance turns on it. **Nothing in the prompt, the workbook or the annotation moved** —
   `task/prompt.txt` `cfc0f29bde3c`, `task/grader-guidelines.txt` `c545a600076a`,
-  `adjuvant_program_dataset.xlsx` `f293502992c7` and `adjuvant_program_annotation.pdf`
+  `psln_program_dataset.xlsx` `f293502992c7` and `psln_program_annotation.pdf`
   `83f2e9fb45db` are all unchanged, so the 16-run panel stands and no rerun is needed.
   Two earlier framings were considered and rejected as fabrication: calling the asset a
   bare small molecule, and calling it a small peptide. Both are contradicted by the

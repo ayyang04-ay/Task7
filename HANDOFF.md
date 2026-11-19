@@ -150,8 +150,8 @@ Mantel-Cox inline, t-tests via an inline incomplete beta.
 |---|---|---|---|
 | Prompt | `task/prompt.txt` | 1,194 | `f95327f4ae1d` |
 | Grader guidelines | `task/grader-guidelines.txt` | 5,666 | `c545a600076a` |
-| Data room | `data-room/adjuvant_program_dataset.xlsx` | 56,787 | `f293502992c7` |
-| Data room | `data-room/adjuvant_program_annotation.pdf` | 59,700 | `83f2e9fb45db` |
+| Data room | `data-room/psln_program_dataset.xlsx` | 56,787 | `f293502992c7` |
+| Data room | `data-room/psln_program_annotation.pdf` | 59,700 | `83f2e9fb45db` |
 | Reviewer golden (any of the three) | `task/golden-response.md` | 25,496 | `4a91dfde8b74` |
 | Reviewer golden (any of the three) | `task/golden-response.txt` | 25,301 | `85596cc96c4b` |
 | Reviewer golden (any of the three) | `task/golden-response.pdf` | 42,325 | `fc8ca86bd09b` |
@@ -419,7 +419,7 @@ the golden, the filename, 115 workbook cells and all 19 pages of the annotation.
 | Was | Now |
 |---|---|
 | `AMnESTI` | `PSLN-344` |
-| `amnesti_preclinical_dataset.xlsx` | `adjuvant_program_dataset.xlsx` |
+| `amnesti_preclinical_dataset.xlsx` | `psln_program_dataset.xlsx` |
 
 Wider blast radius than rename 3, in two ways worth remembering. The prompt and the
 grader are **generated from the brief**, so the rename had to go into
@@ -463,7 +463,7 @@ nineteen pages of mouse work and no human data — and it carried **three differ
 across its filename, its `/Title` ("Dataset annotation") and its page-1 heading ("Study
 annotation"). The red-team read the mismatch as a label applied from outside by someone
 who had not read the document, which is exactly what it was. All three now agree on
-*Dataset annotation*, and the file is `adjuvant_program_annotation.pdf`, so the two
+*Dataset annotation*, and the file is `psln_program_annotation.pdf`, so the two
 data-room files read as a matched pair from one internal export. No data changed; the
 page-1 heading is the only content edit and no forcing-chain leg touches it.
 
@@ -627,7 +627,7 @@ Current as of `e5f8226`, all re-run after the rename.
 ```bash
 cd /home/user/Task7 && python3 -I -c "
 import re, openpyxl, collections
-w=openpyxl.load_workbook('data-room/adjuvant_program_dataset.xlsx',data_only=True)
+w=openpyxl.load_workbook('data-room/psln_program_dataset.xlsx',data_only=True)
 occ=[m for s in w for r in s.iter_rows() for c in r if isinstance(c.value,str)
      for m in re.findall(r'\bS\d\d-[A-Z]\b',c.value)]
 print(len(occ),'occurrences',len(set(occ)),'distinct')

@@ -74,7 +74,7 @@ TEXT_TARGETS = [
     'build/audit-registry.py',
     'fa/error_modes.md',
 ]
-XLSX = 'data-room/adjuvant_program_dataset.xlsx'
+XLSX = 'data-room/psln_program_dataset.xlsx'
 BACKUP = 'build/pre-edit-workbook-backup.xlsx'
 
 # HANDOFF.md is deliberately NOT a target. Its section 7 carries the rename-2 mapping

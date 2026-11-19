@@ -9,8 +9,8 @@ RLS short ID `psql25c1` · task `task_4ce55343502b4d17b2182158ad6e4533` · campa
 
 | Upload as | File |
 |---|---|
-| Data room | `data-room/adjuvant_program_dataset.xlsx` |
-| Data room | `data-room/adjuvant_program_annotation.pdf` |
+| Data room | `data-room/psln_program_dataset.xlsx` |
+| Data room | `data-room/psln_program_annotation.pdf` |
 | Prompt | `task/prompt.txt` |
 | Grader guidelines | `task/grader-guidelines.txt` |
 | Reviewer Facing Golden Response | `task/golden-response.txt`, or `.pdf` if the field takes a file |

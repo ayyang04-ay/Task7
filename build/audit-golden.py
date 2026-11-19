@@ -1,14 +1,14 @@
 # Recomputes every load-bearing figure in ../task/golden-response.md from the shipped
 # workbook and diffs it against what the document states.
 #
-# Usage: python3 -I audit-golden.py   (expects ../data-room/adjuvant_program_dataset.xlsx alongside)
+# Usage: python3 -I audit-golden.py   (expects ../data-room/psln_program_dataset.xlsx alongside)
 #
 # Run this after any edit to the data room, per the build constraint that the
 # golden is recomputed from the shipped room after its last edit. Exits noisily
 # on any mismatch.
 
 import openpyxl, statistics as st, math
-wb=openpyxl.load_workbook('../data-room/adjuvant_program_dataset.xlsx',data_only=True)
+wb=openpyxl.load_workbook('../data-room/psln_program_dataset.xlsx',data_only=True)
 def V(sh,cc,rr):
     ws=wb[sh]; return [float(ws.cell(r,c).value) for r in rr for c in cc
                        if isinstance(ws.cell(r,c).value,(int,float))]

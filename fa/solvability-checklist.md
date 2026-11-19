@@ -29,8 +29,8 @@ when the screen is reported:
   evidence of an underivable leg than a leg two agents both missed.
 
 Scope: the shipped room on `claude/exciting-cray-mkihzd-v3` after renames 3, 4 and 5 —
-`data-room/adjuvant_program_dataset.xlsx` and
-`data-room/adjuvant_program_annotation.pdf`, with `task/prompt.txt`.
+`data-room/psln_program_dataset.xlsx` and
+`data-room/psln_program_annotation.pdf`, with `task/prompt.txt`.
 
 ---
 
