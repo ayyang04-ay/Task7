@@ -85,3 +85,123 @@ Opus-only.
 MoA and biomarker approaches are not yet clustered. Provenance, objectivity, grounding and
 as-of-date handling are not yet assessed. No numeric recomputation against the workbook
 has been run for this panel.
+
+---
+
+# MoA and biomarker clustering
+
+Coverage: each run's MoA and biomarker sections read directly. Screens re-run with two or
+more spellings where a figure is involved, and every zero-hit row was checked by reading
+the surrounding text. Two of my own screens gave false signals and are corrected below.
+
+## MoA: two clusters, and they follow the model
+
+**Cluster A. Tabulated chain with a per-link evidence-type column.** O1 O2 O3 O4. Opus-only,
+all four.
+
+| Run | Column that labels evidence strength | Example value |
+|---|---|---|
+| O1 | Table 4 titled "Interventional (causal) evidence", columns Intervention, Readout, Control, Change, p, Block | "Test: carbenoxolone vs saline (PSLN-344) ... 7.3 -> 3.1, -58%, 0.0041, S11-C" |
+| O2 | Table 4 "Mechanism claims and the strength of the supporting evidence"; figure legend reads "Dashed boxes = correlative or inferred steps that need confirmation" | seven-step chain |
+| O3 | "Type of evidence" | "Causal (genetic)" |
+| O4 | "Evidence type; confidence" | "Genetic KO; moderate" |
+
+**Cluster B. Prose chain, no per-link evidence-type column.** F1 F2 F3 F4. Fable-only, all four.
+
+| Run | Opening | Block citation at the link |
+|---|---|---|
+| F1 | "In one paragraph" plus Figure 5 | no |
+| F2 | prose plus "Source blocks for every number are in Table 7" | in an appendix table |
+| F3 | "In short:" plus Figure 4 | partly inline, e.g. S07-A, S04-D |
+| F4 | "Mechanism in one paragraph." | no |
+
+All eight present the same chain: surfactant-dependent uptake, STING sensing with Mn2+
+raising the ceiling, IFN and GM-CSF, CCR2 monocyte recruitment, moDC conversion, node
+migration, Tfh and GC, CD8 effector and memory. The clusters differ in presentation and in
+where the intervention blocks are cited, not in the chain's content.
+
+Intervention-block citation density, as a screen over the whole proposal:
+
+| | O1 | O2 | O3 | O4 | F1 | F2 | F3 | F4 |
+|---|---|---|---|---|---|---|---|---|
+| carbenoxolone / CBX | 3 | 1 | 3 | 1 | 1 | 4 | 2 | 0 |
+| IFNAR | 6 | 12 | 7 | 3 | 0 | 3 | 1 | 0 |
+| S11-C | 2 | 2 | 1 | 1 | 1 | 3 | 5 | 0 |
+| S02-H | 4 | 7 | 1 | 1 | 1 | 4 | 7 | 1 |
+| S05-C | 4 | 4 | 1 | 0 | 1 | 5 | 9 | 1 |
+
+F4 carries the IFNAR and GM-CSF rescue step in prose ("a step that needs the interferon
+receptor and is rescued by GM-CSF") without naming IFNAR or the block. F1 likewise carries
+CCR2 and the GM-CSF dependency in prose without block citations at those links.
+
+Golden, last: two sections, "What is driving the protection" and "What the adjuvant actually
+adds". It states the chain and names the blockade experiments. It carries no evidence-type
+column.
+
+## Biomarkers
+
+**Correction to my own screen.** A pattern keyed to the golden's vocabulary (peripherally
+accessible, bronchoscopy, lavage, invasive) returned 0 for O2 O3 O4 and 1 for O1, which was
+a false signal. Reading the sections shows all four Opus runs handle human measurability
+explicitly:
+
+| Run | How it handles human measurability |
+|---|---|
+| O1 | "For human use, each needs an accessible matrix: nasal lining fluid, nasal brushings or blood"; column "Human-measurable analogue" |
+| O2 | one of three stated selection criteria, "whether it can be measured in people"; column "Human analogue" |
+| O3 | column "Proposed human / large-animal measure", naming nasosorption |
+| O4 | one of three stated criteria, "whether the same measurement can be taken in people"; column "Human sampling" |
+
+So all eight separate what can be measured in people from what cannot. The approach is
+shared; the vocabulary differs.
+
+**Tiering.** All eight tier the markers by time or by role. O1, O2, O3 and O4 use an explicit
+Tier column (PD / target engagement, mechanism, adaptive output). F2 and F4 fold biomarkers
+into the MoA section. F1 and F3 give a separate section.
+
+**The per-animal limit.** O2 and O4 state that the immune and survival readouts come from
+different animals, so no readout is yet a correlate of protection:
+
+- O2: "Biomarkers and survival come from different animals, so these are regimen-level
+  markers, not validated individual correlates of protection."
+- O4: "Our immunology and survival readouts come from *different animals*, so no readout can
+  yet be called a correlate of protection."
+
+The golden states the same limit, in its next-studies section: readouts should be taken "on
+the same animals so the immune measure and the outcome are linked per animal, which nothing
+in the current package does."
+
+**Antibody role.** A screen for antibody being assigned to immunogenicity or a regulatory
+bridge rather than to cross-subtype efficacy returned 0 across all eight. The pattern was
+keyed to the golden's wording and is not reliable; the surrounding text has not yet been
+read run by run. Not resolved. HAI is named 4 to 85 times depending on the run (F4 4, O4 15,
+F1 21, O3 25, F2 27, O1 30, O2 35, F3 85).
+
+## Young-benchmark screen
+
+Reported as positions only. What it means is the writer's call.
+
+The restoration claim on Ifnb1 at 16 h compares an aged PSLN-344 value of about 36.9 to a
+young reference. S01-A holds young PSLN-212 at 37.60 and young PSLN-344 at 50.70.
+
+| Run | Restoration figure stated | References a young PSLN-344 arm anywhere | Cites 50.70 | Where |
+|---|---|---|---|---|
+| O1 | 0.98 / 0.99, 10 occurrences | 6, all to survival blocks S09-B/D/F | no | §5 Table 5 row "Ifnb1 (lung) ... 36.9 ... Young PSLN-212 37.5" |
+| O2 | 1 occurrence | 5, incl. S15-M / S09-E weight comparison | no | §4 Table 4 |
+| O3 | "equal to young (S01-A)" | **0** | no | §3 step 2, "Ifnb1 at 16 h is 36.9x vs 16.5x, equal to young (S01-A)" |
+| O4 | "matches young level (restoration 0.98)" | 1, to S13-E survival | no | §5 Tier A row |
+| F1 | "Mn2+ brings it to 99%" | **0** | no | §5, "In old lungs given PSLN-212 this burst is 44% of the young response; Mn2+ brings it to 99%" |
+| F2 | 2 occurrences | 2 | **3** | §4.1 and the S02-I row |
+| F3 | 0 | 6, incl. S09-F survival | no | §4 |
+| F4 | 1 occurrence | 2, incl. the d180 recovery comparison | no | §3 |
+
+No run uses a "formulation held constant" or "within-formulation" phrasing. **F2 is the only
+run citing 50.70.** O3 and F1 state the restoration claim and reference no young PSLN-344 arm
+at any point in the deliverable.
+
+**Correction to my own screen.** O1's single "0.73" hit is an effect-size value in an S13-C
+table row, not a formulation-held ratio. No run cites 0.732.
+
+Golden, last: "Ifnb1 at 16 hours reads 0.99 of young on the diagonal, which looks like a
+match. Holding formulation constant it is 0.73." The golden also tabulates young PSLN-344 at
+50.70 against aged PSLN-344 at 37.11 in its seven-panel table.
