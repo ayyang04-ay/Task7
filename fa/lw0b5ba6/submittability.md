@@ -90,15 +90,31 @@ Il6 7.2 versus 1.9-fold"); **F2** `:190` reports both columns.
 
 ## 4. Golden edits required
 
-| Location | Change | Why |
-|---|---|---|
-| `task/golden-response.md`, the verdict block | State the asset selection explicitly: keep the programme, PSLN-344 leads, PSLN-212 stops as a candidate and continues as the Mn-free comparator | The prompt now says "The assets currently in development are designated PSLN-344 and PSLN-212 in these experiments. Ideally, we take the best asset forward." The golden answers a single-asset go/no-go. Derivable from the room; all 8 runs reached it |
-| `task/prompt.txt` | Replace with the shipped text, `006aa3ff6c6b`, 252 words | The repo carries `bf4e427cdf08`, 231 words. The deployed prompt is one revision ahead |
-| `build/anton-brief-psql25c1.md:293` and `HANDOFF.md` §1 | Delete the stale "S10-A block holding S03-E content" entry, regenerate | Carried over from the prior QA triage, confirmed stale, not yet actioned |
+**Corrected 2026-11-21.** The first version of this section listed one golden edit. There
+are three. Edits 2 and 3 are pre-existing gaps against prompt asks the repo's own
+`task/prompt.txt` already carried, not consequences of the migration.
 
-No golden edit is needed for either confirmed mode. Both counterfactuals recompute from the
-room as the runs saw it: `S01-A` arm means 16.64 / 37.11 / 37.60 / 50.70, giving 0.732 with
-the formulation held, and the 72 h aged Mn-free tail at Tnf 5.2 against 8.4.
+| # | Location | Change | Why |
+|---|---|---|---|
+| 1 | `task/golden-response.md:14`, `## Recommendation` | State the selection: PSLN-344 leads, PSLN-212 stops as a development candidate and continues as the Mn-free comparator | The prompt says "The assets currently in development are designated PSLN-344 and PSLN-212 in these experiments. Ideally, we take the best asset forward." The golden says only "Advance it." and treats PSLN-212 purely as a mechanistic comparator. A sentence, not new analysis: the evidence is in the same section (PSLN-212 fails to separate from vaccine alone in three of the six, p = 0.088, 0.111, 0.066). All 8 runs answered it explicitly |
+| 2 | `task/golden-response.md`, new section | Add the target demographic: primary segment, sub-segments, exclusions, and the inputs market research must supply | The prompt asks for "a target demographic so that our market research team can check the TAM". The golden has no such section — only incidental "65-plus" at `:56` and `:346`. The segment is derivable from the room; sizing inputs are external and go in marked `[external]`, the convention already used at `:346` |
+| 3 | `task/golden-response.md`, new section | Add what dropping gives up, and why | The prompt asks "If I drop this I have to be able to tell the committee exactly what we are giving up and why". Absent: no match for "giving up", "give up", "if we drop" or "forgo". Derivable with no new analysis; it is the protection case restated as a loss |
+| — | `task/prompt.txt` | Replace with the shipped text, `006aa3ff6c6b`, 252 words | Not a golden edit. The repo carries `bf4e427cdf08`, 231 words; the deployed prompt is one revision ahead |
+| — | `build/anton-brief-psql25c1.md:293` and `HANDOFF.md` §1 | Delete the stale "S10-A block holding S03-E content" entry, regenerate | Not a golden edit. Carried over from the prior QA triage, confirmed stale, not yet actioned |
+
+**No golden edit is needed for either confirmed mode**, verified against the golden text
+this session. `:48`–`:69` give young+Mn at 50.70 with p = 0.012 against aged+Mn and
+p = 0.014 against young+Mn-free, the within-cohort increments (1.65 to 24.35-fold aged
+against 1.02 to 1.35-fold young), and the statement that this "is the only comparison here
+that holds age and formulation apart". Study 3 covers the 72 h site including the reversal
+(formulation x1.97 p = 0.0126 in young against x1.29 p = 0.2619 in aged). So the FA's
+counterfactual for both modes is already grounded in the golden.
+
+**`audit-golden.py` cannot catch edits 2 and 3.** It checks figures and correspondence —
+253 checks, `CORRESPONDENCE` 120/120, golden still hashing to `4a91dfde8b74` as HANDOFF
+records — and carries no section-coverage assertion, so it passes clean with two
+prompt-mandated deliverables absent. Closing that needs an assertion over required
+headings, not more figure checks.
 
 ## 5. Held QA items
 
