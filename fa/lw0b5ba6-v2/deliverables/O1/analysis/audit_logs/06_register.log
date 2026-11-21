@@ -1,0 +1,5 @@
+severity
+Critical     4
+Major        8
+Minor       10
+dtype: int64

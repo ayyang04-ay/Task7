@@ -1,0 +1,56 @@
+snippets written
+| Endpoint (aged mice unless stated) | Sham | PSLN-212 | **PSLN-344** | Young PSLN-212 | PSLN-344 vs PSLN-212 (95% CI) | FDR q | Gap closed (RI) | Source |
+|---|---|---|---|---|---|---|---|---|
+| Lung Ifnb1 at 16 h (fold vs untreated) | 0.9 | 16.5 | **36.9** | 37.5 | 2.2x (1.8-2.7) | <0.001 | 0.98 | S01-A |
+| Lung Gm-csf at 36 h (fold) | 1.2 | 1.6 | **8.5** | - | 5.4x (3.9-7.3) | <0.001 | - | S02-F |
+| Lung monocytes, day 4 (%) | 10.4 | 16.7 | **30.6** | 32.2 | +13.8 pp (+8.1 to +19.5) | 0.004 | 0.89 | S01-D |
+| CCR7+ migratory CD11b+ DC, 72 h (%) | 2.5 | 7.3 | **30.7** | 35.0 | +23.4 pp (+13.8 to +33.0) | 0.004 | 0.84 | S02-A |
+| Antigen+ DC in MLN, 36 h (%) | - | 1.8 | **7.1** | 9.4 | +5.3 pp (+3.6 to +7.1) | 0.002 | 0.70 | S02-C |
+| OT-I CD8 priming by MLN DC (%) | - | 0.8 | **18.7** | 26.2 | +17.9 pp (+14.4 to +21.4) | <0.001 | 0.70 | S02-E |
+| CD86+ of MLN CD11b+ DC, day 3 (%) | 7.2 | 8.1 | **14.5** | 37.9 | +6.4 pp (+3.0 to +9.9) | 0.006 | 0.22 | S02-D CD86 |
+| ICOS-hi Tfh, day 7 (%) | 0.3 | 3.8 | **10.3** | 13.6 | +6.4 pp (+2.6 to +10.3) | 0.014 | 0.66 | S04-A |
+| Tfr (Foxp3+ of CXCR5+ICOShi), day 7 (%) - lower is better | 22.6 | 26.7 | **10.8** | 7.1 | -15.9 pp (-24.0 to -7.7) | 0.008 | 0.81 | S04-B Foxp3 |
+| Germinal-centre B cells, day 7 (%) | 1.2 | 2.3 | **6.5** | 9.8 | +4.2 pp (+2.3 to +6.1) | 0.005 | 0.56 | S03-K |
+| Serum IgG anti-CA09 H1N1, day 14 (GMT) | 56 | 393 | **7,305** | 11,959 | 18.6x (9.1-37.9) | <0.001 | 0.86 | S03-A |
+| HAI anti-CA09 H1N1, day 14 (GMT) | 8 | 46 | **368** | 485 | 8.0x (3.9-16.4) | 0.001 | 0.88 | S03-C |
+| HAI anti-Aichi H3N2, day 14 (GMT) | 10 | 35 | **320** | 368 | 9.2x (4.2-20.2) | 0.001 | 0.94 | S03-G |
+| Neutralising Ab anti-CA09 H1N1, day 14 (GMT) | 52 | 418 | **3,840** | 6,686 | 9.2x (3.1-27.2) | 0.004 | 0.80 | S03-D |
+| IgG anti-CA09 after boost, day 28 (GMT) | 57 | 4,411 | **15,651** | 40,739 | 3.5x (1.5-8.4) | 0.016 | 0.57 | S13-I |
+| IFN-g+ CD8 (rgH5N1 restim), day 14 (%) | 0.7 | 1.5 | **6.4** | 9.2 | +4.9 pp (+3.6 to +6.1) | <0.001 | 0.63 | S05-F |
+| IFN-g+ CD8 (rgH5N1 restim), day 60 (%) | 1.5 | 3.0 | **9.9** | 14.4 | +6.8 pp (+3.4 to +10.3) | 0.006 | 0.60 | S05-G |
+| Lung resident-memory CD8, day 25 (%) | 0.6 | 1.0 | **4.0** | 6.0 | +3.0 pp (+2.2 to +3.7) | <0.001 | 0.59 | S05-I |
+| **Survival after lethal challenge, pooled aged arms (10 experiments)** | 1/73 (1%) | 9/73 (12%) | **61/73 (84%)** | 62/63 (98%) | see Table 2 | - | 0.83 | S03-I/J, S06-A-G (excl. D), S15-L/N |
+| Post-vaccination weight nadir, no challenge (% of day 0) | 98.2 (vaccine only) | 97.0 | **96.4** | 97.6 | -0.6 pp (p=0.56) | - | - | S08-D |
+| Analysis set | Strata | PSLN-344 survivors | PSLN-212 survivors | Difference, pp (95% CI, Newcombe) | Stratified log-rank p | CMH p | Strata favouring PSLN-344 |
+|---|---|---|---|---|---|---|---|
+| A. As recorded (S06-D excluded as exact duplicate of S06-C) | 14 | 85/101 (84%) | 13/101 (13%) | 71.3 (59.8 to 79.1) | 3.5e-27 | <1e-15 | 14/14 (ties 0) |
+| B. Excluding experiments whose survival record conflicts with the body-weight record | 7 | 40/49 (82%) | 6/49 (12%) | 69.4 (51.7 to 80.0) | 2.3e-14 | 2.4e-10 | 7/7 (ties 0) |
+| C. Worst case for PSLN-344 (BW-implied counts where less favourable; S06-D re-entered with S15-D BW counts) | 15 | 90/108 (83%) | 22/108 (20%) | 63.0 (51.2 to 71.7) | - | <1e-15 | 15/15 (ties 0) |
+| D. Aged BALB/c S06 series only (S06-A,B,C,E,F,G; challenge d3, d14 or d60) | 6 | 32/42 (76%) | 4/42 (10%) | 66.7 (47.3 to 78.5) | 6.7e-12 | 2.0e-08 | 6/6 (ties 0) |
+| E. Durability only (challenge at day 60: S06-E,F,G) | 3 | 14/21 (67%) | 1/21 (5%) | 61.9 (34.1 to 78.5) | 2.4e-06 | 3.7e-04 | 3/3 (ties 0) |
+| F. Rapid onset (challenge day 2-3: S03-J, S06-B) | 2 | 15/17 (88%) | 3/17 (18%) | 70.6 (38.1 to 84.8) | 4.1e-06 | 3.2e-04 | 2/2 (ties 0) |
+| Layer of the immune response | Endpoints | Median RI | Range | Reading |
+|---|---|---|---|---|
+| Innate cytokine (16-36h) | 5 | 0.83 | 0.64-0.98 | Near-complete rescue |
+| Myeloid recruitment & DC (d3-4) | 7 | 0.75 | 0.70-0.89 | Substantial rescue |
+| DC co-stimulation (d3) | 2 | 0.19 | 0.17-0.22 | Largely NOT rescued |
+| CD8 priming/effector (d3) | 3 | 0.70 | 0.41-0.91 | Substantial, but effector (GZMB) partial |
+| Tfh/GC/regulation (d7) | 7 | 0.72 | 0.38-0.93 | Substantial |
+| Antibody (d14) | 10 | 0.77 | 0.59-0.94 | Substantial (HAI near-young) |
+| Antibody post-boost (d28) | 2 | 0.62 | 0.57-0.66 | Partial: boosted titres stay below young |
+| CD8 memory (d14-60) | 6 | 0.62 | 0.59-0.75 | Partial: memory below young |
+| Intervention | Readout | Control | Intervention | Change | p (Welch / exact MW) | Block |
+|---|---|---|---|---|---|---|
+| Test: SP-A/D knockout vs WT (liposomes of PSLN-344 composition) | DiD+ alveolar macrophages, %, 16 h | 43.1 | 12.7 | -71% | <0.0001 / 0.0286 | S01-C |
+| Test: carbenoxolone vs saline (PSLN-344) | Recruited lung monocytes, %, d3 | 7.3 | 3.1 | -58% | 0.0041 / 0.0079 | S11-C |
+| Test: IFNAR-/- vs WT bone marrow (no cDC precursors), PSLN-344 | Donor-derived moDC, %, d3 | 19.7 | 2.1 | -89% | 0.0004 / 0.0079 | S02-H |
+| Rescue: IFNAR-/- marrow + GM-CSF vs IFNAR-/- marrow | Donor-derived moDC, %, d3 | 2.1 | 12.4 | +494% | 0.0027 / 0.0079 | S02-H |
+| Gain: PSLN-212 + rGM-CSF vs PSLN-212 | Lung Ly6C+CD11c+MHC-II+ moDC-like, %, d5 | 5.9 | 13.8 | +136% | 0.0021 / 0.0079 | S02-G |
+| Test: IFNAR-/- vs WT marrow (young, n=3) | Infiltrating donor monocytes, %, d3 | 21.3 | 15.4 | -28% | 0.1203 / 0.2000 | S12-A |
+| Test: CCR2 antagonist vs vehicle (PSLN-344) | Lung CD11b+Ly6C+ monocytes, % | 9.9 | 3.3 | -67% | 0.0010 / 0.0079 | S07-B |
+| Test: CCR2 antagonist vs vehicle (PSLN-344) | Lung Ly6C+ macrophages, % | 15.4 | 2.5 | -84% | 0.0029 / 0.0079 | S07-B |
+| Test: CCR2 antagonist vs vehicle (PSLN-344, young) | Lung GZMB+ CD8, %, d5 | 6.8 | 1.4 | -79% | <0.0001 / 0.0079 | S02-I |
+| Test: pertussis toxin (blocks Gi chemokine signalling) | AF647-OVA+ DC in MLN, %, 36 h | 7.1 | 2.4 | -67% | 0.0005 / 0.0079 | S02-C |
+| Test: pertussis toxin | OT-I proliferation driven by MLN DC, % | 18.7 | 2.5 | -86% | <0.0001 / 0.0079 | S02-E |
+| Test: pertussis toxin in vivo (n=3) | OT-I proliferation in MLN, %, d4 | 30.9 | 6.8 | -78% | 0.0066 / 0.1000 | S05-C |
+| Test: pertussis toxin in vivo (n=3) | OT-I proliferation in lung, %, d4 | 59.0 | 55.1 | -7% | 0.5687 / 1.0000 | S05-C |

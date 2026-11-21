@@ -1,0 +1,85 @@
+=== QUANT: group vectors sharing >=2 identical values at the same replicate position (excluding discrete titer blocks) ===
+    same_pos  set_overlap  n                                                          A      A_cells                                                        B      B_cells
+20         3            3  5  S11-A | lung alveolar macrophages (%) | t=4 | PSLN-212(Y)    S11!Q5:U5         S11-B | lung neutrophils (%) | t=4 | PSLN-212(Y)  S11!Q12:U12
+0          2            3  5              S01-B | SRB+ AEC (%) | t=16h | AECII/PSLN-SRB  S01!B14:F14            S08-C | SRB+ AEC (%) | t=16h | AECII-PSLN-SRB  S08!A14:A18
+2          2            2  5                    S01-D | lung monocytes (%) | t=6 | Sham  S01!B27:F27                       S04-C | Tfr (%) | t=d30 | PSLN-344  S04!C22:C26
+8          2            2  5      S11-A | lung alveolar macrophages (%) | t=0 | Vaccine    S11!B3:F3             S11-B | lung neutrophils (%) | t=0 | Vaccine  S11!B10:F10
+9          2            2  5      S11-A | lung alveolar macrophages (%) | t=4 | Vaccine    S11!B5:F5             S11-B | lung neutrophils (%) | t=4 | Vaccine  S11!B12:F12
+10         2            2  5      S11-A | lung alveolar macrophages (%) | t=6 | Vaccine    S11!B6:F6             S11-B | lung neutrophils (%) | t=6 | Vaccine  S11!B13:F13
+11         2            2  5      S11-A | lung alveolar macrophages (%) | t=8 | Vaccine    S11!B7:F7             S11-B | lung neutrophils (%) | t=8 | Vaccine  S11!B14:F14
+12         2            2  5      S11-A | lung alveolar macrophages (%) | t=8 | Vaccine    S11!B7:F7            S11-D | lung NK cells (%) | t=8 | PSLN-212(Y)  S11!Q28:U28
+13         2            2  5     S11-A | lung alveolar macrophages (%) | t=0 | PSLN-344    S11!L3:P3            S11-B | lung neutrophils (%) | t=0 | PSLN-344  S11!L10:P10
+14         2            2  5     S11-A | lung alveolar macrophages (%) | t=2 | PSLN-344    S11!L4:P4            S11-B | lung neutrophils (%) | t=2 | PSLN-344  S11!L11:P11
+15         2            2  5     S11-A | lung alveolar macrophages (%) | t=4 | PSLN-344    S11!L5:P5            S11-B | lung neutrophils (%) | t=4 | PSLN-344  S11!L12:P12
+16         2            2  5     S11-A | lung alveolar macrophages (%) | t=6 | PSLN-344    S11!L6:P6            S11-B | lung neutrophils (%) | t=6 | PSLN-344  S11!L13:P13
+17         2            2  5     S11-A | lung alveolar macrophages (%) | t=8 | PSLN-344    S11!L7:P7            S11-B | lung neutrophils (%) | t=8 | PSLN-344  S11!L14:P14
+18         2            2  5  S11-A | lung alveolar macrophages (%) | t=0 | PSLN-212(Y)    S11!Q3:U3         S11-B | lung neutrophils (%) | t=0 | PSLN-212(Y)  S11!Q10:U10
+19         2            2  5  S11-A | lung alveolar macrophages (%) | t=2 | PSLN-212(Y)    S11!Q4:U4         S11-B | lung neutrophils (%) | t=2 | PSLN-212(Y)  S11!Q11:U11
+21         2            2  5  S11-A | lung alveolar macrophages (%) | t=6 | PSLN-212(Y)    S11!Q6:U6         S11-B | lung neutrophils (%) | t=6 | PSLN-212(Y)  S11!Q13:U13
+22         2            2  5  S11-A | lung alveolar macrophages (%) | t=8 | PSLN-212(Y)    S11!Q7:U7         S11-B | lung neutrophils (%) | t=8 | PSLN-212(Y)  S11!Q14:U14
+23         2            2  5              S11-B | lung neutrophils (%) | t=8 | PSLN-212  S11!G14:K14               S11-D | lung NK cells (%) | t=8 | PSLN-344  S11!L28:P28
+3          1            3  5                    S01-E | lung CD11b+ DC (%) | t=0 | Sham  S01!B30:F30              S01-E | lung CD11b+ DC (%) | t=0 | PSLN-344  S01!L30:P30
+6          1            3  5             S01-E | lung CD11b+ DC (%) | t=0 | PSLN-344(Y)  S01!V30:Z30             S05-H | MLN GZMB+ CD8 (%) | t=d60 | PSLN-212  S05!B47:B51
+1          0            3  5                    S01-D | lung monocytes (%) | t=2 | Sham  S01!B25:F25                  S01-D | lung monocytes (%) | t=4 | Sham  S01!B26:F26
+4          0            3  5                    S01-E | lung CD11b+ DC (%) | t=0 | Sham  S01!B30:F30           S01-E | lung CD11b+ DC (%) | t=0 | PSLN-212(Y)  S01!Q30:U30
+5          0            3  5                S01-E | lung CD11b+ DC (%) | t=0 | PSLN-344  S01!L30:P30           S01-E | lung CD11b+ DC (%) | t=0 | PSLN-212(Y)  S01!Q30:U30
+7          0            3  3                  S02-F | Gm-csf lung (fold) | t=16h | Sham  S02!L17:P17  S08-A | Ifnb1 lung dose-response (fold) | t=1 | CMP-204    S08!B3:D3
+
+=== WEIGHTS: pairs of group matrices with many identical cells (days>0, same animal position & day) ===
+    same_pos  n_compared  same_day_set_overlap                  A                          B                               identical_by_day
+29        40          49                    39     S15-C PSLN-344  S15-I 3d Vaccine+PSLN-344         {2: 6, 4: 7, 6: 7, 8: 7, 10: 6, 12: 7}
+25        16          49                    18     S15-A PSLN-344             S15-M PSLN-344        {4: 3, 6: 3, 8: 1, 10: 3, 12: 3, 14: 3}
+0         12          56                    20    S09-C PSLN-212Y            S09-C PSLN-344Y                {2: 1, 4: 1, 6: 1, 8: 1, 12: 8}
+35        11          49                    13     S15-M PSLN-344             S15-O PSLN-344        {4: 2, 6: 3, 8: 1, 10: 1, 12: 2, 14: 2}
+11         9          49                    12    S09-E PSLN-212Y          S15-C PSLN-212(Y)              {6: 1, 8: 1, 10: 2, 12: 2, 14: 3}
+20         9          18                     8         S15-A Sham             S15-M PSLN-212                                   {2: 2, 4: 7}
+21         8          49                    13     S15-A PSLN-212             S15-B PSLN-212        {4: 2, 6: 2, 8: 1, 10: 1, 12: 1, 14: 1}
+9          7          56                    12    S09-E PSLN-212Y            S09-G PSLN-212Y  {2: 1, 4: 1, 6: 1, 8: 1, 10: 1, 12: 1, 14: 1}
+5          7          56                    11    S09-C PSLN-344Y            S09-E PSLN-344Y                            {2: 4, 6: 2, 10: 1}
+19         7          49                     8  S15-A PSLN-212(Y)          S15-M PSLN-212(Y)        {2: 1, 4: 2, 8: 1, 10: 1, 12: 1, 14: 1}
+26         7          49                    11     S15-A PSLN-344             S15-O PSLN-344  {2: 1, 4: 1, 6: 1, 8: 1, 10: 1, 12: 1, 14: 1}
+30         6          49                     7     S15-C PSLN-344             S15-M PSLN-344                                 {10: 1, 14: 5}
+3          5          49                     7    S09-C PSLN-212Y          S15-E PSLN-212(Y)                            {2: 3, 4: 1, 14: 1}
+6          5          56                    11    S09-C PSLN-344Y            S09-G PSLN-212Y                      {2: 1, 6: 1, 8: 2, 14: 1}
+15         3          49                     8  S13-F PSLN-212(Y)             S13-F PSLN-344                                  {2: 2, 14: 1}
+14         3          49                     9    S09-G PSLN-212Y             S15-G PSLN-344                                   {2: 2, 8: 1}
+4          2          56                    10    S09-C PSLN-344Y            S09-E PSLN-212Y                                   {2: 1, 6: 1}
+32         2          49                     8  S15-E PSLN-212(Y)             S15-O PSLN-344                                   {4: 1, 8: 1}
+24         2          45                     9     S15-A PSLN-344       S15-K Naïve+PSLN-344                                   {2: 1, 4: 1}
+17         2          70                     8         S13-G Sham                S13-G Naïve                                   {2: 1, 8: 1}
+16         2          49                     9     S13-F PSLN-344          S15-A PSLN-212(Y)                                  {2: 1, 10: 1}
+31         2          49                     8     S15-D PSLN-344          S15-O PSLN-212(Y)                                         {2: 2}
+2          1          56                     9    S09-C PSLN-212Y            S09-G PSLN-212Y                                         {8: 1}
+7          1          49                     8    S09-C PSLN-344Y          S15-G PSLN-212(Y)                                         {6: 1}
+33         1          49                     9    S15-E Untreated            S15-G Untreated                                         {2: 1}
+28         1          49                     8     S15-C PSLN-212             S15-M PSLN-212                                         {2: 1}
+13         1          56                     8    S09-G PSLN-212Y             S13-G PSLN-344                                        {14: 1}
+1          0          56                     8    S09-C PSLN-212Y            S09-E PSLN-344Y                                             {}
+12         0          49                    32    S09-E PSLN-344Y          S15-M PSLN-212(Y)                                             {}
+18         0          49                    11  S15-A PSLN-212(Y)             S15-D PSLN-344                                             {}
+8          0          49                     9    S09-C PSLN-344Y          S15-M PSLN-212(Y)                                             {}
+10         0          56                     8    S09-E PSLN-212Y             S13-G PSLN-344                                             {}
+22         0          49                     9     S15-A PSLN-212             S15-F PSLN-212                                             {}
+27         0          49                     9     S15-B PSLN-212             S15-F PSLN-212                                             {}
+23         0          49                    13     S15-A PSLN-212             S15-M PSLN-212                                             {}
+34         0          49                     8     S15-G PSLN-212             S15-M PSLN-212                                             {}
+36         0          49                     9  S15-O PSLN-212(Y)             S15-O PSLN-344                                             {}
+
+=== SURVIVAL: identical (day,event) multisets between groups in different blocks (non-trivial: at least one death) ===
+                                 A                               B             death_days  n
+0                   S06-A PSLN-344  S06-E(r71) Imprinting+PSLN-344                    [8]  7
+1                   S06-A PSLN-344       S06-F(r71) Naïve+PSLN-344                    [8]  7
+2                   S06-A PSLN-344                  S15-L PSLN-344                    [8]  7
+3                   S06-A PSLN-344                  S15-N PSLN-344                    [8]  7
+4                       S06-B Sham                      S06-F Sham  [4, 4, 4, 5, 5, 6, 6]  7
+5                   S06-B PSLN-344                  S06-E PSLN-344                [8, 10]  7
+6                       S06-C Sham                      S06-D Sham  [4, 4, 5, 6, 6, 6, 7]  7
+7                   S06-C PSLN-212                  S06-D PSLN-212     [5, 8, 10, 10, 12]  7
+8   S06-E(r71) Imprinting+PSLN-344       S06-F(r71) Naïve+PSLN-344                    [8]  7
+9   S06-E(r71) Imprinting+PSLN-344                  S15-L PSLN-344                    [8]  7
+10  S06-E(r71) Imprinting+PSLN-344                  S15-N PSLN-344                    [8]  7
+11       S06-F(r71) Naïve+PSLN-344                  S15-L PSLN-344                    [8]  7
+12       S06-F(r71) Naïve+PSLN-344                  S15-N PSLN-344                    [8]  7
+13       S15-H 3d Vaccine+PSLN-344               S15-L PSLN-212(Y)                   [12]  7
+14                  S15-L PSLN-344                  S15-N PSLN-344                    [8]  7
+IDENTICAL SURVIVAL BLOCKS: S06-C S06-D

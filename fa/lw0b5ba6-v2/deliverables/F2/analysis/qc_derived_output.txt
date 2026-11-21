@@ -1,0 +1,51 @@
+S04-B: does Tfh:Tfr == (100 - Foxp3%)/Foxp3% ?
+  Sham         predicted [3.8309, 2.7736, 2.5587, 4.4054, 4.2083]
+               printed   [3.8309, 2.7736, 2.5587, 4.4054, 4.2083]   match_same_order=True  match_as_multiset=True
+  PSLN-212     predicted [1.8409, 3.8309, 2.1056, 3.1152, 3.7847]
+               printed   [1.8409, 3.8309, 2.1056, 3.1152, 3.7847]   match_same_order=True  match_as_multiset=True
+  PSLN-344     predicted [10.9048, 7.8496, 6.6923, 9.3093, 7.6207]
+               printed   [10.9048, 7.8496, 6.6923, 9.3093, 7.6207]   match_same_order=True  match_as_multiset=True
+  PSLN-212(Y)  predicted [13.2857, 29.303, 15.9492, 6.5758, 15.129]
+               printed   [13.2857, 29.303, 15.9492, 6.5758, 15.129]   match_same_order=True  match_as_multiset=True
+
+S03-B (printed quotient) vs S13-A/S13-B (recomputed from subclass titres)
+  recomputed PSLN-212    : [0.7396 0.8001 0.2919 0.4803 0.5772]  mean=0.578  gmean=0.545
+  recomputed PSLN-344    : [2.5827 1.7224 4.1898 0.8475 1.3764]  mean=2.144  gmean=1.851
+  recomputed PSLN-212(Y) : [4.4364 4.5767 1.1795 1.172  3.4946]  mean=2.972  gmean=2.502
+  printed    PSLN-212    : [4.4364 4.5765 1.1793 1.172  3.4946]  mean=2.972   == recomputed column of: ['PSLN-212(Y)']
+  printed    PSLN-344    : [0.7396 0.8001 0.2919 0.4803 0.5772]  mean=0.578   == recomputed column of: ['PSLN-212']
+  printed    PSLN-212(Y) : [2.5827 1.7224 4.1898 0.8475 1.3764]  mean=2.144   == recomputed column of: ['PSLN-344']
+
+S03-F (printed quotient) vs S13-C/S13-D (recomputed from subclass titres)
+  recomputed PSLN-212    : [0.8854 0.6065 0.4908 0.3141 0.2616]  mean=0.512  gmean=0.465
+  recomputed PSLN-344    : [5.4639 3.4205 2.2582 1.0874 1.4037]  mean=2.727  gmean=2.300
+  recomputed PSLN-212(Y) : [3.879  3.0615 3.1737 2.6347 1.7068]  mean=2.891  gmean=2.791
+  printed    PSLN-212    : [3.879  3.0595 3.1737 2.6347 1.7064]  mean=2.891   == recomputed column of: ['PSLN-212(Y)']
+  printed    PSLN-344    : [0.8853 0.6064 0.4909 0.3141 0.2616]  mean=0.512   == recomputed column of: ['PSLN-212']
+  printed    PSLN-212(Y) : [5.4639 3.4205 2.2582 1.0874 1.4037]  mean=2.727   == recomputed column of: ['PSLN-344']
+
+S03-A total IgG GMT vs sum of subclass means (S13-A+S13-B)
+  PSLN-212     total IgG mean=      437   IgG2a mean=    88.4  IgG1 mean=   155.7
+  PSLN-344     total IgG mean=     7892   IgG2a mean=  1830.0  IgG1 mean=   903.0
+  PSLN-212(Y)  total IgG mean=    12775   IgG2a mean=  5119.8  IgG1 mean=  1915.4
+
+S03-E total IgG GMT vs sum of subclass means (S13-C+S13-D)
+  PSLN-212     total IgG mean=      468   IgG2a mean=    86.3  IgG1 mean=   179.0
+  PSLN-344     total IgG mean=     6387   IgG2a mean=  1446.2  IgG1 mean=   591.8
+  PSLN-212(Y)  total IgG mean=    15722   IgG2a mean=  3943.4  IgG1 mean=  1349.4
+
+S01-B vs S08-C (SRB+ alveolar epithelial cells)
+  S01-B AECII/PSLN-SRB         [17.7, 17.5, 14.9, 16.7, 12.2]
+  S01-B AECI/PSLN-SRB          [4.92, 2.38, 4.13, 2.92, 4.81]
+  S01-B AECII/FreeSRB          [0.67, 0.12, 0.33, 0.34, 0.43]
+  S01-B AECI/FreeSRB           [0.59, 0.2, 0.46, 0.16, 0.25]
+  S08-C AECII-PSLN-SRB         [17.7, 17.5, 18.9, 12.2, 12.5]
+  S08-C AECII-PSLN-344-SRB     [4.92, 2.35, 4.61, 4.13, 3.02]
+  S08-C AECI-PSLN-SRB          [14.32, 15.11, 15.12, 11.83, 12.42]
+  S08-C AECI-PSLN-344-SRB      [2.93, 3.53, 3.79, 2.52, 2.23]
+
+S04-A total Tfh (ICOSlo+ICOShi) and ICOShi fraction
+  Sham         total=[1.5 2.1 2.5 4.2 1.3] mean=2.32   ICOShi fraction=[0.163 0.102 0.191 0.105 0.081] mean=0.128
+  PSLN-212     total=[8.4 6.6 5.9 6.2 5.5] mean=6.52   ICOShi fraction=[0.554 0.692 0.583 0.616 0.472] mean=0.583
+  PSLN-344     total=[19.2 14.9 13.2 13.9 18.8] mean=16.00   ICOShi fraction=[0.779 0.447 0.625 0.736 0.595] mean=0.636
+  PSLN-212(Y)  total=[19.6 17.7 18.1 25.2 22.1] mean=20.54   ICOShi fraction=[0.597 0.798 0.687 0.632 0.632] mean=0.669

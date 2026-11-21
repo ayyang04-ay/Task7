@@ -1,0 +1,31 @@
+Survivors / animals (event code 0 / rows), groups as printed
+  S03-I              Sham: 0/7, CMP-204: 3/7, PSLN-212: 0/7, PSLN-344: 7/7, PSLN-212(Y): 7/7
+  S03-J              Sham: 1/10, PSLN-212: 3/10, PSLN-344: 10/10
+  S06-A              Sham: 0/7, PSLN-212: 1/7, PSLN-344: 6/7, PSLN-212(Y): 7/7
+  S06-B              Sham: 0/7, PSLN-212: 0/7, PSLN-344: 5/7, PSLN-212(Y): 7/7
+  S06-C              Sham: 0/7, PSLN-212: 2/7, PSLN-344: 7/7, PSLN-212(Y): 7/7
+  S06-D              Sham: 0/7, PSLN-212: 2/7, PSLN-344: 7/7, PSLN-212(Y): 7/7
+  S06-E rows 34-68   Sham: 0/7, PSLN-212: 0/7, PSLN-344: 5/7, PSLN-212(Y): 7/7, Untreated: 6/7
+  S06-F rows 34-68   Sham: 0/7, PSLN-212: 1/7, PSLN-344: 5/7, PSLN-212(Y): 7/7, Untreated: 7/7
+  S06-G              Sham: 0/7, PSLN-212: 0/7, PSLN-344: 4/7, PSLN-212(Y): 7/7, Untreated: 4/7
+  S06-E rows 71-98   Naïve+PSLN-212: 0/7, Imprinting+PSLN-212: 4/7, Naïve+PSLN-344: 6/7, Imprinting+PSLN-344: 6/7
+  S06-F rows 71-98   Naïve+PSLN-212: 0/7, Imprinting+PSLN-212: 0/7, Naïve+PSLN-344: 6/7, Imprinting+PSLN-344: 6/7
+  S15-H              3d Vaccine: 0/7, 3d PSLN-344: 0/7, 3d Vaccine+PSLN-344: 6/7
+  S15-L              Sham: 0/7, PSLN-212: 0/7, PSLN-344: 6/7, PSLN-212(Y): 6/7
+  S15-N              Sham: 0/7, PSLN-212: 2/7, PSLN-344: 6/7, PSLN-212(Y): 7/7
+HAI geometric mean titers, day 14 (columns M, N, O = PSLN-212, PSLN-344, PSLN-212(Y))
+  H1N1 [S03-C]: [46, 368, 485]  H3N2 [S03-G]: [35, 320, 368]
+Ifnb1 fold, geometric mean [S01-A], 16 h | 72 h
+  Sham             0.9 |  1.0
+  CMP-204          7.7 |  2.2
+  PSLN-212        16.5 |  3.4
+  PSLN-R848        4.6 |  1.2
+  PSLN-212/R848   24.0 |  1.6
+  PSLN-344        36.9 |  4.2
+  PSLN-212(Y)     37.5 |  1.5
+  PSLN-344(Y)     50.2 |  3.0
+IgG2a:IgG1, H1N1, recomputed per animal from S13-A / S13-B, and as printed in S03-B
+  PSLN-212     raw headers PSLN-212 / PSLN-212: 0.54
+  PSLN-344     raw headers PSLN-344 / PSLN-344: 1.85
+  PSLN-212(Y)  raw headers PSLN-212(Y) / PSLN-212(Y): 2.50
+  S03-B printed headers ['PSLN-212', 'PSLN-344', 'PSLN-212(Y)'] -> [2.5, 0.54, 1.85]

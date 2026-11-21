@@ -1,0 +1,20 @@
+tier,marker,source,n,sham,PSLN212,PSLN344,young212,AUC_344_vs_212,complete_separation,human_analogue
+T1 PD (16-36 h),Ifnb1 (lung),S01-A (16h),5v5,0.9355214414532858,16.532195323812864,36.87019148422796,37.473691180674855,1.0,True,"IFN-beta / ISG score (blood); CXCL10, IFN-lambda in nasal lining fluid"
+T1 PD (16-36 h),Ccl2 (lung),S09-A panel1[A:U] (16h (as printed)),3v3,0.9999953948404178,7.626208359280162,590.0683672466112,1390.5170978474587,1.0,True,CCL2/MCP-1 in nasal lining fluid & serum
+T1 PD (16-36 h),Il6 (lung),S09-A panel1[A:U] (16h (as printed)),3v3,0.999997697417558,5.566099941561491,36.07931914361846,60.32361136385868,1.0,True,"IL-6 (nasal, serum) - also reactogenicity marker"
+T1 PD (16-36 h),"Gm-csf (lung, 36 h)",S02-F (36h),5v5,1.1950356258067165,1.589148949900142,8.522084033488541,,1.0,True,GM-CSF in nasal lining fluid
+T1 PD (16-36 h),"Tnf (lung, 72 h) [safety]",S09-A panel2[X:AS] (16h (as printed)),3v3,0.9999984649444495,5.225345364082246,8.439026163575006,0.4752184936327369,1.0,True,TNF/IL-10 persistence = reactogenicity flag
+T2 cellular (d3-7),Lung monocytes d4,S01-D (d4),5v5,10.419999999999998,16.72,30.560000000000002,32.220000000000006,1.0,True,nasal brush/curettage myeloid cells (research only)
+T2 cellular (d3-7),CCR7+ migratory DC 72 h,S02-A (72h),5v5,2.54,7.279999999999999,30.68,35.0,1.0,True,not accessible; mechanistic only
+T2 cellular (d3-7),ICOS-hi Tfh d7 (MLN),S04-A (d7),5v5,0.2965,3.8151400000000004,10.256699999999999,13.63082,1.0,True,circulating Tfh (ICOS+PD-1+CXCR5+CXCR3+) d7 blood
+T2 cellular (d3-7),Tfr d7 (MLN),S04-B Foxp3 (d7),5v5,22.6,26.660000000000004,10.8,7.12,1.0,True,circulating Tfr / cTfh:cTfr ratio d7 blood
+T2 cellular (d3-7),GC B cells d7 (MLN),S03-K (d7),5v5,1.176,2.342,6.544,9.822,1.0,True,plasmablasts d7 blood (surrogate)
+T2 cellular (d3-7),Ki-67+ CD8 lung d3,S05-D (d3),5v5,0.8260000000000002,3.4799999999999995,9.379999999999999,9.940000000000001,1.0,True,activated CD38+HLA-DR+ CD8 d7-10 blood
+T3 efficacy surrogate (d14-28),HAI CA09 d14,S03-C (d14),5v5,7.57858283255199,45.947934199881416,367.5834735990509,485.0293012833271,1.0,True,"HAI GMT, seroconversion, % >= threshold"
+T3 efficacy surrogate (d14-28),HAI Aichi d14,S03-G (d14),5v5,10.000000000000002,34.822022531844965,319.9999999999999,367.5834735990509,1.0,True,HAI GMT
+T3 efficacy surrogate (d14-28),Neut CA09 d14,S03-D (d14),5v5,52.23303379776745,417.86427038213907,3839.999999999998,6685.828326114225,0.98,False,microneutralisation GMT
+T3 efficacy surrogate (d14-28),IgG2a CA09 d14 (Th1),S13-A (d14),5v5,,83.41997232162929,1641.763664491921,4641.917804152991,1.0,True,IgG subclass (IgG1/IgG3) + Th1 cytokines
+T3 efficacy surrogate (d14-28),IFNg+ CD8 d14 (rgH5N1 restim),S05-F (d14),5v5,0.672,1.504,6.356,9.180000000000001,1.0,True,"IFN-gamma ELISpot, conserved NP/M1 peptides"
+T4 durability (d25-60),Lung TRM CD8 d25,S05-I (d25),5v5,0.58,1.0,3.964,6.042,1.0,True,nasal TRM (CD69+CD103+) by nasal brushing
+T4 durability (d25-60),IFNg+ CD8 d60,S05-G (d60),5v5,1.4600000000000002,3.04,9.860000000000001,14.357999999999999,1.0,True,IFN-gamma ELISpot month 3-6
+T4 durability (d25-60),GZMB+ CD8 d60,S05-H (d60),5v5,0.602,1.024,4.106,5.553999999999999,1.0,True,granzyme B+ CD8 (blood)

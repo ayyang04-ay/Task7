@@ -1,0 +1,34 @@
+                          tier                        marker                                source   n  sham  PSLN212  PSLN344  young212  AUC_344_vs_212  complete_separation                                                         human_analogue
+               T1 PD (16-36 h)                  Ifnb1 (lung)                           S01-A (16h) 5v5  0.94    16.53    36.87     37.47            1.00                 True IFN-beta / ISG score (blood); CXCL10, IFN-lambda in nasal lining fluid
+               T1 PD (16-36 h)                   Ccl2 (lung)  S09-A panel1[A:U] (16h (as printed)) 3v3  1.00     7.63   590.07   1390.52            1.00                 True                               CCL2/MCP-1 in nasal lining fluid & serum
+               T1 PD (16-36 h)                    Il6 (lung)  S09-A panel1[A:U] (16h (as printed)) 3v3  1.00     5.57    36.08     60.32            1.00                 True                       IL-6 (nasal, serum) - also reactogenicity marker
+               T1 PD (16-36 h)           Gm-csf (lung, 36 h)                           S02-F (36h) 5v5  1.20     1.59     8.52       NaN            1.00                 True                                           GM-CSF in nasal lining fluid
+               T1 PD (16-36 h)     Tnf (lung, 72 h) [safety] S09-A panel2[X:AS] (16h (as printed)) 3v3  1.00     5.23     8.44      0.48            1.00                 True                            TNF/IL-10 persistence = reactogenicity flag
+            T2 cellular (d3-7)             Lung monocytes d4                            S01-D (d4) 5v5 10.42    16.72    30.56     32.22            1.00                 True                    nasal brush/curettage myeloid cells (research only)
+            T2 cellular (d3-7)       CCR7+ migratory DC 72 h                           S02-A (72h) 5v5  2.54     7.28    30.68     35.00            1.00                 True                                       not accessible; mechanistic only
+            T2 cellular (d3-7)          ICOS-hi Tfh d7 (MLN)                            S04-A (d7) 5v5  0.30     3.82    10.26     13.63            1.00                 True                      circulating Tfh (ICOS+PD-1+CXCR5+CXCR3+) d7 blood
+            T2 cellular (d3-7)                  Tfr d7 (MLN)                      S04-B Foxp3 (d7) 5v5 22.60    26.66    10.80      7.12            1.00                 True                             circulating Tfr / cTfh:cTfr ratio d7 blood
+            T2 cellular (d3-7)           GC B cells d7 (MLN)                            S03-K (d7) 5v5  1.18     2.34     6.54      9.82            1.00                 True                                      plasmablasts d7 blood (surrogate)
+            T2 cellular (d3-7)            Ki-67+ CD8 lung d3                            S05-D (d3) 5v5  0.83     3.48     9.38      9.94            1.00                 True                                 activated CD38+HLA-DR+ CD8 d7-10 blood
+T3 efficacy surrogate (d14-28)                  HAI CA09 d14                           S03-C (d14) 5v5  7.58    45.95   367.58    485.03            1.00                 True                                HAI GMT, seroconversion, % >= threshold
+T3 efficacy surrogate (d14-28)                 HAI Aichi d14                           S03-G (d14) 5v5 10.00    34.82   320.00    367.58            1.00                 True                                                                HAI GMT
+T3 efficacy surrogate (d14-28)                 Neut CA09 d14                           S03-D (d14) 5v5 52.23   417.86  3840.00   6685.83            0.98                False                                                microneutralisation GMT
+T3 efficacy surrogate (d14-28)          IgG2a CA09 d14 (Th1)                           S13-A (d14) 5v5   NaN    83.42  1641.76   4641.92            1.00                 True                               IgG subclass (IgG1/IgG3) + Th1 cytokines
+T3 efficacy surrogate (d14-28) IFNg+ CD8 d14 (rgH5N1 restim)                           S05-F (d14) 5v5  0.67     1.50     6.36      9.18            1.00                 True                            IFN-gamma ELISpot, conserved NP/M1 peptides
+        T4 durability (d25-60)              Lung TRM CD8 d25                           S05-I (d25) 5v5  0.58     1.00     3.96      6.04            1.00                 True                              nasal TRM (CD69+CD103+) by nasal brushing
+        T4 durability (d25-60)                 IFNg+ CD8 d60                           S05-G (d60) 5v5  1.46     3.04     9.86     14.36            1.00                 True                                            IFN-gamma ELISpot month 3-6
+        T4 durability (d25-60)                 GZMB+ CD8 d60                           S05-H (d60) 5v5  0.60     1.02     4.11      5.55            1.00                 True                                                granzyme B+ CD8 (blood)
+
+=== HAI threshold vs survival (group level, homologous CA09: S03-C titres, S03-I survival; different animals) ===
+Sham         HAI=[np.int64(10), np.int64(10), np.int64(10), np.int64(0), np.int64(0)] GMT=8 >=40:0/5 >=160:0/5 | survival 0/7
+CMP-204      HAI=[np.int64(40), np.int64(10), np.int64(20), np.int64(20), np.int64(40)] GMT=23 >=40:2/5 >=160:0/5 | survival 3/7
+PSLN-212     HAI=[np.int64(40), np.int64(80), np.int64(40), np.int64(40), np.int64(40)] GMT=46 >=40:5/5 >=160:0/5 | survival 0/7
+PSLN-344     HAI=[np.int64(320), np.int64(640), np.int64(160), np.int64(320), np.int64(640)] GMT=368 >=40:5/5 >=160:5/5 | survival 7/7
+PSLN-212(Y)  HAI=[np.int64(640), np.int64(640), np.int64(640), np.int64(320), np.int64(320)] GMT=485 >=40:5/5 >=160:5/5 | survival 7/7
+
+=== T-cell markers vs heterosubtypic survival (group level) ===
+Sham         TRM d25=0.58 IFNg d14=0.67 IFNg d60=1.46 | hetero surv d14 (S06-A,C) 0/14; d60 (S06-E,F,G) 0/21
+PSLN-212     TRM d25=1.00 IFNg d14=1.50 IFNg d60=3.04 | hetero surv d14 (S06-A,C) 3/14; d60 (S06-E,F,G) 1/21
+PSLN-344     TRM d25=3.96 IFNg d14=6.36 IFNg d60=9.86 | hetero surv d14 (S06-A,C) 13/14; d60 (S06-E,F,G) 14/21
+PSLN-212(Y)  TRM d25=6.04 IFNg d14=9.18 IFNg d60=14.36 | hetero surv d14 (S06-A,C) 14/14; d60 (S06-E,F,G) 21/21
+PSLN-344 matched designs d14 (S06-A,C) vs d60 (S06-E,F): 13/14 vs 10/14 Fisher p = 0.326

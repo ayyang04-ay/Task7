@@ -1,0 +1,45 @@
+=== A. S09-A panels vs log10(S01-A) ===
+S09-A panel1[A:U]    PBS            10^values=[1.84 0.62 0.88] match S01-A Sham 16h: 3/3
+S09-A panel1[A:U]    CMP-204        10^values=[ 6.16 10.61  6.79] match S01-A CMP-204 16h: 3/3
+S09-A panel1[A:U]    PSLN-212       10^values=[13.39 17.55 19.01] match S01-A PSLN-212 16h: 3/3
+S09-A panel1[A:U]    PSLN-R848      10^values=[8.62 4.28 2.22] match S01-A PSLN-R848 16h: 3/3
+S09-A panel1[A:U]    PSLN-212/R848  10^values=[29.09 22.78 20.93] match S01-A PSLN-212/R848 16h: 3/3
+S09-A panel1[A:U]    PSLN-344       10^values=[44.31 32.58 33.21] match S01-A PSLN-344 16h: 3/3
+S09-A panel1[A:U]    PSLN-212(Y)    10^values=[36.54 42.93 34.51] match S01-A PSLN-212(Y) 16h: 3/3
+S09-A panel2[X:AS]   PBS            10^values=[1.21 0.84 0.98] match S01-A Sham 72h: 3/3
+S09-A panel2[X:AS]   CMP-204        10^values=[1.71 2.46 2.46] match S01-A CMP-204 72h: 3/3
+S09-A panel2[X:AS]   PSLN-212       10^values=[3.07 3.18 4.03] match S01-A PSLN-212 72h: 3/3
+S09-A panel2[X:AS]   PSLN-R848      10^values=[1.3  1.24 1.2 ] match S01-A PSLN-R848 72h: 3/3
+S09-A panel2[X:AS]   PSLN-212/R848  10^values=[1.49 1.67 1.79] match S01-A PSLN-212/R848 72h: 3/3
+S09-A panel2[X:AS]   PSLN-344       10^values=[7.01 4.   2.3 ] match S01-A PSLN-344 72h: 3/3
+S09-A panel2[X:AS]   PSLN-212(Y)    10^values=[0.64 1.86 2.28] match S01-A PSLN-212(Y) 72h: 3/3
+
+=== B. IgG2a/IgG1 ratio: S03-B/F (as printed) vs S13 primary titres ===
+S03-B printed "PSLN-212": [4.436 4.577 1.179 1.172 3.495] -> equals S13 quotient of: ['PSLN-212(Y)']
+S03-B printed "PSLN-344": [0.74  0.8   0.292 0.48  0.577] -> equals S13 quotient of: ['PSLN-212']
+S03-B printed "PSLN-212(Y)": [2.583 1.722 4.19  0.848 1.376] -> equals S13 quotient of: ['PSLN-344']
+   S13-A/S13-B PSLN-212: [0.74  0.8   0.292 0.48  0.577]  mean=0.58
+   S13-A/S13-B PSLN-344: [2.583 1.722 4.19  0.848 1.376]  mean=2.14
+   S13-A/S13-B PSLN-212(Y): [4.436 4.577 1.18  1.172 3.495]  mean=2.97
+S03-F printed "PSLN-212": [3.879 3.059 3.174 2.635 1.706] -> equals S13 quotient of: ['PSLN-212(Y)']
+S03-F printed "PSLN-344": [0.885 0.606 0.491 0.314 0.262] -> equals S13 quotient of: ['PSLN-212']
+S03-F printed "PSLN-212(Y)": [5.464 3.42  2.258 1.087 1.404] -> equals S13 quotient of: ['PSLN-344']
+   S13-C/S13-D PSLN-212: [0.885 0.607 0.491 0.314 0.262]  mean=0.51
+   S13-C/S13-D PSLN-344: [5.464 3.42  2.258 1.087 1.404]  mean=2.73
+   S13-C/S13-D PSLN-212(Y): [3.879 3.061 3.174 2.635 1.707]  mean=2.89
+
+=== C. S04-B Tfh:Tfr vs (100-Foxp3)/Foxp3 ===
+Sham max abs diff 0.0
+PSLN-212 max abs diff 0.0
+PSLN-344 max abs diff 2e-06
+PSLN-212(Y) max abs diff 4e-06
+
+=== D. S01-B vs S08-C (same condition: PSLN-SRB, aged, 16h) ===
+AECII/PSLN-SRB [17.7 17.5 14.9 16.7 12.2] mean 15.8 | AECII-PSLN-SRB [17.7 17.5 18.9 12.2 12.5] mean 15.76
+AECI/PSLN-SRB [4.92 2.38 4.13 2.92 4.81] mean 3.83 | AECI-PSLN-SRB [14.32 15.11 15.12 11.83 12.42] mean 13.76
+S08-C AECII-PSLN-344-SRB [4.92 2.35 4.61 4.13 3.02]  vs S01-B AECI/PSLN-SRB [4.92 2.38 4.13 2.92 4.81]
+
+=== E. S08-A 20ug vs S01-A 16h (Ifnb1) ===
+CMP-204 S08-A 20ug [6.81 8.42 6.65]  S01-A 16h [ 6.16 10.61  6.79  7.22  8.35]
+PSLN-212 S08-A 20ug [12.13 14.25 11.33]  S01-A 16h [13.39 17.55 19.01 16.11 17.16]
+PSLN-344 S08-A 20ug [46.13 52.15 39.22]  S01-A 16h [44.31 32.58 36.61 33.21 38.82]

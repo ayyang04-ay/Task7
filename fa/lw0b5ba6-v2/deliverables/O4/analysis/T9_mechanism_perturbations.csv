@@ -1,0 +1,29 @@
+experiment,block,arm,comparator,arm_mean,comp_mean,effect,welch_p,interpretation,cells
+Surfactant-mimetic carrier drives AECII uptake,S01-B,AECII/PSLN-SRB (n=5),AECII/FreeSRB (n=5),15.8,0.378,+15.42 (+4080%),0.00010527633323900231,"liposome vs free dye, AECII",S01!B14..F14 vs S01!B16..F16
+Surfactant-mimetic carrier drives AECI uptake,S01-B,AECI/PSLN-SRB (n=5),AECI/FreeSRB (n=5),3.832,0.332,+3.50 (+1054%),0.002028548559884293,"liposome vs free dye, AECI",S01!B15..F15 vs S01!B17..F17
+AECII > AECI uptake of PSLN,S01-B,AECII/PSLN-SRB (n=5),AECI/PSLN-SRB (n=5),15.8,3.832,+11.97 (+312%),5.304740543493351e-05,,S01!B14..F14 vs S01!B15..F15
+AM uptake requires SP-A/SP-D,S01-C,WT (n=4),SPA/D (n=4),43.1,12.655,+30.45 (+241%),3.921702255178124e-05,"Sftpa1-/-Sftpd-/- vs WT, DiD+ AM",S01!B20..E20 vs S01!B21..E21
+Mn2+ particle: AECII uptake,S08-C,AECII-PSLN-344-SRB (n=5),AECII-PSLN-SRB (n=5),3.806,15.76,-11.95 (-76%),0.0005249858438600646,Mn particle vs Mn-free particle,S08!B14..B18 vs S08!A14..A18
+Mn2+ particle: AECI uptake,S08-C,AECI-PSLN-344-SRB (n=5),AECI-PSLN-SRB (n=5),3.0,13.76,-10.76 (-78%),1.629938315933585e-05,,S08!D14..D18 vs S08!C14..C18
+GM-CSF rescues PSLN-212 in aged,S02-G,PSLN-212+GM-CSF (n=5),PSLN-212 (n=5),13.824,5.858,+7.97 (+136%),0.0021071119273124786,"Ly6C+CD11c+MHC-II+ moDC-like, d5",S02!D22..D26 vs S02!C22..C26
+GM-CSF alone,S02-G,GM-CSF (n=5),PSLN-212 (n=5),1.52,5.858,-4.34 (-74%),0.002233276791281406,,S02!B22..B26 vs S02!C22..C26
+moDC differentiation needs IFNAR (no cDC precursors),S02-H,WT w/o cDC (n=5),IFN w/o cDC (n=5),19.7,2.088,+17.61 (+843%),0.00040252523621840024,"WT vs Ifnar-/- BM, CD135+ removed",S02!B30..B34 vs S02!D30..D34
+moDC differentiation needs IFNAR (with cDC precursors),S02-H,WT w/ cDC (n=5),IFN w/ cDC (n=5),27.22,6.07,+21.15 (+348%),0.0024535141560727163,,S02!C30..C34 vs S02!E30..E34
+GM-CSF partially rescues Ifnar-/-,S02-H,GMCSF (n=5),IFN w/o cDC (n=5),12.402,2.088,+10.31 (+494%),0.002696052996237856,,S02!F30..F34 vs S02!D30..D34
+GM-CSF rescue vs WT,S02-H,GMCSF (n=5),WT w/o cDC (n=5),12.402,19.7,-7.30 (-37%),0.01783288290867162,,S02!F30..F34 vs S02!B30..B34
+Monocyte recruitment only partly IFNAR-dependent,S12-A,WT to WT (n=3),IFNAR-/- to WT (n=3),21.267,15.367,+5.90 (+38%),0.12033161247964824,"young recipients, n=3",S12!A3..A5 vs S12!B3..B5
+CCR2 blockade: lung monocytes,S07-B,PSLN-344+INCB3344 (n=5),PSLN-344 (n=5),3.26,9.862,-6.60 (-67%),0.001009197259910619,,S07!C10..C14 vs S07!B10..B14
+CCR2 blockade: Ly6C+ macrophages,S07-B,PSLN-344+INCB3344 (n=5),PSLN-344 (n=5),2.522,15.354,-12.83 (-84%),0.0028695781679529144,,S07!F10..F14 vs S07!E10..E14
+CCR2 blockade: lung GZMB+ CD8 (young),S02-I,PSLN-344(Y)+INCB3344 (n=5),PSLN-344(Y) (n=5),1.39,6.77,-5.38 (-79%),8.129834909081057e-05,,S02!I30..I34 vs S02!H30..H34
+Gap-junction blockade (CBX): recruited monocytes,S11-C,CBX+ (n=5),CBX- (n=5),3.084,7.282,-4.20 (-58%),0.004114500485617791,,S11!A17..A21 vs S11!B17..B21
+PTX (Gi/CCR7) blocks MLN priming of OT-I,S05-C,MLN+PTX (n=3),MLN (n=3),6.833,30.9,-24.07 (-78%),0.0066464986739173315,"PSLN-344 + OVA, C57BL/6",S05!D13..D15 vs S05!C13..C15
+PTX does not block lung OT-I proliferation,S05-C,Lung+PTX (n=3),Lung (n=3),55.067,59.0,-3.93 (-7%),0.5686768061292411,,S05!B13..B15 vs S05!A13..A15
+PTX blocks antigen+ DC arrival in MLN,S02-C,PTX (n=5),PSLN-344 (n=5),2.356,7.09,-4.73 (-67%),0.0004682930702523977,adjuvant/age of PTX group not stated,S02!N3..N7 vs S02!L3..L7
+PTX blocks MLN-DC priming of OT-I,S02-E,PTX (n=5),PSLN-344 (n=5),2.548,18.652,-16.10 (-86%),1.764249628186288e-05,,S02!N10..N14 vs S02!L10..L14
+Aicda (class switch) d5,S03-L_Aicda,PSLN-344 (n=3),PSLN-212 (n=3),11.977,3.417,3.47x,0.00730876215448968,,S03!L28..N28 vs S03!L27..N27
+E47 d5,S03-L_E47,PSLN-344 (n=3),PSLN-212 (n=3),24.543,6.357,3.94x,0.006580515834990723,,S03!O28..Q28 vs S03!O27..Q27
+Lung Ly6C+CCR2+ macrophages d5 (x10^5),S07-A,PSLN-344 (n=3),PSLN-212 (n=3),3.423,19.027,-15.60 (-82%),0.036406395971719185,,S07!E5..G5 vs S07!B5..D5
+Lung Ly6C+CCR2+ macrophages d10 (x10^5),S07-A,PSLN-344 (n=3),PSLN-212 (n=3),2.877,14.557,-11.68 (-80%),0.0012895302582281902,,S07!E6..G6 vs S07!B6..D6
+Lung Ly6C+CCR2+ macrophages d30 (x10^5),S07-A,PSLN-344 (n=3),PSLN-212 (n=3),2.35,4.16,-1.81 (-44%),0.24534417730071506,,S07!E7..G7 vs S07!B7..D7
+Encapsulation efficiency,S08-B,PSLN-344 (n=3),PSLN-212 (n=3),54.823,59.64,-4.82 (-8%),0.28930970318371063,,S08!M11..O11 vs S08!D11..F11
+Macrophage transfer -> lung Treg (columns identically labelled),S07-C,Ly6C-CD206+ MΦ [col B] (n=5),Ly6C-CD206+ MΦ [col C] (n=5),10.438,5.142,+5.30 (+103%),0.0025321499359771136,UNINTERPRETABLE: both columns carry the same label,S07!B16..B20 vs S07!C16..C20

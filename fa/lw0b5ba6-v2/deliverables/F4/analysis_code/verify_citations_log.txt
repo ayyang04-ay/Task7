@@ -1,0 +1,54 @@
+OK   Table 1a S03-I [S03!A16:F51]: recomputed ('0/7', '0/7', '7/7', '7/7') | document ('0/7', '0/7', '7/7', '7/7')
+OK   Table 1a S06-A [S06!A2:E30]: recomputed ('0/7', '1/7', '6/7', '7/7') | document ('0/7', '1/7', '6/7', '7/7')
+OK   Table 1a S06-C [S06!M2:Q30]: recomputed ('0/7', '2/7', '7/7', '7/7') | document ('0/7', '2/7', '7/7', '7/7')
+OK   Table 1a S06-B [S06!G2:K30]: recomputed ('0/7', '0/7', '5/7', '7/7') | document ('0/7', '0/7', '5/7', '7/7')
+OK   Table 1a S06-D [S06!A33:E61]: recomputed ('0/7', '2/7', '7/7', '7/7') | document ('0/7', '2/7', '7/7', '7/7')
+OK   Table 1a S06-E [S06!G33:L68]: recomputed ('0/7', '0/7', '5/7', '7/7') | document ('0/7', '0/7', '5/7', '7/7')
+OK   Table 1a S06-F [S06!M33:R68]: recomputed ('0/7', '1/7', '5/7', '7/7') | document ('0/7', '1/7', '5/7', '7/7')
+OK   Table 1a S06-G [S06!A70:F105]: recomputed ('0/7', '0/7', '4/7', '7/7') | document ('0/7', '0/7', '4/7', '7/7')
+
+     Table 1b S15!A102:E130 {'Sham': '0/7', 'PSLN-212': '0/7', 'PSLN-344': '6/7', 'PSLN-212(Y)': '6/7'}
+     Table 1b S15!A133:E161 {'Sham': '0/7', 'PSLN-212': '2/7', 'PSLN-344': '6/7', 'PSLN-212(Y)': '7/7'}
+     Table 1b S15!A72:D93 {'3d Vaccine': '0/7', '3d PSLN-344': '0/7', '3d Vaccine+PSLN-344': '6/7'}
+     Table 1b S03!G16:J46 {'Sham': '1/10', 'PSLN-212': '3/10', 'PSLN-344': '10/10'}
+     Table 1b S06!G70:K98 {'Naïve+PSLN-212': '0/7', 'Imprinting+PSLN-212': '4/7', 'Naïve+PSLN-344': '6/7', 'Imprinting+PSLN-344': '6/7'}
+     Table 1b S06!M70:Q98 {'Naïve+PSLN-212': '0/7', 'Imprinting+PSLN-212': '0/7', 'Naïve+PSLN-344': '6/7', 'Imprinting+PSLN-344': '6/7'}
+     Table 1b S09!A11:D35 {'Sham': '0/8', 'PSLN-344Y': '8/8', 'PSLN-212Y': '8/8'}
+     Table 1b S09!A38:D62 {'Sham': '0/8', 'PSLN-344Y': '8/8', 'PSLN-212Y': '8/8'}
+     Table 1b S09!A65:D88 {'Sham': '0/7', 'PSLN-344Y': '8/8', 'PSLN-212Y': '8/8'}
+     Table 1b S13!R2:V30 {'Naïve': '0/7', 'Sham': '1/7', 'CMP-204(Y)': '7/7', 'PSLN-344(Y)': '7/7'}
+OK   S03-J rows per group (10 each, PSLN-344 all alive): recomputed ('1/10', '3/10', '10/10') | document ('1/10', '3/10', '10/10')
+OK   S03!G46 (day for last PSLN-344 row) is blank: recomputed None | document None
+
+OK   T2 Ifnb1 S01!B3:F9: recomputed ['0.94', '16.5', '36.9', '37.5'] | document ['0.94', '16.5', '36.9', '37.5']
+OK   T2 monocytes d4 S01!B26:U26: recomputed ['10.4', '16.7', '30.6', '32.2'] | document ['10.4', '16.7', '30.6', '32.2']
+OK   T2 CCR7 DC S02!A3:D7: recomputed ['2.5', '7.3', '30.7', '35.0'] | document ['2.5', '7.3', '30.7', '35.0']
+OK   T2 CD86 S02!F10:I14: recomputed ['7.2', '8.1', '14.5', '37.9'] | document ['7.2', '8.1', '14.5', '37.9']
+OK   T2 GC B S03!L17:O21: recomputed ['1.2', '2.3', '6.5', '9.8'] | document ['1.2', '2.3', '6.5', '9.8']
+OK   T2 Tfh:Tfr S04!A15:D19: recomputed ['3.5', '2.8', '8.4', '14.4'] | document ['3.5', '2.8', '8.4', '14.4']
+OK   T2 IgG H1 S03!A3:E7: recomputed ['55.7', '393', '7,305', '11,959'] | document ['55.7', '393', '7,305', '11,959']
+OK   T2 HAI H1 S03!K3:O7: recomputed ['7.6', '45.9', '368', '485'] | document ['7.6', '45.9', '368', '485']
+OK   T2 HAI H3 S03!K10:O14: recomputed ['10.0', '34.8', '320', '368'] | document ['10.0', '34.8', '320', '368']
+OK   T2 neut H1 S03!Q3:U7: recomputed ['52.2', '418', '3,840', '6,686'] | document ['52.2', '418', '3,840', '6,686']
+OK   T2 Ki67 S05!A19:D23: recomputed ['0.83', '3.5', '9.4', '9.9'] | document ['0.83', '3.5', '9.4', '9.9']
+OK   T2 IFNg d14 S05!A33:D37: recomputed ['0.67', '1.5', '6.4', '9.2'] | document ['0.67', '1.5', '6.4', '9.2']
+OK   T2 IFNg d60 S05!A40:D44: recomputed ['1.5', '3.0', '9.9', '14.4'] | document ['1.5', '3.0', '9.9', '14.4']
+OK   T2 TRM S05!A54:D58: recomputed ['0.58', '1.0', '4.0', '6.0'] | document ['0.58', '1.0', '4.0', '6.0']
+OK   T2 IgG2a:IgG1 S13!A3:G7: recomputed ['0.54', '1.85', '2.50'] | document ['0.54', '1.85', '2.50']
+
+OK   HAI PSLN-212 aged S03!M3:M7 range: recomputed (40, 80) | document (40, 80)
+OK   HAI PSLN-344 aged S03!N3:N7 range: recomputed (160, 640) | document (160, 640)
+OK   EE PSLN-344 S08!M11:O11 mean/min/max: recomputed (np.float64(54.8), 49.3, 59.4) | document (54.8, 49.3, 59.4)
+OK   S08-D PSLN-344 day 4 mean (S08!Q23:U23): recomputed 96.7 | document 96.7
+OK   S08-D Vaccine day 4 mean (S08!AA23:AE23): recomputed 98.8 | document 98.8
+OK   S08-D PSLN-344 day 10 mean: recomputed 99.8 | document 99.8
+OK   S08-D PSLN-212/R848 day 10 mean, n: recomputed (90.65, 4, 84.7) | document (90.65, 4, 84.7)
+OK   S10-A Tnf means PBS, Sham, PSLN-344, CT: recomputed [np.float64(1.0), np.float64(1.32), np.float64(1.59), np.float64(3.5)] | document [1.0, 1.32, 1.59, 3.5]
+OK   S10-A Ifnb1 means: recomputed [np.float64(1.0), np.float64(1.17), np.float64(1.32), np.float64(5.5)] | document [1.0, 1.17, 1.32, 5.5]
+OK   S09-A Tnf 16h 344/212/young: recomputed (np.float64(40.5), np.float64(15.7), np.float64(13.9)) | document (40.5, 15.7, 13.9)
+OK   S09-A Tnf 72h 344/212/young: recomputed (np.float64(8.4), np.float64(5.2), np.float64(0.5)) | document (8.4, 5.2, 0.5)
+OK   S09-A Il6 72h 344/212/young: recomputed (np.float64(7.2), np.float64(1.9), np.float64(3.1)) | document (7.2, 1.9, 3.1)
+OK   S09-A Ccl2 16h 344/212/young: recomputed (590, np.float64(7.6), np.float64(1390.0)) | document (590, 7.6, 1390)
+OK   S09-A Tnf & Il10 16h R848 combo: recomputed (202, 179) | document (202, 179)
+
+ALL CHECKS PASSED

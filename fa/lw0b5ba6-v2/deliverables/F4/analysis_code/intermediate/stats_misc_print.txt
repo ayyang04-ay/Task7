@@ -1,0 +1,79 @@
+=== S10-A CNS transcripts (36 h), linear fold; Tukey on log10 ===
+CNS Ifnb1 (fold) {'PBS': {'mean': 1.0, 'std': 0.23}, 'Sham': {'mean': 1.17, 'std': 0.34}, 'PSLN-344': {'mean': 1.32, 'std': 0.41}, 'CT': {'mean': 5.5, 'std': 1.19}}
+    CT vs PSLN-344: ratio(B/A)=0.23 [0.14,0.40] Tukey p=0.000; Welch(log) p=0.000; MWU p=0.008
+    PBS vs PSLN-344: ratio(B/A)=1.30 [0.77,2.20] Tukey p=0.499; Welch(log) p=0.199; MWU p=0.095
+    PSLN-344 vs Sham: ratio(B/A)=0.88 [0.52,1.49] Tukey p=0.899; Welch(log) p=0.568; MWU p=0.548
+CNS Tnf (fold) {'PBS': {'mean': 1.0, 'std': 0.22}, 'Sham': {'mean': 1.32, 'std': 0.39}, 'PSLN-344': {'mean': 1.59, 'std': 0.49}, 'CT': {'mean': 3.5, 'std': 1.22}}
+    CT vs PSLN-344: ratio(B/A)=0.46 [0.27,0.79] Tukey p=0.004; Welch(log) p=0.006; MWU p=0.016
+    PBS vs PSLN-344: ratio(B/A)=1.57 [0.91,2.69] Tukey p=0.121; Welch(log) p=0.033; MWU p=0.056
+    PSLN-344 vs Sham: ratio(B/A)=0.83 [0.48,1.43] Tukey p=0.763; Welch(log) p=0.361; MWU p=0.421
+CNS Isg15 (fold) {'PBS': {'mean': 1.0, 'std': 0.34}, 'Sham': {'mean': 1.04, 'std': 0.17}, 'PSLN-344': {'mean': 1.13, 'std': 0.21}, 'CT': {'mean': 2.68, 'std': 0.74}}
+    CT vs PSLN-344: ratio(B/A)=0.43 [0.28,0.67] Tukey p=0.000; Welch(log) p=0.001; MWU p=0.008
+    PBS vs PSLN-344: ratio(B/A)=1.16 [0.75,1.81] Tukey p=0.767; Welch(log) p=0.385; MWU p=0.421
+    PSLN-344 vs Sham: ratio(B/A)=0.92 [0.59,1.44] Tukey p=0.953; Welch(log) p=0.497; MWU p=0.841
+
+=== S08-D body weight after immunization (percent of day 0) ===
+group  CMP-204  PSLN-212  PSLN-212(Y)  PSLN-212/R848  PSLN-344  Vaccine
+day                                                                    
+0.0     100.00    100.00       100.00         100.00    100.00   100.00
+2.0      97.09     98.30        98.37          97.66     97.48    98.44
+4.0      96.01     97.02        97.68          95.08     96.68    98.84
+6.0      97.10     98.48       100.28          93.86     97.38    99.64
+8.0     100.40    100.14       100.42          91.66     98.58    99.86
+10.0    100.94    101.02       100.66          90.65     99.78   100.24
+group  CMP-204  PSLN-212  PSLN-212(Y)  PSLN-212/R848  PSLN-344  Vaccine
+day                                                                    
+0.0      100.0     100.0        100.0          100.0     100.0    100.0
+2.0       94.5      96.9         97.5           96.2      96.1     97.2
+4.0       93.2      94.5         96.0           93.2      94.2     97.1
+6.0       93.4      96.2         99.5           91.2      96.3     97.5
+8.0       99.3      98.5         99.3           88.3      97.1     99.2
+10.0      99.7      99.7        100.0           84.7      99.2    100.2
+group  CMP-204  PSLN-212  PSLN-212(Y)  PSLN-212/R848  PSLN-344  Vaccine
+day                                                                    
+0.0          5         5            5              5         5        5
+2.0          5         5            5              5         5        5
+4.0          5         5            5              5         5        5
+6.0          5         5            5              5         5        5
+8.0          5         5            5              5         5        5
+10.0         5         5            5              4         5        5
+day 2: PSLN-344 97.48 vs Vaccine 98.44: diff -0.96, Welch p=0.152, MWU p=0.421 | PSLN-344 vs PSLN-212 diff -0.82 p=0.199 | R848 combo 97.66 vs Vaccine p=0.2896
+day 4: PSLN-344 96.68 vs Vaccine 98.84: diff -2.16, Welch p=0.062, MWU p=0.095 | PSLN-344 vs PSLN-212 diff -0.34 p=0.767 | R848 combo 95.08 vs Vaccine p=0.0174
+day 6: PSLN-344 97.38 vs Vaccine 99.64: diff -2.26, Welch p=0.021, MWU p=0.016 | PSLN-344 vs PSLN-212 diff -1.10 p=0.278 | R848 combo 93.86 vs Vaccine p=0.0061
+day 8: PSLN-344 98.58 vs Vaccine 99.86: diff -1.28, Welch p=0.112, MWU p=0.222 | PSLN-344 vs PSLN-212 diff -1.56 p=0.102 | R848 combo 91.66 vs Vaccine p=0.0092
+day 10: PSLN-344 99.78 vs Vaccine 100.24: diff -0.46, Welch p=0.193, MWU p=0.310 | PSLN-344 vs PSLN-212 diff -1.24 p=0.062 | R848 combo 90.65 vs Vaccine p=0.0539
+                mean   min    max
+group                            
+PSLN-212(Y)    97.59  96.0  99.34
+CMP-204        95.92  93.2  98.43
+PSLN-212       97.02  94.5  99.00
+PSLN-344       96.40  94.2  98.30
+PSLN-212/R848  89.96  84.7  98.30
+Vaccine        98.20  97.1  99.40
+   nadir CMP-204 vs PSLN-212/R848: diff=-5.96 [-10.84,-1.09] p=0.0104
+   nadir CMP-204 vs PSLN-344: diff=0.48 [-4.40,5.35] p=0.9996
+   nadir PSLN-212 vs PSLN-212/R848: diff=-7.06 [-11.93,-2.19] p=0.0019
+   nadir PSLN-212 vs PSLN-344: diff=-0.62 [-5.49,4.25] p=0.9986
+   nadir PSLN-212(Y) vs PSLN-212/R848: diff=-7.63 [-12.50,-2.75] p=0.0008
+   nadir PSLN-212(Y) vs PSLN-344: diff=-1.19 [-6.06,3.69] p=0.9727
+   nadir PSLN-212/R848 vs PSLN-344: diff=6.44 [1.57,11.31] p=0.0050
+   nadir PSLN-212/R848 vs Vaccine: diff=8.24 [3.37,13.11] p=0.0003
+   nadir PSLN-344 vs Vaccine: diff=1.80 [-3.07,6.67] p=0.8589
+
+=== two-way ANOVA (group x time) for time-course blocks (stated method) ===
+S01-D {'C(group)': 'F=124.3, p=5.0e-30', 'C(t)': 'F=106.8, p=2.9e-31', 'C(group):C(t)': 'F=17.0, p=2.6e-17'}
+S01-E {'C(group)': 'F=56.9, p=6.1e-25', 'C(t)': 'F=137.2, p=1.1e-39', 'C(group):C(t)': 'F=10.3, p=6.7e-15'}
+S02-F {'C(group)': 'F=201.9, p=2.7e-20', 'C(t)': 'F=8.3, p=1.1e-03', 'C(group):C(t)': 'F=4.7, p=3.7e-03'}
+S11-A {'C(group)': 'F=158.7, p=1.4e-33', 'C(t)': 'F=15.7, p=1.5e-09', 'C(group):C(t)': 'F=1.9, p=4.5e-02'}
+S11-B {'C(group)': 'F=155.8, p=2.6e-33', 'C(t)': 'F=14.8, p=4.3e-09', 'C(group):C(t)': 'F=2.1, p=2.8e-02'}
+S11-D {'C(group)': 'F=26.1, p=6.9e-12', 'C(t)': 'F=8.3, p=1.2e-05', 'C(group):C(t)': 'F=1.1, p=3.3e-01'}
+S07-A {'C(group)': 'F=48.9, p=8.7e-07', 'C(t)': 'F=19.5, p=1.1e-06', 'C(group):C(t)': 'F=8.5, p=3.5e-04'}
+S05-A {'C(group)': 'F=63.8, p=4.8e-06', 'C(t)': 'F=31.9, p=8.2e-05', 'C(group):C(t)': 'F=0.7, p=6.0e-01'}
+S05-B {'C(group)': 'F=14.7, p=1.5e-03', 'C(t)': 'F=19.7, p=5.2e-04', 'C(group):C(t)': 'F=1.4, p=3.0e-01'}
+
+=== AUC-type summaries for time courses: per-group mean over days 2-8 ===
+S01-D {'Sham': 10.4, 'PSLN-212': 13.0, 'PSLN-344': 22.1, 'PSLN-212(Y)': 21.8}  peak day means: {'Sham': 11.2, 'PSLN-212': 16.7, 'PSLN-344': 30.6, 'PSLN-212(Y)': 32.2}
+S01-E {'Sham': 3.4, 'PSLN-212': 6.5, 'PSLN-344': 13.2, 'PSLN-212(Y)': 11.9, 'PSLN-344(Y)': 13.6}  peak day means: {'Sham': 4.8, 'PSLN-212': 8.3, 'PSLN-344': 18.9, 'PSLN-212(Y)': 21.4, 'PSLN-344(Y)': 22.6}
+S11-A {'Vaccine': 21.8, 'PSLN-212': 27.6, 'PSLN-344': 30.4, 'PSLN-212(Y)': 45.1}  peak day means: {'Vaccine': 22.6, 'PSLN-212': 30.9, 'PSLN-344': 32.3, 'PSLN-212(Y)': 48.5}
+S11-B {'Vaccine': 21.8, 'PSLN-212': 27.8, 'PSLN-344': 29.7, 'PSLN-212(Y)': 44.7}  peak day means: {'Vaccine': 23.0, 'PSLN-212': 31.3, 'PSLN-344': 31.8, 'PSLN-212(Y)': 48.4}
+S11-D {'Vaccine': 26.5, 'PSLN-212': 25.2, 'PSLN-344': 28.3, 'PSLN-212(Y)': 19.2}  peak day means: {'Vaccine': 28.5, 'PSLN-212': 28.8, 'PSLN-344': 34.0, 'PSLN-212(Y)': 23.1}

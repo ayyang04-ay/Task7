@@ -1,0 +1,247 @@
+======================================================================================================================
+1. SEROLOGY  (GMT [95% CI]; GMR with 95% CI from Welch on log scale; exact Mann-Whitney p)
+======================================================================================================================
+S03-A  IgG anti-H1N1 d14              | Sham: 56 [19-164] | CMP-204: 181 [74-445] | PSLN-212: 393 [210-737] | PSLN-344: 7,305 [4,081-13,076] | PSLN-212(Y): 11,959 [7,242-19,747]
+         GMR PSLN-344/PSLN-212     =   18.58  [9.11-37.87]  Welch p=1.3e-05  MWU exact p=0.00794
+         GMR PSLN-344/PSLN-212(Y)  =    0.61  [0.32-1.16]  Welch p=0.11  MWU exact p=0.222
+         GMR PSLN-344/Sham         =  131.20  [44.75-384.65]  Welch p=2.8e-05  MWU exact p=0.00794
+         GMR PSLN-212/Sham         =    7.06  [2.39-20.88]  Welch p=0.0041  MWU exact p=0.00794
+         GMR PSLN-212/CMP-204      =    2.17  [0.86-5.49]  Welch p=0.09  MWU exact p=0.151
+S03-E  IgG anti-H3N2 d14              | Sham: 52 [15-186] | CMP-204: 200 [72-557] | PSLN-212: 426 [227-798] | PSLN-344: 5,701 [2,794-11,631] | PSLN-212(Y): 13,855 [6,894-27,847]
+         GMR PSLN-344/PSLN-212     =   13.40  [6.07-29.57]  Welch p=7e-05  MWU exact p=0.00794
+         GMR PSLN-344/PSLN-212(Y)  =    0.41  [0.18-0.94]  Welch p=0.039  MWU exact p=0.0556
+         GMR PSLN-344/Sham         =  108.77  [30.67-385.71]  Welch p=8.1e-05  MWU exact p=0.00794
+         GMR PSLN-212/Sham         =    8.12  [2.32-28.43]  Welch p=0.0066  MWU exact p=0.00794
+         GMR PSLN-212/CMP-204      =    2.13  [0.76-5.98]  Welch p=0.13  MWU exact p=0.222
+S03-C  HAI H1N1 d14                   | Sham: 8 [5-12] | CMP-204: 23 [11-47] | PSLN-212: 46 [31-68] | PSLN-344: 368 [179-755] | PSLN-212(Y): 485 [303-777]
+         GMR PSLN-344/PSLN-212     =    8.00  [3.91-16.38]  Welch p=0.00037  MWU exact p=0.00794
+         GMR PSLN-344/PSLN-212(Y)  =    0.76  [0.36-1.58]  Welch p=0.4  MWU exact p=0.548
+         GMR PSLN-344/Sham         =   48.50  [23.25-101.18]  Welch p=5.4e-06  MWU exact p=0.00794
+         GMR PSLN-212/Sham         =    6.06  [3.64-10.09]  Welch p=4.5e-05  MWU exact p=0.00794
+         GMR PSLN-212/CMP-204      =    2.00  [0.98-4.09]  Welch p=0.056  MWU exact p=0.0952
+         animals with HAI >= 40: {'Sham': '0/5', 'CMP-204': '2/5', 'PSLN-212': '5/5', 'PSLN-344': '5/5', 'PSLN-212(Y)': '5/5'}
+S03-G  HAI H3N2 d14                   | Sham: 10 [5-18] | CMP-204: 30 [19-49] | PSLN-212: 35 [17-72] | PSLN-344: 320 [174-588] | PSLN-212(Y): 368 [250-540]
+         GMR PSLN-344/PSLN-212     =    9.19  [4.18-20.18]  Welch p=0.00021  MWU exact p=0.00794
+         GMR PSLN-344/PSLN-212(Y)  =    0.87  [0.47-1.61]  Welch p=0.61  MWU exact p=0.841
+         GMR PSLN-344/Sham         =   32.00  [15.66-65.40]  Welch p=3.7e-06  MWU exact p=0.00794
+         GMR PSLN-212/Sham         =    3.48  [1.59-7.65]  Welch p=0.0066  MWU exact p=0.0159
+         GMR PSLN-212/CMP-204      =    1.15  [0.55-2.40]  Welch p=0.67  MWU exact p=0.841
+         animals with HAI >= 40: {'Sham': '0/5', 'CMP-204': '3/5', 'PSLN-212': '3/5', 'PSLN-344': '5/5', 'PSLN-212(Y)': '5/5'}
+S03-D  Neut H1N1 d14                  | Sham: 52 [25-107] | CMP-204: 182 [84-393] | PSLN-212: 418 [203-859] | PSLN-344: 3,840 [1,338-11,018] | PSLN-212(Y): 6,686 [3,254-13,737]
+         GMR PSLN-344/PSLN-212     =    9.19  [3.10-27.20]  Welch p=0.0019  MWU exact p=0.0159
+         GMR PSLN-344/PSLN-212(Y)  =    0.57  [0.19-1.70]  Welch p=0.27  MWU exact p=0.421
+         GMR PSLN-344/Sham         =   73.52  [24.84-217.60]  Welch p=3.1e-05  MWU exact p=0.00794
+         GMR PSLN-212/Sham         =    8.00  [3.43-18.64]  Welch p=0.00047  MWU exact p=0.00794
+         GMR PSLN-212/CMP-204      =    2.30  [0.96-5.52]  Welch p=0.06  MWU exact p=0.0952
+S03-H  Neut H3N2 d14                  | Sham: 40 [25-63] | CMP-204: 138 [67-283] | PSLN-212: 276 [134-566] | PSLN-344: 2,533 [1,173-5,471] | PSLN-212(Y): 4,411 [2,147-9,063]
+         GMR PSLN-344/PSLN-212     =    9.19  [3.83-22.07]  Welch p=0.00039  MWU exact p=0.00794
+         GMR PSLN-344/PSLN-212(Y)  =    0.57  [0.24-1.38]  Welch p=0.18  MWU exact p=0.31
+         GMR PSLN-344/Sham         =   64.00  [29.41-139.27]  Welch p=6.4e-06  MWU exact p=0.00794
+         GMR PSLN-212/Sham         =    6.96  [3.34-14.53]  Welch p=0.00045  MWU exact p=0.00794
+         GMR PSLN-212/CMP-204      =    2.00  [0.86-4.66]  Welch p=0.095  MWU exact p=0.151
+S13-I  IgG anti-H1N1 d28 post-boost   | Sham: 57 [8-418] | CMP-204: 940 [518-1,703] | PSLN-212: 4,411 [2,486-7,828] | PSLN-344: 15,651 [6,767-36,194] | PSLN-212(Y): 40,739 [18,905-87,790]
+         GMR PSLN-344/PSLN-212     =    3.55  [1.50-8.41]  Welch p=0.01  MWU exact p=0.0317
+         GMR PSLN-344/PSLN-212(Y)  =    0.38  [0.15-0.99]  Welch p=0.048  MWU exact p=0.151
+         GMR PSLN-344/Sham         =  276.35  [38.70-1973.56]  Welch p=0.00059  MWU exact p=0.00794
+         GMR PSLN-212/Sham         =   77.89  [10.88-557.76]  Welch p=0.0027  MWU exact p=0.00794
+         GMR PSLN-212/CMP-204      =    4.69  [2.36-9.33]  Welch p=0.00083  MWU exact p=0.00794
+S13-J  IgG anti-H3N2 d28 post-boost   | Sham: 101 [41-246] | CMP-204: 474 [265-847] | PSLN-212: 1,086 [520-2,270] | PSLN-344: 12,435 [4,626-33,426] | PSLN-212(Y): 43,472 [27,756-68,086]
+         GMR PSLN-344/PSLN-212     =   11.45  [4.05-32.37]  Welch p=0.00076  MWU exact p=0.00794
+         GMR PSLN-344/PSLN-212(Y)  =    0.29  [0.11-0.76]  Welch p=0.021  MWU exact p=0.0317
+         GMR PSLN-344/Sham         =  123.12  [40.68-372.65]  Welch p=8.9e-06  MWU exact p=0.00794
+         GMR PSLN-212/Sham         =   10.75  [4.09-28.26]  Welch p=0.00051  MWU exact p=0.00794
+         GMR PSLN-212/CMP-204      =    2.29  [1.04-5.04]  Welch p=0.041  MWU exact p=0.0317
+S13-A  IgG2a anti-H1N1 d14            | PSLN-212: 83 [51-135] | PSLN-344: 1,642 [869-3,101] | PSLN-212(Y): 4,642 [2,498-8,625]
+         GMR PSLN-344/PSLN-212     =   19.68  [10.05-38.54]  Welch p=1.1e-05  MWU exact p=0.00794
+         GMR PSLN-344/PSLN-212(Y)  =    0.35  [0.17-0.74]  Welch p=0.012  MWU exact p=0.0317
+S13-B  IgG1 anti-H1N1 d14             | PSLN-212: 153 [118-198] | PSLN-344: 887 [681-1,155] | PSLN-212(Y): 1,855 [1,303-2,641]
+         GMR PSLN-344/PSLN-212     =    5.79  [4.26-7.87]  Welch p=1e-06  MWU exact p=0.00794
+         GMR PSLN-344/PSLN-212(Y)  =    0.48  [0.33-0.69]  Welch p=0.002  MWU exact p=0.00794
+S13-C  IgG2a anti-H3N2 d14            | PSLN-212: 80 [46-139] | PSLN-344: 1,331 [749-2,365] | PSLN-212(Y): 3,701 [2,196-6,235]
+         GMR PSLN-344/PSLN-212     =   16.59  [8.57-32.10]  Welch p=9.9e-06  MWU exact p=0.00794
+         GMR PSLN-344/PSLN-212(Y)  =    0.36  [0.19-0.69]  Welch p=0.0065  MWU exact p=0.0159
+S13-D  IgG1 anti-H3N2 d14             | PSLN-212: 173 [119-251] | PSLN-344: 579 [431-777] | PSLN-212(Y): 1,326 [1,028-1,710]
+         GMR PSLN-344/PSLN-212     =    3.35  [2.24-5.00]  Welch p=0.00014  MWU exact p=0.00794
+         GMR PSLN-344/PSLN-212(Y)  =    0.44  [0.32-0.60]  Welch p=0.00039  MWU exact p=0.00794
+
+   IgG2a:IgG1 per-animal quotient recomputed from the raw subclass blocks (labels as in S13-A..D):
+     H1N1: PSLN-212: GM 0.54 | PSLN-344: GM 1.85 | PSLN-212(Y): GM 2.50   ratio 344/212 = 3.4 [1.6-7.4] p=0.0073;  344/212(Y) = 0.74 [0.28-1.93] p=0.49
+       (as PRINTED in S03-B: PSLN-212: GM 2.50 | PSLN-344: GM 0.54 | PSLN-212(Y): GM 1.85)
+     H3N2: PSLN-212: GM 0.46 | PSLN-344: GM 2.30 | PSLN-212(Y): GM 2.79   ratio 344/212 = 5.0 [2.1-11.7] p=0.0028;  344/212(Y) = 0.82 [0.37-1.84] p=0.57
+       (as PRINTED in S03-F: PSLN-212: GM 2.79 | PSLN-344: GM 0.46 | PSLN-212(Y): GM 2.30)
+
+======================================================================================================================
+2. CELLULAR / MECHANISTIC BLOCKS WITH THE FOUR STANDARD ARMS  (mean +/- SD; difference 344-212 [95% CI]; % of young benchmark)
+======================================================================================================================
+S01-F        lung cDC1 % (72 h)                              Sham: 17.94±2.46 | PSLN-212: 22.80±3.58 | PSLN-344: 37.52±6.99 | PSLN-212(Y): 43.42±5.35 | PSLN-344(Y): 44.26±1.56
+                344-212 = +14.72 [+6.12,+23.32]  fold 1.65x  Welch p=0.0058  MWU p=0.00794   | 344 as % of young 212(Y): 86% (Welch p vs young = 0.17)
+S01-G        lung cDC2 % (72 h)                              Sham: 80.62±3.62 | PSLN-212: 75.30±2.88 | PSLN-344: 59.46±6.83 | PSLN-212(Y): 54.08±7.20 | PSLN-344(Y): 51.36±7.30
+                344-212 = -15.84 [-24.18,-7.50]  fold 0.79x  Welch p=0.0041  MWU p=0.00794   | 344 as % of young 212(Y): 110% (Welch p vs young = 0.26)
+S02-A        CCR7+ of lung CD11b+ DC % (72 h)                Sham: 2.54±0.66 | PSLN-212: 7.28±2.04 | PSLN-344: 30.68±7.86 | PSLN-212(Y): 35.00±4.83
+                344-212 = +23.40 [+13.77,+33.03]  fold 4.21x  Welch p=0.0019  MWU p=0.00794   | 344 as % of young 212(Y): 88% (Welch p vs young = 0.33)
+S02-B        MLN CD11b+CD103- DC % (72 h)                    Sham: 13.92±4.22 | PSLN-212: 18.22±6.40 | PSLN-344: 36.76±9.24 | PSLN-212(Y): 44.70±7.69
+                344-212 = +18.54 [+6.69,+30.39]  fold 2.02x  Welch p=0.0075  MWU p=0.0159   | 344 as % of young 212(Y): 82% (Welch p vs young = 0.18)
+S02-D_CD40   CD40+ of MLN CD11b+ DC % (d3)                   Sham: 3.96±1.04 | PSLN-212: 5.56±1.12 | PSLN-344: 11.20±3.00 | PSLN-212(Y): 38.72±7.30
+                344-212 = +5.65 [+1.98,+9.31]  fold 2.02x  Welch p=0.011  MWU p=0.00794   | 344 as % of young 212(Y): 29% (Welch p vs young = 0.00042)
+S02-D_CD86   CD86+ of MLN CD11b+ DC % (d3)                   Sham: 7.18±1.51 | PSLN-212: 8.13±1.79 | PSLN-344: 14.54±2.71 | PSLN-212(Y): 37.94±5.54
+                344-212 = +6.41 [+2.97,+9.85]  fold 1.79x  Welch p=0.0032  MWU p=0.00794   | 344 as % of young 212(Y): 38% (Welch p vs young = 0.00017)
+S02-C        OVA-AF647+ MLN DC % (36 h)                      PSLN-212: 1.77±0.39 | PSLN-344: 7.09±1.42 | PSLN-212(Y): 9.39±1.49 | PTX: 2.36±0.88 | PSLN-344(Y): 11.12±1.79
+                344-212 = +5.32 [+3.59,+7.05]  fold 4.01x  Welch p=0.00069  MWU p=0.00794   | 344 as % of young 212(Y): 76% (Welch p vs young = 0.037)
+S02-E        OT-I proliferation by MLN CD11b+ DC % (ex vivo) PSLN-212: 0.77±0.53 | PSLN-344: 18.65±2.85 | PSLN-212(Y): 26.24±6.69 | PTX: 2.55±1.81 | PSLN-344(Y): 31.40±6.68
+                344-212 = +17.89 [+14.38,+21.40]  fold 24.35x  Welch p=0.0001  MWU p=0.00794   | 344 as % of young 212(Y): 71% (Welch p vs young = 0.063)
+S03-K        GC B cells in MLN % (d7)                        Sham: 1.18±0.40 | PSLN-212: 2.34±0.52 | PSLN-344: 6.54±1.54 | PSLN-212(Y): 9.82±3.05
+                344-212 = +4.20 [+2.33,+6.08]  fold 2.79x  Welch p=0.0023  MWU p=0.00794   | 344 as % of young 212(Y): 67% (Welch p vs young = 0.076)
+S04-A_ICOShi Tfh ICOS-hi % (d7)                              Sham: 0.30±0.16 | PSLN-212: 3.82±0.85 | PSLN-344: 10.26±3.16 | PSLN-212(Y): 13.63±1.64
+                344-212 = +6.44 [+2.57,+10.31]  fold 2.69x  Welch p=0.0086  MWU p=0.00794   | 344 as % of young 212(Y): 75% (Welch p vs young = 0.078)
+S04-A_ICOSlo Tfh ICOS-lo % (d7)                              Sham: 2.02±1.04 | PSLN-212: 2.70±0.66 | PSLN-344: 5.74±2.06 | PSLN-212(Y): 6.91±2.28
+                344-212 = +3.04 [+0.53,+5.55]  fold 2.12x  Welch p=0.027  MWU p=0.0159   | 344 as % of young 212(Y): 83% (Welch p vs young = 0.42)
+S04-B_Foxp3  Tfr (Foxp3+ of CXCR5+ICOShi) % (d7)             Sham: 22.60±4.40 | PSLN-212: 26.66±6.67 | PSLN-344: 10.80±1.78 | PSLN-212(Y): 7.12±3.67
+                344-212 = -15.86 [-24.03,-7.69]  fold 0.41x  Welch p=0.0047  MWU p=0.00794   | 344 as % of young 212(Y): 152% (Welch p vs young = 0.092)
+S04-B_TfhTfr Tfh:Tfr quotient (d7)                           Sham: 3.56±0.84 | PSLN-212: 2.94±0.93 | PSLN-344: 8.48±1.65 | PSLN-212(Y): 16.05±8.28
+                344-212 = +5.54 [+3.49,+7.59]  fold 2.89x  Welch p=0.0005  MWU p=0.00794   | 344 as % of young 212(Y): 53% (Welch p vs young = 0.11)
+S04-C        Tfr % (d30)                                     Sham: 13.86±1.83 | PSLN-212: 18.04±3.80 | PSLN-344: 14.00±3.24 | PSLN-212(Y): 7.40±1.62
+                344-212 = -4.04 [-9.21,+1.13]  fold 0.78x  Welch p=0.11  MWU p=0.151   | 344 as % of young 212(Y): 189% (Welch p vs young = 0.0068)
+S04-D        lung Treg % (d7)                                Sham: 5.88±0.84 | PSLN-212: 6.66±0.34 | PSLN-344: 2.99±0.41 | PSLN-212(Y): 1.78±0.59
+                344-212 = -3.67 [-4.54,-2.81]  fold 0.45x  Welch p=0.00034  MWU p=0.1   | 344 as % of young 212(Y): 168% (Welch p vs young = 0.051)
+S05-D        Ki-67+ lung CD8 % (d3)                          Sham: 0.83±0.45 | PSLN-212: 3.48±1.35 | PSLN-344: 9.38±1.78 | PSLN-212(Y): 9.94±3.03
+                344-212 = +5.90 [+3.57,+8.23]  fold 2.70x  Welch p=0.00047  MWU p=0.00794   | 344 as % of young 212(Y): 94% (Welch p vs young = 0.73)
+S05-E        GZMB+ lung CD8 % (d3)                           Sham: 0.99±0.38 | PSLN-212: 2.99±0.78 | PSLN-344: 5.69±0.90 | PSLN-212(Y): 9.61±1.21
+                344-212 = +2.70 [+1.46,+3.94]  fold 1.90x  Welch p=0.0011  MWU p=0.00794   | 344 as % of young 212(Y): 59% (Welch p vs young = 0.00053)
+S05-F        IFN-g+ CD8 MLN, rgH5N1 restim % (d14)           Sham: 0.67±0.36 | PSLN-212: 1.50±0.39 | PSLN-344: 6.36±1.00 | PSLN-212(Y): 9.18±0.90
+                344-212 = +4.85 [+3.63,+6.07]  fold 4.23x  Welch p=0.00013  MWU p=0.00794   | 344 as % of young 212(Y): 69% (Welch p vs young = 0.0016)
+S05-G        IFN-g+ CD8 MLN, rgH5N1 restim % (d60)           Sham: 1.46±1.07 | PSLN-212: 3.04±1.25 | PSLN-344: 9.86±2.81 | PSLN-212(Y): 14.36±2.94
+                344-212 = +6.82 [+3.39,+10.25]  fold 3.24x  Welch p=0.0032  MWU p=0.00794   | 344 as % of young 212(Y): 69% (Welch p vs young = 0.038)
+S05-H        GZMB+ CD8 MLN % (d60)                           Sham: 0.60±0.39 | PSLN-212: 1.02±0.31 | PSLN-344: 4.11±1.12 | PSLN-212(Y): 5.55±1.44
+                344-212 = +3.08 [+1.71,+4.45]  fold 4.01x  Welch p=0.0025  MWU p=0.00794   | 344 as % of young 212(Y): 74% (Welch p vs young = 0.12)
+S05-I        lung CD8 TRM % (d25)                            Sham: 0.58±0.31 | PSLN-212: 1.00±0.37 | PSLN-344: 3.96±0.62 | PSLN-212(Y): 6.04±0.60
+                344-212 = +2.96 [+2.18,+3.74]  fold 3.96x  Welch p=6.2e-05  MWU p=0.00794   | 344 as % of young 212(Y): 66% (Welch p vs young = 0.00068)
+S14-A_H1N1   IFN-g+ CD8 MLN, H1N1 restim %                   Sham: 0.82±0.57 | PSLN-212: 3.14±1.77 | PSLN-344: 11.02±2.57 | PSLN-212(Y): 13.70±2.45
+                344-212 = +7.88 [+4.59,+11.17]  fold 3.51x  Welch p=0.00074  MWU p=0.00794   | 344 as % of young 212(Y): 80% (Welch p vs young = 0.13)
+S14-A_H3N2   IFN-g+ CD8 MLN, H3N2 restim %                   Sham: 1.04±0.58 | PSLN-212: 3.58±1.20 | PSLN-344: 9.86±1.79 | PSLN-212(Y): 13.98±2.51
+                344-212 = +6.28 [+4.01,+8.55]  fold 2.75x  Welch p=0.00033  MWU p=0.00794   | 344 as % of young 212(Y): 71% (Welch p vs young = 0.019)
+S13-H        IgG+ of MLN B220+ %                             Sham: 4.70±2.58 | PSLN-212: 11.22±2.29 | PSLN-344: 25.86±5.89 | PSLN-212(Y): 27.11±4.22
+                344-212 = +14.64 [+7.46,+21.83]  fold 2.31x  Welch p=0.0032  MWU p=0.00794   | 344 as % of young 212(Y): 95% (Welch p vs young = 0.71)
+S11-E        CD206+ lung macrophages %                       Sham: 85.18±7.81 | PSLN-212: 71.46±8.26 | PSLN-344: 48.92±8.12 | PSLN-212(Y): 35.54±7.12
+                344-212 = -22.54 [-34.48,-10.60]  fold 0.68x  Welch p=0.0024  MWU p=0.00794   | 344 as % of young 212(Y): 138% (Welch p vs young = 0.025)
+
+   Holm-adjusted p (family of 37 PSLN-344 vs PSLN-212 contrasts, aged animals): 
+   S13-B 3.8e-05; S13-C 0.00036; S13-A 0.00038; S03-A 0.00045; S05-I 0.002; S03-E 0.0022; S02-E 0.0032; S05-F 0.0039; S13-D 0.0041; S03-G 0.0057; S14-A_H3N2 0.0088; S04-D 0.0089; S03-C 0.0092; S03-H 0.0094; S05-D 0.011; S04-B_TfhTfr 0.011; S02-C 0.014; S14-A_H1N1 0.015; S13-J 0.015; S05-E 0.019; S03-D 0.032; S02-A 0.032; S03-K 0.034; S11-E 0.034; S05-H 0.034; S13-H 0.038; S02-D_CD86 0.038; S05-G 0.038; S01-G 0.038; S04-B_Foxp3 0.038; S01-F 0.041; S02-B 0.045; S04-A_ICOShi 0.045; S13-I 0.045; S02-D_CD40 0.045; S04-A_ICOSlo 0.054; S04-C 0.11
+
+======================================================================================================================
+3. TIME COURSES (mean per group per timepoint)
+======================================================================================================================
+S01-D  lung monocytes %
+      Sham          0:   8.00  2:  10.36  4:  10.42  6:  11.24  8:   9.48
+      PSLN-212      0:   9.40  2:  12.48  4:  16.72  6:  13.22  8:   9.66
+      PSLN-344      0:   9.18  2:  15.00  4:  30.56  6:  24.48  8:  18.44
+      PSLN-212(Y)   0:  10.84  2:  15.64  4:  32.22  6:  25.22  8:  14.08
+         day 2: 344-212 = +2.5 [-3.1,+8.2] p=0.29
+         day 4: 344-212 = +13.8 [+8.1,+19.5] p=0.0016
+         day 6: 344-212 = +11.3 [+7.4,+15.1] p=0.00016
+         day 8: 344-212 = +8.8 [+7.2,+10.3] p=1.3e-05
+S01-E  lung CD11b+ DC %
+      Sham          0:   1.34  2:   1.94  4:   4.80  6:   4.32  8:   2.44
+      PSLN-212      0:   1.68  2:   3.72  4:   8.28  6:   7.80  8:   6.04
+      PSLN-344      0:   1.30  2:   4.72  4:  18.88  6:  15.38  8:  13.68
+      PSLN-212(Y)   0:   1.24  2:   3.80  4:  21.40  6:  12.98  8:   9.48
+      PSLN-344(Y)   0:   1.06  2:   4.90  4:  22.60  6:  16.30  8:  10.50
+         day 2: 344-212 = +1.0 [-0.2,+2.2] p=0.099
+         day 4: 344-212 = +10.6 [+0.1,+21.1] p=0.049
+         day 6: 344-212 = +7.6 [+2.5,+12.7] p=0.012
+         day 8: 344-212 = +7.6 [+4.2,+11.0] p=0.0018
+S02-F  Gm-csf mRNA fold (GM)
+      PSLN-344      16h:   5.99  36h:   8.52  72h:   3.61
+      PSLN-212      16h:   1.42  36h:   1.59  72h:   1.37
+      Sham          16h:   0.98  36h:   1.20  72h:   1.14
+         16h: GM ratio 344/212 = 4.21 [2.78-6.38] p=0.00051
+         36h: GM ratio 344/212 = 5.36 [3.93-7.32] p=3.8e-05
+         72h: GM ratio 344/212 = 2.63 [1.61-4.30] p=0.0036
+S07-A  lung Ly6C+CCR2+ macrophages x10^5
+      PSLN-212      0:   1.37  2:  10.11  5:  19.03  10:  14.56  30:   4.16
+      PSLN-344      0:   1.95  2:   3.27  5:   3.42  10:   2.88  30:   2.35
+         day 0: 212-344 = -0.6 [-2.2,+1.0] x10^5, p=0.35 (n=3)
+         day 2: 212-344 = +6.8 [-4.1,+17.8] x10^5, p=0.12 (n=3)
+         day 5: 212-344 = +15.6 [+2.4,+28.8] x10^5, p=0.036 (n=3)
+         day 10: 212-344 = +11.7 [+7.9,+15.5] x10^5, p=0.0013 (n=3)
+         day 30: 212-344 = +1.8 [-2.7,+6.3] x10^5, p=0.25 (n=3)
+S11-A  alveolar macrophages %
+      Vaccine       0:  20.42  2:  22.64  4:  20.74  6:  21.54  8:  22.44
+      PSLN-212      0:  20.32  2:  28.24  4:  30.90  6:  27.50  8:  23.94
+      PSLN-344      0:  21.18  2:  29.62  4:  32.26  6:  31.00  8:  28.78
+      PSLN-212(Y)   0:  36.64  2:  44.72  4:  48.50  6:  46.88  8:  40.36
+S11-B  neutrophils % (shares replicates with S11-A)
+      Vaccine       0:  20.38  2:  23.00  4:  20.82  6:  20.82  8:  22.50
+      PSLN-212      0:  20.02  2:  28.12  4:  31.32  6:  27.18  8:  24.42
+      PSLN-344      0:  21.04  2:  27.14  4:  31.80  6:  30.96  8:  28.84
+      PSLN-212(Y)   0:  36.76  2:  43.14  4:  48.44  6:  46.46  8:  40.78
+S11-D  NK cells %
+      Vaccine       0:  27.80  2:  28.46  4:  27.48  6:  24.32  8:  25.92
+      PSLN-212      0:  26.34  2:  28.82  4:  24.70  6:  21.76  8:  25.46
+      PSLN-344      0:  25.64  2:  34.02  4:  31.08  6:  23.88  8:  24.06
+      PSLN-212(Y)   0:  17.40  2:  23.14  4:  18.10  6:  17.60  8:  18.14
+S05-A  NP tetramer+ lung CD8 % (n=2)
+      PSLN-212      3:   2.09  5:   5.12  7:   6.90
+      PSLN-344      3:   6.68  5:  12.01  7:  14.25
+      PSLN-212Y     3:   9.85  5:  13.45  7:  15.15
+S05-B  NP tetramer+ MLN CD8 % (n=2)
+      PSLN-212      3:   1.19  5:   1.67  7:   2.61
+      PSLN-344      3:   1.81  5:   3.16  7:   4.36
+      PSLN-212Y     3:   2.04  5:   4.29  7:   5.74
+
+======================================================================================================================
+4. INNATE ACTIVATION (Ifnb1) AND DOSE-RESPONSE
+======================================================================================================================
+S01-A_16h  GM fold [95% CI]: Sham: 0.9 [0.6-1.5] | CMP-204: 7.7 [5.9-10.0] | PSLN-212: 16.5 [14.0-19.5] | PSLN-R848: 4.6 [2.5-8.5] | PSLN-212/R848: 24.0 [19.9-29.0] | PSLN-344: 36.9 [31.6-43.1] | PSLN-212(Y): 37.5 [33.5-41.9] | PSLN-344(Y): 50.2 [41.5-60.8]
+       ratio PSLN-344/PSLN-212       = 2.23 [1.85-2.69]  p=9.6e-06
+       ratio PSLN-344/PSLN-212(Y)    = 0.98 [0.84-1.16]  p=0.82
+       ratio PSLN-212/PSLN-212(Y)    = 0.44 [0.37-0.52]  p=8.2e-06
+       ratio PSLN-212/CMP-204        = 2.15 [1.65-2.81]  p=0.00029
+       ratio PSLN-344(Y)/PSLN-212(Y)    = 1.34 [1.11-1.62]  p=0.0092
+       ratio PSLN-344/PSLN-212/R848  = 1.53 [1.25-1.88]  p=0.0014
+S01-A_72h  GM fold [95% CI]: Sham: 1.0 [0.8-1.2] | CMP-204: 2.2 [1.8-2.7] | PSLN-212: 3.4 [3.0-3.9] | PSLN-R848: 1.2 [1.2-1.3] | PSLN-212/R848: 1.6 [1.3-2.1] | PSLN-344: 4.2 [2.5-6.8] | PSLN-212(Y): 1.5 [0.8-2.7] | PSLN-344(Y): 3.0 [2.1-4.3]
+       ratio PSLN-344/PSLN-212       = 1.22 [0.75-1.99]  p=0.33
+       ratio PSLN-344/PSLN-212(Y)    = 2.85 [1.47-5.51]  p=0.0067
+       ratio PSLN-212/PSLN-212(Y)    = 2.33 [1.27-4.28]  p=0.017
+       ratio PSLN-212/CMP-204        = 1.55 [1.25-1.93]  p=0.002
+       ratio PSLN-344(Y)/PSLN-212(Y)    = 2.07 [1.12-3.83]  p=0.027
+       ratio PSLN-344/PSLN-212/R848  = 2.54 [1.56-4.13]  p=0.0036
+S08-A Ifnb1 16 h dose-response, GM fold (n=3):
+      CMP-204       1 ug:   1.0  5 ug:   3.8  10 ug:   6.2  20 ug:   7.3  40 ug:   7.9
+      PSLN-212      1 ug:   1.4  5 ug:   4.0  10 ug:   8.9  20 ug:  12.5  40 ug:  14.7
+      PSLN-344      1 ug:   1.4  5 ug:   8.2  10 ug:  21.0  20 ug:  45.5  40 ug:  49.7
+      PSLN-344/R848 1 ug:   1.0  5 ug:   6.6  10 ug:  14.6  20 ug:  29.0  40 ug:  34.5
+      ratio 344/212 by dose: 1 ug: 1.01  5 ug: 2.02  10 ug: 2.35  20 ug: 3.64  40 ug: 3.38
+      PSLN-344 20 ug as % of its 40 ug response: 92% ; PSLN-212 at 40 ug vs PSLN-344 at 5/10/20 ug: 14.7 vs 8.2/21.0/45.5
+      Hill fit PSLN-344: Emax 52.8 (SE 3.9), ED50 11.2 ug (SE 1.2), slope 2.75
+      Hill fit PSLN-212: Emax 15.6 (SE 1.3), ED50 9.5 ug (SE 1.4), slope 1.93
+      Hill fit CMP-204: Emax 8.0 (SE 0.5), ED50 6.0 ug (SE 0.8), slope 2.15
+S08-B encapsulation efficiency % (mean ± SD): CMP-204: 65.2±6.0 | PSLN-212: 59.6±4.6 | PSLN-R848: 61.3±6.8 | PSLN-212/R848: 52.4±7.3 | PSLN-344: 54.8±5.1
+
+======================================================================================================================
+5. INTERVENTION (cause-and-effect) EXPERIMENTS
+======================================================================================================================
+   S01-C      SP-A/D needed for liposome uptake by AM (DiD+ %)               WT: 43.10 vs SPA/D: 12.65  -> diff 30.45 [24.05,36.84]  Welch p=3.9e-05, MWU p=0.0286 (n=4,4)
+   S01-B      liposome delivers cargo to AEC-II (SRB+ %)                     AECII/PSLN-SRB: 15.80 vs AECII/FreeSRB: 0.38  -> diff 15.42 [12.58,18.27]  Welch p=0.00011, MWU p=0.00794 (n=5,5)
+   S01-B      liposome delivers cargo to AEC-I (SRB+ %)                      AECI/PSLN-SRB: 3.83 vs AECI/FreeSRB: 0.33  -> diff 3.50 [2.10,4.90]  Welch p=0.002, MWU p=0.00794 (n=5,5)
+   S11-C      gap-junction block (CBX) lowers monocyte recruitment %         CBX-: 7.28 vs CBX+: 3.08  -> diff 4.20 [1.82,6.58]  Welch p=0.0041, MWU p=0.00794 (n=5,5)
+   S07-B_mono CCR2 antagonist lowers lung monocytes %                        PSLN-344: 9.86 vs PSLN-344+INCB3344: 3.26  -> diff 6.60 [3.78,9.43]  Welch p=0.001, MWU p=0.00794 (n=5,5)
+   S07-B_mac  CCR2 antagonist lowers Ly6C+ macrophages %                     PSLN-344: 15.35 vs PSLN-344+INCB3344: 2.52  -> diff 12.83 [7.26,18.41]  Welch p=0.0029, MWU p=0.00794 (n=5,5)
+   S02-I      CCR2 antagonist lowers GZMB+ lung CD8 % (young)                PSLN-344(Y): 6.77 vs PSLN-344(Y)+INCB3344: 1.39  -> diff 5.38 [4.09,6.67]  Welch p=8.1e-05, MWU p=0.00794 (n=5,5)
+   S02-H      IFNAR needed for monocyte->DC (pre-cDC depleted) %             WT w/o cDC: 19.70 vs IFN w/o cDC: 2.09  -> diff 17.61 [12.69,22.53]  Welch p=0.0004, MWU p=0.00794 (n=5,5)
+   S02-H      IFNAR needed (pre-cDC present) %                               WT w/ cDC: 27.22 vs IFN w/ cDC: 6.07  -> diff 21.15 [12.22,30.08]  Welch p=0.0025, MWU p=0.00794 (n=5,5)
+   S02-H      rGM-CSF rescues IFNAR-KO monocyte->DC %                        GMCSF: 12.40 vs IFN w/o cDC: 2.09  -> diff 10.31 [5.73,14.90]  Welch p=0.0027, MWU p=0.00794 (n=5,5)
+   S02-H      rGM-CSF rescue vs WT %                                         GMCSF: 12.40 vs WT w/o cDC: 19.70  -> diff -7.30 [-12.96,-1.64]  Welch p=0.018, MWU p=0.0556 (n=5,5)
+   S12-A      IFNAR dispensable for monocyte infiltration % (n=3)            WT to WT: 21.27 vs IFNAR-/- to WT: 15.37  -> diff 5.90 [-2.69,14.49]  Welch p=0.12, MWU p=0.2 (n=3,3)
+   S02-G      rGM-CSF adds to PSLN-212 for moDC % (d5)                       PSLN-212+GM-CSF: 13.82 vs PSLN-212: 5.86  -> diff 7.97 [4.23,11.70]  Welch p=0.0021, MWU p=0.00794 (n=5,5)
+   S02-G      PSLN-212 vs rGM-CSF alone for moDC %                           PSLN-212: 5.86 vs GM-CSF: 1.52  -> diff 4.34 [2.51,6.16]  Welch p=0.0022, MWU p=0.00794 (n=5,5)
+   S02-C      PTX blocks antigen+ DC arrival in MLN % (PTX arm adjuvant not stated) PSLN-344: 7.09 vs PTX: 2.36  -> diff 4.73 [2.95,6.51]  Welch p=0.00047, MWU p=0.00794 (n=5,5)
+   S02-E      PTX abolishes DC cross-priming capacity %                      PSLN-344: 18.65 vs PTX: 2.55  -> diff 16.10 [12.51,19.70]  Welch p=1.8e-05, MWU p=0.00794 (n=5,5)
+   S05-C      PTX blocks OT-I proliferation in MLN % (n=3)                   MLN: 30.90 vs MLN+PTX: 6.83  -> diff 24.07 [14.95,33.18]  Welch p=0.0066, MWU p=0.1 (n=3,3)
+   S05-C      PTX does not block OT-I proliferation in lung % (n=3)          Lung: 59.00 vs Lung+PTX: 55.07  -> diff 3.93 [-15.58,23.45]  Welch p=0.57, MWU p=1 (n=3,3)
+   S07-C      macrophage transfer -> lung Treg %: both columns are printed with the same label ('Ly6C-CD206+ MΦ'); col B mean 10.44, col C mean 5.14; Welch p=0.0025 -> direction cannot be assigned
+   S03-L_Aicda Aicda fold in MLN B cells (GM, n=3): Sham: 1.0 | PSLN-212: 3.3 | PSLN-344: 11.6   344/212 = 3.5x, p=0.0073
+   S03-L_E47   E47 fold in MLN B cells (GM, n=3): Sham: 1.0 | PSLN-212: 6.1 | PSLN-344: 24.1   344/212 = 3.9x, p=0.0066
+
+   S08-C SRB+ epithelial cells, two readings of the header:
+      as printed      : AECII-PSLN-SRB: 15.8 | AECII-PSLN-344-SRB: 3.8 | AECI-PSLN-SRB: 13.8 | AECI-PSLN-344-SRB: 3.0
+      reconciled to S01-B (cols = AECII-PSLN, AECI-PSLN, AECII-344, AECI-344): AECII-PSLN-SRB: 15.8 | AECI-PSLN-SRB: 3.8 | AECII-PSLN-344-SRB: 13.8 | AECI-PSLN-344-SRB: 3.0

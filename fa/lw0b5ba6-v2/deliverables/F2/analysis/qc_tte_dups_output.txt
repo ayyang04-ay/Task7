@@ -1,0 +1,94 @@
+Identical time-to-event columns containing at least 3 deaths:
+  ('S06-B', 'Sham') == ('S06-F', 'Sham') [4, 4, 4, 5, 5, 6, 6] survivors 0
+  ('S06-C', 'Sham') == ('S06-D', 'Sham') [4, 4, 5, 6, 6, 6, 7] survivors 0
+  ('S06-C', 'PSLN-212') == ('S06-D', 'PSLN-212') [5, 8, 10, 10, 12] survivors 2
+
+S03-I
+   Sham                   n=7 deaths=7 at [5, 6, 6, 6, 8, 8, 11]  censored=0 at []
+   CMP-204                n=7 deaths=4 at [6, 7, 8, 10]  censored=3 at [14]
+   PSLN-212               n=7 deaths=7 at [5, 5, 5, 6, 6, 6, 6]  censored=0 at []
+   PSLN-344               n=7 deaths=0 at []  censored=7 at [14]
+   PSLN-212(Y)            n=7 deaths=0 at []  censored=7 at [14]
+S03-J
+   Sham                   n=10 deaths=9 at [3, 4, 9, 9, 9, 10, 10, 10, 10]  censored=1 at [21]
+   PSLN-212               n=10 deaths=7 at [10, 10, 11, 11, 12, 12, 12]  censored=3 at [21]
+   PSLN-344               n=10 deaths=0 at []  censored=10 at [21, None]
+S06-A
+   Sham                   n=7 deaths=7 at [4, 4, 4, 5, 5, 7, 7]  censored=0 at []
+   PSLN-212               n=7 deaths=6 at [4, 6, 6, 8, 9, 10]  censored=1 at [14]
+   PSLN-344               n=7 deaths=1 at [8]  censored=6 at [14]
+   PSLN-212(Y)            n=7 deaths=0 at []  censored=7 at [14]
+S06-B
+   Sham                   n=7 deaths=7 at [4, 4, 4, 5, 5, 6, 6]  censored=0 at []
+   PSLN-212               n=7 deaths=7 at [4, 4, 6, 6, 6, 7, 10]  censored=0 at []
+   PSLN-344               n=7 deaths=2 at [8, 10]  censored=5 at [14]
+   PSLN-212(Y)            n=7 deaths=0 at []  censored=7 at [14]
+S06-C
+   Sham                   n=7 deaths=7 at [4, 4, 5, 6, 6, 6, 7]  censored=0 at []
+   PSLN-212               n=7 deaths=5 at [5, 8, 10, 10, 12]  censored=2 at [14]
+   PSLN-344               n=7 deaths=0 at []  censored=7 at [14]
+   PSLN-212(Y)            n=7 deaths=0 at []  censored=7 at [14]
+S06-D
+   Sham                   n=7 deaths=7 at [4, 4, 5, 6, 6, 6, 7]  censored=0 at []
+   PSLN-212               n=7 deaths=5 at [5, 8, 10, 10, 12]  censored=2 at [14]
+   PSLN-344               n=7 deaths=0 at []  censored=7 at [14]
+   PSLN-212(Y)            n=7 deaths=0 at []  censored=7 at [14]
+S06-E
+   Sham                   n=7 deaths=7 at [4, 5, 5, 5, 5, 6, 6]  censored=0 at []
+   PSLN-212               n=7 deaths=7 at [5, 5, 5, 6, 6, 8, 11]  censored=0 at []
+   PSLN-344               n=7 deaths=2 at [8, 10]  censored=5 at [14]
+   PSLN-212(Y)            n=7 deaths=0 at []  censored=7 at [14]
+   Untreated              n=7 deaths=1 at [4]  censored=6 at [14]
+S06-F
+   Sham                   n=7 deaths=7 at [4, 4, 4, 5, 5, 6, 6]  censored=0 at []
+   PSLN-212               n=7 deaths=6 at [4, 5, 6, 6, 6, 7]  censored=1 at [14]
+   PSLN-344               n=7 deaths=2 at [7, 8]  censored=5 at [14]
+   PSLN-212(Y)            n=7 deaths=0 at []  censored=7 at [14]
+   Untreated              n=7 deaths=0 at []  censored=7 at [14]
+S06-G
+   Sham                   n=7 deaths=7 at [4, 4, 5, 6, 6, 7, 7]  censored=0 at []
+   PSLN-212               n=7 deaths=7 at [6, 6, 8, 8, 8, 11, 11]  censored=0 at []
+   PSLN-344               n=7 deaths=3 at [8, 9, 11]  censored=4 at [14]
+   PSLN-212(Y)            n=7 deaths=0 at []  censored=7 at [14]
+   Untreated              n=7 deaths=3 at [3, 7, 10]  censored=4 at [14]
+S06-E2
+   Naïve+PSLN-212         n=7 deaths=7 at [4, 4, 5, 6, 6, 6, 8]  censored=0 at []
+   Imprinting+PSLN-212    n=7 deaths=3 at [6, 8, 8]  censored=4 at [14]
+   Naïve+PSLN-344         n=7 deaths=1 at [5]  censored=6 at [14]
+   Imprinting+PSLN-344    n=7 deaths=1 at [8]  censored=6 at [14]
+S06-F2
+   Naïve+PSLN-212         n=7 deaths=7 at [4, 4, 6, 6, 7, 8, 8]  censored=0 at []
+   Imprinting+PSLN-212    n=7 deaths=7 at [4, 4, 5, 5, 5, 6, 6]  censored=0 at []
+   Naïve+PSLN-344         n=7 deaths=1 at [8]  censored=6 at [14]
+   Imprinting+PSLN-344    n=7 deaths=1 at [7]  censored=6 at [14]
+S09-B
+   Sham                   n=8 deaths=8 at [6, 6, 6, 7, 7, 7, 8, 8]  censored=0 at []
+   PSLN-344Y              n=8 deaths=0 at []  censored=8 at [14]
+   PSLN-212Y              n=8 deaths=0 at []  censored=8 at [14]
+S09-D
+   Sham                   n=8 deaths=8 at [7, 8, 8, 8, 8, 8, 9, 9]  censored=0 at []
+   PSLN-344Y              n=8 deaths=0 at []  censored=8 at [14]
+   PSLN-212Y              n=8 deaths=0 at []  censored=8 at [14]
+S09-F
+   Sham                   n=7 deaths=7 at [6, 6, 6, 7, 8, 8, 8]  censored=0 at []
+   PSLN-344Y              n=8 deaths=0 at []  censored=8 at [14]
+   PSLN-212Y              n=8 deaths=0 at []  censored=8 at [14]
+S13-E
+   Naïve                  n=7 deaths=7 at [6, 7, 7, 7, 8, 8, 8]  censored=0 at []
+   Sham                   n=7 deaths=6 at [7, 9, 9, 10, 11, 11]  censored=1 at [14]
+   CMP-204(Y)             n=7 deaths=0 at []  censored=7 at [14]
+   PSLN-344(Y)            n=7 deaths=0 at []  censored=7 at [14]
+S15-H
+   3d Vaccine             n=7 deaths=7 at [4, 5, 5, 5, 6, 6, 7]  censored=0 at []
+   3d PSLN-344            n=7 deaths=7 at [5, 5, 6, 6, 6, 7, 8]  censored=0 at []
+   3d Vaccine+PSLN-344    n=7 deaths=1 at [12]  censored=6 at [14]
+S15-L
+   Sham                   n=7 deaths=7 at [4, 4, 6, 6, 6, 8, 8]  censored=0 at []
+   PSLN-212               n=7 deaths=7 at [6, 7, 7, 8, 8, 9, 11]  censored=0 at []
+   PSLN-344               n=7 deaths=1 at [8]  censored=6 at [14]
+   PSLN-212(Y)            n=7 deaths=1 at [12]  censored=6 at [14]
+S15-N
+   Sham                   n=7 deaths=7 at [5, 6, 6, 8, 8, 8, 10]  censored=0 at []
+   PSLN-212               n=7 deaths=5 at [6, 10, 10, 10, 12]  censored=2 at [14]
+   PSLN-344               n=7 deaths=1 at [8]  censored=6 at [14]
+   PSLN-212(Y)            n=7 deaths=0 at []  censored=7 at [14]

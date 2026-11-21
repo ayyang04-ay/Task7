@@ -1,0 +1,107 @@
+block,type,cell_range,groups,unit,timepoints,n_values
+S01-A_16h,continuous,S01!B3:F10,Sham; CMP-204; PSLN-212; PSLN-R848; PSLN-212/R848; PSLN-344; PSLN-212(Y); PSLN-344(Y),fold vs untreated,16h,40
+S01-A_72h,continuous,S01!H3:L10,Sham; CMP-204; PSLN-212; PSLN-R848; PSLN-212/R848; PSLN-344; PSLN-212(Y); PSLN-344(Y),fold vs untreated,72h,40
+S01-B,continuous,S01!B14:F17,AECII/PSLN-SRB; AECI/PSLN-SRB; AECII/FreeSRB; AECI/FreeSRB,%SRB+,16h,20
+S01-C,continuous,S01!B20:E21,WT; SPA/D,%DiD+ AM,16h,8
+S01-D,continuous,S01!B24:U28,Sham; PSLN-212; PSLN-344; PSLN-212(Y),% monocytes,0; 2; 4; 6; 8,100
+S01-E,continuous,S01!B30:Z34,Sham; PSLN-212; PSLN-344; PSLN-212(Y); PSLN-344(Y),% CD11b+ DC,0; 2; 4; 6; 8,125
+S01-F,continuous,S01!B36:Z36,Sham; PSLN-212; PSLN-344; PSLN-212(Y); PSLN-344(Y),% cDC1,72h,25
+S01-G,continuous,S01!B38:Z38,Sham; PSLN-212; PSLN-344; PSLN-212(Y); PSLN-344(Y),% cDC2,72h,25
+S02-A,continuous,S02!A3:D7,Sham; PSLN-212; PSLN-344; PSLN-212(Y),% CCR7+ CD11b+ DC lung,72h,20
+S02-B,continuous,S02!F3:I7,Sham; PSLN-212; PSLN-344; PSLN-212(Y),% CD11b+CD103- DC MLN,72h,20
+S02-C,continuous,S02!K3:O7,PSLN-212; PSLN-344; PSLN-212(Y); PTX; PSLN-344(Y),% AF647-OVA+ DC MLN,36h,25
+S02-D_CD40,continuous,S02!A10:D14,Sham; PSLN-212; PSLN-344; PSLN-212(Y),% CD40+,d3,20
+S02-D_CD86,continuous,S02!F10:I14,Sham; PSLN-212; PSLN-344; PSLN-212(Y),% CD86+,d3,20
+S02-E,continuous,S02!K10:O14,PSLN-212; PSLN-344; PSLN-212(Y); PTX; PSLN-344(Y),% OT-I proliferated,72h DC harvest,25
+S02-F,continuous,S02!B17:P19,PSLN-344; PSLN-212; Sham,Gm-csf fold,16h; 36h; 72h,45
+S02-G,continuous,S02!B22:D26,GM-CSF; PSLN-212; PSLN-212+GM-CSF,% moDC-like,d5,15
+S02-H,continuous,S02!B30:F34,WT w/o cDC; WT w/ cDC; IFN w/o cDC; IFN w/ cDC; GMCSF,% CD45.2+ moDC,d3,25
+S02-I,continuous,S02!H30:I34,PSLN-344(Y); PSLN-344(Y)+INCB3344,% GZMB+ CD8 lung,d5,10
+S03-A,continuous,S03!A3:E7,Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y),IgG titre CA09,d14,25
+S03-B,continuous,S03!G3:I7,PSLN-212; PSLN-344; PSLN-212(Y),IgG2a/IgG1 CA09,d14,15
+S03-C,continuous,S03!K3:O7,Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y),HAI CA09,d14,25
+S03-D,continuous,S03!Q3:U7,Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y),NT CA09,d14,25
+S03-E,continuous,S03!A10:E14,Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y),IgG titre Aichi,d14,25
+S03-F,continuous,S03!G10:I14,PSLN-212; PSLN-344; PSLN-212(Y),IgG2a/IgG1 Aichi,d14,15
+S03-G,continuous,S03!K10:O14,Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y),HAI Aichi,d14,25
+S03-H,continuous,S03!Q10:U14,Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y),NT Aichi,d14,25
+S03-K,continuous,S03!L17:O21,Sham; PSLN-212; PSLN-344; PSLN-212(Y),% GC B,d7,20
+S03-L_Aicda,continuous,S03!L26:N28,Sham; PSLN-212; PSLN-344,fold,d5,9
+S03-L_E47,continuous,S03!O26:Q28,Sham; PSLN-212; PSLN-344,fold,d5,9
+S04-A_ICOSlo,continuous,S04!B2:F5,Sham; PSLN-212; PSLN-344; PSLN-212(Y),% Tfh ICOS-lo,d7,20
+S04-A_ICOShi,continuous,S04!G2:K5,Sham; PSLN-212; PSLN-344; PSLN-212(Y),% Tfh ICOS-hi,d7,20
+S04-B_Foxp3,continuous,S04!A8:D12,Sham; PSLN-212; PSLN-344; PSLN-212(Y),% Foxp3+ in CXCR5+ICOShi (Tfr),d7,20
+S04-B_TfhTfr,continuous,S04!A15:D19,Sham; PSLN-212; PSLN-344; PSLN-212(Y),Tfh:Tfr,d7,20
+S04-C,continuous,S04!A22:D26,Sham; PSLN-212; PSLN-344; PSLN-212(Y),% Tfr,d30,20
+S04-D,continuous,S04!A29:D31,Sham; PSLN-212; PSLN-344; PSLN-212(Y),% lung Treg,d7,12
+S05-A,continuous,S05!B3:I5,PSLN-212; PSLN-344; PSLN-212Y,% NP366 tet+ CD8 lung,3; 5; 7,18
+S05-B,continuous,S05!B8:I10,PSLN-212; PSLN-344; PSLN-212Y,% NP366 tet+ CD8 MLN,3; 5; 7,18
+S05-C,continuous,S05!A13:D15,Lung; Lung+PTX; MLN; MLN+PTX,% OT-I proliferated,d4,12
+S05-D,continuous,S05!A19:D23,Sham; PSLN-212; PSLN-344; PSLN-212(Y),% Ki67+ CD8 lung,d3,20
+S05-E,continuous,S05!A26:D30,Sham; PSLN-212; PSLN-344; PSLN-212(Y),% GZMB+ CD8 lung,d3,20
+S05-F,continuous,S05!A33:D37,Sham; PSLN-212; PSLN-344; PSLN-212(Y),% IFNg+ CD8 MLN (rgH5N1 restim),d14,20
+S05-G,continuous,S05!A40:D44,Sham; PSLN-212; PSLN-344; PSLN-212(Y),% IFNg+ CD8 MLN (rgH5N1 restim),d60,20
+S05-H,continuous,S05!A47:D51,Sham; PSLN-212; PSLN-344; PSLN-212(Y),% GZMB+ CD8 MLN,d60,20
+S05-I,continuous,S05!A54:D58,Sham; PSLN-212; PSLN-344; PSLN-212(Y),% lung TRM CD8,d25,20
+S07-A,continuous,S07!B3:G7,PSLN-212; PSLN-344,Ly6C+CCR2+ macrophages (x10^5),0; 2; 5; 10; 30,30
+S07-B,continuous,S07!B10:F14,PSLN-344; PSLN-344+INCB3344,%,nan,20
+S07-C,continuous,S07!B16:C20,Ly6C-CD206+ MΦ [col B]; Ly6C-CD206+ MΦ [col C],% lung Treg,d4 post transfer,10
+S08-A,continuous,S08!B3:M7,CMP-204; PSLN-212; PSLN-344; PSLN-344/R848,Ifnb1 fold (dose ug),1; 5; 10; 20; 40,60
+S08-B,continuous,S08!A11:O11,CMP-204; PSLN-212; PSLN-R848; PSLN-212/R848; PSLN-344,% EE,nan,15
+S08-C,continuous,S08!A14:D18,AECII-PSLN-SRB; AECII-PSLN-344-SRB; AECI-PSLN-SRB; AECI-PSLN-344-SRB,%SRB+,16h,20
+S09-A_blk1(cols A-U),continuous,S09!B3:V9,PBS; CMP-204; PSLN-212; PSLN-R848; PSLN-212/R848; PSLN-344; PSLN-212(y),log10 fold,16h (label),147
+S09-A_blk2(cols X-AS),continuous,S09!Y3:AS9,PBS; CMP-204; PSLN-212; PSLN-R848; PSLN-212/R848; PSLN-344; PSLN-212(y),log10 fold,16h (label),147
+S10-A_Ifnb1,continuous,S10!A3:D7,PBS; Sham; PSLN-344; CT,CNS fold,36h,20
+S10-A_Tnf,continuous,S10!F3:I7,PBS; Sham; PSLN-344; CT,CNS fold,36h,20
+S10-A_Isg15,continuous,S10!K3:N7,PBS; Sham; PSLN-344; CT,CNS fold,36h,20
+S11-A,continuous,S11!B3:U7,Vaccine; PSLN-212; PSLN-344; PSLN-212(Y),% alveolar macrophages,0; 2; 4; 6; 8,100
+S11-B,continuous,S11!B10:U14,Vaccine; PSLN-212; PSLN-344; PSLN-212(Y),% neutrophils,0; 2; 4; 6; 8,100
+S11-C,continuous,S11!A17:B21,CBX+; CBX-,% recruited monocytes,d3,10
+S11-D,continuous,S11!B24:U28,Vaccine; PSLN-212; PSLN-344; PSLN-212(Y),% NK,0; 2; 4; 6; 8,100
+S11-E,continuous,S11!A31:D35,Sham; PSLN-212; PSLN-344; PSLN-212(Y),% CD206+ macrophages,not stated,20
+S12-A,continuous,S12!A3:B5,WT to WT; IFNAR-/- to WT,% CD45.2+ monocytes,d3,6
+S13-A,continuous,S13!A3:C7,PSLN-212; PSLN-344; PSLN-212(Y),IgG2a titre CA09,d14,15
+S13-B,continuous,S13!E3:G7,PSLN-212; PSLN-344; PSLN-212(Y),IgG1 titre CA09,d14,15
+S13-C,continuous,S13!I3:K7,PSLN-212; PSLN-344; PSLN-212(Y),IgG2a titre Aichi,d14,15
+S13-D,continuous,S13!M3:O7,PSLN-212; PSLN-344; PSLN-212(Y),IgG1 titre Aichi,d14,15
+S13-H,continuous,S13!A53:D57,Sham; PSLN-212; PSLN-344; PSLN-212(Y),% IgG+ in B220+ MLN,not stated,20
+S13-I,continuous,S13!F53:J57,Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y),IgG titre CA09 (boost),d28,25
+S13-J,continuous,S13!L53:P57,Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y),IgG titre Aichi (boost),d28,25
+S14-A_H1N1,continuous,S14!A3:D7,Sham; PSLN-212; PSLN-344; PSLN-212(Y),% IFNg+ CD8 MLN (H1N1 restim),not stated,20
+S14-A_H3N2,continuous,S14!F3:I7,Sham; PSLN-212; PSLN-344; PSLN-212(Y),% IFNg+ CD8 MLN (H3N2 restim),not stated,20
+S03-I,"survival (day, event)",S03!A17:F51,Sham; CMP-204; PSLN-212; PSLN-344; PSLN-212(Y),days; 1=death 0=censored,,35
+S03-J,"survival (day, event)",S03!G17:J46,Sham; PSLN-212; PSLN-344,days; 1=death 0=censored,,30
+S06-A,"survival (day, event)",S06!A3:E30,Sham; PSLN-212; PSLN-344; PSLN-212(Y),days; 1=death 0=censored,,28
+S06-B,"survival (day, event)",S06!G3:K30,Sham; PSLN-212; PSLN-344; PSLN-212(Y),days; 1=death 0=censored,,28
+S06-C,"survival (day, event)",S06!M3:Q30,Sham; PSLN-212; PSLN-344; PSLN-212(Y),days; 1=death 0=censored,,28
+S06-D,"survival (day, event)",S06!A34:E61,Sham; PSLN-212; PSLN-344; PSLN-212(Y),days; 1=death 0=censored,,28
+S06-E,"survival (day, event)",S06!G34:L68,Sham; PSLN-212; PSLN-344; PSLN-212(Y); Untreated,days; 1=death 0=censored,,35
+S06-F,"survival (day, event)",S06!M34:R68,Sham; PSLN-212; PSLN-344; PSLN-212(Y); Untreated,days; 1=death 0=censored,,35
+S06-G,"survival (day, event)",S06!A71:F105,Sham; PSLN-212; PSLN-344; PSLN-212(Y); Untreated,days; 1=death 0=censored,,35
+S06-E2_imprint,"survival (day, event)",S06!G71:K98,Naïve+PSLN-212; Imprinting+PSLN-212; Naïve+PSLN-344; Imprinting+PSLN-344,days; 1=death 0=censored,,28
+S06-F2_imprint,"survival (day, event)",S06!M71:Q98,Naïve+PSLN-212; Imprinting+PSLN-212; Naïve+PSLN-344; Imprinting+PSLN-344,days; 1=death 0=censored,,28
+S09-B,"survival (day, event)",S09!A12:D35,Sham; PSLN-344Y; PSLN-212Y,days; 1=death 0=censored,,24
+S09-D,"survival (day, event)",S09!A39:D62,Sham; PSLN-344Y; PSLN-212Y,days; 1=death 0=censored,,24
+S09-F,"survival (day, event)",S09!A66:D88,Sham; PSLN-344Y; PSLN-212Y,days; 1=death 0=censored,,23
+S13-E,"survival (day, event)",S13!R3:V30,Naïve; Sham; CMP-204(Y); PSLN-344(Y),days; 1=death 0=censored,,28
+S15-H,"survival (day, event)",S15!A73:D93,3d Vaccine; 3d PSLN-344; 3d Vaccine+PSLN-344,days; 1=death 0=censored,,21
+S15-L,"survival (day, event)",S15!A103:E130,Sham; PSLN-212; PSLN-344; PSLN-212(Y),days; 1=death 0=censored,,28
+S15-N,"survival (day, event)",S15!A134:E161,Sham; PSLN-212; PSLN-344; PSLN-212(Y),days; 1=death 0=censored,,28
+S08-D,body weight (% day 0),S08!B21:AE26,PSLN-212(Y); CMP-204; PSLN-212; PSLN-344; PSLN-212/R848; Vaccine,% of day-0 weight,"days 0,2,4,6,8,10",179
+S09-C,body weight (% day 0),S09!G12:AD19,PSLN-212Y; Sham; PSLN-344Y,% of day-0 weight,"days 0,2,4,6,8,10,12,14",167
+S09-E,body weight (% day 0),S09!G39:AD46,PSLN-212Y; Sham; PSLN-344Y,% of day-0 weight,"days 0,2,4,6,8,10,12,14",166
+S09-G,body weight (% day 0),S09!G66:AD73,PSLN-212Y; Sham; PSLN-344Y,% of day-0 weight,"days 0,2,4,6,8,10,12,14",164
+S13-F,body weight (% day 0),S13!B33:AJ40,PSLN-212(Y); Sham; PSLN-212; PSLN-344; Naïve,% of day-0 weight,"days 0,2,4,6,8,10,12,14",230
+S13-G,body weight (% day 0),S13!B43:AE50,PSLN-344; Sham; Naïve,% of day-0 weight,"days 0,2,4,6,8,10,12,14",240
+S15-A,body weight (% day 0),S15!B3:AC10,PSLN-212(Y); Sham; PSLN-212; PSLN-344,% of day-0 weight,"days 0,2,4,6,8,10,12,14",193
+S15-B,body weight (% day 0),S15!B13:AC20,PSLN-212(Y); Sham; PSLN-212; PSLN-344,% of day-0 weight,"days 0,2,4,6,8,10,12,14",191
+S15-C,body weight (% day 0),S15!B23:AC30,PSLN-212(Y); Sham; PSLN-212; PSLN-344,% of day-0 weight,"days 0,2,4,6,8,10,12,14",194
+S15-D,body weight (% day 0),S15!B33:AC40,PSLN-212(Y); Sham; PSLN-212; PSLN-344,% of day-0 weight,"days 0,2,4,6,8,10,12,14",190
+S15-E,body weight (% day 0),S15!B43:AJ50,PSLN-212(Y); Sham; PSLN-212; PSLN-344; Untreated,% of day-0 weight,"days 0,2,4,6,8,10,12,14",247
+S15-F,body weight (% day 0),S15!B53:AJ60,PSLN-212(Y); Sham; PSLN-212; PSLN-344; Untreated,% of day-0 weight,"days 0,2,4,6,8,10,12,14",244
+S15-G,body weight (% day 0),S15!B63:AJ70,PSLN-212(Y); Sham; PSLN-212; PSLN-344; Untreated,% of day-0 weight,"days 0,2,4,6,8,10,12,14",250
+S15-I,body weight (% day 0),S15!I72:AC79,3d Vaccine; 3d PSLN-344; 3d Vaccine+PSLN-344,% of day-0 weight,"days 0,2,4,6,8,10,12,14",107
+S15-J,body weight (% day 0),S15!I83:AJ90,Naïve+PSLN-212; Imprinting+PSLN-212; Naïve+PSLN-344; Imprinting+PSLN-344,% of day-0 weight,"days 0,2,4,6,8,10,12,14",171
+S15-K,body weight (% day 0),S15!I93:AJ100,Naïve+PSLN-212; Imprinting+PSLN-212; Naïve+PSLN-344; Imprinting+PSLN-344,% of day-0 weight,"days 0,2,4,6,8,10,12,14",149
+S15-M,body weight (% day 0),S15!I103:AJ110,PSLN-212(Y); Sham; PSLN-212; PSLN-344,% of day-0 weight,"days 0,2,4,6,8,10,12,14",190
+S15-O,body weight (% day 0),S15!I134:AJ141,PSLN-212(Y); Sham; PSLN-212; PSLN-344,% of day-0 weight,"days 0,2,4,6,8,10,12,14",200

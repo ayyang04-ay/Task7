@@ -1,0 +1,534 @@
+ID,Key,Value_as_cited,Description,Source_blocks,Cells,Method,Raw
+E001,survA_344,56/66 (85%),"Pooled 14-day survival, aged BALB/c, vaccine + PSLN-344, nine challenge experiments as printed","S03-I, S03-J, S06-A, S06-B, S06-C, S06-D, S06-E, S06-F, S06-G",S03!A17:F51; S03!G17:J46; S06!A3:Q30; S06!A34:R68; S06!A71:F105,Sum of survivors / animals; event column 0 = alive at end of observation,"(56, 66)"
+E002,survA_344_ci,74–92%,"Exact (Clopper-Pearson) 95% CI for the pooled proportion, PSLN-344","S03-I, S03-J, S06-A, S06-B, S06-C, S06-D, S06-E, S06-F, S06-G",S03!A17:F51; S03!G17:J46; S06!A3:Q30; S06!A34:R68; S06!A71:F105,Clopper-Pearson,"(56, 66)"
+E003,survB_344,32/42 (76%),"Pooled survival, aged BALB/c, PSLN-344, conservative set (S03-I, S03-J, S06-C removed for unresolved flags Q03/Q10/Q11)","S06-A, S06-B, S06-D, S06-E, S06-F, S06-G",S06!A3:K30; S06!A34:R68; S06!A71:F105,Sum of survivors / animals,"(32, 42)"
+E004,survB_344_ci,61–88%,"Exact 95% CI, conservative set, PSLN-344","S06-A, S06-B, S06-D, S06-E, S06-F, S06-G",,Clopper-Pearson,"(32, 42)"
+E005,survA_212,9/66 (14%),"Pooled 14-day survival, aged BALB/c, vaccine + PSLN-212, nine challenge experiments as printed","S03-I, S03-J, S06-A, S06-B, S06-C, S06-D, S06-E, S06-F, S06-G",S03!A17:F51; S03!G17:J46; S06!A3:Q30; S06!A34:R68; S06!A71:F105,Sum of survivors / animals; event column 0 = alive at end of observation,"(9, 66)"
+E006,survA_212_ci,6–24%,"Exact (Clopper-Pearson) 95% CI for the pooled proportion, PSLN-212","S03-I, S03-J, S06-A, S06-B, S06-C, S06-D, S06-E, S06-F, S06-G",S03!A17:F51; S03!G17:J46; S06!A3:Q30; S06!A34:R68; S06!A71:F105,Clopper-Pearson,"(9, 66)"
+E007,survB_212,4/42 (10%),"Pooled survival, aged BALB/c, PSLN-212, conservative set (S03-I, S03-J, S06-C removed for unresolved flags Q03/Q10/Q11)","S06-A, S06-B, S06-D, S06-E, S06-F, S06-G",S06!A3:K30; S06!A34:R68; S06!A71:F105,Sum of survivors / animals,"(4, 42)"
+E008,survB_212_ci,3–23%,"Exact 95% CI, conservative set, PSLN-212","S06-A, S06-B, S06-D, S06-E, S06-F, S06-G",,Clopper-Pearson,"(4, 42)"
+E009,survA_sham,1/66 (2%),"Pooled 14-day survival, aged BALB/c, vaccine + Sham, nine challenge experiments as printed","S03-I, S03-J, S06-A, S06-B, S06-C, S06-D, S06-E, S06-F, S06-G",S03!A17:F51; S03!G17:J46; S06!A3:Q30; S06!A34:R68; S06!A71:F105,Sum of survivors / animals; event column 0 = alive at end of observation,"(1, 66)"
+E010,survA_sham_ci,0–8%,"Exact (Clopper-Pearson) 95% CI for the pooled proportion, Sham","S03-I, S03-J, S06-A, S06-B, S06-C, S06-D, S06-E, S06-F, S06-G",S03!A17:F51; S03!G17:J46; S06!A3:Q30; S06!A34:R68; S06!A71:F105,Clopper-Pearson,"(1, 66)"
+E011,survB_sham,0/42 (0%),"Pooled survival, aged BALB/c, Sham, conservative set (S03-I, S03-J, S06-C removed for unresolved flags Q03/Q10/Q11)","S06-A, S06-B, S06-D, S06-E, S06-F, S06-G",S06!A3:K30; S06!A34:R68; S06!A71:F105,Sum of survivors / animals,"(0, 42)"
+E012,survB_sham_ci,0–8%,"Exact 95% CI, conservative set, Sham","S06-A, S06-B, S06-D, S06-E, S06-F, S06-G",,Clopper-Pearson,"(0, 42)"
+E013,survA_young,56/56 (100%),"Pooled survival, young mice given vaccine + PSLN-212, the eight of nine experiments that include this arm","S03-I, S06-A..G",,Sum,"(56, 56)"
+E014,survF_344,30/42 (71%),"Worst case for PSLN-344: conservative set, with body-weight-inferred survivor counts wherever they are less favourable to PSLN-344 or more favourable to PSLN-212","S06-A,B,D,E,F,G + S15-A..G",see qc_tte_vs_bodyweight,Counts replaced: S06-D PSLN-344 7->5; S06-E PSLN-212 0->1,30/42
+E015,survF_212,5/42 (12%),"Worst case, PSLN-212",as above,,as above,5/42
+E016,rd_A,71,"Mantel-Haenszel survival difference (percentage points), PSLN-344 minus PSLN-212, set A","S03-I, S03-J, S06-A, S06-B, S06-C, S06-D, S06-E, S06-F, S06-G",S03!A17:F51; S03!G17:J46; S06!A3:Q30; S06!A34:R68; S06!A71:F105,Mantel-Haenszel risk difference stratified by experiment,71.21212121212122
+E017,p_slr_A,p = 2×10⁻¹⁸,"Stratified log-rank test, PSLN-344 vs PSLN-212, set A (chi-square 76.5, 1 df)","S03-I, S03-J, S06-A, S06-B, S06-C, S06-D, S06-E, S06-F, S06-G",S03!A17:F51; S03!G17:J46; S06!A3:Q30; S06!A34:R68; S06!A71:F105,Log-rank stratified by experiment; verified against R survival::survdiff,2.16832585634078e-18
+E018,p_slr_B,p = 7×10⁻¹²,"Stratified log-rank, conservative set B (chi-square 47.1)","S06-A, S06-B, S06-D, S06-E, S06-F, S06-G",,as above,6.711638624903029e-12
+E019,hr_A,0.08 (95% CI 0.04–0.15),"Hazard ratio for death, PSLN-344 vs PSLN-212, Cox model stratified by experiment, set A","S03-I, S03-J, S06-A, S06-B, S06-C, S06-D, S06-E, S06-F, S06-G",S03!A17:F51; S03!G17:J46; S06!A3:Q30; S06!A34:R68; S06!A71:F105,R survival::coxph with strata(block); script check_lr.R; stratified log-rank chi-square identical in R and Python,"(0.0773911229903597, 0.0387309831436468, 0.154640688967159)"
+E020,hr_B,0.11 (95% CI 0.05–0.23),"Hazard ratio for death, PSLN-344 vs PSLN-212, Cox model stratified by experiment, set B","S06-A, S06-B, S06-D, S06-E, S06-F, S06-G",,R survival::coxph with strata(block); script check_lr.R; stratified log-rank chi-square identical in R and Python,"(0.110200395505714, 0.0534843332906727, 0.227059522339294)"
+E021,het_344,39/49 (80%),"Aged BALB/c, challenge virus of a different subtype from the vaccine (as printed), PSLN-344","S06-A, S06-B, S06-C, S06-D, S06-E, S06-F, S06-G",S06!A3:Q30; S06!A34:R68; S06!A71:F105,Sum,"(39, 49)"
+E022,het_212,6/49 (12%),"Same, PSLN-212","S06-A, S06-B, S06-C, S06-D, S06-E, S06-F, S06-G",,Sum,"(6, 49)"
+E023,early_344,28/31 (90%),"PSLN-344 + vaccine, aged BALB/c, challenged 2-3 days after the single dose","S03-J, S06-B, S06-D, S15-H",S03!J37:J46; S06!J17:J23; S06!D48:D54; S15!D87:D93,Sum,"(28, 31)"
+E024,d14_344,20/21 (95%),"PSLN-344, aged BALB/c, challenged at day 14","S03-I, S06-A, S06-C",S03!E38:E44; S06!D17:D23; S06!P17:P23,Sum,"(20, 21)"
+E025,d60_344,14/21 (67%),"PSLN-344, aged BALB/c, challenged at day 60","S06-E, S06-F, S06-G",S06!J48:J54; S06!P48:P54; S06!D85:D91,Sum,"(14, 21)"
+E026,unt,17/21 (81%),"Unvaccinated, unchallenged aged controls alive at day 14 of the day-60 cohorts","S06-E, S06-F, S06-G (Untreated)",S06!L62:L68; S06!R62:R68; S06!F99:F105,Sum,"(17, 21)"
+E027,unt_deaths,4/21,"Deaths among unvaccinated, unchallenged aged controls",S06-E/F/G Untreated,,Sum,"(4, 21)"
+E028,d60_young,21/21 (100%),"Young benchmark, day-60 challenge",S06-E/F/G,,Sum,"(21, 21)"
+E029,p_d14_d60,p = 0.045,"Fisher exact test, PSLN-344 survival day-14 vs day-60 challenge","S03-I, S06-A, S06-C vs S06-E..G",,"Fisher exact, two-sided",0.04482531311799604
+E030,p_d60_unt,p = 0.48,"Fisher exact test, PSLN-344 day-60 survival vs unchallenged untreated controls",S06-E..G,,"Fisher exact, two-sided",0.48407788651691097
+E031,d60_212,1/21 (5%),"PSLN-212 aged, day-60 challenge",S06-E/F/G,,Sum,"(1, 21)"
+E032,h_vac,0/7,"Survival, aged BALB/c, ""3d Vaccine"", rgH5N1 challenge 3 days later",S15-H,S15!B73:B79,Count,"(0, 7)"
+E033,h_adj,0/7,"Survival, aged BALB/c, ""3d PSLN-344"", rgH5N1 challenge 3 days later",S15-H,S15!C80:C86,Count,"(0, 7)"
+E034,h_both,6/7,"Survival, aged BALB/c, ""3d Vaccine+PSLN-344"", rgH5N1 challenge 3 days later",S15-H,S15!D87:D93,Count,"(6, 7)"
+E035,y344,24/24,"Young BALB/c, pooled survival, PSLN-344Y, three challenge experiments (day 21, 21, 180)","S09-B, S09-D, S09-F",S09!A12:D35; S09!A39:D62; S09!A66:D88,Sum,"(24, 24)"
+E036,y212,24/24,"Young BALB/c, pooled survival, PSLN-212Y, three challenge experiments (day 21, 21, 180)","S09-B, S09-D, S09-F",S09!A12:D35; S09!A39:D62; S09!A66:D88,Sum,"(24, 24)"
+E037,ysham,0/23,"Young BALB/c, pooled survival, Sham, three challenge experiments (day 21, 21, 180)","S09-B, S09-D, S09-F",S09!A12:D35; S09!A39:D62; S09!A66:D88,Sum,"(0, 23)"
+E038,s13e_e344,7/7,"Young BALB/c, matched H1N1 challenge, PSLN-344(Y)",S13-E,S13!V24:V30,Count,"(7, 7)"
+E039,s13e_ecmp,7/7,"Young BALB/c, matched H1N1 challenge, CMP-204(Y)",S13-E,S13!U17:U23,Count,"(7, 7)"
+E040,s13e_esham,1/7,"Young BALB/c, matched H1N1 challenge, Sham",S13-E,S13!T10:T16,Count,"(1, 7)"
+E041,s13e_enaive,0/7,"Young BALB/c, matched H1N1 challenge, Naïve",S13-E,S13!S3:S9,Count,"(0, 7)"
+E042,b6_344,6/7,"S15-L survival, PSLN-344",S15-L,S15!D117:D123,Count,"(6, 7)"
+E043,b6_212,0/7,"S15-L survival, PSLN-212",S15-L,S15!C110:C116,Count,"(0, 7)"
+E044,b6_sham,0/7,"S15-L survival, Sham",S15-L,S15!B103:B109,Count,"(0, 7)"
+E045,b6_young,6/7,"S15-L survival, PSLN-212(Y)",S15-L,S15!E124:E130,Count,"(6, 7)"
+E046,sw_344,6/7,"S15-N survival, PSLN-344",S15-N,S15!D148:D154,Count,"(6, 7)"
+E047,sw_212,2/7,"S15-N survival, PSLN-212",S15-N,S15!C141:C147,Count,"(2, 7)"
+E048,sw_sham,0/7,"S15-N survival, Sham",S15-N,S15!B134:B140,Count,"(0, 7)"
+E049,sw_young,7/7,"S15-N survival, PSLN-212(Y)",S15-N,S15!E155:E161,Count,"(7, 7)"
+E050,m14_344,24/28 (86%),"14-month-old BALB/c (with or without prior PR8 infection), PSLN-344, four groups pooled","S06-E2, S06-F2 (second blocks labelled S06-E / S06-F)",S06!J85:K98; S06!P85:Q98,Sum,"(24, 28)"
+E051,m14_212,4/28 (14%),"Same, PSLN-212","S06-E2, S06-F2",S06!H71:I84; S06!N71:O84,Sum,"(4, 28)"
+E052,imp_pr8_344,6/7,S06-E2 Imprinting+PSLN-344,S06-E2,S06!K92:K98,Count,"(6, 7)"
+E053,imp_pr8_212,4/7,S06-E2 Imprinting+PSLN-212,S06-E2,S06!I78:I84,Count,"(4, 7)"
+E054,imp_perth_344,6/7,S06-F2 Imprinting+PSLN-344,S06-F2,S06!Q92:Q98,Count,"(6, 7)"
+E055,imp_perth_212,0/7,S06-F2 Imprinting+PSLN-212,S06-F2,S06!O78:O84,Count,"(0, 7)"
+E056,nai_pr8_344,6/7,S06-E2 Naïve+PSLN-344,S06-E2,S06!J85:J91,Count,"(6, 7)"
+E057,nai_pr8_212,0/7,S06-E2 Naïve+PSLN-212,S06-E2,S06!H71:H77,Count,"(0, 7)"
+E058,nai_perth_344,6/7,S06-F2 Naïve+PSLN-344,S06-F2,S06!P85:P91,Count,"(6, 7)"
+E059,nai_perth_212,0/7,S06-F2 Naïve+PSLN-212,S06-F2,S06!N71:N77,Count,"(0, 7)"
+E060,S03-I_344,7/7,"S03-I survival, PSLN-344",S03-I,S03!E38:E44,Count,"(7, 7)"
+E061,S03-I_212,0/7,"S03-I survival, PSLN-212",S03-I,S03!D31:D37,Count,"(0, 7)"
+E062,S03-I_sham,0/7,"S03-I survival, Sham",S03-I,S03!B17:B23,Count,"(0, 7)"
+E063,S03-J_344,10/10,"S03-J survival, PSLN-344",S03-J,S03!J37:J46,Count,"(10, 10)"
+E064,S03-J_212,3/10,"S03-J survival, PSLN-212",S03-J,S03!I27:I36,Count,"(3, 10)"
+E065,S03-J_sham,1/10,"S03-J survival, Sham",S03-J,S03!H17:H26,Count,"(1, 10)"
+E066,S06-A_344,6/7,"S06-A survival, PSLN-344",S06-A,S06!D17:D23,Count,"(6, 7)"
+E067,S06-A_212,1/7,"S06-A survival, PSLN-212",S06-A,S06!C10:C16,Count,"(1, 7)"
+E068,S06-A_sham,0/7,"S06-A survival, Sham",S06-A,S06!B3:B9,Count,"(0, 7)"
+E069,S06-B_344,5/7,"S06-B survival, PSLN-344",S06-B,S06!J17:J23,Count,"(5, 7)"
+E070,S06-B_212,0/7,"S06-B survival, PSLN-212",S06-B,S06!I10:I16,Count,"(0, 7)"
+E071,S06-B_sham,0/7,"S06-B survival, Sham",S06-B,S06!H3:H9,Count,"(0, 7)"
+E072,S06-C_344,7/7,"S06-C survival, PSLN-344",S06-C,S06!P17:P23,Count,"(7, 7)"
+E073,S06-C_212,2/7,"S06-C survival, PSLN-212",S06-C,S06!O10:O16,Count,"(2, 7)"
+E074,S06-C_sham,0/7,"S06-C survival, Sham",S06-C,S06!N3:N9,Count,"(0, 7)"
+E075,S06-D_344,7/7,"S06-D survival, PSLN-344",S06-D,S06!D48:D54,Count,"(7, 7)"
+E076,S06-D_212,2/7,"S06-D survival, PSLN-212",S06-D,S06!C41:C47,Count,"(2, 7)"
+E077,S06-D_sham,0/7,"S06-D survival, Sham",S06-D,S06!B34:B40,Count,"(0, 7)"
+E078,S06-E_344,5/7,"S06-E survival, PSLN-344",S06-E,S06!J48:J54,Count,"(5, 7)"
+E079,S06-E_212,0/7,"S06-E survival, PSLN-212",S06-E,S06!I41:I47,Count,"(0, 7)"
+E080,S06-E_sham,0/7,"S06-E survival, Sham",S06-E,S06!H34:H40,Count,"(0, 7)"
+E081,S06-F_344,5/7,"S06-F survival, PSLN-344",S06-F,S06!P48:P54,Count,"(5, 7)"
+E082,S06-F_212,1/7,"S06-F survival, PSLN-212",S06-F,S06!O41:O47,Count,"(1, 7)"
+E083,S06-F_sham,0/7,"S06-F survival, Sham",S06-F,S06!N34:N40,Count,"(0, 7)"
+E084,S06-G_344,4/7,"S06-G survival, PSLN-344",S06-G,S06!D85:D91,Count,"(4, 7)"
+E085,S06-G_212,0/7,"S06-G survival, PSLN-212",S06-G,S06!C78:C84,Count,"(0, 7)"
+E086,S06-G_sham,0/7,"S06-G survival, Sham",S06-G,S06!B71:B77,Count,"(0, 7)"
+E087,S03-I_cmp,3/7,"S03-I survival, CMP-204 (cGAMP liposome), aged",S03-I,S03!C24:C30,Count,"(3, 7)"
+E088,power_n7,67%,"Power of a single n=7 per arm experiment to detect 85% vs 14% survival (Fisher exact, two-sided 5%)",design calculation,,Exact enumeration of binomial outcomes,0.6684438112708488
+E089,n_worst,16,"Animals per arm for 90% power, 71% vs 12% survival (worst-case estimates)",design calculation,,Exact Fisher power,16
+E090,n_soc,33,"Animals per arm for 90% power, 80% vs 40% survival (assumed benchmark effect)",design calculation,,Exact Fisher power,33
+E091,ifn16_344,37.1,"Lung Ifnb1 mRNA 16 h after dosing, fold over untreated: PSLN-344, mean (n=5)",S01-A_16h,S01!B8:F8,mean,37.106
+E092,ifn16_212,16.6,"Lung Ifnb1 mRNA 16 h after dosing, fold over untreated: PSLN-212, mean (n=5)",S01-A_16h,S01!B5:F5,mean,16.644
+E093,ifn16_fold,2.2×,"Lung Ifnb1 mRNA 16 h after dosing, fold over untreated: ratio PSLN-344/PSLN-212 (ratio of geometric means); Welch p=9.6e-06; Tukey p=0.00062",S01-A_16h,S01!B5:F5; S01!B8:F8,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,2.2302054120495653
+E094,ifn16_foldci,1.8–2.7,"Lung Ifnb1 mRNA 16 h after dosing, fold over untreated: 95% CI of the ratio",S01-A_16h,,Welch interval on log10 scale,"(np.float64(1.8486533767703863), np.float64(2.6905077189886573))"
+E095,ifn16_young,37.6,"Lung Ifnb1 mRNA 16 h after dosing, fold over untreated: young benchmark (PSLN-212(Y)), mean",S01-A_16h,S01!B9:F9,mean,37.596
+E096,ifn16_pctyoung,99%,"Lung Ifnb1 mRNA 16 h after dosing, fold over untreated: PSLN-344 as % of young benchmark; Welch p vs young = 0.82",S01-A_16h,,ratio,98.6966698584956
+E097,ifn16_sham,1.0,"Lung Ifnb1 mRNA 16 h after dosing, fold over untreated: Sham, mean",S01-A_16h,S01!B3:F3,mean,1.006
+E098,ifn16_cmp,7.8,"Lung Ifnb1 16 h, CMP-204 (cGAMP liposome), aged, mean",S01-A,S01!B4:F4,mean,7.825999999999999
+E099,ifn16_y344,50.7,"Lung Ifnb1 16 h, PSLN-344 in young mice, mean",S01-A,S01!B10:F10,mean,50.704
+E100,ifn16_yfold,1.3×,"Ifnb1 16 h, young mice: PSLN-344/PSLN-212 ratio of geometric means; Welch p=0.0092, Tukey p=0.63",S01-A,S01!B9:F9; S01!B10:F10,Welch t-test on log10; Tukey,1.3405436783777953
+E101,ifn16_r848,24.3,"Lung Ifnb1 16 h, PSLN-212/R848, aged",S01-A,S01!B7:F7,mean,24.262
+E102,ifn72_r848,1.7,"Lung Ifnb1 72 h, PSLN-212/R848, aged",S01-A,S01!H7:L7,mean,1.666
+E103,ifn16_r848only,5.0,"Lung Ifnb1 16 h, PSLN-R848, aged",S01-A,S01!B6:F6,mean,5.05
+E104,ifn72_r848only,1.2,"Lung Ifnb1 72 h, PSLN-R848, aged",S01-A,S01!H6:L6,mean,1.2440000000000002
+E105,ifn72_344,4.4,"Lung Ifnb1 mRNA 72 h after dosing, fold: PSLN-344, mean (n=5)",S01-A_72h,S01!H8:L8,mean,4.427999999999999
+E106,ifn72_212,3.4,"Lung Ifnb1 mRNA 72 h after dosing, fold: PSLN-212, mean (n=5)",S01-A_72h,S01!H5:L5,mean,3.432
+E107,ifn72_fold,1.2×,"Lung Ifnb1 mRNA 72 h after dosing, fold: ratio PSLN-344/PSLN-212 (ratio of geometric means); Welch p=0.33; Tukey p=0.94",S01-A_72h,S01!H5:L5; S01!H8:L8,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,1.220371915206999
+E108,ifn72_foldci,0.8–2.0,"Lung Ifnb1 mRNA 72 h after dosing, fold: 95% CI of the ratio",S01-A_72h,,Welch interval on log10 scale,"(np.float64(0.7500206587527195), np.float64(1.985688786096518))"
+E109,ifn72_young,1.6,"Lung Ifnb1 mRNA 72 h after dosing, fold: young benchmark (PSLN-212(Y)), mean",S01-A_72h,S01!H9:L9,mean,1.5899999999999999
+E110,ifn72_pctyoung,278%,"Lung Ifnb1 mRNA 72 h after dosing, fold: PSLN-344 as % of young benchmark; Welch p vs young = 0.0067",S01-A_72h,,ratio,278.4905660377358
+E111,ifn72_sham,1.0,"Lung Ifnb1 mRNA 72 h after dosing, fold: Sham, mean",S01-A_72h,S01!H3:L3,mean,0.9959999999999999
+E112,emax_344,52×,"Fitted plateau (Emax) of Ifnb1 induction, PSLN-344 (SE 3.9)",S08-A,S08!H3:J7,"Three-parameter Hill fit, fold = 1 + Emax*D^h/(ED50^h + D^h), least squares on individual values (n=3 x 5 doses)",51.77646557183114
+E113,ed50_344,11 µg,"Fitted ED50, PSLN-344 (SE 1.2)",S08-A,S08!H3:J7,Hill fit,11.22025836793668
+E114,emax_212,15×,"Fitted plateau (Emax) of Ifnb1 induction, PSLN-212 (SE 1.3)",S08-A,S08!E3:G7,"Three-parameter Hill fit, fold = 1 + Emax*D^h/(ED50^h + D^h), least squares on individual values (n=3 x 5 doses)",14.619626748141371
+E115,ed50_212,9 µg,"Fitted ED50, PSLN-212 (SE 1.4)",S08-A,S08!E3:G7,Hill fit,9.497819032245529
+E116,emax_cmp,7×,"Fitted plateau (Emax) of Ifnb1 induction, CMP-204 (SE 0.5)",S08-A,S08!B3:D7,"Three-parameter Hill fit, fold = 1 + Emax*D^h/(ED50^h + D^h), least squares on individual values (n=3 x 5 doses)",6.954944660218153
+E117,ed50_cmp,6 µg,"Fitted ED50, CMP-204 (SE 0.8)",S08-A,S08!B3:D7,Hill fit,6.020031603528627
+E118,d20_40,91%,PSLN-344: mean Ifnb1 at 20 µg as % of 40 µg,S08-A,S08!H6:J7,ratio of means,0.9124693078505542
+E119,dr_344_10,21.1,"Ifnb1 fold at 10 µg, PSLN-344, mean of 3",S08-A,S08!H5:J5,mean,21.08666666666667
+E120,dr_212_10,8.9,"Ifnb1 fold at 10 µg, PSLN-212, mean of 3",S08-A,S08!E5:G5,mean,8.92
+E121,dr_344_20,45.8,"Ifnb1 fold at 20 µg, PSLN-344, mean of 3",S08-A,S08!H6:J6,mean,45.833333333333336
+E122,dr_212_20,12.6,"Ifnb1 fold at 20 µg, PSLN-212, mean of 3",S08-A,S08!E6:G6,mean,12.57
+E123,dr_344_40,50.2,"Ifnb1 fold at 40 µg, PSLN-344, mean of 3",S08-A,S08!H7:J7,mean,50.23
+E124,dr_212_40,14.9,"Ifnb1 fold at 40 µg, PSLN-212, mean of 3",S08-A,S08!E7:G7,mean,14.873333333333335
+E125,dr_344r848_20,29.4,"Ifnb1 fold at 20 µg, PSLN-344/R848",S08-A,S08!K6:M6,mean,29.44666666666667
+E126,gm_344_16h,6.0,"Lung Gm-csf mRNA fold, 16h, PSLN-344, mean (n=5)",S02-F,S02!B17:F17,mean,5.997999999999999
+E127,gm_212_16h,1.5,"Lung Gm-csf mRNA fold, 16h, PSLN-212, mean (n=5)",S02-F,S02!G17:K17,mean,1.486
+E128,gm_sham_16h,1.0,"Lung Gm-csf mRNA fold, 16h, Sham, mean (n=5)",S02-F,S02!L17:P17,mean,0.998
+E129,gm_344_36h,8.7,"Lung Gm-csf mRNA fold, 36h, PSLN-344, mean (n=5)",S02-F,S02!B18:F18,mean,8.741999999999999
+E130,gm_212_36h,1.6,"Lung Gm-csf mRNA fold, 36h, PSLN-212, mean (n=5)",S02-F,S02!G18:K18,mean,1.594
+E131,gm_sham_36h,1.2,"Lung Gm-csf mRNA fold, 36h, Sham, mean (n=5)",S02-F,S02!L18:P18,mean,1.214
+E132,gm_344_72h,3.9,"Lung Gm-csf mRNA fold, 72h, PSLN-344, mean (n=5)",S02-F,S02!B19:F19,mean,3.85
+E133,gm_212_72h,1.4,"Lung Gm-csf mRNA fold, 72h, PSLN-212, mean (n=5)",S02-F,S02!G19:K19,mean,1.3860000000000001
+E134,gm_sham_72h,1.2,"Lung Gm-csf mRNA fold, 72h, Sham, mean (n=5)",S02-F,S02!L19:P19,mean,1.162
+E135,gm_p36,p = 4e-05,"Gm-csf 36 h, PSLN-344 vs PSLN-212, Welch t-test on log10 (two-way ANOVA Tukey p = 1.3e-11)",S02-F,,Welch; two-way ANOVA + Tukey,3.844402690939927e-05
+E136,cyt_Ifnb1_344_16h,36×,"Lung Ifnb1 mRNA, 16h panel of S09-A (left panel), PSLN-344: geometric-mean fold over control (95% CI 10.5-126.2; n=3)",S09-A,S09!Q3:S3,10^(mean log10 difference vs control); Welch CI,36.332253300548125
+E137,cyt_Ifnb1_212_16h,16×,"Lung Ifnb1 mRNA, 16h panel of S09-A (left panel), PSLN-212: geometric-mean fold over control (95% CI 4.8-56.5; n=3)",S09-A,S09!H3:J3,10^(mean log10 difference vs control); Welch CI,16.468789049796406
+E138,cyt_Ifnb1_young_16h,38×,"Lung Ifnb1 mRNA, 16h panel of S09-A (left panel), PSLN-212(y): geometric-mean fold over control (95% CI 10.2-140.3; n=3)",S09-A,S09!T3:V3,10^(mean log10 difference vs control); Welch CI,37.82944763435148
+E139,cyt_Ifnb1_r848_16h,24×,"Lung Ifnb1 mRNA, 16h panel of S09-A (left panel), PSLN-212/R848: geometric-mean fold over control (95% CI 6.9-83.6; n=3)",S09-A,S09!N3:P3,10^(mean log10 difference vs control); Welch CI,24.025291554136018
+E140,cyt_Il6_344_16h,36×,"Lung Il6 mRNA, 16h panel of S09-A (left panel), PSLN-344: geometric-mean fold over control (95% CI 7.8-167.5; n=3)",S09-A,S09!Q4:S4,10^(mean log10 difference vs control); Welch CI,36.07940221941652
+E141,cyt_Il6_212_16h,5.6×,"Lung Il6 mRNA, 16h panel of S09-A (left panel), PSLN-212: geometric-mean fold over control (95% CI 1.3-23.6; n=3)",S09-A,S09!H4:J4,10^(mean log10 difference vs control); Welch CI,5.566112757994999
+E142,cyt_Il6_young_16h,60×,"Lung Il6 mRNA, 16h panel of S09-A (left panel), PSLN-212(y): geometric-mean fold over control (95% CI 14.7-248.0; n=3)",S09-A,S09!T4:V4,10^(mean log10 difference vs control); Welch CI,60.32375026426687
+E143,cyt_Il6_r848_16h,31×,"Lung Il6 mRNA, 16h panel of S09-A (left panel), PSLN-212/R848: geometric-mean fold over control (95% CI 7.5-128.8; n=3)",S09-A,S09!N4:P4,10^(mean log10 difference vs control); Welch CI,31.016062751843005
+E144,cyt_Tnf_344_16h,40×,"Lung Tnf mRNA, 16h panel of S09-A (left panel), PSLN-344: geometric-mean fold over control (95% CI 9.2-177.4; n=3)",S09-A,S09!Q8:S8,10^(mean log10 difference vs control); Welch CI,40.492693543060504
+E145,cyt_Tnf_212_16h,16×,"Lung Tnf mRNA, 16h panel of S09-A (left panel), PSLN-212: geometric-mean fold over control (95% CI 4.0-62.4; n=3)",S09-A,S09!H8:J8,10^(mean log10 difference vs control); Welch CI,15.706979129263283
+E146,cyt_Tnf_young_16h,14×,"Lung Tnf mRNA, 16h panel of S09-A (left panel), PSLN-212(y): geometric-mean fold over control (95% CI 3.7-52.1; n=3)",S09-A,S09!T8:V8,10^(mean log10 difference vs control); Welch CI,13.881743005788787
+E147,cyt_Tnf_r848_16h,202×,"Lung Tnf mRNA, 16h panel of S09-A (left panel), PSLN-212/R848: geometric-mean fold over control (95% CI 54.5-750.9; n=3)",S09-A,S09!N8:P8,10^(mean log10 difference vs control); Welch CI,202.2505292114958
+E148,cyt_Ccl2_344_16h,590×,"Lung Ccl2 mRNA, 16h panel of S09-A (left panel), PSLN-344: geometric-mean fold over control (95% CI 114.6-3037.0; n=3)",S09-A,S09!Q5:S5,10^(mean log10 difference vs control); Welch CI,590.0710846181204
+E149,cyt_Ccl2_212_16h,7.6×,"Lung Ccl2 mRNA, 16h panel of S09-A (left panel), PSLN-212: geometric-mean fold over control (95% CI 1.9-31.4; n=3)",S09-A,S09!H5:J5,10^(mean log10 difference vs control); Welch CI,7.626243479348397
+E150,cyt_Ccl2_young_16h,"1,391×","Lung Ccl2 mRNA, 16h panel of S09-A (left panel), PSLN-212(y): geometric-mean fold over control (95% CI 292.7-6606.1; n=3)",S09-A,S09!T5:V5,10^(mean log10 difference vs control); Welch CI,1390.5235014300852
+E151,cyt_Ccl2_r848_16h,226×,"Lung Ccl2 mRNA, 16h panel of S09-A (left panel), PSLN-212/R848: geometric-mean fold over control (95% CI 55.0-928.6; n=3)",S09-A,S09!N5:P5,10^(mean log10 difference vs control); Welch CI,225.9730600232216
+E152,cyt_Ccl3_344_16h,30×,"Lung Ccl3 mRNA, 16h panel of S09-A (left panel), PSLN-344: geometric-mean fold over control (95% CI 3.1-287.3; n=3)",S09-A,S09!Q6:S6,10^(mean log10 difference vs control); Welch CI,29.827487107943394
+E153,cyt_Ccl3_212_16h,1.1×,"Lung Ccl3 mRNA, 16h panel of S09-A (left panel), PSLN-212: geometric-mean fold over control (95% CI 0.1-10.4; n=3)",S09-A,S09!H6:J6,10^(mean log10 difference vs control); Welch CI,1.1172799364638535
+E154,cyt_Ccl3_young_16h,57×,"Lung Ccl3 mRNA, 16h panel of S09-A (left panel), PSLN-212(y): geometric-mean fold over control (95% CI 6.1-536.9; n=3)",S09-A,S09!T6:V6,10^(mean log10 difference vs control); Welch CI,57.28144960458813
+E155,cyt_Ccl3_r848_16h,3.8×,"Lung Ccl3 mRNA, 16h panel of S09-A (left panel), PSLN-212/R848: geometric-mean fold over control (95% CI 0.4-34.8; n=3)",S09-A,S09!N6:P6,10^(mean log10 difference vs control); Welch CI,3.8028132636897385
+E156,cyt_Ccl5_344_16h,20×,"Lung Ccl5 mRNA, 16h panel of S09-A (left panel), PSLN-344: geometric-mean fold over control (95% CI 5.7-69.2; n=3)",S09-A,S09!Q7:S7,10^(mean log10 difference vs control); Welch CI,19.818525204699462
+E157,cyt_Ccl5_212_16h,2.6×,"Lung Ccl5 mRNA, 16h panel of S09-A (left panel), PSLN-212: geometric-mean fold over control (95% CI 1.3-5.1; n=3)",S09-A,S09!H7:J7,10^(mean log10 difference vs control); Welch CI,2.615331030467727
+E158,cyt_Ccl5_young_16h,62×,"Lung Ccl5 mRNA, 16h panel of S09-A (left panel), PSLN-212(y): geometric-mean fold over control (95% CI 21.2-181.5; n=3)",S09-A,S09!T7:V7,10^(mean log10 difference vs control); Welch CI,62.106444415856274
+E159,cyt_Ccl5_r848_16h,8.2×,"Lung Ccl5 mRNA, 16h panel of S09-A (left panel), PSLN-212/R848: geometric-mean fold over control (95% CI 4.0-16.7; n=3)",S09-A,S09!N7:P7,10^(mean log10 difference vs control); Welch CI,8.181871730640427
+E160,cyt_Il10_344_16h,7.3×,"Lung Il10 mRNA, 16h panel of S09-A (left panel), PSLN-344: geometric-mean fold over control (95% CI 2.5-21.6; n=3)",S09-A,S09!Q9:S9,10^(mean log10 difference vs control); Welch CI,7.310627683485819
+E161,cyt_Il10_212_16h,3.7×,"Lung Il10 mRNA, 16h panel of S09-A (left panel), PSLN-212: geometric-mean fold over control (95% CI 1.1-12.4; n=3)",S09-A,S09!H9:J9,10^(mean log10 difference vs control); Welch CI,3.7063406541229993
+E162,cyt_Il10_young_16h,1.8×,"Lung Il10 mRNA, 16h panel of S09-A (left panel), PSLN-212(y): geometric-mean fold over control (95% CI 0.7-4.8; n=3)",S09-A,S09!T9:V9,10^(mean log10 difference vs control); Welch CI,1.8361225598162998
+E163,cyt_Il10_r848_16h,179×,"Lung Il10 mRNA, 16h panel of S09-A (left panel), PSLN-212/R848: geometric-mean fold over control (95% CI 59.7-538.4; n=3)",S09-A,S09!N9:P9,10^(mean log10 difference vs control); Welch CI,179.35342174815625
+E164,cyt_Ifnb1_344_72h,4.0×,"Lung Ifnb1 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-344: geometric-mean fold over control (95% CI 1.2-13.8; n=3)",S09-A,S09!AN3:AP3,10^(mean log10 difference vs control); Welch CI,4.009227186754588
+E165,cyt_Ifnb1_212_72h,3.4×,"Lung Ifnb1 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-212: geometric-mean fold over control (95% CI 2.3-5.0; n=3)",S09-A,S09!AE3:AG3,10^(mean log10 difference vs control); Welch CI,3.4016816453003633
+E166,cyt_Ifnb1_young_72h,1.4×,"Lung Ifnb1 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-212(y): geometric-mean fold over control (95% CI 0.3-6.6; n=3)",S09-A,S09!AQ3:AS3,10^(mean log10 difference vs control); Welch CI,1.3947413179247607
+E167,cyt_Ifnb1_r848_72h,1.6×,"Lung Ifnb1 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-212/R848: geometric-mean fold over control (95% CI 1.1-2.4; n=3)",S09-A,S09!AK3:AM3,10^(mean log10 difference vs control); Welch CI,1.6434443398982361
+E168,cyt_Il6_344_72h,7.2×,"Lung Il6 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-344: geometric-mean fold over control (95% CI 2.3-22.2; n=3)",S09-A,S09!AN4:AP4,10^(mean log10 difference vs control); Welch CI,7.1860406015808085
+E169,cyt_Il6_212_72h,1.9×,"Lung Il6 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-212: geometric-mean fold over control (95% CI 0.7-5.3; n=3)",S09-A,S09!AE4:AG4,10^(mean log10 difference vs control); Welch CI,1.8645698896911265
+E170,cyt_Il6_young_72h,3.1×,"Lung Il6 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-212(y): geometric-mean fold over control (95% CI 1.1-9.0; n=3)",S09-A,S09!AQ4:AS4,10^(mean log10 difference vs control); Welch CI,3.103158795770529
+E171,cyt_Il6_r848_72h,34×,"Lung Il6 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-212/R848: geometric-mean fold over control (95% CI 12.2-93.5; n=3)",S09-A,S09!AK4:AM4,10^(mean log10 difference vs control); Welch CI,33.824418053687864
+E172,cyt_Tnf_344_72h,8.4×,"Lung Tnf mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-344: geometric-mean fold over control (95% CI 3.4-21.0; n=3)",S09-A,S09!AN8:AP8,10^(mean log10 difference vs control); Welch CI,8.439039117968845
+E173,cyt_Tnf_212_72h,5.2×,"Lung Tnf mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-212: geometric-mean fold over control (95% CI 2.0-13.9; n=3)",S09-A,S09!AE8:AG8,10^(mean log10 difference vs control); Welch CI,5.225353385289963
+E174,cyt_Tnf_young_72h,0.5×,"Lung Tnf mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-212(y): geometric-mean fold over control (95% CI 0.1-1.7; n=3)",S09-A,S09!AQ8:AS8,10^(mean log10 difference vs control); Welch CI,0.475219223120643
+E175,cyt_Tnf_r848_72h,50×,"Lung Tnf mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-212/R848: geometric-mean fold over control (95% CI 20.2-124.7; n=3)",S09-A,S09!AK8:AM8,10^(mean log10 difference vs control); Welch CI,50.23888591154764
+E176,cyt_Ccl2_344_72h,27×,"Lung Ccl2 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-344: geometric-mean fold over control (95% CI 10.0-75.4; n=3)",S09-A,S09!AN5:AP5,10^(mean log10 difference vs control); Welch CI,27.410523710779913
+E177,cyt_Ccl2_212_72h,5.2×,"Lung Ccl2 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-212: geometric-mean fold over control (95% CI 1.7-16.2; n=3)",S09-A,S09!AE5:AG5,10^(mean log10 difference vs control); Welch CI,5.229441792345113
+E178,cyt_Ccl2_young_72h,102×,"Lung Ccl2 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-212(y): geometric-mean fold over control (95% CI 37.3-276.9; n=3)",S09-A,S09!AQ5:AS5,10^(mean log10 difference vs control); Welch CI,101.59305028177809
+E179,cyt_Ccl2_r848_72h,58×,"Lung Ccl2 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-212/R848: geometric-mean fold over control (95% CI 21.4-159.7; n=3)",S09-A,S09!AK5:AM5,10^(mean log10 difference vs control); Welch CI,58.42207797013901
+E180,cyt_Ccl3_344_72h,9.2×,"Lung Ccl3 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-344: geometric-mean fold over control (95% CI 4.1-20.9; n=3)",S09-A,S09!AN6:AP6,10^(mean log10 difference vs control); Welch CI,9.232188573820926
+E181,cyt_Ccl3_212_72h,4.7×,"Lung Ccl3 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-212: geometric-mean fold over control (95% CI 2.1-10.9; n=3)",S09-A,S09!AE6:AG6,10^(mean log10 difference vs control); Welch CI,4.733572137985582
+E182,cyt_Ccl3_young_72h,41×,"Lung Ccl3 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-212(y): geometric-mean fold over control (95% CI 16.3-105.3; n=3)",S09-A,S09!AQ6:AS6,10^(mean log10 difference vs control); Welch CI,41.45112608447315
+E183,cyt_Ccl3_r848_72h,14×,"Lung Ccl3 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-212/R848: geometric-mean fold over control (95% CI 5.6-33.3; n=3)",S09-A,S09!AK6:AM6,10^(mean log10 difference vs control); Welch CI,13.609369327305451
+E184,cyt_Ccl5_344_72h,2.0×,"Lung Ccl5 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-344: geometric-mean fold over control (95% CI 1.2-3.2; n=3)",S09-A,S09!AN7:AP7,10^(mean log10 difference vs control); Welch CI,2.009251648566253
+E185,cyt_Ccl5_212_72h,1.2×,"Lung Ccl5 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-212: geometric-mean fold over control (95% CI 0.6-2.3; n=3)",S09-A,S09!AE7:AG7,10^(mean log10 difference vs control); Welch CI,1.2085862991556182
+E186,cyt_Ccl5_young_72h,0.5×,"Lung Ccl5 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-212(y): geometric-mean fold over control (95% CI 0.1-2.6; n=3)",S09-A,S09!AQ7:AS7,10^(mean log10 difference vs control); Welch CI,0.5458847978964286
+E187,cyt_Ccl5_r848_72h,55×,"Lung Ccl5 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-212/R848: geometric-mean fold over control (95% CI 13.6-220.6; n=3)",S09-A,S09!AK7:AM7,10^(mean log10 difference vs control); Welch CI,54.74300919406321
+E188,cyt_Il10_344_72h,4.2×,"Lung Il10 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-344: geometric-mean fold over control (95% CI 0.9-18.6; n=3)",S09-A,S09!AN9:AP9,10^(mean log10 difference vs control); Welch CI,4.160236308568934
+E189,cyt_Il10_212_72h,4.2×,"Lung Il10 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-212: geometric-mean fold over control (95% CI 1.0-18.3; n=3)",S09-A,S09!AE9:AG9,10^(mean log10 difference vs control); Welch CI,4.17950645201972
+E190,cyt_Il10_young_72h,0.1×,"Lung Il10 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-212(y): geometric-mean fold over control (95% CI 0.0-0.5; n=3)",S09-A,S09!AQ9:AS9,10^(mean log10 difference vs control); Welch CI,0.11370267094949929
+E191,cyt_Il10_r848_72h,45×,"Lung Il10 mRNA, 72h panel of S09-A (right panel, printed 16h, identified as 72 h, flag Q02), PSLN-212/R848: geometric-mean fold over control (95% CI 9.4-216.2; n=3)",S09-A,S09!AK9:AM9,10^(mean log10 difference vs control); Welch CI,45.04614875577743
+E192,mono4_344,30.6%,"Lung monocytes day 4, PSLN-344, mean (n=5)",S01-D,S01!L26:P26,mean,30.560000000000002
+E193,mono8_344,18.4%,"Lung monocytes day 8, PSLN-344, mean (n=5)",S01-D,S01!L28:P28,mean,18.44
+E194,mono4_212,16.7%,"Lung monocytes day 4, PSLN-212, mean (n=5)",S01-D,S01!G26:K26,mean,16.72
+E195,mono8_212,9.7%,"Lung monocytes day 8, PSLN-212, mean (n=5)",S01-D,S01!G28:K28,mean,9.66
+E196,mono4_sham,10.4%,"Lung monocytes day 4, Sham, mean (n=5)",S01-D,S01!B26:F26,mean,10.419999999999998
+E197,mono8_sham,9.5%,"Lung monocytes day 8, Sham, mean (n=5)",S01-D,S01!B28:F28,mean,9.48
+E198,mono4_young,32.2%,"Lung monocytes day 4, PSLN-212(Y), mean (n=5)",S01-D,S01!Q26:U26,mean,32.220000000000006
+E199,mono8_young,14.1%,"Lung monocytes day 8, PSLN-212(Y), mean (n=5)",S01-D,S01!Q28:U28,mean,14.080000000000002
+E200,dc4_344,18.9%,"Lung CD11b+ dendritic cells day 4, PSLN-344, mean (n=5)",S01-E,S01!L32:P32,mean,18.880000000000003
+E201,dc4_212,8.3%,"Lung CD11b+ dendritic cells day 4, PSLN-212, mean (n=5)",S01-E,S01!G32:K32,mean,8.280000000000001
+E202,dc4_sham,4.8%,"Lung CD11b+ dendritic cells day 4, Sham, mean (n=5)",S01-E,S01!B32:F32,mean,4.8
+E203,dc4_young,21.4%,"Lung CD11b+ dendritic cells day 4, PSLN-212(Y), mean (n=5)",S01-E,S01!Q32:U32,mean,21.4
+E204,dc4_y344,22.6%,"Lung CD11b+ dendritic cells day 4, PSLN-344(Y), mean (n=5)",S01-E,S01!V32:Z32,mean,22.6
+E205,mac5_344,3.4,"Lung Ly6C+CCR2+ macrophages, day 5, PSLN-344, x10^5 cells, mean (n=3)",S07-A,S07!E5:G5,mean,3.4233333333333333
+E206,mac10_344,2.9,"Lung Ly6C+CCR2+ macrophages, day 10, PSLN-344, x10^5 cells, mean (n=3)",S07-A,S07!E6:G6,mean,2.8766666666666665
+E207,mac5_212,19.0,"Lung Ly6C+CCR2+ macrophages, day 5, PSLN-212, x10^5 cells, mean (n=3)",S07-A,S07!B5:D5,mean,19.026666666666667
+E208,mac10_212,14.6,"Lung Ly6C+CCR2+ macrophages, day 10, PSLN-212, x10^5 cells, mean (n=3)",S07-A,S07!B6:D6,mean,14.556666666666667
+E209,spad_a,43.1%,"Dye-positive alveolar macrophages 16 h after DiD-liposome: WT, mean (n=4)",S01-C,S01!B20:E20,mean,43.1
+E210,spad_b,12.7%,"Dye-positive alveolar macrophages 16 h after DiD-liposome: SPA/D, mean (n=4); Welch p=3.9e-05",S01-C,S01!B21:E21,mean; Welch t-test,12.655
+E211,srb2_a,0.4%,"Dye-positive type II alveolar epithelial cells: AECII/FreeSRB, mean (n=5)",S01-B,S01!B16:F16,mean,0.378
+E212,srb2_b,15.8%,"Dye-positive type II alveolar epithelial cells: AECII/PSLN-SRB, mean (n=5); Welch p=0.00011",S01-B,S01!B14:F14,mean; Welch t-test,15.8
+E213,srb1_a,0.3%,"Dye-positive type I alveolar epithelial cells: AECI/FreeSRB, mean (n=5)",S01-B,S01!B17:F17,mean,0.33199999999999996
+E214,srb1_b,3.8%,"Dye-positive type I alveolar epithelial cells: AECI/PSLN-SRB, mean (n=5); Welch p=0.002",S01-B,S01!B15:F15,mean; Welch t-test,3.832
+E215,cbx_a,7.3%,"Recruited lung monocytes day 3, PSLN-344, without / with carbenoxolone: CBX-, mean (n=5)",S11-C,S11!B17:B21,mean,7.282000000000001
+E216,cbx_b,3.1%,"Recruited lung monocytes day 3, PSLN-344, without / with carbenoxolone: CBX+, mean (n=5); Welch p=0.0041",S11-C,S11!A17:A21,mean; Welch t-test,3.084
+E217,gmres_a,5.9%,"Lung Ly6C+CD11c+MHC-II+ cells day 5: PSLN-212, mean (n=5)",S02-G,S02!C22:C26,mean,5.858
+E218,gmres_b,13.8%,"Lung Ly6C+CD11c+MHC-II+ cells day 5: PSLN-212+GM-CSF, mean (n=5); Welch p=0.0021",S02-G,S02!D22:D26,mean; Welch t-test,13.823999999999998
+E219,gmres_alone,1.5%,"Same read-out, GM-CSF without adjuvant",S02-G,S02!B22:B26,mean,1.52
+E220,ifnar_a,19.7%,"Donor-derived monocyte-derived DC day 3, PSLN-344: wild-type vs Ifnar-knockout marrow (pre-cDC removed): WT w/o cDC, mean (n=5)",S02-H,S02!B30:B34,mean,19.7
+E221,ifnar_b,2.1%,"Donor-derived monocyte-derived DC day 3, PSLN-344: wild-type vs Ifnar-knockout marrow (pre-cDC removed): IFN w/o cDC, mean (n=5); Welch p=0.0004",S02-H,S02!D30:D34,mean; Welch t-test,2.088
+E222,ifnar_gm,12.4%,"Same, Ifnar-knockout marrow + GM-CSF intratracheally",S02-H,S02!F30:F34,mean,12.402000000000001
+E223,ccr2mono_a,9.9%,"Lung CD11b+Ly6C+ monocytes, PSLN-344 without / with CCR2 antagonist: PSLN-344, mean (n=5)",S07-B_mono,S07!B10:B14,mean,9.861999999999998
+E224,ccr2mono_b,3.3%,"Lung CD11b+Ly6C+ monocytes, PSLN-344 without / with CCR2 antagonist: PSLN-344+INCB3344, mean (n=5); Welch p=0.001",S07-B_mono,S07!C10:C14,mean; Welch t-test,3.2600000000000002
+E225,ccr2mac_a,15.4%,"Lung Ly6C+ macrophages, PSLN-344 without / with CCR2 antagonist: PSLN-344, mean (n=5)",S07-B_Ly6CMac,S07!E10:E14,mean,15.354
+E226,ccr2mac_b,2.5%,"Lung Ly6C+ macrophages, PSLN-344 without / with CCR2 antagonist: PSLN-344+INCB3344, mean (n=5); Welch p=0.0029",S07-B_Ly6CMac,S07!F10:F14,mean; Welch t-test,2.5220000000000002
+E227,ccr2gzmb_a,6.8%,"Lung granzyme B+ CD8 T cells day 5, young mice, PSLN-344 without / with CCR2 antagonist: PSLN-344(Y), mean (n=5)",S02-I,S02!H30:H34,mean,6.7700000000000005
+E228,ccr2gzmb_b,1.4%,"Lung granzyme B+ CD8 T cells day 5, young mice, PSLN-344 without / with CCR2 antagonist: PSLN-344(Y)+INCB3344, mean (n=5); Welch p=8.1e-05",S02-I,S02!I30:I34,mean; Welch t-test,1.3900000000000001
+E229,s12_a,21.3%,"Infiltrating donor monocytes day 3, young mice: WT to WT, mean (n=3)",S12-A,S12!A3:A5,mean,21.266666666666666
+E230,s12_b,15.4%,"Infiltrating donor monocytes day 3, young mice: IFNAR-/- to WT, mean (n=3); Welch p=0.12",S12-A,S12!B3:B5,mean; Welch t-test,15.366666666666667
+E231,ptx_lung_a,59.0%,"Proliferating OT-I CD8 T cells in lung day 4, without / with pertussis toxin: Lung, mean (n=3)",S05-C,S05!A13:A15,mean,59.0
+E232,ptx_lung_b,55.1%,"Proliferating OT-I CD8 T cells in lung day 4, without / with pertussis toxin: Lung+PTX, mean (n=3); Welch p=0.57",S05-C,S05!B13:B15,mean; Welch t-test,55.06666666666666
+E233,ptx_mln_a,30.9%,"Proliferating OT-I CD8 T cells in lymph node day 4, without / with pertussis toxin: MLN, mean (n=3)",S05-C,S05!C13:C15,mean,30.900000000000002
+E234,ptx_mln_b,6.8%,"Proliferating OT-I CD8 T cells in lymph node day 4, without / with pertussis toxin: MLN+PTX, mean (n=3); Welch p=0.0066",S05-C,S05!D13:D15,mean; Welch t-test,6.833333333333333
+E235,ptx_dc,2.4%,"Antigen-positive DC in lymph node, pertussis-toxin group",S02-C,S02!N3:N7,mean,2.356
+E236,migdc_344,30.7%,"CCR7+ migratory CD11b+ DC in lung, 72 h: PSLN-344, mean (n=5)",S02-A,S02!C3:C7,mean,30.68
+E237,migdc_212,7.3%,"CCR7+ migratory CD11b+ DC in lung, 72 h: PSLN-212, mean (n=5)",S02-A,S02!B3:B7,mean,7.279999999999999
+E238,migdc_fold,4.2×,"CCR7+ migratory CD11b+ DC in lung, 72 h: ratio PSLN-344/PSLN-212 (ratio of means); Welch p=0.0019; Tukey p=4.1e-06",S02-A,S02!B3:B7; S02!C3:C7,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,4.214285714285714
+E239,migdc_young,35.0%,"CCR7+ migratory CD11b+ DC in lung, 72 h: young benchmark (PSLN-212(Y)), mean",S02-A,S02!D3:D7,mean,35.0
+E240,migdc_pctyoung,88%,"CCR7+ migratory CD11b+ DC in lung, 72 h: PSLN-344 as % of young benchmark; Welch p vs young = 0.33",S02-A,,ratio,87.65714285714286
+E241,migdc_sham,2.5%,"CCR7+ migratory CD11b+ DC in lung, 72 h: Sham, mean",S02-A,S02!A3:A7,mean,2.54
+E242,agdc_344,7.1%,"Antigen (OVA-AF647)-positive DC in lymph node, 36 h: PSLN-344, mean (n=5)",S02-C,S02!L3:L7,mean,7.089999999999999
+E243,agdc_212,1.8%,"Antigen (OVA-AF647)-positive DC in lymph node, 36 h: PSLN-212, mean (n=5)",S02-C,S02!K3:K7,mean,1.77
+E244,agdc_fold,4.0×,"Antigen (OVA-AF647)-positive DC in lymph node, 36 h: ratio PSLN-344/PSLN-212 (ratio of means); Welch p=0.00069; Tukey p=2.2e-05",S02-C,S02!K3:K7; S02!L3:L7,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,4.005649717514124
+E245,agdc_young,9.4%,"Antigen (OVA-AF647)-positive DC in lymph node, 36 h: young benchmark (PSLN-212(Y)), mean",S02-C,S02!M3:M7,mean,9.39
+E246,agdc_pctyoung,76%,"Antigen (OVA-AF647)-positive DC in lymph node, 36 h: PSLN-344 as % of young benchmark; Welch p vs young = 0.037",S02-C,,ratio,75.50585729499466
+E247,cd40_344,11.2%,"CD40+ lymph-node CD11b+ DC, day 3: PSLN-344, mean (n=5)",S02-D_CD40,S02!C10:C14,mean,11.202000000000002
+E248,cd40_212,5.6%,"CD40+ lymph-node CD11b+ DC, day 3: PSLN-212, mean (n=5)",S02-D_CD40,S02!B10:B14,mean,5.556000000000001
+E249,cd40_fold,2.0×,"CD40+ lymph-node CD11b+ DC, day 3: ratio PSLN-344/PSLN-212 (ratio of means); Welch p=0.011; Tukey p=0.16",S02-D_CD40,S02!B10:B14; S02!C10:C14,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,2.0161987041036715
+E250,cd40_young,38.7%,"CD40+ lymph-node CD11b+ DC, day 3: young benchmark (PSLN-212(Y)), mean",S02-D_CD40,S02!D10:D14,mean,38.72
+E251,cd40_pctyoung,29%,"CD40+ lymph-node CD11b+ DC, day 3: PSLN-344 as % of young benchmark; Welch p vs young = 0.00042",S02-D_CD40,,ratio,28.93078512396695
+E252,cd40_sham,4.0%,"CD40+ lymph-node CD11b+ DC, day 3: Sham, mean",S02-D_CD40,S02!A10:A14,mean,3.96
+E253,cd86_344,14.5%,"CD86+ lymph-node CD11b+ DC, day 3: PSLN-344, mean (n=5)",S02-D_CD86,S02!H10:H14,mean,14.540000000000001
+E254,cd86_212,8.1%,"CD86+ lymph-node CD11b+ DC, day 3: PSLN-212, mean (n=5)",S02-D_CD86,S02!G10:G14,mean,8.128
+E255,cd86_fold,1.8×,"CD86+ lymph-node CD11b+ DC, day 3: ratio PSLN-344/PSLN-212 (ratio of means); Welch p=0.0032; Tukey p=0.033",S02-D_CD86,S02!G10:G14; S02!H10:H14,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,1.7888779527559056
+E256,cd86_young,37.9%,"CD86+ lymph-node CD11b+ DC, day 3: young benchmark (PSLN-212(Y)), mean",S02-D_CD86,S02!I10:I14,mean,37.94
+E257,cd86_pctyoung,38%,"CD86+ lymph-node CD11b+ DC, day 3: PSLN-344 as % of young benchmark; Welch p vs young = 0.00017",S02-D_CD86,,ratio,38.323668950975225
+E258,cd86_sham,7.2%,"CD86+ lymph-node CD11b+ DC, day 3: Sham, mean",S02-D_CD86,S02!F10:F14,mean,7.175999999999999
+E259,prime_344,18.7%,"OT-I CD8 proliferation driven by lymph-node DC ex vivo: PSLN-344, mean (n=5)",S02-E,S02!L10:L14,mean,18.651999999999997
+E260,prime_212,0.8%,"OT-I CD8 proliferation driven by lymph-node DC ex vivo: PSLN-212, mean (n=5)",S02-E,S02!K10:K14,mean,0.766
+E261,prime_fold,24.3×,OT-I CD8 proliferation driven by lymph-node DC ex vivo: ratio PSLN-344/PSLN-212 (ratio of means); Welch p=0.0001; Tukey p=3.4e-05,S02-E,S02!K10:K14; S02!L10:L14,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,24.349869451697124
+E262,prime_young,26.2%,"OT-I CD8 proliferation driven by lymph-node DC ex vivo: young benchmark (PSLN-212(Y)), mean",S02-E,S02!M10:M14,mean,26.244
+E263,prime_pctyoung,71%,OT-I CD8 proliferation driven by lymph-node DC ex vivo: PSLN-344 as % of young benchmark; Welch p vs young = 0.063,S02-E,,ratio,71.07148300563938
+E264,gcb_344,6.5%,"Germinal-centre B cells in lymph node, day 7: PSLN-344, mean (n=5)",S03-K,S03!N17:N21,mean,6.544
+E265,gcb_212,2.3%,"Germinal-centre B cells in lymph node, day 7: PSLN-212, mean (n=5)",S03-K,S03!M17:M21,mean,2.342
+E266,gcb_fold,2.8×,"Germinal-centre B cells in lymph node, day 7: ratio PSLN-344/PSLN-212 (ratio of means); Welch p=0.0023; Tukey p=0.0074",S03-K,S03!M17:M21; S03!N17:N21,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,2.794192997438087
+E267,gcb_young,9.8%,"Germinal-centre B cells in lymph node, day 7: young benchmark (PSLN-212(Y)), mean",S03-K,S03!O17:O21,mean,9.822
+E268,gcb_pctyoung,67%,"Germinal-centre B cells in lymph node, day 7: PSLN-344 as % of young benchmark; Welch p vs young = 0.076",S03-K,,ratio,66.62594176338831
+E269,gcb_sham,1.2%,"Germinal-centre B cells in lymph node, day 7: Sham, mean",S03-K,S03!L17:L21,mean,1.176
+E270,tfhhi_344,10.3%,"ICOS-high follicular helper T cells, day 7: PSLN-344, mean (n=5)",S04-A_ICOShi,S04!G4:K4,mean,10.256699999999999
+E271,tfhhi_212,3.8%,"ICOS-high follicular helper T cells, day 7: PSLN-212, mean (n=5)",S04-A_ICOShi,S04!G3:K3,mean,3.8151400000000004
+E272,tfhhi_fold,2.7×,"ICOS-high follicular helper T cells, day 7: ratio PSLN-344/PSLN-212 (ratio of means); Welch p=0.0086; Tukey p=0.00023",S04-A_ICOShi,S04!G3:K3; S04!G4:K4,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,2.68842034630446
+E273,tfhhi_young,13.6%,"ICOS-high follicular helper T cells, day 7: young benchmark (PSLN-212(Y)), mean",S04-A_ICOShi,S04!G5:K5,mean,13.63082
+E274,tfhhi_pctyoung,75%,"ICOS-high follicular helper T cells, day 7: PSLN-344 as % of young benchmark; Welch p vs young = 0.078",S04-A_ICOShi,,ratio,75.2463901658154
+E275,tfhhi_sham,0.3%,"ICOS-high follicular helper T cells, day 7: Sham, mean",S04-A_ICOShi,S04!G2:K2,mean,0.2965
+E276,tfr_344,10.8%,"Follicular regulatory T cells (Foxp3+ in CXCR5+), day 7: PSLN-344, mean (n=5)",S04-B_Tfr,S04!C8:C12,mean,10.8
+E277,tfr_212,26.7%,"Follicular regulatory T cells (Foxp3+ in CXCR5+), day 7: PSLN-212, mean (n=5)",S04-B_Tfr,S04!B8:B12,mean,26.660000000000004
+E278,tfr_fold,0.4×,"Follicular regulatory T cells (Foxp3+ in CXCR5+), day 7: ratio PSLN-344/PSLN-212 (ratio of means); Welch p=0.0047; Tukey p=0.00022",S04-B_Tfr,S04!B8:B12; S04!C8:C12,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,0.40510127531882967
+E279,tfr_young,7.1%,"Follicular regulatory T cells (Foxp3+ in CXCR5+), day 7: young benchmark (PSLN-212(Y)), mean",S04-B_Tfr,S04!D8:D12,mean,7.12
+E280,tfr_pctyoung,152%,"Follicular regulatory T cells (Foxp3+ in CXCR5+), day 7: PSLN-344 as % of young benchmark; Welch p vs young = 0.092",S04-B_Tfr,,ratio,151.68539325842696
+E281,tfr_sham,22.6%,"Follicular regulatory T cells (Foxp3+ in CXCR5+), day 7: Sham, mean",S04-B_Tfr,S04!A8:A12,mean,22.6
+E282,tfhtfr_344,8.5,"Tfh:Tfr ratio, day 7: PSLN-344, mean (n=5)",S04-B_TfhTfr,S04!C15:C19,mean,8.4753188
+E283,tfhtfr_212,2.9,"Tfh:Tfr ratio, day 7: PSLN-212, mean (n=5)",S04-B_TfhTfr,S04!B15:B19,mean,2.9354664
+E284,tfhtfr_fold,3.0×,"Tfh:Tfr ratio, day 7: ratio PSLN-344/PSLN-212 (ratio of geometric means); Welch p=0.00063; Tukey p=0.00085",S04-B_TfhTfr,S04!B15:B19; S04!C15:C19,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,2.972649856220974
+E285,tfhtfr_foldci,2.0–4.5,"Tfh:Tfr ratio, day 7: 95% CI of the ratio",S04-B_TfhTfr,,Welch interval on log10 scale,"(np.float64(1.9538156965443705), np.float64(4.522763934858122))"
+E286,tfhtfr_young,16.0,"Tfh:Tfr ratio, day 7: young benchmark (PSLN-212(Y)), mean",S04-B_TfhTfr,S04!D15:D19,mean,16.0485356
+E287,tfhtfr_pctyoung,53%,"Tfh:Tfr ratio, day 7: PSLN-344 as % of young benchmark; Welch p vs young = 0.084",S04-B_TfhTfr,,ratio,52.81054303795793
+E288,tfhtfr_sham,3.6,"Tfh:Tfr ratio, day 7: Sham, mean",S04-B_TfhTfr,S04!A15:A19,mean,3.5553920000000003
+E289,tfhtfr_344m,8.5,"Tfh:Tfr ratio day 7, PSLN-344, arithmetic mean",S04-B Tfh:Tfr,S04!C15:C19,mean,8.4753188
+E290,tfhtfr_212m,2.9,"Tfh:Tfr ratio day 7, PSLN-212, arithmetic mean",S04-B Tfh:Tfr,S04!B15:B19,mean,2.9354664
+E291,tfr30_344,14.0%,"Follicular regulatory T cells, day 30: PSLN-344, mean (n=5)",S04-C,S04!C22:C26,mean,14.0
+E292,tfr30_212,18.0%,"Follicular regulatory T cells, day 30: PSLN-212, mean (n=5)",S04-C,S04!B22:B26,mean,18.04
+E293,tfr30_fold,0.8×,"Follicular regulatory T cells, day 30: ratio PSLN-344/PSLN-212 (ratio of means); Welch p=0.11; Tukey p=0.14",S04-C,S04!B22:B26; S04!C22:C26,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,0.7760532150776054
+E294,tfr30_young,7.4%,"Follicular regulatory T cells, day 30: young benchmark (PSLN-212(Y)), mean",S04-C,S04!D22:D26,mean,7.395999999999999
+E295,tfr30_pctyoung,189%,"Follicular regulatory T cells, day 30: PSLN-344 as % of young benchmark; Welch p vs young = 0.0068",S04-C,,ratio,189.29150892374258
+E296,tfr30_sham,13.9%,"Follicular regulatory T cells, day 30: Sham, mean",S04-C,S04!A22:A26,mean,13.86
+E297,treg_344,3.0%,"Lung regulatory T cells, day 7 (n=3): PSLN-344, mean (n=3)",S04-D,S04!C29:C31,mean,2.986666666666667
+E298,treg_212,6.7%,"Lung regulatory T cells, day 7 (n=3): PSLN-212, mean (n=3)",S04-D,S04!B29:B31,mean,6.659999999999999
+E299,treg_fold,0.4×,"Lung regulatory T cells, day 7 (n=3): ratio PSLN-344/PSLN-212 (ratio of means); Welch p=0.00034; Tukey p=0.00025",S04-D,S04!B29:B31; S04!C29:C31,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,0.4484484484484485
+E300,treg_young,1.8%,"Lung regulatory T cells, day 7 (n=3): young benchmark (PSLN-212(Y)), mean",S04-D,S04!D29:D31,mean,1.7766666666666666
+E301,treg_pctyoung,168%,"Lung regulatory T cells, day 7 (n=3): PSLN-344 as % of young benchmark; Welch p vs young = 0.051",S04-D,,ratio,168.1050656660413
+E302,treg_sham,5.9%,"Lung regulatory T cells, day 7 (n=3): Sham, mean",S04-D,S04!A29:A31,mean,5.88
+E303,cd206_344,49%,"CD206+ lung macrophages: PSLN-344, mean (n=5)",S11-E,S11!C31:C35,mean,48.92
+E304,cd206_212,71%,"CD206+ lung macrophages: PSLN-212, mean (n=5)",S11-E,S11!B31:B35,mean,71.46
+E305,cd206_fold,0.7×,CD206+ lung macrophages: ratio PSLN-344/PSLN-212 (ratio of means); Welch p=0.0024; Tukey p=0.0017,S11-E,S11!B31:B35; S11!C31:C35,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,0.6845787853344529
+E306,cd206_young,36%,"CD206+ lung macrophages: young benchmark (PSLN-212(Y)), mean",S11-E,S11!D31:D35,mean,35.54
+E307,cd206_pctyoung,138%,CD206+ lung macrophages: PSLN-344 as % of young benchmark; Welch p vs young = 0.025,S11-E,,ratio,137.64772087788407
+E308,cd206_sham,85%,"CD206+ lung macrophages: Sham, mean",S11-E,S11!A31:A35,mean,85.18
+E309,igg_h1_344,"7,305","Serum IgG to H1N1, day 14, reciprocal titre: PSLN-344, geometric mean (n=5)",S03-A,S03!D3:D7,geometric mean,7305.086964958939
+E310,igg_h1_212,393,"Serum IgG to H1N1, day 14, reciprocal titre: PSLN-212, geometric mean (n=5)",S03-A,S03!C3:C7,geometric mean,393.2105828945704
+E311,igg_h1_fold,18.6×,"Serum IgG to H1N1, day 14, reciprocal titre: ratio PSLN-344/PSLN-212 (ratio of geometric means); Welch p=1.3e-05; Tukey p=3.1e-06",S03-A,S03!C3:C7; S03!D3:D7,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,18.57805278582142
+E312,igg_h1_foldci,9.1–37.9,"Serum IgG to H1N1, day 14, reciprocal titre: 95% CI of the ratio",S03-A,,Welch interval on log10 scale,"(np.float64(9.114800945050852), np.float64(37.86632833711778))"
+E313,igg_h1_young,"11,959","Serum IgG to H1N1, day 14, reciprocal titre: young benchmark (PSLN-212(Y)), geometric mean",S03-A,S03!E3:E7,geometric mean,11958.929858515658
+E314,igg_h1_pctyoung,61%,"Serum IgG to H1N1, day 14, reciprocal titre: PSLN-344 as % of young benchmark; Welch p vs young = 0.11",S03-A,,ratio,61.08478811552831
+E315,igg_h1_sham,56,"Serum IgG to H1N1, day 14, reciprocal titre: Sham, geometric mean",S03-A,S03!A3:A7,geometric mean,55.678169211135675
+E316,igg_h3_344,"5,701","Serum IgG to H3N2, day 14, reciprocal titre: PSLN-344, geometric mean (n=5)",S03-E,S03!D10:D14,geometric mean,5700.776213177764
+E317,igg_h3_212,426,"Serum IgG to H3N2, day 14, reciprocal titre: PSLN-212, geometric mean (n=5)",S03-E,S03!C10:C14,geometric mean,425.52514603139906
+E318,igg_h3_fold,13.4×,"Serum IgG to H3N2, day 14, reciprocal titre: ratio PSLN-344/PSLN-212 (ratio of geometric means); Welch p=7e-05; Tukey p=0.00013",S03-E,S03!C10:C14; S03!D10:D14,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,13.397037205310326
+E319,igg_h3_foldci,6.1–29.6,"Serum IgG to H3N2, day 14, reciprocal titre: 95% CI of the ratio",S03-E,,Welch interval on log10 scale,"(np.float64(6.070219734343267), np.float64(29.567398502072024))"
+E320,igg_h3_young,"13,855","Serum IgG to H3N2, day 14, reciprocal titre: young benchmark (PSLN-212(Y)), geometric mean",S03-E,S03!E10:E14,geometric mean,13855.465160991249
+E321,igg_h3_pctyoung,41%,"Serum IgG to H3N2, day 14, reciprocal titre: PSLN-344 as % of young benchmark; Welch p vs young = 0.039",S03-E,,ratio,41.14460356933927
+E322,igg_h3_sham,52,"Serum IgG to H3N2, day 14, reciprocal titre: Sham, geometric mean",S03-E,S03!A10:A14,geometric mean,52.413629000146166
+E323,hai_h1_344,368,"HAI titre to H1N1, day 14: PSLN-344, geometric mean (n=5)",S03-C,S03!N3:N7,geometric mean,367.58347359905116
+E324,hai_h1_212,46,"HAI titre to H1N1, day 14: PSLN-212, geometric mean (n=5)",S03-C,S03!M3:M7,geometric mean,45.947934199881374
+E325,hai_h1_fold,8.0×,"HAI titre to H1N1, day 14: ratio PSLN-344/PSLN-212 (ratio of geometric means); Welch p=0.00037; Tukey p=5.7e-06",S03-C,S03!M3:M7; S03!N3:N7,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,8.000000000000004
+E326,hai_h1_foldci,3.9–16.4,"HAI titre to H1N1, day 14: 95% CI of the ratio",S03-C,,Welch interval on log10 scale,"(np.float64(3.908203507448333), np.float64(16.375810491451528))"
+E327,hai_h1_young,485,"HAI titre to H1N1, day 14: young benchmark (PSLN-212(Y)), geometric mean",S03-C,S03!O3:O7,geometric mean,485.0293012833275
+E328,hai_h1_pctyoung,76%,"HAI titre to H1N1, day 14: PSLN-344 as % of young benchmark; Welch p vs young = 0.4",S03-C,,ratio,75.78582832551987
+E329,hai_h1_sham,8,"HAI titre to H1N1, day 14: Sham, geometric mean",S03-C,S03!K3:K7,geometric mean,7.578582832551991
+E330,hai_h3_344,320,"HAI titre to H3N2, day 14: PSLN-344, geometric mean (n=5)",S03-G,S03!N10:N14,geometric mean,319.9999999999999
+E331,hai_h3_212,35,"HAI titre to H3N2, day 14: PSLN-212, geometric mean (n=5)",S03-G,S03!M10:M14,geometric mean,34.822022531844965
+E332,hai_h3_fold,9.2×,"HAI titre to H3N2, day 14: ratio PSLN-344/PSLN-212 (ratio of geometric means); Welch p=0.00021; Tukey p=2.2e-06",S03-G,S03!M10:M14; S03!N10:N14,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,9.189586839976277
+E333,hai_h3_foldci,4.2–20.2,"HAI titre to H3N2, day 14: 95% CI of the ratio",S03-G,,Welch interval on log10 scale,"(np.float64(4.183782010877202), np.float64(20.184729048959003))"
+E334,hai_h3_young,368,"HAI titre to H3N2, day 14: young benchmark (PSLN-212(Y)), geometric mean",S03-G,S03!O10:O14,geometric mean,367.58347359905116
+E335,hai_h3_pctyoung,87%,"HAI titre to H3N2, day 14: PSLN-344 as % of young benchmark; Welch p vs young = 0.61",S03-G,,ratio,87.0550563296124
+E336,hai_h3_sham,10,"HAI titre to H3N2, day 14: Sham, geometric mean",S03-G,S03!K10:K14,geometric mean,10.0
+E337,mn_h1_344,"3,840","Neutralising titre to H1N1, day 14: PSLN-344, geometric mean (n=5)",S03-D,S03!T3:T7,geometric mean,3839.9999999999973
+E338,mn_h1_212,418,"Neutralising titre to H1N1, day 14: PSLN-212, geometric mean (n=5)",S03-D,S03!S3:S7,geometric mean,417.86427038213947
+E339,mn_h1_fold,9.2×,"Neutralising titre to H1N1, day 14: ratio PSLN-344/PSLN-212 (ratio of geometric means); Welch p=0.0019; Tukey p=0.00024",S03-D,S03!S3:S7; S03!T3:T7,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,9.189586839976277
+E340,mn_h1_foldci,3.1–27.2,"Neutralising titre to H1N1, day 14: 95% CI of the ratio",S03-D,,Welch interval on log10 scale,"(np.float64(3.104664075108947), np.float64(27.200529347607997))"
+E341,mn_h1_young,"6,686","Neutralising titre to H1N1, day 14: young benchmark (PSLN-212(Y)), geometric mean",S03-D,S03!U3:U7,geometric mean,6685.828326114235
+E342,mn_h1_pctyoung,57%,"Neutralising titre to H1N1, day 14: PSLN-344 as % of young benchmark; Welch p vs young = 0.27",S03-D,,ratio,57.43491774985169
+E343,mn_h1_sham,52,"Neutralising titre to H1N1, day 14: Sham, geometric mean",S03-D,S03!Q3:Q7,geometric mean,52.23303379776743
+E344,mn_h3_344,"2,533","Neutralising titre to H3N2, day 14: PSLN-344, geometric mean (n=5)",S03-H,S03!T10:T14,geometric mean,2533.455188683956
+E345,mn_h3_212,276,"Neutralising titre to H3N2, day 14: PSLN-212, geometric mean (n=5)",S03-H,S03!S10:S14,geometric mean,275.6876051992884
+E346,mn_h3_fold,9.2×,"Neutralising titre to H3N2, day 14: ratio PSLN-344/PSLN-212 (ratio of geometric means); Welch p=0.00039; Tukey p=3.2e-05",S03-H,S03!S10:S14; S03!T10:T14,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,9.189586839976277
+E347,mn_h3_foldci,3.8–22.1,"Neutralising titre to H3N2, day 14: 95% CI of the ratio",S03-H,,Welch interval on log10 scale,"(np.float64(3.8263576661493652), np.float64(22.070207141521475))"
+E348,mn_h3_young,"4,411","Neutralising titre to H3N2, day 14: young benchmark (PSLN-212(Y)), geometric mean",S03-H,S03!U10:U14,geometric mean,4411.001683188612
+E349,mn_h3_pctyoung,57%,"Neutralising titre to H3N2, day 14: PSLN-344 as % of young benchmark; Welch p vs young = 0.18",S03-H,,ratio,57.434917749851756
+E350,mn_h3_sham,40,"Neutralising titre to H3N2, day 14: Sham, geometric mean",S03-H,S03!Q10:Q14,geometric mean,39.58523732318682
+E351,igg2a_h1_344,"1,642","IgG2a to H1N1, day 14: PSLN-344, geometric mean (n=5)",S13-A,S13!B3:B7,geometric mean,1641.7636644919216
+E352,igg2a_h1_212,83,"IgG2a to H1N1, day 14: PSLN-212, geometric mean (n=5)",S13-A,S13!A3:A7,geometric mean,83.41997232162927
+E353,igg2a_h1_fold,19.7×,"IgG2a to H1N1, day 14: ratio PSLN-344/PSLN-212 (ratio of geometric means); Welch p=1.1e-05; Tukey p=9.8e-07",S13-A,S13!A3:A7; S13!B3:B7,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,19.680702579977268
+E354,igg2a_h1_foldci,10.1–38.5,"IgG2a to H1N1, day 14: 95% CI of the ratio",S13-A,,Welch interval on log10 scale,"(np.float64(10.050916764727594), np.float64(38.53678854458422))"
+E355,igg2a_h1_young,"4,642","IgG2a to H1N1, day 14: young benchmark (PSLN-212(Y)), geometric mean",S13-A,S13!C3:C7,geometric mean,4641.917804152983
+E356,igg2a_h1_pctyoung,35%,"IgG2a to H1N1, day 14: PSLN-344 as % of young benchmark; Welch p vs young = 0.012",S13-A,,ratio,35.368219209376896
+E357,igg1_h1_344,887,"IgG1 to H1N1, day 14: PSLN-344, geometric mean (n=5)",S13-B,S13!F3:F7,geometric mean,886.8523649542431
+E358,igg1_h1_212,153,"IgG1 to H1N1, day 14: PSLN-212, geometric mean (n=5)",S13-B,S13!E3:E7,geometric mean,153.18611749477517
+E359,igg1_h1_fold,5.8×,"IgG1 to H1N1, day 14: ratio PSLN-344/PSLN-212 (ratio of geometric means); Welch p=1e-06; Tukey p=1.8e-07",S13-B,S13!E3:E7; S13!F3:F7,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,5.789378172499813
+E360,igg1_h1_foldci,4.3–7.9,"IgG1 to H1N1, day 14: 95% CI of the ratio",S13-B,,Welch interval on log10 scale,"(np.float64(4.261242749392418), np.float64(7.865522242072744))"
+E361,igg1_h1_young,"1,855","IgG1 to H1N1, day 14: young benchmark (PSLN-212(Y)), geometric mean",S13-B,S13!G3:G7,geometric mean,1855.1352264690902
+E362,igg1_h1_pctyoung,48%,"IgG1 to H1N1, day 14: PSLN-344 as % of young benchmark; Welch p vs young = 0.002",S13-B,,ratio,47.805267901801635
+E363,boost_h1_344,"15,651","IgG to H1N1, day 28 after boost at day 14: PSLN-344, geometric mean (n=5)",S13-I,S13!I53:I57,geometric mean,15650.550031698938
+E364,boost_h1_212,"4,411","IgG to H1N1, day 28 after boost at day 14: PSLN-212, geometric mean (n=5)",S13-I,S13!H53:H57,geometric mean,4411.263540791441
+E365,boost_h1_fold,3.5×,"IgG to H1N1, day 28 after boost at day 14: ratio PSLN-344/PSLN-212 (ratio of geometric means); Welch p=0.01; Tukey p=0.19",S13-I,S13!H53:H57; S13!I53:I57,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,3.547861035047345
+E366,boost_h1_foldci,1.5–8.4,"IgG to H1N1, day 28 after boost at day 14: 95% CI of the ratio",S13-I,,Welch interval on log10 scale,"(np.float64(1.4962647865356817), np.float64(8.412493588885946))"
+E367,boost_h1_young,"40,739","IgG to H1N1, day 28 after boost at day 14: young benchmark (PSLN-212(Y)), geometric mean",S13-I,S13!J53:J57,geometric mean,40739.389567527745
+E368,boost_h1_pctyoung,38%,"IgG to H1N1, day 28 after boost at day 14: PSLN-344 as % of young benchmark; Welch p vs young = 0.048",S13-I,,ratio,38.41626052289591
+E369,boost_h1_sham,57,"IgG to H1N1, day 28 after boost at day 14: Sham, geometric mean",S13-I,S13!F53:F57,geometric mean,56.63375378599855
+E370,boost_h3_344,"12,435","IgG to H3N2, day 28 after boost at day 14: PSLN-344, geometric mean (n=5)",S13-J,S13!O53:O57,geometric mean,12435.331989451146
+E371,boost_h3_212,"1,086","IgG to H3N2, day 28 after boost at day 14: PSLN-212, geometric mean (n=5)",S13-J,S13!N53:N57,geometric mean,1085.9244995128397
+E372,boost_h3_fold,11.5×,"IgG to H3N2, day 28 after boost at day 14: ratio PSLN-344/PSLN-212 (ratio of geometric means); Welch p=0.00076; Tukey p=3.1e-05",S13-J,S13!N53:N57; S13!O53:O57,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,11.451378060841064
+E373,boost_h3_foldci,4.1–32.4,"IgG to H3N2, day 28 after boost at day 14: 95% CI of the ratio",S13-J,,Welch interval on log10 scale,"(np.float64(4.05116351948459), np.float64(32.36948073352408))"
+E374,boost_h3_young,"43,472","IgG to H3N2, day 28 after boost at day 14: young benchmark (PSLN-212(Y)), geometric mean",S13-J,S13!P53:P57,geometric mean,43471.63409147716
+E375,boost_h3_pctyoung,29%,"IgG to H3N2, day 28 after boost at day 14: PSLN-344 as % of young benchmark; Welch p vs young = 0.021",S13-J,,ratio,28.60562352747894
+E376,boost_h3_sham,101,"IgG to H3N2, day 28 after boost at day 14: Sham, geometric mean",S13-J,S13!L53:L57,geometric mean,101.0005547082789
+E377,ki67_344,9.4%,"Ki-67+ lung CD8 T cells, day 3: PSLN-344, mean (n=5)",S05-D,S05!C19:C23,mean,9.379999999999999
+E378,ki67_212,3.5%,"Ki-67+ lung CD8 T cells, day 3: PSLN-212, mean (n=5)",S05-D,S05!B19:B23,mean,3.4799999999999995
+E379,ki67_fold,2.7×,"Ki-67+ lung CD8 T cells, day 3: ratio PSLN-344/PSLN-212 (ratio of means); Welch p=0.00047; Tukey p=0.0008",S05-D,S05!B19:B23; S05!C19:C23,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,2.6954022988505746
+E380,ki67_young,9.9%,"Ki-67+ lung CD8 T cells, day 3: young benchmark (PSLN-212(Y)), mean",S05-D,S05!D19:D23,mean,9.940000000000001
+E381,ki67_pctyoung,94%,"Ki-67+ lung CD8 T cells, day 3: PSLN-344 as % of young benchmark; Welch p vs young = 0.73",S05-D,,ratio,94.36619718309856
+E382,ki67_sham,0.8%,"Ki-67+ lung CD8 T cells, day 3: Sham, mean",S05-D,S05!A19:A23,mean,0.8260000000000002
+E383,gzmb_344,5.7%,"Granzyme B+ lung CD8 T cells, day 3: PSLN-344, mean (n=5)",S05-E,S05!C26:C30,mean,5.688000000000001
+E384,gzmb_212,3.0%,"Granzyme B+ lung CD8 T cells, day 3: PSLN-212, mean (n=5)",S05-E,S05!B26:B30,mean,2.9899999999999998
+E385,gzmb_fold,1.9×,"Granzyme B+ lung CD8 T cells, day 3: ratio PSLN-344/PSLN-212 (ratio of means); Welch p=0.0011; Tukey p=0.00084",S05-E,S05!B26:B30; S05!C26:C30,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,1.9023411371237462
+E386,gzmb_young,9.6%,"Granzyme B+ lung CD8 T cells, day 3: young benchmark (PSLN-212(Y)), mean",S05-E,S05!D26:D30,mean,9.608
+E387,gzmb_pctyoung,59%,"Granzyme B+ lung CD8 T cells, day 3: PSLN-344 as % of young benchmark; Welch p vs young = 0.00053",S05-E,,ratio,59.20066611157369
+E388,gzmb_sham,1.0%,"Granzyme B+ lung CD8 T cells, day 3: Sham, mean",S05-E,S05!A26:A30,mean,0.9900000000000002
+E389,ifng14_344,6.4%,"IFN-gamma+ CD8 T cells after restimulation with rgH5N1 antigen, day 14: PSLN-344, mean (n=5)",S05-F,S05!C33:C37,mean,6.356
+E390,ifng14_212,1.5%,"IFN-gamma+ CD8 T cells after restimulation with rgH5N1 antigen, day 14: PSLN-212, mean (n=5)",S05-F,S05!B33:B37,mean,1.504
+E391,ifng14_fold,4.2×,"IFN-gamma+ CD8 T cells after restimulation with rgH5N1 antigen, day 14: ratio PSLN-344/PSLN-212 (ratio of means); Welch p=0.00013; Tukey p=6.5e-08",S05-F,S05!B33:B37; S05!C33:C37,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,4.226063829787234
+E392,ifng14_young,9.2%,"IFN-gamma+ CD8 T cells after restimulation with rgH5N1 antigen, day 14: young benchmark (PSLN-212(Y)), mean",S05-F,S05!D33:D37,mean,9.180000000000001
+E393,ifng14_pctyoung,69%,"IFN-gamma+ CD8 T cells after restimulation with rgH5N1 antigen, day 14: PSLN-344 as % of young benchmark; Welch p vs young = 0.0016",S05-F,,ratio,69.23747276688452
+E394,ifng14_sham,0.7%,"IFN-gamma+ CD8 T cells after restimulation with rgH5N1 antigen, day 14: Sham, mean",S05-F,S05!A33:A37,mean,0.672
+E395,ifng60_344,9.9%,"IFN-gamma+ CD8 T cells after restimulation with rgH5N1 antigen, day 60: PSLN-344, mean (n=5)",S05-G,S05!C40:C44,mean,9.860000000000001
+E396,ifng60_212,3.0%,"IFN-gamma+ CD8 T cells after restimulation with rgH5N1 antigen, day 60: PSLN-212, mean (n=5)",S05-G,S05!B40:B44,mean,3.04
+E397,ifng60_fold,3.2×,"IFN-gamma+ CD8 T cells after restimulation with rgH5N1 antigen, day 60: ratio PSLN-344/PSLN-212 (ratio of means); Welch p=0.0032; Tukey p=0.0008",S05-G,S05!B40:B44; S05!C40:C44,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,3.243421052631579
+E398,ifng60_young,14.4%,"IFN-gamma+ CD8 T cells after restimulation with rgH5N1 antigen, day 60: young benchmark (PSLN-212(Y)), mean",S05-G,S05!D40:D44,mean,14.357999999999999
+E399,ifng60_pctyoung,69%,"IFN-gamma+ CD8 T cells after restimulation with rgH5N1 antigen, day 60: PSLN-344 as % of young benchmark; Welch p vs young = 0.038",S05-G,,ratio,68.6725170636579
+E400,ifng60_sham,1.5%,"IFN-gamma+ CD8 T cells after restimulation with rgH5N1 antigen, day 60: Sham, mean",S05-G,S05!A40:A44,mean,1.4600000000000002
+E401,gzmb60_344,4.1%,"Granzyme B+ CD8 T cells, lymph node day 60: PSLN-344, mean (n=5)",S05-H,S05!C47:C51,mean,4.106
+E402,gzmb60_212,1.0%,"Granzyme B+ CD8 T cells, lymph node day 60: PSLN-212, mean (n=5)",S05-H,S05!B47:B51,mean,1.024
+E403,gzmb60_fold,4.0×,"Granzyme B+ CD8 T cells, lymph node day 60: ratio PSLN-344/PSLN-212 (ratio of means); Welch p=0.0025; Tukey p=0.00049",S05-H,S05!B47:B51; S05!C47:C51,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,4.009765625
+E404,gzmb60_young,5.6%,"Granzyme B+ CD8 T cells, lymph node day 60: young benchmark (PSLN-212(Y)), mean",S05-H,S05!D47:D51,mean,5.553999999999999
+E405,gzmb60_pctyoung,74%,"Granzyme B+ CD8 T cells, lymph node day 60: PSLN-344 as % of young benchmark; Welch p vs young = 0.12",S05-H,,ratio,73.92870003601008
+E406,gzmb60_sham,0.6%,"Granzyme B+ CD8 T cells, lymph node day 60: Sham, mean",S05-H,S05!A47:A51,mean,0.602
+E407,trm_344,4.0%,"Lung resident-memory CD8 T cells (CD69+CD103+), day 25: PSLN-344, mean (n=5)",S05-I,S05!C54:C58,mean,3.964
+E408,trm_212,1.0%,"Lung resident-memory CD8 T cells (CD69+CD103+), day 25: PSLN-212, mean (n=5)",S05-I,S05!B54:B58,mean,1.0
+E409,trm_fold,4.0×,"Lung resident-memory CD8 T cells (CD69+CD103+), day 25: ratio PSLN-344/PSLN-212 (ratio of means); Welch p=6.2e-05; Tukey p=3.3e-07",S05-I,S05!B54:B58; S05!C54:C58,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,3.964
+E410,trm_young,6.0%,"Lung resident-memory CD8 T cells (CD69+CD103+), day 25: young benchmark (PSLN-212(Y)), mean",S05-I,S05!D54:D58,mean,6.042
+E411,trm_pctyoung,66%,"Lung resident-memory CD8 T cells (CD69+CD103+), day 25: PSLN-344 as % of young benchmark; Welch p vs young = 0.00068",S05-I,,ratio,65.6074147633234
+E412,trm_sham,0.6%,"Lung resident-memory CD8 T cells (CD69+CD103+), day 25: Sham, mean",S05-I,S05!A54:A58,mean,0.58
+E413,ifng_h1_344,11.0%,"IFN-gamma+ CD8 T cells after restimulation with H1N1 antigen: PSLN-344, mean (n=5)",S14-A_H1N1,S14!C3:C7,mean,11.02
+E414,ifng_h1_212,3.1%,"IFN-gamma+ CD8 T cells after restimulation with H1N1 antigen: PSLN-212, mean (n=5)",S14-A_H1N1,S14!B3:B7,mean,3.14
+E415,ifng_h1_fold,3.5×,IFN-gamma+ CD8 T cells after restimulation with H1N1 antigen: ratio PSLN-344/PSLN-212 (ratio of means); Welch p=0.00074; Tukey p=6.7e-05,S14-A_H1N1,S14!B3:B7; S14!C3:C7,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,3.5095541401273884
+E416,ifng_h1_young,13.7%,"IFN-gamma+ CD8 T cells after restimulation with H1N1 antigen: young benchmark (PSLN-212(Y)), mean",S14-A_H1N1,S14!D3:D7,mean,13.7
+E417,ifng_h1_pctyoung,80%,IFN-gamma+ CD8 T cells after restimulation with H1N1 antigen: PSLN-344 as % of young benchmark; Welch p vs young = 0.13,S14-A_H1N1,,ratio,80.43795620437956
+E418,ifng_h1_sham,0.8%,"IFN-gamma+ CD8 T cells after restimulation with H1N1 antigen: Sham, mean",S14-A_H1N1,S14!A3:A7,mean,0.82
+E419,ifng_h3_344,9.9%,"IFN-gamma+ CD8 T cells after restimulation with H3N2 antigen: PSLN-344, mean (n=5)",S14-A_H3N2,S14!H3:H7,mean,9.860000000000001
+E420,ifng_h3_212,3.6%,"IFN-gamma+ CD8 T cells after restimulation with H3N2 antigen: PSLN-212, mean (n=5)",S14-A_H3N2,S14!G3:G7,mean,3.5799999999999996
+E421,ifng_h3_fold,2.8×,IFN-gamma+ CD8 T cells after restimulation with H3N2 antigen: ratio PSLN-344/PSLN-212 (ratio of means); Welch p=0.00033; Tukey p=0.00011,S14-A_H3N2,S14!G3:G7; S14!H3:H7,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,2.7541899441340787
+E422,ifng_h3_young,14.0%,"IFN-gamma+ CD8 T cells after restimulation with H3N2 antigen: young benchmark (PSLN-212(Y)), mean",S14-A_H3N2,S14!I3:I7,mean,13.98
+E423,ifng_h3_pctyoung,71%,IFN-gamma+ CD8 T cells after restimulation with H3N2 antigen: PSLN-344 as % of young benchmark; Welch p vs young = 0.019,S14-A_H3N2,,ratio,70.52932761087268
+E424,ifng_h3_sham,1.0%,"IFN-gamma+ CD8 T cells after restimulation with H3N2 antigen: Sham, mean",S14-A_H3N2,S14!F3:F7,mean,1.0399999999999998
+E425,aicda_344,12.0,"Aicda mRNA in lymph-node B cells, day 5 (n=3): PSLN-344, mean (n=3)",S03-L_Aicda,S03!L28:N28,mean,11.976666666666665
+E426,aicda_212,3.4,"Aicda mRNA in lymph-node B cells, day 5 (n=3): PSLN-212, mean (n=3)",S03-L_Aicda,S03!L27:N27,mean,3.4166666666666665
+E427,aicda_fold,3.5×,"Aicda mRNA in lymph-node B cells, day 5 (n=3): ratio PSLN-344/PSLN-212 (ratio of geometric means); Welch p=0.0073; Tukey p=0.0051",S03-L_Aicda,S03!L27:N27; S03!L28:N28,Welch t-test (log10 scale for titres/fold values); one-way ANOVA + Tukey across all groups of the block,3.4718374326372996
+E428,aicda_foldci,1.8–6.9,"Aicda mRNA in lymph-node B cells, day 5 (n=3): 95% CI of the ratio",S03-L_Aicda,,Welch interval on log10 scale,"(np.float64(1.7576563718543672), np.float64(6.857799597053592))"
+E429,aicda_sham,1.0,"Aicda mRNA in lymph-node B cells, day 5 (n=3): Sham, mean",S03-L_Aicda,S03!L26:N26,mean,1.0
+E430,hai40_h1_344,5/5,"Animals with HAI titre >= 40, PSLN-344",S03-C,S03!N3:N7,Count,5
+E431,hai40_h1_212,5/5,"Animals with HAI titre >= 40, PSLN-212",S03-C,S03!M3:M7,Count,5
+E432,hai40_h1_cmp,2/5,"Animals with HAI titre >= 40, CMP-204",S03-C,S03!L3:L7,Count,2
+E433,hai40_h1_sham,0/5,"Animals with HAI titre >= 40, Sham",S03-C,S03!K3:K7,Count,0
+E434,hai_h1_cmp,23,"HAI geometric mean titre, CMP-204",S03-C,S03!L3:L7,geometric mean,22.973967099940708
+E435,hai40_h3_344,5/5,"Animals with HAI titre >= 40, PSLN-344",S03-G,S03!N10:N14,Count,5
+E436,hai40_h3_212,3/5,"Animals with HAI titre >= 40, PSLN-212",S03-G,S03!M10:M14,Count,3
+E437,hai40_h3_cmp,3/5,"Animals with HAI titre >= 40, CMP-204",S03-G,S03!L10:L14,Count,3
+E438,hai40_h3_sham,0/5,"Animals with HAI titre >= 40, Sham",S03-G,S03!K10:K14,Count,0
+E439,hai_h3_cmp,30,"HAI geometric mean titre, CMP-204",S03-G,S03!L10:L14,geometric mean,30.31433133020797
+E440,ratio_h1_344,2.14,"IgG2a/IgG1 quotient to H1N1, PSLN-344, mean of per-animal quotients recomputed from subclass titres (not from the mislabelled quotient block; flag Q01)","S13-A, S13-B",S13!B3:B7 / S13!F3:F7,"per-animal quotient, mean",2.143763984475781
+E441,ratio_h1_212,0.58,"IgG2a/IgG1 quotient to H1N1, PSLN-212, mean of per-animal quotients recomputed from subclass titres (not from the mislabelled quotient block; flag Q01)","S13-A, S13-B",S13!A3:A7 / S13!E3:E7,"per-animal quotient, mean",0.5778322220307834
+E442,ratio_h1_young,2.97,"IgG2a/IgG1 quotient to H1N1, PSLN-212(Y), mean of per-animal quotients recomputed from subclass titres (not from the mislabelled quotient block; flag Q01)","S13-A, S13-B",S13!C3:C7 / S13!G3:G7,"per-animal quotient, mean",2.971835096494027
+E443,ratio_h1_p,p = 0.007,"IgG2a/IgG1 to H1N1, PSLN-344 vs PSLN-212, Welch t-test on log10 of recomputed quotients","S13-A, S13-B",,Welch,0.0072923469230764745
+E444,ratio_h3_344,2.73,"IgG2a/IgG1 quotient to H3N2, PSLN-344, mean of per-animal quotients recomputed from subclass titres (not from the mislabelled quotient block; flag Q01)","S13-C, S13-D",S13!J3:J7 / S13!N3:N7,"per-animal quotient, mean",2.7267354918895412
+E445,ratio_h3_212,0.51,"IgG2a/IgG1 quotient to H3N2, PSLN-212, mean of per-animal quotients recomputed from subclass titres (not from the mislabelled quotient block; flag Q01)","S13-C, S13-D",S13!I3:I7 / S13!M3:M7,"per-animal quotient, mean",0.5116802563593035
+E446,ratio_h3_young,2.89,"IgG2a/IgG1 quotient to H3N2, PSLN-212(Y), mean of per-animal quotients recomputed from subclass titres (not from the mislabelled quotient block; flag Q01)","S13-C, S13-D",S13!K3:K7 / S13!O3:O7,"per-animal quotient, mean",2.891116720833204
+E447,ratio_h3_p,p = 0.003,"IgG2a/IgG1 to H3N2, PSLN-344 vs PSLN-212, Welch t-test on log10 of recomputed quotients","S13-C, S13-D",,Welch,0.0028483548571802196
+E448,ratio_h1_printed344,0.58,"IgG2a/IgG1 quotient as printed under the header ""PSLN-344"" in S03-B (header rotated, flag Q01)",S03-B,S03!H3:H7,mean,0.5778322
+E449,ratio_h3_printed344,0.51,"IgG2a/IgG1 quotient as printed under the header ""PSLN-344"" in S03-F (header rotated, flag Q01)",S03-F,S03!H10:H14,mean,0.5116666
+E450,ri_n,39,"Number of single-time-point immunology read-outs that include PSLN-212 aged, PSLN-344 aged and the young benchmark",S01-A_16h; S01-A_72h; S01-F; S01-G; S02-A; S02-B; S02-C; S02-D_CD40; S02-D_CD86; S02-E; S03-A; S03-C; S03-D; S03-E; S03-G; S03-H; S03-K; S04-A_ICOSlo; S04-A_ICOShi; S04-B_Tfr; S04-B_TfhTfr; S04-C; S04-D; S05-D; S05-E; S05-F; S05-G; S05-H; S05-I; S11-E; S13-A; S13-B; S13-C; S13-D; S13-H; S13-I; S13-J; S14-A_H1N1; S14-A_H3N2,,see restoration_index.csv,39
+E451,ri_closer,38,Read-outs in which PSLN-344 is closer to the young benchmark than PSLN-212 (on the ratio scale),as above,,|log(aged/young)| comparison,38
+E452,ri_sig,37,Read-outs with Welch p<0.05 for PSLN-344 vs PSLN-212,as above,,Welch t-test per read-out (log10 for titres/fold values); not adjusted across read-outs,37
+E453,ri_med344,71%,Median across read-outs of PSLN-344 (aged) as % of young benchmark,as above,,median of ratios,71.07148300563938
+E454,ri_med212,21%,Median across read-outs of PSLN-212 (aged) as % of young benchmark,as above,,median of ratios,20.8
+E455,ri_ns_young,21,Read-outs in which PSLN-344 (aged) does not differ from the young benchmark at Welch p<0.05 (n=5 per group; low power),as above,,Welch,21
+E456,wl_344,3.6%,"Mean of per-animal maximum weight loss over 10 days after immunisation, PSLN-344 (n=5)",S08-D,S08!Q21:U26,"per-animal minimum of % day-0 weight, days 2-10",3.6000000000000028
+E457,wl_344_worst,5.8%,"Largest individual weight loss after immunisation, PSLN-344",S08-D,S08!Q21:U26,max,5.799999999999997
+E458,wl_212,3.0%,"Mean of per-animal maximum weight loss over 10 days after immunisation, PSLN-212 (n=5)",S08-D,S08!L21:P26,"per-animal minimum of % day-0 weight, days 2-10",2.979999999999998
+E459,wl_212_worst,5.5%,"Largest individual weight loss after immunisation, PSLN-212",S08-D,S08!L21:P26,max,5.5
+E460,wl_vac,1.8%,"Mean of per-animal maximum weight loss over 10 days after immunisation, Vaccine (n=5)",S08-D,S08!AA21:AE26,"per-animal minimum of % day-0 weight, days 2-10",1.8
+E461,wl_vac_worst,2.9%,"Largest individual weight loss after immunisation, Vaccine",S08-D,S08!AA21:AE26,max,2.9000000000000057
+E462,wl_r848,10.0%,"Mean of per-animal maximum weight loss over 10 days after immunisation, PSLN-212/R848 (n=5)",S08-D,S08!V21:Z26,"per-animal minimum of % day-0 weight, days 2-10",10.040000000000001
+E463,wl_r848_worst,15.3%,"Largest individual weight loss after immunisation, PSLN-212/R848",S08-D,S08!V21:Z26,max,15.299999999999995
+E464,wl_cmp,4.1%,"Mean of per-animal maximum weight loss over 10 days after immunisation, CMP-204 (n=5)",S08-D,S08!G21:K26,"per-animal minimum of % day-0 weight, days 2-10",4.077898000000002
+E465,wl_cmp_worst,6.8%,"Largest individual weight loss after immunisation, CMP-204",S08-D,S08!G21:K26,max,6.795450000000002
+E466,wd10_344,99.8%,"Mean weight at day 10 after immunisation, PSLN-344 (n=5)",S08-D,S08!Q26:U26,mean,99.78
+E467,wd10_r848,90.6%,"Mean weight at day 10 after immunisation, PSLN-212/R848 (n=4)",S08-D,S08!V26:Z26,mean,90.64999999999999
+E468,wd10_vac,100.2%,"Mean weight at day 10 after immunisation, Vaccine (n=5)",S08-D,S08!AA26:AE26,mean,100.24
+E469,wl_p,p = 0.06,"Maximum weight loss after immunisation, PSLN-344 vs vaccine alone, Welch t-test (Tukey p = 0.86)",S08-D,,Welch,0.0647766809513706
+E470,cns_Ifnb1_344,1.3×,"CNS Ifnb1 mRNA 36 h after dosing, PSLN-344 vs buffer: ratio of geometric means (95% CI 0.84-2.01); Tukey p=0.50; Welch p=0.20",S10-A,S10!A3:A7; S10!C3:C7,Welch on log10; ANOVA + Tukey,1.3006415700071188
+E471,cns_Ifnb1_344ci,0.8–2.0,95% CI of the above,S10-A,,Welch,"(np.float64(0.84160026166306), np.float64(2.010061748659309))"
+E472,cns_Ifnb1_ct,5.5×,"CNS Ifnb1, cholera toxin vs buffer: ratio of geometric means",S10-A,S10!D3:D7,as above,5.539971680900376
+E473,cns_Tnf_344,1.6×,"CNS Tnf mRNA 36 h after dosing, PSLN-344 vs buffer: ratio of geometric means (95% CI 1.05-2.34); Tukey p=0.12; Welch p=0.03",S10-A,S10!F3:F7; S10!H3:H7,Welch on log10; ANOVA + Tukey,1.5672825446497383
+E474,cns_Tnf_344ci,1.0–2.3,95% CI of the above,S10-A,,Welch,"(np.float64(1.0483942420946049), np.float64(2.342987471827512))"
+E475,cns_Tnf_ct,3.4×,"CNS Tnf, cholera toxin vs buffer: ratio of geometric means",S10-A,S10!I3:I7,as above,3.400306100108798
+E476,cns_Isg15_344,1.2×,"CNS Isg15 mRNA 36 h after dosing, PSLN-344 vs buffer: ratio of geometric means (95% CI 0.79-1.72); Tukey p=0.77; Welch p=0.39",S10-A,S10!K3:K7; S10!M3:M7,Welch on log10; ANOVA + Tukey,1.1622725642235874
+E477,cns_Isg15_344ci,0.8–1.7,95% CI of the above,S10-A,,Welch,"(np.float64(0.7873464084382207), np.float64(1.7157346487760987))"
+E478,cns_Isg15_ct,2.7×,"CNS Isg15, cholera toxin vs buffer: ratio of geometric means",S10-A,S10!N3:N7,as above,2.7035178983763415
+E479,morb_344,11–16%,"Range across six mismatched-virus experiments of the group mean of maximum weight loss after challenge, PSLN-344 aged (all 7 animals per group; S15-C excluded, flag Q05)","S15-A, B, D, E, F, G",S15!W3:AC70,"per-animal minimum weight, group mean","(np.float64(11.499999999999986), np.float64(15.87142857142858))"
+E480,morb_young,9–12%,"Same, young benchmark","S15-A, B, D, E, F, G",S15!B3:H70,as above,"(np.float64(9.200000000000005), np.float64(12.069678571428568))"
+E481,morb_212,17–19%,"Same, PSLN-212 aged","S15-A, B, D, E, F, G",S15!P3:V70,as above,"(np.float64(17.14285714285714), np.float64(19.08571428571429))"
+E482,morb_344_hom,8.5%,"Mean maximum weight loss after matched H1N1 challenge, PSLN-344 aged",S13-F,S13!W33:AC40,as above,8.514285714285705
+E483,ee_344,"54.8% (SD 5.1, n=3)","Encapsulation efficiency, PSLN-344",S08-B,S08!M11:O11,"mean, SD",54.82333333333333
+E484,ee_212,"59.6% (SD 4.6, n=3)","Encapsulation efficiency, PSLN-212",S08-B,S08!D11:F11,"mean, SD",59.64000000000001
+E485,ee_cmp,"65.2% (SD 6.0, n=3)","Encapsulation efficiency, CMP-204",S08-B,S08!A11:C11,"mean, SD",65.24
+E486,ee_p,p = 0.29,"Encapsulation efficiency, PSLN-344 vs PSLN-212, Welch t-test",S08-B,,Welch,0.28930970318371063
+E487,qc_n,22,Number of data-quality flags raised,all,,see qc_log.csv / Appendix A,22
+E488,qc_high,8,Flags rated High,all,,see qc_log.csv,8
+E489,cells_total,"6,819",Numeric cells in the workbook,all 15 sheets,,openpyxl count,6819
+E490,d60_deathwt_344,78–85%,"Last recorded body weight (frozen trace) of PSLN-344 animals that died after day-60 challenge, percent of day 0; n=5 animals","S15-E, S15-F, S15-G",S15!W43:AC70,weight value carried forward to day 14,"[79.8, 85.3, 83.9, 80.3, 77.5]"
+E491,unt_deathwt,94–97%,"Last recorded body weight (frozen trace) of unvaccinated, unchallenged aged controls that died; n=4 animals","S15-E, S15-G",S15!AD43:AJ70,weight value carried forward to day 14,"[94.5, 96.6, 95.0, 95.7]"
+E492,h2h_ahead,15 of 15,"Head-to-head survival comparisons (aged BALB/c x9, aged C57BL/6, aged Swiss Webster, 14-month BALB/c x4) in which PSLN-344 has the higher survival fraction","S03-I/J, S06-A..G, S15-L, S15-N, S06-E2, S06-F2",,count,"(15, 15)"
+E493,rdci_A,71 points (95% CI 60–82),"Mantel-Haenszel difference in survival, PSLN-344 minus PSLN-212, set A, stratified by experiment",see set definition,,"Mantel-Haenszel risk difference, Greenland-Robins variance","(0.7121212121212122, np.float64(0.6028921749891348), np.float64(0.8213502492532895))"
+E494,rdci_B,67 points (95% CI 52–81),"Mantel-Haenszel difference in survival, PSLN-344 minus PSLN-212, set B, stratified by experiment",see set definition,,"Mantel-Haenszel risk difference, Greenland-Robins variance","(0.6666666666666666, np.float64(0.5190937091921423), np.float64(0.814239624141191))"
+E495,rdci_F,60 points (95% CI 43–76),"Mantel-Haenszel difference in survival, PSLN-344 minus PSLN-212, set F, stratified by experiment",see set definition,,"Mantel-Haenszel risk difference, Greenland-Robins variance","(0.5952380952380952, np.float64(0.43166683995295796), np.float64(0.7588093505232325))"
+E496,survC_344,92/108 (85%),"All head-to-head experiments as printed (aged BALB/c x9, C57BL/6, Swiss Webster, 14-month x4), PSLN-344","S03-I/J, S06-A..G, S15-L/N, S06-E2/F2",,Sum,92/108
+E497,survC_212,15/108 (14%),"Same, PSLN-212",as above,,Sum,15/108
+E498,s13f_212_bw,3/7,PSLN-212 aged animals alive at day 14 according to the weight traces of the matched-H1N1 challenge (flag Q10/Q11),S13-F,S13!P33:V40,traces not frozen/blank at day 14,"(3, 7)"
+E499,s15d_344_bw,5/7,PSLN-344 aged animals alive at day 14 according to the weight traces of the day-3 rgH5N1 challenge (survival block says 7/7; flag Q10),S15-D,S15!W33:AC40,traces not frozen at day 14,"(5, 7)"
+E500,qc_mismatch_n,10,Groups in which the survival block and the linked weight block imply different survivor counts or animal numbers,S09-F/S09-G Sham; S03-I/S13-F PSLN-212; S03-J/S13-G Sham; S06-C/S15-C PSLN-212; S06-D/S15-D PSLN-212(Y); S06-D/S15-D PSLN-344; S06-E/S15-E PSLN-212; S06-E/S15-E PSLN-344; S06-G/S15-G PSLN-344; S15-L/S15-M PSLN-212(Y),,see qc_tte_vs_bodyweight.csv,10
+E501,y_cdc1,44.3% vs 43.4%,"Lung cDC1 72 h, young mice: PSLN-344 vs PSLN-212, means (n=5); Welch p=0.75",S01-F,S01!V36:Z36; S01!Q36:U36,mean; Welch,"(np.float64(43.42), np.float64(44.260000000000005))"
+E502,y_agdc,11.1% vs 9.4%,"Antigen-positive DC in lymph node, young mice: PSLN-344 vs PSLN-212, means (n=5); Welch p=0.14",S02-C,S02!O3:O7; S02!M3:M7,mean; Welch,"(np.float64(9.39), np.float64(11.118))"
+E503,y_prime,31.4% vs 26.2%,"OT-I priming ex vivo, young mice: PSLN-344 vs PSLN-212, means (n=5); Welch p=0.26",S02-E,S02!O10:O14; S02!M10:M14,mean; Welch,"(np.float64(26.244), np.float64(31.404000000000003))"
+E504,y_dc4,22.6% vs 21.4%,"Lung CD11b+ DC day 4, young mice: PSLN-344 vs PSLN-212; Welch p=0.46",S01-E,S01!V32:Z32; S01!Q32:U32,mean; Welch,"(np.float64(21.4), np.float64(22.6))"
+E505,y_wl_pr8,10.3% vs 11.1%,"Young mice, mean maximum weight loss after challenge, PSLN-344 vs PSLN-212 (n=8)",S09-C,,"per-animal minimum, group mean","(np.float64(10.262499999999989), np.float64(11.112500000000011))"
+E506,y_wl_perth,9.3% vs 10.5%,"Young mice, mean maximum weight loss after challenge, PSLN-344 vs PSLN-212 (n=8)",S09-E,,"per-animal minimum, group mean","(np.float64(9.253657682499991), np.float64(10.5))"
+E507,y_wl_h5,12.7% vs 10.7%,"Young mice, mean maximum weight loss after challenge, PSLN-344 vs PSLN-212 (n=8)",S09-G,,"per-animal minimum, group mean","(np.float64(12.725000000000009), np.float64(10.662499999999994))"
+E508,cdn_vs_cgamp,2.2×,"Ifnb1 16 h, aged: PSLN-212 (CDN-1807) over CMP-204 (cGAMP), ratio of geometric means; Welch p=0.0003",S01-A,S01!B4:F4; S01!B5:F5,Welch on log10,2.1520512966977647
+E509,srb2_fold,42×,"Type II epithelial cells: liposomal dye over free dye, ratio of means",S01-B,,ratio,41.7989417989418
+E510,s07c,10.4% vs 5.1%,Lung Treg after transfer of two macrophage subsets whose column labels are identical (flag Q13),S07-C,S07!B16:C20,mean,"[10.437999999999999, 5.142]"
+E511,p_cmh_F,p = 2×10⁻⁷,"Cochran-Mantel-Haenszel test, worst-case set F","S06-A,B,D,E,F,G with weight-inferred counts",,CMH with continuity correction (statsmodels StratifiedTable),2.2116263864724322e-07
+E512,rdci_C,71 points (95% CI 63–80),"Mantel-Haenszel difference in survival, all 15 head-to-head strata","S03-I/J, S06-A..G, S15-L/N, S06-E2/F2",,"Mantel-Haenszel risk difference, Greenland-Robins variance","(0.7129629629629629, np.float64(0.6282006470096968), np.float64(0.797725278916229))"
+E513,ifn16_y_p,"p = 0.009 Welch, 0.63 after Tukey","Ifnb1 16 h, young mice, PSLN-344 vs PSLN-212: p-values",S01-A,,Welch on log10; one-way ANOVA + Tukey over 8 groups,"(np.float64(0.009183928922142185), 0.6296055786009039)"
+E514,ri_def_n,33,Read-outs in which aged mice given PSLN-212 are below the young benchmark (deficits),S01-A_16h; S01-F; S02-A; S02-B; S02-C; S02-D_CD40; S02-D_CD86; S02-E; S03-A; S03-C; S03-D; S03-E; S03-G; S03-H; S03-K; S04-A_ICOSlo; S04-A_ICOShi; S04-B_TfhTfr; S05-D; S05-E; S05-F; S05-G; S05-H; S05-I; S13-A; S13-B; S13-C; S13-D; S13-H; S13-I; S13-J; S14-A_H1N1; S14-A_H3N2,,count,33
+E515,ri_def_med344,69%,Median of PSLN-344 (aged) as % of young benchmark across the deficit read-outs,as above,,median of ratios of (geometric) means,68.6725170636579
+E516,ri_def_med212,18%,Median of PSLN-212 (aged) as % of young benchmark across the deficit read-outs,as above,,median of ratios of (geometric) means,18.437162405473536
+E517,power_32,89%,"Power with 32 per arm for 80% vs 40% survival (Fisher exact, two-sided 5%)",design calculation,,Exact enumeration,0.8869060110355652
+E518,power_16,91%,"Power with 16 per arm for 71% vs 12% survival (Fisher exact, two-sided 5%)",design calculation,,Exact enumeration,0.9075199855190362
+E519,y180_d14_344,95.6%,"Young mice challenged 180 days after dosing: body weight 14 days after challenge, PSLN-344 (n=8), % of day 0",S09-G,S09!W73:AD73,mean,95.6
+E520,y180_d14_212,99.2%,"Same, PSLN-212 (n=8)",S09-G,S09!G73:N73,mean,99.23750000000001
+E521,y180_d14_p,p = 0.004,"Day-14 weight after day-180 challenge, PSLN-344 vs PSLN-212 in young mice: Welch t-test (exact Mann-Whitney p = 0.005)",S09-G,,Welch; Mann-Whitney exact,"(np.float64(0.003849845232873313), np.float64(0.004662004662004662))"
+E522,y180_nadir,"12.7% against 10.7%, p = 0.03","Young mice, day-180 challenge: mean largest weight loss, PSLN-344 vs PSLN-212 (Welch)",S09-G,S09!G67:AD73,per-animal minimum; Welch,"(np.float64(87.27499999999999), np.float64(89.3375), np.float64(0.027594230430669518))"
+E523,cyt72_ratio_Il6,3.9×,"Lung Il6 at 72 h (right panel of S09-A): PSLN-344 over PSLN-212, ratio of geometric means; Welch p=0.03; n=3",S09-A,S09!AE4:AG4; S09!AN4:AP4,10^(difference of mean log10); Welch,3.853993696514751
+E524,cyt72_ratio_Ccl2,5.2×,"Lung Ccl2 at 72 h (right panel of S09-A): PSLN-344 over PSLN-212, ratio of geometric means; Welch p=0.01; n=3",S09-A,S09!AE5:AG5; S09!AN5:AP5,10^(difference of mean log10); Welch,5.241577361259398
+E525,cyt72_ratio_Tnf,1.6×,"Lung Tnf at 72 h (right panel of S09-A): PSLN-344 over PSLN-212, ratio of geometric means; Welch p=0.05; n=3",S09-A,S09!AE8:AG8; S09!AN8:AP8,10^(difference of mean log10); Welch,1.6150178745280306
+E526,cells_data,"6,107",Numeric cells parsed as data values,all sheets,,blocks.py,6107
+E527,cells_axis,686,"Numeric cells that are axis values (days, hours, doses)",all sheets,,blocks.py,686
+E528,cells_orphan,26,Numeric cells in the unlabelled region of sheet S08 (rows 89-101),S08,S08!A89:D101,blocks.py,26
+E529,single_lr_sig,9 of 9,Aged BALB/c experiments in which PSLN-344 vs PSLN-212 reaches p<0.05 by permutation log-rank test (range of p 0.0006-0.021),"S03-I, S03-J, S06-A, S06-B, S06-C, S06-D, S06-E, S06-F, S06-G",S03!A17:F51; S03!G17:J46; S06!A3:Q30; S06!A34:R68; S06!A71:F105,"Log-rank statistic, exact permutation p",9
+E530,single_lr_max,0.021,Largest permutation log-rank p among the nine experiments,"S03-I, S03-J, S06-A, S06-B, S06-C, S06-D, S06-E, S06-F, S06-G",,as above,0.0209790209790209
+E531,single_fisher_sig,7 of 9,Aged BALB/c experiments in which PSLN-344 vs PSLN-212 reaches p<0.05 by Fisher exact test on survivor counts,"S03-I, S03-J, S06-A, S06-B, S06-C, S06-D, S06-E, S06-F, S06-G",S03!A17:F51; S03!G17:J46; S06!A3:Q30; S06!A34:R68; S06!A71:F105,"Fisher exact, two-sided",7
+E532,go_prob_worst,97%,Probability that Study 1 meets its go rule for E vs D if the true survival rates are the worst-case estimates (71% vs 12%),design calculation,,"Simulation, 400,000 draws, 16 per sex per arm",0.9749675
+E533,go_prob_20pt,4%,Probability that Study 1 meets its go rule for E vs D if the true difference is only 20 points (40% vs 20%),design calculation,,"Simulation, 400,000 draws, 16 per sex per arm",0.042495

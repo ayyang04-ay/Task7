@@ -1,0 +1,183 @@
+         block                        age         strain          vaccine                             challenge         day                group   n  n_rows_in_sheet  survivors  surv_pct  ci_lo  ci_hi  median_days                       death_days          cells
+0        S03-I                       aged         BALB/c         bivalent     10xLD50 CA09 H1N1 (matched virus)         d14                 Sham   7                7          0       0.0    0.0   41.0          6.0           [5, 6, 6, 6, 8, 8, 11]    S03!B17:B23
+1        S03-I                       aged         BALB/c         bivalent     10xLD50 CA09 H1N1 (matched virus)         d14              CMP-204   7                7          3      42.9    9.9   81.6         10.0                    [6, 7, 8, 10]    S03!C24:C30
+2        S03-I                       aged         BALB/c         bivalent     10xLD50 CA09 H1N1 (matched virus)         d14             PSLN-212   7                7          0       0.0    0.0   41.0          6.0            [5, 5, 5, 6, 6, 6, 6]    S03!D31:D37
+3        S03-I                       aged         BALB/c         bivalent     10xLD50 CA09 H1N1 (matched virus)         d14             PSLN-344   7                7          7     100.0   59.0  100.0          inf                               []    S03!E38:E44
+4        S03-I                       aged         BALB/c         bivalent     10xLD50 CA09 H1N1 (matched virus)         d14          PSLN-212(Y)   7                7          7     100.0   59.0  100.0          inf                               []    S03!F45:F51
+5        S03-J  not stated (no (Y) label)     not stated           rgH5N1                   wild-type VN04 H5N1          d2                 Sham  10               10          1      10.0    0.3   44.5          9.0  [3, 4, 9, 9, 9, 10, 10, 10, 10]    S03!H17:H26
+6        S03-J  not stated (no (Y) label)     not stated           rgH5N1                   wild-type VN04 H5N1          d2             PSLN-212  10               10          3      30.0    6.7   65.2         12.0     [10, 10, 11, 11, 12, 12, 12]    S03!I27:I36
+7        S03-J  not stated (no (Y) label)     not stated           rgH5N1                   wild-type VN04 H5N1          d2             PSLN-344   9               10          9     100.0   66.4  100.0          inf                               []    S03!J37:J45
+8        S06-A                       aged         BALB/c       Aichi H3N2    5xLD50 PR8 H1N1 (mismatched virus)         d14                 Sham   7                7          0       0.0    0.0   41.0          5.0            [4, 4, 4, 5, 5, 7, 7]      S06!B3:B9
+9        S06-A                       aged         BALB/c       Aichi H3N2    5xLD50 PR8 H1N1 (mismatched virus)         d14             PSLN-212   7                7          1      14.3    0.4   57.9          8.0              [4, 6, 6, 8, 9, 10]    S06!C10:C16
+10       S06-A                       aged         BALB/c       Aichi H3N2    5xLD50 PR8 H1N1 (mismatched virus)         d14             PSLN-344   7                7          6      85.7   42.1   99.6          inf                              [8]    S06!D17:D23
+11       S06-A                       aged         BALB/c       Aichi H3N2    5xLD50 PR8 H1N1 (mismatched virus)         d14          PSLN-212(Y)   7                7          7     100.0   59.0  100.0          inf                               []    S06!E24:E30
+12       S06-B                       aged         BALB/c       Aichi H3N2    5xLD50 PR8 H1N1 (mismatched virus)          d3                 Sham   7                7          0       0.0    0.0   41.0          5.0            [4, 4, 4, 5, 5, 6, 6]      S06!H3:H9
+13       S06-B                       aged         BALB/c       Aichi H3N2    5xLD50 PR8 H1N1 (mismatched virus)          d3             PSLN-212   7                7          0       0.0    0.0   41.0          6.0           [4, 4, 6, 6, 6, 7, 10]    S06!I10:I16
+14       S06-B                       aged         BALB/c       Aichi H3N2    5xLD50 PR8 H1N1 (mismatched virus)          d3             PSLN-344   7                7          5      71.4   29.0   96.3          inf                          [8, 10]    S06!J17:J23
+15       S06-B                       aged         BALB/c       Aichi H3N2    5xLD50 PR8 H1N1 (mismatched virus)          d3          PSLN-212(Y)   7                7          7     100.0   59.0  100.0          inf                               []    S06!K24:K30
+16       S06-C                       aged         BALB/c         bivalent      5xLD50 rgH5N1 (mismatched virus)         d14                 Sham   7                7          0       0.0    0.0   41.0          6.0            [4, 4, 5, 6, 6, 6, 7]      S06!N3:N9
+17       S06-C                       aged         BALB/c         bivalent      5xLD50 rgH5N1 (mismatched virus)         d14             PSLN-212   7                7          2      28.6    3.7   71.0         10.0               [5, 8, 10, 10, 12]    S06!O10:O16
+18       S06-C                       aged         BALB/c         bivalent      5xLD50 rgH5N1 (mismatched virus)         d14             PSLN-344   7                7          7     100.0   59.0  100.0          inf                               []    S06!P17:P23
+19       S06-C                       aged         BALB/c         bivalent      5xLD50 rgH5N1 (mismatched virus)         d14          PSLN-212(Y)   7                7          7     100.0   59.0  100.0          inf                               []    S06!Q24:Q30
+20       S06-D                       aged         BALB/c         bivalent      5xLD50 rgH5N1 (mismatched virus)          d3                 Sham   7                7          0       0.0    0.0   41.0          6.0            [4, 4, 5, 6, 6, 6, 7]    S06!B34:B40
+21       S06-D                       aged         BALB/c         bivalent      5xLD50 rgH5N1 (mismatched virus)          d3             PSLN-212   7                7          2      28.6    3.7   71.0         10.0               [5, 8, 10, 10, 12]    S06!C41:C47
+22       S06-D                       aged         BALB/c         bivalent      5xLD50 rgH5N1 (mismatched virus)          d3             PSLN-344   7                7          7     100.0   59.0  100.0          inf                               []    S06!D48:D54
+23       S06-D                       aged         BALB/c         bivalent      5xLD50 rgH5N1 (mismatched virus)          d3          PSLN-212(Y)   7                7          7     100.0   59.0  100.0          inf                               []    S06!E55:E61
+24       S06-E                       aged         BALB/c       Aichi H3N2    5xLD50 PR8 H1N1 (mismatched virus)         d60                 Sham   7                7          0       0.0    0.0   41.0          5.0            [4, 5, 5, 5, 5, 6, 6]    S06!H34:H40
+25       S06-E                       aged         BALB/c       Aichi H3N2    5xLD50 PR8 H1N1 (mismatched virus)         d60             PSLN-212   7                7          0       0.0    0.0   41.0          6.0           [5, 5, 5, 6, 6, 8, 11]    S06!I41:I47
+26       S06-E                       aged         BALB/c       Aichi H3N2    5xLD50 PR8 H1N1 (mismatched virus)         d60             PSLN-344   7                7          5      71.4   29.0   96.3          inf                          [8, 10]    S06!J48:J54
+27       S06-E                       aged         BALB/c       Aichi H3N2    5xLD50 PR8 H1N1 (mismatched virus)         d60          PSLN-212(Y)   7                7          7     100.0   59.0  100.0          inf                               []    S06!K55:K61
+28       S06-E                       aged         BALB/c       Aichi H3N2    5xLD50 PR8 H1N1 (mismatched virus)         d60            Untreated   7                7          6      85.7   42.1   99.6          inf                              [4]    S06!L62:L68
+29       S06-F                       aged         BALB/c         bivalent      5xLD50 rgH5N1 (mismatched virus)         d60                 Sham   7                7          0       0.0    0.0   41.0          5.0            [4, 4, 4, 5, 5, 6, 6]    S06!N34:N40
+30       S06-F                       aged         BALB/c         bivalent      5xLD50 rgH5N1 (mismatched virus)         d60             PSLN-212   7                7          1      14.3    0.4   57.9          6.0               [4, 5, 6, 6, 6, 7]    S06!O41:O47
+31       S06-F                       aged         BALB/c         bivalent      5xLD50 rgH5N1 (mismatched virus)         d60             PSLN-344   7                7          5      71.4   29.0   96.3          inf                           [7, 8]    S06!P48:P54
+32       S06-F                       aged         BALB/c         bivalent      5xLD50 rgH5N1 (mismatched virus)         d60          PSLN-212(Y)   7                7          7     100.0   59.0  100.0          inf                               []    S06!Q55:Q61
+33       S06-F                       aged         BALB/c         bivalent      5xLD50 rgH5N1 (mismatched virus)         d60            Untreated   7                7          7     100.0   59.0  100.0          inf                               []    S06!R62:R68
+34       S06-G                       aged         BALB/c        CA09 H1N1  5xLD50 Perth H3N2 (mismatched virus)         d60                 Sham   7                7          0       0.0    0.0   41.0          6.0            [4, 4, 5, 6, 6, 7, 7]    S06!B71:B77
+35       S06-G                       aged         BALB/c        CA09 H1N1  5xLD50 Perth H3N2 (mismatched virus)         d60             PSLN-212   7                7          0       0.0    0.0   41.0          8.0          [6, 6, 8, 8, 8, 11, 11]    S06!C78:C84
+36       S06-G                       aged         BALB/c        CA09 H1N1  5xLD50 Perth H3N2 (mismatched virus)         d60             PSLN-344   7                7          4      57.1   18.4   90.1          inf                       [8, 9, 11]    S06!D85:D91
+37       S06-G                       aged         BALB/c        CA09 H1N1  5xLD50 Perth H3N2 (mismatched virus)         d60          PSLN-212(Y)   7                7          7     100.0   59.0  100.0          inf                               []    S06!E92:E98
+38       S06-G                       aged         BALB/c        CA09 H1N1  5xLD50 Perth H3N2 (mismatched virus)         d60            Untreated   7                7          4      57.1   18.4   90.1          inf                       [3, 7, 10]   S06!F99:F105
+39  S06-E(r71)   14 months at vaccination         BALB/c         bivalent                       5xLD50 PR8 H1N1  not stated       Naïve+PSLN-212   7                7          0       0.0    0.0   41.0          6.0            [4, 4, 5, 6, 6, 6, 8]    S06!H71:H77
+40  S06-E(r71)   14 months at vaccination         BALB/c         bivalent                       5xLD50 PR8 H1N1  not stated  Imprinting+PSLN-212   7                7          4      57.1   18.4   90.1          inf                        [6, 8, 8]    S06!I78:I84
+41  S06-E(r71)   14 months at vaccination         BALB/c         bivalent                       5xLD50 PR8 H1N1  not stated       Naïve+PSLN-344   7                7          6      85.7   42.1   99.6          inf                              [5]    S06!J85:J91
+42  S06-E(r71)   14 months at vaccination         BALB/c         bivalent                       5xLD50 PR8 H1N1  not stated  Imprinting+PSLN-344   7                7          6      85.7   42.1   99.6          inf                              [8]    S06!K92:K98
+43  S06-F(r71)   14 months at vaccination         BALB/c         bivalent                     5xLD50 Perth H3N2         d14       Naïve+PSLN-212   7                7          0       0.0    0.0   41.0          6.0            [4, 4, 6, 6, 7, 8, 8]    S06!N71:N77
+44  S06-F(r71)   14 months at vaccination         BALB/c         bivalent                     5xLD50 Perth H3N2         d14  Imprinting+PSLN-212   7                7          0       0.0    0.0   41.0          5.0            [4, 4, 5, 5, 5, 6, 6]    S06!O78:O84
+45  S06-F(r71)   14 months at vaccination         BALB/c         bivalent                     5xLD50 Perth H3N2         d14       Naïve+PSLN-344   7                7          6      85.7   42.1   99.6          inf                              [8]    S06!P85:P91
+46  S06-F(r71)   14 months at vaccination         BALB/c         bivalent                     5xLD50 Perth H3N2         d14  Imprinting+PSLN-344   7                7          6      85.7   42.1   99.6          inf                              [7]    S06!Q92:Q98
+47       S09-B                      young         BALB/c       Aichi H3N2                       5xLD50 PR8 H1N1         d21                 Sham   8                8          0       0.0    0.0   36.9          7.0         [6, 6, 6, 7, 7, 7, 8, 8]    S09!B12:B19
+48       S09-B                      young         BALB/c       Aichi H3N2                       5xLD50 PR8 H1N1         d21            PSLN-344Y   8                8          8     100.0   63.1  100.0          inf                               []    S09!C20:C27
+49       S09-B                      young         BALB/c       Aichi H3N2                       5xLD50 PR8 H1N1         d21            PSLN-212Y   8                8          8     100.0   63.1  100.0          inf                               []    S09!D28:D35
+50       S09-D                      young         BALB/c        CA09 H1N1                     5xLD50 Perth H3N2         d21                 Sham   8                8          0       0.0    0.0   36.9          8.0         [7, 8, 8, 8, 8, 8, 9, 9]    S09!B39:B46
+51       S09-D                      young         BALB/c        CA09 H1N1                     5xLD50 Perth H3N2         d21            PSLN-344Y   8                8          8     100.0   63.1  100.0          inf                               []    S09!C47:C54
+52       S09-D                      young         BALB/c        CA09 H1N1                     5xLD50 Perth H3N2         d21            PSLN-212Y   8                8          8     100.0   63.1  100.0          inf                               []    S09!D55:D62
+53       S09-F                      young         BALB/c         bivalent                         5xLD50 rgH5N1        d180                 Sham   7                7          0       0.0    0.0   41.0          7.0            [6, 6, 6, 7, 8, 8, 8]    S09!B66:B72
+54       S09-F                      young         BALB/c         bivalent                         5xLD50 rgH5N1        d180            PSLN-344Y   8                8          8     100.0   63.1  100.0          inf                               []    S09!C73:C80
+55       S09-F                      young         BALB/c         bivalent                         5xLD50 rgH5N1        d180            PSLN-212Y   8                8          8     100.0   63.1  100.0          inf                               []    S09!D81:D88
+56       S13-E                      young         BALB/c         bivalent     10xLD50 CA09 H1N1 (matched virus)         d14                Naïve   7                7          0       0.0    0.0   41.0          7.0            [6, 7, 7, 7, 8, 8, 8]      S13!S3:S9
+57       S13-E                      young         BALB/c         bivalent     10xLD50 CA09 H1N1 (matched virus)         d14                 Sham   7                7          1      14.3    0.4   57.9         10.0            [7, 9, 9, 10, 11, 11]    S13!T10:T16
+58       S13-E                      young         BALB/c         bivalent     10xLD50 CA09 H1N1 (matched virus)         d14           CMP-204(Y)   7                7          7     100.0   59.0  100.0          inf                               []    S13!U17:U23
+59       S13-E                      young         BALB/c         bivalent     10xLD50 CA09 H1N1 (matched virus)         d14          PSLN-344(Y)   7                7          7     100.0   59.0  100.0          inf                               []    S13!V24:V30
+60       S15-H                       aged         BALB/c  bivalent / none                         5xLD50 rgH5N1          d3           3d Vaccine   7                7          0       0.0    0.0   41.0          5.0            [4, 5, 5, 5, 6, 6, 7]    S15!B73:B79
+61       S15-H                       aged         BALB/c  bivalent / none                         5xLD50 rgH5N1          d3          3d PSLN-344   7                7          0       0.0    0.0   41.0          6.0            [5, 5, 6, 6, 6, 7, 8]    S15!C80:C86
+62       S15-H                       aged         BALB/c  bivalent / none                         5xLD50 rgH5N1          d3  3d Vaccine+PSLN-344   7                7          6      85.7   42.1   99.6          inf                             [12]    S15!D87:D93
+63       S15-L               aged (20 mo)        C57BL/6         bivalent                            not stated  not stated                 Sham   7                7          0       0.0    0.0   41.0          6.0            [4, 4, 6, 6, 6, 8, 8]  S15!B103:B109
+64       S15-L               aged (20 mo)        C57BL/6         bivalent                            not stated  not stated             PSLN-212   7                7          0       0.0    0.0   41.0          8.0           [6, 7, 7, 8, 8, 9, 11]  S15!C110:C116
+65       S15-L               aged (20 mo)        C57BL/6         bivalent                            not stated  not stated             PSLN-344   7                7          6      85.7   42.1   99.6          inf                              [8]  S15!D117:D123
+66       S15-L               aged (20 mo)        C57BL/6         bivalent                            not stated  not stated          PSLN-212(Y)   7                7          6      85.7   42.1   99.6          inf                             [12]  S15!E124:E130
+67       S15-N               aged (20 mo)  Swiss Webster         bivalent                            not stated  not stated                 Sham   7                7          0       0.0    0.0   41.0          8.0           [5, 6, 6, 8, 8, 8, 10]  S15!B134:B140
+68       S15-N               aged (20 mo)  Swiss Webster         bivalent                            not stated  not stated             PSLN-212   7                7          2      28.6    3.7   71.0         10.0              [6, 10, 10, 10, 12]  S15!C141:C147
+69       S15-N               aged (20 mo)  Swiss Webster         bivalent                            not stated  not stated             PSLN-344   7                7          6      85.7   42.1   99.6          inf                              [8]  S15!D148:D154
+70       S15-N               aged (20 mo)  Swiss Webster         bivalent                            not stated  not stated          PSLN-212(Y)   7                7          7     100.0   59.0  100.0          inf                               []  S15!E155:E161
+
+          block                    A                    B surv_A surv_B  logrank_chi2  p_logrank  p_fisher
+0         S03-I                 Sham              CMP-204    0/7    3/7       3.64584    0.05621   0.19231
+1         S03-I                 Sham             PSLN-212    0/7    0/7       3.64120    0.05637   1.00000
+2         S03-I                 Sham             PSLN-344    0/7    7/7      14.23584    0.00016   0.00058
+3         S03-I                 Sham          PSLN-212(Y)    0/7    7/7      14.23584    0.00016   0.00058
+4         S03-I              CMP-204             PSLN-212    3/7    0/7      10.20129    0.00140   0.19231
+5         S03-I              CMP-204             PSLN-344    3/7    7/7       5.24088    0.02206   0.06993
+6         S03-I              CMP-204          PSLN-212(Y)    3/7    7/7       5.24088    0.02206   0.06993
+7         S03-I             PSLN-212             PSLN-344    0/7    7/7      12.76029    0.00035   0.00058
+8         S03-I             PSLN-212          PSLN-212(Y)    0/7    7/7      12.76029    0.00035   0.00058
+9         S03-I             PSLN-344          PSLN-212(Y)    7/7    7/7       0.00000    1.00000   1.00000
+10        S03-J                 Sham             PSLN-212   1/10   3/10       6.73013    0.00948   0.58204
+11        S03-J                 Sham             PSLN-344   1/10    9/9      14.16945    0.00017   0.00012
+12        S03-J             PSLN-212             PSLN-344   3/10    9/9       9.31535    0.00227   0.00310
+13        S06-A                 Sham             PSLN-212    0/7    1/7       4.91281    0.02666   1.00000
+14        S06-A                 Sham             PSLN-344    0/7    6/7      13.84002    0.00020   0.00466
+15        S06-A                 Sham          PSLN-212(Y)    0/7    7/7      13.84002    0.00020   0.00058
+16        S06-A             PSLN-212             PSLN-344    1/7    6/7       6.96457    0.00831   0.02914
+17        S06-A             PSLN-212          PSLN-212(Y)    1/7    7/7      10.32223    0.00131   0.00466
+18        S06-A             PSLN-344          PSLN-212(Y)    6/7    7/7       1.00000    0.31731   1.00000
+19        S06-B                 Sham             PSLN-212    0/7    0/7       2.90878    0.08810   1.00000
+20        S06-B                 Sham             PSLN-344    0/7    5/7      13.84002    0.00020   0.02098
+21        S06-B                 Sham          PSLN-212(Y)    0/7    7/7      13.84002    0.00020   0.00058
+22        S06-B             PSLN-212             PSLN-344    0/7    5/7      10.97509    0.00092   0.02098
+23        S06-B             PSLN-212          PSLN-212(Y)    0/7    7/7      14.46230    0.00014   0.00058
+24        S06-B             PSLN-344          PSLN-212(Y)    5/7    7/7       2.16320    0.14135   0.46154
+25        S06-C                 Sham             PSLN-212    0/7    2/7       9.21966    0.00239   0.46154
+26        S06-C                 Sham             PSLN-344    0/7    7/7      13.92962    0.00019   0.00058
+27        S06-C                 Sham          PSLN-212(Y)    0/7    7/7      13.92962    0.00019   0.00058
+28        S06-C             PSLN-212             PSLN-344    2/7    7/7       7.33612    0.00676   0.02098
+29        S06-C             PSLN-212          PSLN-212(Y)    2/7    7/7       7.33612    0.00676   0.02098
+30        S06-C             PSLN-344          PSLN-212(Y)    7/7    7/7       0.00000    1.00000   1.00000
+31        S06-D                 Sham             PSLN-212    0/7    2/7       9.21966    0.00239   0.46154
+32        S06-D                 Sham             PSLN-344    0/7    7/7      13.92962    0.00019   0.00058
+33        S06-D                 Sham          PSLN-212(Y)    0/7    7/7      13.92962    0.00019   0.00058
+34        S06-D             PSLN-212             PSLN-344    2/7    7/7       7.33612    0.00676   0.02098
+35        S06-D             PSLN-212          PSLN-212(Y)    2/7    7/7       7.33612    0.00676   0.02098
+36        S06-D             PSLN-344          PSLN-212(Y)    7/7    7/7       0.00000    1.00000   1.00000
+37        S06-E                 Sham             PSLN-212    0/7    0/7       2.54016    0.11098   1.00000
+38        S06-E                 Sham             PSLN-344    0/7    5/7      13.65072    0.00022   0.02098
+39        S06-E                 Sham          PSLN-212(Y)    0/7    7/7      13.65072    0.00022   0.00058
+40        S06-E                 Sham            Untreated    0/7    6/7       8.11129    0.00440   0.00466
+41        S06-E             PSLN-212             PSLN-344    0/7    5/7      10.00056    0.00156   0.02098
+42        S06-E             PSLN-212          PSLN-212(Y)    0/7    7/7      14.68854    0.00013   0.00058
+43        S06-E             PSLN-212            Untreated    0/7    6/7       8.47623    0.00360   0.00466
+44        S06-E             PSLN-344          PSLN-212(Y)    5/7    7/7       2.16320    0.14135   0.46154
+45        S06-E             PSLN-344            Untreated    5/7    6/7       0.28458    0.59371   1.00000
+46        S06-E          PSLN-212(Y)            Untreated    7/7    6/7       1.00000    0.31731   1.00000
+47        S06-F                 Sham             PSLN-212    0/7    1/7       3.36875    0.06644   1.00000
+48        S06-F                 Sham             PSLN-344    0/7    5/7      13.84002    0.00020   0.02098
+49        S06-F                 Sham          PSLN-212(Y)    0/7    7/7      13.84002    0.00020   0.00058
+50        S06-F                 Sham            Untreated    0/7    7/7      13.84002    0.00020   0.00058
+51        S06-F             PSLN-212             PSLN-344    1/7    5/7       6.74160    0.00942   0.10256
+52        S06-F             PSLN-212          PSLN-212(Y)    1/7    7/7      10.03040    0.00154   0.00466
+53        S06-F             PSLN-212            Untreated    1/7    7/7      10.03040    0.00154   0.00466
+54        S06-F             PSLN-344          PSLN-212(Y)    5/7    7/7       2.16320    0.14135   0.46154
+55        S06-F             PSLN-344            Untreated    5/7    7/7       2.16320    0.14135   0.46154
+56        S06-F          PSLN-212(Y)            Untreated    7/7    7/7       0.00000    1.00000   1.00000
+57        S06-G                 Sham             PSLN-212    0/7    0/7       7.47627    0.00625   1.00000
+58        S06-G                 Sham             PSLN-344    0/7    4/7      13.67130    0.00022   0.06993
+59        S06-G                 Sham          PSLN-212(Y)    0/7    7/7      13.67130    0.00022   0.00058
+60        S06-G                 Sham            Untreated    0/7    4/7       6.55797    0.01044   0.06993
+61        S06-G             PSLN-212             PSLN-344    0/7    4/7       5.89949    0.01515   0.06993
+62        S06-G             PSLN-212          PSLN-212(Y)    0/7    7/7      13.62475    0.00022   0.00058
+63        S06-G             PSLN-212            Untreated    0/7    4/7       3.01976    0.08226   0.06993
+64        S06-G             PSLN-344          PSLN-212(Y)    4/7    7/7       3.54679    0.05966   0.19231
+65        S06-G             PSLN-344            Untreated    4/7    4/7       0.03340    0.85500   1.00000
+66        S06-G          PSLN-212(Y)            Untreated    7/7    4/7       3.54679    0.05966   0.19231
+67   S06-E(r71)       Naïve+PSLN-212  Imprinting+PSLN-212    0/7    4/7       8.57104    0.00342   0.06993
+68   S06-E(r71)       Naïve+PSLN-212       Naïve+PSLN-344    0/7    6/7       9.21966    0.00239   0.00466
+69   S06-E(r71)       Naïve+PSLN-212  Imprinting+PSLN-344    0/7    6/7      12.43426    0.00042   0.00466
+70   S06-E(r71)  Imprinting+PSLN-212       Naïve+PSLN-344    4/7    6/7       0.97009    0.32466   0.55944
+71   S06-E(r71)  Imprinting+PSLN-212  Imprinting+PSLN-344    4/7    6/7       1.42784    0.23212   0.55944
+72   S06-E(r71)       Naïve+PSLN-344  Imprinting+PSLN-344    6/7    6/7       0.00297    0.95656   1.00000
+73   S06-F(r71)       Naïve+PSLN-212  Imprinting+PSLN-212    0/7    0/7       3.15558    0.07567   1.00000
+74   S06-F(r71)       Naïve+PSLN-212       Naïve+PSLN-344    0/7    6/7      11.74163    0.00061   0.00466
+75   S06-F(r71)       Naïve+PSLN-212  Imprinting+PSLN-344    0/7    6/7      10.34763    0.00130   0.00466
+76   S06-F(r71)  Imprinting+PSLN-212       Naïve+PSLN-344    0/7    6/7      13.62475    0.00022   0.00466
+77   S06-F(r71)  Imprinting+PSLN-212  Imprinting+PSLN-344    0/7    6/7      13.62475    0.00022   0.00466
+78   S06-F(r71)       Naïve+PSLN-344  Imprinting+PSLN-344    6/7    6/7       0.00297    0.95656   1.00000
+79        S09-B                 Sham            PSLN-344Y    0/8    8/8      16.03006    0.00006   0.00016
+80        S09-B                 Sham            PSLN-212Y    0/8    8/8      16.03006    0.00006   0.00016
+81        S09-B            PSLN-344Y            PSLN-212Y    8/8    8/8       0.00000    1.00000   1.00000
+82        S09-D                 Sham            PSLN-344Y    0/8    8/8      15.96331    0.00006   0.00016
+83        S09-D                 Sham            PSLN-212Y    0/8    8/8      15.96331    0.00006   0.00016
+84        S09-D            PSLN-344Y            PSLN-212Y    8/8    8/8       0.00000    1.00000   1.00000
+85        S09-F                 Sham            PSLN-344Y    0/7    8/8      14.78718    0.00012   0.00016
+86        S09-F                 Sham            PSLN-212Y    0/7    8/8      14.78718    0.00012   0.00016
+87        S09-F            PSLN-344Y            PSLN-212Y    8/8    8/8       0.00000    1.00000   1.00000
+88        S13-E                Naïve                 Sham    0/7    1/7       8.92681    0.00281   1.00000
+89        S13-E                Naïve           CMP-204(Y)    0/7    7/7      13.05329    0.00030   0.00058
+90        S13-E                Naïve          PSLN-344(Y)    0/7    7/7      13.05329    0.00030   0.00058
+91        S13-E                 Sham           CMP-204(Y)    1/7    7/7       9.96356    0.00160   0.00466
+92        S13-E                 Sham          PSLN-344(Y)    1/7    7/7       9.96356    0.00160   0.00466
+93        S13-E           CMP-204(Y)          PSLN-344(Y)    7/7    7/7       0.00000    1.00000   1.00000
+94        S15-H           3d Vaccine          3d PSLN-344    0/7    0/7       1.51128    0.21894   1.00000
+95        S15-H           3d Vaccine  3d Vaccine+PSLN-344    0/7    6/7      14.23584    0.00016   0.00466
+96        S15-H          3d PSLN-344  3d Vaccine+PSLN-344    0/7    6/7      14.46230    0.00014   0.00466
+97        S15-L                 Sham             PSLN-212    0/7    0/7       3.38644    0.06573   1.00000
+98        S15-L                 Sham             PSLN-344    0/7    6/7      11.52274    0.00069   0.00466
+99        S15-L                 Sham          PSLN-212(Y)    0/7    6/7      13.62475    0.00022   0.00466
+100       S15-L             PSLN-212             PSLN-344    0/7    6/7      10.66489    0.00109   0.00466
+101       S15-L             PSLN-212          PSLN-212(Y)    0/7    6/7      14.43490    0.00015   0.00466
+102       S15-L             PSLN-344          PSLN-212(Y)    6/7    6/7       0.00297    0.95656   1.00000
+103       S15-N                 Sham             PSLN-212    0/7    2/7       6.67107    0.00980   0.46154
+104       S15-N                 Sham             PSLN-344    0/7    6/7      10.72936    0.00105   0.00466
+105       S15-N                 Sham          PSLN-212(Y)    0/7    7/7      13.87835    0.00020   0.00058
+106       S15-N             PSLN-212             PSLN-344    2/7    6/7       3.64408    0.05627   0.10256
+107       S15-N             PSLN-212          PSLN-212(Y)    2/7    7/7       7.33041    0.00678   0.02098
+108       S15-N             PSLN-344          PSLN-212(Y)    6/7    7/7       1.00000    0.31731   1.00000

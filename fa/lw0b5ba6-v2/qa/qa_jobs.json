@@ -1,0 +1,93 @@
+[
+  {
+    "id": "91a98f36-06bb-412c-8141-af32a0f860d9",
+    "qaType": "env_linter",
+    "status": "completed",
+    "itemCount": 1,
+    "findingCount": 1,
+    "resultSummary": "Task & domain issues — The grader for this task gets no answer key, trap list or guidance (all null). The environment's own server code says truth files are injected for the grader, but none are. Grading is still accurate today because the grader re-derives every number from the workbook:\n- a fabricated-numbers proposal scored 0.20;\n- a wrong-asset recommendation scored 0.35;\n- proposals missing required sections scored 0.42 and 0.60;\n- a generic no-data proposal scored 0.00;\n- a correct concise proposal scored 0.80 (stored runs scored 0.87–0.95).\n\nThe cost is that each grading must rediscover the seeded data-integrity traps, which takes 211–675 s, and deductions vary with what each session finds. Info only.",
+    "claudescopeUrl": null,
+    "errorMessage": null,
+    "createdAt": "2026-11-20T06:35:11.385814+00:00",
+    "completedAt": "2026-11-20T09:03:29.386133+00:00",
+    "createdBy": "taygeta.alniyat.azmidi@mercor.expert"
+  },
+  {
+    "id": "0df240cd-b81b-4c6c-bc27-a297d3bd86f2",
+    "qaType": "reward_hacking",
+    "status": "completed",
+    "itemCount": 1,
+    "findingCount": 1,
+    "resultSummary": "Task & domain issues — The agentic grader for this task has no problem-specific guidance, answer key or reference values. Its prompt's problem-specific section is empty, even though the workbook contains several deliberately seeded data defects, and choosing the right asset depends on reading the annotation correctly. In every grading I ran, the grader still recomputed the numbers from the original files and scored sensibly. An empty hand-in, a no-work answer, a grader-injection attempt and a label-swapped copy of a top run all scored 0.0-0.06. Hand-ins that dropped required deliverables scored 0.40-0.64. So no reward hack was found. The missing guidance leaves every verdict dependent on the grader rediscovering the traps in each session, and gradings took 79-938 s. Filed as info.",
+    "claudescopeUrl": null,
+    "errorMessage": null,
+    "createdAt": "2026-11-20T06:35:11.276877+00:00",
+    "completedAt": "2026-11-20T07:49:04.733241+00:00",
+    "createdBy": "taygeta.alniyat.azmidi@mercor.expert"
+  },
+  {
+    "id": "96e42f2b-76de-4f52-a5ab-84ebf0ad9fe6",
+    "qaType": "data_quality",
+    "status": "completed",
+    "itemCount": 1,
+    "findingCount": 1,
+    "resultSummary": "Scanned 1 problems with input files. 1 candidate findings; 0 passed gate (→ env_linter).",
+    "claudescopeUrl": null,
+    "errorMessage": null,
+    "createdAt": "2026-11-20T06:35:11.170151+00:00",
+    "completedAt": "2026-11-20T06:40:42.777559+00:00",
+    "createdBy": "taygeta.alniyat.azmidi@mercor.expert"
+  },
+  {
+    "id": "20663d50-7bfd-4454-b095-a3080d574a53",
+    "qaType": "claudescope",
+    "status": "completed",
+    "itemCount": 1,
+    "findingCount": 5,
+    "resultSummary": "ClaudeScope analysis completed: 5 clusters identified",
+    "claudescopeUrl": null,
+    "errorMessage": null,
+    "createdAt": "2026-11-20T06:35:11.007523+00:00",
+    "completedAt": "2026-11-20T06:40:32.747786+00:00",
+    "createdBy": "taygeta.alniyat.azmidi@mercor.expert"
+  },
+  {
+    "id": "4c279ff4-229f-47b5-91d9-b561038e35a7",
+    "qaType": "difficulty",
+    "status": "completed",
+    "itemCount": 1,
+    "findingCount": 1,
+    "resultSummary": "1 immediate findings",
+    "claudescopeUrl": null,
+    "errorMessage": null,
+    "createdAt": "2026-11-19T22:16:06.454099+00:00",
+    "completedAt": "2026-11-19T22:16:06.521251+00:00",
+    "createdBy": "taygeta.alniyat.azmidi@mercor.expert"
+  },
+  {
+    "id": "ed1f5ff5-5228-44f1-a7a4-554461eec3ed",
+    "qaType": "difficulty",
+    "status": "completed",
+    "itemCount": 1,
+    "findingCount": 1,
+    "resultSummary": "1 immediate findings",
+    "claudescopeUrl": null,
+    "errorMessage": null,
+    "createdAt": "2026-11-19T17:40:49.625307+00:00",
+    "completedAt": "2026-11-19T17:40:49.682959+00:00",
+    "createdBy": "taygeta.alniyat.azmidi@mercor.expert"
+  },
+  {
+    "id": "ac941ef9-0d75-4829-b84c-5761ff370789",
+    "qaType": "problem_linter",
+    "status": "completed",
+    "itemCount": 2,
+    "findingCount": 2,
+    "resultSummary": "Static review of PV 3619eae7-97fe-4c82-b569-ff1869b7b1a6, an open-ended STING-agonist portfolio recommendation graded by a single-score agentic grader. One error: the record gives the grader no reference solution, rubric, grader guidance or grader files. The environment's description promises expert reference solutions and rubrics, so the main judgement the task exists to test (an objective keep/drop call and which candidate leads) cannot be checked against the author's answer. One info: the prompt never says what PSLN-344 and PSLN-212 each are, and this could not be checked against the data bundle. The prompt is otherwise realistic and free of hints, time-budget prose or capture debris, and the output path is consistent.",
+    "claudescopeUrl": null,
+    "errorMessage": null,
+    "createdAt": "2026-11-19T16:00:13.286724+00:00",
+    "completedAt": "2026-11-19T16:03:11.226281+00:00",
+    "createdBy": "taygeta.alniyat.azmidi@mercor.expert"
+  }
+]

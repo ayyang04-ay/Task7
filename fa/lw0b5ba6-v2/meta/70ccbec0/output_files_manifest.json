@@ -1,0 +1,42 @@
+{
+  "note": "Raw file BYTES are now included. task_files/ holds the input data room the writer submitted (mounted at /tmp/world for the model); the read-only tool mounts (/opt/weights, /opt/refdbs) are listed but never downloaded. outputs/attempt_NN_*/ holds each run's produced files (the out_dir). The original gs:// references are still listed for provenance. Transcripts (all attempts) and the full grading record (incl. the grader's own transcript and rubric evaluations) are also included.",
+  "included": true,
+  "per_run": [
+    {
+      "attempt": 1,
+      "run_id": "f295b831-668f-4e1b-984f-3888910db113",
+      "refused": false,
+      "out_dir_tar_s3_path": "gs://anthropic-argonrl-dog-bowl-us-central1-0/biome/containerlogs/production/f295b831-668f-4e1b-984f-3888910db113.tar.gz",
+      "embedded_path": "outputs/attempt_01_f295b831/",
+      "file_count": 77,
+      "error": null
+    },
+    {
+      "attempt": 2,
+      "run_id": "e8634c7e-5f50-4b4f-bd8c-f53e7b630120",
+      "refused": false,
+      "out_dir_tar_s3_path": "gs://anthropic-argonrl-dog-bowl-us-central1-0/biome/containerlogs/production/e8634c7e-5f50-4b4f-bd8c-f53e7b630120.tar.gz",
+      "embedded_path": "outputs/attempt_02_e8634c7e/",
+      "file_count": 36,
+      "error": null
+    },
+    {
+      "attempt": 3,
+      "run_id": "978e3829-863d-4c89-b175-553d29d32858",
+      "refused": false,
+      "out_dir_tar_s3_path": "gs://anthropic-argonrl-dog-bowl-us-central1-0/biome/containerlogs/production/978e3829-863d-4c89-b175-553d29d32858.tar.gz",
+      "embedded_path": "outputs/attempt_03_978e3829/",
+      "file_count": 49,
+      "error": null
+    },
+    {
+      "attempt": 4,
+      "run_id": "e7837212-0398-4997-a07b-e82ee253b47e",
+      "refused": false,
+      "out_dir_tar_s3_path": "gs://anthropic-argonrl-dog-bowl-us-central1-0/biome/containerlogs/production/e7837212-0398-4997-a07b-e82ee253b47e.tar.gz",
+      "embedded_path": "outputs/attempt_04_e7837212/",
+      "file_count": 51,
+      "error": null
+    }
+  ]
+}

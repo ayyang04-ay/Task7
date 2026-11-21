@@ -1,0 +1,25 @@
+Fisher exact power (two-sided alpha 0.05), survival p1 vs p2, n per arm
+  0.80 vs 0.10:  [(7, np.float64(0.65)), (8, np.float64(0.79)), (10, np.float64(0.84)), (12, np.float64(0.95)), (14, np.float64(0.97)), (15, np.float64(0.97)), (16, np.float64(0.99)), (18, np.float64(1.0)), (20, np.float64(1.0)), (24, np.float64(1.0))]  -> n for >=80% power: 10
+  0.80 vs 0.20:  [(7, np.float64(0.45)), (8, np.float64(0.6)), (10, np.float64(0.64)), (12, np.float64(0.81)), (14, np.float64(0.84)), (15, np.float64(0.87)), (16, np.float64(0.91)), (18, np.float64(0.96)), (20, np.float64(0.96)), (24, np.float64(0.99))]  -> n for >=80% power: 12
+  0.80 vs 0.30:  [(7, np.float64(0.28)), (8, np.float64(0.4)), (10, np.float64(0.43)), (12, np.float64(0.61)), (14, np.float64(0.65)), (15, np.float64(0.68)), (16, np.float64(0.74)), (18, np.float64(0.83)), (20, np.float64(0.85)), (24, np.float64(0.93))]  -> n for >=80% power: 18
+  0.80 vs 0.40:  [(7, np.float64(0.15)), (8, np.float64(0.24)), (10, np.float64(0.25)), (12, np.float64(0.39)), (14, np.float64(0.44)), (15, np.float64(0.45)), (16, np.float64(0.5)), (18, np.float64(0.61)), (20, np.float64(0.65)), (24, np.float64(0.76))]  -> n for >=80% power: None
+  0.80 vs 0.50:  [(7, np.float64(0.07)), (8, np.float64(0.12)), (10, np.float64(0.13)), (12, np.float64(0.21)), (14, np.float64(0.26)), (15, np.float64(0.25)), (16, np.float64(0.28)), (18, np.float64(0.36)), (20, np.float64(0.41)), (24, np.float64(0.49))]  -> n for >=80% power: None
+  0.85 vs 0.30:  [(7, np.float64(0.36)), (8, np.float64(0.5)), (10, np.float64(0.54)), (12, np.float64(0.72)), (14, np.float64(0.78)), (15, np.float64(0.8)), (16, np.float64(0.84)), (18, np.float64(0.91)), (20, np.float64(0.93)), (24, np.float64(0.97))]  -> n for >=80% power: 15
+
+within-group SD of log10 titers (our data):
+  S03-A {'PSLN-212': 0.22, 'PSLN-212(Y)': 0.175, 'PSLN-344': 0.204}
+  S03-C {'PSLN-212': 0.135, 'PSLN-212(Y)': 0.165, 'PSLN-344': 0.252}
+  S03-D {'PSLN-212': 0.252, 'PSLN-212(Y)': 0.252, 'PSLN-344': 0.369}
+  S03-E {'PSLN-212': 0.22, 'PSLN-212(Y)': 0.244, 'PSLN-344': 0.249}
+  S03-G {'PSLN-212': 0.252, 'PSLN-212(Y)': 0.135, 'PSLN-344': 0.213}
+  S03-H {'PSLN-212': 0.252, 'PSLN-212(Y)': 0.252, 'PSLN-344': 0.269}
+
+n per arm to detect fold-difference in GMT (log10 SD=0.30): {'1.5x': 47, '2x': 17, '3x': 8, '4x': 6}
+n per arm to detect fold-difference in GMT (log10 SD=0.25): {'1.5x': 33, '2x': 12, '3x': 6, '4x': 4}
+n per arm to detect difference in max weight loss (SD 3.7 pts): {'3 pts': 25, '4 pts': 15, '5 pts': 10, '6 pts': 8}
+0 events in n=5: one-sided 95% upper bound on event rate = 45%
+0 events in n=7: one-sided 95% upper bound on event rate = 35%
+0 events in n=10: one-sided 95% upper bound on event rate = 26%
+0 events in n=21: one-sided 95% upper bound on event rate = 13%
+0 events in n=49: one-sided 95% upper bound on event rate = 6%
+0 events in n=56: one-sided 95% upper bound on event rate = 5%

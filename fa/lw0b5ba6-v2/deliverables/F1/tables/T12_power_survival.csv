@@ -1,0 +1,7 @@
+scenario,n=8,n=10,n=12,n=15,n=20,n=25,n=30
+PSLN-344 86% vs PSLN-212 14% (flag-robust pooled acute: 18/21 vs 3/21; S06-A/B/C),0.81,0.86,0.95,0.98,1.0,1.0,1.0
+PSLN-344 93% vs PSLN-212 18% (as-printed pooled acute: 42/45 vs 8/45),0.88,0.92,0.98,0.99,1.0,1.0,1.0
+PSLN-344 86% vs 43% (if PSLN-212 really protects 3/7 as the S13-F traces imply),0.27,0.31,0.46,0.54,0.76,0.86,0.92
+PSLN-344 67% vs 5% at d60 (14/21 vs 1/21; S06-E/F/G),0.64,0.76,0.89,0.95,0.99,1.0,1.0
+"PSLN-344 86% vs licensed-type comparator 50% (assumed, no data)",0.17,0.21,0.32,0.39,0.6,0.7,0.8
+"PSLN-344 86% vs comparator 60% (assumed, no data)",0.07,0.1,0.16,0.21,0.34,0.41,0.52

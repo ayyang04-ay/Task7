@@ -1,0 +1,99 @@
+     type  block                       analyte time        group  stated_n                     observed_n
+0   QUANT  S05-A  lung NP366 tetramer+ CD8 (%)    3     PSLN-212         3                              2
+1   QUANT  S05-A  lung NP366 tetramer+ CD8 (%)    5     PSLN-212         3                              2
+2   QUANT  S05-A  lung NP366 tetramer+ CD8 (%)    7     PSLN-212         3                              2
+3   QUANT  S05-A  lung NP366 tetramer+ CD8 (%)    3     PSLN-344         3                              2
+4   QUANT  S05-A  lung NP366 tetramer+ CD8 (%)    5     PSLN-344         3                              2
+5   QUANT  S05-A  lung NP366 tetramer+ CD8 (%)    7     PSLN-344         3                              2
+6   QUANT  S05-A  lung NP366 tetramer+ CD8 (%)    3    PSLN-212Y         3                              2
+7   QUANT  S05-A  lung NP366 tetramer+ CD8 (%)    5    PSLN-212Y         3                              2
+8   QUANT  S05-A  lung NP366 tetramer+ CD8 (%)    7    PSLN-212Y         3                              2
+9   QUANT  S05-B   MLN NP366 tetramer+ CD8 (%)    3     PSLN-212         3                              2
+10  QUANT  S05-B   MLN NP366 tetramer+ CD8 (%)    5     PSLN-212         3                              2
+11  QUANT  S05-B   MLN NP366 tetramer+ CD8 (%)    7     PSLN-212         3                              2
+12  QUANT  S05-B   MLN NP366 tetramer+ CD8 (%)    3     PSLN-344         3                              2
+13  QUANT  S05-B   MLN NP366 tetramer+ CD8 (%)    5     PSLN-344         3                              2
+14  QUANT  S05-B   MLN NP366 tetramer+ CD8 (%)    7     PSLN-344         3                              2
+15  QUANT  S05-B   MLN NP366 tetramer+ CD8 (%)    3    PSLN-212Y         3                              2
+16  QUANT  S05-B   MLN NP366 tetramer+ CD8 (%)    5    PSLN-212Y         3                              2
+17  QUANT  S05-B   MLN NP366 tetramer+ CD8 (%)    7    PSLN-212Y         3                              2
+18   SURV  S03-J                                            Sham         9  10 rows (10 with a day value)
+19   SURV  S03-J                                        PSLN-212         9  10 rows (10 with a day value)
+20   SURV  S03-J                                        PSLN-344         9   10 rows (9 with a day value)
+21   SURV  S09-F                                            Sham         8    7 rows (7 with a day value)
+22   SURV  S13-E                                           Naïve         5    7 rows (7 with a day value)
+23   SURV  S13-E                                            Sham         5    7 rows (7 with a day value)
+24   SURV  S13-E                                      CMP-204(Y)         5    7 rows (7 with a day value)
+25   SURV  S13-E                                     PSLN-344(Y)         5    7 rows (7 with a day value)
+         block                group   n  deaths
+0        S03-I                 Sham   7       7
+1        S03-I              CMP-204   7       4
+2        S03-I             PSLN-212   7       7
+3        S03-I             PSLN-344   7       0
+4        S03-I          PSLN-212(Y)   7       0
+5        S03-J                 Sham  10       9
+6        S03-J             PSLN-212  10       7
+7        S03-J             PSLN-344  10       0
+8        S06-A                 Sham   7       7
+9        S06-A             PSLN-212   7       6
+10       S06-A             PSLN-344   7       1
+11       S06-A          PSLN-212(Y)   7       0
+12       S06-B                 Sham   7       7
+13       S06-B             PSLN-212   7       7
+14       S06-B             PSLN-344   7       2
+15       S06-B          PSLN-212(Y)   7       0
+16       S06-C                 Sham   7       7
+17       S06-C             PSLN-212   7       5
+18       S06-C             PSLN-344   7       0
+19       S06-C          PSLN-212(Y)   7       0
+20       S06-D                 Sham   7       7
+21       S06-D             PSLN-212   7       5
+22       S06-D             PSLN-344   7       0
+23       S06-D          PSLN-212(Y)   7       0
+24       S06-E                 Sham   7       7
+25       S06-E             PSLN-212   7       7
+26       S06-E             PSLN-344   7       2
+27       S06-E          PSLN-212(Y)   7       0
+28       S06-E            Untreated   7       1
+29       S06-F                 Sham   7       7
+30       S06-F             PSLN-212   7       6
+31       S06-F             PSLN-344   7       2
+32       S06-F          PSLN-212(Y)   7       0
+33       S06-F            Untreated   7       0
+34       S06-G                 Sham   7       7
+35       S06-G             PSLN-212   7       7
+36       S06-G             PSLN-344   7       3
+37       S06-G          PSLN-212(Y)   7       0
+38       S06-G            Untreated   7       3
+39  S06-E(r71)       Naïve+PSLN-212   7       7
+40  S06-E(r71)  Imprinting+PSLN-212   7       3
+41  S06-E(r71)       Naïve+PSLN-344   7       1
+42  S06-E(r71)  Imprinting+PSLN-344   7       1
+43  S06-F(r71)       Naïve+PSLN-212   7       7
+44  S06-F(r71)  Imprinting+PSLN-212   7       7
+45  S06-F(r71)       Naïve+PSLN-344   7       1
+46  S06-F(r71)  Imprinting+PSLN-344   7       1
+47       S09-B                 Sham   8       8
+48       S09-B            PSLN-344Y   8       0
+49       S09-B            PSLN-212Y   8       0
+50       S09-D                 Sham   8       8
+51       S09-D            PSLN-344Y   8       0
+52       S09-D            PSLN-212Y   8       0
+53       S09-F                 Sham   7       7
+54       S09-F            PSLN-344Y   8       0
+55       S09-F            PSLN-212Y   8       0
+56       S13-E                Naïve   7       7
+57       S13-E                 Sham   7       6
+58       S13-E           CMP-204(Y)   7       0
+59       S13-E          PSLN-344(Y)   7       0
+60       S15-H           3d Vaccine   7       7
+61       S15-H          3d PSLN-344   7       7
+62       S15-H  3d Vaccine+PSLN-344   7       1
+63       S15-L                 Sham   7       7
+64       S15-L             PSLN-212   7       7
+65       S15-L             PSLN-344   7       1
+66       S15-L          PSLN-212(Y)   7       1
+67       S15-N                 Sham   7       7
+68       S15-N             PSLN-212   7       5
+69       S15-N             PSLN-344   7       1
+70       S15-N          PSLN-212(Y)   7       0

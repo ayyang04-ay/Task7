@@ -1,0 +1,54 @@
+a,b,same_block,fresh_identical,days_identical,frac_only_matches,frac_days
+S09-E:PSLN-212Y[N],S09-G:PSLN-212Y[N],False,7,"[2, 4, 6, 8, 10, 12, 14]",0,[]
+S09-E:PSLN-344Y[AA],S15-M:PSLN-212(Y)[L],False,7,"[2, 4, 6, 8, 10, 12, 14]",0,[]
+S09-E:PSLN-344Y[X],S15-M:PSLN-212(Y)[I],False,6,"[2, 6, 8, 10, 12, 14]",1,[4]
+S15-C:PSLN-344[AA],S15-I:3d Vaccine+PSLN-344[AA],False,6,"[2, 4, 6, 8, 10, 12]",0,[]
+S15-C:PSLN-344[AB],S15-I:3d Vaccine+PSLN-344[AB],False,6,"[2, 4, 6, 8, 10, 12]",0,[]
+S15-C:PSLN-344[AC],S15-I:3d Vaccine+PSLN-344[AC],False,6,"[2, 4, 6, 8, 10, 12]",0,[]
+S15-C:PSLN-344[X],S15-I:3d Vaccine+PSLN-344[X],False,6,"[2, 4, 6, 8, 10, 12]",0,[]
+S15-C:PSLN-344[Y],S15-I:3d Vaccine+PSLN-344[Y],False,6,"[2, 4, 6, 8, 10, 12]",0,[]
+S15-C:PSLN-344[Z],S15-I:3d Vaccine+PSLN-344[Z],False,6,"[2, 4, 6, 8, 10, 12]",0,[]
+S15-A:PSLN-344[Y],S15-M:PSLN-344[AF],False,5,"[4, 6, 10, 12, 14]",2,"[2, 8]"
+S09-E:PSLN-344Y[Y],S15-M:PSLN-212(Y)[J],False,5,"[6, 8, 10, 12, 14]",1,[4]
+S15-A:PSLN-344[X],S15-M:PSLN-344[AE],False,5,"[4, 6, 10, 12, 14]",1,[2]
+S09-E:PSLN-212Y[L],S15-C:PSLN-212(Y)[G],False,5,"[6, 8, 10, 12, 14]",0,[]
+S09-E:PSLN-344Y[AB],S15-M:PSLN-212(Y)[M],False,5,"[2, 6, 8, 10, 12]",0,[]
+S09-E:PSLN-344Y[Z],S15-M:PSLN-212(Y)[K],False,5,"[6, 8, 10, 12, 14]",0,[]
+S09-E:PSLN-344Y[AC],S15-M:PSLN-212(Y)[N],False,4,"[6, 8, 10, 12]",0,[]
+S15-A:PSLN-212(Y)[H],S15-M:PSLN-212(Y)[O],False,4,"[8, 10, 12, 14]",0,[]
+S15-C:PSLN-344[W],S15-I:3d Vaccine+PSLN-344[W],False,4,"[4, 6, 8, 12]",0,[]
+S09-C:PSLN-212Y[H],S09-C:PSLN-344Y[X],True,3,"[2, 8, 12]",0,[]
+S09-E:PSLN-344Y[AD],S09-G:PSLN-344Y[AD],False,3,"[6, 8, 10]",0,[]
+S13-F:PSLN-344[X],S15-A:PSLN-344[AC],False,3,"[8, 12, 14]",0,[]
+S15-A:PSLN-344[W],S15-G:PSLN-212(Y)[E],False,3,"[2, 4, 14]",0,[]
+S15-A:PSLN-344[Z],S15-F:PSLN-212(Y)[H],False,3,"[2, 6, 8]",0,[]
+S15-C:Sham[M],S15-M:Sham[T],False,3,"[2, 4, 6]",0,[]
+S15-D:PSLN-344[X],S15-O:PSLN-212(Y)[K],False,3,"[8, 12, 14]",0,[]
+S15-M:PSLN-344[AG],S15-O:PSLN-344[AG],False,3,"[4, 6, 14]",0,[]
+S15-M:PSLN-344[AI],S15-O:PSLN-344[AI],False,3,"[4, 6, 12]",0,[]
+S08-D:CMP-204[G],S15-F:PSLN-212(Y)[B],False,1,[10],4,"[2, 4, 6, 8]"
+S15-J:Imprinting+PSLN-212[P],S15-K:Naive+PSLN-212[I],False,1,[6],2,"[2, 4]"
+S15-J:Imprinting+PSLN-344[AE],S15-M:PSLN-344[AE],False,1,[2],2,"[4, 6]"
+S15-J:Imprinting+PSLN-344[AD],S15-M:PSLN-344[AD],False,0,[],6,"[2, 4, 6, 8, 10, 12]"
+S08-D:CMP-204[I],S15-F:PSLN-212(Y)[D],False,0,[],5,"[2, 4, 6, 8, 10]"
+S08-D:CMP-204[J],S15-F:PSLN-212(Y)[E],False,0,[],5,"[2, 4, 6, 8, 10]"
+S08-D:CMP-204[K],S15-F:PSLN-212(Y)[C],False,0,[],5,"[2, 4, 6, 8, 10]"
+S15-A:PSLN-344[Y],S15-J:Imprinting+PSLN-344[AF],False,0,[],5,"[2, 6, 8, 10, 12]"
+S15-J:Imprinting+PSLN-344[AF],S15-M:PSLN-344[AF],False,0,[],5,"[2, 6, 8, 10, 12]"
+S15-A:PSLN-344[X],S15-J:Imprinting+PSLN-344[AE],False,0,[],3,"[2, 4, 6]"
+S15-C:PSLN-212[Q],S15-J:Naive+PSLN-344[W],False,0,[],3,"[2, 4, 6]"
+S15-A:Sham[J],S15-J:Imprinting+PSLN-212[Q],False,0,[],2,"[2, 4]"
+S15-A:Sham[J],S15-J:Naive+PSLN-212[J],False,0,[],2,"[2, 4]"
+S15-A:Sham[J],S15-K:Naive+PSLN-212[J],False,0,[],2,"[2, 4]"
+S15-A:Sham[K],S15-J:Imprinting+PSLN-212[R],False,0,[],2,"[2, 4]"
+S15-A:Sham[K],S15-J:Naive+PSLN-212[K],False,0,[],2,"[2, 4]"
+S15-A:Sham[K],S15-K:Naive+PSLN-212[K],False,0,[],2,"[2, 4]"
+S15-C:Sham[J],S15-M:Sham[Q],False,0,[],2,"[2, 4]"
+S15-C:Sham[J],S15-O:Sham[Q],False,0,[],2,"[2, 4]"
+S15-J:Imprinting+PSLN-212[Q],S15-J:Naive+PSLN-212[J],True,0,[],2,"[2, 4]"
+S15-J:Imprinting+PSLN-212[Q],S15-K:Naive+PSLN-212[J],False,0,[],2,"[2, 4]"
+S15-J:Imprinting+PSLN-212[R],S15-J:Naive+PSLN-212[K],True,0,[],2,"[2, 4]"
+S15-J:Imprinting+PSLN-212[R],S15-K:Naive+PSLN-212[K],False,0,[],2,"[2, 4]"
+S15-J:Imprinting+PSLN-212[R],S15-M:PSLN-212[Y],False,0,[],2,"[2, 4]"
+S15-J:Naive+PSLN-212[J],S15-K:Naive+PSLN-212[J],False,0,[],2,"[2, 4]"
+S15-K:Naive+PSLN-212[K],S15-M:PSLN-212[Y],False,0,[],2,"[2, 4]"

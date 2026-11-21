@@ -1,0 +1,185 @@
+         block                            population                               design               group  n  survivors   pct  ci_lo  ci_hi  median_death_day_among_deaths             cells
+         S03-I                           aged BALB/c        bivalent -> CA09 H1N1 10xLD50             CMP-204  7          3  42.9    9.9   81.6                            7.5   S03!C24:S03!C30
+         S03-I                           aged BALB/c        bivalent -> CA09 H1N1 10xLD50            PSLN-212  7          0   0.0    0.0   41.0                            6.0   S03!D31:S03!D37
+         S03-I                           aged BALB/c        bivalent -> CA09 H1N1 10xLD50         PSLN-212(Y)  7          7 100.0   59.0  100.0                            NaN   S03!F45:S03!F51
+         S03-I                           aged BALB/c        bivalent -> CA09 H1N1 10xLD50            PSLN-344  7          7 100.0   59.0  100.0                            NaN   S03!E38:S03!E44
+         S03-I                           aged BALB/c        bivalent -> CA09 H1N1 10xLD50                Sham  7          0   0.0    0.0   41.0                            6.0   S03!B17:S03!B23
+         S03-J BALB/c (age not stated; no (Y) label)               rgH5N1 -> wt VN04 H5N1            PSLN-212 10          3  30.0    6.7   65.2                           11.0   S03!I27:S03!I36
+         S03-J BALB/c (age not stated; no (Y) label)               rgH5N1 -> wt VN04 H5N1            PSLN-344 10         10 100.0   69.2  100.0                            NaN   S03!J37:S03!J46
+         S03-J BALB/c (age not stated; no (Y) label)               rgH5N1 -> wt VN04 H5N1                Sham 10          1  10.0    0.3   44.5                            9.0   S03!H17:S03!H26
+         S06-A                           aged BALB/c               Aichi H3N2 -> PR8 H1N1            PSLN-212  7          1  14.3    0.4   57.9                            7.0   S06!C10:S06!C16
+         S06-A                           aged BALB/c               Aichi H3N2 -> PR8 H1N1         PSLN-212(Y)  7          7 100.0   59.0  100.0                            NaN   S06!E24:S06!E30
+         S06-A                           aged BALB/c               Aichi H3N2 -> PR8 H1N1            PSLN-344  7          6  85.7   42.1   99.6                            8.0   S06!D17:S06!D23
+         S06-A                           aged BALB/c               Aichi H3N2 -> PR8 H1N1                Sham  7          0   0.0    0.0   41.0                            5.0     S06!B3:S06!B9
+         S06-B                           aged BALB/c               Aichi H3N2 -> PR8 H1N1            PSLN-212  7          0   0.0    0.0   41.0                            6.0   S06!I10:S06!I16
+         S06-B                           aged BALB/c               Aichi H3N2 -> PR8 H1N1         PSLN-212(Y)  7          7 100.0   59.0  100.0                            NaN   S06!K24:S06!K30
+         S06-B                           aged BALB/c               Aichi H3N2 -> PR8 H1N1            PSLN-344  7          5  71.4   29.0   96.3                            9.0   S06!J17:S06!J23
+         S06-B                           aged BALB/c               Aichi H3N2 -> PR8 H1N1                Sham  7          0   0.0    0.0   41.0                            5.0     S06!H3:S06!H9
+         S06-C                           aged BALB/c                   bivalent -> rgH5N1            PSLN-212  7          2  28.6    3.7   71.0                           10.0   S06!O10:S06!O16
+         S06-C                           aged BALB/c                   bivalent -> rgH5N1         PSLN-212(Y)  7          7 100.0   59.0  100.0                            NaN   S06!Q24:S06!Q30
+         S06-C                           aged BALB/c                   bivalent -> rgH5N1            PSLN-344  7          7 100.0   59.0  100.0                            NaN   S06!P17:S06!P23
+         S06-C                           aged BALB/c                   bivalent -> rgH5N1                Sham  7          0   0.0    0.0   41.0                            6.0     S06!N3:S06!N9
+         S06-D                           aged BALB/c                   bivalent -> rgH5N1            PSLN-212  7          2  28.6    3.7   71.0                           10.0   S06!C41:S06!C47
+         S06-D                           aged BALB/c                   bivalent -> rgH5N1         PSLN-212(Y)  7          7 100.0   59.0  100.0                            NaN   S06!E55:S06!E61
+         S06-D                           aged BALB/c                   bivalent -> rgH5N1            PSLN-344  7          7 100.0   59.0  100.0                            NaN   S06!D48:S06!D54
+         S06-D                           aged BALB/c                   bivalent -> rgH5N1                Sham  7          0   0.0    0.0   41.0                            6.0   S06!B34:S06!B40
+         S06-E                           aged BALB/c               Aichi H3N2 -> PR8 H1N1            PSLN-212  7          0   0.0    0.0   41.0                            6.0   S06!I41:S06!I47
+         S06-E                           aged BALB/c               Aichi H3N2 -> PR8 H1N1         PSLN-212(Y)  7          7 100.0   59.0  100.0                            NaN   S06!K55:S06!K61
+         S06-E                           aged BALB/c               Aichi H3N2 -> PR8 H1N1            PSLN-344  7          5  71.4   29.0   96.3                            9.0   S06!J48:S06!J54
+         S06-E                           aged BALB/c               Aichi H3N2 -> PR8 H1N1                Sham  7          0   0.0    0.0   41.0                            5.0   S06!H34:S06!H40
+         S06-E                           aged BALB/c               Aichi H3N2 -> PR8 H1N1           Untreated  7          6  85.7   42.1   99.6                            4.0   S06!L62:S06!L68
+S06-E[imprint]     14-mo BALB/c (+/- PR8 imprinting)                 bivalent -> PR8 H1N1 Imprinting+PSLN-212  7          4  57.1   18.4   90.1                            8.0   S06!I78:S06!I84
+S06-E[imprint]     14-mo BALB/c (+/- PR8 imprinting)                 bivalent -> PR8 H1N1 Imprinting+PSLN-344  7          6  85.7   42.1   99.6                            8.0   S06!K92:S06!K98
+S06-E[imprint]     14-mo BALB/c (+/- PR8 imprinting)                 bivalent -> PR8 H1N1      Naive+PSLN-212  7          0   0.0    0.0   41.0                            6.0   S06!H71:S06!H77
+S06-E[imprint]     14-mo BALB/c (+/- PR8 imprinting)                 bivalent -> PR8 H1N1      Naive+PSLN-344  7          6  85.7   42.1   99.6                            5.0   S06!J85:S06!J91
+         S06-F                           aged BALB/c                   bivalent -> rgH5N1            PSLN-212  7          1  14.3    0.4   57.9                            6.0   S06!O41:S06!O47
+         S06-F                           aged BALB/c                   bivalent -> rgH5N1         PSLN-212(Y)  7          7 100.0   59.0  100.0                            NaN   S06!Q55:S06!Q61
+         S06-F                           aged BALB/c                   bivalent -> rgH5N1            PSLN-344  7          5  71.4   29.0   96.3                            7.5   S06!P48:S06!P54
+         S06-F                           aged BALB/c                   bivalent -> rgH5N1                Sham  7          0   0.0    0.0   41.0                            5.0   S06!N34:S06!N40
+         S06-F                           aged BALB/c                   bivalent -> rgH5N1           Untreated  7          7 100.0   59.0  100.0                            NaN   S06!R62:S06!R68
+S06-F[imprint]     14-mo BALB/c (+/- PR8 imprinting)               bivalent -> Perth H3N2 Imprinting+PSLN-212  7          0   0.0    0.0   41.0                            5.0   S06!O78:S06!O84
+S06-F[imprint]     14-mo BALB/c (+/- PR8 imprinting)               bivalent -> Perth H3N2 Imprinting+PSLN-344  7          6  85.7   42.1   99.6                            7.0   S06!Q92:S06!Q98
+S06-F[imprint]     14-mo BALB/c (+/- PR8 imprinting)               bivalent -> Perth H3N2      Naive+PSLN-212  7          0   0.0    0.0   41.0                            6.0   S06!N71:S06!N77
+S06-F[imprint]     14-mo BALB/c (+/- PR8 imprinting)               bivalent -> Perth H3N2      Naive+PSLN-344  7          6  85.7   42.1   99.6                            8.0   S06!P85:S06!P91
+         S06-G                           aged BALB/c              CA09 H1N1 -> Perth H3N2            PSLN-212  7          0   0.0    0.0   41.0                            8.0   S06!C78:S06!C84
+         S06-G                           aged BALB/c              CA09 H1N1 -> Perth H3N2         PSLN-212(Y)  7          7 100.0   59.0  100.0                            NaN   S06!E92:S06!E98
+         S06-G                           aged BALB/c              CA09 H1N1 -> Perth H3N2            PSLN-344  7          4  57.1   18.4   90.1                            9.0   S06!D85:S06!D91
+         S06-G                           aged BALB/c              CA09 H1N1 -> Perth H3N2                Sham  7          0   0.0    0.0   41.0                            6.0   S06!B71:S06!B77
+         S06-G                           aged BALB/c              CA09 H1N1 -> Perth H3N2           Untreated  7          4  57.1   18.4   90.1                            7.0  S06!F99:S06!F105
+         S09-B                          young BALB/c               Aichi H3N2 -> PR8 H1N1         PSLN-212(Y)  8          8 100.0   63.1  100.0                            NaN   S09!D28:S09!D35
+         S09-B                          young BALB/c               Aichi H3N2 -> PR8 H1N1         PSLN-344(Y)  8          8 100.0   63.1  100.0                            NaN   S09!C20:S09!C27
+         S09-B                          young BALB/c               Aichi H3N2 -> PR8 H1N1                Sham  8          0   0.0    0.0   36.9                            7.0   S09!B12:S09!B19
+         S09-D                          young BALB/c              CA09 H1N1 -> Perth H3N2         PSLN-212(Y)  8          8 100.0   63.1  100.0                            NaN   S09!D55:S09!D62
+         S09-D                          young BALB/c              CA09 H1N1 -> Perth H3N2         PSLN-344(Y)  8          8 100.0   63.1  100.0                            NaN   S09!C47:S09!C54
+         S09-D                          young BALB/c              CA09 H1N1 -> Perth H3N2                Sham  8          0   0.0    0.0   36.9                            8.0   S09!B39:S09!B46
+         S09-F                          young BALB/c              bivalent -> VN04 rgH5N1         PSLN-212(Y)  8          8 100.0   63.1  100.0                            NaN   S09!D81:S09!D88
+         S09-F                          young BALB/c              bivalent -> VN04 rgH5N1         PSLN-344(Y)  8          8 100.0   63.1  100.0                            NaN   S09!C73:S09!C80
+         S09-F                          young BALB/c              bivalent -> VN04 rgH5N1                Sham  7          0   0.0    0.0   41.0                            7.0   S09!B66:S09!B72
+         S13-E                          young BALB/c        bivalent -> CA09 H1N1 10xLD50          CMP-204(Y)  7          7 100.0   59.0  100.0                            NaN   S13!U17:S13!U23
+         S13-E                          young BALB/c        bivalent -> CA09 H1N1 10xLD50               Naive  7          0   0.0    0.0   41.0                            7.0     S13!S3:S13!S9
+         S13-E                          young BALB/c        bivalent -> CA09 H1N1 10xLD50         PSLN-344(Y)  7          7 100.0   59.0  100.0                            NaN   S13!V24:S13!V30
+         S13-E                          young BALB/c        bivalent -> CA09 H1N1 10xLD50                Sham  7          1  14.3    0.4   57.9                            9.5   S13!T10:S13!T16
+         S15-H                           aged BALB/c bivalent +/- PSLN-344 -> VN04 rgH5N1         3d PSLN-344  7          0   0.0    0.0   41.0                            6.0   S15!C80:S15!C86
+         S15-H                           aged BALB/c bivalent +/- PSLN-344 -> VN04 rgH5N1          3d Vaccine  7          0   0.0    0.0   41.0                            5.0   S15!B73:S15!B79
+         S15-H                           aged BALB/c bivalent +/- PSLN-344 -> VN04 rgH5N1 3d Vaccine+PSLN-344  7          6  85.7   42.1   99.6                           12.0   S15!D87:S15!D93
+         S15-L                          aged C57BL/6   bivalent -> (challenge not stated)            PSLN-212  7          0   0.0    0.0   41.0                            8.0 S15!C110:S15!C116
+         S15-L                          aged C57BL/6   bivalent -> (challenge not stated)         PSLN-212(Y)  7          6  85.7   42.1   99.6                           12.0 S15!E124:S15!E130
+         S15-L                          aged C57BL/6   bivalent -> (challenge not stated)            PSLN-344  7          6  85.7   42.1   99.6                            8.0 S15!D117:S15!D123
+         S15-L                          aged C57BL/6   bivalent -> (challenge not stated)                Sham  7          0   0.0    0.0   41.0                            6.0 S15!B103:S15!B109
+         S15-N                    aged Swiss Webster   bivalent -> (challenge not stated)            PSLN-212  7          2  28.6    3.7   71.0                           10.0 S15!C141:S15!C147
+         S15-N                    aged Swiss Webster   bivalent -> (challenge not stated)         PSLN-212(Y)  7          7 100.0   59.0  100.0                            NaN S15!E155:S15!E161
+         S15-N                    aged Swiss Webster   bivalent -> (challenge not stated)            PSLN-344  7          6  85.7   42.1   99.6                            8.0 S15!D148:S15!D154
+         S15-N                    aged Swiss Webster   bivalent -> (challenge not stated)                Sham  7          0   0.0    0.0   41.0                            8.0 S15!B134:S15!B140
+
+         block                   A                   B surv_A surv_B  diff_pp  p_logrank  p_fisher
+         S03-I            PSLN-344            PSLN-212    7/7    0/7 100.0000     0.0004    0.0006
+         S03-I            PSLN-344                Sham    7/7    0/7 100.0000     0.0002    0.0006
+         S03-I            PSLN-212                Sham    0/7    0/7   0.0000     0.0564    1.0000
+         S03-I            PSLN-344         PSLN-212(Y)    7/7    7/7   0.0000     1.0000    1.0000
+         S03-I         PSLN-212(Y)                Sham    7/7    0/7 100.0000     0.0002    0.0006
+         S03-I             CMP-204                Sham    3/7    0/7  42.8571     0.0562    0.1923
+         S03-I            PSLN-344             CMP-204    7/7    3/7  57.1429     0.0221    0.0699
+         S03-J            PSLN-344            PSLN-212  10/10   3/10  70.0000     0.0014    0.0031
+         S03-J            PSLN-344                Sham  10/10   1/10  90.0000     0.0001    0.0001
+         S03-J            PSLN-212                Sham   3/10   1/10  20.0000     0.0095    0.5820
+         S06-A            PSLN-344            PSLN-212    6/7    1/7  71.4286     0.0083    0.0291
+         S06-A            PSLN-344                Sham    6/7    0/7  85.7143     0.0002    0.0047
+         S06-A            PSLN-212                Sham    1/7    0/7  14.2857     0.0267    1.0000
+         S06-A            PSLN-344         PSLN-212(Y)    6/7    7/7 -14.2857     0.3173    1.0000
+         S06-A         PSLN-212(Y)                Sham    7/7    0/7 100.0000     0.0002    0.0006
+         S06-B            PSLN-344            PSLN-212    5/7    0/7  71.4286     0.0009    0.0210
+         S06-B            PSLN-344                Sham    5/7    0/7  71.4286     0.0002    0.0210
+         S06-B            PSLN-212                Sham    0/7    0/7   0.0000     0.0881    1.0000
+         S06-B            PSLN-344         PSLN-212(Y)    5/7    7/7 -28.5714     0.1413    0.4615
+         S06-B         PSLN-212(Y)                Sham    7/7    0/7 100.0000     0.0002    0.0006
+         S06-C            PSLN-344            PSLN-212    7/7    2/7  71.4286     0.0068    0.0210
+         S06-C            PSLN-344                Sham    7/7    0/7 100.0000     0.0002    0.0006
+         S06-C            PSLN-212                Sham    2/7    0/7  28.5714     0.0024    0.4615
+         S06-C            PSLN-344         PSLN-212(Y)    7/7    7/7   0.0000     1.0000    1.0000
+         S06-C         PSLN-212(Y)                Sham    7/7    0/7 100.0000     0.0002    0.0006
+         S06-D            PSLN-344            PSLN-212    7/7    2/7  71.4286     0.0068    0.0210
+         S06-D            PSLN-344                Sham    7/7    0/7 100.0000     0.0002    0.0006
+         S06-D            PSLN-212                Sham    2/7    0/7  28.5714     0.0024    0.4615
+         S06-D            PSLN-344         PSLN-212(Y)    7/7    7/7   0.0000     1.0000    1.0000
+         S06-D         PSLN-212(Y)                Sham    7/7    0/7 100.0000     0.0002    0.0006
+         S06-E            PSLN-344            PSLN-212    5/7    0/7  71.4286     0.0016    0.0210
+         S06-E            PSLN-344                Sham    5/7    0/7  71.4286     0.0002    0.0210
+         S06-E            PSLN-212                Sham    0/7    0/7   0.0000     0.1110    1.0000
+         S06-E            PSLN-344         PSLN-212(Y)    5/7    7/7 -28.5714     0.1413    0.4615
+         S06-E         PSLN-212(Y)                Sham    7/7    0/7 100.0000     0.0002    0.0006
+S06-E[imprint]      Naive+PSLN-344      Naive+PSLN-212    6/7    0/7  85.7143     0.0024    0.0047
+S06-E[imprint] Imprinting+PSLN-344 Imprinting+PSLN-212    6/7    4/7  28.5714     0.2321    0.5594
+         S06-F            PSLN-344            PSLN-212    5/7    1/7  57.1429     0.0094    0.1026
+         S06-F            PSLN-344                Sham    5/7    0/7  71.4286     0.0002    0.0210
+         S06-F            PSLN-212                Sham    1/7    0/7  14.2857     0.0664    1.0000
+         S06-F            PSLN-344         PSLN-212(Y)    5/7    7/7 -28.5714     0.1413    0.4615
+         S06-F         PSLN-212(Y)                Sham    7/7    0/7 100.0000     0.0002    0.0006
+S06-F[imprint]      Naive+PSLN-344      Naive+PSLN-212    6/7    0/7  85.7143     0.0006    0.0047
+S06-F[imprint] Imprinting+PSLN-344 Imprinting+PSLN-212    6/7    0/7  85.7143     0.0002    0.0047
+         S06-G            PSLN-344            PSLN-212    4/7    0/7  57.1429     0.0151    0.0699
+         S06-G            PSLN-344                Sham    4/7    0/7  57.1429     0.0002    0.0699
+         S06-G            PSLN-212                Sham    0/7    0/7   0.0000     0.0063    1.0000
+         S06-G            PSLN-344         PSLN-212(Y)    4/7    7/7 -42.8571     0.0597    0.1923
+         S06-G         PSLN-212(Y)                Sham    7/7    0/7 100.0000     0.0002    0.0006
+         S09-B         PSLN-344(Y)         PSLN-212(Y)    8/8    8/8   0.0000     1.0000    1.0000
+         S09-B         PSLN-344(Y)                Sham    8/8    0/8 100.0000     0.0001    0.0002
+         S09-B         PSLN-212(Y)                Sham    8/8    0/8 100.0000     0.0001    0.0002
+         S09-D         PSLN-344(Y)         PSLN-212(Y)    8/8    8/8   0.0000     1.0000    1.0000
+         S09-D         PSLN-344(Y)                Sham    8/8    0/8 100.0000     0.0001    0.0002
+         S09-D         PSLN-212(Y)                Sham    8/8    0/8 100.0000     0.0001    0.0002
+         S09-F         PSLN-344(Y)         PSLN-212(Y)    8/8    8/8   0.0000     1.0000    1.0000
+         S09-F         PSLN-344(Y)                Sham    8/8    0/7 100.0000     0.0001    0.0002
+         S09-F         PSLN-212(Y)                Sham    8/8    0/7 100.0000     0.0001    0.0002
+         S13-E         PSLN-344(Y)                Sham    7/7    1/7  85.7143     0.0016    0.0047
+         S13-E         PSLN-344(Y)          CMP-204(Y)    7/7    7/7   0.0000     1.0000    1.0000
+         S15-H 3d Vaccine+PSLN-344          3d Vaccine    6/7    0/7  85.7143     0.0002    0.0047
+         S15-H 3d Vaccine+PSLN-344         3d PSLN-344    6/7    0/7  85.7143     0.0001    0.0047
+         S15-L            PSLN-344            PSLN-212    6/7    0/7  85.7143     0.0011    0.0047
+         S15-L            PSLN-344                Sham    6/7    0/7  85.7143     0.0007    0.0047
+         S15-L            PSLN-212                Sham    0/7    0/7   0.0000     0.0657    1.0000
+         S15-L            PSLN-344         PSLN-212(Y)    6/7    6/7   0.0000     0.9566    1.0000
+         S15-L         PSLN-212(Y)                Sham    6/7    0/7  85.7143     0.0002    0.0047
+         S15-N            PSLN-344            PSLN-212    6/7    2/7  57.1429     0.0563    0.1026
+         S15-N            PSLN-344                Sham    6/7    0/7  85.7143     0.0011    0.0047
+         S15-N            PSLN-212                Sham    2/7    0/7  28.5714     0.0098    0.4615
+         S15-N            PSLN-344         PSLN-212(Y)    6/7    7/7 -14.2857     0.3173    1.0000
+         S15-N         PSLN-212(Y)                Sham    7/7    0/7 100.0000     0.0002    0.0006
+
+                                                                                0                                                                                     1                                                                                                            2                                                                           3                                                    4                                                 5
+analysis              A. As recorded (S06-D excluded as exact duplicate of S06-C)  B. Excluding experiments whose survival record conflicts with the body-weight record  C. Worst case for PSLN-344 (BW-implied counts where less favourable; S06-D re-entered with S15-D BW counts)  D. Aged BALB/c S06 series only (S06-A,B,C,E,F,G; challenge d3, d14 or d60)  E. Durability only (challenge at day 60: S06-E,F,G)  F. Rapid onset (challenge day 2-3: S03-J, S06-B)
+strata                                                                         14                                                                                     7                                                                                                           15                                                                           6                                                    3                                                 2
+surv_344                                                                   85/101                                                                                 40/49                                                                                                       90/108                                                                       32/42                                                14/21                                             15/17
+pct_344                                                                   84.1584                                                                               81.6327                                                                                                      83.3333                                                                     76.1905                                              66.6667                                           88.2353
+surv_212                                                                   13/101                                                                                  6/49                                                                                                       22/108                                                                        4/42                                                 1/21                                              3/17
+pct_212                                                                   12.8713                                                                               12.2449                                                                                                      20.3704                                                                      9.5238                                               4.7619                                           17.6471
+MH_RD_pp                                                                  71.2871                                                                               69.3878                                                                                                       62.963                                                                     66.6667                                              61.9048                                           70.5882
+RD_lo                                                                     49.5128                                                                               38.5095                                                                                                      43.3963                                                                     34.4958                                              18.5082                                           18.4241
+RD_hi                                                                     93.0614                                                                              100.2661                                                                                                      82.5296                                                                     98.8375                                             105.3013                                          122.7524
+MH_OR                                                                     29.3626                                                                               24.6522                                                                                                      18.4152                                                                      26.088                                              20.6757                                           39.0541
+CMH_p                                                                         0.0                                                                                   0.0                                                                                                          0.0                                                                         0.0                                               0.0004                                            0.0003
+strat_logrank_chi2                                                        116.597                                                                                58.227                                                                                                          NaN                                                                     47.1099                                               22.273                                           21.2341
+strat_logrank_p                                                               0.0                                                                                   0.0                                                                                                          NaN                                                                         0.0                                                  0.0                                               0.0
+strata_favouring_344                                               14/14 (ties 0)                                                                          7/7 (ties 0)                                                                                               15/15 (ties 0)                                                                6/6 (ties 0)                                         3/3 (ties 0)                                      2/2 (ties 0)
+sign_test_p                                                                0.0001                                                                                0.0156                                                                                                       0.0001                                                                      0.0312                                                 0.25                                               0.5
+breslow_day_p                                                              0.9739                                                                                0.7886                                                                                                         0.94                                                                      0.9975                                                0.933                                            0.8919
+
+               analysis surv_344 surv_212  MH_RD_pp   RD_lo   RD_hi  CMH_p  strat_logrank_p
+         LOO drop S03-I    78/94    13/94   69.1489 47.0313 91.2666    0.0              0.0
+         LOO drop S03-J    75/91    10/91   71.4286 48.4318 94.4254    0.0              0.0
+         LOO drop S06-A    79/94    12/94   71.2766 48.7188 93.8344    0.0              0.0
+         LOO drop S06-B    80/94    13/94   71.2766 48.6913 93.8619    0.0              0.0
+         LOO drop S06-C    78/94    11/94   71.2766 48.6913 93.8619    0.0              0.0
+         LOO drop S06-E    80/94    13/94   71.2766 48.6913 93.8619    0.0              0.0
+LOO drop S06-E[imprint]    73/87     9/87   73.5632 49.6669 97.4595    0.0              0.0
+         LOO drop S06-F    80/94    12/94   72.3404 49.5763 95.1045    0.0              0.0
+LOO drop S06-F[imprint]    73/87    13/87   68.9655 45.9961 91.9350    0.0              0.0
+         LOO drop S06-G    81/94    13/94   72.3404 49.5218 95.1590    0.0              0.0
+         LOO drop S15-L    79/94    13/94   70.2128 47.8611 92.5645    0.0              0.0
+         LOO drop S15-N    79/94    11/94   72.3404 49.5763 95.1045    0.0              0.0
+
+      group                                                      blocks  survivors  n  pct   lo    hi
+       Sham S03-I,S03-J,S06-A,S06-B,S06-C,S06-E,S06-F,S06-G,S15-L,S15-N          1 73  1.4  0.0   7.4
+   PSLN-212 S03-I,S03-J,S06-A,S06-B,S06-C,S06-E,S06-F,S06-G,S15-L,S15-N          9 73 12.3  5.8  22.1
+   PSLN-344 S03-I,S03-J,S06-A,S06-B,S06-C,S06-E,S06-F,S06-G,S15-L,S15-N         61 73 83.6 73.0  91.2
+PSLN-212(Y)       S03-I,S06-A,S06-B,S06-C,S06-E,S06-F,S06-G,S15-L,S15-N         62 63 98.4 91.5 100.0
+    CMP-204                                                       S03-I          3  7 42.9  9.9  81.6

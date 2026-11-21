@@ -1,0 +1,65 @@
+=== IgG2a/IgG1 quotient: S03-B vs S13-A / S13-B (CA09 H1N1) and S03-F vs S13-C / S13-D (Aichi H3N2)
+  S03-B column printed 'PSLN-212': mean 2.972  == per-animal S13-A/S13-B of group ['PSLN-212(Y)']
+  S03-B column printed 'PSLN-344': mean 0.578  == per-animal S13-A/S13-B of group ['PSLN-212']
+  S03-B column printed 'PSLN-212(Y)': mean 2.144  == per-animal S13-A/S13-B of group ['PSLN-344']
+     recomputed S13-A/S13-B for PSLN-212: per-animal [0.74  0.8   0.292 0.48  0.577]  mean 0.58  geo-mean 0.54
+     recomputed S13-A/S13-B for PSLN-344: per-animal [2.583 1.722 4.19  0.848 1.376]  mean 2.14  geo-mean 1.85
+     recomputed S13-A/S13-B for PSLN-212(Y): per-animal [4.436 4.577 1.18  1.172 3.495]  mean 2.97  geo-mean 2.50
+  S03-F column printed 'PSLN-212': mean 2.891  == per-animal S13-C/S13-D of group []
+  S03-F column printed 'PSLN-344': mean 0.512  == per-animal S13-C/S13-D of group ['PSLN-212']
+  S03-F column printed 'PSLN-212(Y)': mean 2.727  == per-animal S13-C/S13-D of group ['PSLN-344']
+     recomputed S13-C/S13-D for PSLN-212: per-animal [0.885 0.607 0.491 0.314 0.262]  mean 0.51  geo-mean 0.46
+     recomputed S13-C/S13-D for PSLN-344: per-animal [5.464 3.42  2.258 1.087 1.404]  mean 2.73  geo-mean 2.30
+     recomputed S13-C/S13-D for PSLN-212(Y): per-animal [3.879 3.061 3.174 2.635 1.707]  mean 2.89  geo-mean 2.79
+
+=== Tfh:Tfr quotient S04-B vs Foxp3+ fraction S04-B
+  Sham: (100-x)/x reproduces quotient: True
+  PSLN-212: (100-x)/x reproduces quotient: True
+  PSLN-344: (100-x)/x reproduces quotient: True
+  PSLN-212(Y): (100-x)/x reproduces quotient: True
+   -> the quotient is an algebraic transform of one measurement, not an independent endpoint
+
+=== S04-A: ICOS-lo + ICOS-hi per animal
+  Sham: total Tfh% = [1.5 2.1 2.5 4.2 1.3]
+  PSLN-212: total Tfh% = [8.4 6.6 5.9 6.2 5.5]
+  PSLN-344: total Tfh% = [19.2 14.9 13.2 13.9 18.8]
+  PSLN-212(Y): total Tfh% = [19.6 17.7 18.1 25.2 22.1]
+
+=== S09-A (log10) vs S01-A (linear): which timepoint does each S09-A panel reproduce?
+S09-A[A:U] Ifnb1
+        group  S09-A mean (10^x)  S01-A 16h mean  S01-A 72h mean
+      CMP-204               7.86            7.83            2.22
+     PSLN-212              16.65           16.64            3.43
+    PSLN-R848               5.04            5.05            1.24
+PSLN-212/R848              24.27           24.26            1.67
+     PSLN-344              36.70           37.11            4.43
+  PSLN-212(y)              37.99           37.60            1.59
+   log-scale RMSD vs 16h = 0.003, vs 72h = 0.934; r vs 16h = 1.000, r vs 72h = 0.424
+S09-A[X:AS] Ifnb1
+        group  S09-A mean (10^x)  S01-A 16h mean  S01-A 72h mean
+      CMP-204               2.21            7.83            2.22
+     PSLN-212               3.43           16.64            3.43
+    PSLN-R848               1.25            5.05            1.24
+PSLN-212/R848               1.65           24.26            1.67
+     PSLN-344               4.44           37.11            4.43
+  PSLN-212(y)               1.59           37.60            1.59
+   log-scale RMSD vs 16h = 0.935, vs 72h = 0.003; r vs 16h = 0.424, r vs 72h = 1.000
+
+=== S08-A (20 ug row) vs S01-A 16h (aged) - is the dose series in aged animals, and what is "PSLN-344/R848"?
+  S08-A 20ug CMP-204: 7.3 | S01-A 16h aged: CMP-204 7.8, PSLN-212 16.6, PSLN-212/R848 24.3, PSLN-344 37.1 | young: PSLN-212(Y) 37.6, PSLN-344(Y) 50.7
+  S08-A 20ug PSLN-212: 12.6 | S01-A 16h aged: CMP-204 7.8, PSLN-212 16.6, PSLN-212/R848 24.3, PSLN-344 37.1 | young: PSLN-212(Y) 37.6, PSLN-344(Y) 50.7
+  S08-A 20ug PSLN-344: 45.8 | S01-A 16h aged: CMP-204 7.8, PSLN-212 16.6, PSLN-212/R848 24.3, PSLN-344 37.1 | young: PSLN-212(Y) 37.6, PSLN-344(Y) 50.7
+  S08-A 20ug PSLN-344/R848: 29.4 | S01-A 16h aged: CMP-204 7.8, PSLN-212 16.6, PSLN-212/R848 24.3, PSLN-344 37.1 | young: PSLN-212(Y) 37.6, PSLN-344(Y) 50.7
+
+=== S01-B vs S08-C (same tracer, dose, timepoint, aged animals)
+  S01-B AECII/PSLN-SRB [17.7 17.5 14.9 16.7 12.2] mean 15.80
+  S01-B AECI/PSLN-SRB [4.92 2.38 4.13 2.92 4.81] mean 3.83
+  S08-C AECII-PSLN-SRB [17.7 17.5 18.9 12.2 12.5] mean 15.76
+  S08-C AECII-PSLN-344-SRB [4.92 2.35 4.61 4.13 3.02] mean 3.81
+  S08-C AECI-PSLN-SRB [14.32 15.11 15.12 11.83 12.42] mean 13.76
+  S08-C AECI-PSLN-344-SRB [2.93 3.53 3.79 2.52 2.23] mean 3.00
+
+=== S09-A Ifnb1 values are a subset of S01-A values (same group, same time point)?
+  S09-A[A:U] Ifnb1 vs S01-A 16h: 21 of 21 values found among the S01-A animals of the same group
+  S09-A[X:AS] Ifnb1 vs S01-A 72h: 21 of 21 values found among the S01-A animals of the same group
+  S09-A[X:AS] Ifnb1 vs S01-A 16h: 0 of 21 values found among the S01-A animals of the same group

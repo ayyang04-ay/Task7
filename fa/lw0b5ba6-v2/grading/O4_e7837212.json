@@ -1,0 +1,90 @@
+{
+  "id": "91da535e-faeb-4e8a-9982-08c8caa8b9b0",
+  "problem_run_id": "e7837212-0398-4997-a07b-e82ee253b47e",
+  "grading_run_id": "8c902c82-e5da-4210-9991-3bdf8163567e",
+  "grading_strategy_type": "agentic_grader",
+  "is_auxiliary_grade": false,
+  "normalized_score": 0.92,
+  "subscores": [
+    {
+      "name": "overall",
+      "score": 0.92,
+      "max_score": 1,
+      "weight": 1,
+      "reasoning": "I checked the model's proposal against the original workbook and annotation PDF. The work is accurate, thorough and well-sourced, with only minor weaknesses.\n\n**What I checked, using my own R and Python scripts on the original inputs**\n- **Survival counts:** every aged-mouse block reproduces the model's Table 1 exactly (S03-I/J, S06-A–G, the imprinting blocks, S15-H/L/N). Each per-experiment log-rank p-value also matches: 0.00035, 0.0014, 0.0083, 0.0009, 0.0068, 0.0016, 0.0094, 0.015, 0.0011, 0.056, and the imprinting values 0.0024/0.23 and 0.0006/0.0002.\n- **Pooled result:** my own Mantel–Haenszel risk difference (PSLN-344 vs PSLN-212, 61/73 vs 9/73) gives +71.2 points (95% CI 60.4–82.1), matching the model's +71 (60–82).\n- **Power:** my exact Fisher power calculations match the model's T12: 55% at n=7, and 98.6% and 90.6% at n=20.\n- **Immunology:** these all match.\n  - IgG geometric means are 393 vs 7,305, an 18.6× ratio; the Aichi IgG ratio is 13.4×.\n  - HAI is 46 vs 368, and 35 vs 320.\n  - Neutralising antibody is 9.2× higher.\n  - Post-boost IgG is 3.55× (CA09) and 11.45× (Aichi).\n- **Mechanism and other readouts:** these all match.\n  - Ifnb1 is 16.5 vs 36.9 vs 37.5 (young).\n  - Tfr, Tfh, GC B-cell, CD8, TRM, CD40/CD86, moDC and gap-junction-blocker values agree.\n  - The effects of INCB3344, pertussis toxin and GM-CSF agree.\n  - Lung cytokine fold-changes and CNS transcripts agree.\n  - Weight nadirs agree (96.4 / 97.0 / 98.2 / 90.0%, with the worst R848-combination animal at 84.7%).\n  - Encapsulation efficiency (54.8 ± 5.1%) and the restoration indices for CD40/CD86 and Tfr agree.\n\n**Data-integrity findings: every one I tested is real**\n- **A1:** S06-D is a cell-for-cell copy of S06-C.\n- **A2:** S11-A and S11-B are identical at 35 of 100 positions.\n- **A3:** body weights were copied between experiments. S09-E column X equals S15-M column I on 6 of 7 days, and on day 4 the two values differ only in the integer digit (98.98780488 vs 92.98780488).\n- **A6:** the S03-B group labels are rotated. The printed columns equal the S13-A/B titre quotients only after rotation, which reverses the Th1/Th2 conclusion.\n- **A7:** the second S09-A block, labelled 16 h, holds the log10 values of the S01-A 72 h data.\n- **Tfh:Tfr:** the ratio is exactly (100−Foxp3)/Foxp3, so it is derived rather than independent.\n- **Other flags:**\n  - stated vs observed n mismatches in S03-J, S13-E, S09 and S05;\n  - NP366 tetramer staining in BALB/c mice (an MHC mismatch);\n  - duplicate group labels in S07-C;\n  - the unlabelled region in S08;\n  - 4/21 deaths among unchallenged controls, with S06-G untreated survival equal to PSLN-344 survival;\n  - a CDN encapsulation value reported for an R848-only preparation.\n\n**Against the task requirements**\n- **Recommendation first:** it leads with a clear, objective and defensible one. Keep PSLN-344 conditionally, drop PSLN-212, release no IND-enabling funding yet, and run an eight-month gated verification with explicit stop rules. It separates \"is PSLN-344 better if the data are genuine?\" from \"are the data genuine?\".\n- **Next steps:** WS1–WS8 each give what must be established, population, comparators, endpoints, readouts, timing and go/no-go criteria. Sample sizes are derived from the observed effects, and planning estimates are labelled as such.\n- **Other sections:** it covers a mechanism of action with evidence grades, a tiered biomarker panel with human proxies, target-demographic segments with market-research inputs, what dropping the asset would give up, and a thorough considered-and-ruled-out table.\n- **Citations:** nearly every number carries a source tag that traces to a cell-range source map, and external facts are marked as external.\n- **Deliverables:** the figures are accurate and professional, and the Word and HTML files are consistent with the markdown.\n\n**Minor weaknesses**\n- The mechanism table does not flag that S02-I and S12-A are young animals.\n- The pertussis-toxin effect (−67%) is presented even though that group's adjuvant and age are unstated (the model does note this in the audit log).\n- The mechanism conclusion from S08-C (lower epithelial uptake of the Mn particle) rests on data the model itself flags as partly overlapping.\n- The very fast protection claimed when challenge comes 2–3 days after vaccination is never questioned as biologically implausible.\n- The replication and other studies start before the 3-month audit gate closes, so some money is spent before it is known whether the data are fabricated.\n- The proposal is long.\n\nThese are small relative to the accuracy and depth of the work."
+    }
+  ],
+  "weight": 1,
+  "allow_unbounded": false,
+  "created_at": "2026-11-19T16:51:09.092585Z",
+  "has_metadata": true,
+  "metadata_byte_size": 377786,
+  "metadata": {
+    "agentic_grader": {
+      "cc_harness": false,
+      "container_mode": "fresh_with_policy_setup",
+      "scoring_mode": "single_score",
+      "grading_model": "claude-opus-5-5",
+      "grading_model_slug": "claude-opus-5-5",
+      "grading_container_id": "noble-carpet-xxwbgm-cvvjzh",
+      "grader_error": false,
+      "full_debug_s3_hint": "biome/agentic-grading-transcripts/noble-carpet-xxwbgm-cvvjzh/grading_debug.json",
+      "grading_turns_count": null,
+      "grading_tokens_consumed": null,
+      "grader_context_window_effective": 1000000,
+      "grader_context_window_source": "default",
+      "policy_outputs_transfer": {
+        "mode": "snapshot_mount",
+        "snapshot_source": "pre_grade",
+        "snapshot_ttl": null,
+        "snapshot_seconds": 0.6467389279277995,
+        "reader_uid": 1000,
+        "handin_max_bytes": 2147483648,
+        "grading_box_seconds": 46.481,
+        "grading_box_attempts": 1,
+        "mount_verified": true,
+        "unmounted": true,
+        "detach_checks": [
+          "mounts",
+          "same_device",
+          "ext4_sysfs",
+          "device_read"
+        ],
+        "device_read_refused": true,
+        "present_seconds": 0.811,
+        "probe": "dir",
+        "measured_bytes": 5338947,
+        "entries": 54,
+        "status": "ok",
+        "declared_path_missing": false,
+        "declared_path_wrong_type": false,
+        "copied_files": 51,
+        "copied_bytes": 5264590,
+        "copies_inert": true
+      },
+      "import_shadowing_set_aside": [],
+      "grader_attempts": 1,
+      "grader_failed_attempts": [],
+      "grader_failed_attempt_errors": [],
+      "grader_failed_attempts_ms": 0,
+      "grader_planted_shape": null,
+      "policy_markup_hits": 0,
+      "handin_integrity": "unchanged",
+      "handin_integrity_drift_only": true
+    },
+    "rubric_evaluations": [
+      {
+        "name": "overall",
+        "score": 0.92,
+        "max_score": 1,
+        "weight": 1,
+        "reasoning": "I checked the model's proposal against the original workbook and annotation PDF. The work is accurate, thorough and well-sourced, with only minor weaknesses.\n\n**What I checked, using my own R and Python scripts on the original inputs**\n- **Survival counts:** every aged-mouse block reproduces the model's Table 1 exactly (S03-I/J, S06-A–G, the imprinting blocks, S15-H/L/N). Each per-experiment log-rank p-value also matches: 0.00035, 0.0014, 0.0083, 0.0009, 0.0068, 0.0016, 0.0094, 0.015, 0.0011, 0.056, and the imprinting values 0.0024/0.23 and 0.0006/0.0002.\n- **Pooled result:** my own Mantel–Haenszel risk difference (PSLN-344 vs PSLN-212, 61/73 vs 9/73) gives +71.2 points (95% CI 60.4–82.1), matching the model's +71 (60–82).\n- **Power:** my exact Fisher power calculations match the model's T12: 55% at n=7, and 98.6% and 90.6% at n=20.\n- **Immunology:** these all match.\n  - IgG geometric means are 393 vs 7,305, an 18.6× ratio; the Aichi IgG ratio is 13.4×.\n  - HAI is 46 vs 368, and 35 vs 320.\n  - Neutralising antibody is 9.2× higher.\n  - Post-boost IgG is 3.55× (CA09) and 11.45× (Aichi).\n- **Mechanism and other readouts:** these all match.\n  - Ifnb1 is 16.5 vs 36.9 vs 37.5 (young).\n  - Tfr, Tfh, GC B-cell, CD8, TRM, CD40/CD86, moDC and gap-junction-blocker values agree.\n  - The effects of INCB3344, pertussis toxin and GM-CSF agree.\n  - Lung cytokine fold-changes and CNS transcripts agree.\n  - Weight nadirs agree (96.4 / 97.0 / 98.2 / 90.0%, with the worst R848-combination animal at 84.7%).\n  - Encapsulation efficiency (54.8 ± 5.1%) and the restoration indices for CD40/CD86 and Tfr agree.\n\n**Data-integrity findings: every one I tested is real**\n- **A1:** S06-D is a cell-for-cell copy of S06-C.\n- **A2:** S11-A and S11-B are identical at 35 of 100 positions.\n- **A3:** body weights were copied between experiments. S09-E column X equals S15-M column I on 6 of 7 days, and on day 4 the two values differ only in the integer digit (98.98780488 vs 92.98780488).\n- **A6:** the S03-B group labels are rotated. The printed columns equal the S13-A/B titre quotients only after rotation, which reverses the Th1/Th2 conclusion.\n- **A7:** the second S09-A block, labelled 16 h, holds the log10 values of the S01-A 72 h data.\n- **Tfh:Tfr:** the ratio is exactly (100−Foxp3)/Foxp3, so it is derived rather than independent.\n- **Other flags:**\n  - stated vs observed n mismatches in S03-J, S13-E, S09 and S05;\n  - NP366 tetramer staining in BALB/c mice (an MHC mismatch);\n  - duplicate group labels in S07-C;\n  - the unlabelled region in S08;\n  - 4/21 deaths among unchallenged controls, with S06-G untreated survival equal to PSLN-344 survival;\n  - a CDN encapsulation value reported for an R848-only preparation.\n\n**Against the task requirements**\n- **Recommendation first:** it leads with a clear, objective and defensible one. Keep PSLN-344 conditionally, drop PSLN-212, release no IND-enabling funding yet, and run an eight-month gated verification with explicit stop rules. It separates \"is PSLN-344 better if the data are genuine?\" from \"are the data genuine?\".\n- **Next steps:** WS1–WS8 each give what must be established, population, comparators, endpoints, readouts, timing and go/no-go criteria. Sample sizes are derived from the observed effects, and planning estimates are labelled as such.\n- **Other sections:** it covers a mechanism of action with evidence grades, a tiered biomarker panel with human proxies, target-demographic segments with market-research inputs, what dropping the asset would give up, and a thorough considered-and-ruled-out table.\n- **Citations:** nearly every number carries a source tag that traces to a cell-range source map, and external facts are marked as external.\n- **Deliverables:** the figures are accurate and professional, and the Word and HTML files are consistent with the markdown.\n\n**Minor weaknesses**\n- The mechanism table does not flag that S02-I and S12-A are young animals.\n- The pertussis-toxin effect (−67%) is presented even though that group's adjuvant and age are unstated (the model does note this in the audit log).\n- The mechanism conclusion from S08-C (lower epithelial uptake of the Mn particle) rests on data the model itself flags as partly overlapping.\n- The very fast protection claimed when challenge comes 2–3 days after vaccination is never questioned as biologically implausible.\n- The replication and other studies start before the 3-month audit gate closes, so some money is spent before it is known whether the data are fabricated.\n- The proposal is long.\n\nThese are small relative to the accuracy and depth of the work."
+      }
+    ],
+    "strategy_type": "agentic_grader",
+    "grade_key": "agentic_grader",
+    "label": null,
+    "strategy_weight": 1,
+    "is_auxiliary": false
+  }
+}

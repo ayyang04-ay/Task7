@@ -1,0 +1,834 @@
+id,key,value,description,blocks,cells,method,script,flag,used_in_proposal
+E001,acute_344,42/45,"Survival, PSLN-344, aged BALB/c, challenge 2–14 d after one dose, all six blocks as printed",S03-I; S03-J; S06-A; S06-B; S06-C; S06-D,S03!B17:F51; S03!H17:J46; S06!B3:E30; S06!H3:K30; S06!N3:Q30; S06!B34:E61,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,includes flagged blocks,True
+E004,acute_212,8/45,"Survival, PSLN-212, aged BALB/c, challenge 2–14 d after one dose, all six blocks as printed",S03-I; S03-J; S06-A; S06-B; S06-C; S06-D,S03!B17:F51; S03!H17:J46; S06!B3:E30; S06!H3:K30; S06!N3:Q30; S06!B34:E61,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,includes flagged blocks,True
+E007,acute_sham,1/45,"Survival, Sham, aged BALB/c, challenge 2–14 d after one dose, all six blocks as printed",S03-I; S03-J; S06-A; S06-B; S06-C; S06-D,S03!B17:F51; S03!H17:J46; S06!B3:E30; S06!H3:K30; S06!N3:Q30; S06!B34:E61,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,includes flagged blocks,True
+E010,acute_y212,35/35,"Survival, PSLN-212(Y), aged BALB/c, challenge 2–14 d after one dose, all six blocks as printed",S03-I; S06-A; S06-B; S06-C; S06-D,S03!B17:F51; S06!B3:E30; S06!H3:K30; S06!N3:Q30; S06!B34:E61,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,includes flagged blocks,True
+E013,rob_344,18/21,"Survival, PSLN-344, aged BALB/c, challenge 3–14 d after one dose, flag-robust blocks",S06-A; S06-B; S06-C,S06!B3:E30; S06!H3:K30; S06!N3:Q30,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,True
+E014,rob_344_pct,86%,"Survival %, PSLN-344, aged BALB/c, challenge 3–14 d after one dose, flag-robust blocks",S06-A; S06-B; S06-C,S06!B3:E30; S06!H3:K30; S06!N3:Q30,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,True
+E015,rob_344_ci,64–97%,"95% CI of survival %, PSLN-344, aged BALB/c, challenge 3–14 d after one dose, flag-robust blocks",S06-A; S06-B; S06-C,S06!B3:E30; S06!H3:K30; S06!N3:Q30,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,True
+E016,rob_212,3/21,"Survival, PSLN-212, aged BALB/c, challenge 3–14 d after one dose, flag-robust blocks",S06-A; S06-B; S06-C,S06!B3:E30; S06!H3:K30; S06!N3:Q30,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,True
+E017,rob_212_pct,14%,"Survival %, PSLN-212, aged BALB/c, challenge 3–14 d after one dose, flag-robust blocks",S06-A; S06-B; S06-C,S06!B3:E30; S06!H3:K30; S06!N3:Q30,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,True
+E019,rob_sham,0/21,"Survival, Sham, aged BALB/c, challenge 3–14 d after one dose, flag-robust blocks",S06-A; S06-B; S06-C,S06!B3:E30; S06!H3:K30; S06!N3:Q30,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,True
+E020,rob_sham_pct,0%,"Survival %, Sham, aged BALB/c, challenge 3–14 d after one dose, flag-robust blocks",S06-A; S06-B; S06-C,S06!B3:E30; S06!H3:K30; S06!N3:Q30,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,True
+E022,rob_y212,21/21,"Survival, PSLN-212(Y), aged BALB/c, challenge 3–14 d after one dose, flag-robust blocks",S06-A; S06-B; S06-C,S06!B3:E30; S06!H3:K30; S06!N3:Q30,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,True
+E025,d60_344,14/21,"Survival, PSLN-344, aged BALB/c, challenge 60 d after one dose",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,True
+E026,d60_344_pct,67%,"Survival %, PSLN-344, aged BALB/c, challenge 60 d after one dose",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,True
+E027,d60_344_ci,43–85%,"95% CI of survival %, PSLN-344, aged BALB/c, challenge 60 d after one dose",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,True
+E028,d60_212,1/21,"Survival, PSLN-212, aged BALB/c, challenge 60 d after one dose",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,True
+E031,d60_sham,0/21,"Survival, Sham, aged BALB/c, challenge 60 d after one dose",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,True
+E034,d60_y212,21/21,"Survival, PSLN-212(Y), aged BALB/c, challenge 60 d after one dose",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,True
+E037,d60_untreated,17/21,"Survival of untreated, unchallenged aged animals over the same 14-d window (background)",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,True
+E040,bg_deaths,4/21,"Deaths among untreated, unchallenged aged animals in 14 d",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,count,03b_survival_pooled.py,,True
+E041,bg_deaths_pct,19%,"as above, %",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,count,03b_survival_pooled.py,,True
+E042,bg_deaths_ci,5–42%,"as above, CI",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,True
+E046,rob_rd,71,"Mantel–Haenszel survival difference PSLN-344 − PSLN-212, percentage points (ACUTE flag-robust)",S06-A; S06-B; S06-C,S06!B3:E30; S06!H3:K30; S06!N3:Q30,"Mantel–Haenszel risk difference stratified by experiment, Greenland–Robins 95% CI",03b_survival_pooled.py,,True
+E047,rob_rd_ci,51 to 91,CI of the above,S06-A; S06-B; S06-C,S06!B3:E30; S06!H3:K30; S06!N3:Q30,as above,03b_survival_pooled.py,,True
+E048,rob_lr_p,5.6×10⁻⁷,"Stratified log-rank p, PSLN-344 vs PSLN-212 (ACUTE flag-robust)",S06-A; S06-B; S06-C,S06!B3:E30; S06!H3:K30; S06!N3:Q30,log-rank stratified by experiment (cross-checked with R survival::survdiff),03b_survival_pooled.py; 03c_survival_crosscheck.R,,True
+E052,d60_344_vs_young_p,0.005,"Stratified log-rank p, aged PSLN-344 vs young PSLN-212 at d60",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,stratified log-rank,03b_survival_pooled.py,,True
+E053,d60_344_vs_untreated_p,0.44,"Stratified log-rank p, challenged PSLN-344 vs unchallenged untreated at d60",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,stratified log-rank,03b_survival_pooled.py,,True
+E055,strain_344,12/14,"Survival, PSLN-344, aged C57BL/6 + Swiss Webster",S15-L; S15-N,S15!B103:E130; S15!B134:E161,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,True
+E057,strain_212,2/14,"Survival, PSLN-212, aged C57BL/6 + Swiss Webster",S15-L; S15-N,S15!B103:E130; S15!B134:E161,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,True
+E063,m14_344_naive,12/14,"Survival, Naive+PSLN-344, 14-month BALB/c, no prior infection",S06-E[r71]; S06-F[r71],S06!H71:K98; S06!N71:Q98,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,True
+E065,m14_212_naive,0/14,"Survival, Naive+PSLN-212, 14-month BALB/c, no prior infection",S06-E[r71]; S06-F[r71],S06!H71:K98; S06!N71:Q98,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,True
+E067,m14_344_impr,12/14,"Survival, Imprinting+PSLN-344, 14-month BALB/c, PR8-imprinted",S06-E[r71]; S06-F[r71],S06!H71:K98; S06!N71:Q98,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,True
+E071,young_344,24/24,"Survival, PSLN-344Y, young BALB/c",S09-B; S09-D; S09-F,S09!B12:D35; S09!B39:D62; S09!B66:D88,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,True
+E073,young_212,24/24,"Survival, PSLN-212Y, young BALB/c",S09-B; S09-D; S09-F,S09!B12:D35; S09!B39:D62; S09!B66:D88,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,True
+E077,S03I_Sham,0/7,"Survival, Sham, block S03-I",S03-I,S03!B17:F51,survivors / animals,03_survival.py,,True
+E078,S03I_CMP204,3/7,"Survival, CMP-204, block S03-I",S03-I,S03!B17:F51,survivors / animals,03_survival.py,,True
+E079,S03I_PSLN212,0/7,"Survival, PSLN-212, block S03-I",S03-I,S03!B17:F51,survivors / animals,03_survival.py,,True
+E080,S03I_PSLN344,7/7,"Survival, PSLN-344, block S03-I",S03-I,S03!B17:F51,survivors / animals,03_survival.py,,True
+E081,S03I_PSLN212Y,7/7,"Survival, PSLN-212(Y), block S03-I",S03-I,S03!B17:F51,survivors / animals,03_survival.py,,True
+E082,S03J_Sham,1/10,"Survival, Sham, block S03-J",S03-J,S03!H17:J46,survivors / animals,03_survival.py,,True
+E083,S03J_PSLN212,3/10,"Survival, PSLN-212, block S03-J",S03-J,S03!H17:J46,survivors / animals,03_survival.py,,True
+E084,S03J_PSLN344,10/10,"Survival, PSLN-344, block S03-J",S03-J,S03!H17:J46,survivors / animals,03_survival.py,,True
+E085,S06A_Sham,0/7,"Survival, Sham, block S06-A",S06-A,S06!B3:E30,survivors / animals,03_survival.py,,True
+E086,S06A_PSLN212,1/7,"Survival, PSLN-212, block S06-A",S06-A,S06!B3:E30,survivors / animals,03_survival.py,,True
+E087,S06A_PSLN344,6/7,"Survival, PSLN-344, block S06-A",S06-A,S06!B3:E30,survivors / animals,03_survival.py,,True
+E088,S06A_PSLN212Y,7/7,"Survival, PSLN-212(Y), block S06-A",S06-A,S06!B3:E30,survivors / animals,03_survival.py,,True
+E089,S06B_Sham,0/7,"Survival, Sham, block S06-B",S06-B,S06!H3:K30,survivors / animals,03_survival.py,,True
+E090,S06B_PSLN212,0/7,"Survival, PSLN-212, block S06-B",S06-B,S06!H3:K30,survivors / animals,03_survival.py,,True
+E091,S06B_PSLN344,5/7,"Survival, PSLN-344, block S06-B",S06-B,S06!H3:K30,survivors / animals,03_survival.py,,True
+E092,S06B_PSLN212Y,7/7,"Survival, PSLN-212(Y), block S06-B",S06-B,S06!H3:K30,survivors / animals,03_survival.py,,True
+E093,S06C_Sham,0/7,"Survival, Sham, block S06-C",S06-C,S06!N3:Q30,survivors / animals,03_survival.py,,True
+E094,S06C_PSLN212,2/7,"Survival, PSLN-212, block S06-C",S06-C,S06!N3:Q30,survivors / animals,03_survival.py,,True
+E095,S06C_PSLN344,7/7,"Survival, PSLN-344, block S06-C",S06-C,S06!N3:Q30,survivors / animals,03_survival.py,,True
+E096,S06C_PSLN212Y,7/7,"Survival, PSLN-212(Y), block S06-C",S06-C,S06!N3:Q30,survivors / animals,03_survival.py,,True
+E097,S06D_Sham,0/7,"Survival, Sham, block S06-D",S06-D,S06!B34:E61,survivors / animals,03_survival.py,,True
+E098,S06D_PSLN212,2/7,"Survival, PSLN-212, block S06-D",S06-D,S06!B34:E61,survivors / animals,03_survival.py,,True
+E099,S06D_PSLN344,7/7,"Survival, PSLN-344, block S06-D",S06-D,S06!B34:E61,survivors / animals,03_survival.py,,True
+E100,S06D_PSLN212Y,7/7,"Survival, PSLN-212(Y), block S06-D",S06-D,S06!B34:E61,survivors / animals,03_survival.py,,True
+E101,S06E_Sham,0/7,"Survival, Sham, block S06-E",S06-E,S06!H34:L68,survivors / animals,03_survival.py,,True
+E102,S06E_PSLN212,0/7,"Survival, PSLN-212, block S06-E",S06-E,S06!H34:L68,survivors / animals,03_survival.py,,True
+E103,S06E_PSLN344,5/7,"Survival, PSLN-344, block S06-E",S06-E,S06!H34:L68,survivors / animals,03_survival.py,,True
+E104,S06E_PSLN212Y,7/7,"Survival, PSLN-212(Y), block S06-E",S06-E,S06!H34:L68,survivors / animals,03_survival.py,,True
+E105,S06E_Untreated,6/7,"Survival, Untreated, block S06-E",S06-E,S06!H34:L68,survivors / animals,03_survival.py,,True
+E106,S06F_Sham,0/7,"Survival, Sham, block S06-F",S06-F,S06!N34:R68,survivors / animals,03_survival.py,,True
+E107,S06F_PSLN212,1/7,"Survival, PSLN-212, block S06-F",S06-F,S06!N34:R68,survivors / animals,03_survival.py,,True
+E108,S06F_PSLN344,5/7,"Survival, PSLN-344, block S06-F",S06-F,S06!N34:R68,survivors / animals,03_survival.py,,True
+E109,S06F_PSLN212Y,7/7,"Survival, PSLN-212(Y), block S06-F",S06-F,S06!N34:R68,survivors / animals,03_survival.py,,True
+E110,S06F_Untreated,7/7,"Survival, Untreated, block S06-F",S06-F,S06!N34:R68,survivors / animals,03_survival.py,,True
+E111,S06G_Sham,0/7,"Survival, Sham, block S06-G",S06-G,S06!B71:F105,survivors / animals,03_survival.py,,True
+E112,S06G_PSLN212,0/7,"Survival, PSLN-212, block S06-G",S06-G,S06!B71:F105,survivors / animals,03_survival.py,,True
+E113,S06G_PSLN344,4/7,"Survival, PSLN-344, block S06-G",S06-G,S06!B71:F105,survivors / animals,03_survival.py,,True
+E114,S06G_PSLN212Y,7/7,"Survival, PSLN-212(Y), block S06-G",S06-G,S06!B71:F105,survivors / animals,03_survival.py,,True
+E115,S06G_Untreated,4/7,"Survival, Untreated, block S06-G",S06-G,S06!B71:F105,survivors / animals,03_survival.py,,True
+E116,S06Er71_NaivePSLN212,0/7,"Survival, Naive+PSLN-212, block S06-E[r71]",S06-E[r71],S06!H71:K98,survivors / animals,03_survival.py,,True
+E117,S06Er71_ImprintingPSLN212,4/7,"Survival, Imprinting+PSLN-212, block S06-E[r71]",S06-E[r71],S06!H71:K98,survivors / animals,03_survival.py,,True
+E118,S06Er71_NaivePSLN344,6/7,"Survival, Naive+PSLN-344, block S06-E[r71]",S06-E[r71],S06!H71:K98,survivors / animals,03_survival.py,,True
+E119,S06Er71_ImprintingPSLN344,6/7,"Survival, Imprinting+PSLN-344, block S06-E[r71]",S06-E[r71],S06!H71:K98,survivors / animals,03_survival.py,,True
+E120,S06Fr71_NaivePSLN212,0/7,"Survival, Naive+PSLN-212, block S06-F[r71]",S06-F[r71],S06!N71:Q98,survivors / animals,03_survival.py,,True
+E121,S06Fr71_ImprintingPSLN212,0/7,"Survival, Imprinting+PSLN-212, block S06-F[r71]",S06-F[r71],S06!N71:Q98,survivors / animals,03_survival.py,,True
+E122,S06Fr71_NaivePSLN344,6/7,"Survival, Naive+PSLN-344, block S06-F[r71]",S06-F[r71],S06!N71:Q98,survivors / animals,03_survival.py,,True
+E123,S06Fr71_ImprintingPSLN344,6/7,"Survival, Imprinting+PSLN-344, block S06-F[r71]",S06-F[r71],S06!N71:Q98,survivors / animals,03_survival.py,,True
+E131,S09F_PSLN344Y,8/8,"Survival, PSLN-344Y, block S09-F",S09-F,S09!B66:D88,survivors / animals,03_survival.py,,True
+E132,S09F_PSLN212Y,8/8,"Survival, PSLN-212Y, block S09-F",S09-F,S09!B66:D88,survivors / animals,03_survival.py,,True
+E133,S15H_3dVaccine,0/7,"Survival, 3d Vaccine, block S15-H",S15-H,S15!B73:D93,survivors / animals,03_survival.py,,True
+E134,S15H_3dPSLN344,0/7,"Survival, 3d PSLN-344, block S15-H",S15-H,S15!B73:D93,survivors / animals,03_survival.py,,True
+E135,S15H_3dVaccinePSLN344,6/7,"Survival, 3d Vaccine+PSLN-344, block S15-H",S15-H,S15!B73:D93,survivors / animals,03_survival.py,,True
+E136,S15L_Sham,0/7,"Survival, Sham, block S15-L",S15-L,S15!B103:E130,survivors / animals,03_survival.py,,True
+E137,S15L_PSLN212,0/7,"Survival, PSLN-212, block S15-L",S15-L,S15!B103:E130,survivors / animals,03_survival.py,,True
+E138,S15L_PSLN344,6/7,"Survival, PSLN-344, block S15-L",S15-L,S15!B103:E130,survivors / animals,03_survival.py,,True
+E139,S15L_PSLN212Y,6/7,"Survival, PSLN-212(Y), block S15-L",S15-L,S15!B103:E130,survivors / animals,03_survival.py,,True
+E140,S15N_Sham,0/7,"Survival, Sham, block S15-N",S15-N,S15!B134:E161,survivors / animals,03_survival.py,,True
+E141,S15N_PSLN212,2/7,"Survival, PSLN-212, block S15-N",S15-N,S15!B134:E161,survivors / animals,03_survival.py,,True
+E142,S15N_PSLN344,6/7,"Survival, PSLN-344, block S15-N",S15-N,S15!B134:E161,survivors / animals,03_survival.py,,True
+E143,S15N_PSLN212Y,7/7,"Survival, PSLN-212(Y), block S15-N",S15-N,S15!B134:E161,survivors / animals,03_survival.py,,True
+E146,S13E_CMP204Y,7/7,"Survival, CMP-204(Y), block S13-E",S13-E,S13!S3:V30,survivors / animals,03_survival.py,,True
+E148,early_344,21/24,"Survival with PSLN-344 + vaccine when challenged 2–3 d after dosing (S03-J d2, S06-B d3, S15-H d3); S06-D omitted as duplicate",S03-J; S06-B; S15-H,S03!H17:J46; S06!H3:K30; S15!B73:D93,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,10_numbers.py,,True
+E150,early_344_ci,68–97%,"as above, CI",S03-J; S06-B; S15-H,S03!H17:J46; S06!H3:K30; S15!B73:D93,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,10_numbers.py,,True
+E151,S03I_cmp_vs_212_p,0.001,"Log-rank p, CMP-204 vs PSLN-212 in S03-I as printed",S03-I,S03!B17:F51,log-rank (asymptotic); exact permutation p = 0.003,03_survival.py,labels disputed (Q2),True
+E152,S15H_combo_vs_adj_p,0.0006,"Exact log-rank p, vaccine + PSLN-344 vs PSLN-344 alone",S15-H,S15!B73:D93,exact permutation log-rank,03_survival.py,,True
+E156,ifnb16_cmp,7.8,"Mean, CMP-204, Ifnb1 mRNA, total lung cells (qRT-PCR), fold vs untreated",S01-A 16h,S01!B3:F10,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E158,ifnb16_a212,16.6,"Mean, PSLN-212, Ifnb1 mRNA, total lung cells (qRT-PCR), fold vs untreated",S01-A 16h,S01!B3:F10,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E162,ifnb16_a212r848,24.3,"Mean, PSLN-212/R848, Ifnb1 mRNA, total lung cells (qRT-PCR), fold vs untreated",S01-A 16h,S01!B3:F10,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E164,ifnb16_a344,37.1,"Mean, PSLN-344, Ifnb1 mRNA, total lung cells (qRT-PCR), fold vs untreated",S01-A 16h,S01!B3:F10,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E165,ifnb72_a344,4.4,"Mean, PSLN-344, Ifnb1 mRNA, total lung cells (qRT-PCR), fold vs untreated",S01-A 72h,S01!H3:L10,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E166,ifnb16_y212,37.6,"Mean, PSLN-212(Y), Ifnb1 mRNA, total lung cells (qRT-PCR), fold vs untreated",S01-A 16h,S01!B3:F10,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E170,ifnb16_p_344_212,3.7×10⁻⁸,"Tukey p, Ifnb1 16 h, PSLN-344 vs PSLN-212 (aged)",S01-A 16h,S01!B3:F10,one-way ANOVA + Tukey HSD (8 groups),04_immunology_stats.py,,True
+E172,ifnb16_212_pct_young,44%,Aged PSLN-212 Ifnb1 16 h as % of young PSLN-212,S01-A 16h,S01!B3:F10,ratio of means,10_numbers.py,,True
+E173,ifnb16_344_pct_young,99%,Aged PSLN-344 Ifnb1 16 h as % of young PSLN-212,S01-A 16h,S01!B3:F10,ratio of means,10_numbers.py,,True
+E174,gmcsf16_a344,6.0,"Mean, PSLN-344, Gm-csf mRNA, lung (qRT-PCR), fold vs untreated at x=16",S02-F,S02!B17:P19,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E177,gmcsf36_a344,8.7,"Mean, PSLN-344, Gm-csf mRNA, lung (qRT-PCR), fold vs untreated at x=36",S02-F,S02!B17:P19,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E180,gmcsf72_a344,3.9,"Mean, PSLN-344, Gm-csf mRNA, lung (qRT-PCR), fold vs untreated at x=72",S02-F,S02!B17:P19,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E183,gmcsf_212_max,1.6,Highest mean Gm-csf fold with PSLN-212 across 16/36/72 h,S02-F,S02!B17:P19,arithmetic mean of per-animal values,10_numbers.py,,True
+E185,emax_a344,58,"Emax (fold), PSLN-344, Ifnb1 dose-response",S08-A,S08!B3:M7,"Hill model E = 1 + Emax·d^h/(ED50^h + d^h), log-scale least squares; bootstrap 95% CI 48–68",05_dose_response.py,,True
+E186,ed50_a344,13,"ED50 (µg), PSLN-344",S08-A,S08!B3:M7,as above; bootstrap 95% CI 11–16,05_dose_response.py,,True
+E189,emax_a212,16,"Emax (fold), PSLN-212, Ifnb1 dose-response",S08-A,S08!B3:M7,"Hill model E = 1 + Emax·d^h/(ED50^h + d^h), log-scale least squares; bootstrap 95% CI 13–19",05_dose_response.py,,True
+E190,ed50_a212,11,"ED50 (µg), PSLN-212",S08-A,S08!B3:M7,as above; bootstrap 95% CI 8–14,05_dose_response.py,,True
+E193,emax_cmp,7,"Emax (fold), CMP-204, Ifnb1 dose-response",S08-A,S08!B3:M7,"Hill model E = 1 + Emax·d^h/(ED50^h + d^h), log-scale least squares; bootstrap 95% CI 6–8",05_dose_response.py,,True
+E197,dr5_a344,8.3,"Mean Ifnb1 fold at 5 µg, PSLN-344",S08-A,S08!B3:M7,arithmetic mean of per-animal values (n=3),05_dose_response.py,,True
+E201,dr10_a344,21.1,"Mean Ifnb1 fold at 10 µg, PSLN-344",S08-A,S08!B3:M7,arithmetic mean of per-animal values (n=3),05_dose_response.py,,True
+E206,dr20_a212,12.6,"Mean Ifnb1 fold at 20 µg, PSLN-212",S08-A,S08!B3:M7,arithmetic mean of per-animal values (n=3),05_dose_response.py,,True
+E210,dr40_a212,14.9,"Mean Ifnb1 fold at 40 µg, PSLN-212",S08-A,S08!B3:M7,arithmetic mean of per-animal values (n=3),05_dose_response.py,,True
+E213,dr_plateau,91%,PSLN-344 response at 20 µg as % of response at 40 µg,S08-A,S08!B3:M7,ratio of means,05_dose_response.py,,True
+E216,mono4_sham,10.4,"Mean, Sham, % lung monocytes (CD11b+Ly6C+CD11c-Ly6G-) at x=4",S01-D,S01!B24:U28,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E217,mono4_a212,16.7,"Mean, PSLN-212, % lung monocytes (CD11b+Ly6C+CD11c-Ly6G-) at x=4",S01-D,S01!B24:U28,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E218,mono4_a344,30.6,"Mean, PSLN-344, % lung monocytes (CD11b+Ly6C+CD11c-Ly6G-) at x=4",S01-D,S01!B24:U28,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E219,mono4_y212,32.2,"Mean, PSLN-212(Y), % lung monocytes (CD11b+Ly6C+CD11c-Ly6G-) at x=4",S01-D,S01!B24:U28,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E220,mono8_sham,9.5,"Mean, Sham, % lung monocytes (CD11b+Ly6C+CD11c-Ly6G-) at x=8",S01-D,S01!B24:U28,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E222,mono8_a344,18.4,"Mean, PSLN-344, % lung monocytes (CD11b+Ly6C+CD11c-Ly6G-) at x=8",S01-D,S01!B24:U28,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E228,dc8_sham,2.4,"Mean, Sham, % lung CD11b+ DC (CD11c+MHC-II+CD11b+F4/80-) at x=8",S01-E,S01!B30:Z34,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E230,dc8_a344,13.7,"Mean, PSLN-344, % lung CD11b+ DC (CD11c+MHC-II+CD11b+F4/80-) at x=8",S01-E,S01!B30:Z34,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E235,ccr7_a212,7.3,"Mean, PSLN-212, % CCR7+ of lung CD11b+ DC",S02-A,S02!A3:D7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E236,ccr7_a344,30.7,"Mean, PSLN-344, % CCR7+ of lung CD11b+ DC",S02-A,S02!A3:D7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E244,cd40_a344,11.2,"Mean, PSLN-344, % CD40+ of MLN CD11b+ DC",S02-D CD40,S02!A10:D14,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E245,cd40_y212,38.7,"Mean, PSLN-212(Y), % CD40+ of MLN CD11b+ DC",S02-D CD40,S02!A10:D14,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E248,cd86_a344,14.5,"Mean, PSLN-344, % CD86+ of MLN CD11b+ DC",S02-D CD86,S02!F10:I14,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E249,cd86_y212,37.9,"Mean, PSLN-212(Y), % CD86+ of MLN CD11b+ DC",S02-D CD86,S02!F10:I14,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E251,cd206_a212,71.5,"Mean, PSLN-212, % CD206+ macrophages in lung",S11-E,S11!A31:D35,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E252,cd206_a344,48.9,"Mean, PSLN-344, % CD206+ macrophages in lung",S11-E,S11!A31:D35,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E263,gzmb3_a212,3.0,"Mean, PSLN-212, % GZMB+ lung CD8 T",S05-E,S05!A26:D30,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E264,gzmb3_a344,5.7,"Mean, PSLN-344, % GZMB+ lung CD8 T",S05-E,S05!A26:D30,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E267,ifng14_a212,1.5,"Mean, PSLN-212, % IFN-g+ CD8 T, MLN, rgH5N1 restim",S05-F,S05!A33:D37,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E268,ifng14_a344,6.4,"Mean, PSLN-344, % IFN-g+ CD8 T, MLN, rgH5N1 restim",S05-F,S05!A33:D37,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E279,trm_a212,1.0,"Mean, PSLN-212, % lung CD8 TRM (CD69+CD103+)",S05-I,S05!A54:D58,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E280,trm_a344,4.0,"Mean, PSLN-344, % lung CD8 TRM (CD69+CD103+)",S05-I,S05!A54:D58,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E291,gcb_a212,2.3,"Mean, PSLN-212, % GC B cells (CXCR5+GL7+) in MLN",S03-K,S03!L17:O21,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E292,gcb_a344,6.5,"Mean, PSLN-344, % GC B cells (CXCR5+GL7+) in MLN",S03-K,S03!L17:O21,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E299,tfr7_a212,26.7,"Mean, PSLN-212, % Tfr (Foxp3+ in CXCR5+ICOShi CD4), MLN",S04-B Foxp3,S04!A8:D12,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E300,tfr7_a344,10.8,"Mean, PSLN-344, % Tfr (Foxp3+ in CXCR5+ICOShi CD4), MLN",S04-B Foxp3,S04!A8:D12,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E302,tfr30_sham,13.9,"Mean, Sham, % Tfr, MLN",S04-C,S04!A22:D26,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E304,tfr30_a344,14.0,"Mean, PSLN-344, % Tfr, MLN",S04-C,S04!A22:D26,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E307,treg_a212,6.7,"Mean, PSLN-212, % lung Treg (CD4+Foxp3+)",S04-D,S04!A29:D31,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,True
+E308,treg_a344,3.0,"Mean, PSLN-344, % lung Treg (CD4+Foxp3+)",S04-D,S04!A29:D31,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,True
+E314,ova_a212,1.8,"Mean, PSLN-212, % OVA-AF647+ MLN DC",S02-C,S02!K3:O7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E315,oti_a212,0.8,"Mean, PSLN-212, % proliferated OT-I CD8 (CFSE dilution) after co-culture with MLN CD11b+ DC",S02-E,S02!K10:O14,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E316,ova_a344,7.1,"Mean, PSLN-344, % OVA-AF647+ MLN DC",S02-C,S02!K3:O7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E317,oti_a344,18.7,"Mean, PSLN-344, % proliferated OT-I CD8 (CFSE dilution) after co-culture with MLN CD11b+ DC",S02-E,S02!K10:O14,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E324,spad_wt,43.1,"Mean, WT, % DiD+ alveolar macrophages",S01-C,S01!B20:E21,arithmetic mean of per-animal values (n=4),04_immunology_stats.py,,True
+E325,spad_ko,12.7,"Mean, SPA/D, % DiD+ alveolar macrophages",S01-C,S01!B20:E21,arithmetic mean of per-animal values (n=4),04_immunology_stats.py,,True
+E326,spad_p,2.1×10⁻⁵,"Student t p, DiD+ AM, WT vs SP-A/D-null",S01-C,S01!B20:E21,Student's t (n=4 v 4),04_immunology_stats.py,,True
+E327,srb_aec2,15.8,"Mean, AECII/PSLN-SRB, % SRB+ alveolar epithelial cells",S01-B,S01!B14:F17,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E328,srb_aec1,3.8,"Mean, AECI/PSLN-SRB, % SRB+ alveolar epithelial cells",S01-B,S01!B14:F17,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E329,srb_aec2free,0.38,"Mean, AECII/FreeSRB, % SRB+ alveolar epithelial cells",S01-B,S01!B14:F17,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E335,cbx_minus,7.3,"Mean, CBX-, % recruited lung monocytes (PSLN-344 + CA09 vaccine)",S11-C,S11!A17:B21,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E336,cbx_plus,3.1,"Mean, CBX+, % recruited lung monocytes (PSLN-344 + CA09 vaccine)",S11-C,S11!A17:B21,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E337,cbx_p,0.003,"Student t p, recruited monocytes ± carbenoxolone",S11-C,S11!A17:B21,Student's t (n=5 v 5),04_immunology_stats.py,,True
+E338,incb_mono_ctl,9.9,"Mean, PSLN-344, % lung CD11b+Ly6C+ monocytes",S07-B mono,S07!B10:C14,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E339,incb_mono_trt,3.3,"Mean, PSLN-344+INCB3344, % lung CD11b+Ly6C+ monocytes",S07-B mono,S07!B10:C14,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E340,incb_gzmb_ctl,6.8,"Mean, PSLN-344(Y), % GZMB+ lung CD8 T",S02-I,S02!H30:I34,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E341,incb_gzmb_trt,1.4,"Mean, PSLN-344(Y)+INCB3344, % GZMB+ lung CD8 T",S02-I,S02!H30:I34,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E342,modc_wt,19.7,"Mean, WT w/o cDC, % CD45.2+ monocyte-derived DC",S02-H,S02!B30:F34,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E343,modc_ko,2.1,"Mean, IFN w/o cDC, % CD45.2+ monocyte-derived DC",S02-H,S02!B30:F34,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E344,modc_kogm,12.4,"Mean, GMCSF, % CD45.2+ monocyte-derived DC",S02-H,S02!B30:F34,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E347,modc_p_wt_ko,1.3×10⁻⁵,"Tukey p, donor moDC, WT vs Ifnar-null marrow (no cDC precursors)",S02-H,S02!B30:F34,one-way ANOVA + Tukey (5 groups),04_immunology_stats.py,,True
+E353,gmrescue_a212,5.9,"Mean, PSLN-212, % lung Ly6C+CD11c+MHC-II+F4/80-/int (moDC)",S02-G,S02!B22:D26,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E354,gmrescue_a212gm,13.8,"Mean, PSLN-212+GM-CSF, % lung Ly6C+CD11c+MHC-II+F4/80-/int (moDC)",S02-G,S02!B22:D26,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E355,ly6cmac5_a212,19.0,"Mean, PSLN-212, lung Ly6C+CCR2+ macrophages (x10^5 cells) at x=5",S07-A,S07!B3:G7,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,True
+E356,ly6cmac5_a344,3.4,"Mean, PSLN-344, lung Ly6C+CCR2+ macrophages (x10^5 cells) at x=5",S07-A,S07!B3:G7,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,True
+E359,otiv_lung,59.0,"Mean, Lung, % proliferating transferred OT-I CD8",S05-C,S05!A13:D15,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,True
+E360,otiv_lungptx,55.1,"Mean, Lung+PTX, % proliferating transferred OT-I CD8",S05-C,S05!A13:D15,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,True
+E361,otiv_mln,30.9,"Mean, MLN, % proliferating transferred OT-I CD8",S05-C,S05!A13:D15,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,True
+E362,otiv_mlnptx,6.8,"Mean, MLN+PTX, % proliferating transferred OT-I CD8",S05-C,S05!A13:D15,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,True
+E374,igg_h1_fold,18.6,"GMT ratio PSLN-344 / PSLN-212 (aged), serum IgG anti-CA09 H1N1 (endpoint titre)",S03-A,S03!A3:E7,ratio of geometric means; Tukey on log2 titres p = 3.1×10⁻⁶,04_immunology_stats.py,,True
+E383,igg_h3_pct_young,41%,"Aged PSLN-344 GMT as % of young PSLN-212, serum IgG anti-Aichi H3N2 (endpoint titre)",S03-E,S03!A10:E14,ratio of geometric means,04b_restoration.py,,True
+E387,hai_h1_a212,46,"GMT, PSLN-212, HAI titre vs CA09 H1N1 (LLOD 10)",S03-C,S03!K3:O7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,True
+E388,hai_h1_a344,368,"GMT, PSLN-344, HAI titre vs CA09 H1N1 (LLOD 10)",S03-C,S03!K3:O7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,True
+E390,hai_h1_fold,8.0,"GMT ratio PSLN-344 / PSLN-212 (aged), HAI titre vs CA09 H1N1 (LLOD 10)",S03-C,S03!K3:O7,ratio of geometric means; Tukey on log2 titres p = 5.7×10⁻⁶,04_immunology_stats.py,,True
+E398,hai_h3_fold,9.2,"GMT ratio PSLN-344 / PSLN-212 (aged), HAI titre vs Aichi H3N2 (LLOD 10)",S03-G,S03!K10:O14,ratio of geometric means; Tukey on log2 titres p = 2.2×10⁻⁶,04_immunology_stats.py,,True
+E399,hai_h3_pct_young,87%,"Aged PSLN-344 GMT as % of young PSLN-212, HAI titre vs Aichi H3N2 (LLOD 10)",S03-G,S03!K10:O14,ratio of geometric means,04b_restoration.py,,True
+E406,nab_h1_fold,9.2,"GMT ratio PSLN-344 / PSLN-212 (aged), neutralising titre vs CA09 H1N1",S03-D,S03!Q3:U7,ratio of geometric means; Tukey on log2 titres p = 0.0002,04_immunology_stats.py,,True
+E422,igg28_h1_fold,3.5,"GMT ratio PSLN-344 / PSLN-212 (aged), serum IgG anti-CA09 H1N1 (prime d0 + boost d14)",S13-I,S13!F53:J57,ratio of geometric means; Tukey on log2 titres p = 0.19,04_immunology_stats.py,,True
+E430,igg28_h3_fold,11.5,"GMT ratio PSLN-344 / PSLN-212 (aged), serum IgG anti-Aichi H3N2 (prime d0 + boost d14)",S13-J,S13!L53:P57,ratio of geometric means; Tukey on log2 titres p = 3.1×10⁻⁵,04_immunology_stats.py,,True
+E433,hai_h1_212_min,40,Lowest individual HAI titre (H1N1) in aged PSLN-212 animals,S03-C,S03!K3:O7,minimum,10_numbers.py,,True
+E434,hai_h1_212_max,80,Highest individual HAI titre (H1N1) in aged PSLN-212 animals,S03-C,S03!K3:O7,maximum,10_numbers.py,,True
+E436,ratio_h1_a212,0.58,"IgG2a/IgG1 quotient recomputed per animal (S13-A ÷ S13-B), PSLN-212",S13-A; S13-B,S13!A3:C7; S13!E3:G7,mean of per-animal quotients (n=5); replaces mislabelled S03-B / S03-F,02a_qc_derived.py,S03-B/F labels rotated (Q1),True
+E437,ratio_h1_a344,2.14,"IgG2a/IgG1 quotient recomputed per animal (S13-A ÷ S13-B), PSLN-344",S13-A; S13-B,S13!A3:C7; S13!E3:G7,mean of per-animal quotients (n=5); replaces mislabelled S03-B / S03-F,02a_qc_derived.py,S03-B/F labels rotated (Q1),True
+E438,ratio_h1_y212,2.97,"IgG2a/IgG1 quotient recomputed per animal (S13-A ÷ S13-B), PSLN-212(Y)",S13-A; S13-B,S13!A3:C7; S13!E3:G7,mean of per-animal quotients (n=5); replaces mislabelled S03-B / S03-F,02a_qc_derived.py,S03-B/F labels rotated (Q1),True
+E439,ratio_h3_a212,0.51,"IgG2a/IgG1 quotient recomputed per animal (S13-C ÷ S13-D), PSLN-212",S13-C; S13-D,S13!I3:K7; S13!M3:O7,mean of per-animal quotients (n=5); replaces mislabelled S03-B / S03-F,02a_qc_derived.py,S03-B/F labels rotated (Q1),True
+E440,ratio_h3_a344,2.73,"IgG2a/IgG1 quotient recomputed per animal (S13-C ÷ S13-D), PSLN-344",S13-C; S13-D,S13!I3:K7; S13!M3:O7,mean of per-animal quotients (n=5); replaces mislabelled S03-B / S03-F,02a_qc_derived.py,S03-B/F labels rotated (Q1),True
+E441,ratio_h3_y212,2.89,"IgG2a/IgG1 quotient recomputed per animal (S13-C ÷ S13-D), PSLN-212(Y)",S13-C; S13-D,S13!I3:K7; S13!M3:O7,mean of per-animal quotients (n=5); replaces mislabelled S03-B / S03-F,02a_qc_derived.py,S03-B/F labels rotated (Q1),True
+E443,ratio_h1_printed_a344,0.58,"IgG2a/IgG1 quotient AS PRINTED under the header ""PSLN-344"" in S03-B",S03-B,S03!G3:I7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E448,boostfold_h1_a344,2.1,"IgG GMT day 28 (after boost) ÷ day 14 (single dose), PSLN-344",S13-I; S03-A,S13!F53:J57; S03!A3:E7,ratio of geometric means from two separate experiments (not paired),10_numbers.py,,True
+E452,igg28_h1_p,0.19,"Tukey p (log2), IgG anti-H1N1 after boost, PSLN-344 vs PSLN-212",S13-I,S13!F53:J57,one-way ANOVA + Tukey on log2 titres,04_immunology_stats.py,,True
+E453,igg28_h3_p,3.1×10⁻⁵,"Tukey p (log2), IgG anti-H3N2 after boost, PSLN-344 vs PSLN-212",S13-J,S13!L53:P57,one-way ANOVA + Tukey on log2 titres,04_immunology_stats.py,,True
+E454,rest_n,34,"Number of up-regulated immune read-outs with aged-212, aged-344 and young-212 groups (Figure 3)",S01-A 16h; S01-D; S01-E; S01-F; S02-A; S02-B; S02-C; S02-D CD40; S02-D CD86; S02-E; S03-A; S03-C; S03-D; S03-E; S03-G; S03-H; S03-K; S04-A ICOShi; S04-A ICOSlo; S05-D; S05-E; S05-F; S05-G; S05-H; S05-I; S13-A; S13-B; S13-C; S13-D; S13-H; S13-I; S13-J; S14-A H1N1; S14-A H3N2,S01!B3:F10; S01!B24:U28; S01!B30:Z34; S01!B36:Z36; S02!A3:D7; S02!F3:I7; S02!K3:O7; S02!A10:D14; S02!F10:I14; S02!K10:O14; S03!A3:E7; S03!K3:O7; S03!Q3:U7; S03!A10:E14; S03!K10:O14; S03!Q10:U14; S03!L17:O21; S04!G2:K5; S04!B2:F5; S05!A19:D23; S05!A26:D30; S05!A33:D37; S05!A40:D44; S05!A47:D51; S05!A54:D58; S13!A3:C7; S13!E3:G7; S13!I3:K7; S13!M3:O7; S13!A53:D57; S13!F53:J57; S13!L53:P57; S14!A3:D7; S14!F3:I7,count,04b_restoration.py; 09b_fig_restoration.py,,True
+E455,rest_344_med,70%,Median % of the young PSLN-212 response reached by aged PSLN-344 across the 34 read-outs,S01-A 16h; S01-D; S01-E; S01-F; S02-A; S02-B; S02-C; S02-D CD40; S02-D CD86; S02-E; S03-A; S03-C; S03-D; S03-E; S03-G; S03-H; S03-K; S04-A ICOShi; S04-A ICOSlo; S05-D; S05-E; S05-F; S05-G; S05-H; S05-I; S13-A; S13-B; S13-C; S13-D; S13-H; S13-I; S13-J; S14-A H1N1; S14-A H3N2,S01!B3:F10; S01!B24:U28; S01!B30:Z34; S01!B36:Z36; S02!A3:D7; S02!F3:I7; S02!K3:O7; S02!A10:D14; S02!F10:I14; S02!K10:O14; S03!A3:E7; S03!K3:O7; S03!Q3:U7; S03!A10:E14; S03!K10:O14; S03!Q10:U14; S03!L17:O21; S04!G2:K5; S04!B2:F5; S05!A19:D23; S05!A26:D30; S05!A33:D37; S05!A40:D44; S05!A47:D51; S05!A54:D58; S13!A3:C7; S13!E3:G7; S13!I3:K7; S13!M3:O7; S13!A53:D57; S13!F53:J57; S13!L53:P57; S14!A3:D7; S14!F3:I7,ratio of means (GMT for titres) per read-out; median across read-outs (read-outs are not independent),04b_restoration.py,,True
+E456,rest_344_iqr,50–83%,IQR of the above,S01-A 16h; S01-D; S01-E; S01-F; S02-A; S02-B; S02-C; S02-D CD40; S02-D CD86; S02-E; S03-A; S03-C; S03-D; S03-E; S03-G; S03-H; S03-K; S04-A ICOShi; S04-A ICOSlo; S05-D; S05-E; S05-F; S05-G; S05-H; S05-I; S13-A; S13-B; S13-C; S13-D; S13-H; S13-I; S13-J; S14-A H1N1; S14-A H3N2,S01!B3:F10; S01!B24:U28; S01!B30:Z34; S01!B36:Z36; S02!A3:D7; S02!F3:I7; S02!K3:O7; S02!A10:D14; S02!F10:I14; S02!K10:O14; S03!A3:E7; S03!K3:O7; S03!Q3:U7; S03!A10:E14; S03!K10:O14; S03!Q10:U14; S03!L17:O21; S04!G2:K5; S04!B2:F5; S05!A19:D23; S05!A26:D30; S05!A33:D37; S05!A40:D44; S05!A47:D51; S05!A54:D58; S13!A3:C7; S13!E3:G7; S13!I3:K7; S13!M3:O7; S13!A53:D57; S13!F53:J57; S13!L53:P57; S14!A3:D7; S14!F3:I7,quartiles across read-outs,04b_restoration.py,,True
+E457,rest_344_range,29–99%,Range of the above,S01-A 16h; S01-D; S01-E; S01-F; S02-A; S02-B; S02-C; S02-D CD40; S02-D CD86; S02-E; S03-A; S03-C; S03-D; S03-E; S03-G; S03-H; S03-K; S04-A ICOShi; S04-A ICOSlo; S05-D; S05-E; S05-F; S05-G; S05-H; S05-I; S13-A; S13-B; S13-C; S13-D; S13-H; S13-I; S13-J; S14-A H1N1; S14-A H3N2,S01!B3:F10; S01!B24:U28; S01!B30:Z34; S01!B36:Z36; S02!A3:D7; S02!F3:I7; S02!K3:O7; S02!A10:D14; S02!F10:I14; S02!K10:O14; S03!A3:E7; S03!K3:O7; S03!Q3:U7; S03!A10:E14; S03!K10:O14; S03!Q10:U14; S03!L17:O21; S04!G2:K5; S04!B2:F5; S05!A19:D23; S05!A26:D30; S05!A33:D37; S05!A40:D44; S05!A47:D51; S05!A54:D58; S13!A3:C7; S13!E3:G7; S13!I3:K7; S13!M3:O7; S13!A53:D57; S13!F53:J57; S13!L53:P57; S14!A3:D7; S14!F3:I7,min–max across read-outs,04b_restoration.py,,True
+E458,rest_212_med,19%,Median % of the young response reached by aged PSLN-212,S01-A 16h; S01-D; S01-E; S01-F; S02-A; S02-B; S02-C; S02-D CD40; S02-D CD86; S02-E; S03-A; S03-C; S03-D; S03-E; S03-G; S03-H; S03-K; S04-A ICOShi; S04-A ICOSlo; S05-D; S05-E; S05-F; S05-G; S05-H; S05-I; S13-A; S13-B; S13-C; S13-D; S13-H; S13-I; S13-J; S14-A H1N1; S14-A H3N2,S01!B3:F10; S01!B24:U28; S01!B30:Z34; S01!B36:Z36; S02!A3:D7; S02!F3:I7; S02!K3:O7; S02!A10:D14; S02!F10:I14; S02!K10:O14; S03!A3:E7; S03!K3:O7; S03!Q3:U7; S03!A10:E14; S03!K10:O14; S03!Q10:U14; S03!L17:O21; S04!G2:K5; S04!B2:F5; S05!A19:D23; S05!A26:D30; S05!A33:D37; S05!A40:D44; S05!A47:D51; S05!A54:D58; S13!A3:C7; S13!E3:G7; S13!I3:K7; S13!M3:O7; S13!A53:D57; S13!F53:J57; S13!L53:P57; S14!A3:D7; S14!F3:I7,as above,04b_restoration.py,,True
+E459,rest_212_iqr,9–30%,IQR of the above,S01-A 16h; S01-D; S01-E; S01-F; S02-A; S02-B; S02-C; S02-D CD40; S02-D CD86; S02-E; S03-A; S03-C; S03-D; S03-E; S03-G; S03-H; S03-K; S04-A ICOShi; S04-A ICOSlo; S05-D; S05-E; S05-F; S05-G; S05-H; S05-I; S13-A; S13-B; S13-C; S13-D; S13-H; S13-I; S13-J; S14-A H1N1; S14-A H3N2,S01!B3:F10; S01!B24:U28; S01!B30:Z34; S01!B36:Z36; S02!A3:D7; S02!F3:I7; S02!K3:O7; S02!A10:D14; S02!F10:I14; S02!K10:O14; S03!A3:E7; S03!K3:O7; S03!Q3:U7; S03!A10:E14; S03!K10:O14; S03!Q10:U14; S03!L17:O21; S04!G2:K5; S04!B2:F5; S05!A19:D23; S05!A26:D30; S05!A33:D37; S05!A40:D44; S05!A47:D51; S05!A54:D58; S13!A3:C7; S13!E3:G7; S13!I3:K7; S13!M3:O7; S13!A53:D57; S13!F53:J57; S13!L53:P57; S14!A3:D7; S14!F3:I7,as above,04b_restoration.py,,True
+E460,rest_nsig,32,Read-outs (of 34) with Tukey p < 0.05 for PSLN-344 vs PSLN-212 in aged animals,S01-A 16h; S01-D; S01-E; S01-F; S02-A; S02-B; S02-C; S02-D CD40; S02-D CD86; S02-E; S03-A; S03-C; S03-D; S03-E; S03-G; S03-H; S03-K; S04-A ICOShi; S04-A ICOSlo; S05-D; S05-E; S05-F; S05-G; S05-H; S05-I; S13-A; S13-B; S13-C; S13-D; S13-H; S13-I; S13-J; S14-A H1N1; S14-A H3N2,S01!B3:F10; S01!B24:U28; S01!B30:Z34; S01!B36:Z36; S02!A3:D7; S02!F3:I7; S02!K3:O7; S02!A10:D14; S02!F10:I14; S02!K10:O14; S03!A3:E7; S03!K3:O7; S03!Q3:U7; S03!A10:E14; S03!K10:O14; S03!Q10:U14; S03!L17:O21; S04!G2:K5; S04!B2:F5; S05!A19:D23; S05!A26:D30; S05!A33:D37; S05!A40:D44; S05!A47:D51; S05!A54:D58; S13!A3:C7; S13!E3:G7; S13!I3:K7; S13!M3:O7; S13!A53:D57; S13!F53:J57; S13!L53:P57; S14!A3:D7; S14!F3:I7,Tukey HSD per block (log2 for titres); no adjustment across blocks,04b_restoration.py,,True
+E461,rest_fold_range,1.6–24,Range of fold-difference PSLN-344 / PSLN-212 across the 34 read-outs,S01-A 16h; S01-D; S01-E; S01-F; S02-A; S02-B; S02-C; S02-D CD40; S02-D CD86; S02-E; S03-A; S03-C; S03-D; S03-E; S03-G; S03-H; S03-K; S04-A ICOShi; S04-A ICOSlo; S05-D; S05-E; S05-F; S05-G; S05-H; S05-I; S13-A; S13-B; S13-C; S13-D; S13-H; S13-I; S13-J; S14-A H1N1; S14-A H3N2,S01!B3:F10; S01!B24:U28; S01!B30:Z34; S01!B36:Z36; S02!A3:D7; S02!F3:I7; S02!K3:O7; S02!A10:D14; S02!F10:I14; S02!K10:O14; S03!A3:E7; S03!K3:O7; S03!Q3:U7; S03!A10:E14; S03!K10:O14; S03!Q10:U14; S03!L17:O21; S04!G2:K5; S04!B2:F5; S05!A19:D23; S05!A26:D30; S05!A33:D37; S05!A40:D44; S05!A47:D51; S05!A54:D58; S13!A3:C7; S13!E3:G7; S13!I3:K7; S13!M3:O7; S13!A53:D57; S13!F53:J57; S13!L53:P57; S14!A3:D7; S14!F3:I7,ratio of means / GMTs,04b_restoration.py,,True
+E462,fx_ifnb_aged,2.2,"Fold effect of Mn²⁺ (344 vs 212) in aged animals, Ifnb1 mRNA, total lung cells (qRT-PCR), fold vs untreated",S01-A 16h,S01!B3:F10,ratio of geometric means,07_morbidity_and_factorial.py,,True
+E463,fx_ifnb_young,1.3,"Fold effect of Mn²⁺ (344 vs 212) in young animals, Ifnb1 mRNA, total lung cells (qRT-PCR), fold vs untreated",S01-A 16h,S01!B3:F10,ratio of geometric means,07_morbidity_and_factorial.py,,True
+E464,fx_ifnb_p,0.0004,"Age × Mn²⁺ interaction p, Ifnb1 mRNA, total lung cells (qRT-PCR), fold vs untreated",S01-A 16h,S01!B3:F10,"two-way ANOVA on log2 values, interaction term",07_morbidity_and_factorial.py,,True
+E477,bw_nadir_a344,96.4,"Mean per-animal body-weight nadir (% of day 0) after immunisation, PSLN-344",S08-D,S08!B21:AE26,mean of each animal's lowest post-dose weight (n=5),06_safety.py,,True
+E478,bw_worst_a344,5.8,"Largest individual weight loss (%), PSLN-344",S08-D,S08!B21:AE26,maximum over animals,06_safety.py,,True
+E479,bw_d10_a344,99.8,"Mean body weight on day 10 (% of day 0), PSLN-344",S08-D,S08!B21:AE26,mean (n=5),06_safety.py,,True
+E483,bw_nadir_vac,98.2,"Mean per-animal body-weight nadir (% of day 0) after immunisation, Vaccine",S08-D,S08!B21:AE26,mean of each animal's lowest post-dose weight (n=5),06_safety.py,,True
+E486,bw_nadir_r848,90.0,"Mean per-animal body-weight nadir (% of day 0) after immunisation, PSLN-212/R848",S08-D,S08!B21:AE26,mean of each animal's lowest post-dose weight (n=5),06_safety.py,,True
+E495,bw_diff_344_vac,-1.8,"Difference in mean nadir, PSLN-344 − vaccine alone (percentage points)",S08-D,S08!B21:AE26,one-way ANOVA + Tukey HSD on per-animal nadir (6 groups),06_safety.py,,True
+E496,bw_diff_344_vac_ci,-6.7 to +3.1,95% CI of the above,S08-D,S08!B21:AE26,Tukey HSD simultaneous CI,06_safety.py,,True
+E499,bw_r848_n_gt10,4,PSLN-212/R848 animals (of 5) losing >10% body weight,S08-D,S08!B21:AE26,count of animals with nadir < 90%,06_safety.py,,True
+E510,c16_il6_a344,36,"Lung Il6 fold vs untreated, PSLN-344, panel S09-A[A:U]",S09-A[A:U] Il6,S09!B4:V4,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,True
+E511,c72_il6_a344,7.2,"Lung Il6 fold vs untreated, PSLN-344, panel S09-A[X:AS]",S09-A[X:AS] Il6,S09!Y4:AS4,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",True
+E514,c16_il6_y212,60,"Lung Il6 fold vs untreated, PSLN-212(y), panel S09-A[A:U]",S09-A[A:U] Il6,S09!B4:V4,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,True
+E515,c72_il6_y212,3.1,"Lung Il6 fold vs untreated, PSLN-212(y), panel S09-A[X:AS]",S09-A[X:AS] Il6,S09!Y4:AS4,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",True
+E520,c16_ccl2_a344,590,"Lung Ccl2 fold vs untreated, PSLN-344, panel S09-A[A:U]",S09-A[A:U] Ccl2,S09!B5:V5,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,True
+E524,c16_ccl2_y212,"1,391","Lung Ccl2 fold vs untreated, PSLN-212(y), panel S09-A[A:U]",S09-A[A:U] Ccl2,S09!B5:V5,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,True
+E550,c16_tnf_a344,40,"Lung Tnf fold vs untreated, PSLN-344, panel S09-A[A:U]",S09-A[A:U] Tnf,S09!B8:V8,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,True
+E551,c72_tnf_a344,8.4,"Lung Tnf fold vs untreated, PSLN-344, panel S09-A[X:AS]",S09-A[X:AS] Tnf,S09!Y8:AS8,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",True
+E553,c72_tnf_a212,5.2,"Lung Tnf fold vs untreated, PSLN-212, panel S09-A[X:AS]",S09-A[X:AS] Tnf,S09!Y8:AS8,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",True
+E554,c16_tnf_y212,14,"Lung Tnf fold vs untreated, PSLN-212(y), panel S09-A[A:U]",S09-A[A:U] Tnf,S09!B8:V8,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,True
+E555,c72_tnf_y212,0.5,"Lung Tnf fold vs untreated, PSLN-212(y), panel S09-A[X:AS]",S09-A[X:AS] Tnf,S09!Y8:AS8,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",True
+E556,c16_tnf_r848,202,"Lung Tnf fold vs untreated, PSLN-212/R848, panel S09-A[A:U]",S09-A[A:U] Tnf,S09!B8:V8,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,True
+E557,c72_tnf_r848,50,"Lung Tnf fold vs untreated, PSLN-212/R848, panel S09-A[X:AS]",S09-A[X:AS] Tnf,S09!Y8:AS8,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",True
+E560,c16_il10_a344,7.3,"Lung Il10 fold vs untreated, PSLN-344, panel S09-A[A:U]",S09-A[A:U] Il10,S09!B9:V9,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,True
+E561,c72_il10_a344,4.2,"Lung Il10 fold vs untreated, PSLN-344, panel S09-A[X:AS]",S09-A[X:AS] Il10,S09!Y9:AS9,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",True
+E564,c16_il10_y212,1.8,"Lung Il10 fold vs untreated, PSLN-212(y), panel S09-A[A:U]",S09-A[A:U] Il10,S09!B9:V9,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,True
+E565,c72_il10_y212,0.1,"Lung Il10 fold vs untreated, PSLN-212(y), panel S09-A[X:AS]",S09-A[X:AS] Il10,S09!Y9:AS9,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",True
+E566,c16_il10_r848,179,"Lung Il10 fold vs untreated, PSLN-212/R848, panel S09-A[A:U]",S09-A[A:U] Il10,S09!B9:V9,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,True
+E567,c72_il10_r848,45,"Lung Il10 fold vs untreated, PSLN-212/R848, panel S09-A[X:AS]",S09-A[X:AS] Il10,S09!Y9:AS9,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",True
+E576,cns_ifnb1_ct,5.50,"Mean, CT, Ifnb1 mRNA, CNS, fold vs untreated",S10-A Ifnb1,S10!A3:D7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E577,cns_ifnb1_diff,+0.16,CNS Ifnb1: PSLN-344 − Sham difference in fold,S10-A Ifnb1,S10!A3:D7,"one-way ANOVA + Tukey HSD (4 groups, n=5)",06_safety.py,,True
+E581,cns_tnf_sham,1.32,"Mean, Sham, Tnf mRNA, CNS, fold vs untreated",S10-A Tnf,S10!F3:I7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E583,cns_tnf_ct,3.50,"Mean, CT, Tnf mRNA, CNS, fold vs untreated",S10-A Tnf,S10!F3:I7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E584,cns_tnf_diff,+0.27,CNS Tnf: PSLN-344 − Sham difference in fold,S10-A Tnf,S10!F3:I7,"one-way ANOVA + Tukey HSD (4 groups, n=5)",06_safety.py,,True
+E585,cns_tnf_ci,-0.98 to +1.53,Tukey 95% CI of the above,S10-A Tnf,S10!F3:I7,Tukey HSD,06_safety.py,,True
+E586,cns_tnf_p,0.92,Tukey p of the above,S10-A Tnf,S10!F3:I7,Tukey HSD,06_safety.py,,True
+E590,cns_isg15_ct,2.68,"Mean, CT, Isg15 mRNA, CNS, fold vs untreated",S10-A Isg15,S10!K3:N7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E591,cns_isg15_diff,+0.09,CNS Isg15: PSLN-344 − Sham difference in fold,S10-A Isg15,S10!K3:N7,"one-way ANOVA + Tukey HSD (4 groups, n=5)",06_safety.py,,True
+E595,ee_a344,54.8,"Mean, PSLN-344, encapsulation efficiency (%)",S08-B,S08!A11:O11,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,True
+E596,ee_a212,59.6,"Mean, PSLN-212, encapsulation efficiency (%)",S08-B,S08!A11:O11,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,True
+E600,ee_p,0.86,"Tukey p, encapsulation efficiency PSLN-344 vs PSLN-212",S08-B,S08!A11:O11,"one-way ANOVA + Tukey (5 preparations, n=3)",04_immunology_stats.py,,True
+E601,ee_344_range,49–59%,"Range of encapsulation efficiency, PSLN-344 (3 preparations)",S08-B,S08!A11:O11,min–max,10_numbers.py,,True
+E602,morb_a344,14%,"Mean maximum weight loss after challenge, PSLN-344, averaged over the 7 aged-BALB/c challenge blocks",S15-A; S15-B; S15-C; S15-D; S15-E; S15-F; S15-G,S15!B3:AC10; S15!B13:AC20; S15!B23:AC30; S15!B33:AC40; S15!B43:AJ50; S15!B53:AJ60; S15!B63:AJ70,per-animal nadir → block mean → mean of 7 blocks (supportive only: body-weight blocks carry flag Q4),07_morbidity_and_factorial.py,Q4,True
+E604,morb_a212,18%,"Mean maximum weight loss after challenge, PSLN-212, averaged over the 7 aged-BALB/c challenge blocks",S15-A; S15-B; S15-C; S15-D; S15-E; S15-F; S15-G,S15!B3:AC10; S15!B13:AC20; S15!B23:AC30; S15!B33:AC40; S15!B43:AJ50; S15!B53:AJ60; S15!B63:AJ70,per-animal nadir → block mean → mean of 7 blocks (supportive only: body-weight blocks carry flag Q4),07_morbidity_and_factorial.py,Q4,True
+E606,morb_y212,10%,"Mean maximum weight loss after challenge, PSLN-212(Y), averaged over the 7 aged-BALB/c challenge blocks",S15-A; S15-B; S15-C; S15-D; S15-E; S15-F; S15-G,S15!B3:AC10; S15!B13:AC20; S15!B23:AC30; S15!B33:AC40; S15!B43:AJ50; S15!B53:AJ60; S15!B63:AJ70,per-animal nadir → block mean → mean of 7 blocks (supportive only: body-weight blocks carry flag Q4),07_morbidity_and_factorial.py,Q4,True
+E615,sd_hai,0.68,Pooled within-group SD of log2 HAI titre (adjuvanted groups),S03-C; S03-G,S03!K3:O7; S03!K10:O14,"root mean within-group variance, larger of the two strains",08_power.py,,True
+E616,sd_nab,0.98,Pooled within-group SD of log2 neutralising titre,S03-D; S03-H,S03!Q3:U7; S03!Q10:U14,as above,08_power.py,,True
+E617,n_hai_2fold,11,"n/arm to detect a 2-fold HAI GMT difference, 90% power",S03-C; S03-G,S03!K3:O7; S03!K10:O14,"two-sample t on log2 titres, α=0.05 two-sided",08_power.py,,True
+E618,n_nab_2fold,22,"n/arm to detect a 2-fold neutralising GMT difference, 90% power",S03-D; S03-H,S03!Q3:U7; S03!Q10:U14,as above,08_power.py,,True
+E619,sd_nadir,1.55,Pooled SD of per-animal body-weight nadir (points),S08-D,S08!B21:AE26,root mean within-group variance (5 non-R848 groups),08_power.py,,True
+E621,mdd_nadir_n5,3.5,Smallest nadir difference detectable with 80% power at the n=5 actually used (points),S08-D,S08!B21:AE26,"two-sample t, α=0.05",08_power.py,,True
+E622,qc_bw_consistent,54,Group-level comparisons where the body-weight block implies the same number of losses as the time-to-event block,S09-C; S09-E; S09-G; S13-F; S13-G; S15-A; S15-B; S15-C; S15-D; S15-E; S15-F; S15-G; S15-I; S15-J; S15-K; S15-M; S15-O,S09!G12:AD19; S09!G39:AD46; S09!G66:AD73; S13!B33:AJ40; S13!B43:AE50; S15!B3:AC10; S15!B13:AC20; S15!B23:AC30; S15!B33:AC40; S15!B43:AJ50; S15!B53:AJ60; S15!B63:AJ70; S15!I72:AC79; S15!I83:AJ90; S15!I93:AJ100; S15!I103:AJ110; S15!I134:AJ141,animals leaving the weight record (blank cells or constant tail) vs deaths in the paired survival block,02b_qc_surv_bw.py,,True
+E623,qc_bw_total,65,Group-level comparisons possible,S09-C; S09-E; S09-G; S13-F; S13-G; S15-A; S15-B; S15-C; S15-D; S15-E; S15-F; S15-G; S15-I; S15-J; S15-K; S15-M; S15-O,S09!G12:AD19; S09!G39:AD46; S09!G66:AD73; S13!B33:AJ40; S13!B43:AE50; S15!B3:AC10; S15!B13:AC20; S15!B23:AC30; S15!B33:AC40; S15!B43:AJ50; S15!B53:AJ60; S15!B63:AJ70; S15!I72:AC79; S15!I83:AJ90; S15!I93:AJ100; S15!I103:AJ110; S15!I134:AJ141,count,02b_qc_surv_bw.py,,True
+E624,qc_s11_same,35,Values identical at the same position in S11-A and S11-B (of 100),S11-A; S11-B,S11!B3:U7; S11!B10:U14,position-wise comparison,02c_qc_duplicates.py,,True
+E625,qc_s15ci_same,40,"Values identical at the same animal/day position, S15-C PSLN-344 vs S15-I Vaccine+PSLN-344 (of 49)",S15-C; S15-I,S15!B23:AC30; S15!I72:AC79,"position-wise comparison, day-0 values excluded",02c_qc_duplicates.py,,True
+E628,d60_344_lastwt,77.5–85.3%,Last recorded body weight of the 5 PSLN-344 animals whose weight record flat-lines after the day-60 challenges,S15-E; S15-F; S15-G,S15!B43:AJ50; S15!B53:AJ60; S15!B63:AJ70,constant-tail (last observation carried forward) detection,02b_qc_surv_bw.py,"Q5, Q14",True
+E629,d60_344_lastwt_n,5,Number of PSLN-344 animals with a flat-lined weight record after day-60 challenge (time-to-event tables record 7 deaths),S15-E; S15-F; S15-G,S15!B43:AJ50; S15!B53:AJ60; S15!B63:AJ70,count,02b_qc_surv_bw.py,Q14,True
+E630,d60_unt_lastwt,94.5–96.6%,"Last recorded body weight of the 4 untreated, unchallenged animals whose weight record flat-lines",S15-E; S15-F; S15-G,S15!B43:AJ50; S15!B53:AJ60; S15!B63:AJ70,as above,02b_qc_surv_bw.py,,True
+E631,d60_unt_lastwt_n,4,Number of untreated animals with a flat-lined weight record,S15-E; S15-F; S15-G,S15!B43:AJ50; S15!B53:AJ60; S15!B63:AJ70,count,02b_qc_surv_bw.py,,True
+E632,early_344_cons,26/31,Early-challenge survival if S06-D is replaced by what its body-weight block S15-D implies (5/7),S03-J; S06-B; S15-H; S15-D,S03!H17:J46; S06!H3:K30; S15!B73:D93; S15!B33:AC40,sensitivity analysis,10_numbers.py,Q4,True
+E633,fx_p_max,0.006,Largest age × Mn²⁺ interaction p across the five read-outs that have all four groups,S01-A 16h; S01-E; S01-F; S02-C; S02-E,S01!B3:F10; S01!B30:Z34; S01!B36:Z36; S02!K3:O7; S02!K10:O14,two-way ANOVA on log2 values,07_morbidity_and_factorial.py,,True
+E634,bm_sep,26,Candidate biomarkers (of 27) whose values do not overlap between aged PSLN-344 and aged PSLN-212 animals,S01-A 16h; S01-D; S01-E; S01-F; S02-A; S02-C; S02-D CD40; S02-D CD86; S02-F; S03-A; S03-C; S03-D; S03-G; S03-H; S03-K; S04-A ICOShi; S04-B Foxp3; S04-D; S05-D; S05-E; S05-F; S05-G; S05-I; S11-E; S13-A; S14-A H1N1,S01!B3:F10; S01!B24:U28; S01!B30:Z34; S01!B36:Z36; S02!A3:D7; S02!K3:O7; S02!A10:D14; S02!F10:I14; S02!B17:P19; S03!A3:E7; S03!K3:O7; S03!Q3:U7; S03!K10:O14; S03!Q10:U14; S03!L17:O21; S04!G2:K5; S04!A8:D12; S04!A29:D31; S05!A19:D23; S05!A26:D30; S05!A33:D37; S05!A40:D44; S05!A54:D58; S11!A31:D35; S13!A3:C7; S14!A3:D7,min of one group vs max of the other,04c_biomarker_separation.py,,True
+E635,bm_n,27,Candidate biomarkers examined,S01-A 16h; S01-D; S01-E; S01-F; S02-A; S02-C; S02-D CD40; S02-D CD86; S02-F; S03-A; S03-C; S03-D; S03-G; S03-H; S03-K; S04-A ICOShi; S04-B Foxp3; S04-D; S05-D; S05-E; S05-F; S05-G; S05-I; S11-E; S13-A; S14-A H1N1,S01!B3:F10; S01!B24:U28; S01!B30:Z34; S01!B36:Z36; S02!A3:D7; S02!K3:O7; S02!A10:D14; S02!F10:I14; S02!B17:P19; S03!A3:E7; S03!K3:O7; S03!Q3:U7; S03!K10:O14; S03!Q10:U14; S03!L17:O21; S04!G2:K5; S04!A8:D12; S04!A29:D31; S05!A19:D23; S05!A26:D30; S05!A33:D37; S05!A40:D44; S05!A54:D58; S11!A31:D35; S13!A3:C7; S14!A3:D7,count,04c_biomarker_separation.py,,True
+E636,bm_ifnb_r212,13.4–19.0,"Range of individual values, aged PSLN-212, Lung Ifnb1 mRNA, 16 h (fold)",S01-A 16h,S01!B3:F10,min–max,04c_biomarker_separation.py,,True
+E637,bm_ifnb_r344,32.6–44.3,"Range of individual values, aged PSLN-344, Lung Ifnb1 mRNA, 16 h (fold)",S01-A 16h,S01!B3:F10,min–max,04c_biomarker_separation.py,,True
+E639,bm_gmcsf36_r212,1.4–1.8,"Range of individual values, aged PSLN-212, Lung Gm-csf mRNA, 36 h (fold)",S02-F,S02!B17:P19,min–max,04c_biomarker_separation.py,,True
+E640,bm_gmcsf36_r344,6.5–10.9,"Range of individual values, aged PSLN-344, Lung Gm-csf mRNA, 36 h (fold)",S02-F,S02!B17:P19,min–max,04c_biomarker_separation.py,,True
+E642,bm_ccr7_r212,5.2–10.0,"Range of individual values, aged PSLN-212, % CCR7+ of lung CD11b+ DC, 72 h",S02-A,S02!A3:D7,min–max,04c_biomarker_separation.py,,True
+E643,bm_ccr7_r344,20.0–36.6,"Range of individual values, aged PSLN-344, % CCR7+ of lung CD11b+ DC, 72 h",S02-A,S02!A3:D7,min–max,04c_biomarker_separation.py,,True
+E645,bm_mono4_r212,15.1–18.9,"Range of individual values, aged PSLN-212, % lung monocytes, day 4",S01-D,S01!B24:U28,min–max,04c_biomarker_separation.py,,True
+E646,bm_mono4_r344,24.4–36.2,"Range of individual values, aged PSLN-344, % lung monocytes, day 4",S01-D,S01!B24:U28,min–max,04c_biomarker_separation.py,,True
+E648,bm_hai_h1_r212,40–80,"Range of individual values, aged PSLN-212, HAI titre H1N1, day 14",S03-C,S03!K3:O7,min–max,04c_biomarker_separation.py,,True
+E649,bm_hai_h1_r344,160–640,"Range of individual values, aged PSLN-344, HAI titre H1N1, day 14",S03-C,S03!K3:O7,min–max,04c_biomarker_separation.py,,True
+E651,bm_hai_h3_r212,20–80,"Range of individual values, aged PSLN-212, HAI titre H3N2, day 14",S03-G,S03!K10:O14,min–max,04c_biomarker_separation.py,,True
+E652,bm_hai_h3_r344,160–640,"Range of individual values, aged PSLN-344, HAI titre H3N2, day 14",S03-G,S03!K10:O14,min–max,04c_biomarker_separation.py,,True
+E654,bm_igg2a_r212,49–128,"Range of individual values, aged PSLN-212, IgG2a titre H1N1, day 14",S13-A,S13!A3:C7,min–max,04c_biomarker_separation.py,,True
+E655,bm_igg2a_r344,"936–3,452","Range of individual values, aged PSLN-344, IgG2a titre H1N1, day 14",S13-A,S13!A3:C7,min–max,04c_biomarker_separation.py,,True
+E657,bm_ifng_r212,1.2–2.2,"Range of individual values, aged PSLN-212, % IFN-γ+ CD8 (rgH5N1 restim), day 14",S05-F,S05!A33:D37,min–max,04c_biomarker_separation.py,,True
+E658,bm_ifng_r344,5.2–7.4,"Range of individual values, aged PSLN-344, % IFN-γ+ CD8 (rgH5N1 restim), day 14",S05-F,S05!A33:D37,min–max,04c_biomarker_separation.py,,True
+E660,bm_trm_r212,0.7–1.5,"Range of individual values, aged PSLN-212, % lung CD8 TRM, day 25",S05-I,S05!A54:D58,min–max,04c_biomarker_separation.py,,True
+E661,bm_trm_r344,3.0–4.8,"Range of individual values, aged PSLN-344, % lung CD8 TRM, day 25",S05-I,S05!A54:D58,min–max,04c_biomarker_separation.py,,True
+E663,bm_gzmb3_r212,2.1–3.9,"Range of individual values, aged PSLN-212, % GZMB+ lung CD8, day 3",S05-E,S05!A26:D30,min–max,04c_biomarker_separation.py,,True
+E664,bm_gzmb3_r344,4.2–6.5,"Range of individual values, aged PSLN-344, % GZMB+ lung CD8, day 3",S05-E,S05!A26:D30,min–max,04c_biomarker_separation.py,,True
+E666,bm_ova_r212,1.2–2.2,"Range of individual values, aged PSLN-212, % antigen+ MLN DC, 36 h",S02-C,S02!K3:O7,min–max,04c_biomarker_separation.py,,True
+E667,bm_ova_r344,5.4–8.9,"Range of individual values, aged PSLN-344, % antigen+ MLN DC, 36 h",S02-C,S02!K3:O7,min–max,04c_biomarker_separation.py,,True
+E669,n_cells,"6,819",Numeric cells in the workbook,,whole workbook,count of numeric cells over 15 sheets,00_coverage_check.py,,True
+E670,n_unmapped,26,Numeric cells not belonging to any labelled block (S08 rows 89–101),,whole workbook,coverage check,00_coverage_check.py,,True
+E671,n_obs,"6,107",Observations parsed into the tidy data set,,whole workbook,count,01_export_tidy.py,,True
+E673,pw16_main,99%,Power at n=16/arm for the survival difference seen in the unflagged blocks (18/21 vs 3/21),S06-A; S06-B; S06-C,S06!B3:E30; S06!H3:K30; S06!N3:Q30,"exact power, two-sided Fisher test, α = 0.05",10_numbers.py,,True
+E674,pw16_alt,60%,Power at n=16/arm if PSLN-212 truly protects 3 of 7 (as the S13-F traces imply),S06-A; S06-B; S06-C; S13-F,S06!B3:E30; S06!H3:K30; S06!N3:Q30; S13!B33:AJ40,as above,10_numbers.py,,True
+E675,pw16_cmp,43%,"Power at n=16/arm against an active comparator assumed to protect 50% (assumption, no data)",S06-A; S06-B; S06-C,S06!B3:E30; S06!H3:K30; S06!N3:Q30,as above,10_numbers.py,,True
+E676,pw20_d60,99%,Power at n=20/arm for the day-60 difference (14/21 vs 1/21),S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,as above,10_numbers.py,,True
+E677,pw20_wane,46%,Power at n=20/arm to distinguish day-60 survival (67%) from early survival (93%),S06-E; S06-F; S06-G; S03-I; S03-J; S06-A; S06-B; S06-C; S06-D,S06!H34:L68; S06!N34:R68; S06!B71:F105; S03!B17:F51; S03!H17:J46; S06!B3:E30; S06!H3:K30; S06!N3:Q30; S06!B34:E61,as above,10_numbers.py,,True
+E678,pw40_wane,83%,Power at n=40/arm to distinguish 67% from 93%,S06-E; S06-F; S06-G; S03-I; S03-J; S06-A; S06-B; S06-C; S06-D,S06!H34:L68; S06!N34:R68; S06!B71:F105; S03!B17:F51; S03!H17:J46; S06!B3:E30; S06!H3:K30; S06!N3:Q30; S06!B34:E61,as above,10_numbers.py,,True
+E679,qc_n,15,Data-integrity items logged,,whole workbook,count of QC log entries,02e_qc_log.py,,True
+E680,qc_high,6,Items rated high severity (change or remove a number the case relies on),,whole workbook,count,02e_qc_log.py,,True
+E681,igg28_h1_young_over_212,9,"IgG GMT after boost: young PSLN-212 ÷ aged PSLN-212, S13-I",S13-I,S13!F53:J57,ratio of geometric means,10_numbers.py,,True
+E682,igg28_h1_344_pct_young,38%,"IgG GMT after boost: aged PSLN-344 as % of young PSLN-212, S13-I",S13-I,S13!F53:J57,ratio of geometric means,10_numbers.py,,True
+E683,igg28_h3_young_over_212,40,"IgG GMT after boost: young PSLN-212 ÷ aged PSLN-212, S13-J",S13-J,S13!L53:P57,ratio of geometric means,10_numbers.py,,True
+E684,igg28_h3_344_pct_young,29%,"IgG GMT after boost: aged PSLN-344 as % of young PSLN-212, S13-J",S13-J,S13!L53:P57,ratio of geometric means,10_numbers.py,,True
+E691,bm_gmcsf16_margin,2.7,"Lowest PSLN-344 value ÷ highest PSLN-212 value, Lung Gm-csf mRNA, 16 h (fold)",S02-F,S02!B17:P19,min of one group ÷ max of the other,04c_biomarker_separation.py,,True
+E692,bm_gmcsf36_margin,3.7,"Lowest PSLN-344 value ÷ highest PSLN-212 value, Lung Gm-csf mRNA, 36 h (fold)",S02-F,S02!B17:P19,min of one group ÷ max of the other,04c_biomarker_separation.py,,True
+E695,imm_ifnb_sham,1.0,Lung Ifnb1 mRNA at 16 h (fold): Sham,S01-A 16h,S01!B3:F10,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E696,imm_ifnb_a212,16.6,Lung Ifnb1 mRNA at 16 h (fold): PSLN-212,S01-A 16h,S01!B3:F10,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E697,imm_ifnb_a344,37.1,Lung Ifnb1 mRNA at 16 h (fold): PSLN-344,S01-A 16h,S01!B3:F10,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E698,imm_ifnb_y212,37.6,Lung Ifnb1 mRNA at 16 h (fold): PSLN-212(Y),S01-A 16h,S01!B3:F10,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E699,imm_ifnb_fold,2.2,Lung Ifnb1 mRNA at 16 h (fold): PSLN-344 ÷ PSLN-212 (aged),S01-A 16h,S01!B3:F10,ratio of means,04b_restoration.py,,True
+E700,imm_ifnb_p,3.7×10⁻⁸,"Lung Ifnb1 mRNA at 16 h (fold): Tukey p, PSLN-344 vs PSLN-212 (aged)",S01-A 16h,S01!B3:F10,Tukey HSD,04_immunology_stats.py,,True
+E701,imm_gmcsf_sham,1.2,Lung Gm-csf mRNA at 36 h (fold): Sham,S02-F,S02!B17:P19,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E702,imm_gmcsf_a212,1.6,Lung Gm-csf mRNA at 36 h (fold): PSLN-212,S02-F,S02!B17:P19,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E703,imm_gmcsf_a344,8.7,Lung Gm-csf mRNA at 36 h (fold): PSLN-344,S02-F,S02!B17:P19,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E704,imm_gmcsf_fold,5.5,Lung Gm-csf mRNA at 36 h (fold): PSLN-344 ÷ PSLN-212 (aged),S02-F,S02!B17:P19,ratio of means,04b_restoration.py,,True
+E705,imm_gmcsf_p,3.0×10⁻⁶,"Lung Gm-csf mRNA at 36 h (fold): Tukey p, PSLN-344 vs PSLN-212 (aged)",S02-F,S02!B17:P19,Tukey HSD within time point,04_immunology_stats.py,,True
+E706,imm_mono_sham,10.4,"Lung monocytes, day 4 (%): Sham",S01-D,S01!B24:U28,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E707,imm_mono_a212,16.7,"Lung monocytes, day 4 (%): PSLN-212",S01-D,S01!B24:U28,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E708,imm_mono_a344,30.6,"Lung monocytes, day 4 (%): PSLN-344",S01-D,S01!B24:U28,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E709,imm_mono_y212,32.2,"Lung monocytes, day 4 (%): PSLN-212(Y)",S01-D,S01!B24:U28,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E710,imm_mono_fold,1.8,"Lung monocytes, day 4 (%): PSLN-344 ÷ PSLN-212 (aged)",S01-D,S01!B24:U28,ratio of means,04b_restoration.py,,True
+E711,imm_mono_p,2.0×10⁻⁵,"Lung monocytes, day 4 (%): Tukey p, PSLN-344 vs PSLN-212 (aged)",S01-D,S01!B24:U28,Tukey HSD within time point,04_immunology_stats.py,,True
+E712,imm_ccr7_sham,2.5,"CCR7⁺ lung dendritic cells, 72 h (%): Sham",S02-A,S02!A3:D7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E713,imm_ccr7_a212,7.3,"CCR7⁺ lung dendritic cells, 72 h (%): PSLN-212",S02-A,S02!A3:D7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E714,imm_ccr7_a344,30.7,"CCR7⁺ lung dendritic cells, 72 h (%): PSLN-344",S02-A,S02!A3:D7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E715,imm_ccr7_y212,35.0,"CCR7⁺ lung dendritic cells, 72 h (%): PSLN-212(Y)",S02-A,S02!A3:D7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E716,imm_ccr7_fold,4.2,"CCR7⁺ lung dendritic cells, 72 h (%): PSLN-344 ÷ PSLN-212 (aged)",S02-A,S02!A3:D7,ratio of means,04b_restoration.py,,True
+E717,imm_ccr7_p,4.1×10⁻⁶,"CCR7⁺ lung dendritic cells, 72 h (%): Tukey p, PSLN-344 vs PSLN-212 (aged)",S02-A,S02!A3:D7,Tukey HSD,04_immunology_stats.py,,True
+E718,imm_ova_a212,1.8,"Antigen-carrying dendritic cells in node, 36 h (%): PSLN-212",S02-C,S02!K3:O7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E719,imm_ova_a344,7.1,"Antigen-carrying dendritic cells in node, 36 h (%): PSLN-344",S02-C,S02!K3:O7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E720,imm_ova_y212,9.4,"Antigen-carrying dendritic cells in node, 36 h (%): PSLN-212(Y)",S02-C,S02!K3:O7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E721,imm_ova_fold,4.0,"Antigen-carrying dendritic cells in node, 36 h (%): PSLN-344 ÷ PSLN-212 (aged)",S02-C,S02!K3:O7,ratio of means,04b_restoration.py,,True
+E722,imm_ova_p,2.2×10⁻⁵,"Antigen-carrying dendritic cells in node, 36 h (%): Tukey p, PSLN-344 vs PSLN-212 (aged)",S02-C,S02!K3:O7,Tukey HSD,04_immunology_stats.py,,True
+E723,imm_gcb_sham,1.2,"Germinal-centre B cells, day 7 (%): Sham",S03-K,S03!L17:O21,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E724,imm_gcb_a212,2.3,"Germinal-centre B cells, day 7 (%): PSLN-212",S03-K,S03!L17:O21,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E725,imm_gcb_a344,6.5,"Germinal-centre B cells, day 7 (%): PSLN-344",S03-K,S03!L17:O21,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E726,imm_gcb_y212,9.8,"Germinal-centre B cells, day 7 (%): PSLN-212(Y)",S03-K,S03!L17:O21,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E727,imm_gcb_fold,2.8,"Germinal-centre B cells, day 7 (%): PSLN-344 ÷ PSLN-212 (aged)",S03-K,S03!L17:O21,ratio of means,04b_restoration.py,,True
+E728,imm_gcb_p,0.007,"Germinal-centre B cells, day 7 (%): Tukey p, PSLN-344 vs PSLN-212 (aged)",S03-K,S03!L17:O21,Tukey HSD,04_immunology_stats.py,,True
+E729,imm_tfr_sham,22.6,"Follicular regulatory T cells, day 7 (%): Sham",S04-B Foxp3,S04!A8:D12,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E730,imm_tfr_a212,26.7,"Follicular regulatory T cells, day 7 (%): PSLN-212",S04-B Foxp3,S04!A8:D12,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E731,imm_tfr_a344,10.8,"Follicular regulatory T cells, day 7 (%): PSLN-344",S04-B Foxp3,S04!A8:D12,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E732,imm_tfr_y212,7.1,"Follicular regulatory T cells, day 7 (%): PSLN-212(Y)",S04-B Foxp3,S04!A8:D12,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E733,imm_tfr_fold,0.41,"Follicular regulatory T cells, day 7 (%): PSLN-344 ÷ PSLN-212 (aged)",S04-B Foxp3,S04!A8:D12,ratio of means,04b_restoration.py,,True
+E734,imm_tfr_p,0.0002,"Follicular regulatory T cells, day 7 (%): Tukey p, PSLN-344 vs PSLN-212 (aged)",S04-B Foxp3,S04!A8:D12,Tukey HSD,04_immunology_stats.py,,True
+E735,imm_haih1_sham,7.6,"HAI titre, H1N1, day 14 (GMT): Sham",S03-C,S03!K3:O7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,True
+E736,imm_haih1_a212,45.9,"HAI titre, H1N1, day 14 (GMT): PSLN-212",S03-C,S03!K3:O7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,True
+E737,imm_haih1_a344,368,"HAI titre, H1N1, day 14 (GMT): PSLN-344",S03-C,S03!K3:O7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,True
+E738,imm_haih1_y212,485,"HAI titre, H1N1, day 14 (GMT): PSLN-212(Y)",S03-C,S03!K3:O7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,True
+E739,imm_haih1_fold,8.0,"HAI titre, H1N1, day 14 (GMT): PSLN-344 ÷ PSLN-212 (aged)",S03-C,S03!K3:O7,ratio of geometric means,04b_restoration.py,,True
+E740,imm_haih1_p,5.7×10⁻⁶,"HAI titre, H1N1, day 14 (GMT): Tukey p, PSLN-344 vs PSLN-212 (aged)",S03-C,S03!K3:O7,Tukey HSD on log2 titres,04_immunology_stats.py,,True
+E741,imm_haih3_sham,10.0,"HAI titre, H3N2, day 14 (GMT): Sham",S03-G,S03!K10:O14,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,True
+E742,imm_haih3_a212,34.8,"HAI titre, H3N2, day 14 (GMT): PSLN-212",S03-G,S03!K10:O14,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,True
+E743,imm_haih3_a344,320,"HAI titre, H3N2, day 14 (GMT): PSLN-344",S03-G,S03!K10:O14,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,True
+E744,imm_haih3_y212,368,"HAI titre, H3N2, day 14 (GMT): PSLN-212(Y)",S03-G,S03!K10:O14,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,True
+E745,imm_haih3_fold,9.2,"HAI titre, H3N2, day 14 (GMT): PSLN-344 ÷ PSLN-212 (aged)",S03-G,S03!K10:O14,ratio of geometric means,04b_restoration.py,,True
+E746,imm_haih3_p,2.2×10⁻⁶,"HAI titre, H3N2, day 14 (GMT): Tukey p, PSLN-344 vs PSLN-212 (aged)",S03-G,S03!K10:O14,Tukey HSD on log2 titres,04_immunology_stats.py,,True
+E747,imm_nabh1_sham,52.2,"Neutralising titre, H1N1, day 14 (GMT): Sham",S03-D,S03!Q3:U7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,True
+E748,imm_nabh1_a212,418,"Neutralising titre, H1N1, day 14 (GMT): PSLN-212",S03-D,S03!Q3:U7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,True
+E749,imm_nabh1_a344,"3,840","Neutralising titre, H1N1, day 14 (GMT): PSLN-344",S03-D,S03!Q3:U7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,True
+E750,imm_nabh1_y212,"6,686","Neutralising titre, H1N1, day 14 (GMT): PSLN-212(Y)",S03-D,S03!Q3:U7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,True
+E751,imm_nabh1_fold,9.2,"Neutralising titre, H1N1, day 14 (GMT): PSLN-344 ÷ PSLN-212 (aged)",S03-D,S03!Q3:U7,ratio of geometric means,04b_restoration.py,,True
+E752,imm_nabh1_p,0.0002,"Neutralising titre, H1N1, day 14 (GMT): Tukey p, PSLN-344 vs PSLN-212 (aged)",S03-D,S03!Q3:U7,Tukey HSD on log2 titres,04_immunology_stats.py,,True
+E753,imm_nabh3_sham,39.6,"Neutralising titre, H3N2, day 14 (GMT): Sham",S03-H,S03!Q10:U14,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,True
+E754,imm_nabh3_a212,276,"Neutralising titre, H3N2, day 14 (GMT): PSLN-212",S03-H,S03!Q10:U14,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,True
+E755,imm_nabh3_a344,"2,533","Neutralising titre, H3N2, day 14 (GMT): PSLN-344",S03-H,S03!Q10:U14,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,True
+E756,imm_nabh3_y212,"4,411","Neutralising titre, H3N2, day 14 (GMT): PSLN-212(Y)",S03-H,S03!Q10:U14,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,True
+E757,imm_nabh3_fold,9.2,"Neutralising titre, H3N2, day 14 (GMT): PSLN-344 ÷ PSLN-212 (aged)",S03-H,S03!Q10:U14,ratio of geometric means,04b_restoration.py,,True
+E758,imm_nabh3_p,3.2×10⁻⁵,"Neutralising titre, H3N2, day 14 (GMT): Tukey p, PSLN-344 vs PSLN-212 (aged)",S03-H,S03!Q10:U14,Tukey HSD on log2 titres,04_immunology_stats.py,,True
+E759,imm_iggh1_sham,55.7,"IgG titre, H1N1, day 14 (GMT): Sham",S03-A,S03!A3:E7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,True
+E760,imm_iggh1_a212,393,"IgG titre, H1N1, day 14 (GMT): PSLN-212",S03-A,S03!A3:E7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,True
+E761,imm_iggh1_a344,"7,305","IgG titre, H1N1, day 14 (GMT): PSLN-344",S03-A,S03!A3:E7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,True
+E762,imm_iggh1_y212,"11,959","IgG titre, H1N1, day 14 (GMT): PSLN-212(Y)",S03-A,S03!A3:E7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,True
+E763,imm_iggh1_fold,18.6,"IgG titre, H1N1, day 14 (GMT): PSLN-344 ÷ PSLN-212 (aged)",S03-A,S03!A3:E7,ratio of geometric means,04b_restoration.py,,True
+E764,imm_iggh1_p,3.1×10⁻⁶,"IgG titre, H1N1, day 14 (GMT): Tukey p, PSLN-344 vs PSLN-212 (aged)",S03-A,S03!A3:E7,Tukey HSD on log2 titres,04_immunology_stats.py,,True
+E765,imm_gzmb_sham,0.99,"Granzyme-B⁺ lung CD8 T cells, day 3 (%): Sham",S05-E,S05!A26:D30,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E766,imm_gzmb_a212,3.0,"Granzyme-B⁺ lung CD8 T cells, day 3 (%): PSLN-212",S05-E,S05!A26:D30,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E767,imm_gzmb_a344,5.7,"Granzyme-B⁺ lung CD8 T cells, day 3 (%): PSLN-344",S05-E,S05!A26:D30,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E768,imm_gzmb_y212,9.6,"Granzyme-B⁺ lung CD8 T cells, day 3 (%): PSLN-212(Y)",S05-E,S05!A26:D30,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E769,imm_gzmb_fold,1.9,"Granzyme-B⁺ lung CD8 T cells, day 3 (%): PSLN-344 ÷ PSLN-212 (aged)",S05-E,S05!A26:D30,ratio of means,04b_restoration.py,,True
+E770,imm_gzmb_p,0.0008,"Granzyme-B⁺ lung CD8 T cells, day 3 (%): Tukey p, PSLN-344 vs PSLN-212 (aged)",S05-E,S05!A26:D30,Tukey HSD,04_immunology_stats.py,,True
+E771,imm_ifng_sham,0.67,"Interferon-γ⁺ CD8 T cells after H5N1 restimulation, day 14 (%): Sham",S05-F,S05!A33:D37,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E772,imm_ifng_a212,1.5,"Interferon-γ⁺ CD8 T cells after H5N1 restimulation, day 14 (%): PSLN-212",S05-F,S05!A33:D37,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E773,imm_ifng_a344,6.4,"Interferon-γ⁺ CD8 T cells after H5N1 restimulation, day 14 (%): PSLN-344",S05-F,S05!A33:D37,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E774,imm_ifng_y212,9.2,"Interferon-γ⁺ CD8 T cells after H5N1 restimulation, day 14 (%): PSLN-212(Y)",S05-F,S05!A33:D37,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E775,imm_ifng_fold,4.2,"Interferon-γ⁺ CD8 T cells after H5N1 restimulation, day 14 (%): PSLN-344 ÷ PSLN-212 (aged)",S05-F,S05!A33:D37,ratio of means,04b_restoration.py,,True
+E776,imm_ifng_p,6.5×10⁻⁸,"Interferon-γ⁺ CD8 T cells after H5N1 restimulation, day 14 (%): Tukey p, PSLN-344 vs PSLN-212 (aged)",S05-F,S05!A33:D37,Tukey HSD,04_immunology_stats.py,,True
+E777,imm_ifng60_sham,1.5,"Interferon-γ⁺ CD8 T cells, day 60 (%): Sham",S05-G,S05!A40:D44,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E778,imm_ifng60_a212,3.0,"Interferon-γ⁺ CD8 T cells, day 60 (%): PSLN-212",S05-G,S05!A40:D44,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E779,imm_ifng60_a344,9.9,"Interferon-γ⁺ CD8 T cells, day 60 (%): PSLN-344",S05-G,S05!A40:D44,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E780,imm_ifng60_y212,14.4,"Interferon-γ⁺ CD8 T cells, day 60 (%): PSLN-212(Y)",S05-G,S05!A40:D44,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E781,imm_ifng60_fold,3.2,"Interferon-γ⁺ CD8 T cells, day 60 (%): PSLN-344 ÷ PSLN-212 (aged)",S05-G,S05!A40:D44,ratio of means,04b_restoration.py,,True
+E782,imm_ifng60_p,0.0008,"Interferon-γ⁺ CD8 T cells, day 60 (%): Tukey p, PSLN-344 vs PSLN-212 (aged)",S05-G,S05!A40:D44,Tukey HSD,04_immunology_stats.py,,True
+E783,imm_trm_sham,0.58,"Resident-memory CD8 T cells in lung, day 25 (%): Sham",S05-I,S05!A54:D58,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E784,imm_trm_a212,1.0,"Resident-memory CD8 T cells in lung, day 25 (%): PSLN-212",S05-I,S05!A54:D58,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E785,imm_trm_a344,4.0,"Resident-memory CD8 T cells in lung, day 25 (%): PSLN-344",S05-I,S05!A54:D58,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E786,imm_trm_y212,6.0,"Resident-memory CD8 T cells in lung, day 25 (%): PSLN-212(Y)",S05-I,S05!A54:D58,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,True
+E787,imm_trm_fold,4.0,"Resident-memory CD8 T cells in lung, day 25 (%): PSLN-344 ÷ PSLN-212 (aged)",S05-I,S05!A54:D58,ratio of means,04b_restoration.py,,True
+E788,imm_trm_p,3.3×10⁻⁷,"Resident-memory CD8 T cells in lung, day 25 (%): Tukey p, PSLN-344 vs PSLN-212 (aged)",S05-I,S05!A54:D58,Tukey HSD,04_immunology_stats.py,,True
+E789,bmt_ifnb_m212,16.6,"Lung Ifnb1 mRNA, 16 h (fold): mean, aged PSLN-212",S01-A 16h,S01!B3:F10,arithmetic mean of per-animal values,04c_biomarker_separation.py,,True
+E790,bmt_ifnb_m344,37.1,"Lung Ifnb1 mRNA, 16 h (fold): mean, aged PSLN-344",S01-A 16h,S01!B3:F10,arithmetic mean of per-animal values,04c_biomarker_separation.py,,True
+E791,bmt_ifnb_y,37.6,"Lung Ifnb1 mRNA, 16 h (fold): mean, young PSLN-212",S01-A 16h,S01!B3:F10,arithmetic mean of per-animal values,04c_biomarker_separation.py,,True
+E792,bmt_ifnb_sep,none,"Lung Ifnb1 mRNA, 16 h (fold): overlap between aged PSLN-344 and aged PSLN-212 animals",S01-A 16h,S01!B3:F10,min of one group vs max of the other,04c_biomarker_separation.py,,True
+E793,bmt_gmcsf36_m212,1.6,"Lung Gm-csf mRNA, 36 h (fold): mean, aged PSLN-212",S02-F,S02!B17:P19,arithmetic mean of per-animal values,04c_biomarker_separation.py,,True
+E794,bmt_gmcsf36_m344,8.7,"Lung Gm-csf mRNA, 36 h (fold): mean, aged PSLN-344",S02-F,S02!B17:P19,arithmetic mean of per-animal values,04c_biomarker_separation.py,,True
+E795,bmt_gmcsf36_sep,none,"Lung Gm-csf mRNA, 36 h (fold): overlap between aged PSLN-344 and aged PSLN-212 animals",S02-F,S02!B17:P19,min of one group vs max of the other,04c_biomarker_separation.py,,True
+E796,bmt_mono4_m212,16.7,"Lung monocytes, day 4 (%): mean, aged PSLN-212",S01-D,S01!B24:U28,arithmetic mean of per-animal values,04c_biomarker_separation.py,,True
+E797,bmt_mono4_m344,30.6,"Lung monocytes, day 4 (%): mean, aged PSLN-344",S01-D,S01!B24:U28,arithmetic mean of per-animal values,04c_biomarker_separation.py,,True
+E798,bmt_mono4_y,32.2,"Lung monocytes, day 4 (%): mean, young PSLN-212",S01-D,S01!B24:U28,arithmetic mean of per-animal values,04c_biomarker_separation.py,,True
+E799,bmt_mono4_sep,none,"Lung monocytes, day 4 (%): overlap between aged PSLN-344 and aged PSLN-212 animals",S01-D,S01!B24:U28,min of one group vs max of the other,04c_biomarker_separation.py,,True
+E800,bmt_ccr7_m212,7.3,"CCR7⁺ lung dendritic cells, 72 h (%): mean, aged PSLN-212",S02-A,S02!A3:D7,arithmetic mean of per-animal values,04c_biomarker_separation.py,,True
+E801,bmt_ccr7_m344,30.7,"CCR7⁺ lung dendritic cells, 72 h (%): mean, aged PSLN-344",S02-A,S02!A3:D7,arithmetic mean of per-animal values,04c_biomarker_separation.py,,True
+E802,bmt_ccr7_y,35.0,"CCR7⁺ lung dendritic cells, 72 h (%): mean, young PSLN-212",S02-A,S02!A3:D7,arithmetic mean of per-animal values,04c_biomarker_separation.py,,True
+E803,bmt_ccr7_sep,none,"CCR7⁺ lung dendritic cells, 72 h (%): overlap between aged PSLN-344 and aged PSLN-212 animals",S02-A,S02!A3:D7,min of one group vs max of the other,04c_biomarker_separation.py,,True
+E804,bmt_ova_m212,1.8,"Antigen-carrying dendritic cells in node, 36 h (%): mean, aged PSLN-212",S02-C,S02!K3:O7,arithmetic mean of per-animal values,04c_biomarker_separation.py,,True
+E805,bmt_ova_m344,7.1,"Antigen-carrying dendritic cells in node, 36 h (%): mean, aged PSLN-344",S02-C,S02!K3:O7,arithmetic mean of per-animal values,04c_biomarker_separation.py,,True
+E806,bmt_ova_y,9.4,"Antigen-carrying dendritic cells in node, 36 h (%): mean, young PSLN-212",S02-C,S02!K3:O7,arithmetic mean of per-animal values,04c_biomarker_separation.py,,True
+E807,bmt_ova_sep,none,"Antigen-carrying dendritic cells in node, 36 h (%): overlap between aged PSLN-344 and aged PSLN-212 animals",S02-C,S02!K3:O7,min of one group vs max of the other,04c_biomarker_separation.py,,True
+E808,bmt_hai_h1_m212,45.9,"HAI titre, H1N1, day 14: GMT, aged PSLN-212",S03-C,S03!K3:O7,geometric mean titre (values below 1:10 set to 5),04c_biomarker_separation.py,,True
+E809,bmt_hai_h1_m344,368,"HAI titre, H1N1, day 14: GMT, aged PSLN-344",S03-C,S03!K3:O7,geometric mean titre (values below 1:10 set to 5),04c_biomarker_separation.py,,True
+E810,bmt_hai_h1_y,485,"HAI titre, H1N1, day 14: GMT, young PSLN-212",S03-C,S03!K3:O7,geometric mean titre (values below 1:10 set to 5),04c_biomarker_separation.py,,True
+E811,bmt_hai_h1_sep,none,"HAI titre, H1N1, day 14: overlap between aged PSLN-344 and aged PSLN-212 animals",S03-C,S03!K3:O7,min of one group vs max of the other,04c_biomarker_separation.py,,True
+E812,bmt_hai_h3_m212,34.8,"HAI titre, H3N2, day 14: GMT, aged PSLN-212",S03-G,S03!K10:O14,geometric mean titre (values below 1:10 set to 5),04c_biomarker_separation.py,,True
+E813,bmt_hai_h3_m344,320,"HAI titre, H3N2, day 14: GMT, aged PSLN-344",S03-G,S03!K10:O14,geometric mean titre (values below 1:10 set to 5),04c_biomarker_separation.py,,True
+E814,bmt_hai_h3_y,368,"HAI titre, H3N2, day 14: GMT, young PSLN-212",S03-G,S03!K10:O14,geometric mean titre (values below 1:10 set to 5),04c_biomarker_separation.py,,True
+E815,bmt_hai_h3_sep,none,"HAI titre, H3N2, day 14: overlap between aged PSLN-344 and aged PSLN-212 animals",S03-G,S03!K10:O14,min of one group vs max of the other,04c_biomarker_separation.py,,True
+E816,bmt_igg2a_m212,83.4,"IgG2a titre, H1N1, day 14: GMT, aged PSLN-212",S13-A,S13!A3:C7,geometric mean titre (values below 1:10 set to 5),04c_biomarker_separation.py,,True
+E817,bmt_igg2a_m344,"1,642","IgG2a titre, H1N1, day 14: GMT, aged PSLN-344",S13-A,S13!A3:C7,geometric mean titre (values below 1:10 set to 5),04c_biomarker_separation.py,,True
+E818,bmt_igg2a_y,"4,642","IgG2a titre, H1N1, day 14: GMT, young PSLN-212",S13-A,S13!A3:C7,geometric mean titre (values below 1:10 set to 5),04c_biomarker_separation.py,,True
+E819,bmt_igg2a_sep,none,"IgG2a titre, H1N1, day 14: overlap between aged PSLN-344 and aged PSLN-212 animals",S13-A,S13!A3:C7,min of one group vs max of the other,04c_biomarker_separation.py,,True
+E820,bmt_gzmb3_m212,3.0,"Granzyme-B⁺ lung CD8 T cells, day 3 (%): mean, aged PSLN-212",S05-E,S05!A26:D30,arithmetic mean of per-animal values,04c_biomarker_separation.py,,True
+E821,bmt_gzmb3_m344,5.7,"Granzyme-B⁺ lung CD8 T cells, day 3 (%): mean, aged PSLN-344",S05-E,S05!A26:D30,arithmetic mean of per-animal values,04c_biomarker_separation.py,,True
+E822,bmt_gzmb3_y,9.6,"Granzyme-B⁺ lung CD8 T cells, day 3 (%): mean, young PSLN-212",S05-E,S05!A26:D30,arithmetic mean of per-animal values,04c_biomarker_separation.py,,True
+E823,bmt_gzmb3_sep,none,"Granzyme-B⁺ lung CD8 T cells, day 3 (%): overlap between aged PSLN-344 and aged PSLN-212 animals",S05-E,S05!A26:D30,min of one group vs max of the other,04c_biomarker_separation.py,,True
+E824,bmt_ifng_m212,1.5,"Interferon-γ⁺ CD8 T cells after H5N1 restimulation (%): mean, aged PSLN-212",S05-F,S05!A33:D37,arithmetic mean of per-animal values,04c_biomarker_separation.py,,True
+E825,bmt_ifng_m344,6.4,"Interferon-γ⁺ CD8 T cells after H5N1 restimulation (%): mean, aged PSLN-344",S05-F,S05!A33:D37,arithmetic mean of per-animal values,04c_biomarker_separation.py,,True
+E826,bmt_ifng_y,9.2,"Interferon-γ⁺ CD8 T cells after H5N1 restimulation (%): mean, young PSLN-212",S05-F,S05!A33:D37,arithmetic mean of per-animal values,04c_biomarker_separation.py,,True
+E827,bmt_ifng_sep,none,Interferon-γ⁺ CD8 T cells after H5N1 restimulation (%): overlap between aged PSLN-344 and aged PSLN-212 animals,S05-F,S05!A33:D37,min of one group vs max of the other,04c_biomarker_separation.py,,True
+E828,bmt_trm_m212,1.0,"Resident-memory CD8 T cells in lung, day 25 (%): mean, aged PSLN-212",S05-I,S05!A54:D58,arithmetic mean of per-animal values,04c_biomarker_separation.py,,True
+E829,bmt_trm_m344,4.0,"Resident-memory CD8 T cells in lung, day 25 (%): mean, aged PSLN-344",S05-I,S05!A54:D58,arithmetic mean of per-animal values,04c_biomarker_separation.py,,True
+E830,bmt_trm_y,6.0,"Resident-memory CD8 T cells in lung, day 25 (%): mean, young PSLN-212",S05-I,S05!A54:D58,arithmetic mean of per-animal values,04c_biomarker_separation.py,,True
+E831,bmt_trm_sep,none,"Resident-memory CD8 T cells in lung, day 25 (%): overlap between aged PSLN-344 and aged PSLN-212 animals",S05-I,S05!A54:D58,min of one group vs max of the other,04c_biomarker_separation.py,,True
+E832,wane_p_core,0.28,"Fisher exact p, PSLN-344 deaths: core early-challenge experiments vs day-60 experiments",S06-A; S06-B; S06-C; S06-E; S06-F; S06-G,S06!B3:E30; S06!H3:K30; S06!N3:Q30; S06!H34:L68; S06!N34:R68; S06!B71:F105,"Fisher exact, two-sided",03b_survival_pooled.py,,True
+E833,wane_p_printed,0.009,"Fisher exact p, PSLN-344 deaths: all six early-challenge experiments as printed vs day-60 experiments",S03-I; S03-J; S06-A; S06-B; S06-C; S06-D; S06-E; S06-F; S06-G,S03!B17:F51; S03!H17:J46; S06!B3:E30; S06!H3:K30; S06!N3:Q30; S06!B34:E61; S06!H34:L68; S06!N34:R68; S06!B71:F105,"Fisher exact, two-sided",03b_survival_pooled.py,,True
+E002,acute_344_pct,93%,"Survival %, PSLN-344, aged BALB/c, challenge 2–14 d after one dose, all six blocks as printed",S03-I; S03-J; S06-A; S06-B; S06-C; S06-D,S03!B17:F51; S03!H17:J46; S06!B3:E30; S06!H3:K30; S06!N3:Q30; S06!B34:E61,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E003,acute_344_ci,82–99%,"95% CI of survival %, PSLN-344, aged BALB/c, challenge 2–14 d after one dose, all six blocks as printed",S03-I; S03-J; S06-A; S06-B; S06-C; S06-D,S03!B17:F51; S03!H17:J46; S06!B3:E30; S06!H3:K30; S06!N3:Q30; S06!B34:E61,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E005,acute_212_pct,18%,"Survival %, PSLN-212, aged BALB/c, challenge 2–14 d after one dose, all six blocks as printed",S03-I; S03-J; S06-A; S06-B; S06-C; S06-D,S03!B17:F51; S03!H17:J46; S06!B3:E30; S06!H3:K30; S06!N3:Q30; S06!B34:E61,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E006,acute_212_ci,8–32%,"95% CI of survival %, PSLN-212, aged BALB/c, challenge 2–14 d after one dose, all six blocks as printed",S03-I; S03-J; S06-A; S06-B; S06-C; S06-D,S03!B17:F51; S03!H17:J46; S06!B3:E30; S06!H3:K30; S06!N3:Q30; S06!B34:E61,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E008,acute_sham_pct,2%,"Survival %, Sham, aged BALB/c, challenge 2–14 d after one dose, all six blocks as printed",S03-I; S03-J; S06-A; S06-B; S06-C; S06-D,S03!B17:F51; S03!H17:J46; S06!B3:E30; S06!H3:K30; S06!N3:Q30; S06!B34:E61,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E009,acute_sham_ci,0–12%,"95% CI of survival %, Sham, aged BALB/c, challenge 2–14 d after one dose, all six blocks as printed",S03-I; S03-J; S06-A; S06-B; S06-C; S06-D,S03!B17:F51; S03!H17:J46; S06!B3:E30; S06!H3:K30; S06!N3:Q30; S06!B34:E61,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E011,acute_y212_pct,100%,"Survival %, PSLN-212(Y), aged BALB/c, challenge 2–14 d after one dose, all six blocks as printed",S03-I; S06-A; S06-B; S06-C; S06-D,S03!B17:F51; S06!B3:E30; S06!H3:K30; S06!N3:Q30; S06!B34:E61,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E012,acute_y212_ci,90–100%,"95% CI of survival %, PSLN-212(Y), aged BALB/c, challenge 2–14 d after one dose, all six blocks as printed",S03-I; S06-A; S06-B; S06-C; S06-D,S03!B17:F51; S06!B3:E30; S06!H3:K30; S06!N3:Q30; S06!B34:E61,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E018,rob_212_ci,3–36%,"95% CI of survival %, PSLN-212, aged BALB/c, challenge 3–14 d after one dose, flag-robust blocks",S06-A; S06-B; S06-C,S06!B3:E30; S06!H3:K30; S06!N3:Q30,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E021,rob_sham_ci,0–16%,"95% CI of survival %, Sham, aged BALB/c, challenge 3–14 d after one dose, flag-robust blocks",S06-A; S06-B; S06-C,S06!B3:E30; S06!H3:K30; S06!N3:Q30,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E023,rob_y212_pct,100%,"Survival %, PSLN-212(Y), aged BALB/c, challenge 3–14 d after one dose, flag-robust blocks",S06-A; S06-B; S06-C,S06!B3:E30; S06!H3:K30; S06!N3:Q30,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E024,rob_y212_ci,84–100%,"95% CI of survival %, PSLN-212(Y), aged BALB/c, challenge 3–14 d after one dose, flag-robust blocks",S06-A; S06-B; S06-C,S06!B3:E30; S06!H3:K30; S06!N3:Q30,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E029,d60_212_pct,5%,"Survival %, PSLN-212, aged BALB/c, challenge 60 d after one dose",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E030,d60_212_ci,0–24%,"95% CI of survival %, PSLN-212, aged BALB/c, challenge 60 d after one dose",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E032,d60_sham_pct,0%,"Survival %, Sham, aged BALB/c, challenge 60 d after one dose",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E033,d60_sham_ci,0–16%,"95% CI of survival %, Sham, aged BALB/c, challenge 60 d after one dose",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E035,d60_y212_pct,100%,"Survival %, PSLN-212(Y), aged BALB/c, challenge 60 d after one dose",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E036,d60_y212_ci,84–100%,"95% CI of survival %, PSLN-212(Y), aged BALB/c, challenge 60 d after one dose",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E038,d60_untreated_pct,81%,"as above, %",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E039,d60_untreated_ci,58–95%,"as above, CI",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E043,acute_rd,76,"Mantel–Haenszel survival difference PSLN-344 − PSLN-212, percentage points (ACUTE as printed)",S03-I; S03-J; S06-A; S06-B; S06-C; S06-D,S03!B17:F51; S03!H17:J46; S06!B3:E30; S06!H3:K30; S06!N3:Q30; S06!B34:E61,"Mantel–Haenszel risk difference stratified by experiment, Greenland–Robins 95% CI",03b_survival_pooled.py,,False
+E044,acute_rd_ci,63 to 88,CI of the above,S03-I; S03-J; S06-A; S06-B; S06-C; S06-D,S03!B17:F51; S03!H17:J46; S06!B3:E30; S06!H3:K30; S06!N3:Q30; S06!B34:E61,as above,03b_survival_pooled.py,,False
+E045,acute_lr_p,1.3×10⁻¹³,"Stratified log-rank p, PSLN-344 vs PSLN-212 (ACUTE as printed)",S03-I; S03-J; S06-A; S06-B; S06-C; S06-D,S03!B17:F51; S03!H17:J46; S06!B3:E30; S06!H3:K30; S06!N3:Q30; S06!B34:E61,log-rank stratified by experiment (cross-checked with R survival::survdiff),03b_survival_pooled.py; 03c_survival_crosscheck.R,,False
+E049,d60_rd,62,"Mantel–Haenszel survival difference PSLN-344 − PSLN-212, percentage points (D60)",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,"Mantel–Haenszel risk difference stratified by experiment, Greenland–Robins 95% CI",03b_survival_pooled.py,,False
+E050,d60_rd_ci,40 to 84,CI of the above,S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,as above,03b_survival_pooled.py,,False
+E051,d60_lr_p,2.4×10⁻⁶,"Stratified log-rank p, PSLN-344 vs PSLN-212 (D60)",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,log-rank stratified by experiment (cross-checked with R survival::survdiff),03b_survival_pooled.py; 03c_survival_crosscheck.R,,False
+E054,d60_344_vs_untreated_fisher,0.48,"Fisher exact p, deaths PSLN-344 (challenged d60) vs untreated (unchallenged)",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,"Fisher exact, two-sided",03b_survival_pooled.py,,False
+E056,strain_344_pct,86%,"Survival %, PSLN-344, aged C57BL/6 + Swiss Webster",S15-L; S15-N,S15!B103:E130; S15!B134:E161,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E058,strain_212_pct,14%,"Survival %, PSLN-212, aged C57BL/6 + Swiss Webster",S15-L; S15-N,S15!B103:E130; S15!B134:E161,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E059,strain_sham,0/14,"Survival, Sham, aged C57BL/6 + Swiss Webster",S15-L; S15-N,S15!B103:E130; S15!B134:E161,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E060,strain_sham_pct,0%,"Survival %, Sham, aged C57BL/6 + Swiss Webster",S15-L; S15-N,S15!B103:E130; S15!B134:E161,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E061,strain_y212,13/14,"Survival, PSLN-212(Y), young C57BL/6 + Swiss Webster",S15-L; S15-N,S15!B103:E130; S15!B134:E161,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E062,strain_y212_pct,93%,"Survival %, PSLN-212(Y), young C57BL/6 + Swiss Webster",S15-L; S15-N,S15!B103:E130; S15!B134:E161,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E064,m14_344_naive_pct,86%,"Survival %, Naive+PSLN-344, 14-month BALB/c, no prior infection",S06-E[r71]; S06-F[r71],S06!H71:K98; S06!N71:Q98,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E066,m14_212_naive_pct,0%,"Survival %, Naive+PSLN-212, 14-month BALB/c, no prior infection",S06-E[r71]; S06-F[r71],S06!H71:K98; S06!N71:Q98,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E068,m14_344_impr_pct,86%,"Survival %, Imprinting+PSLN-344, 14-month BALB/c, PR8-imprinted",S06-E[r71]; S06-F[r71],S06!H71:K98; S06!N71:Q98,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E069,m14_212_impr,4/14,"Survival, Imprinting+PSLN-212, 14-month BALB/c, PR8-imprinted",S06-E[r71]; S06-F[r71],S06!H71:K98; S06!N71:Q98,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E070,m14_212_impr_pct,29%,"Survival %, Imprinting+PSLN-212, 14-month BALB/c, PR8-imprinted",S06-E[r71]; S06-F[r71],S06!H71:K98; S06!N71:Q98,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E072,young_344_pct,100%,"Survival %, PSLN-344Y, young BALB/c",S09-B; S09-D; S09-F,S09!B12:D35; S09!B39:D62; S09!B66:D88,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E074,young_212_pct,100%,"Survival %, PSLN-212Y, young BALB/c",S09-B; S09-D; S09-F,S09!B12:D35; S09!B39:D62; S09!B66:D88,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E075,young_sham,0/23,"Survival, Sham, young BALB/c",S09-B; S09-D; S09-F,S09!B12:D35; S09!B39:D62; S09!B66:D88,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E076,young_sham_pct,0%,"Survival %, Sham, young BALB/c",S09-B; S09-D; S09-F,S09!B12:D35; S09!B39:D62; S09!B66:D88,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,03b_survival_pooled.py,,False
+E124,S09B_Sham,0/8,"Survival, Sham, block S09-B",S09-B,S09!B12:D35,survivors / animals,03_survival.py,,False
+E125,S09B_PSLN344Y,8/8,"Survival, PSLN-344Y, block S09-B",S09-B,S09!B12:D35,survivors / animals,03_survival.py,,False
+E126,S09B_PSLN212Y,8/8,"Survival, PSLN-212Y, block S09-B",S09-B,S09!B12:D35,survivors / animals,03_survival.py,,False
+E127,S09D_Sham,0/8,"Survival, Sham, block S09-D",S09-D,S09!B39:D62,survivors / animals,03_survival.py,,False
+E128,S09D_PSLN344Y,8/8,"Survival, PSLN-344Y, block S09-D",S09-D,S09!B39:D62,survivors / animals,03_survival.py,,False
+E129,S09D_PSLN212Y,8/8,"Survival, PSLN-212Y, block S09-D",S09-D,S09!B39:D62,survivors / animals,03_survival.py,,False
+E130,S09F_Sham,0/7,"Survival, Sham, block S09-F",S09-F,S09!B66:D88,survivors / animals,03_survival.py,,False
+E144,S13E_Naive,0/7,"Survival, Naive, block S13-E",S13-E,S13!S3:V30,survivors / animals,03_survival.py,,False
+E145,S13E_Sham,1/7,"Survival, Sham, block S13-E",S13-E,S13!S3:V30,survivors / animals,03_survival.py,,False
+E147,S13E_PSLN344Y,7/7,"Survival, PSLN-344(Y), block S13-E",S13-E,S13!S3:V30,survivors / animals,03_survival.py,,False
+E149,early_344_pct,88%,"as above, %",S03-J; S06-B; S15-H,S03!H17:J46; S06!H3:K30; S15!B73:D93,survivors / animals at end of observation; exact Clopper–Pearson 95% CI,10_numbers.py,,False
+E153,S15H_adj_vs_vac_p,0.31,"Exact log-rank p, PSLN-344 alone vs vaccine alone",S15-H,S15!B73:D93,exact permutation log-rank,03_survival.py,,False
+E154,ifnb16_sham,1.0,"Mean, Sham, Ifnb1 mRNA, total lung cells (qRT-PCR), fold vs untreated",S01-A 16h,S01!B3:F10,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E155,ifnb72_sham,1.0,"Mean, Sham, Ifnb1 mRNA, total lung cells (qRT-PCR), fold vs untreated",S01-A 72h,S01!H3:L10,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E157,ifnb72_cmp,2.2,"Mean, CMP-204, Ifnb1 mRNA, total lung cells (qRT-PCR), fold vs untreated",S01-A 72h,S01!H3:L10,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E159,ifnb72_a212,3.4,"Mean, PSLN-212, Ifnb1 mRNA, total lung cells (qRT-PCR), fold vs untreated",S01-A 72h,S01!H3:L10,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E160,ifnb16_r848,5.0,"Mean, PSLN-R848, Ifnb1 mRNA, total lung cells (qRT-PCR), fold vs untreated",S01-A 16h,S01!B3:F10,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E161,ifnb72_r848,1.2,"Mean, PSLN-R848, Ifnb1 mRNA, total lung cells (qRT-PCR), fold vs untreated",S01-A 72h,S01!H3:L10,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E163,ifnb72_a212r848,1.7,"Mean, PSLN-212/R848, Ifnb1 mRNA, total lung cells (qRT-PCR), fold vs untreated",S01-A 72h,S01!H3:L10,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E167,ifnb72_y212,1.6,"Mean, PSLN-212(Y), Ifnb1 mRNA, total lung cells (qRT-PCR), fold vs untreated",S01-A 72h,S01!H3:L10,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E168,ifnb16_y344,50.7,"Mean, PSLN-344(Y), Ifnb1 mRNA, total lung cells (qRT-PCR), fold vs untreated",S01-A 16h,S01!B3:F10,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E169,ifnb72_y344,3.1,"Mean, PSLN-344(Y), Ifnb1 mRNA, total lung cells (qRT-PCR), fold vs untreated",S01-A 72h,S01!H3:L10,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E171,ifnb72_p_344_y212,2.2×10⁻⁵,"Tukey p, Ifnb1 72 h, aged PSLN-344 vs young PSLN-212",S01-A 72h,S01!H3:L10,one-way ANOVA + Tukey HSD (8 groups),04_immunology_stats.py,,False
+E175,gmcsf16_a212,1.5,"Mean, PSLN-212, Gm-csf mRNA, lung (qRT-PCR), fold vs untreated at x=16",S02-F,S02!B17:P19,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E176,gmcsf16_sham,1.0,"Mean, Sham, Gm-csf mRNA, lung (qRT-PCR), fold vs untreated at x=16",S02-F,S02!B17:P19,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E178,gmcsf36_a212,1.6,"Mean, PSLN-212, Gm-csf mRNA, lung (qRT-PCR), fold vs untreated at x=36",S02-F,S02!B17:P19,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E179,gmcsf36_sham,1.2,"Mean, Sham, Gm-csf mRNA, lung (qRT-PCR), fold vs untreated at x=36",S02-F,S02!B17:P19,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E181,gmcsf72_a212,1.4,"Mean, PSLN-212, Gm-csf mRNA, lung (qRT-PCR), fold vs untreated at x=72",S02-F,S02!B17:P19,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E182,gmcsf72_sham,1.2,"Mean, Sham, Gm-csf mRNA, lung (qRT-PCR), fold vs untreated at x=72",S02-F,S02!B17:P19,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E184,gmcsf36_p,3.0×10⁻⁶,"Tukey p, Gm-csf 36 h, PSLN-344 vs PSLN-212",S02-F,S02!B17:P19,Tukey HSD within time point (3 groups),04_immunology_stats.py,,False
+E187,emax_a344_ci,48–68,"Bootstrap 95% CI of Emax, PSLN-344",S08-A,S08!B3:M7,"2,000 bootstrap resamples within dose",05_dose_response.py,,False
+E188,ed50_a344_ci,11–16,"Bootstrap 95% CI of ED50, PSLN-344",S08-A,S08!B3:M7,"2,000 bootstrap resamples within dose",05_dose_response.py,,False
+E191,emax_a212_ci,13–19,"Bootstrap 95% CI of Emax, PSLN-212",S08-A,S08!B3:M7,"2,000 bootstrap resamples within dose",05_dose_response.py,,False
+E192,ed50_a212_ci,8–14,"Bootstrap 95% CI of ED50, PSLN-212",S08-A,S08!B3:M7,"2,000 bootstrap resamples within dose",05_dose_response.py,,False
+E194,ed50_cmp,6,"ED50 (µg), CMP-204",S08-A,S08!B3:M7,as above; bootstrap 95% CI 5–7,05_dose_response.py,,False
+E195,emax_cmp_ci,6–8,"Bootstrap 95% CI of Emax, CMP-204",S08-A,S08!B3:M7,"2,000 bootstrap resamples within dose",05_dose_response.py,,False
+E196,ed50_cmp_ci,5–7,"Bootstrap 95% CI of ED50, CMP-204",S08-A,S08!B3:M7,"2,000 bootstrap resamples within dose",05_dose_response.py,,False
+E198,dr5_a212,4.1,"Mean Ifnb1 fold at 5 µg, PSLN-212",S08-A,S08!B3:M7,arithmetic mean of per-animal values (n=3),05_dose_response.py,,False
+E199,dr5_cmp,3.8,"Mean Ifnb1 fold at 5 µg, CMP-204",S08-A,S08!B3:M7,arithmetic mean of per-animal values (n=3),05_dose_response.py,,False
+E200,dr5_x344r848,6.7,"Mean Ifnb1 fold at 5 µg, PSLN-344/R848",S08-A,S08!B3:M7,arithmetic mean of per-animal values (n=3),05_dose_response.py,,False
+E202,dr10_a212,8.9,"Mean Ifnb1 fold at 10 µg, PSLN-212",S08-A,S08!B3:M7,arithmetic mean of per-animal values (n=3),05_dose_response.py,,False
+E203,dr10_cmp,6.3,"Mean Ifnb1 fold at 10 µg, CMP-204",S08-A,S08!B3:M7,arithmetic mean of per-animal values (n=3),05_dose_response.py,,False
+E204,dr10_x344r848,14.7,"Mean Ifnb1 fold at 10 µg, PSLN-344/R848",S08-A,S08!B3:M7,arithmetic mean of per-animal values (n=3),05_dose_response.py,,False
+E205,dr20_a344,45.8,"Mean Ifnb1 fold at 20 µg, PSLN-344",S08-A,S08!B3:M7,arithmetic mean of per-animal values (n=3),05_dose_response.py,,False
+E207,dr20_cmp,7.3,"Mean Ifnb1 fold at 20 µg, CMP-204",S08-A,S08!B3:M7,arithmetic mean of per-animal values (n=3),05_dose_response.py,,False
+E208,dr20_x344r848,29.4,"Mean Ifnb1 fold at 20 µg, PSLN-344/R848",S08-A,S08!B3:M7,arithmetic mean of per-animal values (n=3),05_dose_response.py,,False
+E209,dr40_a344,50.2,"Mean Ifnb1 fold at 40 µg, PSLN-344",S08-A,S08!B3:M7,arithmetic mean of per-animal values (n=3),05_dose_response.py,,False
+E211,dr40_cmp,8.0,"Mean Ifnb1 fold at 40 µg, CMP-204",S08-A,S08!B3:M7,arithmetic mean of per-animal values (n=3),05_dose_response.py,,False
+E212,dr40_x344r848,34.9,"Mean Ifnb1 fold at 40 µg, PSLN-344/R848",S08-A,S08!B3:M7,arithmetic mean of per-animal values (n=3),05_dose_response.py,,False
+E214,dose_eq_212,6.6,PSLN-344 dose (µg) giving the Ifnb1 induction of 20 µg PSLN-212,S08-A,S08!B3:M7,interpolation on fitted Hill curve (model-free log-log interpolation gives 6.8),05_dose_response.py,,False
+E215,dose_eq_young,18,PSLN-344 dose (µg) in aged mice giving the Ifnb1 induction of 20 µg PSLN-212 in young mice,S08-A; S01-A 16h,S08!B3:M7; S01!B3:F10,interpolation on fitted Hill curve (model-free: 16.8),05_dose_response.py,,False
+E221,mono8_a212,9.7,"Mean, PSLN-212, % lung monocytes (CD11b+Ly6C+CD11c-Ly6G-) at x=8",S01-D,S01!B24:U28,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E223,mono8_y212,14.1,"Mean, PSLN-212(Y), % lung monocytes (CD11b+Ly6C+CD11c-Ly6G-) at x=8",S01-D,S01!B24:U28,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E224,dc4_sham,4.8,"Mean, Sham, % lung CD11b+ DC (CD11c+MHC-II+CD11b+F4/80-) at x=4",S01-E,S01!B30:Z34,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E225,dc4_a212,8.3,"Mean, PSLN-212, % lung CD11b+ DC (CD11c+MHC-II+CD11b+F4/80-) at x=4",S01-E,S01!B30:Z34,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E226,dc4_a344,18.9,"Mean, PSLN-344, % lung CD11b+ DC (CD11c+MHC-II+CD11b+F4/80-) at x=4",S01-E,S01!B30:Z34,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E227,dc4_y212,21.4,"Mean, PSLN-212(Y), % lung CD11b+ DC (CD11c+MHC-II+CD11b+F4/80-) at x=4",S01-E,S01!B30:Z34,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E229,dc8_a212,6.0,"Mean, PSLN-212, % lung CD11b+ DC (CD11c+MHC-II+CD11b+F4/80-) at x=8",S01-E,S01!B30:Z34,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E231,dc8_y212,9.5,"Mean, PSLN-212(Y), % lung CD11b+ DC (CD11c+MHC-II+CD11b+F4/80-) at x=8",S01-E,S01!B30:Z34,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E232,mono8_p_344_y212,0.0003,"Tukey p, lung monocytes d8, aged PSLN-344 vs young PSLN-212",S01-D,S01!B24:U28,Tukey HSD within day,04_immunology_stats.py,,False
+E233,dc8_p_344_y212,0.005,"Tukey p, lung CD11b+ DC d8, aged PSLN-344 vs young PSLN-212",S01-E,S01!B30:Z34,Tukey HSD within day,04_immunology_stats.py,,False
+E234,ccr7_sham,2.5,"Mean, Sham, % CCR7+ of lung CD11b+ DC",S02-A,S02!A3:D7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E237,ccr7_y212,35.0,"Mean, PSLN-212(Y), % CCR7+ of lung CD11b+ DC",S02-A,S02!A3:D7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E238,mlndc_sham,13.9,"Mean, Sham, % MLN CD11b+CD103- DC",S02-B,S02!F3:I7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E239,mlndc_a212,18.2,"Mean, PSLN-212, % MLN CD11b+CD103- DC",S02-B,S02!F3:I7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E240,mlndc_a344,36.8,"Mean, PSLN-344, % MLN CD11b+CD103- DC",S02-B,S02!F3:I7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E241,mlndc_y212,44.7,"Mean, PSLN-212(Y), % MLN CD11b+CD103- DC",S02-B,S02!F3:I7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E242,cd40_sham,4.0,"Mean, Sham, % CD40+ of MLN CD11b+ DC",S02-D CD40,S02!A10:D14,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E243,cd40_a212,5.6,"Mean, PSLN-212, % CD40+ of MLN CD11b+ DC",S02-D CD40,S02!A10:D14,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E246,cd86_sham,7.2,"Mean, Sham, % CD86+ of MLN CD11b+ DC",S02-D CD86,S02!F10:I14,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E247,cd86_a212,8.1,"Mean, PSLN-212, % CD86+ of MLN CD11b+ DC",S02-D CD86,S02!F10:I14,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E250,cd206_sham,85.2,"Mean, Sham, % CD206+ macrophages in lung",S11-E,S11!A31:D35,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E253,cd206_y212,35.5,"Mean, PSLN-212(Y), % CD206+ macrophages in lung",S11-E,S11!A31:D35,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E254,cdc1_sham,17.9,"Mean, Sham, % lung cDC1 (XCR1+CD172a-CD11c+CD26+)",S01-F,S01!B36:Z36,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E255,cdc1_a212,22.8,"Mean, PSLN-212, % lung cDC1 (XCR1+CD172a-CD11c+CD26+)",S01-F,S01!B36:Z36,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E256,cdc1_a344,37.5,"Mean, PSLN-344, % lung cDC1 (XCR1+CD172a-CD11c+CD26+)",S01-F,S01!B36:Z36,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E257,cdc1_y212,43.4,"Mean, PSLN-212(Y), % lung cDC1 (XCR1+CD172a-CD11c+CD26+)",S01-F,S01!B36:Z36,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E258,ki67_sham,0.8,"Mean, Sham, % Ki-67+ lung CD8 T",S05-D,S05!A19:D23,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E259,ki67_a212,3.5,"Mean, PSLN-212, % Ki-67+ lung CD8 T",S05-D,S05!A19:D23,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E260,ki67_a344,9.4,"Mean, PSLN-344, % Ki-67+ lung CD8 T",S05-D,S05!A19:D23,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E261,ki67_y212,9.9,"Mean, PSLN-212(Y), % Ki-67+ lung CD8 T",S05-D,S05!A19:D23,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E262,gzmb3_sham,1.0,"Mean, Sham, % GZMB+ lung CD8 T",S05-E,S05!A26:D30,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E265,gzmb3_y212,9.6,"Mean, PSLN-212(Y), % GZMB+ lung CD8 T",S05-E,S05!A26:D30,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E266,ifng14_sham,0.7,"Mean, Sham, % IFN-g+ CD8 T, MLN, rgH5N1 restim",S05-F,S05!A33:D37,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E269,ifng14_y212,9.2,"Mean, PSLN-212(Y), % IFN-g+ CD8 T, MLN, rgH5N1 restim",S05-F,S05!A33:D37,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E270,ifng60_sham,1.5,"Mean, Sham, % IFN-g+ CD8 T, MLN, rgH5N1 restim",S05-G,S05!A40:D44,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E271,ifng60_a212,3.0,"Mean, PSLN-212, % IFN-g+ CD8 T, MLN, rgH5N1 restim",S05-G,S05!A40:D44,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E272,ifng60_a344,9.9,"Mean, PSLN-344, % IFN-g+ CD8 T, MLN, rgH5N1 restim",S05-G,S05!A40:D44,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E273,ifng60_y212,14.4,"Mean, PSLN-212(Y), % IFN-g+ CD8 T, MLN, rgH5N1 restim",S05-G,S05!A40:D44,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E274,gzmb60_sham,0.6,"Mean, Sham, % GZMB+ CD8 T, MLN",S05-H,S05!A47:D51,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E275,gzmb60_a212,1.0,"Mean, PSLN-212, % GZMB+ CD8 T, MLN",S05-H,S05!A47:D51,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E276,gzmb60_a344,4.1,"Mean, PSLN-344, % GZMB+ CD8 T, MLN",S05-H,S05!A47:D51,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E277,gzmb60_y212,5.6,"Mean, PSLN-212(Y), % GZMB+ CD8 T, MLN",S05-H,S05!A47:D51,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E278,trm_sham,0.6,"Mean, Sham, % lung CD8 TRM (CD69+CD103+)",S05-I,S05!A54:D58,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E281,trm_y212,6.0,"Mean, PSLN-212(Y), % lung CD8 TRM (CD69+CD103+)",S05-I,S05!A54:D58,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E282,ifngH1_sham,0.8,"Mean, Sham, % IFN-g+ CD8 T, MLN, CA09 H1N1 restim",S14-A H1N1,S14!A3:D7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E283,ifngH1_a212,3.1,"Mean, PSLN-212, % IFN-g+ CD8 T, MLN, CA09 H1N1 restim",S14-A H1N1,S14!A3:D7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E284,ifngH1_a344,11.0,"Mean, PSLN-344, % IFN-g+ CD8 T, MLN, CA09 H1N1 restim",S14-A H1N1,S14!A3:D7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E285,ifngH1_y212,13.7,"Mean, PSLN-212(Y), % IFN-g+ CD8 T, MLN, CA09 H1N1 restim",S14-A H1N1,S14!A3:D7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E286,ifngH3_sham,1.0,"Mean, Sham, % IFN-g+ CD8 T, MLN, Aichi H3N2 restim",S14-A H3N2,S14!F3:I7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E287,ifngH3_a212,3.6,"Mean, PSLN-212, % IFN-g+ CD8 T, MLN, Aichi H3N2 restim",S14-A H3N2,S14!F3:I7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E288,ifngH3_a344,9.9,"Mean, PSLN-344, % IFN-g+ CD8 T, MLN, Aichi H3N2 restim",S14-A H3N2,S14!F3:I7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E289,ifngH3_y212,14.0,"Mean, PSLN-212(Y), % IFN-g+ CD8 T, MLN, Aichi H3N2 restim",S14-A H3N2,S14!F3:I7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E290,gcb_sham,1.2,"Mean, Sham, % GC B cells (CXCR5+GL7+) in MLN",S03-K,S03!L17:O21,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E293,gcb_y212,9.8,"Mean, PSLN-212(Y), % GC B cells (CXCR5+GL7+) in MLN",S03-K,S03!L17:O21,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E294,tfhhi_sham,0.3,"Mean, Sham, % Tfh ICOS-hi (CD4+CXCR5+PD1+), MLN",S04-A ICOShi,S04!G2:K5,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E295,tfhhi_a212,3.8,"Mean, PSLN-212, % Tfh ICOS-hi (CD4+CXCR5+PD1+), MLN",S04-A ICOShi,S04!G2:K5,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E296,tfhhi_a344,10.3,"Mean, PSLN-344, % Tfh ICOS-hi (CD4+CXCR5+PD1+), MLN",S04-A ICOShi,S04!G2:K5,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E297,tfhhi_y212,13.6,"Mean, PSLN-212(Y), % Tfh ICOS-hi (CD4+CXCR5+PD1+), MLN",S04-A ICOShi,S04!G2:K5,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E298,tfr7_sham,22.6,"Mean, Sham, % Tfr (Foxp3+ in CXCR5+ICOShi CD4), MLN",S04-B Foxp3,S04!A8:D12,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E301,tfr7_y212,7.1,"Mean, PSLN-212(Y), % Tfr (Foxp3+ in CXCR5+ICOShi CD4), MLN",S04-B Foxp3,S04!A8:D12,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E303,tfr30_a212,18.0,"Mean, PSLN-212, % Tfr, MLN",S04-C,S04!A22:D26,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E305,tfr30_y212,7.4,"Mean, PSLN-212(Y), % Tfr, MLN",S04-C,S04!A22:D26,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E306,treg_sham,5.9,"Mean, Sham, % lung Treg (CD4+Foxp3+)",S04-D,S04!A29:D31,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,False
+E309,treg_y212,1.8,"Mean, PSLN-212(Y), % lung Treg (CD4+Foxp3+)",S04-D,S04!A29:D31,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,False
+E310,iggb_sham,4.7,"Mean, Sham, % IgG+ of MLN B220+ cells",S13-H,S13!A53:D57,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E311,iggb_a212,11.2,"Mean, PSLN-212, % IgG+ of MLN B220+ cells",S13-H,S13!A53:D57,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E312,iggb_a344,25.9,"Mean, PSLN-344, % IgG+ of MLN B220+ cells",S13-H,S13!A53:D57,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E313,iggb_y212,27.1,"Mean, PSLN-212(Y), % IgG+ of MLN B220+ cells",S13-H,S13!A53:D57,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E318,ova_y212,9.4,"Mean, PSLN-212(Y), % OVA-AF647+ MLN DC",S02-C,S02!K3:O7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E319,oti_y212,26.2,"Mean, PSLN-212(Y), % proliferated OT-I CD8 (CFSE dilution) after co-culture with MLN CD11b+ DC",S02-E,S02!K10:O14,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E320,ova_ptx,2.4,"Mean, PTX, % OVA-AF647+ MLN DC",S02-C,S02!K3:O7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E321,oti_ptx,2.5,"Mean, PTX, % proliferated OT-I CD8 (CFSE dilution) after co-culture with MLN CD11b+ DC",S02-E,S02!K10:O14,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E322,ova_y344,11.1,"Mean, PSLN-344(Y), % OVA-AF647+ MLN DC",S02-C,S02!K3:O7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E323,oti_y344,31.4,"Mean, PSLN-344(Y), % proliferated OT-I CD8 (CFSE dilution) after co-culture with MLN CD11b+ DC",S02-E,S02!K10:O14,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E330,srb_aec1free,0.33,"Mean, AECI/FreeSRB, % SRB+ alveolar epithelial cells",S01-B,S01!B14:F17,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E331,srb08_c_a,15.8,"Mean, AECII-PSLN-SRB, % SRB+ alveolar epithelial cells",S08-C,S08!A14:D18,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E332,srb08_c_b,3.8,"Mean, AECII-PSLN-344-SRB, % SRB+ alveolar epithelial cells",S08-C,S08!A14:D18,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E333,srb08_c_c,13.8,"Mean, AECI-PSLN-SRB, % SRB+ alveolar epithelial cells",S08-C,S08!A14:D18,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E334,srb08_c_d,3.0,"Mean, AECI-PSLN-344-SRB, % SRB+ alveolar epithelial cells",S08-C,S08!A14:D18,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E345,modc_wtcdc,27.2,"Mean, WT w/ cDC, % CD45.2+ monocyte-derived DC",S02-H,S02!B30:F34,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E346,modc_kocdc,6.1,"Mean, IFN w/ cDC, % CD45.2+ monocyte-derived DC",S02-H,S02!B30:F34,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E348,modc_p_ko_gm,0.006,"Tukey p, Ifnar-null marrow ± GM-CSF",S02-H,S02!B30:F34,one-way ANOVA + Tukey (5 groups),04_immunology_stats.py,,False
+E349,ifnar_mono_wt,21.3,"Mean, WT to WT, % infiltrating CD45.2+ monocytes",S12-A,S12!A3:B5,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,False
+E350,ifnar_mono_ko,15.4,"Mean, IFNAR-/- to WT, % infiltrating CD45.2+ monocytes",S12-A,S12!A3:B5,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,False
+E351,ifnar_mono_p,0.10,"Student t p, infiltrating monocytes WT vs Ifnar-null donor",S12-A,S12!A3:B5,Student's t (n=3 v 3),04_immunology_stats.py,,False
+E352,gmrescue_gm,1.5,"Mean, GM-CSF, % lung Ly6C+CD11c+MHC-II+F4/80-/int (moDC)",S02-G,S02!B22:D26,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E357,ly6cmac10_a212,14.6,"Mean, PSLN-212, lung Ly6C+CCR2+ macrophages (x10^5 cells) at x=10",S07-A,S07!B3:G7,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,False
+E358,ly6cmac10_a344,2.9,"Mean, PSLN-344, lung Ly6C+CCR2+ macrophages (x10^5 cells) at x=10",S07-A,S07!B3:G7,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,False
+E363,aicda_sham,1.0,"Mean, Sham, Aicda mRNA, MLN B cells, fold vs untreated",S03-L Aicda,S03!L26:N28,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,False
+E364,e47_sham,1.0,"Mean, Sham, E47 mRNA, MLN B cells, fold vs untreated",S03-L E47,S03!O26:Q28,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,False
+E365,aicda_a212,3.4,"Mean, PSLN-212, Aicda mRNA, MLN B cells, fold vs untreated",S03-L Aicda,S03!L26:N28,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,False
+E366,e47_a212,6.4,"Mean, PSLN-212, E47 mRNA, MLN B cells, fold vs untreated",S03-L E47,S03!O26:Q28,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,False
+E367,aicda_a344,12.0,"Mean, PSLN-344, Aicda mRNA, MLN B cells, fold vs untreated",S03-L Aicda,S03!L26:N28,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,False
+E368,e47_a344,24.5,"Mean, PSLN-344, E47 mRNA, MLN B cells, fold vs untreated",S03-L E47,S03!O26:Q28,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,False
+E369,igg_h1_sham,56,"GMT, Sham, serum IgG anti-CA09 H1N1 (endpoint titre)",S03-A,S03!A3:E7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E370,igg_h1_cmp,181,"GMT, CMP-204, serum IgG anti-CA09 H1N1 (endpoint titre)",S03-A,S03!A3:E7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E371,igg_h1_a212,393,"GMT, PSLN-212, serum IgG anti-CA09 H1N1 (endpoint titre)",S03-A,S03!A3:E7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E372,igg_h1_a344,"7,305","GMT, PSLN-344, serum IgG anti-CA09 H1N1 (endpoint titre)",S03-A,S03!A3:E7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E373,igg_h1_y212,"11,959","GMT, PSLN-212(Y), serum IgG anti-CA09 H1N1 (endpoint titre)",S03-A,S03!A3:E7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E375,igg_h1_pct_young,61%,"Aged PSLN-344 GMT as % of young PSLN-212, serum IgG anti-CA09 H1N1 (endpoint titre)",S03-A,S03!A3:E7,ratio of geometric means,04b_restoration.py,,False
+E376,igg_h1_cmpfold,2.2,"GMT ratio PSLN-212 / CMP-204 (aged), serum IgG anti-CA09 H1N1 (endpoint titre)",S03-A,S03!A3:E7,ratio of geometric means; Tukey on log2 titres p = 0.31,04_immunology_stats.py,,False
+E377,igg_h3_sham,52,"GMT, Sham, serum IgG anti-Aichi H3N2 (endpoint titre)",S03-E,S03!A10:E14,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E378,igg_h3_cmp,200,"GMT, CMP-204, serum IgG anti-Aichi H3N2 (endpoint titre)",S03-E,S03!A10:E14,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E379,igg_h3_a212,426,"GMT, PSLN-212, serum IgG anti-Aichi H3N2 (endpoint titre)",S03-E,S03!A10:E14,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E380,igg_h3_a344,"5,701","GMT, PSLN-344, serum IgG anti-Aichi H3N2 (endpoint titre)",S03-E,S03!A10:E14,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E381,igg_h3_y212,"13,855","GMT, PSLN-212(Y), serum IgG anti-Aichi H3N2 (endpoint titre)",S03-E,S03!A10:E14,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E382,igg_h3_fold,13.4,"GMT ratio PSLN-344 / PSLN-212 (aged), serum IgG anti-Aichi H3N2 (endpoint titre)",S03-E,S03!A10:E14,ratio of geometric means; Tukey on log2 titres p = 0.0001,04_immunology_stats.py,,False
+E384,igg_h3_cmpfold,2.1,"GMT ratio PSLN-212 / CMP-204 (aged), serum IgG anti-Aichi H3N2 (endpoint titre)",S03-E,S03!A10:E14,ratio of geometric means; Tukey on log2 titres p = 0.49,04_immunology_stats.py,,False
+E385,hai_h1_sham,8,"GMT, Sham, HAI titre vs CA09 H1N1 (LLOD 10)",S03-C,S03!K3:O7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E386,hai_h1_cmp,23,"GMT, CMP-204, HAI titre vs CA09 H1N1 (LLOD 10)",S03-C,S03!K3:O7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E389,hai_h1_y212,485,"GMT, PSLN-212(Y), HAI titre vs CA09 H1N1 (LLOD 10)",S03-C,S03!K3:O7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E391,hai_h1_pct_young,76%,"Aged PSLN-344 GMT as % of young PSLN-212, HAI titre vs CA09 H1N1 (LLOD 10)",S03-C,S03!K3:O7,ratio of geometric means,04b_restoration.py,,False
+E392,hai_h1_cmpfold,2.0,"GMT ratio PSLN-212 / CMP-204 (aged), HAI titre vs CA09 H1N1 (LLOD 10)",S03-C,S03!K3:O7,ratio of geometric means; Tukey on log2 titres p = 0.16,04_immunology_stats.py,,False
+E393,hai_h3_sham,10,"GMT, Sham, HAI titre vs Aichi H3N2 (LLOD 10)",S03-G,S03!K10:O14,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E394,hai_h3_cmp,30,"GMT, CMP-204, HAI titre vs Aichi H3N2 (LLOD 10)",S03-G,S03!K10:O14,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E395,hai_h3_a212,35,"GMT, PSLN-212, HAI titre vs Aichi H3N2 (LLOD 10)",S03-G,S03!K10:O14,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E396,hai_h3_a344,320,"GMT, PSLN-344, HAI titre vs Aichi H3N2 (LLOD 10)",S03-G,S03!K10:O14,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E397,hai_h3_y212,368,"GMT, PSLN-212(Y), HAI titre vs Aichi H3N2 (LLOD 10)",S03-G,S03!K10:O14,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E400,hai_h3_cmpfold,1.1,"GMT ratio PSLN-212 / CMP-204 (aged), HAI titre vs Aichi H3N2 (LLOD 10)",S03-G,S03!K10:O14,ratio of geometric means; Tukey on log2 titres p = 0.99,04_immunology_stats.py,,False
+E401,nab_h1_sham,52,"GMT, Sham, neutralising titre vs CA09 H1N1",S03-D,S03!Q3:U7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E402,nab_h1_cmp,182,"GMT, CMP-204, neutralising titre vs CA09 H1N1",S03-D,S03!Q3:U7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E403,nab_h1_a212,418,"GMT, PSLN-212, neutralising titre vs CA09 H1N1",S03-D,S03!Q3:U7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E404,nab_h1_a344,"3,840","GMT, PSLN-344, neutralising titre vs CA09 H1N1",S03-D,S03!Q3:U7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E405,nab_h1_y212,"6,686","GMT, PSLN-212(Y), neutralising titre vs CA09 H1N1",S03-D,S03!Q3:U7,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E407,nab_h1_pct_young,57%,"Aged PSLN-344 GMT as % of young PSLN-212, neutralising titre vs CA09 H1N1",S03-D,S03!Q3:U7,ratio of geometric means,04b_restoration.py,,False
+E408,nab_h1_cmpfold,2.3,"GMT ratio PSLN-212 / CMP-204 (aged), neutralising titre vs CA09 H1N1",S03-D,S03!Q3:U7,ratio of geometric means; Tukey on log2 titres p = 0.29,04_immunology_stats.py,,False
+E409,nab_h3_sham,40,"GMT, Sham, neutralising titre vs Aichi H3N2",S03-H,S03!Q10:U14,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E410,nab_h3_cmp,138,"GMT, CMP-204, neutralising titre vs Aichi H3N2",S03-H,S03!Q10:U14,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E411,nab_h3_a212,276,"GMT, PSLN-212, neutralising titre vs Aichi H3N2",S03-H,S03!Q10:U14,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E412,nab_h3_a344,"2,533","GMT, PSLN-344, neutralising titre vs Aichi H3N2",S03-H,S03!Q10:U14,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E413,nab_h3_y212,"4,411","GMT, PSLN-212(Y), neutralising titre vs Aichi H3N2",S03-H,S03!Q10:U14,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E414,nab_h3_fold,9.2,"GMT ratio PSLN-344 / PSLN-212 (aged), neutralising titre vs Aichi H3N2",S03-H,S03!Q10:U14,ratio of geometric means; Tukey on log2 titres p = 3.2×10⁻⁵,04_immunology_stats.py,,False
+E415,nab_h3_pct_young,57%,"Aged PSLN-344 GMT as % of young PSLN-212, neutralising titre vs Aichi H3N2",S03-H,S03!Q10:U14,ratio of geometric means,04b_restoration.py,,False
+E416,nab_h3_cmpfold,2.0,"GMT ratio PSLN-212 / CMP-204 (aged), neutralising titre vs Aichi H3N2",S03-H,S03!Q10:U14,ratio of geometric means; Tukey on log2 titres p = 0.31,04_immunology_stats.py,,False
+E417,igg28_h1_sham,57,"GMT, Sham, serum IgG anti-CA09 H1N1 (prime d0 + boost d14)",S13-I,S13!F53:J57,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E418,igg28_h1_cmp,940,"GMT, CMP-204, serum IgG anti-CA09 H1N1 (prime d0 + boost d14)",S13-I,S13!F53:J57,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E419,igg28_h1_a212,"4,411","GMT, PSLN-212, serum IgG anti-CA09 H1N1 (prime d0 + boost d14)",S13-I,S13!F53:J57,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E420,igg28_h1_a344,"15,651","GMT, PSLN-344, serum IgG anti-CA09 H1N1 (prime d0 + boost d14)",S13-I,S13!F53:J57,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E421,igg28_h1_y212,"40,739","GMT, PSLN-212(Y), serum IgG anti-CA09 H1N1 (prime d0 + boost d14)",S13-I,S13!F53:J57,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E423,igg28_h1_pct_young,38%,"Aged PSLN-344 GMT as % of young PSLN-212, serum IgG anti-CA09 H1N1 (prime d0 + boost d14)",S13-I,S13!F53:J57,ratio of geometric means,04b_restoration.py,,False
+E424,igg28_h1_cmpfold,4.7,"GMT ratio PSLN-212 / CMP-204 (aged), serum IgG anti-CA09 H1N1 (prime d0 + boost d14)",S13-I,S13!F53:J57,ratio of geometric means; Tukey on log2 titres p = 0.077,04_immunology_stats.py,,False
+E425,igg28_h3_sham,101,"GMT, Sham, serum IgG anti-Aichi H3N2 (prime d0 + boost d14)",S13-J,S13!L53:P57,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E426,igg28_h3_cmp,474,"GMT, CMP-204, serum IgG anti-Aichi H3N2 (prime d0 + boost d14)",S13-J,S13!L53:P57,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E427,igg28_h3_a212,"1,086","GMT, PSLN-212, serum IgG anti-Aichi H3N2 (prime d0 + boost d14)",S13-J,S13!L53:P57,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E428,igg28_h3_a344,"12,435","GMT, PSLN-344, serum IgG anti-Aichi H3N2 (prime d0 + boost d14)",S13-J,S13!L53:P57,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E429,igg28_h3_y212,"43,472","GMT, PSLN-212(Y), serum IgG anti-Aichi H3N2 (prime d0 + boost d14)",S13-J,S13!L53:P57,geometric mean titre (values below 1:10 set to 5) (n=5),04_immunology_stats.py,,False
+E431,igg28_h3_pct_young,29%,"Aged PSLN-344 GMT as % of young PSLN-212, serum IgG anti-Aichi H3N2 (prime d0 + boost d14)",S13-J,S13!L53:P57,ratio of geometric means,04b_restoration.py,,False
+E432,igg28_h3_cmpfold,2.3,"GMT ratio PSLN-212 / CMP-204 (aged), serum IgG anti-Aichi H3N2 (prime d0 + boost d14)",S13-J,S13!L53:P57,ratio of geometric means; Tukey on log2 titres p = 0.24,04_immunology_stats.py,,False
+E435,hai_h1_344_min,160,Lowest individual HAI titre (H1N1) in aged PSLN-344 animals,S03-C,S03!K3:O7,minimum,10_numbers.py,,False
+E442,ratio_h1_printed_a212,2.97,"IgG2a/IgG1 quotient AS PRINTED under the header ""PSLN-212"" in S03-B",S03-B,S03!G3:I7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E444,ratio_h1_printed_y212,2.14,"IgG2a/IgG1 quotient AS PRINTED under the header ""PSLN-212(Y)"" in S03-B",S03-B,S03!G3:I7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E445,ratio_h3_printed_a212,2.89,"IgG2a/IgG1 quotient AS PRINTED under the header ""PSLN-212"" in S03-F",S03-F,S03!G10:I14,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E446,ratio_h3_printed_a344,0.51,"IgG2a/IgG1 quotient AS PRINTED under the header ""PSLN-344"" in S03-F",S03-F,S03!G10:I14,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E447,ratio_h3_printed_y212,2.73,"IgG2a/IgG1 quotient AS PRINTED under the header ""PSLN-212(Y)"" in S03-F",S03-F,S03!G10:I14,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E449,boostfold_h1_a212,11.2,"IgG GMT day 28 (after boost) ÷ day 14 (single dose), PSLN-212",S13-I; S03-A,S13!F53:J57; S03!A3:E7,ratio of geometric means from two separate experiments (not paired),10_numbers.py,,False
+E450,boostfold_h3_a344,2.2,"IgG GMT day 28 (after boost) ÷ day 14 (single dose), PSLN-344",S13-J; S03-E,S13!L53:P57; S03!A10:E14,ratio of geometric means from two separate experiments (not paired),10_numbers.py,,False
+E451,boostfold_h3_a212,2.6,"IgG GMT day 28 (after boost) ÷ day 14 (single dose), PSLN-212",S13-J; S03-E,S13!L53:P57; S03!A10:E14,ratio of geometric means from two separate experiments (not paired),10_numbers.py,,False
+E465,fx_dc_aged,2.2,"Fold effect of Mn²⁺ (344 vs 212) in aged animals, % lung CD11b+ DC (CD11c+MHC-II+CD11b+F4/80-)",S01-E,S01!B30:Z34,ratio of geometric means,07_morbidity_and_factorial.py,,False
+E466,fx_dc_young,1.1,"Fold effect of Mn²⁺ (344 vs 212) in young animals, % lung CD11b+ DC (CD11c+MHC-II+CD11b+F4/80-)",S01-E,S01!B30:Z34,ratio of geometric means,07_morbidity_and_factorial.py,,False
+E467,fx_dc_p,0.006,"Age × Mn²⁺ interaction p, % lung CD11b+ DC (CD11c+MHC-II+CD11b+F4/80-)",S01-E,S01!B30:Z34,"two-way ANOVA on log2 values, interaction term",07_morbidity_and_factorial.py,,False
+E468,fx_cdc1_aged,1.6,"Fold effect of Mn²⁺ (344 vs 212) in aged animals, % lung cDC1 (XCR1+CD172a-CD11c+CD26+)",S01-F,S01!B36:Z36,ratio of geometric means,07_morbidity_and_factorial.py,,False
+E469,fx_cdc1_young,1.0,"Fold effect of Mn²⁺ (344 vs 212) in young animals, % lung cDC1 (XCR1+CD172a-CD11c+CD26+)",S01-F,S01!B36:Z36,ratio of geometric means,07_morbidity_and_factorial.py,,False
+E470,fx_cdc1_p,0.001,"Age × Mn²⁺ interaction p, % lung cDC1 (XCR1+CD172a-CD11c+CD26+)",S01-F,S01!B36:Z36,"two-way ANOVA on log2 values, interaction term",07_morbidity_and_factorial.py,,False
+E471,fx_ova_aged,4.0,"Fold effect of Mn²⁺ (344 vs 212) in aged animals, % OVA-AF647+ MLN DC",S02-C,S02!K3:O7,ratio of geometric means,07_morbidity_and_factorial.py,,False
+E472,fx_ova_young,1.2,"Fold effect of Mn²⁺ (344 vs 212) in young animals, % OVA-AF647+ MLN DC",S02-C,S02!K3:O7,ratio of geometric means,07_morbidity_and_factorial.py,,False
+E473,fx_ova_p,2.8×10⁻⁶,"Age × Mn²⁺ interaction p, % OVA-AF647+ MLN DC",S02-C,S02!K3:O7,"two-way ANOVA on log2 values, interaction term",07_morbidity_and_factorial.py,,False
+E474,fx_oti_aged,29.4,"Fold effect of Mn²⁺ (344 vs 212) in aged animals, % proliferated OT-I CD8 (CFSE dilution) after co-culture with MLN CD11b+ DC",S02-E,S02!K10:O14,ratio of geometric means,07_morbidity_and_factorial.py,,False
+E475,fx_oti_young,1.2,"Fold effect of Mn²⁺ (344 vs 212) in young animals, % proliferated OT-I CD8 (CFSE dilution) after co-culture with MLN CD11b+ DC",S02-E,S02!K10:O14,ratio of geometric means,07_morbidity_and_factorial.py,,False
+E476,fx_oti_p,1.2×10⁻⁷,"Age × Mn²⁺ interaction p, % proliferated OT-I CD8 (CFSE dilution) after co-culture with MLN CD11b+ DC",S02-E,S02!K10:O14,"two-way ANOVA on log2 values, interaction term",07_morbidity_and_factorial.py,,False
+E480,bw_nadir_a212,97.0,"Mean per-animal body-weight nadir (% of day 0) after immunisation, PSLN-212",S08-D,S08!B21:AE26,mean of each animal's lowest post-dose weight (n=5),06_safety.py,,False
+E481,bw_worst_a212,5.5,"Largest individual weight loss (%), PSLN-212",S08-D,S08!B21:AE26,maximum over animals,06_safety.py,,False
+E482,bw_d10_a212,101.0,"Mean body weight on day 10 (% of day 0), PSLN-212",S08-D,S08!B21:AE26,mean (n=5),06_safety.py,,False
+E484,bw_worst_vac,2.9,"Largest individual weight loss (%), Vaccine",S08-D,S08!B21:AE26,maximum over animals,06_safety.py,,False
+E485,bw_d10_vac,100.2,"Mean body weight on day 10 (% of day 0), Vaccine",S08-D,S08!B21:AE26,mean (n=5),06_safety.py,,False
+E487,bw_worst_r848,15.3,"Largest individual weight loss (%), PSLN-212/R848",S08-D,S08!B21:AE26,maximum over animals,06_safety.py,,False
+E488,bw_d10_r848,90.7,"Mean body weight on day 10 (% of day 0), PSLN-212/R848",S08-D,S08!B21:AE26,mean (n=4),06_safety.py,,False
+E489,bw_nadir_y212,97.6,"Mean per-animal body-weight nadir (% of day 0) after immunisation, PSLN-212(Y)",S08-D,S08!B21:AE26,mean of each animal's lowest post-dose weight (n=5),06_safety.py,,False
+E490,bw_worst_y212,4.0,"Largest individual weight loss (%), PSLN-212(Y)",S08-D,S08!B21:AE26,maximum over animals,06_safety.py,,False
+E491,bw_d10_y212,100.7,"Mean body weight on day 10 (% of day 0), PSLN-212(Y)",S08-D,S08!B21:AE26,mean (n=5),06_safety.py,,False
+E492,bw_nadir_cmp,95.9,"Mean per-animal body-weight nadir (% of day 0) after immunisation, CMP-204",S08-D,S08!B21:AE26,mean of each animal's lowest post-dose weight (n=5),06_safety.py,,False
+E493,bw_worst_cmp,6.8,"Largest individual weight loss (%), CMP-204",S08-D,S08!B21:AE26,maximum over animals,06_safety.py,,False
+E494,bw_d10_cmp,100.9,"Mean body weight on day 10 (% of day 0), CMP-204",S08-D,S08!B21:AE26,mean (n=5),06_safety.py,,False
+E497,bw_diff_344_vac_p,0.86,Tukey p of the above,S08-D,S08!B21:AE26,Tukey HSD,06_safety.py,,False
+E498,bw_diff_r848_344_p,0.005,"Tukey p, nadir PSLN-212/R848 vs PSLN-344",S08-D,S08!B21:AE26,Tukey HSD,06_safety.py,,False
+E500,c16_ifnb1_a344,36,"Lung Ifnb1 fold vs untreated, PSLN-344, panel S09-A[A:U]",S09-A[A:U] Ifnb1,S09!B3:V3,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E501,c72_ifnb1_a344,4.0,"Lung Ifnb1 fold vs untreated, PSLN-344, panel S09-A[X:AS]",S09-A[X:AS] Ifnb1,S09!Y3:AS3,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E502,c16_ifnb1_a212,16,"Lung Ifnb1 fold vs untreated, PSLN-212, panel S09-A[A:U]",S09-A[A:U] Ifnb1,S09!B3:V3,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E503,c72_ifnb1_a212,3.4,"Lung Ifnb1 fold vs untreated, PSLN-212, panel S09-A[X:AS]",S09-A[X:AS] Ifnb1,S09!Y3:AS3,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E504,c16_ifnb1_y212,38,"Lung Ifnb1 fold vs untreated, PSLN-212(y), panel S09-A[A:U]",S09-A[A:U] Ifnb1,S09!B3:V3,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E505,c72_ifnb1_y212,1.4,"Lung Ifnb1 fold vs untreated, PSLN-212(y), panel S09-A[X:AS]",S09-A[X:AS] Ifnb1,S09!Y3:AS3,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E506,c16_ifnb1_r848,24,"Lung Ifnb1 fold vs untreated, PSLN-212/R848, panel S09-A[A:U]",S09-A[A:U] Ifnb1,S09!B3:V3,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E507,c72_ifnb1_r848,1.6,"Lung Ifnb1 fold vs untreated, PSLN-212/R848, panel S09-A[X:AS]",S09-A[X:AS] Ifnb1,S09!Y3:AS3,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E508,c16_ifnb1_r848only,4.3,"Lung Ifnb1 fold vs untreated, PSLN-R848, panel S09-A[A:U]",S09-A[A:U] Ifnb1,S09!B3:V3,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E509,c72_ifnb1_r848only,1.2,"Lung Ifnb1 fold vs untreated, PSLN-R848, panel S09-A[X:AS]",S09-A[X:AS] Ifnb1,S09!Y3:AS3,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E512,c16_il6_a212,5.6,"Lung Il6 fold vs untreated, PSLN-212, panel S09-A[A:U]",S09-A[A:U] Il6,S09!B4:V4,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E513,c72_il6_a212,1.9,"Lung Il6 fold vs untreated, PSLN-212, panel S09-A[X:AS]",S09-A[X:AS] Il6,S09!Y4:AS4,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E516,c16_il6_r848,31,"Lung Il6 fold vs untreated, PSLN-212/R848, panel S09-A[A:U]",S09-A[A:U] Il6,S09!B4:V4,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E517,c72_il6_r848,34,"Lung Il6 fold vs untreated, PSLN-212/R848, panel S09-A[X:AS]",S09-A[X:AS] Il6,S09!Y4:AS4,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E518,c16_il6_r848only,2.0,"Lung Il6 fold vs untreated, PSLN-R848, panel S09-A[A:U]",S09-A[A:U] Il6,S09!B4:V4,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E519,c72_il6_r848only,4.1,"Lung Il6 fold vs untreated, PSLN-R848, panel S09-A[X:AS]",S09-A[X:AS] Il6,S09!Y4:AS4,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E521,c72_ccl2_a344,27,"Lung Ccl2 fold vs untreated, PSLN-344, panel S09-A[X:AS]",S09-A[X:AS] Ccl2,S09!Y5:AS5,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E522,c16_ccl2_a212,7.6,"Lung Ccl2 fold vs untreated, PSLN-212, panel S09-A[A:U]",S09-A[A:U] Ccl2,S09!B5:V5,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E523,c72_ccl2_a212,5.2,"Lung Ccl2 fold vs untreated, PSLN-212, panel S09-A[X:AS]",S09-A[X:AS] Ccl2,S09!Y5:AS5,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E525,c72_ccl2_y212,102,"Lung Ccl2 fold vs untreated, PSLN-212(y), panel S09-A[X:AS]",S09-A[X:AS] Ccl2,S09!Y5:AS5,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E526,c16_ccl2_r848,226,"Lung Ccl2 fold vs untreated, PSLN-212/R848, panel S09-A[A:U]",S09-A[A:U] Ccl2,S09!B5:V5,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E527,c72_ccl2_r848,58,"Lung Ccl2 fold vs untreated, PSLN-212/R848, panel S09-A[X:AS]",S09-A[X:AS] Ccl2,S09!Y5:AS5,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E528,c16_ccl2_r848only,2.5,"Lung Ccl2 fold vs untreated, PSLN-R848, panel S09-A[A:U]",S09-A[A:U] Ccl2,S09!B5:V5,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E529,c72_ccl2_r848only,10,"Lung Ccl2 fold vs untreated, PSLN-R848, panel S09-A[X:AS]",S09-A[X:AS] Ccl2,S09!Y5:AS5,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E530,c16_ccl3_a344,30,"Lung Ccl3 fold vs untreated, PSLN-344, panel S09-A[A:U]",S09-A[A:U] Ccl3,S09!B6:V6,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E531,c72_ccl3_a344,9.2,"Lung Ccl3 fold vs untreated, PSLN-344, panel S09-A[X:AS]",S09-A[X:AS] Ccl3,S09!Y6:AS6,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E532,c16_ccl3_a212,1.1,"Lung Ccl3 fold vs untreated, PSLN-212, panel S09-A[A:U]",S09-A[A:U] Ccl3,S09!B6:V6,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E533,c72_ccl3_a212,4.7,"Lung Ccl3 fold vs untreated, PSLN-212, panel S09-A[X:AS]",S09-A[X:AS] Ccl3,S09!Y6:AS6,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E534,c16_ccl3_y212,57,"Lung Ccl3 fold vs untreated, PSLN-212(y), panel S09-A[A:U]",S09-A[A:U] Ccl3,S09!B6:V6,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E535,c72_ccl3_y212,41,"Lung Ccl3 fold vs untreated, PSLN-212(y), panel S09-A[X:AS]",S09-A[X:AS] Ccl3,S09!Y6:AS6,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E536,c16_ccl3_r848,3.8,"Lung Ccl3 fold vs untreated, PSLN-212/R848, panel S09-A[A:U]",S09-A[A:U] Ccl3,S09!B6:V6,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E537,c72_ccl3_r848,14,"Lung Ccl3 fold vs untreated, PSLN-212/R848, panel S09-A[X:AS]",S09-A[X:AS] Ccl3,S09!Y6:AS6,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E538,c16_ccl3_r848only,4.2,"Lung Ccl3 fold vs untreated, PSLN-R848, panel S09-A[A:U]",S09-A[A:U] Ccl3,S09!B6:V6,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E539,c72_ccl3_r848only,0.7,"Lung Ccl3 fold vs untreated, PSLN-R848, panel S09-A[X:AS]",S09-A[X:AS] Ccl3,S09!Y6:AS6,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E540,c16_ccl5_a344,20,"Lung Ccl5 fold vs untreated, PSLN-344, panel S09-A[A:U]",S09-A[A:U] Ccl5,S09!B7:V7,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E541,c72_ccl5_a344,2.0,"Lung Ccl5 fold vs untreated, PSLN-344, panel S09-A[X:AS]",S09-A[X:AS] Ccl5,S09!Y7:AS7,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E542,c16_ccl5_a212,2.6,"Lung Ccl5 fold vs untreated, PSLN-212, panel S09-A[A:U]",S09-A[A:U] Ccl5,S09!B7:V7,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E543,c72_ccl5_a212,1.2,"Lung Ccl5 fold vs untreated, PSLN-212, panel S09-A[X:AS]",S09-A[X:AS] Ccl5,S09!Y7:AS7,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E544,c16_ccl5_y212,62,"Lung Ccl5 fold vs untreated, PSLN-212(y), panel S09-A[A:U]",S09-A[A:U] Ccl5,S09!B7:V7,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E545,c72_ccl5_y212,0.5,"Lung Ccl5 fold vs untreated, PSLN-212(y), panel S09-A[X:AS]",S09-A[X:AS] Ccl5,S09!Y7:AS7,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E546,c16_ccl5_r848,8.2,"Lung Ccl5 fold vs untreated, PSLN-212/R848, panel S09-A[A:U]",S09-A[A:U] Ccl5,S09!B7:V7,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E547,c72_ccl5_r848,55,"Lung Ccl5 fold vs untreated, PSLN-212/R848, panel S09-A[X:AS]",S09-A[X:AS] Ccl5,S09!Y7:AS7,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E548,c16_ccl5_r848only,0.8,"Lung Ccl5 fold vs untreated, PSLN-R848, panel S09-A[A:U]",S09-A[A:U] Ccl5,S09!B7:V7,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E549,c72_ccl5_r848only,1.1,"Lung Ccl5 fold vs untreated, PSLN-R848, panel S09-A[X:AS]",S09-A[X:AS] Ccl5,S09!Y7:AS7,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E552,c16_tnf_a212,16,"Lung Tnf fold vs untreated, PSLN-212, panel S09-A[A:U]",S09-A[A:U] Tnf,S09!B8:V8,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E558,c16_tnf_r848only,130,"Lung Tnf fold vs untreated, PSLN-R848, panel S09-A[A:U]",S09-A[A:U] Tnf,S09!B8:V8,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E559,c72_tnf_r848only,28,"Lung Tnf fold vs untreated, PSLN-R848, panel S09-A[X:AS]",S09-A[X:AS] Tnf,S09!Y8:AS8,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E562,c16_il10_a212,3.7,"Lung Il10 fold vs untreated, PSLN-212, panel S09-A[A:U]",S09-A[A:U] Il10,S09!B9:V9,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E563,c72_il10_a212,4.2,"Lung Il10 fold vs untreated, PSLN-212, panel S09-A[X:AS]",S09-A[X:AS] Il10,S09!Y9:AS9,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E568,c16_il10_r848only,29,"Lung Il10 fold vs untreated, PSLN-R848, panel S09-A[A:U]",S09-A[A:U] Il10,S09!B9:V9,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,,False
+E569,c72_il10_r848only,4.2,"Lung Il10 fold vs untreated, PSLN-R848, panel S09-A[X:AS]",S09-A[X:AS] Il10,S09!Y9:AS9,"geometric mean (10^mean of log10 values, n=3)",06_safety.py,"panel printed ""16 h""; treated as 72 h (Q7)",False
+E570,c72_tnf_p,0.002,"Student t p (log10 scale), Tnf, aged PSLN-344 vs young PSLN-212, second S09-A panel",S09-A[X:AS] Tnf,S09!Y8:AS8,"Student's t on log10 values (n=3 v 3), unadjusted",06_safety.py,Q7,False
+E571,c72_il6_p,0.053,"Student t p (log10 scale), Il6, aged PSLN-344 vs young PSLN-212, second S09-A panel",S09-A[X:AS] Il6,S09!Y4:AS4,"Student's t on log10 values (n=3 v 3), unadjusted",06_safety.py,Q7,False
+E572,c72_il10_p,0.001,"Student t p (log10 scale), Il10, aged PSLN-344 vs young PSLN-212, second S09-A panel",S09-A[X:AS] Il10,S09!Y9:AS9,"Student's t on log10 values (n=3 v 3), unadjusted",06_safety.py,Q7,False
+E573,cns_ifnb1_pbs,1.00,"Mean, PBS, Ifnb1 mRNA, CNS, fold vs untreated",S10-A Ifnb1,S10!A3:D7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E574,cns_ifnb1_sham,1.17,"Mean, Sham, Ifnb1 mRNA, CNS, fold vs untreated",S10-A Ifnb1,S10!A3:D7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E575,cns_ifnb1_a344,1.32,"Mean, PSLN-344, Ifnb1 mRNA, CNS, fold vs untreated",S10-A Ifnb1,S10!A3:D7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E578,cns_ifnb1_ci,-1.04 to +1.35,Tukey 95% CI of the above,S10-A Ifnb1,S10!A3:D7,Tukey HSD,06_safety.py,,False
+E579,cns_ifnb1_p,0.98,Tukey p of the above,S10-A Ifnb1,S10!A3:D7,Tukey HSD,06_safety.py,,False
+E580,cns_tnf_pbs,1.00,"Mean, PBS, Tnf mRNA, CNS, fold vs untreated",S10-A Tnf,S10!F3:I7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E582,cns_tnf_a344,1.59,"Mean, PSLN-344, Tnf mRNA, CNS, fold vs untreated",S10-A Tnf,S10!F3:I7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E587,cns_isg15_pbs,1.00,"Mean, PBS, Isg15 mRNA, CNS, fold vs untreated",S10-A Isg15,S10!K3:N7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E588,cns_isg15_sham,1.04,"Mean, Sham, Isg15 mRNA, CNS, fold vs untreated",S10-A Isg15,S10!K3:N7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E589,cns_isg15_a344,1.13,"Mean, PSLN-344, Isg15 mRNA, CNS, fold vs untreated",S10-A Isg15,S10!K3:N7,arithmetic mean of per-animal values (n=5),04_immunology_stats.py,,False
+E592,cns_isg15_ci,-0.69 to +0.86,Tukey 95% CI of the above,S10-A Isg15,S10!K3:N7,Tukey HSD,06_safety.py,,False
+E593,cns_isg15_p,0.99,Tukey p of the above,S10-A Isg15,S10!K3:N7,Tukey HSD,06_safety.py,,False
+E594,cns_tnf_vs_pbs_p,0.037,"Unadjusted Student t p, CNS Tnf, PSLN-344 vs PBS",S10-A Tnf,S10!F3:I7,"Student's t (n=5 v 5), unadjusted",06_safety.py,,False
+E597,ee_cmp,65.2,"Mean, CMP-204, encapsulation efficiency (%)",S08-B,S08!A11:O11,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,False
+E598,ee_r848,52.4,"Mean, PSLN-212/R848, encapsulation efficiency (%)",S08-B,S08!A11:O11,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,False
+E599,ee_r848only,61.3,"Mean, PSLN-R848, encapsulation efficiency (%)",S08-B,S08!A11:O11,arithmetic mean of per-animal values (n=3),04_immunology_stats.py,,False
+E603,morb_a344_range,11–16%,Range across the 7 blocks,S15-A; S15-B; S15-C; S15-D; S15-E; S15-F; S15-G,S15!B3:AC10; S15!B13:AC20; S15!B23:AC30; S15!B33:AC40; S15!B43:AJ50; S15!B53:AJ60; S15!B63:AJ70,as above,07_morbidity_and_factorial.py,Q4,False
+E605,morb_a212_range,17–19%,Range across the 7 blocks,S15-A; S15-B; S15-C; S15-D; S15-E; S15-F; S15-G,S15!B3:AC10; S15!B13:AC20; S15!B23:AC30; S15!B33:AC40; S15!B43:AJ50; S15!B53:AJ60; S15!B63:AJ70,as above,07_morbidity_and_factorial.py,Q4,False
+E607,morb_y212_range,8–12%,Range across the 7 blocks,S15-A; S15-B; S15-C; S15-D; S15-E; S15-F; S15-G,S15!B3:AC10; S15!B13:AC20; S15!B23:AC30; S15!B33:AC40; S15!B43:AJ50; S15!B53:AJ60; S15!B63:AJ70,as above,07_morbidity_and_factorial.py,Q4,False
+E608,pw_main_n12,0.95,"Power, Fisher exact, 86% vs 14% survival, n=12/arm",S06-A; S06-B; S06-C,S06!B3:E30; S06!H3:K30; S06!N3:Q30,"exact power of two-sided Fisher test, α=0.05",08_power.py,,False
+E609,pw_main_n15,0.98,"Power, 86% vs 14%, n=15/arm",S06-A; S06-B; S06-C,S06!B3:E30; S06!H3:K30; S06!N3:Q30,as above,08_power.py,,False
+E610,pw_alt_n15,0.54,"Power, 86% vs 43% (if PSLN-212 truly protects 3/7), n=15/arm",S06-A; S06-B; S06-C; S13-F,S06!B3:E30; S06!H3:K30; S06!N3:Q30; S13!B33:AJ40,as above,08_power.py,,False
+E611,pw_alt_n30,0.92,"Power, 86% vs 43%, n=30/arm",S06-A; S06-B; S06-C; S13-F,S06!B3:E30; S06!H3:K30; S06!N3:Q30; S13!B33:AJ40,as above,08_power.py,,False
+E612,pw_cmp50_n15,0.39,"Power, 86% vs an assumed 50% for an active comparator, n=15/arm",S06-A; S06-B; S06-C,S06!B3:E30; S06!H3:K30; S06!N3:Q30,"as above; comparator rate is an assumption, not data",08_power.py,,False
+E613,pw_cmp50_n30,0.80,"Power, 86% vs assumed 50%, n=30/arm",S06-A; S06-B; S06-C,S06!B3:E30; S06!H3:K30; S06!N3:Q30,as above,08_power.py,,False
+E614,pw_d60_n20,0.99,"Power, 67% vs 5% at d60, n=20/arm",S06-E; S06-F; S06-G,S06!H34:L68; S06!N34:R68; S06!B71:F105,as above,08_power.py,,False
+E620,n_nadir_2pt,14,"n/arm to detect a 2-point difference in nadir, 90% power",S08-D,S08!B21:AE26,"two-sample t, α=0.05",08_power.py,,False
+E626,ifnb16_212_vs_cmp,2.1,"Ifnb1 16 h, ratio PSLN-212 / CMP-204 (aged)",S01-A 16h,S01!B3:F10,ratio of means; Tukey p = 0.020,04_immunology_stats.py,,False
+E627,ifnb16_212_vs_cmp_p,0.020,"Tukey p, Ifnb1 16 h, PSLN-212 vs CMP-204",S01-A 16h,S01!B3:F10,one-way ANOVA + Tukey HSD (8 groups),04_immunology_stats.py,,False
+E638,bm_ifnb_cut,24.9,"Candidate cut-off (geometric midpoint of the gap), Lung Ifnb1 mRNA, 16 h (fold)",S01-A 16h,S01!B3:F10,sqrt(min of higher group × max of lower group),04c_biomarker_separation.py,,False
+E641,bm_gmcsf36_cut,3.38,"Candidate cut-off (geometric midpoint of the gap), Lung Gm-csf mRNA, 36 h (fold)",S02-F,S02!B17:P19,sqrt(min of higher group × max of lower group),04c_biomarker_separation.py,,False
+E644,bm_ccr7_cut,14.1,"Candidate cut-off (geometric midpoint of the gap), % CCR7+ of lung CD11b+ DC, 72 h",S02-A,S02!A3:D7,sqrt(min of higher group × max of lower group),04c_biomarker_separation.py,,False
+E647,bm_mono4_cut,21.5,"Candidate cut-off (geometric midpoint of the gap), % lung monocytes, day 4",S01-D,S01!B24:U28,sqrt(min of higher group × max of lower group),04c_biomarker_separation.py,,False
+E650,bm_hai_h1_cut,113,"Candidate cut-off (geometric midpoint of the gap), HAI titre H1N1, day 14",S03-C,S03!K3:O7,sqrt(min of higher group × max of lower group),04c_biomarker_separation.py,,False
+E653,bm_hai_h3_cut,113,"Candidate cut-off (geometric midpoint of the gap), HAI titre H3N2, day 14",S03-G,S03!K10:O14,sqrt(min of higher group × max of lower group),04c_biomarker_separation.py,,False
+E656,bm_igg2a_cut,346,"Candidate cut-off (geometric midpoint of the gap), IgG2a titre H1N1, day 14",S13-A,S13!A3:C7,sqrt(min of higher group × max of lower group),04c_biomarker_separation.py,,False
+E659,bm_ifng_cut,3.35,"Candidate cut-off (geometric midpoint of the gap), % IFN-γ+ CD8 (rgH5N1 restim), day 14",S05-F,S05!A33:D37,sqrt(min of higher group × max of lower group),04c_biomarker_separation.py,,False
+E662,bm_trm_cut,2.15,"Candidate cut-off (geometric midpoint of the gap), % lung CD8 TRM, day 25",S05-I,S05!A54:D58,sqrt(min of higher group × max of lower group),04c_biomarker_separation.py,,False
+E665,bm_gzmb3_cut,4.08,"Candidate cut-off (geometric midpoint of the gap), % GZMB+ lung CD8, day 3",S05-E,S05!A26:D30,sqrt(min of higher group × max of lower group),04c_biomarker_separation.py,,False
+E668,bm_ova_cut,3.48,"Candidate cut-off (geometric midpoint of the gap), % antigen+ MLN DC, 36 h",S02-C,S02!K3:O7,sqrt(min of higher group × max of lower group),04c_biomarker_separation.py,,False
+E672,n_blocks,119,Blocks (including sub-panels) parsed,,whole workbook,count,01_export_tidy.py,,False
+E685,ly6c_p5,0.008,"Student t p, Ly6C+CCR2+ macrophages day 5, PSLN-212 vs PSLN-344",S07-A,S07!B3:G7,Student's t within day (n=3 v 3),04_immunology_stats.py,,False
+E686,cd40_p_young,5.0×10⁻⁸,"Tukey p, CD40+ DC, aged PSLN-344 vs young PSLN-212",S02-D CD40,S02!A10:D14,one-way ANOVA + Tukey,04_immunology_stats.py,,False
+E687,tfr30_p_sham,1.00,"Tukey p, Tfr day 30, PSLN-344 vs sham",S04-C,S04!A22:D26,one-way ANOVA + Tukey,04_immunology_stats.py,,False
+E688,gmrescue_p,9.2×10⁻⁵,"Tukey p, moDC, PSLN-212 + GM-CSF vs PSLN-212",S02-G,S02!B22:D26,one-way ANOVA + Tukey (3 groups),04_immunology_stats.py,,False
+E689,otiv_p_mln,0.004,"Tukey p, OT-I proliferation in node ± pertussis toxin",S05-C,S05!A13:D15,"one-way ANOVA + Tukey (4 groups, n=3)",04_immunology_stats.py,,False
+E690,otiv_p_lung,0.83,"Tukey p, OT-I proliferation in lung ± pertussis toxin",S05-C,S05!A13:D15,"one-way ANOVA + Tukey (4 groups, n=3)",04_immunology_stats.py,,False
+E693,bm_igg2a_margin,7.3,"Lowest PSLN-344 value ÷ highest PSLN-212 value, IgG2a titre H1N1, day 14",S13-A,S13!A3:C7,min of one group ÷ max of the other,04c_biomarker_separation.py,,False
+E694,bm_hai_h1_margin,2.0,"Lowest PSLN-344 value ÷ highest PSLN-212 value, HAI titre H1N1, day 14",S03-C,S03!K3:O7,min of one group ÷ max of the other,04c_biomarker_separation.py,,False

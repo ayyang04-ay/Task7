@@ -1,0 +1,90 @@
+{
+  "id": "a62400e3-b3d4-4ff2-9332-8c0d2cdfe142",
+  "problem_run_id": "355880fe-b171-4da8-8f84-388d6d60b21e",
+  "grading_run_id": "5ead776a-e220-45d7-9e73-0b9b8f2c3c06",
+  "grading_strategy_type": "agentic_grader",
+  "is_auxiliary_grade": false,
+  "normalized_score": 0.94,
+  "subscores": [
+    {
+      "name": "overall",
+      "score": 0.94,
+      "max_score": 1,
+      "weight": 1,
+      "reasoning": "I verified this deliverable against the original inputs: `/tmp/world/filesystem/psln_program_dataset.xlsx` and the annotation PDF. It is an exceptionally strong submission that meets every request, and nearly every number I checked was correct.\n\n**What I checked**\n\n1. **The raw data, for traps.** I read all 15 sheets myself and found many embedded problems. The model caught essentially all of them, and nearly all are listed in its 22-item data-quality log:\n   - **S03-B and S03-F column labels are rotated** (the IgG2a/IgG1 ratio blocks). I confirmed it: the S03-B \"PSLN-344\" column equals PSLN-212's ratios recomputed from S13-A/B, and the other columns are shifted the same way. The model recomputed the ratios as 2.14 vs 0.58 vs 2.97, which I reproduced.\n   - **S06-C and S06-D contain identical survival data**, and the Sham arms of S06-B and S06-F match. Confirmed.\n   - **The second \"16h\" panel in S09-A is really 72 h.** Its Ifnb1 values equal the 72 h values in S01-A. Confirmed.\n   - **Other copied data:** S11-B duplicates S11-A, the S15-C weight traces repeat S15-I, and the S09-C day-12 row is a copy. Confirmed.\n   - **Labelling and count problems:** duplicate labels in S07-C and S06, the unlabelled region in S08, stated n not matching observed counts, a missing day in S03-J, untreated aged controls dying without challenge, and survival blocks that disagree with the linked weight blocks (S03-I/S13-F, S03-J/S13-G).\n   - **Analysis handling:** HAI titres below the 1:10 limit were set to 5, titres were analysed on a log scale, and S09-A was treated as log10.\n   - **Omissions:** it missed the annotation's note that S10-A is \"reported as mean with SD\", and it never uses S12-A. Both are minor.\n\n2. **Statistics, recomputed independently:**\n   - Pooled aged survival: 56/66 vs 9/66 vs 1/66, and conservative 32/42 vs 4/42. Both match.\n   - Stratified Cox HR: I got 0.077 (0.039–0.155) and 0.110 (0.053–0.227), against the model's 0.08 (0.04–0.15) and 0.11 (0.05–0.23).\n   - Stratified log-rank: I got p = 2.2e-18 and 6.7e-12, matching the model.\n   - Fisher power: I got 0.668, 0.908 and 0.887, matching its 67%, 91% and 89%.\n   - Fisher tests significant in 7 of 9 single experiments: matches.\n\n3. **About 50 individual numbers checked by hand.** All matched, including:\n   - Ifnb1 37.1/16.6/37.6/50.7-fold and GM-CSF 6.0/8.7/3.9.\n   - HAI geometric means 368/46/485 and 320/35/368; neutralising titres 3,840/418/6,686.\n   - CD40 at 29% and CD86 at 38% of the young level.\n   - The S08-D weight nadirs (3.6%, worst animal 5.8%; R848 combination 10.0%).\n   - Day-180 young-mouse weights (12.7% vs 10.7% loss; 95.6% vs 99.2% at day 14).\n   - Booster IgG 4,411/1,086 vs 7,305/5,701; the GM-CSF, CCR2-antagonist, pertussis-toxin, carbenoxolone (CBX) and interferon-receptor-knockout marrow numbers; and the brain-transcript ratios.\n   - Spot-checked cell references in the evidence ledger were accurate.\n\n**Coverage of what the task asked for**\n- **Recommendation comes first and is clear:** keep PSLN-344 behind gates, and stop developing PSLN-212 as a candidate.\n- **Five studies plus a data-audit gate**, each giving what it must establish, population, comparators, primary and secondary endpoints, read-outs, timing, sample size and power, and go/stop rules.\n- **Target demographic** for the TAM check: adults 65 and over, with a segment table.\n- **Mechanism:** a 7-step chain, with the causal tests in our data and a strength rating for each step.\n- **Biomarker table.**\n- **\"If we drop it\" section,** including an honest case for dropping.\n- **Table of options considered and ruled out.**\n- **Every number is cited** to its block, and a roughly 530-entry ledger gives cell ranges and methods.\n- **External knowledge is clearly marked** as such.\n- **Presentation:** the figures are professional, and the PDF (28 pages) and Markdown versions are consistent.\n\n**Minor weaknesses**\n- The S10-A mean±SD note was not addressed, and S12-A was not used.\n- The document is very long, though the level of detail requested justifies it.\n- There is slight redundancy in places.\n\nNone of these weakens the validity or defensibility of the recommendation."
+    }
+  ],
+  "weight": 1,
+  "allow_unbounded": false,
+  "created_at": "2026-11-19T21:42:45.461151Z",
+  "has_metadata": true,
+  "metadata_byte_size": 419701,
+  "metadata": {
+    "agentic_grader": {
+      "cc_harness": false,
+      "container_mode": "fresh_with_policy_setup",
+      "scoring_mode": "single_score",
+      "grading_model": "claude-opus-5-5",
+      "grading_model_slug": "claude-opus-5-5",
+      "grading_container_id": "broad-bill-fvnfsb-gptfwz",
+      "grader_error": false,
+      "full_debug_s3_hint": "biome/agentic-grading-transcripts/broad-bill-fvnfsb-gptfwz/grading_debug.json",
+      "grading_turns_count": null,
+      "grading_tokens_consumed": null,
+      "grader_context_window_effective": 1000000,
+      "grader_context_window_source": "default",
+      "policy_outputs_transfer": {
+        "mode": "snapshot_mount",
+        "snapshot_source": "pre_grade",
+        "snapshot_ttl": null,
+        "snapshot_seconds": 2.5945069190347567,
+        "reader_uid": 1000,
+        "handin_max_bytes": 2147483648,
+        "grading_box_seconds": 41.334,
+        "grading_box_attempts": 1,
+        "mount_verified": true,
+        "unmounted": true,
+        "detach_checks": [
+          "mounts",
+          "same_device",
+          "ext4_sysfs",
+          "device_read"
+        ],
+        "device_read_refused": true,
+        "present_seconds": 0.722,
+        "probe": "dir",
+        "measured_bytes": 4606137,
+        "entries": 71,
+        "status": "ok",
+        "declared_path_missing": false,
+        "declared_path_wrong_type": false,
+        "copied_files": 69,
+        "copied_bytes": 4525488,
+        "copies_inert": true
+      },
+      "import_shadowing_set_aside": [],
+      "grader_attempts": 1,
+      "grader_failed_attempts": [],
+      "grader_failed_attempt_errors": [],
+      "grader_failed_attempts_ms": 0,
+      "grader_planted_shape": null,
+      "policy_markup_hits": 0,
+      "handin_integrity": "unchanged",
+      "handin_integrity_drift_only": true
+    },
+    "rubric_evaluations": [
+      {
+        "name": "overall",
+        "score": 0.94,
+        "max_score": 1,
+        "weight": 1,
+        "reasoning": "I verified this deliverable against the original inputs: `/tmp/world/filesystem/psln_program_dataset.xlsx` and the annotation PDF. It is an exceptionally strong submission that meets every request, and nearly every number I checked was correct.\n\n**What I checked**\n\n1. **The raw data, for traps.** I read all 15 sheets myself and found many embedded problems. The model caught essentially all of them, and nearly all are listed in its 22-item data-quality log:\n   - **S03-B and S03-F column labels are rotated** (the IgG2a/IgG1 ratio blocks). I confirmed it: the S03-B \"PSLN-344\" column equals PSLN-212's ratios recomputed from S13-A/B, and the other columns are shifted the same way. The model recomputed the ratios as 2.14 vs 0.58 vs 2.97, which I reproduced.\n   - **S06-C and S06-D contain identical survival data**, and the Sham arms of S06-B and S06-F match. Confirmed.\n   - **The second \"16h\" panel in S09-A is really 72 h.** Its Ifnb1 values equal the 72 h values in S01-A. Confirmed.\n   - **Other copied data:** S11-B duplicates S11-A, the S15-C weight traces repeat S15-I, and the S09-C day-12 row is a copy. Confirmed.\n   - **Labelling and count problems:** duplicate labels in S07-C and S06, the unlabelled region in S08, stated n not matching observed counts, a missing day in S03-J, untreated aged controls dying without challenge, and survival blocks that disagree with the linked weight blocks (S03-I/S13-F, S03-J/S13-G).\n   - **Analysis handling:** HAI titres below the 1:10 limit were set to 5, titres were analysed on a log scale, and S09-A was treated as log10.\n   - **Omissions:** it missed the annotation's note that S10-A is \"reported as mean with SD\", and it never uses S12-A. Both are minor.\n\n2. **Statistics, recomputed independently:**\n   - Pooled aged survival: 56/66 vs 9/66 vs 1/66, and conservative 32/42 vs 4/42. Both match.\n   - Stratified Cox HR: I got 0.077 (0.039–0.155) and 0.110 (0.053–0.227), against the model's 0.08 (0.04–0.15) and 0.11 (0.05–0.23).\n   - Stratified log-rank: I got p = 2.2e-18 and 6.7e-12, matching the model.\n   - Fisher power: I got 0.668, 0.908 and 0.887, matching its 67%, 91% and 89%.\n   - Fisher tests significant in 7 of 9 single experiments: matches.\n\n3. **About 50 individual numbers checked by hand.** All matched, including:\n   - Ifnb1 37.1/16.6/37.6/50.7-fold and GM-CSF 6.0/8.7/3.9.\n   - HAI geometric means 368/46/485 and 320/35/368; neutralising titres 3,840/418/6,686.\n   - CD40 at 29% and CD86 at 38% of the young level.\n   - The S08-D weight nadirs (3.6%, worst animal 5.8%; R848 combination 10.0%).\n   - Day-180 young-mouse weights (12.7% vs 10.7% loss; 95.6% vs 99.2% at day 14).\n   - Booster IgG 4,411/1,086 vs 7,305/5,701; the GM-CSF, CCR2-antagonist, pertussis-toxin, carbenoxolone (CBX) and interferon-receptor-knockout marrow numbers; and the brain-transcript ratios.\n   - Spot-checked cell references in the evidence ledger were accurate.\n\n**Coverage of what the task asked for**\n- **Recommendation comes first and is clear:** keep PSLN-344 behind gates, and stop developing PSLN-212 as a candidate.\n- **Five studies plus a data-audit gate**, each giving what it must establish, population, comparators, primary and secondary endpoints, read-outs, timing, sample size and power, and go/stop rules.\n- **Target demographic** for the TAM check: adults 65 and over, with a segment table.\n- **Mechanism:** a 7-step chain, with the causal tests in our data and a strength rating for each step.\n- **Biomarker table.**\n- **\"If we drop it\" section,** including an honest case for dropping.\n- **Table of options considered and ruled out.**\n- **Every number is cited** to its block, and a roughly 530-entry ledger gives cell ranges and methods.\n- **External knowledge is clearly marked** as such.\n- **Presentation:** the figures are professional, and the PDF (28 pages) and Markdown versions are consistent.\n\n**Minor weaknesses**\n- The S10-A mean±SD note was not addressed, and S12-A was not used.\n- The document is very long, though the level of detail requested justifies it.\n- There is slight redundancy in places.\n\nNone of these weakens the validity or defensibility of the recommendation."
+      }
+    ],
+    "strategy_type": "agentic_grader",
+    "grade_key": "agentic_grader",
+    "label": null,
+    "strategy_weight": 1,
+    "is_auxiliary": false
+  }
+}

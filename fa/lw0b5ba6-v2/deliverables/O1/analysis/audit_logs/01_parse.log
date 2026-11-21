@@ -1,0 +1,139 @@
+values (2121, 8) tte (514, 8) bw (3472, 7) unlabeled 26
+block
+S01-A                  80
+S01-B                  20
+S01-C                   8
+S01-D                 100
+S01-E                 125
+S01-F                  25
+S01-G                  25
+S02-A                  20
+S02-B                  20
+S02-C                  25
+S02-D CD40             20
+S02-D CD86             20
+S02-E                  25
+S02-F                  45
+S02-G                  15
+S02-H                  25
+S02-I                  10
+S03-A                  25
+S03-B                  15
+S03-C                  25
+S03-D                  25
+S03-E                  25
+S03-F                  15
+S03-G                  25
+S03-H                  25
+S03-K                  20
+S03-L                  18
+S04-A                  40
+S04-B Foxp3            20
+S04-B Tfh:Tfr          20
+S04-C                  20
+S04-D                  12
+S05-A                  18
+S05-B                  18
+S05-C                  12
+S05-D                  20
+S05-E                  20
+S05-F                  20
+S05-G                  20
+S05-H                  20
+S05-I                  20
+S07-A                  30
+S07-B                  20
+S07-C                  10
+S08-A                  60
+S08-B                  15
+S08-C                  20
+S09-A panel1[A:U]     147
+S09-A panel2[X:AS]    147
+S10-A                  60
+S11-A                 100
+S11-B                 100
+S11-C                  10
+S11-D                 100
+S11-E                  20
+S12-A                   6
+S13-A                  15
+S13-B                  15
+S13-C                  15
+S13-D                  15
+S13-H                  20
+S13-I                  25
+S13-J                  25
+S14-A H1N1             20
+S14-A H3N2             20
+block           group              
+S03-I           CMP-204                 7
+                PSLN-212                7
+                PSLN-212(Y)             7
+                PSLN-344                7
+                Sham                    7
+S03-J           PSLN-212               10
+                PSLN-344               10
+                Sham                   10
+S06-A           PSLN-212                7
+                PSLN-212(Y)             7
+                PSLN-344                7
+                Sham                    7
+S06-B           PSLN-212                7
+                PSLN-212(Y)             7
+                PSLN-344                7
+                Sham                    7
+S06-C           PSLN-212                7
+                PSLN-212(Y)             7
+                PSLN-344                7
+                Sham                    7
+S06-D           PSLN-212                7
+                PSLN-212(Y)             7
+                PSLN-344                7
+                Sham                    7
+S06-E           PSLN-212                7
+                PSLN-212(Y)             7
+                PSLN-344                7
+                Sham                    7
+                Untreated               7
+S06-E[imprint]  Imprinting+PSLN-212     7
+                Imprinting+PSLN-344     7
+                Naive+PSLN-212          7
+                Naive+PSLN-344          7
+S06-F           PSLN-212                7
+                PSLN-212(Y)             7
+                PSLN-344                7
+                Sham                    7
+                Untreated               7
+S06-F[imprint]  Imprinting+PSLN-212     7
+                Imprinting+PSLN-344     7
+                Naive+PSLN-212          7
+                Naive+PSLN-344          7
+S06-G           PSLN-212                7
+                PSLN-212(Y)             7
+                PSLN-344                7
+                Sham                    7
+                Untreated               7
+S09-B           PSLN-212Y               8
+                PSLN-344Y               8
+                Sham                    8
+S09-D           PSLN-212Y               8
+                PSLN-344Y               8
+                Sham                    8
+S09-F           PSLN-212Y               8
+                PSLN-344Y               8
+                Sham                    7
+S13-E           CMP-204(Y)              7
+                Naive                   7
+                PSLN-344(Y)             7
+                Sham                    7
+S15-H           3d PSLN-344             7
+                3d Vaccine              7
+                3d Vaccine+PSLN-344     7
+S15-L           PSLN-212                7
+                PSLN-212(Y)             7
+                PSLN-344                7
+                Sham                    7
+S15-N           PSLN-212                7
+                PSLN-212(Y)             7
+                PSLN-344                7
+                Sham                    7

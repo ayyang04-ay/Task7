@@ -1,0 +1,90 @@
+{
+  "id": "85a39e2e-7b7e-4f65-aa46-9f1d08642430",
+  "problem_run_id": "f644c65d-aa74-45f2-9b62-35144f1a254d",
+  "grading_run_id": "213eaa40-ca7e-4244-9de0-de1154542f50",
+  "grading_strategy_type": "agentic_grader",
+  "is_auxiliary_grade": false,
+  "normalized_score": 0.9,
+  "subscores": [
+    {
+      "name": "overall",
+      "score": 0.9,
+      "max_score": 1,
+      "weight": 1,
+      "reasoning": "I'm scoring this 0.90: the model did the task thoroughly and its numbers are right, but its data audit missed one duplicated experiment.\n\n**What I checked.** I read both task inputs (the 19-page annotation PDF and the 15-sheet workbook) and wrote my own parsers, run from a scratch directory. I recomputed the model's key numbers from the raw cells, read the proposal in both its .docx and markdown forms, looked through the evidence workbook and the figures, and used the transcript to confirm the analysis was actually run.\n\n**Coverage of the request.** Every requested element is there:\n- **Recommendation first:** keep the program on conditions, with PSLN-344 as the lead, PSLN-212 kept as the comparator, and a go/no-go gate in October 2027.\n- **Next steps:** a data-audit stage and six studies (A–F), plus later-stage work (ferret, GLP toxicology, clinical batch, Phase 1). Each study gives what it must establish, the population, arms and comparators, primary endpoint, other readouts, timing and a pass/fail rule. Study A includes a power calculation.\n- **Target population for market sizing:** adults 65 and over, with 50–64 as upside. It names exclusions and lists the inputs market research will need; the external population figures are labelled as such.\n- **Mechanism:** a six-step chain, marking which steps are backed by an intervention experiment and which only by comparing formulations.\n- **Biomarkers:** a table with clinical counterparts, including a well-argued point that the usual 1:40 HAI threshold does not separate protected from unprotected groups here.\n- **The remaining sections:** what the company gives up if it drops the program, and what the model considered and ruled out (both alternative options and wrong readings of the data).\n- **Sourcing:** every number carries a block citation. Appendix B and a ~200-row sheet in the evidence workbook give cell ranges and the method for each.\n\n**Accuracy.** About 60 quoted numbers matched my own calculations exactly. These include:\n- Pooled survival: 68/80, 11/80 and 1/80, young benchmark 69/70, Fisher p = 1.4e-20, 95% CI 75–92%, difference 71 points (61–81), and 8 of 11 experiments significant on their own.\n- Subgroups: 39/49 vs 6/49, 22/24 vs 5/24, 14/21 vs 1/21 (p = 0.48 against untreated animals), and 12/14 for the non-BALB/c strains and previously infected mice.\n- Titers: HAI geometric means 46/35, 368/320 and 485/368 (8.0- and 9.2-fold); IgG 18.6- and 13.4-fold; neutralizing titers 9.2-fold.\n- Other blocks: Ifnb1, Gm-csf, cytokines on the log10 scale, body weight after dosing, brain transcripts, encapsulation, dose-response, and the flow-cytometry and intervention blocks.\n\n**Data-integrity audit.** The model logged 20 discrepancies, and the ones I tested are real:\n- The IgG2a:IgG1 tables (S03-B/S03-F) have rotated column labels, and the model's recomputed ratios are right.\n- The second S09-A panel matches the 72 h data, not the 16 h label it carries.\n- The neutrophil block S11-B shares 35 of 100 cells with S11-A (19/20 and 15/20 by replicate).\n- Weight series are copied between experiments (S15-C and S15-I share 40 of 42 cells).\n- The survival tables S03-I and S03-J list different groups from their paired weight tables.\n\nIt also caught the n mismatches, the unlabeled region in S08, the duplicated S07-C label and the reused S06 labels, and the \"Untreated\" controls that received no virus. It ran a worst-case sensitivity analysis (66/80 vs 15/70). The recommendation is careful rather than promotional: it names explicit conditions that would turn it into a drop.\n\n**Weaknesses.**\n- **Main gap:** the survival tables S06-C (challenge at day 14) and S06-D (challenge at day 3) are identical in all 28 rows, including both arms that had deaths. Their paired weight tables differ, so this looks like a copy-paste. The model counts S06-D as an independent experiment in \"11 of 11\", \"8 of 11 significant\" and the \"22/24 protected at 2–3 days\" claim, which supports its fast-protection and pandemic argument. Without S06-D that claim falls to 15/17 vs 3/17 and the pool to 61/73 vs 9/73. The direction holds, but this is a real gap in an audit the report leans on heavily.\n- **Minor:** the report is very long for a committee. Its \"no advantage in young mice\" point reflects both formulations reaching 100% survival, although the wording (\"nothing we can measure\") is hedged appropriately.\n\nThe work is excellent, accurate and complete, with one notable missed integrity finding that does not change the recommendation."
+    }
+  ],
+  "weight": 1,
+  "allow_unbounded": false,
+  "created_at": "2026-11-19T22:15:47.508097Z",
+  "has_metadata": true,
+  "metadata_byte_size": 438671,
+  "metadata": {
+    "agentic_grader": {
+      "cc_harness": false,
+      "container_mode": "fresh_with_policy_setup",
+      "scoring_mode": "single_score",
+      "grading_model": "claude-opus-5-5",
+      "grading_model_slug": "claude-opus-5-5",
+      "grading_container_id": "mass-dart-qxxxxv-vdbcpx",
+      "grader_error": false,
+      "full_debug_s3_hint": "biome/agentic-grading-transcripts/mass-dart-qxxxxv-vdbcpx/grading_debug.json",
+      "grading_turns_count": null,
+      "grading_tokens_consumed": null,
+      "grader_context_window_effective": 1000000,
+      "grader_context_window_source": "default",
+      "policy_outputs_transfer": {
+        "mode": "snapshot_mount",
+        "snapshot_source": "pre_grade",
+        "snapshot_ttl": null,
+        "snapshot_seconds": 1.7338714629877359,
+        "reader_uid": 1000,
+        "handin_max_bytes": 2147483648,
+        "grading_box_seconds": 43.415,
+        "grading_box_attempts": 1,
+        "mount_verified": true,
+        "unmounted": true,
+        "detach_checks": [
+          "mounts",
+          "same_device",
+          "ext4_sysfs",
+          "device_read"
+        ],
+        "device_read_refused": true,
+        "present_seconds": 0.681,
+        "probe": "dir",
+        "measured_bytes": 4706335,
+        "entries": 52,
+        "status": "ok",
+        "declared_path_missing": false,
+        "declared_path_wrong_type": false,
+        "copied_files": 49,
+        "copied_bytes": 4666618,
+        "copies_inert": true
+      },
+      "import_shadowing_set_aside": [],
+      "grader_attempts": 1,
+      "grader_failed_attempts": [],
+      "grader_failed_attempt_errors": [],
+      "grader_failed_attempts_ms": 0,
+      "grader_planted_shape": null,
+      "policy_markup_hits": 0,
+      "handin_integrity": "unchanged",
+      "handin_integrity_drift_only": true
+    },
+    "rubric_evaluations": [
+      {
+        "name": "overall",
+        "score": 0.9,
+        "max_score": 1,
+        "weight": 1,
+        "reasoning": "I'm scoring this 0.90: the model did the task thoroughly and its numbers are right, but its data audit missed one duplicated experiment.\n\n**What I checked.** I read both task inputs (the 19-page annotation PDF and the 15-sheet workbook) and wrote my own parsers, run from a scratch directory. I recomputed the model's key numbers from the raw cells, read the proposal in both its .docx and markdown forms, looked through the evidence workbook and the figures, and used the transcript to confirm the analysis was actually run.\n\n**Coverage of the request.** Every requested element is there:\n- **Recommendation first:** keep the program on conditions, with PSLN-344 as the lead, PSLN-212 kept as the comparator, and a go/no-go gate in October 2027.\n- **Next steps:** a data-audit stage and six studies (A–F), plus later-stage work (ferret, GLP toxicology, clinical batch, Phase 1). Each study gives what it must establish, the population, arms and comparators, primary endpoint, other readouts, timing and a pass/fail rule. Study A includes a power calculation.\n- **Target population for market sizing:** adults 65 and over, with 50–64 as upside. It names exclusions and lists the inputs market research will need; the external population figures are labelled as such.\n- **Mechanism:** a six-step chain, marking which steps are backed by an intervention experiment and which only by comparing formulations.\n- **Biomarkers:** a table with clinical counterparts, including a well-argued point that the usual 1:40 HAI threshold does not separate protected from unprotected groups here.\n- **The remaining sections:** what the company gives up if it drops the program, and what the model considered and ruled out (both alternative options and wrong readings of the data).\n- **Sourcing:** every number carries a block citation. Appendix B and a ~200-row sheet in the evidence workbook give cell ranges and the method for each.\n\n**Accuracy.** About 60 quoted numbers matched my own calculations exactly. These include:\n- Pooled survival: 68/80, 11/80 and 1/80, young benchmark 69/70, Fisher p = 1.4e-20, 95% CI 75–92%, difference 71 points (61–81), and 8 of 11 experiments significant on their own.\n- Subgroups: 39/49 vs 6/49, 22/24 vs 5/24, 14/21 vs 1/21 (p = 0.48 against untreated animals), and 12/14 for the non-BALB/c strains and previously infected mice.\n- Titers: HAI geometric means 46/35, 368/320 and 485/368 (8.0- and 9.2-fold); IgG 18.6- and 13.4-fold; neutralizing titers 9.2-fold.\n- Other blocks: Ifnb1, Gm-csf, cytokines on the log10 scale, body weight after dosing, brain transcripts, encapsulation, dose-response, and the flow-cytometry and intervention blocks.\n\n**Data-integrity audit.** The model logged 20 discrepancies, and the ones I tested are real:\n- The IgG2a:IgG1 tables (S03-B/S03-F) have rotated column labels, and the model's recomputed ratios are right.\n- The second S09-A panel matches the 72 h data, not the 16 h label it carries.\n- The neutrophil block S11-B shares 35 of 100 cells with S11-A (19/20 and 15/20 by replicate).\n- Weight series are copied between experiments (S15-C and S15-I share 40 of 42 cells).\n- The survival tables S03-I and S03-J list different groups from their paired weight tables.\n\nIt also caught the n mismatches, the unlabeled region in S08, the duplicated S07-C label and the reused S06 labels, and the \"Untreated\" controls that received no virus. It ran a worst-case sensitivity analysis (66/80 vs 15/70). The recommendation is careful rather than promotional: it names explicit conditions that would turn it into a drop.\n\n**Weaknesses.**\n- **Main gap:** the survival tables S06-C (challenge at day 14) and S06-D (challenge at day 3) are identical in all 28 rows, including both arms that had deaths. Their paired weight tables differ, so this looks like a copy-paste. The model counts S06-D as an independent experiment in \"11 of 11\", \"8 of 11 significant\" and the \"22/24 protected at 2–3 days\" claim, which supports its fast-protection and pandemic argument. Without S06-D that claim falls to 15/17 vs 3/17 and the pool to 61/73 vs 9/73. The direction holds, but this is a real gap in an audit the report leans on heavily.\n- **Minor:** the report is very long for a committee. Its \"no advantage in young mice\" point reflects both formulations reaching 100% survival, although the wording (\"nothing we can measure\") is hedged appropriately.\n\nThe work is excellent, accurate and complete, with one notable missed integrity finding that does not change the recommendation."
+      }
+    ],
+    "strategy_type": "agentic_grader",
+    "grade_key": "agentic_grader",
+    "label": null,
+    "strategy_weight": 1,
+    "is_auxiliary": false
+  }
+}

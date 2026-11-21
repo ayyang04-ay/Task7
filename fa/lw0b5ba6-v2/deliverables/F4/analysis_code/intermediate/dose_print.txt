@@ -1,0 +1,18 @@
+           group  GM_1ug  GM_5ug  GM_10ug  GM_20ug  GM_40ug   Emax  Emax_se   ED50  ED50_se  hill  hill_se  ratio_40_vs_20  frac_of_40_at_20      cells
+0        CMP-204    1.00    3.79     6.24     7.25     7.88   7.58     0.40   5.67     0.45  2.80     0.62            1.09              0.92  S08!B3:D7
+1       PSLN-212    1.36    4.04     8.92    12.51    14.72  16.61     1.82  10.83     1.96  1.68     0.20            1.18              0.85  S08!E3:G7
+2       PSLN-344    1.38    8.17    20.98    45.52    49.68  58.67     6.61  13.27     1.88  1.99     0.17            1.09              0.92  S08!H3:J7
+3  PSLN-344/R848    1.02    6.64    14.59    29.02    34.55  35.95     4.40  11.21     1.78  2.21     0.30            1.19              0.84  S08!K3:M7
+CMP-204 40 vs 20 ug: ratio 1.09 Welch p 0.55
+PSLN-212 40 vs 20 ug: ratio 1.18 Welch p 0.276
+PSLN-344 40 vs 20 ug: ratio 1.09 Welch p 0.554
+PSLN-344/R848 40 vs 20 ug: ratio 1.19 Welch p 0.33
+dose           1.0   5.0    10.0   20.0   40.0
+group                                         
+CMP-204        1.00  3.79   6.24   7.25   7.88
+PSLN-212       1.36  4.04   8.92  12.51  14.72
+PSLN-344       1.38  8.17  20.98  45.52  49.68
+PSLN-344/R848  1.02  6.64  14.59  29.02  34.55
+PSLN-344 @10ug vs PSLN-212 @40ug: ratio 1.43 Welch p 0.058
+PSLN-344 @5ug vs PSLN-212 @20ug: ratio 0.65 Welch p 0.043
+PSLN-344 vs PSLN-344/R848 @20ug: ratio 1.57 Welch p 0.043

@@ -1,0 +1,32 @@
+=== identical group-level time-to-event vectors with >=1 event (different blocks)
+   [('S06-B', 'Sham'), ('S06-F', 'Sham')] -> [4, 4, 4, 5, 5, 6, 6] + 0 censored
+   [('S06-B', 'PSLN-344'), ('S06-E', 'PSLN-344')] -> [8, 10] + 5 censored
+   [('S06-C', 'Sham'), ('S06-D', 'Sham')] -> [4, 4, 5, 6, 6, 6, 7] + 0 censored
+   [('S06-C', 'PSLN-212'), ('S06-D', 'PSLN-212')] -> [5, 8, 10, 10, 12] + 2 censored
+
+=== whole-block identity
+   S06-C == S06-D for every group ['Sham', 'PSLN-212', 'PSLN-344', 'PSLN-212(Y)']
+
+=== element-wise identical cells between same-layout blocks (fraction of positions identical)
+block_a block_b  n_positions  n_identical  fraction
+  S03-C   S03-G           25           17      0.68
+  S03-D   S03-H           25            8      0.32
+  S11-A   S11-B          100           35      0.35
+
+=== body-weight: group-level matrices sharing identical non-100 values at the same (animal, day) positions
+block_a     group_a block_b             group_b  n_comparable  n_identical  fraction
+  S15-C    PSLN-344   S15-I 3d Vaccine+PSLN-344            49           40      0.82
+  S15-A        Sham   S15-M            PSLN-212            18            9      0.50
+  S15-C        Sham   S15-M                Sham            15            5      0.33
+  S15-A    PSLN-344   S15-M            PSLN-344            49           16      0.33
+  S15-M    PSLN-344   S15-O            PSLN-344            49           11      0.22
+  S09-C   PSLN-212Y   S09-C           PSLN-344Y            56           12      0.21
+  S09-E   PSLN-212Y   S15-C         PSLN-212(Y)            49            9      0.18
+  S15-A    PSLN-212   S15-B            PSLN-212            49            8      0.16
+  S15-A PSLN-212(Y)   S15-M         PSLN-212(Y)            49            7      0.14
+  S15-A    PSLN-344   S15-O            PSLN-344            49            7      0.14
+  S09-E   PSLN-212Y   S09-G           PSLN-212Y            56            7      0.12
+  S09-C   PSLN-344Y   S09-E           PSLN-344Y            56            7      0.12
+  S15-C    PSLN-344   S15-M            PSLN-344            49            6      0.12
+  S09-C   PSLN-212Y   S15-E         PSLN-212(Y)            49            5      0.10
+  S09-C   PSLN-344Y   S09-G           PSLN-212Y            56            5      0.09

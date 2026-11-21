@@ -1,0 +1,15 @@
+S03-I       PSLN-344               vs PSLN-212               chisq = 12.7603  p = 0.00035
+S03-J       PSLN-344               vs PSLN-212               chisq = 10.2653  p = 0.00136
+S06-A       PSLN-344               vs PSLN-212               chisq =  6.9646  p = 0.00831
+S06-B       PSLN-344               vs PSLN-212               chisq = 10.9751  p = 0.00092
+S06-C       PSLN-344               vs PSLN-212               chisq =  7.3361  p = 0.00676
+S06-E       PSLN-344               vs PSLN-212               chisq = 10.0006  p = 0.00156
+S06-F       PSLN-344               vs PSLN-212               chisq =  6.7416  p = 0.00942
+S06-G       PSLN-344               vs PSLN-212               chisq =  5.8995  p = 0.01515
+S06-G       PSLN-344               vs Untreated              chisq =  0.0334  p = 0.85500
+S15-H       3d Vaccine+PSLN-344    vs 3d PSLN-344            chisq = 14.4623  p = 0.00014
+S15-H       3d PSLN-344            vs 3d Vaccine             chisq =  1.5113  p = 0.21894
+S15-N       PSLN-344               vs PSLN-212               chisq =  3.6441  p = 0.05627
+stratified S03-I+S03-J+S06-A+S06-B+S06-C+S06-D: chisq = 54.8895 p = 1.27e-13
+stratified S06-A+S06-B+S06-C: chisq = 25.0438 p = 5.6e-07
+stratified S06-E+S06-F+S06-G: chisq = 22.2730 p = 2.37e-06

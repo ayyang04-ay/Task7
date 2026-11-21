@@ -1,0 +1,10 @@
+('A. As recorded (S06-D excluded as exact duplicate of S06-C)', '85/101', '13/101', 71.3, np.float64(59.8), np.float64(79.1), 0.0, 3.5174134138401476e-27, 29.36258992805756)
+('B. Excluding experiments whose survival record conflicts wit', '40/49', '6/49', 69.4, np.float64(51.7), np.float64(80.0), 2.3790980296922726e-10, 2.3355352551894402e-14, 24.65217391304348)
+('C. Worst case for PSLN-344 (BW-implied counts where less fav', '90/108', '22/108', 63.0, np.float64(51.2), np.float64(71.7), 0.0, nan, 18.415237501299245)
+('D. Aged BALB/c S06 series only (S06-A,B,C,E,F,G; challenge d', '32/42', '4/42', 66.7, np.float64(47.3), np.float64(78.5), 1.9740110768218244e-08, 6.71163862490308e-12, 26.088000000000005)
+('E. Durability only (challenge at day 60: S06-E,F,G)', '14/21', '1/21', 61.9, np.float64(34.1), np.float64(78.5), 0.000370141263486, 2.365055552075279e-06, 20.675675675675677)
+('F. Rapid onset (challenge day 2-3: S03-J, S06-B)', '15/17', '3/17', 70.6, np.float64(38.1), np.float64(84.8), 0.0003174895656932, 4.064673615270526e-06, 39.05405405405406)
+
+PSLN-344 vs Sham 61/73 vs 1/73 82.2 70.4 89.1
+PSLN-212 vs Sham 9/73 vs 1/73 11.0 2.7 20.5
+PSLN-212(Y) vs PSLN-344 62/63 vs 61/73 14.9 5.2 25.1

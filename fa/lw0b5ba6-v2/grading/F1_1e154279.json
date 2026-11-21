@@ -1,0 +1,90 @@
+{
+  "id": "3e70cf7d-4a72-45ba-b444-d28d74fa4db5",
+  "problem_run_id": "1e154279-96d3-4a5d-a970-bcb6857d4e8c",
+  "grading_run_id": "f19b4982-1de5-4598-9260-3c7f1cbbaf05",
+  "grading_strategy_type": "agentic_grader",
+  "is_auxiliary_grade": false,
+  "normalized_score": 0.95,
+  "subscores": [
+    {
+      "name": "overall",
+      "score": 0.95,
+      "max_score": 1,
+      "weight": 1,
+      "reasoning": "I recomputed the model's headline numbers from the original workbook and annotation in R and plain Python, without running any of the model's scripts. Nearly everything checked reproduces. This is an exceptionally accurate, complete and well-sourced deliverable.\n\n**Deliverables.** The proposal comes as PDF (24 pages), DOCX (23 tables, 8 figures), HTML and Markdown, all with the same complete content. Alongside it are an evidence ledger (453 cited values, each with cell ranges and method), QC tables and figures.\n\n**Task coverage** (all required elements are present):\n- **Recommendation first:** keep the programme conditionally, take PSLN-344 forward, stop PSLN-212 as a lead, and fund to a July 2027 gate.\n- **How the asset looks:** a scorecard.\n- **What we give up if dropped:** set out, along with an honest case for dropping.\n- **Mechanism of action:** a 9-step chain, each step labelled by evidence type (knockout, inhibitor or observed), plus the gaps: no STING knockout and no Mn²⁺-only control.\n- **Biomarkers:** staged from early engagement to antibody and T-cell response, with animal-level separation and human-accessible equivalents.\n- **Target demographic:** adults 65+, with segments and the inputs market research needs to size the TAM; no invented market figures.\n- **Next steps:** Step 0 plus Studies 1–7, each with population, comparators, endpoints, read-outs, timing, power and a decision rule; three gates.\n- **Considered and ruled out:** a table of options and rejected explanations.\n- It correctly questions the \"small-molecule STING agonist\" framing: the data show a cyclic-dinucleotide liposome that works only as a vaccine adjuvant (0/7 survive without vaccine in S15-H).\n\n**Numbers checked against the raw data, all matching:**\n- Survival counts in every challenge block, and the pooled totals:\n  - 18/21 vs 3/21 vs 0/21 in the three core experiments; 42/45, 8/45, 1/45 across all six as printed;\n  - 21/24 when challenged 2–3 days after dosing; 14/21 at day 60; 24/24 in young mice; 12/14 in the other strains and in 14-month mice.\n- Clopper–Pearson confidence intervals: 64–97%, 43–85%, 68–97%, 5–42%.\n- Log-rank tests stratified by experiment: p=5.6×10⁻⁷ (PSLN-344 vs PSLN-212), 0.005 (day 60 vs young), 0.44 (vs untreated animals).\n- Tukey p-values: 3.7×10⁻⁸ (Ifnb1), 5.7×10⁻⁶ and 2.2×10⁻⁶ (HAI), 0.86 (encapsulation efficiency), and the brain Tnf 95% CI of −0.98 to +1.53.\n- Age × Mn²⁺ interaction p=0.0004: this holds on the log scale (I got 0.00039); on the linear scale it would be 0.11.\n- Geometric mean titres and fold ratios: 8.0×, 9.2×, 18.6×; booster ratios 3.5× and 11.5×.\n- Weight nadir 96.4% vs 98.2%, with Tukey CI −6.7 to +3.1.\n- Power figures: 99%, 60%, 43%, 46%, 83%, and group sizes n=11, 22 and 14.\n- \"34 read-outs, median 70% vs 19% of the young response\" reproduces exactly.\n- Mechanism numbers from S01, S02, S05, S07 and S11.\n\n**Planted data problems it caught, each verified:**\n- S03-B column headers rotated: the S13 per-animal quotients match exactly, shifted by one column.\n- S03-I and S03-J group labels conflict with their body-weight tables.\n- S06-C and S06-D are identical for all 28 animals.\n- Body-weight values in S15-C are copies of S15-I.\n- S11-A and S11-B share 35 of 100 values.\n- The second S09-A panel is labelled 16 h but holds the 72 h values from S01-A.\n- S07-C has the same label on both groups.\n- Stated group sizes differ from the data, including the annotation placing the short Sham group in S09-B when it is actually in S09-F.\n\nExternal knowledge is labelled as such, and the limits of the work are disclosed honestly.\n\n**Minor issues:**\n- The log scale used for the interaction test is not stated next to that p-value.\n- The 34-read-out summary leaves out the day-8 measures without saying so in the text; Figure 3 shows which read-outs are included.\n- At 24 pages the document is dense for a committee, though Section 1 stands alone.\n- The DOCX was not checked in Word, which the model disclosed.\n- There is no budget, which the model also disclosed, as no cost data were available.\n\nNone of these affects the substance."
+    }
+  ],
+  "weight": 1,
+  "allow_unbounded": false,
+  "created_at": "2026-11-19T18:59:20.724229Z",
+  "has_metadata": true,
+  "metadata_byte_size": 371295,
+  "metadata": {
+    "agentic_grader": {
+      "cc_harness": false,
+      "container_mode": "fresh_with_policy_setup",
+      "scoring_mode": "single_score",
+      "grading_model": "claude-opus-5-5",
+      "grading_model_slug": "claude-opus-5-5",
+      "grading_container_id": "modern-phone-vmnpdb-ppqxbv",
+      "grader_error": false,
+      "full_debug_s3_hint": "biome/agentic-grading-transcripts/modern-phone-vmnpdb-ppqxbv/grading_debug.json",
+      "grading_turns_count": null,
+      "grading_tokens_consumed": null,
+      "grader_context_window_effective": 1000000,
+      "grader_context_window_source": "default",
+      "policy_outputs_transfer": {
+        "mode": "snapshot_mount",
+        "snapshot_source": "pre_grade",
+        "snapshot_ttl": null,
+        "snapshot_seconds": 2.0395833179936744,
+        "reader_uid": 1000,
+        "handin_max_bytes": 2147483648,
+        "grading_box_seconds": 31.639,
+        "grading_box_attempts": 1,
+        "mount_verified": true,
+        "unmounted": true,
+        "detach_checks": [
+          "mounts",
+          "same_device",
+          "ext4_sysfs",
+          "device_read"
+        ],
+        "device_read_refused": true,
+        "present_seconds": 3.967,
+        "probe": "dir",
+        "measured_bytes": 15025646,
+        "entries": 86,
+        "status": "ok",
+        "declared_path_missing": false,
+        "declared_path_wrong_type": false,
+        "copied_files": 81,
+        "copied_bytes": 14942806,
+        "copies_inert": true
+      },
+      "import_shadowing_set_aside": [],
+      "grader_attempts": 1,
+      "grader_failed_attempts": [],
+      "grader_failed_attempt_errors": [],
+      "grader_failed_attempts_ms": 0,
+      "grader_planted_shape": null,
+      "policy_markup_hits": 0,
+      "handin_integrity": "unchanged",
+      "handin_integrity_drift_only": true
+    },
+    "rubric_evaluations": [
+      {
+        "name": "overall",
+        "score": 0.95,
+        "max_score": 1,
+        "weight": 1,
+        "reasoning": "I recomputed the model's headline numbers from the original workbook and annotation in R and plain Python, without running any of the model's scripts. Nearly everything checked reproduces. This is an exceptionally accurate, complete and well-sourced deliverable.\n\n**Deliverables.** The proposal comes as PDF (24 pages), DOCX (23 tables, 8 figures), HTML and Markdown, all with the same complete content. Alongside it are an evidence ledger (453 cited values, each with cell ranges and method), QC tables and figures.\n\n**Task coverage** (all required elements are present):\n- **Recommendation first:** keep the programme conditionally, take PSLN-344 forward, stop PSLN-212 as a lead, and fund to a July 2027 gate.\n- **How the asset looks:** a scorecard.\n- **What we give up if dropped:** set out, along with an honest case for dropping.\n- **Mechanism of action:** a 9-step chain, each step labelled by evidence type (knockout, inhibitor or observed), plus the gaps: no STING knockout and no Mn²⁺-only control.\n- **Biomarkers:** staged from early engagement to antibody and T-cell response, with animal-level separation and human-accessible equivalents.\n- **Target demographic:** adults 65+, with segments and the inputs market research needs to size the TAM; no invented market figures.\n- **Next steps:** Step 0 plus Studies 1–7, each with population, comparators, endpoints, read-outs, timing, power and a decision rule; three gates.\n- **Considered and ruled out:** a table of options and rejected explanations.\n- It correctly questions the \"small-molecule STING agonist\" framing: the data show a cyclic-dinucleotide liposome that works only as a vaccine adjuvant (0/7 survive without vaccine in S15-H).\n\n**Numbers checked against the raw data, all matching:**\n- Survival counts in every challenge block, and the pooled totals:\n  - 18/21 vs 3/21 vs 0/21 in the three core experiments; 42/45, 8/45, 1/45 across all six as printed;\n  - 21/24 when challenged 2–3 days after dosing; 14/21 at day 60; 24/24 in young mice; 12/14 in the other strains and in 14-month mice.\n- Clopper–Pearson confidence intervals: 64–97%, 43–85%, 68–97%, 5–42%.\n- Log-rank tests stratified by experiment: p=5.6×10⁻⁷ (PSLN-344 vs PSLN-212), 0.005 (day 60 vs young), 0.44 (vs untreated animals).\n- Tukey p-values: 3.7×10⁻⁸ (Ifnb1), 5.7×10⁻⁶ and 2.2×10⁻⁶ (HAI), 0.86 (encapsulation efficiency), and the brain Tnf 95% CI of −0.98 to +1.53.\n- Age × Mn²⁺ interaction p=0.0004: this holds on the log scale (I got 0.00039); on the linear scale it would be 0.11.\n- Geometric mean titres and fold ratios: 8.0×, 9.2×, 18.6×; booster ratios 3.5× and 11.5×.\n- Weight nadir 96.4% vs 98.2%, with Tukey CI −6.7 to +3.1.\n- Power figures: 99%, 60%, 43%, 46%, 83%, and group sizes n=11, 22 and 14.\n- \"34 read-outs, median 70% vs 19% of the young response\" reproduces exactly.\n- Mechanism numbers from S01, S02, S05, S07 and S11.\n\n**Planted data problems it caught, each verified:**\n- S03-B column headers rotated: the S13 per-animal quotients match exactly, shifted by one column.\n- S03-I and S03-J group labels conflict with their body-weight tables.\n- S06-C and S06-D are identical for all 28 animals.\n- Body-weight values in S15-C are copies of S15-I.\n- S11-A and S11-B share 35 of 100 values.\n- The second S09-A panel is labelled 16 h but holds the 72 h values from S01-A.\n- S07-C has the same label on both groups.\n- Stated group sizes differ from the data, including the annotation placing the short Sham group in S09-B when it is actually in S09-F.\n\nExternal knowledge is labelled as such, and the limits of the work are disclosed honestly.\n\n**Minor issues:**\n- The log scale used for the interaction test is not stated next to that p-value.\n- The 34-read-out summary leaves out the day-8 measures without saying so in the text; Figure 3 shows which read-outs are included.\n- At 24 pages the document is dense for a committee, though Section 1 stands alone.\n- The DOCX was not checked in Word, which the model disclosed.\n- There is no budget, which the model also disclosed, as no cost data were available.\n\nNone of these affects the substance."
+      }
+    ],
+    "strategy_type": "agentic_grader",
+    "grade_key": "agentic_grader",
+    "label": null,
+    "strategy_weight": 1,
+    "is_auxiliary": false
+  }
+}

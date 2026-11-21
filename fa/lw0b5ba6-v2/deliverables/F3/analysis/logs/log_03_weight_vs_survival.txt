@@ -1,0 +1,251 @@
+==============================================================================================================
+S03-I  <->  S13-F     survival groups: ['Sham', 'CMP-204', 'PSLN-212', 'PSLN-344', 'PSLN-212(Y)']   |  weight groups: ['PSLN-212(Y)', 'Sham', 'PSLN-212', 'PSLN-344', 'Naïve']
+   !! GROUP LISTS DIFFER: only in survival block ['CMP-204']; only in weight block ['Naïve']
+   Sham                     survival: 0/7 alive; death days [5, 6, 6, 6, 8, 8, 11]
+                            weight:   0/7 with real series to d14; lost n=7 (last real weighing days [6, 6, 8, 8, 10, 10, 10])  encoding: ['blank']
+                            --> OK: survival block deaths 7/7 vs weight block losses 7/7
+   CMP-204                  survival: 3/7 alive; death days [6, 7, 8, 10]
+                            weight:   (no such group)
+   PSLN-212                 survival: 0/7 alive; death days [5, 5, 5, 6, 6, 6, 6]
+                            weight:   3/7 with real series to d14; lost n=4 (last real weighing days [10, 10, 10, 10])  encoding: ['carried-fwd(firm)']
+                            --> MISMATCH: survival block deaths 7/7 vs weight block losses 4/7
+   PSLN-344                 survival: 7/7 alive; death days []
+                            weight:   7/7 with real series to d14; lost n=0 (last real weighing days [])
+                            --> OK: survival block deaths 0/7 vs weight block losses 0/7
+   PSLN-212(Y)              survival: 7/7 alive; death days []
+                            weight:   7/7 with real series to d14; lost n=0 (last real weighing days [])
+                            --> OK: survival block deaths 0/7 vs weight block losses 0/7
+   Naïve                    survival: (no such group)
+                            weight:   0/7 with real series to d14; lost n=7 (last real weighing days [4, 4, 6, 6, 6, 6, 6])  encoding: ['blank']
+==============================================================================================================
+S03-J  <->  S13-G     survival groups: ['Sham', 'PSLN-212', 'PSLN-344']   |  weight groups: ['PSLN-344', 'Sham', 'Naïve']
+   !! GROUP LISTS DIFFER: only in survival block ['PSLN-212']; only in weight block ['Naïve']
+   Sham                     survival: 1/10 alive; death days [3, 4, 9, 9, 9, 10, 10, 10, 10]
+                            weight:   5/10 with real series to d14; lost n=2 (last real weighing days [10, 10]); +3 possible (2 identical final cells, last real day [12, 12, 12])  encoding: ['carried-fwd(firm)', 'carried-fwd(possible)']
+                            --> MISMATCH: survival block deaths 9/10 vs weight block losses 2-5/10
+   PSLN-212                 survival: 3/10 alive; death days [10, 10, 11, 11, 12, 12, 12]
+                            weight:   (no such group)
+   PSLN-344                 survival: 10/10 alive; death days []
+                            weight:   10/10 with real series to d14; lost n=0 (last real weighing days [])
+                            --> OK: survival block deaths 0/10 vs weight block losses 0/10
+   Naïve                    survival: (no such group)
+                            weight:   1/10 with real series to d14; lost n=9 (last real weighing days [4, 4, 6, 10, 10, 10, 10, 10, 10])  encoding: ['carried-fwd(firm)']
+==============================================================================================================
+S06-A  <->  S15-A     survival groups: ['Sham', 'PSLN-212', 'PSLN-344', 'PSLN-212(Y)']   |  weight groups: ['PSLN-212(Y)', 'Sham', 'PSLN-212', 'PSLN-344']
+   Sham                     survival: 0/7 alive; death days [4, 4, 4, 5, 5, 7, 7]
+                            weight:   0/7 with real series to d14; lost n=7 (last real weighing days [4, 4, 4, 6, 6, 6, 6])  encoding: ['blank']
+                            --> OK: survival block deaths 7/7 vs weight block losses 7/7
+   PSLN-212                 survival: 1/7 alive; death days [4, 6, 6, 8, 9, 10]
+                            weight:   1/7 with real series to d14; lost n=6 (last real weighing days [4, 6, 6, 6, 8, 8])  encoding: ['carried-fwd(firm)']
+                            --> OK: survival block deaths 6/7 vs weight block losses 6/7
+   PSLN-344                 survival: 6/7 alive; death days [8]
+                            weight:   6/7 with real series to d14; lost n=1 (last real weighing days [6])  encoding: ['carried-fwd(firm)']
+                            --> OK: survival block deaths 1/7 vs weight block losses 1/7
+   PSLN-212(Y)              survival: 7/7 alive; death days []
+                            weight:   7/7 with real series to d14; lost n=0 (last real weighing days [])
+                            --> OK: survival block deaths 0/7 vs weight block losses 0/7
+==============================================================================================================
+S06-B  <->  S15-B     survival groups: ['Sham', 'PSLN-212', 'PSLN-344', 'PSLN-212(Y)']   |  weight groups: ['PSLN-212(Y)', 'Sham', 'PSLN-212', 'PSLN-344']
+   Sham                     survival: 0/7 alive; death days [4, 4, 4, 5, 5, 6, 6]
+                            weight:   0/7 with real series to d14; lost n=7 (last real weighing days [2, 4, 4, 4, 6, 6, 6])  encoding: ['blank']
+                            --> OK: survival block deaths 7/7 vs weight block losses 7/7
+   PSLN-212                 survival: 0/7 alive; death days [4, 4, 6, 6, 6, 7, 10]
+                            weight:   0/7 with real series to d14; lost n=7 (last real weighing days [4, 6, 6, 8, 8, 8, 10])  encoding: ['carried-fwd(firm)']
+                            --> OK: survival block deaths 7/7 vs weight block losses 7/7
+   PSLN-344                 survival: 5/7 alive; death days [8, 10]
+                            weight:   5/7 with real series to d14; lost n=2 (last real weighing days [8, 8])  encoding: ['carried-fwd(firm)']
+                            --> OK: survival block deaths 2/7 vs weight block losses 2/7
+   PSLN-212(Y)              survival: 7/7 alive; death days []
+                            weight:   7/7 with real series to d14; lost n=0 (last real weighing days [])
+                            --> OK: survival block deaths 0/7 vs weight block losses 0/7
+==============================================================================================================
+S06-C  <->  S15-C     survival groups: ['Sham', 'PSLN-212', 'PSLN-344', 'PSLN-212(Y)']   |  weight groups: ['PSLN-212(Y)', 'Sham', 'PSLN-212', 'PSLN-344']
+   Sham                     survival: 0/7 alive; death days [4, 4, 5, 6, 6, 6, 7]
+                            weight:   0/7 with real series to d14; lost n=7 (last real weighing days [4, 4, 4, 6, 6, 6, 8])  encoding: ['blank']
+                            --> OK: survival block deaths 7/7 vs weight block losses 7/7
+   PSLN-212                 survival: 2/7 alive; death days [5, 8, 10, 10, 12]
+                            weight:   1/7 with real series to d14; lost n=6 (last real weighing days [6, 8, 8, 10, 10, 10])  encoding: ['carried-fwd(firm)']
+                            --> MISMATCH: survival block deaths 5/7 vs weight block losses 6/7
+   PSLN-344                 survival: 7/7 alive; death days []
+                            weight:   7/7 with real series to d14; lost n=0 (last real weighing days [])
+                            --> OK: survival block deaths 0/7 vs weight block losses 0/7
+   PSLN-212(Y)              survival: 7/7 alive; death days []
+                            weight:   7/7 with real series to d14; lost n=0 (last real weighing days [])
+                            --> OK: survival block deaths 0/7 vs weight block losses 0/7
+==============================================================================================================
+S06-D  <->  S15-D     survival groups: ['Sham', 'PSLN-212', 'PSLN-344', 'PSLN-212(Y)']   |  weight groups: ['PSLN-212(Y)', 'Sham', 'PSLN-212', 'PSLN-344']
+   Sham                     survival: 0/7 alive; death days [4, 4, 5, 6, 6, 6, 7]
+                            weight:   0/7 with real series to d14; lost n=7 (last real weighing days [4, 4, 4, 4, 4, 4, 6])  encoding: ['blank']
+                            --> OK: survival block deaths 7/7 vs weight block losses 7/7
+   PSLN-212                 survival: 2/7 alive; death days [5, 8, 10, 10, 12]
+                            weight:   2/7 with real series to d14; lost n=4 (last real weighing days [6, 6, 8, 10]); +1 possible (2 identical final cells, last real day [12])  encoding: ['carried-fwd(firm)', 'carried-fwd(possible)']
+                            --> OK: survival block deaths 5/7 vs weight block losses 4-5/7
+   PSLN-344                 survival: 7/7 alive; death days []
+                            weight:   5/7 with real series to d14; lost n=2 (last real weighing days [8, 8])  encoding: ['carried-fwd(firm)']
+                            --> MISMATCH: survival block deaths 0/7 vs weight block losses 2/7
+   PSLN-212(Y)              survival: 7/7 alive; death days []
+                            weight:   5/7 with real series to d14; lost n=2 (last real weighing days [8, 10])  encoding: ['carried-fwd(firm)']
+                            --> MISMATCH: survival block deaths 0/7 vs weight block losses 2/7
+==============================================================================================================
+S06-E_r34  <->  S15-E     survival groups: ['Sham', 'PSLN-212', 'PSLN-344', 'PSLN-212(Y)', 'Untreated']   |  weight groups: ['PSLN-212(Y)', 'Sham', 'PSLN-212', 'PSLN-344', 'Untreated']
+   Sham                     survival: 0/7 alive; death days [4, 5, 5, 5, 5, 6, 6]
+                            weight:   0/7 with real series to d14; lost n=7 (last real weighing days [4, 4, 4, 4, 4, 6, 6])  encoding: ['blank']
+                            --> OK: survival block deaths 7/7 vs weight block losses 7/7
+   PSLN-212                 survival: 0/7 alive; death days [5, 5, 5, 6, 6, 8, 11]
+                            weight:   1/7 with real series to d14; lost n=6 (last real weighing days [6, 6, 6, 6, 8, 10])  encoding: ['carried-fwd(firm)']
+                            --> MISMATCH: survival block deaths 7/7 vs weight block losses 6/7
+   PSLN-344                 survival: 5/7 alive; death days [8, 10]
+                            weight:   6/7 with real series to d14; lost n=1 (last real weighing days [8])  encoding: ['carried-fwd(firm)']
+                            --> MISMATCH: survival block deaths 2/7 vs weight block losses 1/7
+   PSLN-212(Y)              survival: 7/7 alive; death days []
+                            weight:   7/7 with real series to d14; lost n=0 (last real weighing days [])
+                            --> OK: survival block deaths 0/7 vs weight block losses 0/7
+   Untreated                survival: 6/7 alive; death days [4]
+                            weight:   6/7 with real series to d14; lost n=1 (last real weighing days [4])  encoding: ['carried-fwd(firm)']
+                            --> OK: survival block deaths 1/7 vs weight block losses 1/7
+==============================================================================================================
+S06-F_r34  <->  S15-F     survival groups: ['Sham', 'PSLN-212', 'PSLN-344', 'PSLN-212(Y)', 'Untreated']   |  weight groups: ['PSLN-212(Y)', 'Sham', 'PSLN-212', 'PSLN-344', 'Untreated']
+   Sham                     survival: 0/7 alive; death days [4, 4, 4, 5, 5, 6, 6]
+                            weight:   0/7 with real series to d14; lost n=7 (last real weighing days [2, 2, 4, 4, 4, 4, 6])  encoding: ['blank']
+                            --> OK: survival block deaths 7/7 vs weight block losses 7/7
+   PSLN-212                 survival: 1/7 alive; death days [4, 5, 6, 6, 6, 7]
+                            weight:   1/7 with real series to d14; lost n=6 (last real weighing days [4, 6, 6, 6, 6, 8])  encoding: ['carried-fwd(firm)']
+                            --> OK: survival block deaths 6/7 vs weight block losses 6/7
+   PSLN-344                 survival: 5/7 alive; death days [7, 8]
+                            weight:   5/7 with real series to d14; lost n=2 (last real weighing days [6, 6])  encoding: ['carried-fwd(firm)']
+                            --> OK: survival block deaths 2/7 vs weight block losses 2/7
+   PSLN-212(Y)              survival: 7/7 alive; death days []
+                            weight:   7/7 with real series to d14; lost n=0 (last real weighing days [])
+                            --> OK: survival block deaths 0/7 vs weight block losses 0/7
+   Untreated                survival: 7/7 alive; death days []
+                            weight:   7/7 with real series to d14; lost n=0 (last real weighing days [])
+                            --> OK: survival block deaths 0/7 vs weight block losses 0/7
+==============================================================================================================
+S06-G  <->  S15-G     survival groups: ['Sham', 'PSLN-212', 'PSLN-344', 'PSLN-212(Y)', 'Untreated']   |  weight groups: ['PSLN-212(Y)', 'Sham', 'PSLN-212', 'PSLN-344', 'Untreated']
+   Sham                     survival: 0/7 alive; death days [4, 4, 5, 6, 6, 7, 7]
+                            weight:   0/7 with real series to d14; lost n=7 (last real weighing days [4, 4, 6, 6, 6, 6, 6])  encoding: ['blank']
+                            --> OK: survival block deaths 7/7 vs weight block losses 7/7
+   PSLN-212                 survival: 0/7 alive; death days [6, 6, 8, 8, 8, 11, 11]
+                            weight:   0/7 with real series to d14; lost n=7 (last real weighing days [8, 8, 8, 8, 8, 10, 10])  encoding: ['carried-fwd(firm)']
+                            --> OK: survival block deaths 7/7 vs weight block losses 7/7
+   PSLN-344                 survival: 4/7 alive; death days [8, 9, 11]
+                            weight:   5/7 with real series to d14; lost n=0 (last real weighing days []); +2 possible (2 identical final cells, last real day [12, 12])  encoding: ['carried-fwd(possible)']
+                            --> MISMATCH: survival block deaths 3/7 vs weight block losses 0-2/7
+   PSLN-212(Y)              survival: 7/7 alive; death days []
+                            weight:   7/7 with real series to d14; lost n=0 (last real weighing days [])
+                            --> OK: survival block deaths 0/7 vs weight block losses 0/7
+   Untreated                survival: 4/7 alive; death days [3, 7, 10]
+                            weight:   4/7 with real series to d14; lost n=3 (last real weighing days [4, 8, 10])  encoding: ['carried-fwd(firm)']
+                            --> OK: survival block deaths 3/7 vs weight block losses 3/7
+==============================================================================================================
+S06-E_r71  <->  S15-J     survival groups: ['Naïve+PSLN-212', 'Imprinting+PSLN-212', 'Naïve+PSLN-344', 'Imprinting+PSLN-344']   |  weight groups: ['Naïve+PSLN-212', 'Imprinting+PSLN-212', 'Naïve+PSLN-344', 'Imprinting+PSLN-344']
+   Naïve+PSLN-212           survival: 0/7 alive; death days [4, 4, 5, 6, 6, 6, 8]
+                            weight:   0/7 with real series to d14; lost n=7 (last real weighing days [2, 2, 4, 4, 4, 6, 6])  encoding: ['blank']
+                            --> OK: survival block deaths 7/7 vs weight block losses 7/7
+   Imprinting+PSLN-212      survival: 4/7 alive; death days [6, 8, 8]
+                            weight:   4/7 with real series to d14; lost n=3 (last real weighing days [4, 6, 6])  encoding: ['blank']
+                            --> OK: survival block deaths 3/7 vs weight block losses 3/7
+   Naïve+PSLN-344           survival: 6/7 alive; death days [5]
+                            weight:   6/7 with real series to d14; lost n=1 (last real weighing days [4])  encoding: ['blank']
+                            --> OK: survival block deaths 1/7 vs weight block losses 1/7
+   Imprinting+PSLN-344      survival: 6/7 alive; death days [8]
+                            weight:   6/7 with real series to d14; lost n=1 (last real weighing days [6])  encoding: ['carried-fwd(firm)']
+                            --> OK: survival block deaths 1/7 vs weight block losses 1/7
+==============================================================================================================
+S06-F_r71  <->  S15-K     survival groups: ['Naïve+PSLN-212', 'Imprinting+PSLN-212', 'Naïve+PSLN-344', 'Imprinting+PSLN-344']   |  weight groups: ['Naïve+PSLN-212', 'Imprinting+PSLN-212', 'Naïve+PSLN-344', 'Imprinting+PSLN-344']
+   Naïve+PSLN-212           survival: 0/7 alive; death days [4, 4, 6, 6, 7, 8, 8]
+                            weight:   0/7 with real series to d14; lost n=7 (last real weighing days [2, 4, 4, 6, 6, 6, 8])  encoding: ['blank']
+                            --> OK: survival block deaths 7/7 vs weight block losses 7/7
+   Imprinting+PSLN-212      survival: 0/7 alive; death days [4, 4, 5, 5, 5, 6, 6]
+                            weight:   0/7 with real series to d14; lost n=7 (last real weighing days [2, 2, 4, 4, 4, 4, 6])  encoding: ['blank']
+                            --> OK: survival block deaths 7/7 vs weight block losses 7/7
+   Naïve+PSLN-344           survival: 6/7 alive; death days [8]
+                            weight:   6/7 with real series to d14; lost n=1 (last real weighing days [6])  encoding: ['blank']
+                            --> OK: survival block deaths 1/7 vs weight block losses 1/7
+   Imprinting+PSLN-344      survival: 6/7 alive; death days [7]
+                            weight:   6/7 with real series to d14; lost n=1 (last real weighing days [6])  encoding: ['blank']
+                            --> OK: survival block deaths 1/7 vs weight block losses 1/7
+==============================================================================================================
+S09-B  <->  S09-C     survival groups: ['Sham', 'PSLN-344Y', 'PSLN-212Y']   |  weight groups: ['PSLN-212Y', 'Sham', 'PSLN-344Y']
+   Sham                     survival: 0/8 alive; death days [6, 6, 6, 7, 7, 7, 8, 8]
+                            weight:   0/8 with real series to d14; lost n=8 (last real weighing days [6, 8, 8, 8, 8, 8, 8, 8])  encoding: ['blank']
+                            --> OK: survival block deaths 8/8 vs weight block losses 8/8
+   PSLN-344Y                survival: 8/8 alive; death days []
+                            weight:   8/8 with real series to d14; lost n=0 (last real weighing days [])
+                            --> OK: survival block deaths 0/8 vs weight block losses 0/8
+   PSLN-212Y                survival: 8/8 alive; death days []
+                            weight:   8/8 with real series to d14; lost n=0 (last real weighing days [])
+                            --> OK: survival block deaths 0/8 vs weight block losses 0/8
+==============================================================================================================
+S09-D  <->  S09-E     survival groups: ['Sham', 'PSLN-344Y', 'PSLN-212Y']   |  weight groups: ['PSLN-212Y', 'Sham', 'PSLN-344Y']
+   Sham                     survival: 0/8 alive; death days [7, 8, 8, 8, 8, 8, 9, 9]
+                            weight:   0/8 with real series to d14; lost n=8 (last real weighing days [6, 6, 8, 8, 8, 8, 8, 8])  encoding: ['blank']
+                            --> OK: survival block deaths 8/8 vs weight block losses 8/8
+   PSLN-344Y                survival: 8/8 alive; death days []
+                            weight:   8/8 with real series to d14; lost n=0 (last real weighing days [])
+                            --> OK: survival block deaths 0/8 vs weight block losses 0/8
+   PSLN-212Y                survival: 8/8 alive; death days []
+                            weight:   8/8 with real series to d14; lost n=0 (last real weighing days [])
+                            --> OK: survival block deaths 0/8 vs weight block losses 0/8
+==============================================================================================================
+S09-F  <->  S09-G     survival groups: ['Sham', 'PSLN-344Y', 'PSLN-212Y']   |  weight groups: ['PSLN-212Y', 'Sham', 'PSLN-344Y']
+   Sham                     survival: 0/7 alive; death days [6, 6, 6, 7, 8, 8, 8]
+                            weight:   0/8 with real series to d14; lost n=8 (last real weighing days [6, 6, 6, 6, 8, 8, 8, 8])  encoding: ['blank']
+                            --> MISMATCH: survival block deaths 7/7 vs weight block losses 8/8
+   PSLN-344Y                survival: 8/8 alive; death days []
+                            weight:   8/8 with real series to d14; lost n=0 (last real weighing days [])
+                            --> OK: survival block deaths 0/8 vs weight block losses 0/8
+   PSLN-212Y                survival: 8/8 alive; death days []
+                            weight:   8/8 with real series to d14; lost n=0 (last real weighing days [])
+                            --> OK: survival block deaths 0/8 vs weight block losses 0/8
+==============================================================================================================
+S15-H  <->  S15-I     survival groups: ['3d Vaccine', '3d PSLN-344', '3d Vaccine+PSLN-344']   |  weight groups: ['3d Vaccine', '3d PSLN-344', '3d Vaccine+PSLN-344']
+   3d Vaccine               survival: 0/7 alive; death days [4, 5, 5, 5, 6, 6, 7]
+                            weight:   0/7 with real series to d14; lost n=7 (last real weighing days [4, 4, 4, 4, 6, 6, 6])  encoding: ['blank']
+                            --> OK: survival block deaths 7/7 vs weight block losses 7/7
+   3d PSLN-344              survival: 0/7 alive; death days [5, 5, 6, 6, 6, 7, 8]
+                            weight:   0/7 with real series to d14; lost n=7 (last real weighing days [4, 4, 6, 6, 6, 6, 8])  encoding: ['blank']
+                            --> OK: survival block deaths 7/7 vs weight block losses 7/7
+   3d Vaccine+PSLN-344      survival: 6/7 alive; death days [12]
+                            weight:   6/7 with real series to d14; lost n=0 (last real weighing days []); +1 possible (2 identical final cells, last real day [12])  encoding: ['carried-fwd(possible)']
+                            --> OK: survival block deaths 1/7 vs weight block losses 0-1/7
+==============================================================================================================
+S15-L  <->  S15-M     survival groups: ['Sham', 'PSLN-212', 'PSLN-344', 'PSLN-212(Y)']   |  weight groups: ['PSLN-212(Y)', 'Sham', 'PSLN-212', 'PSLN-344']
+   Sham                     survival: 0/7 alive; death days [4, 4, 6, 6, 6, 8, 8]
+                            weight:   0/7 with real series to d14; lost n=7 (last real weighing days [2, 2, 4, 4, 4, 6, 8])  encoding: ['blank']
+                            --> OK: survival block deaths 7/7 vs weight block losses 7/7
+   PSLN-212                 survival: 0/7 alive; death days [6, 7, 7, 8, 8, 9, 11]
+                            weight:   0/7 with real series to d14; lost n=6 (last real weighing days [4, 6, 6, 8, 8, 8]); +1 possible (2 identical final cells, last real day [12])  encoding: ['carried-fwd(firm)', 'carried-fwd(possible)']
+                            --> OK: survival block deaths 7/7 vs weight block losses 6-7/7
+   PSLN-344                 survival: 6/7 alive; death days [8]
+                            weight:   6/7 with real series to d14; lost n=1 (last real weighing days [6])  encoding: ['carried-fwd(firm)']
+                            --> OK: survival block deaths 1/7 vs weight block losses 1/7
+   PSLN-212(Y)              survival: 6/7 alive; death days [12]
+                            weight:   7/7 with real series to d14; lost n=0 (last real weighing days [])
+                            --> MISMATCH: survival block deaths 1/7 vs weight block losses 0/7
+==============================================================================================================
+S15-N  <->  S15-O     survival groups: ['Sham', 'PSLN-212', 'PSLN-344', 'PSLN-212(Y)']   |  weight groups: ['PSLN-212(Y)', 'Sham', 'PSLN-212', 'PSLN-344']
+   Sham                     survival: 0/7 alive; death days [5, 6, 6, 8, 8, 8, 10]
+                            weight:   0/7 with real series to d14; lost n=7 (last real weighing days [4, 6, 6, 8, 8, 8, 10])  encoding: ['blank']
+                            --> OK: survival block deaths 7/7 vs weight block losses 7/7
+   PSLN-212                 survival: 2/7 alive; death days [6, 10, 10, 10, 12]
+                            weight:   2/7 with real series to d14; lost n=4 (last real weighing days [6, 10, 10, 10]); +1 possible (2 identical final cells, last real day [12])  encoding: ['carried-fwd(firm)', 'carried-fwd(possible)']
+                            --> OK: survival block deaths 5/7 vs weight block losses 4-5/7
+   PSLN-344                 survival: 6/7 alive; death days [8]
+                            weight:   6/7 with real series to d14; lost n=1 (last real weighing days [6])  encoding: ['carried-fwd(firm)']
+                            --> OK: survival block deaths 1/7 vs weight block losses 1/7
+   PSLN-212(Y)              survival: 7/7 alive; death days []
+                            weight:   7/7 with real series to d14; lost n=0 (last real weighing days [])
+                            --> OK: survival block deaths 0/7 vs weight block losses 0/7
+
+SUMMARY of mismatches:
+   ('S03-I', 'S13-F', 'PSLN-212', 7, 7, 7, 4, 4, 'MISMATCH')
+   ('S03-J', 'S13-G', 'Sham', 10, 9, 10, 2, 5, 'MISMATCH')
+   ('S06-C', 'S15-C', 'PSLN-212', 7, 5, 7, 6, 6, 'MISMATCH')
+   ('S06-D', 'S15-D', 'PSLN-344', 7, 0, 7, 2, 2, 'MISMATCH')
+   ('S06-D', 'S15-D', 'PSLN-212(Y)', 7, 0, 7, 2, 2, 'MISMATCH')
+   ('S06-E_r34', 'S15-E', 'PSLN-212', 7, 7, 7, 6, 6, 'MISMATCH')
+   ('S06-E_r34', 'S15-E', 'PSLN-344', 7, 2, 7, 1, 1, 'MISMATCH')
+   ('S06-G', 'S15-G', 'PSLN-344', 7, 3, 7, 0, 2, 'MISMATCH')
+   ('S09-F', 'S09-G', 'Sham', 7, 7, 8, 8, 8, 'MISMATCH')
+   ('S15-L', 'S15-M', 'PSLN-212(Y)', 7, 1, 7, 0, 0, 'MISMATCH')

@@ -1,0 +1,90 @@
+{
+  "id": "4e27ed60-ba43-4019-a3e9-b53781620077",
+  "problem_run_id": "978e3829-863d-4c89-b175-553d29d32858",
+  "grading_run_id": "346f3e6d-48de-4f5a-8dbb-a4dfb3e038e9",
+  "grading_strategy_type": "agentic_grader",
+  "is_auxiliary_grade": false,
+  "normalized_score": 0.9,
+  "subscores": [
+    {
+      "name": "overall",
+      "score": 0.9,
+      "max_score": 1,
+      "weight": 1,
+      "reasoning": "## Grading summary\n\n**What I checked.** I read the full proposal (MD, plus the DOCX, PDF and HTML versions, which hold the same content), the integrity register and tables T1, T2 and T6, and all six figures. I parsed the original workbook and annotation PDF myself and recomputed the key numbers with my own code.\n\n**Task coverage.** Every required element is present:\n- **Recommendation first:** keep PSLN-344 as the lead and stop PSLN-212 as a candidate. The recommendation is conditional on two gates: Gate 0, a data-integrity audit, and Gate 1, a confirmatory aged-mouse study against a clinical benchmark.\n- **What dropping the asset gives up:** stated explicitly.\n- **Next steps:** studies S0–S7, each covering what it must establish, population, arms/comparators, endpoints/readouts, sample size, go/no-go criteria and timing.\n- **Target demographic for TAM:** primary ≥65, secondary 50–64, strategic H5 pandemic use, and explicit non-targets. It also lists the parameters market research should size.\n- **Mechanism of action:** a 7-step chain built from the data, with the type of evidence marked for each step and unproven gaps listed.\n- **Biomarkers:** a tiered table mapping mouse readouts to proposed human measures, plus a discussion of what the data can and cannot say about a correlate of protection.\n- **Considered and ruled out:** a table covering R848 combinations, cGAMP, PSLN-212 as lead, a boost instead of Mn, GM-CSF, antigen-free use, and young/general-population indications.\n- **Citations:** block and cell references throughout.\n\n**Accuracy: independently reproduced.**\n- **Survival counts:** 10/42 vs 38/42 vs 42/42 (S06), 12/73 vs 64/73 (all 10 aged studies), and the conservative sets.\n- **Mantel-Haenszel risk ratios:** all match exactly: 0.26 (0.15–0.45), 0.30 (0.18–0.51), 0.35 (0.19–0.64) and 0.19 (0.11–0.31).\n- **Fisher tests:** p = 0.12 for PSLN-212 vs sham, and 0.0011 for aged PSLN-344 vs young.\n- **Antibody titres:** HAI GMTs 8/46/368/485 and 10/35/320/368. IgG 18.6× (9.1–37.9).\n- **Other effects:** CCR7⁺ DC +23.4 (13.8–33.0); TRM −34% vs young; CD40/CD86 at 21–24% of young; Ccl2 590× vs 7.6×; CNS Ifnb1 1.14× (0.69–1.86); MoA intervention percentages.\n- **Power and multiplicity:** the power numbers agree with my simulation. The Holm adjustment is correct (32/43 significant, 41 nominally significant).\n\n**Integrity findings: verified as real.**\n- S06-D is a 28/28 row-for-row copy of S06-C.\n- The S03-B/F group labels are rotated relative to the raw S13 subclass titres.\n- The second S09-A block is labelled 16 h but matches the S01-A 72 h animals exactly.\n- 35/100 aligned S11-A/B cells are identical.\n- S13-F/G body weights contradict S03-I/J survival.\n- S04-B Tfh:Tfr equals (100−Tfr)/Tfr exactly.\n- Decimals are reused with edited integers, and \"untreated\" (unchallenged) mice are recorded as dying.\n- My own scan of body weights across experiments reproduced exactly 18 animal pairs sharing ≥4 identical non-repeated values, and 15 sharing ≥5.\n- It also caught subtler problems: an H-2Db tetramer used in BALB/c mice, and CDN-1807 encapsulation reported for PSLN-R848, which contains no CDN-1807.\n\n**Weaknesses (minor to moderate):**\n- **Tiering is somewhat lenient.** S06-A and S06-F stay in the \"most conservative\" set as tier B even though their companion weight blocks (S15-A, S15-F) carry the critical duplication flag. \"Survives excluding every flagged block\" is therefore slightly overstated. The conclusion would still hold under stricter exclusion.\n- **A flagged block is used for safety claims.** S08-D is flagged critical for weight duplication, yet it supports the \"no safety red flag\" claim and part of the R848 rationale without a caveat.\n- **Soft framing of possible misconduct.** Given the edited-integer signatures, the \"clerical\" framing is somewhat soft, although a stop/escalate path is defined.\n- **Small slips:**\n  - T2 describes the S03-I vaccine as CA09 monovalent, but it was bivalent.\n  - \"66 points\" should round to 67.\n  - The CD8 restoration range quoted as 55–79% omits the 94% Ki-67 readout.\n\nOverall this is an exceptionally rigorous, accurate, well-sourced and committee-ready deliverable. The issues above are minor."
+    }
+  ],
+  "weight": 1,
+  "allow_unbounded": false,
+  "created_at": "2026-11-19T17:05:43.009052Z",
+  "has_metadata": true,
+  "metadata_byte_size": 389570,
+  "metadata": {
+    "agentic_grader": {
+      "cc_harness": false,
+      "container_mode": "fresh_with_policy_setup",
+      "scoring_mode": "single_score",
+      "grading_model": "claude-opus-5-5",
+      "grading_model_slug": "claude-opus-5-5",
+      "grading_container_id": "worthy-fish-shbhgq-dpcsxm",
+      "grader_error": false,
+      "full_debug_s3_hint": "biome/agentic-grading-transcripts/worthy-fish-shbhgq-dpcsxm/grading_debug.json",
+      "grading_turns_count": null,
+      "grading_tokens_consumed": null,
+      "grader_context_window_effective": 1000000,
+      "grader_context_window_source": "default",
+      "policy_outputs_transfer": {
+        "mode": "snapshot_mount",
+        "snapshot_source": "pre_grade",
+        "snapshot_ttl": null,
+        "snapshot_seconds": 0.6277021488640457,
+        "reader_uid": 1000,
+        "handin_max_bytes": 2147483648,
+        "grading_box_seconds": 52.497,
+        "grading_box_attempts": 1,
+        "mount_verified": true,
+        "unmounted": true,
+        "detach_checks": [
+          "mounts",
+          "same_device",
+          "ext4_sysfs",
+          "device_read"
+        ],
+        "device_read_refused": true,
+        "present_seconds": 1.364,
+        "probe": "dir",
+        "measured_bytes": 10425121,
+        "entries": 52,
+        "status": "ok",
+        "declared_path_missing": false,
+        "declared_path_wrong_type": false,
+        "copied_files": 49,
+        "copied_bytes": 10365396,
+        "copies_inert": true
+      },
+      "import_shadowing_set_aside": [],
+      "grader_attempts": 1,
+      "grader_failed_attempts": [],
+      "grader_failed_attempt_errors": [],
+      "grader_failed_attempts_ms": 0,
+      "grader_planted_shape": null,
+      "policy_markup_hits": 0,
+      "handin_integrity": "unchanged",
+      "handin_integrity_drift_only": true
+    },
+    "rubric_evaluations": [
+      {
+        "name": "overall",
+        "score": 0.9,
+        "max_score": 1,
+        "weight": 1,
+        "reasoning": "## Grading summary\n\n**What I checked.** I read the full proposal (MD, plus the DOCX, PDF and HTML versions, which hold the same content), the integrity register and tables T1, T2 and T6, and all six figures. I parsed the original workbook and annotation PDF myself and recomputed the key numbers with my own code.\n\n**Task coverage.** Every required element is present:\n- **Recommendation first:** keep PSLN-344 as the lead and stop PSLN-212 as a candidate. The recommendation is conditional on two gates: Gate 0, a data-integrity audit, and Gate 1, a confirmatory aged-mouse study against a clinical benchmark.\n- **What dropping the asset gives up:** stated explicitly.\n- **Next steps:** studies S0–S7, each covering what it must establish, population, arms/comparators, endpoints/readouts, sample size, go/no-go criteria and timing.\n- **Target demographic for TAM:** primary ≥65, secondary 50–64, strategic H5 pandemic use, and explicit non-targets. It also lists the parameters market research should size.\n- **Mechanism of action:** a 7-step chain built from the data, with the type of evidence marked for each step and unproven gaps listed.\n- **Biomarkers:** a tiered table mapping mouse readouts to proposed human measures, plus a discussion of what the data can and cannot say about a correlate of protection.\n- **Considered and ruled out:** a table covering R848 combinations, cGAMP, PSLN-212 as lead, a boost instead of Mn, GM-CSF, antigen-free use, and young/general-population indications.\n- **Citations:** block and cell references throughout.\n\n**Accuracy: independently reproduced.**\n- **Survival counts:** 10/42 vs 38/42 vs 42/42 (S06), 12/73 vs 64/73 (all 10 aged studies), and the conservative sets.\n- **Mantel-Haenszel risk ratios:** all match exactly: 0.26 (0.15–0.45), 0.30 (0.18–0.51), 0.35 (0.19–0.64) and 0.19 (0.11–0.31).\n- **Fisher tests:** p = 0.12 for PSLN-212 vs sham, and 0.0011 for aged PSLN-344 vs young.\n- **Antibody titres:** HAI GMTs 8/46/368/485 and 10/35/320/368. IgG 18.6× (9.1–37.9).\n- **Other effects:** CCR7⁺ DC +23.4 (13.8–33.0); TRM −34% vs young; CD40/CD86 at 21–24% of young; Ccl2 590× vs 7.6×; CNS Ifnb1 1.14× (0.69–1.86); MoA intervention percentages.\n- **Power and multiplicity:** the power numbers agree with my simulation. The Holm adjustment is correct (32/43 significant, 41 nominally significant).\n\n**Integrity findings: verified as real.**\n- S06-D is a 28/28 row-for-row copy of S06-C.\n- The S03-B/F group labels are rotated relative to the raw S13 subclass titres.\n- The second S09-A block is labelled 16 h but matches the S01-A 72 h animals exactly.\n- 35/100 aligned S11-A/B cells are identical.\n- S13-F/G body weights contradict S03-I/J survival.\n- S04-B Tfh:Tfr equals (100−Tfr)/Tfr exactly.\n- Decimals are reused with edited integers, and \"untreated\" (unchallenged) mice are recorded as dying.\n- My own scan of body weights across experiments reproduced exactly 18 animal pairs sharing ≥4 identical non-repeated values, and 15 sharing ≥5.\n- It also caught subtler problems: an H-2Db tetramer used in BALB/c mice, and CDN-1807 encapsulation reported for PSLN-R848, which contains no CDN-1807.\n\n**Weaknesses (minor to moderate):**\n- **Tiering is somewhat lenient.** S06-A and S06-F stay in the \"most conservative\" set as tier B even though their companion weight blocks (S15-A, S15-F) carry the critical duplication flag. \"Survives excluding every flagged block\" is therefore slightly overstated. The conclusion would still hold under stricter exclusion.\n- **A flagged block is used for safety claims.** S08-D is flagged critical for weight duplication, yet it supports the \"no safety red flag\" claim and part of the R848 rationale without a caveat.\n- **Soft framing of possible misconduct.** Given the edited-integer signatures, the \"clerical\" framing is somewhat soft, although a stop/escalate path is defined.\n- **Small slips:**\n  - T2 describes the S03-I vaccine as CA09 monovalent, but it was bivalent.\n  - \"66 points\" should round to 67.\n  - The CD8 restoration range quoted as 55–79% omits the 94% Ki-67 readout.\n\nOverall this is an exceptionally rigorous, accurate, well-sourced and committee-ready deliverable. The issues above are minor."
+      }
+    ],
+    "strategy_type": "agentic_grader",
+    "grade_key": "agentic_grader",
+    "label": null,
+    "strategy_weight": 1,
+    "is_auxiliary": false
+  }
+}

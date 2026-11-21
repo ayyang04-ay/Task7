@@ -1,0 +1,90 @@
+{
+  "id": "2c016475-68fe-4b48-82ed-77fb0c1536bd",
+  "problem_run_id": "f295b831-668f-4e1b-984f-3888910db113",
+  "grading_run_id": "b7cca88d-fc78-499c-8301-7d79fd84eae5",
+  "grading_strategy_type": "agentic_grader",
+  "is_auxiliary_grade": false,
+  "normalized_score": 0.93,
+  "subscores": [
+    {
+      "name": "overall",
+      "score": 0.93,
+      "max_score": 1,
+      "weight": 1,
+      "reasoning": "## Grading summary\n\n**What I checked.** I read the model's proposal (md, docx, html), figures, analysis CSVs and the transcript. I extracted the original workbook (via R readxl) and the annotation PDF (my own zlib/ASCII85 decoder) and recomputed the key claims from raw cells with my own scripts. I did not use the model's code.\n\n**Task coverage.** Every requested element is present:\n- **Recommendation first.** Keep the program as a gated keep: advance PSLN-344, stop PSLN-212.\n- **How the asset looks.** An objective read of both the strong signal and the weak data package.\n- **Next-step studies (A, B1–B4, C1–C3).** Each has population, comparators, endpoints, readouts and timing, plus n/power and go/kill criteria.\n- **Target demographic.** Adults 65+ as the main segment, plus secondary segments and the parameters market research needs. The model says outright that TAM can't be derived from the data.\n- **Mechanism of action.** An 8-step MoA backed by an interventional-evidence table.\n- **Biomarkers.** A tiered plan with human-measurable equivalents.\n- **Dropping the asset.** Both what we'd give up and the objective case for dropping.\n- **Ruled out.** The considered-and-rejected list, including analysis choices.\n- **Citations.** Block-level references throughout, plus a 353-entry evidence ledger.\n\n**Numbers I verified independently (all matched):**\n- Survival counts for every arm:\n  - Table 2 per experiment;\n  - pooled aged arms: 61/73 vs 9/73 vs 1/73, with young at 62/63;\n  - 14 strata: 85/101 vs 13/101.\n- Stratified Cox HR 0.0764 (0.043–0.134) and stratified log-rank χ² 116.6, p=3.5e-27. These reproduce exactly in my own R run.\n- Antibody titres:\n  - HAI GMTs 368/46/485 and 320/35/368;\n  - IgG GMTs 56/393/7305/11959;\n  - neutralising titres 52/418/3840/6686.\n- Other Table 1 rows: Ifnb1 36.9 vs 16.5 (RI 0.98), Gm-csf, S02-A/C/D/E, S04-A/B, S05-C/F/I, S07-A, S08-B.\n- Table 4 causal contrasts: S02-G/H/I, S11-C, S12-A.\n- Welch p-values.\n- S08-D weight nadirs (96.4/97.0/98.2/90.0).\n- CMP-204 titre ranges.\n- 10 µg dose giving 46% of the 20 µg response.\n\n**Integrity findings I confirmed in the raw data:**\n- **C1:** S06-D is identical to S06-C. The S15-D body-weight record implies PSLN-344 5/7 survival, not 7/7.\n- **C2:** the S15-I combination arm matches S15-C's PSLN-344 arm in exactly 40/42 values. High-precision weights from S09-E reappear in S15-M.\n- **C3:** S13-F and S13-G show animals recovering that the survival blocks list as dead.\n- **C4:** 4/21 unchallenged controls died.\n- **M1:** the S03-B/F IgG2a/IgG1 labels are rotated relative to the S13 primary titres. Taken as printed, they would wrongly make PSLN-344 look Th2-skewed.\n- **M2:** the S11-A and S11-B blocks overlap.\n- **M3:** the second S09-A panel is log10 of the S01-A 72 h data.\n- **Other items:**\n  - the Tfh:Tfr ratio is derived from the Foxp3 percentages;\n  - S08-C reuses S01-B values;\n  - the stated-n mismatches;\n  - the unlabeled S08 region;\n  - the duplicated S07-C label;\n  - the H-2Db epitope used in BALB/c mice.\n\nThe model avoided every trap I could identify. Its sensitivity analyses and the \"what we can claim\" table make the case defensible.\n\n**Minor issues:**\n- Fig. 3's footnote says \"83 eligible endpoints\" while the text and CSV say 76.\n- \"47/47 moved toward the young level\" quietly includes overshoots (RI > 1).\n- One power-statement phrase (\"63% vs 20%\") is ambiguous.\n- S10-A is summarised with geometric means, although the annotation says it is reported as mean ± SD.\n- The document is very long for a committee, though the recommendation and decision asks come first.\n- \"None reverses the conclusion\" is slightly confident given possible fabrication, but this is mitigated by Gate A and the research-integrity referral.\n\nOverall the work is excellent, thorough and accurate, with only small cosmetic or wording issues."
+    }
+  ],
+  "weight": 1,
+  "allow_unbounded": false,
+  "created_at": "2026-11-19T17:03:13.655677Z",
+  "has_metadata": true,
+  "metadata_byte_size": 420841,
+  "metadata": {
+    "agentic_grader": {
+      "cc_harness": false,
+      "container_mode": "fresh_with_policy_setup",
+      "scoring_mode": "single_score",
+      "grading_model": "claude-opus-5-5",
+      "grading_model_slug": "claude-opus-5-5",
+      "grading_container_id": "fixed-wealth-pzpssf-dkbmsg",
+      "grader_error": false,
+      "full_debug_s3_hint": "biome/agentic-grading-transcripts/fixed-wealth-pzpssf-dkbmsg/grading_debug.json",
+      "grading_turns_count": null,
+      "grading_tokens_consumed": null,
+      "grader_context_window_effective": 1000000,
+      "grader_context_window_source": "default",
+      "policy_outputs_transfer": {
+        "mode": "snapshot_mount",
+        "snapshot_source": "pre_grade",
+        "snapshot_ttl": null,
+        "snapshot_seconds": 0.5602547420421615,
+        "reader_uid": 1000,
+        "handin_max_bytes": 2147483648,
+        "grading_box_seconds": 45.204,
+        "grading_box_attempts": 1,
+        "mount_verified": true,
+        "unmounted": true,
+        "detach_checks": [
+          "mounts",
+          "same_device",
+          "ext4_sysfs",
+          "device_read"
+        ],
+        "device_read_refused": true,
+        "present_seconds": 0.931,
+        "probe": "dir",
+        "measured_bytes": 5546992,
+        "entries": 82,
+        "status": "ok",
+        "declared_path_missing": false,
+        "declared_path_wrong_type": false,
+        "copied_files": 77,
+        "copied_bytes": 5430649,
+        "copies_inert": true
+      },
+      "import_shadowing_set_aside": [],
+      "grader_attempts": 1,
+      "grader_failed_attempts": [],
+      "grader_failed_attempt_errors": [],
+      "grader_failed_attempts_ms": 0,
+      "grader_planted_shape": null,
+      "policy_markup_hits": 0,
+      "handin_integrity": "unchanged",
+      "handin_integrity_drift_only": true
+    },
+    "rubric_evaluations": [
+      {
+        "name": "overall",
+        "score": 0.93,
+        "max_score": 1,
+        "weight": 1,
+        "reasoning": "## Grading summary\n\n**What I checked.** I read the model's proposal (md, docx, html), figures, analysis CSVs and the transcript. I extracted the original workbook (via R readxl) and the annotation PDF (my own zlib/ASCII85 decoder) and recomputed the key claims from raw cells with my own scripts. I did not use the model's code.\n\n**Task coverage.** Every requested element is present:\n- **Recommendation first.** Keep the program as a gated keep: advance PSLN-344, stop PSLN-212.\n- **How the asset looks.** An objective read of both the strong signal and the weak data package.\n- **Next-step studies (A, B1–B4, C1–C3).** Each has population, comparators, endpoints, readouts and timing, plus n/power and go/kill criteria.\n- **Target demographic.** Adults 65+ as the main segment, plus secondary segments and the parameters market research needs. The model says outright that TAM can't be derived from the data.\n- **Mechanism of action.** An 8-step MoA backed by an interventional-evidence table.\n- **Biomarkers.** A tiered plan with human-measurable equivalents.\n- **Dropping the asset.** Both what we'd give up and the objective case for dropping.\n- **Ruled out.** The considered-and-rejected list, including analysis choices.\n- **Citations.** Block-level references throughout, plus a 353-entry evidence ledger.\n\n**Numbers I verified independently (all matched):**\n- Survival counts for every arm:\n  - Table 2 per experiment;\n  - pooled aged arms: 61/73 vs 9/73 vs 1/73, with young at 62/63;\n  - 14 strata: 85/101 vs 13/101.\n- Stratified Cox HR 0.0764 (0.043–0.134) and stratified log-rank χ² 116.6, p=3.5e-27. These reproduce exactly in my own R run.\n- Antibody titres:\n  - HAI GMTs 368/46/485 and 320/35/368;\n  - IgG GMTs 56/393/7305/11959;\n  - neutralising titres 52/418/3840/6686.\n- Other Table 1 rows: Ifnb1 36.9 vs 16.5 (RI 0.98), Gm-csf, S02-A/C/D/E, S04-A/B, S05-C/F/I, S07-A, S08-B.\n- Table 4 causal contrasts: S02-G/H/I, S11-C, S12-A.\n- Welch p-values.\n- S08-D weight nadirs (96.4/97.0/98.2/90.0).\n- CMP-204 titre ranges.\n- 10 µg dose giving 46% of the 20 µg response.\n\n**Integrity findings I confirmed in the raw data:**\n- **C1:** S06-D is identical to S06-C. The S15-D body-weight record implies PSLN-344 5/7 survival, not 7/7.\n- **C2:** the S15-I combination arm matches S15-C's PSLN-344 arm in exactly 40/42 values. High-precision weights from S09-E reappear in S15-M.\n- **C3:** S13-F and S13-G show animals recovering that the survival blocks list as dead.\n- **C4:** 4/21 unchallenged controls died.\n- **M1:** the S03-B/F IgG2a/IgG1 labels are rotated relative to the S13 primary titres. Taken as printed, they would wrongly make PSLN-344 look Th2-skewed.\n- **M2:** the S11-A and S11-B blocks overlap.\n- **M3:** the second S09-A panel is log10 of the S01-A 72 h data.\n- **Other items:**\n  - the Tfh:Tfr ratio is derived from the Foxp3 percentages;\n  - S08-C reuses S01-B values;\n  - the stated-n mismatches;\n  - the unlabeled S08 region;\n  - the duplicated S07-C label;\n  - the H-2Db epitope used in BALB/c mice.\n\nThe model avoided every trap I could identify. Its sensitivity analyses and the \"what we can claim\" table make the case defensible.\n\n**Minor issues:**\n- Fig. 3's footnote says \"83 eligible endpoints\" while the text and CSV say 76.\n- \"47/47 moved toward the young level\" quietly includes overshoots (RI > 1).\n- One power-statement phrase (\"63% vs 20%\") is ambiguous.\n- S10-A is summarised with geometric means, although the annotation says it is reported as mean ± SD.\n- The document is very long for a committee, though the recommendation and decision asks come first.\n- \"None reverses the conclusion\" is slightly confident given possible fabrication, but this is mitigated by Gate A and the research-integrity referral.\n\nOverall the work is excellent, thorough and accurate, with only small cosmetic or wording issues."
+      }
+    ],
+    "strategy_type": "agentic_grader",
+    "grade_key": "agentic_grader",
+    "label": null,
+    "strategy_weight": 1,
+    "is_auxiliary": false
+  }
+}

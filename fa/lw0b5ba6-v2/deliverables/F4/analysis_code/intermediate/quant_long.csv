@@ -1,0 +1,2122 @@
+sheet,block,analyte,group,time,rep,value,cell
+S01,S01-A,Ifnb1 lung (fold vs untreated),Sham,16h,1,1.84,S01!B3
+S01,S01-A,Ifnb1 lung (fold vs untreated),Sham,16h,2,0.62,S01!C3
+S01,S01-A,Ifnb1 lung (fold vs untreated),Sham,16h,3,0.88,S01!D3
+S01,S01-A,Ifnb1 lung (fold vs untreated),Sham,16h,4,0.86,S01!E3
+S01,S01-A,Ifnb1 lung (fold vs untreated),Sham,16h,5,0.83,S01!F3
+S01,S01-A,Ifnb1 lung (fold vs untreated),CMP-204,16h,1,6.16,S01!B4
+S01,S01-A,Ifnb1 lung (fold vs untreated),CMP-204,16h,2,10.61,S01!C4
+S01,S01-A,Ifnb1 lung (fold vs untreated),CMP-204,16h,3,6.79,S01!D4
+S01,S01-A,Ifnb1 lung (fold vs untreated),CMP-204,16h,4,7.22,S01!E4
+S01,S01-A,Ifnb1 lung (fold vs untreated),CMP-204,16h,5,8.35,S01!F4
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212,16h,1,13.39,S01!B5
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212,16h,2,17.55,S01!C5
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212,16h,3,19.01,S01!D5
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212,16h,4,16.11,S01!E5
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212,16h,5,17.16,S01!F5
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-R848,16h,1,8.62,S01!B6
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-R848,16h,2,4.28,S01!C6
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-R848,16h,3,2.22,S01!D6
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-R848,16h,4,4.72,S01!E6
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-R848,16h,5,5.41,S01!F6
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212/R848,16h,1,29.09,S01!B7
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212/R848,16h,2,22.78,S01!C7
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212/R848,16h,3,27.38,S01!D7
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212/R848,16h,4,21.13,S01!E7
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212/R848,16h,5,20.93,S01!F7
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-344,16h,1,44.31,S01!B8
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-344,16h,2,32.58,S01!C8
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-344,16h,3,36.61,S01!D8
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-344,16h,4,33.21,S01!E8
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-344,16h,5,38.82,S01!F8
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212(Y),16h,1,36.54,S01!B9
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212(Y),16h,2,35.02,S01!C9
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212(Y),16h,3,34.51,S01!D9
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212(Y),16h,4,42.93,S01!E9
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212(Y),16h,5,38.98,S01!F9
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-344(Y),16h,1,60.02,S01!B10
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-344(Y),16h,2,52.51,S01!C10
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-344(Y),16h,3,46.93,S01!D10
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-344(Y),16h,4,54.02,S01!E10
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-344(Y),16h,5,40.04,S01!F10
+S01,S01-A,Ifnb1 lung (fold vs untreated),Sham,72h,1,1.21,S01!H3
+S01,S01-A,Ifnb1 lung (fold vs untreated),Sham,72h,2,0.84,S01!I3
+S01,S01-A,Ifnb1 lung (fold vs untreated),Sham,72h,3,0.98,S01!J3
+S01,S01-A,Ifnb1 lung (fold vs untreated),Sham,72h,4,0.82,S01!K3
+S01,S01-A,Ifnb1 lung (fold vs untreated),Sham,72h,5,1.13,S01!L3
+S01,S01-A,Ifnb1 lung (fold vs untreated),CMP-204,72h,1,1.71,S01!H4
+S01,S01-A,Ifnb1 lung (fold vs untreated),CMP-204,72h,2,2.46,S01!I4
+S01,S01-A,Ifnb1 lung (fold vs untreated),CMP-204,72h,3,2.46,S01!J4
+S01,S01-A,Ifnb1 lung (fold vs untreated),CMP-204,72h,4,1.97,S01!K4
+S01,S01-A,Ifnb1 lung (fold vs untreated),CMP-204,72h,5,2.51,S01!L4
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212,72h,1,3.07,S01!H5
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212,72h,2,3.63,S01!I5
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212,72h,3,4.03,S01!J5
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212,72h,4,3.18,S01!K5
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212,72h,5,3.25,S01!L5
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-R848,72h,1,1.3,S01!H6
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-R848,72h,2,1.24,S01!I6
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-R848,72h,3,1.17,S01!J6
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-R848,72h,4,1.2,S01!K6
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-R848,72h,5,1.31,S01!L6
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212/R848,72h,1,1.49,S01!H7
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212/R848,72h,2,1.67,S01!I7
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212/R848,72h,3,1.79,S01!J7
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212/R848,72h,4,1.27,S01!K7
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212/R848,72h,5,2.11,S01!L7
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-344,72h,1,7.01,S01!H8
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-344,72h,2,4.0,S01!I8
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-344,72h,3,2.3,S01!J8
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-344,72h,4,4.52,S01!K8
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-344,72h,5,4.31,S01!L8
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212(Y),72h,1,1.39,S01!H9
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212(Y),72h,2,1.78,S01!I9
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212(Y),72h,3,2.28,S01!J9
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212(Y),72h,4,0.64,S01!K9
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-212(Y),72h,5,1.86,S01!L9
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-344(Y),72h,1,2.26,S01!H10
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-344(Y),72h,2,3.18,S01!I10
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-344(Y),72h,3,4.0,S01!J10
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-344(Y),72h,4,3.92,S01!K10
+S01,S01-A,Ifnb1 lung (fold vs untreated),PSLN-344(Y),72h,5,2.28,S01!L10
+S01,S01-B,SRB+ AEC (%),AECII/PSLN-SRB,16h,1,17.7,S01!B14
+S01,S01-B,SRB+ AEC (%),AECII/PSLN-SRB,16h,2,17.5,S01!C14
+S01,S01-B,SRB+ AEC (%),AECII/PSLN-SRB,16h,3,14.9,S01!D14
+S01,S01-B,SRB+ AEC (%),AECII/PSLN-SRB,16h,4,16.7,S01!E14
+S01,S01-B,SRB+ AEC (%),AECII/PSLN-SRB,16h,5,12.2,S01!F14
+S01,S01-B,SRB+ AEC (%),AECI/PSLN-SRB,16h,1,4.92,S01!B15
+S01,S01-B,SRB+ AEC (%),AECI/PSLN-SRB,16h,2,2.38,S01!C15
+S01,S01-B,SRB+ AEC (%),AECI/PSLN-SRB,16h,3,4.13,S01!D15
+S01,S01-B,SRB+ AEC (%),AECI/PSLN-SRB,16h,4,2.92,S01!E15
+S01,S01-B,SRB+ AEC (%),AECI/PSLN-SRB,16h,5,4.81,S01!F15
+S01,S01-B,SRB+ AEC (%),AECII/FreeSRB,16h,1,0.67,S01!B16
+S01,S01-B,SRB+ AEC (%),AECII/FreeSRB,16h,2,0.12,S01!C16
+S01,S01-B,SRB+ AEC (%),AECII/FreeSRB,16h,3,0.33,S01!D16
+S01,S01-B,SRB+ AEC (%),AECII/FreeSRB,16h,4,0.34,S01!E16
+S01,S01-B,SRB+ AEC (%),AECII/FreeSRB,16h,5,0.43,S01!F16
+S01,S01-B,SRB+ AEC (%),AECI/FreeSRB,16h,1,0.59,S01!B17
+S01,S01-B,SRB+ AEC (%),AECI/FreeSRB,16h,2,0.2,S01!C17
+S01,S01-B,SRB+ AEC (%),AECI/FreeSRB,16h,3,0.46,S01!D17
+S01,S01-B,SRB+ AEC (%),AECI/FreeSRB,16h,4,0.16,S01!E17
+S01,S01-B,SRB+ AEC (%),AECI/FreeSRB,16h,5,0.25,S01!F17
+S01,S01-C,DiD+ alveolar macrophages (%),WT,16h,1,38.1,S01!B20
+S01,S01-C,DiD+ alveolar macrophages (%),WT,16h,2,41.6,S01!C20
+S01,S01-C,DiD+ alveolar macrophages (%),WT,16h,3,45.2,S01!D20
+S01,S01-C,DiD+ alveolar macrophages (%),WT,16h,4,47.5,S01!E20
+S01,S01-C,DiD+ alveolar macrophages (%),SPA/D,16h,1,11.2,S01!B21
+S01,S01-C,DiD+ alveolar macrophages (%),SPA/D,16h,2,14.9,S01!C21
+S01,S01-C,DiD+ alveolar macrophages (%),SPA/D,16h,3,15.4,S01!D21
+S01,S01-C,DiD+ alveolar macrophages (%),SPA/D,16h,4,9.12,S01!E21
+S01,S01-D,lung monocytes (%),Sham,0,1,8.3,S01!B24
+S01,S01-D,lung monocytes (%),Sham,0,2,7.5,S01!C24
+S01,S01-D,lung monocytes (%),Sham,0,3,7.6,S01!D24
+S01,S01-D,lung monocytes (%),Sham,0,4,8.2,S01!E24
+S01,S01-D,lung monocytes (%),Sham,0,5,8.4,S01!F24
+S01,S01-D,lung monocytes (%),Sham,2,1,10.8,S01!B25
+S01,S01-D,lung monocytes (%),Sham,2,2,10.1,S01!C25
+S01,S01-D,lung monocytes (%),Sham,2,3,9.3,S01!D25
+S01,S01-D,lung monocytes (%),Sham,2,4,11.2,S01!E25
+S01,S01-D,lung monocytes (%),Sham,2,5,10.4,S01!F25
+S01,S01-D,lung monocytes (%),Sham,4,1,11.2,S01!B26
+S01,S01-D,lung monocytes (%),Sham,4,2,9.7,S01!C26
+S01,S01-D,lung monocytes (%),Sham,4,3,10.4,S01!D26
+S01,S01-D,lung monocytes (%),Sham,4,4,10.0,S01!E26
+S01,S01-D,lung monocytes (%),Sham,4,5,10.8,S01!F26
+S01,S01-D,lung monocytes (%),Sham,6,1,9.6,S01!B27
+S01,S01-D,lung monocytes (%),Sham,6,2,9.8,S01!C27
+S01,S01-D,lung monocytes (%),Sham,6,3,12.5,S01!D27
+S01,S01-D,lung monocytes (%),Sham,6,4,12.9,S01!E27
+S01,S01-D,lung monocytes (%),Sham,6,5,11.4,S01!F27
+S01,S01-D,lung monocytes (%),Sham,8,1,8.7,S01!B28
+S01,S01-D,lung monocytes (%),Sham,8,2,9.0,S01!C28
+S01,S01-D,lung monocytes (%),Sham,8,3,10.3,S01!D28
+S01,S01-D,lung monocytes (%),Sham,8,4,10.5,S01!E28
+S01,S01-D,lung monocytes (%),Sham,8,5,8.9,S01!F28
+S01,S01-D,lung monocytes (%),PSLN-212,0,1,8.2,S01!G24
+S01,S01-D,lung monocytes (%),PSLN-212,0,2,10.5,S01!H24
+S01,S01-D,lung monocytes (%),PSLN-212,0,3,7.9,S01!I24
+S01,S01-D,lung monocytes (%),PSLN-212,0,4,10.9,S01!J24
+S01,S01-D,lung monocytes (%),PSLN-212,0,5,9.5,S01!K24
+S01,S01-D,lung monocytes (%),PSLN-212,2,1,11.3,S01!G25
+S01,S01-D,lung monocytes (%),PSLN-212,2,2,13.6,S01!H25
+S01,S01-D,lung monocytes (%),PSLN-212,2,3,12.1,S01!I25
+S01,S01-D,lung monocytes (%),PSLN-212,2,4,12.7,S01!J25
+S01,S01-D,lung monocytes (%),PSLN-212,2,5,12.7,S01!K25
+S01,S01-D,lung monocytes (%),PSLN-212,4,1,15.3,S01!G26
+S01,S01-D,lung monocytes (%),PSLN-212,4,2,15.1,S01!H26
+S01,S01-D,lung monocytes (%),PSLN-212,4,3,17.8,S01!I26
+S01,S01-D,lung monocytes (%),PSLN-212,4,4,18.9,S01!J26
+S01,S01-D,lung monocytes (%),PSLN-212,4,5,16.5,S01!K26
+S01,S01-D,lung monocytes (%),PSLN-212,6,1,11.2,S01!G27
+S01,S01-D,lung monocytes (%),PSLN-212,6,2,15.2,S01!H27
+S01,S01-D,lung monocytes (%),PSLN-212,6,3,13.1,S01!I27
+S01,S01-D,lung monocytes (%),PSLN-212,6,4,16.2,S01!J27
+S01,S01-D,lung monocytes (%),PSLN-212,6,5,10.4,S01!K27
+S01,S01-D,lung monocytes (%),PSLN-212,8,1,7.9,S01!G28
+S01,S01-D,lung monocytes (%),PSLN-212,8,2,11.4,S01!H28
+S01,S01-D,lung monocytes (%),PSLN-212,8,3,9.4,S01!I28
+S01,S01-D,lung monocytes (%),PSLN-212,8,4,9.4,S01!J28
+S01,S01-D,lung monocytes (%),PSLN-212,8,5,10.2,S01!K28
+S01,S01-D,lung monocytes (%),PSLN-344,0,1,10.1,S01!L24
+S01,S01-D,lung monocytes (%),PSLN-344,0,2,8.3,S01!M24
+S01,S01-D,lung monocytes (%),PSLN-344,0,3,9.6,S01!N24
+S01,S01-D,lung monocytes (%),PSLN-344,0,4,9.0,S01!O24
+S01,S01-D,lung monocytes (%),PSLN-344,0,5,8.9,S01!P24
+S01,S01-D,lung monocytes (%),PSLN-344,2,1,18.2,S01!L25
+S01,S01-D,lung monocytes (%),PSLN-344,2,2,11.2,S01!M25
+S01,S01-D,lung monocytes (%),PSLN-344,2,3,9.6,S01!N25
+S01,S01-D,lung monocytes (%),PSLN-344,2,4,15.5,S01!O25
+S01,S01-D,lung monocytes (%),PSLN-344,2,5,20.5,S01!P25
+S01,S01-D,lung monocytes (%),PSLN-344,4,1,33.5,S01!L26
+S01,S01-D,lung monocytes (%),PSLN-344,4,2,27.6,S01!M26
+S01,S01-D,lung monocytes (%),PSLN-344,4,3,36.2,S01!N26
+S01,S01-D,lung monocytes (%),PSLN-344,4,4,31.1,S01!O26
+S01,S01-D,lung monocytes (%),PSLN-344,4,5,24.4,S01!P26
+S01,S01-D,lung monocytes (%),PSLN-344,6,1,23.7,S01!L27
+S01,S01-D,lung monocytes (%),PSLN-344,6,2,26.4,S01!M27
+S01,S01-D,lung monocytes (%),PSLN-344,6,3,27.2,S01!N27
+S01,S01-D,lung monocytes (%),PSLN-344,6,4,25.0,S01!O27
+S01,S01-D,lung monocytes (%),PSLN-344,6,5,20.1,S01!P27
+S01,S01-D,lung monocytes (%),PSLN-344,8,1,19.3,S01!L28
+S01,S01-D,lung monocytes (%),PSLN-344,8,2,17.8,S01!M28
+S01,S01-D,lung monocytes (%),PSLN-344,8,3,18.1,S01!N28
+S01,S01-D,lung monocytes (%),PSLN-344,8,4,18.2,S01!O28
+S01,S01-D,lung monocytes (%),PSLN-344,8,5,18.8,S01!P28
+S01,S01-D,lung monocytes (%),PSLN-212(Y),0,1,9.6,S01!Q24
+S01,S01-D,lung monocytes (%),PSLN-212(Y),0,2,12.5,S01!R24
+S01,S01-D,lung monocytes (%),PSLN-212(Y),0,3,11.5,S01!S24
+S01,S01-D,lung monocytes (%),PSLN-212(Y),0,4,10.2,S01!T24
+S01,S01-D,lung monocytes (%),PSLN-212(Y),0,5,10.4,S01!U24
+S01,S01-D,lung monocytes (%),PSLN-212(Y),2,1,16.7,S01!Q25
+S01,S01-D,lung monocytes (%),PSLN-212(Y),2,2,14.8,S01!R25
+S01,S01-D,lung monocytes (%),PSLN-212(Y),2,3,12.6,S01!S25
+S01,S01-D,lung monocytes (%),PSLN-212(Y),2,4,16.7,S01!T25
+S01,S01-D,lung monocytes (%),PSLN-212(Y),2,5,17.4,S01!U25
+S01,S01-D,lung monocytes (%),PSLN-212(Y),4,1,30.6,S01!Q26
+S01,S01-D,lung monocytes (%),PSLN-212(Y),4,2,32.9,S01!R26
+S01,S01-D,lung monocytes (%),PSLN-212(Y),4,3,36.2,S01!S26
+S01,S01-D,lung monocytes (%),PSLN-212(Y),4,4,35.1,S01!T26
+S01,S01-D,lung monocytes (%),PSLN-212(Y),4,5,26.3,S01!U26
+S01,S01-D,lung monocytes (%),PSLN-212(Y),6,1,23.6,S01!Q27
+S01,S01-D,lung monocytes (%),PSLN-212(Y),6,2,27.3,S01!R27
+S01,S01-D,lung monocytes (%),PSLN-212(Y),6,3,24.4,S01!S27
+S01,S01-D,lung monocytes (%),PSLN-212(Y),6,4,28.5,S01!T27
+S01,S01-D,lung monocytes (%),PSLN-212(Y),6,5,22.3,S01!U27
+S01,S01-D,lung monocytes (%),PSLN-212(Y),8,1,16.6,S01!Q28
+S01,S01-D,lung monocytes (%),PSLN-212(Y),8,2,12.1,S01!R28
+S01,S01-D,lung monocytes (%),PSLN-212(Y),8,3,12.2,S01!S28
+S01,S01-D,lung monocytes (%),PSLN-212(Y),8,4,15.4,S01!T28
+S01,S01-D,lung monocytes (%),PSLN-212(Y),8,5,14.1,S01!U28
+S01,S01-E,lung CD11b+ DC (%),Sham,0,1,1.2,S01!B30
+S01,S01-E,lung CD11b+ DC (%),Sham,0,2,1.5,S01!C30
+S01,S01-E,lung CD11b+ DC (%),Sham,0,3,1.5,S01!D30
+S01,S01-E,lung CD11b+ DC (%),Sham,0,4,1.4,S01!E30
+S01,S01-E,lung CD11b+ DC (%),Sham,0,5,1.1,S01!F30
+S01,S01-E,lung CD11b+ DC (%),Sham,2,1,2.2,S01!B31
+S01,S01-E,lung CD11b+ DC (%),Sham,2,2,1.7,S01!C31
+S01,S01-E,lung CD11b+ DC (%),Sham,2,3,1.8,S01!D31
+S01,S01-E,lung CD11b+ DC (%),Sham,2,4,1.5,S01!E31
+S01,S01-E,lung CD11b+ DC (%),Sham,2,5,2.5,S01!F31
+S01,S01-E,lung CD11b+ DC (%),Sham,4,1,6.5,S01!B32
+S01,S01-E,lung CD11b+ DC (%),Sham,4,2,3.1,S01!C32
+S01,S01-E,lung CD11b+ DC (%),Sham,4,3,3.7,S01!D32
+S01,S01-E,lung CD11b+ DC (%),Sham,4,4,7.6,S01!E32
+S01,S01-E,lung CD11b+ DC (%),Sham,4,5,3.1,S01!F32
+S01,S01-E,lung CD11b+ DC (%),Sham,6,1,5.2,S01!B33
+S01,S01-E,lung CD11b+ DC (%),Sham,6,2,3.4,S01!C33
+S01,S01-E,lung CD11b+ DC (%),Sham,6,3,6.6,S01!D33
+S01,S01-E,lung CD11b+ DC (%),Sham,6,4,3.2,S01!E33
+S01,S01-E,lung CD11b+ DC (%),Sham,6,5,3.2,S01!F33
+S01,S01-E,lung CD11b+ DC (%),Sham,8,1,2.2,S01!B34
+S01,S01-E,lung CD11b+ DC (%),Sham,8,2,2.7,S01!C34
+S01,S01-E,lung CD11b+ DC (%),Sham,8,3,2.7,S01!D34
+S01,S01-E,lung CD11b+ DC (%),Sham,8,4,2.3,S01!E34
+S01,S01-E,lung CD11b+ DC (%),Sham,8,5,2.3,S01!F34
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,0,1,1.4,S01!G30
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,0,2,2.0,S01!H30
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,0,3,2.3,S01!I30
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,0,4,1.3,S01!J30
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,0,5,1.4,S01!K30
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,2,1,3.2,S01!G31
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,2,2,4.2,S01!H31
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,2,3,4.6,S01!I31
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,2,4,3.1,S01!J31
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,2,5,3.5,S01!K31
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,4,1,7.5,S01!G32
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,4,2,9.1,S01!H32
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,4,3,6.3,S01!I32
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,4,4,7.3,S01!J32
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,4,5,11.2,S01!K32
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,6,1,6.6,S01!G33
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,6,2,8.2,S01!H33
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,6,3,10.2,S01!I33
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,6,4,6.5,S01!J33
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,6,5,7.5,S01!K33
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,8,1,6.2,S01!G34
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,8,2,5.3,S01!H34
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,8,3,8.1,S01!I34
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,8,4,5.2,S01!J34
+S01,S01-E,lung CD11b+ DC (%),PSLN-212,8,5,5.4,S01!K34
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,0,1,1.2,S01!L30
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,0,2,1.4,S01!M30
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,0,3,1.6,S01!N30
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,0,4,1.1,S01!O30
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,0,5,1.2,S01!P30
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,2,1,4.3,S01!L31
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,2,2,5.2,S01!M31
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,2,3,4.1,S01!N31
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,2,4,6.2,S01!O31
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,2,5,3.8,S01!P31
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,4,1,14.6,S01!L32
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,4,2,24.3,S01!M32
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,4,3,31.3,S01!N32
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,4,4,12.0,S01!O32
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,4,5,12.2,S01!P32
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,6,1,11.5,S01!L33
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,6,2,19.6,S01!M33
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,6,3,13.1,S01!N33
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,6,4,20.2,S01!O33
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,6,5,12.5,S01!P33
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,8,1,10.7,S01!L34
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,8,2,16.2,S01!M34
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,8,3,12.7,S01!N34
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,8,4,11.8,S01!O34
+S01,S01-E,lung CD11b+ DC (%),PSLN-344,8,5,17.0,S01!P34
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),0,1,1.4,S01!Q30
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),0,2,1.1,S01!R30
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),0,3,1.2,S01!S30
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),0,4,1.2,S01!T30
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),0,5,1.3,S01!U30
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),2,1,5.2,S01!Q31
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),2,2,2.7,S01!R31
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),2,3,2.6,S01!S31
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),2,4,5.4,S01!T31
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),2,5,3.1,S01!U31
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),4,1,20.5,S01!Q32
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),4,2,22.3,S01!R32
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),4,3,23.6,S01!S32
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),4,4,19.2,S01!T32
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),4,5,21.4,S01!U32
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),6,1,12.2,S01!Q33
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),6,2,13.7,S01!R33
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),6,3,15.5,S01!S33
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),6,4,12.2,S01!T33
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),6,5,11.3,S01!U33
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),8,1,10.3,S01!Q34
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),8,2,8.2,S01!R34
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),8,3,11.3,S01!S34
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),8,4,8.5,S01!T34
+S01,S01-E,lung CD11b+ DC (%),PSLN-212(Y),8,5,9.1,S01!U34
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),0,1,1.0,S01!V30
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),0,2,1.3,S01!W30
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),0,3,1.5,S01!X30
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),0,4,0.8,S01!Y30
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),0,5,0.7,S01!Z30
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),2,1,6.1,S01!V31
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),2,2,3.7,S01!W31
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),2,3,3.3,S01!X31
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),2,4,5.5,S01!Y31
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),2,5,5.9,S01!Z31
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),4,1,20.9,S01!V32
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),4,2,24.5,S01!W32
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),4,3,26.4,S01!X32
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),4,4,22.3,S01!Y32
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),4,5,18.9,S01!Z32
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),6,1,15.4,S01!V33
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),6,2,17.2,S01!W33
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),6,3,20.0,S01!X33
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),6,4,14.1,S01!Y33
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),6,5,14.8,S01!Z33
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),8,1,9.7,S01!V34
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),8,2,11.3,S01!W34
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),8,3,11.3,S01!X34
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),8,4,12.2,S01!Y34
+S01,S01-E,lung CD11b+ DC (%),PSLN-344(Y),8,5,8.0,S01!Z34
+S01,S01-F,lung cDC1 (%),Sham,72h,1,18.4,S01!B36
+S01,S01-F,lung cDC1 (%),Sham,72h,2,21.2,S01!C36
+S01,S01-F,lung cDC1 (%),Sham,72h,3,14.3,S01!D36
+S01,S01-F,lung cDC1 (%),Sham,72h,4,17.7,S01!E36
+S01,S01-F,lung cDC1 (%),Sham,72h,5,18.1,S01!F36
+S01,S01-F,lung cDC1 (%),PSLN-212,72h,1,24.4,S01!G36
+S01,S01-F,lung cDC1 (%),PSLN-212,72h,2,21.6,S01!H36
+S01,S01-F,lung cDC1 (%),PSLN-212,72h,3,17.9,S01!I36
+S01,S01-F,lung cDC1 (%),PSLN-212,72h,4,27.6,S01!J36
+S01,S01-F,lung cDC1 (%),PSLN-212,72h,5,22.5,S01!K36
+S01,S01-F,lung cDC1 (%),PSLN-344,72h,1,47.0,S01!L36
+S01,S01-F,lung cDC1 (%),PSLN-344,72h,2,42.9,S01!M36
+S01,S01-F,lung cDC1 (%),PSLN-344,72h,3,31.7,S01!N36
+S01,S01-F,lung cDC1 (%),PSLN-344,72h,4,32.1,S01!O36
+S01,S01-F,lung cDC1 (%),PSLN-344,72h,5,33.9,S01!P36
+S01,S01-F,lung cDC1 (%),PSLN-212(Y),72h,1,42.9,S01!Q36
+S01,S01-F,lung cDC1 (%),PSLN-212(Y),72h,2,39.7,S01!R36
+S01,S01-F,lung cDC1 (%),PSLN-212(Y),72h,3,47.2,S01!S36
+S01,S01-F,lung cDC1 (%),PSLN-212(Y),72h,4,37.1,S01!T36
+S01,S01-F,lung cDC1 (%),PSLN-212(Y),72h,5,50.2,S01!U36
+S01,S01-F,lung cDC1 (%),PSLN-344(Y),72h,1,43.6,S01!V36
+S01,S01-F,lung cDC1 (%),PSLN-344(Y),72h,2,46.5,S01!W36
+S01,S01-F,lung cDC1 (%),PSLN-344(Y),72h,3,42.7,S01!X36
+S01,S01-F,lung cDC1 (%),PSLN-344(Y),72h,4,45.2,S01!Y36
+S01,S01-F,lung cDC1 (%),PSLN-344(Y),72h,5,43.3,S01!Z36
+S01,S01-G,lung cDC2 (%),Sham,72h,1,80.3,S01!B38
+S01,S01-G,lung cDC2 (%),Sham,72h,2,77.0,S01!C38
+S01,S01-G,lung cDC2 (%),Sham,72h,3,84.7,S01!D38
+S01,S01-G,lung cDC2 (%),Sham,72h,4,83.9,S01!E38
+S01,S01-G,lung cDC2 (%),Sham,72h,5,77.2,S01!F38
+S01,S01-G,lung cDC2 (%),PSLN-212,72h,1,76.5,S01!G38
+S01,S01-G,lung cDC2 (%),PSLN-212,72h,2,75.2,S01!H38
+S01,S01-G,lung cDC2 (%),PSLN-212,72h,3,79.3,S01!I38
+S01,S01-G,lung cDC2 (%),PSLN-212,72h,4,73.9,S01!J38
+S01,S01-G,lung cDC2 (%),PSLN-212,72h,5,71.6,S01!K38
+S01,S01-G,lung cDC2 (%),PSLN-344,72h,1,60.3,S01!L38
+S01,S01-G,lung cDC2 (%),PSLN-344,72h,2,63.5,S01!M38
+S01,S01-G,lung cDC2 (%),PSLN-344,72h,3,66.3,S01!N38
+S01,S01-G,lung cDC2 (%),PSLN-344,72h,4,58.8,S01!O38
+S01,S01-G,lung cDC2 (%),PSLN-344,72h,5,48.4,S01!P38
+S01,S01-G,lung cDC2 (%),PSLN-212(Y),72h,1,52.6,S01!Q38
+S01,S01-G,lung cDC2 (%),PSLN-212(Y),72h,2,60.1,S01!R38
+S01,S01-G,lung cDC2 (%),PSLN-212(Y),72h,3,49.9,S01!S38
+S01,S01-G,lung cDC2 (%),PSLN-212(Y),72h,4,45.2,S01!T38
+S01,S01-G,lung cDC2 (%),PSLN-212(Y),72h,5,62.6,S01!U38
+S01,S01-G,lung cDC2 (%),PSLN-344(Y),72h,1,53.8,S01!V38
+S01,S01-G,lung cDC2 (%),PSLN-344(Y),72h,2,41.2,S01!W38
+S01,S01-G,lung cDC2 (%),PSLN-344(Y),72h,3,56.3,S01!X38
+S01,S01-G,lung cDC2 (%),PSLN-344(Y),72h,4,46.6,S01!Y38
+S01,S01-G,lung cDC2 (%),PSLN-344(Y),72h,5,58.9,S01!Z38
+S02,S02-A,lung CCR7+ CD11b+ DC (%),Sham,72h,1,1.76,S02!A3
+S02,S02-A,lung CCR7+ CD11b+ DC (%),Sham,72h,2,2.25,S02!A4
+S02,S02-A,lung CCR7+ CD11b+ DC (%),Sham,72h,3,3.19,S02!A5
+S02,S02-A,lung CCR7+ CD11b+ DC (%),Sham,72h,4,2.23,S02!A6
+S02,S02-A,lung CCR7+ CD11b+ DC (%),Sham,72h,5,3.27,S02!A7
+S02,S02-A,lung CCR7+ CD11b+ DC (%),PSLN-212,72h,1,6.95,S02!B3
+S02,S02-A,lung CCR7+ CD11b+ DC (%),PSLN-212,72h,2,5.62,S02!B4
+S02,S02-A,lung CCR7+ CD11b+ DC (%),PSLN-212,72h,3,9.96,S02!B5
+S02,S02-A,lung CCR7+ CD11b+ DC (%),PSLN-212,72h,4,5.15,S02!B6
+S02,S02-A,lung CCR7+ CD11b+ DC (%),PSLN-212,72h,5,8.72,S02!B7
+S02,S02-A,lung CCR7+ CD11b+ DC (%),PSLN-344,72h,1,36.2,S02!C3
+S02,S02-A,lung CCR7+ CD11b+ DC (%),PSLN-344,72h,2,24.5,S02!C4
+S02,S02-A,lung CCR7+ CD11b+ DC (%),PSLN-344,72h,3,36.6,S02!C5
+S02,S02-A,lung CCR7+ CD11b+ DC (%),PSLN-344,72h,4,36.1,S02!C6
+S02,S02-A,lung CCR7+ CD11b+ DC (%),PSLN-344,72h,5,20.0,S02!C7
+S02,S02-A,lung CCR7+ CD11b+ DC (%),PSLN-212(Y),72h,1,38.8,S02!D3
+S02,S02-A,lung CCR7+ CD11b+ DC (%),PSLN-212(Y),72h,2,32.4,S02!D4
+S02,S02-A,lung CCR7+ CD11b+ DC (%),PSLN-212(Y),72h,3,28.3,S02!D5
+S02,S02-A,lung CCR7+ CD11b+ DC (%),PSLN-212(Y),72h,4,35.3,S02!D6
+S02,S02-A,lung CCR7+ CD11b+ DC (%),PSLN-212(Y),72h,5,40.2,S02!D7
+S02,S02-B,MLN CD11b+CD103- DC (%),Sham,72h,1,19.7,S02!F3
+S02,S02-B,MLN CD11b+CD103- DC (%),Sham,72h,2,10.5,S02!F4
+S02,S02-B,MLN CD11b+CD103- DC (%),Sham,72h,3,12.2,S02!F5
+S02,S02-B,MLN CD11b+CD103- DC (%),Sham,72h,4,10.2,S02!F6
+S02,S02-B,MLN CD11b+CD103- DC (%),Sham,72h,5,17.0,S02!F7
+S02,S02-B,MLN CD11b+CD103- DC (%),PSLN-212,72h,1,23.1,S02!G3
+S02,S02-B,MLN CD11b+CD103- DC (%),PSLN-212,72h,2,25.9,S02!G4
+S02,S02-B,MLN CD11b+CD103- DC (%),PSLN-212,72h,3,17.6,S02!G5
+S02,S02-B,MLN CD11b+CD103- DC (%),PSLN-212,72h,4,10.1,S02!G6
+S02,S02-B,MLN CD11b+CD103- DC (%),PSLN-212,72h,5,14.4,S02!G7
+S02,S02-B,MLN CD11b+CD103- DC (%),PSLN-344,72h,1,43.5,S02!H3
+S02,S02-B,MLN CD11b+CD103- DC (%),PSLN-344,72h,2,25.5,S02!H4
+S02,S02-B,MLN CD11b+CD103- DC (%),PSLN-344,72h,3,36.6,S02!H5
+S02,S02-B,MLN CD11b+CD103- DC (%),PSLN-344,72h,4,48.0,S02!H6
+S02,S02-B,MLN CD11b+CD103- DC (%),PSLN-344,72h,5,30.2,S02!H7
+S02,S02-B,MLN CD11b+CD103- DC (%),PSLN-212(Y),72h,1,45.3,S02!I3
+S02,S02-B,MLN CD11b+CD103- DC (%),PSLN-212(Y),72h,2,33.2,S02!I4
+S02,S02-B,MLN CD11b+CD103- DC (%),PSLN-212(Y),72h,3,41.9,S02!I5
+S02,S02-B,MLN CD11b+CD103- DC (%),PSLN-212(Y),72h,4,50.5,S02!I6
+S02,S02-B,MLN CD11b+CD103- DC (%),PSLN-212(Y),72h,5,52.6,S02!I7
+S02,S02-C,MLN OVA-AF647+ DC (%),PSLN-212,36h,1,1.17,S02!K3
+S02,S02-C,MLN OVA-AF647+ DC (%),PSLN-212,36h,2,2.24,S02!K4
+S02,S02-C,MLN OVA-AF647+ DC (%),PSLN-212,36h,3,1.92,S02!K5
+S02,S02-C,MLN OVA-AF647+ DC (%),PSLN-212,36h,4,1.78,S02!K6
+S02,S02-C,MLN OVA-AF647+ DC (%),PSLN-212,36h,5,1.74,S02!K7
+S02,S02-C,MLN OVA-AF647+ DC (%),PSLN-344,36h,1,6.96,S02!L3
+S02,S02-C,MLN OVA-AF647+ DC (%),PSLN-344,36h,2,5.42,S02!L4
+S02,S02-C,MLN OVA-AF647+ DC (%),PSLN-344,36h,3,8.93,S02!L5
+S02,S02-C,MLN OVA-AF647+ DC (%),PSLN-344,36h,4,6.11,S02!L6
+S02,S02-C,MLN OVA-AF647+ DC (%),PSLN-344,36h,5,8.03,S02!L7
+S02,S02-C,MLN OVA-AF647+ DC (%),PSLN-212(Y),36h,1,9.92,S02!M3
+S02,S02-C,MLN OVA-AF647+ DC (%),PSLN-212(Y),36h,2,8.17,S02!M4
+S02,S02-C,MLN OVA-AF647+ DC (%),PSLN-212(Y),36h,3,10.05,S02!M5
+S02,S02-C,MLN OVA-AF647+ DC (%),PSLN-212(Y),36h,4,11.24,S02!M6
+S02,S02-C,MLN OVA-AF647+ DC (%),PSLN-212(Y),36h,5,7.57,S02!M7
+S02,S02-C,MLN OVA-AF647+ DC (%),PTX,36h,1,1.73,S02!N3
+S02,S02-C,MLN OVA-AF647+ DC (%),PTX,36h,2,3.25,S02!N4
+S02,S02-C,MLN OVA-AF647+ DC (%),PTX,36h,3,2.02,S02!N5
+S02,S02-C,MLN OVA-AF647+ DC (%),PTX,36h,4,1.45,S02!N6
+S02,S02-C,MLN OVA-AF647+ DC (%),PTX,36h,5,3.33,S02!N7
+S02,S02-C,MLN OVA-AF647+ DC (%),PSLN-344(Y),36h,1,10.83,S02!O3
+S02,S02-C,MLN OVA-AF647+ DC (%),PSLN-344(Y),36h,2,12.52,S02!O4
+S02,S02-C,MLN OVA-AF647+ DC (%),PSLN-344(Y),36h,3,9.97,S02!O5
+S02,S02-C,MLN OVA-AF647+ DC (%),PSLN-344(Y),36h,4,8.96,S02!O6
+S02,S02-C,MLN OVA-AF647+ DC (%),PSLN-344(Y),36h,5,13.31,S02!O7
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%),Sham,d3,1,4.68,S02!A10
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%),Sham,d3,2,3.37,S02!A11
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%),Sham,d3,3,2.52,S02!A12
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%),Sham,d3,4,5.11,S02!A13
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%),Sham,d3,5,4.12,S02!A14
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%),PSLN-212,d3,1,6.2,S02!B10
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%),PSLN-212,d3,2,6.92,S02!B11
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%),PSLN-212,d3,3,5.15,S02!B12
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%),PSLN-212,d3,4,3.94,S02!B13
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%),PSLN-212,d3,5,5.57,S02!B14
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%),PSLN-344,d3,1,12.2,S02!C10
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%),PSLN-344,d3,2,7.96,S02!C11
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%),PSLN-344,d3,3,14.1,S02!C12
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%),PSLN-344,d3,4,8.05,S02!C13
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%),PSLN-344,d3,5,13.7,S02!C14
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%),PSLN-212(Y),d3,1,38.5,S02!D10
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%),PSLN-212(Y),d3,2,27.6,S02!D11
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%),PSLN-212(Y),d3,3,44.0,S02!D12
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%),PSLN-212(Y),d3,4,37.1,S02!D13
+S02,S02-D CD40,CD40+ of MLN CD11b+ DC (%),PSLN-212(Y),d3,5,46.4,S02!D14
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%),Sham,d3,1,7.14,S02!F10
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%),Sham,d3,2,5.33,S02!F11
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%),Sham,d3,3,7.24,S02!F12
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%),Sham,d3,4,9.51,S02!F13
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%),Sham,d3,5,6.66,S02!F14
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%),PSLN-212,d3,1,7.43,S02!G10
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%),PSLN-212,d3,2,6.11,S02!G11
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%),PSLN-212,d3,3,9.92,S02!G12
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%),PSLN-212,d3,4,10.12,S02!G13
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%),PSLN-212,d3,5,7.06,S02!G14
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%),PSLN-344,d3,1,15.3,S02!H10
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%),PSLN-344,d3,2,17.6,S02!H11
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%),PSLN-344,d3,3,12.7,S02!H12
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%),PSLN-344,d3,4,10.9,S02!H13
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%),PSLN-344,d3,5,16.2,S02!H14
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%),PSLN-212(Y),d3,1,43.8,S02!I10
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%),PSLN-212(Y),d3,2,33.4,S02!I11
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%),PSLN-212(Y),d3,3,35.2,S02!I12
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%),PSLN-212(Y),d3,4,44.1,S02!I13
+S02,S02-D CD86,CD86+ of MLN CD11b+ DC (%),PSLN-212(Y),d3,5,33.2,S02!I14
+S02,S02-E,OT-I proliferation ex vivo (%),PSLN-212,72h,1,0.25,S02!K10
+S02,S02-E,OT-I proliferation ex vivo (%),PSLN-212,72h,2,0.54,S02!K11
+S02,S02-E,OT-I proliferation ex vivo (%),PSLN-212,72h,3,1.03,S02!K12
+S02,S02-E,OT-I proliferation ex vivo (%),PSLN-212,72h,4,1.56,S02!K13
+S02,S02-E,OT-I proliferation ex vivo (%),PSLN-212,72h,5,0.45,S02!K14
+S02,S02-E,OT-I proliferation ex vivo (%),PSLN-344,72h,1,20.2,S02!L10
+S02,S02-E,OT-I proliferation ex vivo (%),PSLN-344,72h,2,14.52,S02!L11
+S02,S02-E,OT-I proliferation ex vivo (%),PSLN-344,72h,3,20.08,S02!L12
+S02,S02-E,OT-I proliferation ex vivo (%),PSLN-344,72h,4,21.5,S02!L13
+S02,S02-E,OT-I proliferation ex vivo (%),PSLN-344,72h,5,16.96,S02!L14
+S02,S02-E,OT-I proliferation ex vivo (%),PSLN-212(Y),72h,1,37.9,S02!M10
+S02,S02-E,OT-I proliferation ex vivo (%),PSLN-212(Y),72h,2,22.4,S02!M11
+S02,S02-E,OT-I proliferation ex vivo (%),PSLN-212(Y),72h,3,24.97,S02!M12
+S02,S02-E,OT-I proliferation ex vivo (%),PSLN-212(Y),72h,4,24.6,S02!M13
+S02,S02-E,OT-I proliferation ex vivo (%),PSLN-212(Y),72h,5,21.35,S02!M14
+S02,S02-E,OT-I proliferation ex vivo (%),PTX,72h,1,1.37,S02!N10
+S02,S02-E,OT-I proliferation ex vivo (%),PTX,72h,2,5.12,S02!N11
+S02,S02-E,OT-I proliferation ex vivo (%),PTX,72h,3,3.78,S02!N12
+S02,S02-E,OT-I proliferation ex vivo (%),PTX,72h,4,1.03,S02!N13
+S02,S02-E,OT-I proliferation ex vivo (%),PTX,72h,5,1.44,S02!N14
+S02,S02-E,OT-I proliferation ex vivo (%),PSLN-344(Y),72h,1,39.21,S02!O10
+S02,S02-E,OT-I proliferation ex vivo (%),PSLN-344(Y),72h,2,30.73,S02!O11
+S02,S02-E,OT-I proliferation ex vivo (%),PSLN-344(Y),72h,3,37.17,S02!O12
+S02,S02-E,OT-I proliferation ex vivo (%),PSLN-344(Y),72h,4,24.45,S02!O13
+S02,S02-E,OT-I proliferation ex vivo (%),PSLN-344(Y),72h,5,25.46,S02!O14
+S02,S02-F,Gm-csf lung (fold),PSLN-344,16h,1,6.15,S02!B17
+S02,S02-F,Gm-csf lung (fold),PSLN-344,16h,2,6.52,S02!C17
+S02,S02-F,Gm-csf lung (fold),PSLN-344,16h,3,5.91,S02!D17
+S02,S02-F,Gm-csf lung (fold),PSLN-344,16h,4,5.97,S02!E17
+S02,S02-F,Gm-csf lung (fold),PSLN-344,16h,5,5.44,S02!F17
+S02,S02-F,Gm-csf lung (fold),PSLN-344,36h,1,9.12,S02!B18
+S02,S02-F,Gm-csf lung (fold),PSLN-344,36h,2,10.92,S02!C18
+S02,S02-F,Gm-csf lung (fold),PSLN-344,36h,3,6.51,S02!D18
+S02,S02-F,Gm-csf lung (fold),PSLN-344,36h,4,10.65,S02!E18
+S02,S02-F,Gm-csf lung (fold),PSLN-344,36h,5,6.51,S02!F18
+S02,S02-F,Gm-csf lung (fold),PSLN-344,72h,1,3.31,S02!B19
+S02,S02-F,Gm-csf lung (fold),PSLN-344,72h,2,3.11,S02!C19
+S02,S02-F,Gm-csf lung (fold),PSLN-344,72h,3,2.12,S02!D19
+S02,S02-F,Gm-csf lung (fold),PSLN-344,72h,4,6.13,S02!E19
+S02,S02-F,Gm-csf lung (fold),PSLN-344,72h,5,4.58,S02!F19
+S02,S02-F,Gm-csf lung (fold),PSLN-212,16h,1,1.93,S02!G17
+S02,S02-F,Gm-csf lung (fold),PSLN-212,16h,2,2.02,S02!H17
+S02,S02-F,Gm-csf lung (fold),PSLN-212,16h,3,1.12,S02!I17
+S02,S02-F,Gm-csf lung (fold),PSLN-212,16h,4,1.43,S02!J17
+S02,S02-F,Gm-csf lung (fold),PSLN-212,16h,5,0.93,S02!K17
+S02,S02-F,Gm-csf lung (fold),PSLN-212,36h,1,1.56,S02!G18
+S02,S02-F,Gm-csf lung (fold),PSLN-212,36h,2,1.75,S02!H18
+S02,S02-F,Gm-csf lung (fold),PSLN-212,36h,3,1.72,S02!I18
+S02,S02-F,Gm-csf lung (fold),PSLN-212,36h,4,1.52,S02!J18
+S02,S02-F,Gm-csf lung (fold),PSLN-212,36h,5,1.42,S02!K18
+S02,S02-F,Gm-csf lung (fold),PSLN-212,72h,1,1.43,S02!G19
+S02,S02-F,Gm-csf lung (fold),PSLN-212,72h,2,1.27,S02!H19
+S02,S02-F,Gm-csf lung (fold),PSLN-212,72h,3,1.08,S02!I19
+S02,S02-F,Gm-csf lung (fold),PSLN-212,72h,4,1.61,S02!J19
+S02,S02-F,Gm-csf lung (fold),PSLN-212,72h,5,1.54,S02!K19
+S02,S02-F,Gm-csf lung (fold),Sham,16h,1,0.93,S02!L17
+S02,S02-F,Gm-csf lung (fold),Sham,16h,2,1.02,S02!M17
+S02,S02-F,Gm-csf lung (fold),Sham,16h,3,1.05,S02!N17
+S02,S02-F,Gm-csf lung (fold),Sham,16h,4,1.26,S02!O17
+S02,S02-F,Gm-csf lung (fold),Sham,16h,5,0.73,S02!P17
+S02,S02-F,Gm-csf lung (fold),Sham,36h,1,1.06,S02!L18
+S02,S02-F,Gm-csf lung (fold),Sham,36h,2,1.21,S02!M18
+S02,S02-F,Gm-csf lung (fold),Sham,36h,3,1.35,S02!N18
+S02,S02-F,Gm-csf lung (fold),Sham,36h,4,0.92,S02!O18
+S02,S02-F,Gm-csf lung (fold),Sham,36h,5,1.53,S02!P18
+S02,S02-F,Gm-csf lung (fold),Sham,72h,1,1.22,S02!L19
+S02,S02-F,Gm-csf lung (fold),Sham,72h,2,0.92,S02!M19
+S02,S02-F,Gm-csf lung (fold),Sham,72h,3,1.35,S02!N19
+S02,S02-F,Gm-csf lung (fold),Sham,72h,4,0.85,S02!O19
+S02,S02-F,Gm-csf lung (fold),Sham,72h,5,1.47,S02!P19
+S02,S02-G,lung Ly6C+ moDC-like (%),GM-CSF,d5,1,1.1,S02!B22
+S02,S02-G,lung Ly6C+ moDC-like (%),GM-CSF,d5,2,1.55,S02!B23
+S02,S02-G,lung Ly6C+ moDC-like (%),GM-CSF,d5,3,1.74,S02!B24
+S02,S02-G,lung Ly6C+ moDC-like (%),GM-CSF,d5,4,1.92,S02!B25
+S02,S02-G,lung Ly6C+ moDC-like (%),GM-CSF,d5,5,1.29,S02!B26
+S02,S02-G,lung Ly6C+ moDC-like (%),PSLN-212,d5,1,5.12,S02!C22
+S02,S02-G,lung Ly6C+ moDC-like (%),PSLN-212,d5,2,7.97,S02!C23
+S02,S02-G,lung Ly6C+ moDC-like (%),PSLN-212,d5,3,5.46,S02!C24
+S02,S02-G,lung Ly6C+ moDC-like (%),PSLN-212,d5,4,4.11,S02!C25
+S02,S02-G,lung Ly6C+ moDC-like (%),PSLN-212,d5,5,6.63,S02!C26
+S02,S02-G,lung Ly6C+ moDC-like (%),PSLN-212+GM-CSF,d5,1,14.95,S02!D22
+S02,S02-G,lung Ly6C+ moDC-like (%),PSLN-212+GM-CSF,d5,2,11.35,S02!D23
+S02,S02-G,lung Ly6C+ moDC-like (%),PSLN-212+GM-CSF,d5,3,10.11,S02!D24
+S02,S02-G,lung Ly6C+ moDC-like (%),PSLN-212+GM-CSF,d5,4,15.12,S02!D25
+S02,S02-G,lung Ly6C+ moDC-like (%),PSLN-212+GM-CSF,d5,5,17.59,S02!D26
+S02,S02-H,CD45.2+ moDC (%),WT w/o cDC,d3,1,20.9,S02!B30
+S02,S02-H,CD45.2+ moDC (%),WT w/o cDC,d3,2,16.1,S02!B31
+S02,S02-H,CD45.2+ moDC (%),WT w/o cDC,d3,3,15.0,S02!B32
+S02,S02-H,CD45.2+ moDC (%),WT w/o cDC,d3,4,22.1,S02!B33
+S02,S02-H,CD45.2+ moDC (%),WT w/o cDC,d3,5,24.4,S02!B34
+S02,S02-H,CD45.2+ moDC (%),WT w/ cDC,d3,1,30.1,S02!C30
+S02,S02-H,CD45.2+ moDC (%),WT w/ cDC,d3,2,17.2,S02!C31
+S02,S02-H,CD45.2+ moDC (%),WT w/ cDC,d3,3,32.2,S02!C32
+S02,S02-H,CD45.2+ moDC (%),WT w/ cDC,d3,4,34.4,S02!C33
+S02,S02-H,CD45.2+ moDC (%),WT w/ cDC,d3,5,22.2,S02!C34
+S02,S02-H,CD45.2+ moDC (%),IFN w/o cDC,d3,1,1.58,S02!D30
+S02,S02-H,CD45.2+ moDC (%),IFN w/o cDC,d3,2,3.35,S02!D31
+S02,S02-H,CD45.2+ moDC (%),IFN w/o cDC,d3,3,2.8,S02!D32
+S02,S02-H,CD45.2+ moDC (%),IFN w/o cDC,d3,4,1.41,S02!D33
+S02,S02-H,CD45.2+ moDC (%),IFN w/o cDC,d3,5,1.3,S02!D34
+S02,S02-H,CD45.2+ moDC (%),IFN w/ cDC,d3,1,6.35,S02!E30
+S02,S02-H,CD45.2+ moDC (%),IFN w/ cDC,d3,2,5.12,S02!E31
+S02,S02-H,CD45.2+ moDC (%),IFN w/ cDC,d3,3,4.45,S02!E32
+S02,S02-H,CD45.2+ moDC (%),IFN w/ cDC,d3,4,6.88,S02!E33
+S02,S02-H,CD45.2+ moDC (%),IFN w/ cDC,d3,5,7.55,S02!E34
+S02,S02-H,CD45.2+ moDC (%),GMCSF,d3,1,15.1,S02!F30
+S02,S02-H,CD45.2+ moDC (%),GMCSF,d3,2,13.92,S02!F31
+S02,S02-H,CD45.2+ moDC (%),GMCSF,d3,3,8.57,S02!F32
+S02,S02-H,CD45.2+ moDC (%),GMCSF,d3,4,8.23,S02!F33
+S02,S02-H,CD45.2+ moDC (%),GMCSF,d3,5,16.19,S02!F34
+S02,S02-I,lung GZMB+ CD8 T (%),PSLN-344(Y),d5,1,6.33,S02!H30
+S02,S02-I,lung GZMB+ CD8 T (%),PSLN-344(Y),d5,2,7.75,S02!H31
+S02,S02-I,lung GZMB+ CD8 T (%),PSLN-344(Y),d5,3,8.02,S02!H32
+S02,S02-I,lung GZMB+ CD8 T (%),PSLN-344(Y),d5,4,5.62,S02!H33
+S02,S02-I,lung GZMB+ CD8 T (%),PSLN-344(Y),d5,5,6.13,S02!H34
+S02,S02-I,lung GZMB+ CD8 T (%),PSLN-344(Y)+INCB3344,d5,1,1.08,S02!I30
+S02,S02-I,lung GZMB+ CD8 T (%),PSLN-344(Y)+INCB3344,d5,2,1.92,S02!I31
+S02,S02-I,lung GZMB+ CD8 T (%),PSLN-344(Y)+INCB3344,d5,3,1.37,S02!I32
+S02,S02-I,lung GZMB+ CD8 T (%),PSLN-344(Y)+INCB3344,d5,4,0.82,S02!I33
+S02,S02-I,lung GZMB+ CD8 T (%),PSLN-344(Y)+INCB3344,d5,5,1.76,S02!I34
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),Sham,d14,1,55.0,S03!A3
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),Sham,d14,2,87.0,S03!A4
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),Sham,d14,3,23.0,S03!A5
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),Sham,d14,4,26.0,S03!A6
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),Sham,d14,5,187.0,S03!A7
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),CMP-204,d14,1,225.0,S03!B3
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),CMP-204,d14,2,156.0,S03!B4
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),CMP-204,d14,3,88.0,S03!B5
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),CMP-204,d14,4,562.0,S03!B6
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),CMP-204,d14,5,113.0,S03!B7
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),PSLN-212,d14,1,500.0,S03!C3
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),PSLN-212,d14,2,327.0,S03!C4
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),PSLN-212,d14,3,213.0,S03!C5
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),PSLN-212,d14,4,813.0,S03!C6
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),PSLN-212,d14,5,332.0,S03!C7
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),PSLN-344,d14,1,3393.0,S03!D3
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),PSLN-344,d14,2,7152.0,S03!D4
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),PSLN-344,d14,3,8198.0,S03!D5
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),PSLN-344,d14,4,12003.0,S03!D6
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),PSLN-344,d14,5,8712.0,S03!D7
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),PSLN-212(Y),d14,1,16253.0,S03!E3
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),PSLN-212(Y),d14,2,11137.0,S03!E4
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),PSLN-212(Y),d14,3,7920.0,S03!E5
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),PSLN-212(Y),d14,4,8506.0,S03!E6
+S03,S03-A,serum IgG anti-CA09 H1N1 (titer),PSLN-212(Y),d14,5,20059.0,S03!E7
+S03,S03-B,IgG2a/IgG1 anti-CA09 (ratio),PSLN-212,d14,1,4.436354,S03!G3
+S03,S03-B,IgG2a/IgG1 anti-CA09 (ratio),PSLN-212,d14,2,4.576542,S03!G4
+S03,S03-B,IgG2a/IgG1 anti-CA09 (ratio),PSLN-212,d14,3,1.179348,S03!G5
+S03,S03-B,IgG2a/IgG1 anti-CA09 (ratio),PSLN-212,d14,4,1.171992,S03!G6
+S03,S03-B,IgG2a/IgG1 anti-CA09 (ratio),PSLN-212,d14,5,3.494625,S03!G7
+S03,S03-B,IgG2a/IgG1 anti-CA09 (ratio),PSLN-344,d14,1,0.739647,S03!H3
+S03,S03-B,IgG2a/IgG1 anti-CA09 (ratio),PSLN-344,d14,2,0.800072,S03!H4
+S03,S03-B,IgG2a/IgG1 anti-CA09 (ratio),PSLN-344,d14,3,0.291889,S03!H5
+S03,S03-B,IgG2a/IgG1 anti-CA09 (ratio),PSLN-344,d14,4,0.480321,S03!H6
+S03,S03-B,IgG2a/IgG1 anti-CA09 (ratio),PSLN-344,d14,5,0.577232,S03!H7
+S03,S03-B,IgG2a/IgG1 anti-CA09 (ratio),PSLN-212(Y),d14,1,2.582683,S03!I3
+S03,S03-B,IgG2a/IgG1 anti-CA09 (ratio),PSLN-212(Y),d14,2,1.722353,S03!I4
+S03,S03-B,IgG2a/IgG1 anti-CA09 (ratio),PSLN-212(Y),d14,3,4.189829,S03!I5
+S03,S03-B,IgG2a/IgG1 anti-CA09 (ratio),PSLN-212(Y),d14,4,0.847527,S03!I6
+S03,S03-B,IgG2a/IgG1 anti-CA09 (ratio),PSLN-212(Y),d14,5,1.376428,S03!I7
+S03,S03-C,HAI anti-CA09 H1N1 (titer),Sham,d14,1,10.0,S03!K3
+S03,S03-C,HAI anti-CA09 H1N1 (titer),Sham,d14,2,10.0,S03!K4
+S03,S03-C,HAI anti-CA09 H1N1 (titer),Sham,d14,3,10.0,S03!K5
+S03,S03-C,HAI anti-CA09 H1N1 (titer),Sham,d14,4,0.0,S03!K6
+S03,S03-C,HAI anti-CA09 H1N1 (titer),Sham,d14,5,0.0,S03!K7
+S03,S03-C,HAI anti-CA09 H1N1 (titer),CMP-204,d14,1,40.0,S03!L3
+S03,S03-C,HAI anti-CA09 H1N1 (titer),CMP-204,d14,2,10.0,S03!L4
+S03,S03-C,HAI anti-CA09 H1N1 (titer),CMP-204,d14,3,20.0,S03!L5
+S03,S03-C,HAI anti-CA09 H1N1 (titer),CMP-204,d14,4,20.0,S03!L6
+S03,S03-C,HAI anti-CA09 H1N1 (titer),CMP-204,d14,5,40.0,S03!L7
+S03,S03-C,HAI anti-CA09 H1N1 (titer),PSLN-212,d14,1,40.0,S03!M3
+S03,S03-C,HAI anti-CA09 H1N1 (titer),PSLN-212,d14,2,80.0,S03!M4
+S03,S03-C,HAI anti-CA09 H1N1 (titer),PSLN-212,d14,3,40.0,S03!M5
+S03,S03-C,HAI anti-CA09 H1N1 (titer),PSLN-212,d14,4,40.0,S03!M6
+S03,S03-C,HAI anti-CA09 H1N1 (titer),PSLN-212,d14,5,40.0,S03!M7
+S03,S03-C,HAI anti-CA09 H1N1 (titer),PSLN-344,d14,1,320.0,S03!N3
+S03,S03-C,HAI anti-CA09 H1N1 (titer),PSLN-344,d14,2,640.0,S03!N4
+S03,S03-C,HAI anti-CA09 H1N1 (titer),PSLN-344,d14,3,160.0,S03!N5
+S03,S03-C,HAI anti-CA09 H1N1 (titer),PSLN-344,d14,4,320.0,S03!N6
+S03,S03-C,HAI anti-CA09 H1N1 (titer),PSLN-344,d14,5,640.0,S03!N7
+S03,S03-C,HAI anti-CA09 H1N1 (titer),PSLN-212(Y),d14,1,640.0,S03!O3
+S03,S03-C,HAI anti-CA09 H1N1 (titer),PSLN-212(Y),d14,2,640.0,S03!O4
+S03,S03-C,HAI anti-CA09 H1N1 (titer),PSLN-212(Y),d14,3,640.0,S03!O5
+S03,S03-C,HAI anti-CA09 H1N1 (titer),PSLN-212(Y),d14,4,320.0,S03!O6
+S03,S03-C,HAI anti-CA09 H1N1 (titer),PSLN-212(Y),d14,5,320.0,S03!O7
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),Sham,d14,1,30.0,S03!Q3
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),Sham,d14,2,30.0,S03!Q4
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),Sham,d14,3,60.0,S03!Q5
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),Sham,d14,4,120.0,S03!Q6
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),Sham,d14,5,60.0,S03!Q7
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),CMP-204,d14,1,120.0,S03!R3
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),CMP-204,d14,2,480.0,S03!R4
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),CMP-204,d14,3,120.0,S03!R5
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),CMP-204,d14,4,120.0,S03!R6
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),CMP-204,d14,5,240.0,S03!R7
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),PSLN-212,d14,1,480.0,S03!S3
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),PSLN-212,d14,2,240.0,S03!S4
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),PSLN-212,d14,3,480.0,S03!S5
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),PSLN-212,d14,4,960.0,S03!S6
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),PSLN-212,d14,5,240.0,S03!S7
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),PSLN-344,d14,1,3840.0,S03!T3
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),PSLN-344,d14,2,7680.0,S03!T4
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),PSLN-344,d14,3,7680.0,S03!T5
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),PSLN-344,d14,4,3840.0,S03!T6
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),PSLN-344,d14,5,960.0,S03!T7
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),PSLN-212(Y),d14,1,15360.0,S03!U3
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),PSLN-212(Y),d14,2,3840.0,S03!U4
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),PSLN-212(Y),d14,3,3840.0,S03!U5
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),PSLN-212(Y),d14,4,7680.0,S03!U6
+S03,S03-D,neutralizing anti-CA09 H1N1 (titer),PSLN-212(Y),d14,5,7680.0,S03!U7
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),Sham,d14,1,82.0,S03!A10
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),Sham,d14,2,201.0,S03!A11
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),Sham,d14,3,25.0,S03!A12
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),Sham,d14,4,15.0,S03!A13
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),Sham,d14,5,64.0,S03!A14
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),CMP-204,d14,1,86.0,S03!B10
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),CMP-204,d14,2,122.0,S03!B11
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),CMP-204,d14,3,413.0,S03!B12
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),CMP-204,d14,4,561.0,S03!B13
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),CMP-204,d14,5,132.0,S03!B14
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),PSLN-212,d14,1,342.0,S03!C10
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),PSLN-212,d14,2,778.0,S03!C11
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),PSLN-212,d14,3,525.0,S03!C12
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),PSLN-212,d14,4,492.0,S03!C13
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),PSLN-212,d14,5,203.0,S03!C14
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),PSLN-344,d14,1,2283.0,S03!D10
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),PSLN-344,d14,2,5152.0,S03!D11
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),PSLN-344,d14,3,6094.0,S03!D12
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),PSLN-344,d14,4,8375.0,S03!D13
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),PSLN-344,d14,5,10030.0,S03!D14
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),PSLN-212(Y),d14,1,25270.0,S03!E10
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),PSLN-212(Y),d14,2,7509.0,S03!E11
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),PSLN-212(Y),d14,3,9817.0,S03!E12
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),PSLN-212(Y),d14,4,25091.0,S03!E13
+S03,S03-E,serum IgG anti-Aichi H3N2 (titer),PSLN-212(Y),d14,5,10925.0,S03!E14
+S03,S03-F,IgG2a/IgG1 anti-Aichi (ratio),PSLN-212,d14,1,3.879013,S03!G10
+S03,S03-F,IgG2a/IgG1 anti-Aichi (ratio),PSLN-212,d14,2,3.059478,S03!G11
+S03,S03-F,IgG2a/IgG1 anti-Aichi (ratio),PSLN-212,d14,3,3.173677,S03!G12
+S03,S03-F,IgG2a/IgG1 anti-Aichi (ratio),PSLN-212,d14,4,2.634684,S03!G13
+S03,S03-F,IgG2a/IgG1 anti-Aichi (ratio),PSLN-212,d14,5,1.706395,S03!G14
+S03,S03-F,IgG2a/IgG1 anti-Aichi (ratio),PSLN-344,d14,1,0.885282,S03!H10
+S03,S03-F,IgG2a/IgG1 anti-Aichi (ratio),PSLN-344,d14,2,0.606421,S03!H11
+S03,S03-F,IgG2a/IgG1 anti-Aichi (ratio),PSLN-344,d14,3,0.490895,S03!H12
+S03,S03-F,IgG2a/IgG1 anti-Aichi (ratio),PSLN-344,d14,4,0.314143,S03!H13
+S03,S03-F,IgG2a/IgG1 anti-Aichi (ratio),PSLN-344,d14,5,0.261592,S03!H14
+S03,S03-F,IgG2a/IgG1 anti-Aichi (ratio),PSLN-212(Y),d14,1,5.463945,S03!I10
+S03,S03-F,IgG2a/IgG1 anti-Aichi (ratio),PSLN-212(Y),d14,2,3.420487,S03!I11
+S03,S03-F,IgG2a/IgG1 anti-Aichi (ratio),PSLN-212(Y),d14,3,2.258193,S03!I12
+S03,S03-F,IgG2a/IgG1 anti-Aichi (ratio),PSLN-212(Y),d14,4,1.087374,S03!I13
+S03,S03-F,IgG2a/IgG1 anti-Aichi (ratio),PSLN-212(Y),d14,5,1.403679,S03!I14
+S03,S03-G,HAI anti-Aichi H3N2 (titer),Sham,d14,1,10.0,S03!K10
+S03,S03-G,HAI anti-Aichi H3N2 (titer),Sham,d14,2,10.0,S03!K11
+S03,S03-G,HAI anti-Aichi H3N2 (titer),Sham,d14,3,10.0,S03!K12
+S03,S03-G,HAI anti-Aichi H3N2 (titer),Sham,d14,4,20.0,S03!K13
+S03,S03-G,HAI anti-Aichi H3N2 (titer),Sham,d14,5,0.0,S03!K14
+S03,S03-G,HAI anti-Aichi H3N2 (titer),CMP-204,d14,1,40.0,S03!L10
+S03,S03-G,HAI anti-Aichi H3N2 (titer),CMP-204,d14,2,40.0,S03!L11
+S03,S03-G,HAI anti-Aichi H3N2 (titer),CMP-204,d14,3,20.0,S03!L12
+S03,S03-G,HAI anti-Aichi H3N2 (titer),CMP-204,d14,4,20.0,S03!L13
+S03,S03-G,HAI anti-Aichi H3N2 (titer),CMP-204,d14,5,40.0,S03!L14
+S03,S03-G,HAI anti-Aichi H3N2 (titer),PSLN-212,d14,1,40.0,S03!M10
+S03,S03-G,HAI anti-Aichi H3N2 (titer),PSLN-212,d14,2,20.0,S03!M11
+S03,S03-G,HAI anti-Aichi H3N2 (titer),PSLN-212,d14,3,20.0,S03!M12
+S03,S03-G,HAI anti-Aichi H3N2 (titer),PSLN-212,d14,4,80.0,S03!M13
+S03,S03-G,HAI anti-Aichi H3N2 (titer),PSLN-212,d14,5,40.0,S03!M14
+S03,S03-G,HAI anti-Aichi H3N2 (titer),PSLN-344,d14,1,320.0,S03!N10
+S03,S03-G,HAI anti-Aichi H3N2 (titer),PSLN-344,d14,2,640.0,S03!N11
+S03,S03-G,HAI anti-Aichi H3N2 (titer),PSLN-344,d14,3,160.0,S03!N12
+S03,S03-G,HAI anti-Aichi H3N2 (titer),PSLN-344,d14,4,320.0,S03!N13
+S03,S03-G,HAI anti-Aichi H3N2 (titer),PSLN-344,d14,5,320.0,S03!N14
+S03,S03-G,HAI anti-Aichi H3N2 (titer),PSLN-212(Y),d14,1,640.0,S03!O10
+S03,S03-G,HAI anti-Aichi H3N2 (titer),PSLN-212(Y),d14,2,320.0,S03!O11
+S03,S03-G,HAI anti-Aichi H3N2 (titer),PSLN-212(Y),d14,3,320.0,S03!O12
+S03,S03-G,HAI anti-Aichi H3N2 (titer),PSLN-212(Y),d14,4,320.0,S03!O13
+S03,S03-G,HAI anti-Aichi H3N2 (titer),PSLN-212(Y),d14,5,320.0,S03!O14
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),Sham,d14,1,60.0,S03!Q10
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),Sham,d14,2,60.0,S03!Q11
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),Sham,d14,3,30.0,S03!Q12
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),Sham,d14,4,30.0,S03!Q13
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),Sham,d14,5,30.0,S03!Q14
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),CMP-204,d14,1,240.0,S03!R10
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),CMP-204,d14,2,240.0,S03!R11
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),CMP-204,d14,3,120.0,S03!R12
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),CMP-204,d14,4,120.0,S03!R13
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),CMP-204,d14,5,60.0,S03!R14
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),PSLN-212,d14,1,480.0,S03!S10
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),PSLN-212,d14,2,240.0,S03!S11
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),PSLN-212,d14,3,480.0,S03!S12
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),PSLN-212,d14,4,240.0,S03!S13
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),PSLN-212,d14,5,120.0,S03!S14
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),PSLN-344,d14,1,3840.0,S03!T10
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),PSLN-344,d14,2,3840.0,S03!T11
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),PSLN-344,d14,3,3840.0,S03!T12
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),PSLN-344,d14,4,1920.0,S03!T13
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),PSLN-344,d14,5,960.0,S03!T14
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),PSLN-212(Y),d14,1,7680.0,S03!U10
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),PSLN-212(Y),d14,2,7680.0,S03!U11
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),PSLN-212(Y),d14,3,3840.0,S03!U12
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),PSLN-212(Y),d14,4,3840.0,S03!U13
+S03,S03-H,neutralizing anti-Aichi H3N2 (titer),PSLN-212(Y),d14,5,1920.0,S03!U14
+S03,S03-K,MLN GC B cells (%),Sham,d7,1,0.55,S03!L17
+S03,S03-K,MLN GC B cells (%),Sham,d7,2,1.21,S03!L18
+S03,S03-K,MLN GC B cells (%),Sham,d7,3,1.63,S03!L19
+S03,S03-K,MLN GC B cells (%),Sham,d7,4,1.12,S03!L20
+S03,S03-K,MLN GC B cells (%),Sham,d7,5,1.37,S03!L21
+S03,S03-K,MLN GC B cells (%),PSLN-212,d7,1,2.06,S03!M17
+S03,S03-K,MLN GC B cells (%),PSLN-212,d7,2,2.54,S03!M18
+S03,S03-K,MLN GC B cells (%),PSLN-212,d7,3,3.15,S03!M19
+S03,S03-K,MLN GC B cells (%),PSLN-212,d7,4,1.83,S03!M20
+S03,S03-K,MLN GC B cells (%),PSLN-212,d7,5,2.13,S03!M21
+S03,S03-K,MLN GC B cells (%),PSLN-344,d7,1,7.78,S03!N17
+S03,S03-K,MLN GC B cells (%),PSLN-344,d7,2,6.38,S03!N18
+S03,S03-K,MLN GC B cells (%),PSLN-344,d7,3,4.62,S03!N19
+S03,S03-K,MLN GC B cells (%),PSLN-344,d7,4,8.35,S03!N20
+S03,S03-K,MLN GC B cells (%),PSLN-344,d7,5,5.59,S03!N21
+S03,S03-K,MLN GC B cells (%),PSLN-212(Y),d7,1,13.12,S03!O17
+S03,S03-K,MLN GC B cells (%),PSLN-212(Y),d7,2,10.53,S03!O18
+S03,S03-K,MLN GC B cells (%),PSLN-212(Y),d7,3,7.12,S03!O19
+S03,S03-K,MLN GC B cells (%),PSLN-212(Y),d7,4,12.15,S03!O20
+S03,S03-K,MLN GC B cells (%),PSLN-212(Y),d7,5,6.19,S03!O21
+S03,S03-L,Aicda MLN B (fold),Sham,d5,1,0.91,S03!L26
+S03,S03-L,Aicda MLN B (fold),Sham,d5,2,1.34,S03!M26
+S03,S03-L,Aicda MLN B (fold),Sham,d5,3,0.75,S03!N26
+S03,S03-L,Aicda MLN B (fold),PSLN-212,d5,1,2.65,S03!L27
+S03,S03-L,Aicda MLN B (fold),PSLN-212,d5,2,4.51,S03!M27
+S03,S03-L,Aicda MLN B (fold),PSLN-212,d5,3,3.09,S03!N27
+S03,S03-L,Aicda MLN B (fold),PSLN-344,d5,1,10.44,S03!L28
+S03,S03-L,Aicda MLN B (fold),PSLN-344,d5,2,16.54,S03!M28
+S03,S03-L,Aicda MLN B (fold),PSLN-344,d5,3,8.95,S03!N28
+S03,S03-L,E47 MLN B (fold),Sham,d5,1,0.97,S03!O26
+S03,S03-L,E47 MLN B (fold),Sham,d5,2,1.34,S03!P26
+S03,S03-L,E47 MLN B (fold),Sham,d5,3,0.69,S03!Q26
+S03,S03-L,E47 MLN B (fold),PSLN-212,d5,1,4.35,S03!O27
+S03,S03-L,E47 MLN B (fold),PSLN-212,d5,2,6.11,S03!P27
+S03,S03-L,E47 MLN B (fold),PSLN-212,d5,3,8.61,S03!Q27
+S03,S03-L,E47 MLN B (fold),PSLN-344,d5,1,25.32,S03!O28
+S03,S03-L,E47 MLN B (fold),PSLN-344,d5,2,18.7,S03!P28
+S03,S03-L,E47 MLN B (fold),PSLN-344,d5,3,29.61,S03!Q28
+S04,S04-A,Tfh ICOS-lo (%),Sham,d7,1,1.2555,S04!B2
+S04,S04-A,Tfh ICOS-lo (%),Sham,d7,2,1.8858,S04!C2
+S04,S04-A,Tfh ICOS-lo (%),Sham,d7,3,2.0225,S04!D2
+S04,S04-A,Tfh ICOS-lo (%),Sham,d7,4,3.759,S04!E2
+S04,S04-A,Tfh ICOS-lo (%),Sham,d7,5,1.1947,S04!F2
+S04,S04-A,Tfh ICOS-lo (%),PSLN-212,d7,1,3.7464,S04!B3
+S04,S04-A,Tfh ICOS-lo (%),PSLN-212,d7,2,2.0328,S04!C3
+S04,S04-A,Tfh ICOS-lo (%),PSLN-212,d7,3,2.4603,S04!D3
+S04,S04-A,Tfh ICOS-lo (%),PSLN-212,d7,4,2.3808,S04!E3
+S04,S04-A,Tfh ICOS-lo (%),PSLN-212,d7,5,2.904,S04!F3
+S04,S04-A,Tfh ICOS-lo (%),PSLN-344,d7,1,4.2432,S04!B4
+S04,S04-A,Tfh ICOS-lo (%),PSLN-344,d7,2,8.2397,S04!C4
+S04,S04-A,Tfh ICOS-lo (%),PSLN-344,d7,3,4.95,S04!D4
+S04,S04-A,Tfh ICOS-lo (%),PSLN-344,d7,4,3.6696,S04!E4
+S04,S04-A,Tfh ICOS-lo (%),PSLN-344,d7,5,7.614,S04!F4
+S04,S04-A,Tfh ICOS-lo (%),PSLN-212(Y),d7,1,7.8988,S04!B5
+S04,S04-A,Tfh ICOS-lo (%),PSLN-212(Y),d7,2,3.5754,S04!C5
+S04,S04-A,Tfh ICOS-lo (%),PSLN-212(Y),d7,3,5.6653,S04!D5
+S04,S04-A,Tfh ICOS-lo (%),PSLN-212(Y),d7,4,9.2736,S04!E5
+S04,S04-A,Tfh ICOS-lo (%),PSLN-212(Y),d7,5,8.1328,S04!F5
+S04,S04-A,Tfh ICOS-hi (%),Sham,d7,1,0.2445,S04!G2
+S04,S04-A,Tfh ICOS-hi (%),Sham,d7,2,0.2142,S04!H2
+S04,S04-A,Tfh ICOS-hi (%),Sham,d7,3,0.4775,S04!I2
+S04,S04-A,Tfh ICOS-hi (%),Sham,d7,4,0.441,S04!J2
+S04,S04-A,Tfh ICOS-hi (%),Sham,d7,5,0.1053,S04!K2
+S04,S04-A,Tfh ICOS-hi (%),PSLN-212,d7,1,4.6536,S04!G3
+S04,S04-A,Tfh ICOS-hi (%),PSLN-212,d7,2,4.5672,S04!H3
+S04,S04-A,Tfh ICOS-hi (%),PSLN-212,d7,3,3.4397,S04!I3
+S04,S04-A,Tfh ICOS-hi (%),PSLN-212,d7,4,3.8192,S04!J3
+S04,S04-A,Tfh ICOS-hi (%),PSLN-212,d7,5,2.596,S04!K3
+S04,S04-A,Tfh ICOS-hi (%),PSLN-344,d7,1,14.9568,S04!G4
+S04,S04-A,Tfh ICOS-hi (%),PSLN-344,d7,2,6.6603,S04!H4
+S04,S04-A,Tfh ICOS-hi (%),PSLN-344,d7,3,8.25,S04!I4
+S04,S04-A,Tfh ICOS-hi (%),PSLN-344,d7,4,10.2304,S04!J4
+S04,S04-A,Tfh ICOS-hi (%),PSLN-344,d7,5,11.186,S04!K4
+S04,S04-A,Tfh ICOS-hi (%),PSLN-212(Y),d7,1,11.7012,S04!G5
+S04,S04-A,Tfh ICOS-hi (%),PSLN-212(Y),d7,2,14.1246,S04!H5
+S04,S04-A,Tfh ICOS-hi (%),PSLN-212(Y),d7,3,12.4347,S04!I5
+S04,S04-A,Tfh ICOS-hi (%),PSLN-212(Y),d7,4,15.9264,S04!J5
+S04,S04-A,Tfh ICOS-hi (%),PSLN-212(Y),d7,5,13.9672,S04!K5
+S04,S04-B Foxp3,Tfr (Foxp3+ of CXCR5+ICOShi) (%),Sham,d7,1,20.7,S04!A8
+S04,S04-B Foxp3,Tfr (Foxp3+ of CXCR5+ICOShi) (%),Sham,d7,2,26.5,S04!A9
+S04,S04-B Foxp3,Tfr (Foxp3+ of CXCR5+ICOShi) (%),Sham,d7,3,28.1,S04!A10
+S04,S04-B Foxp3,Tfr (Foxp3+ of CXCR5+ICOShi) (%),Sham,d7,4,18.5,S04!A11
+S04,S04-B Foxp3,Tfr (Foxp3+ of CXCR5+ICOShi) (%),Sham,d7,5,19.2,S04!A12
+S04,S04-B Foxp3,Tfr (Foxp3+ of CXCR5+ICOShi) (%),PSLN-212,d7,1,35.2,S04!B8
+S04,S04-B Foxp3,Tfr (Foxp3+ of CXCR5+ICOShi) (%),PSLN-212,d7,2,20.7,S04!B9
+S04,S04-B Foxp3,Tfr (Foxp3+ of CXCR5+ICOShi) (%),PSLN-212,d7,3,32.2,S04!B10
+S04,S04-B Foxp3,Tfr (Foxp3+ of CXCR5+ICOShi) (%),PSLN-212,d7,4,24.3,S04!B11
+S04,S04-B Foxp3,Tfr (Foxp3+ of CXCR5+ICOShi) (%),PSLN-212,d7,5,20.9,S04!B12
+S04,S04-B Foxp3,Tfr (Foxp3+ of CXCR5+ICOShi) (%),PSLN-344,d7,1,8.4,S04!C8
+S04,S04-B Foxp3,Tfr (Foxp3+ of CXCR5+ICOShi) (%),PSLN-344,d7,2,11.3,S04!C9
+S04,S04-B Foxp3,Tfr (Foxp3+ of CXCR5+ICOShi) (%),PSLN-344,d7,3,13.0,S04!C10
+S04,S04-B Foxp3,Tfr (Foxp3+ of CXCR5+ICOShi) (%),PSLN-344,d7,4,9.7,S04!C11
+S04,S04-B Foxp3,Tfr (Foxp3+ of CXCR5+ICOShi) (%),PSLN-344,d7,5,11.6,S04!C12
+S04,S04-B Foxp3,Tfr (Foxp3+ of CXCR5+ICOShi) (%),PSLN-212(Y),d7,1,7.0,S04!D8
+S04,S04-B Foxp3,Tfr (Foxp3+ of CXCR5+ICOShi) (%),PSLN-212(Y),d7,2,3.3,S04!D9
+S04,S04-B Foxp3,Tfr (Foxp3+ of CXCR5+ICOShi) (%),PSLN-212(Y),d7,3,5.9,S04!D10
+S04,S04-B Foxp3,Tfr (Foxp3+ of CXCR5+ICOShi) (%),PSLN-212(Y),d7,4,13.2,S04!D11
+S04,S04-B Foxp3,Tfr (Foxp3+ of CXCR5+ICOShi) (%),PSLN-212(Y),d7,5,6.2,S04!D12
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio,Sham,d7,1,3.830918,S04!A15
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio,Sham,d7,2,2.773585,S04!A16
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio,Sham,d7,3,2.558719,S04!A17
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio,Sham,d7,4,4.405405,S04!A18
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio,Sham,d7,5,4.208333,S04!A19
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio,PSLN-212,d7,1,1.840909,S04!B15
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio,PSLN-212,d7,2,3.830918,S04!B16
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio,PSLN-212,d7,3,2.10559,S04!B17
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio,PSLN-212,d7,4,3.115226,S04!B18
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio,PSLN-212,d7,5,3.784689,S04!B19
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio,PSLN-344,d7,1,10.90476,S04!C15
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio,PSLN-344,d7,2,7.849558,S04!C16
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio,PSLN-344,d7,3,6.692308,S04!C17
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio,PSLN-344,d7,4,9.309278,S04!C18
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio,PSLN-344,d7,5,7.62069,S04!C19
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio,PSLN-212(Y),d7,1,13.28571,S04!D15
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio,PSLN-212(Y),d7,2,29.30303,S04!D16
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio,PSLN-212(Y),d7,3,15.94915,S04!D17
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio,PSLN-212(Y),d7,4,6.575758,S04!D18
+S04,S04-B Tfh:Tfr,Tfh:Tfr ratio,PSLN-212(Y),d7,5,15.12903,S04!D19
+S04,S04-C,Tfr (%),Sham,d30,1,15.2,S04!A22
+S04,S04-C,Tfr (%),Sham,d30,2,12.0,S04!A23
+S04,S04-C,Tfr (%),Sham,d30,3,12.5,S04!A24
+S04,S04-C,Tfr (%),Sham,d30,4,13.3,S04!A25
+S04,S04-C,Tfr (%),Sham,d30,5,16.3,S04!A26
+S04,S04-C,Tfr (%),PSLN-212,d30,1,16.8,S04!B22
+S04,S04-C,Tfr (%),PSLN-212,d30,2,18.9,S04!B23
+S04,S04-C,Tfr (%),PSLN-212,d30,3,12.1,S04!B24
+S04,S04-C,Tfr (%),PSLN-212,d30,4,20.9,S04!B25
+S04,S04-C,Tfr (%),PSLN-212,d30,5,21.5,S04!B26
+S04,S04-C,Tfr (%),PSLN-344,d30,1,13.4,S04!C22
+S04,S04-C,Tfr (%),PSLN-344,d30,2,9.8,S04!C23
+S04,S04-C,Tfr (%),PSLN-344,d30,3,12.5,S04!C24
+S04,S04-C,Tfr (%),PSLN-344,d30,4,16.2,S04!C25
+S04,S04-C,Tfr (%),PSLN-344,d30,5,18.1,S04!C26
+S04,S04-C,Tfr (%),PSLN-212(Y),d30,1,6.58,S04!D22
+S04,S04-C,Tfr (%),PSLN-212(Y),d30,2,9.7,S04!D23
+S04,S04-C,Tfr (%),PSLN-212(Y),d30,3,5.4,S04!D24
+S04,S04-C,Tfr (%),PSLN-212(Y),d30,4,7.2,S04!D25
+S04,S04-C,Tfr (%),PSLN-212(Y),d30,5,8.1,S04!D26
+S04,S04-D,lung Treg (%),Sham,d7,1,4.92,S04!A29
+S04,S04-D,lung Treg (%),Sham,d7,2,6.47,S04!A30
+S04,S04-D,lung Treg (%),Sham,d7,3,6.25,S04!A31
+S04,S04-D,lung Treg (%),PSLN-212,d7,1,6.61,S04!B29
+S04,S04-D,lung Treg (%),PSLN-212,d7,2,7.02,S04!B30
+S04,S04-D,lung Treg (%),PSLN-212,d7,3,6.35,S04!B31
+S04,S04-D,lung Treg (%),PSLN-344,d7,1,2.62,S04!C29
+S04,S04-D,lung Treg (%),PSLN-344,d7,2,3.43,S04!C30
+S04,S04-D,lung Treg (%),PSLN-344,d7,3,2.91,S04!C31
+S04,S04-D,lung Treg (%),PSLN-212(Y),d7,1,1.66,S04!D29
+S04,S04-D,lung Treg (%),PSLN-212(Y),d7,2,2.42,S04!D30
+S04,S04-D,lung Treg (%),PSLN-212(Y),d7,3,1.25,S04!D31
+S05,S05-A,lung NP366 tetramer+ CD8 (%),PSLN-212,3,1,2.24,S05!B3
+S05,S05-A,lung NP366 tetramer+ CD8 (%),PSLN-212,3,2,1.94,S05!C3
+S05,S05-A,lung NP366 tetramer+ CD8 (%),PSLN-212,5,1,4.31,S05!B4
+S05,S05-A,lung NP366 tetramer+ CD8 (%),PSLN-212,5,2,5.92,S05!C4
+S05,S05-A,lung NP366 tetramer+ CD8 (%),PSLN-212,7,1,7.59,S05!B5
+S05,S05-A,lung NP366 tetramer+ CD8 (%),PSLN-212,7,2,6.22,S05!C5
+S05,S05-A,lung NP366 tetramer+ CD8 (%),PSLN-344,3,1,6.23,S05!E3
+S05,S05-A,lung NP366 tetramer+ CD8 (%),PSLN-344,3,2,7.13,S05!F3
+S05,S05-A,lung NP366 tetramer+ CD8 (%),PSLN-344,5,1,11.4,S05!E4
+S05,S05-A,lung NP366 tetramer+ CD8 (%),PSLN-344,5,2,12.62,S05!F4
+S05,S05-A,lung NP366 tetramer+ CD8 (%),PSLN-344,7,1,15.8,S05!E5
+S05,S05-A,lung NP366 tetramer+ CD8 (%),PSLN-344,7,2,12.7,S05!F5
+S05,S05-A,lung NP366 tetramer+ CD8 (%),PSLN-212Y,3,1,10.8,S05!H3
+S05,S05-A,lung NP366 tetramer+ CD8 (%),PSLN-212Y,3,2,8.9,S05!I3
+S05,S05-A,lung NP366 tetramer+ CD8 (%),PSLN-212Y,5,1,14.6,S05!H4
+S05,S05-A,lung NP366 tetramer+ CD8 (%),PSLN-212Y,5,2,12.3,S05!I4
+S05,S05-A,lung NP366 tetramer+ CD8 (%),PSLN-212Y,7,1,14.0,S05!H5
+S05,S05-A,lung NP366 tetramer+ CD8 (%),PSLN-212Y,7,2,16.3,S05!I5
+S05,S05-B,MLN NP366 tetramer+ CD8 (%),PSLN-212,3,1,1.34,S05!B8
+S05,S05-B,MLN NP366 tetramer+ CD8 (%),PSLN-212,3,2,1.03,S05!C8
+S05,S05-B,MLN NP366 tetramer+ CD8 (%),PSLN-212,5,1,1.75,S05!B9
+S05,S05-B,MLN NP366 tetramer+ CD8 (%),PSLN-212,5,2,1.59,S05!C9
+S05,S05-B,MLN NP366 tetramer+ CD8 (%),PSLN-212,7,1,2.87,S05!B10
+S05,S05-B,MLN NP366 tetramer+ CD8 (%),PSLN-212,7,2,2.35,S05!C10
+S05,S05-B,MLN NP366 tetramer+ CD8 (%),PSLN-344,3,1,1.7,S05!E8
+S05,S05-B,MLN NP366 tetramer+ CD8 (%),PSLN-344,3,2,1.92,S05!F8
+S05,S05-B,MLN NP366 tetramer+ CD8 (%),PSLN-344,5,1,2.87,S05!E9
+S05,S05-B,MLN NP366 tetramer+ CD8 (%),PSLN-344,5,2,3.45,S05!F9
+S05,S05-B,MLN NP366 tetramer+ CD8 (%),PSLN-344,7,1,4.77,S05!E10
+S05,S05-B,MLN NP366 tetramer+ CD8 (%),PSLN-344,7,2,3.95,S05!F10
+S05,S05-B,MLN NP366 tetramer+ CD8 (%),PSLN-212Y,3,1,1.94,S05!H8
+S05,S05-B,MLN NP366 tetramer+ CD8 (%),PSLN-212Y,3,2,2.15,S05!I8
+S05,S05-B,MLN NP366 tetramer+ CD8 (%),PSLN-212Y,5,1,3.05,S05!H9
+S05,S05-B,MLN NP366 tetramer+ CD8 (%),PSLN-212Y,5,2,5.52,S05!I9
+S05,S05-B,MLN NP366 tetramer+ CD8 (%),PSLN-212Y,7,1,5.15,S05!H10
+S05,S05-B,MLN NP366 tetramer+ CD8 (%),PSLN-212Y,7,2,6.33,S05!I10
+S05,S05-C,OT-I proliferation in vivo (%),Lung,d4,1,64.3,S05!A13
+S05,S05-C,OT-I proliferation in vivo (%),Lung,d4,2,54.4,S05!A14
+S05,S05-C,OT-I proliferation in vivo (%),Lung,d4,3,58.3,S05!A15
+S05,S05-C,OT-I proliferation in vivo (%),Lung+PTX,d4,1,64.4,S05!B13
+S05,S05-C,OT-I proliferation in vivo (%),Lung+PTX,d4,2,45.5,S05!B14
+S05,S05-C,OT-I proliferation in vivo (%),Lung+PTX,d4,3,55.3,S05!B15
+S05,S05-C,OT-I proliferation in vivo (%),MLN,d4,1,35.2,S05!C13
+S05,S05-C,OT-I proliferation in vivo (%),MLN,d4,2,29.8,S05!C14
+S05,S05-C,OT-I proliferation in vivo (%),MLN,d4,3,27.7,S05!C15
+S05,S05-C,OT-I proliferation in vivo (%),MLN+PTX,d4,1,6.17,S05!D13
+S05,S05-C,OT-I proliferation in vivo (%),MLN+PTX,d4,2,7.72,S05!D14
+S05,S05-C,OT-I proliferation in vivo (%),MLN+PTX,d4,3,6.61,S05!D15
+S05,S05-D,lung Ki67+ CD8 (%),Sham,d3,1,0.93,S05!A19
+S05,S05-D,lung Ki67+ CD8 (%),Sham,d3,2,0.53,S05!A20
+S05,S05-D,lung Ki67+ CD8 (%),Sham,d3,3,0.34,S05!A21
+S05,S05-D,lung Ki67+ CD8 (%),Sham,d3,4,0.81,S05!A22
+S05,S05-D,lung Ki67+ CD8 (%),Sham,d3,5,1.52,S05!A23
+S05,S05-D,lung Ki67+ CD8 (%),PSLN-212,d3,1,3.2,S05!B19
+S05,S05-D,lung Ki67+ CD8 (%),PSLN-212,d3,2,4.29,S05!B20
+S05,S05-D,lung Ki67+ CD8 (%),PSLN-212,d3,3,5.37,S05!B21
+S05,S05-D,lung Ki67+ CD8 (%),PSLN-212,d3,4,2.1,S05!B22
+S05,S05-D,lung Ki67+ CD8 (%),PSLN-212,d3,5,2.44,S05!B23
+S05,S05-D,lung Ki67+ CD8 (%),PSLN-344,d3,1,10.31,S05!C19
+S05,S05-D,lung Ki67+ CD8 (%),PSLN-344,d3,2,12.09,S05!C20
+S05,S05-D,lung Ki67+ CD8 (%),PSLN-344,d3,3,8.0,S05!C21
+S05,S05-D,lung Ki67+ CD8 (%),PSLN-344,d3,4,8.34,S05!C22
+S05,S05-D,lung Ki67+ CD8 (%),PSLN-344,d3,5,8.16,S05!C23
+S05,S05-D,lung Ki67+ CD8 (%),PSLN-212(Y),d3,1,12.22,S05!D19
+S05,S05-D,lung Ki67+ CD8 (%),PSLN-212(Y),d3,2,13.55,S05!D20
+S05,S05-D,lung Ki67+ CD8 (%),PSLN-212(Y),d3,3,9.88,S05!D21
+S05,S05-D,lung Ki67+ CD8 (%),PSLN-212(Y),d3,4,7.88,S05!D22
+S05,S05-D,lung Ki67+ CD8 (%),PSLN-212(Y),d3,5,6.17,S05!D23
+S05,S05-E,lung GZMB+ CD8 (%),Sham,d3,1,0.91,S05!A26
+S05,S05-E,lung GZMB+ CD8 (%),Sham,d3,2,0.77,S05!A27
+S05,S05-E,lung GZMB+ CD8 (%),Sham,d3,3,1.43,S05!A28
+S05,S05-E,lung GZMB+ CD8 (%),Sham,d3,4,1.32,S05!A29
+S05,S05-E,lung GZMB+ CD8 (%),Sham,d3,5,0.52,S05!A30
+S05,S05-E,lung GZMB+ CD8 (%),PSLN-212,d3,1,2.83,S05!B26
+S05,S05-E,lung GZMB+ CD8 (%),PSLN-212,d3,2,2.42,S05!B27
+S05,S05-E,lung GZMB+ CD8 (%),PSLN-212,d3,3,3.94,S05!B28
+S05,S05-E,lung GZMB+ CD8 (%),PSLN-212,d3,4,2.11,S05!B29
+S05,S05-E,lung GZMB+ CD8 (%),PSLN-212,d3,5,3.65,S05!B30
+S05,S05-E,lung GZMB+ CD8 (%),PSLN-344,d3,1,6.27,S05!C26
+S05,S05-E,lung GZMB+ CD8 (%),PSLN-344,d3,2,5.53,S05!C27
+S05,S05-E,lung GZMB+ CD8 (%),PSLN-344,d3,3,5.89,S05!C28
+S05,S05-E,lung GZMB+ CD8 (%),PSLN-344,d3,4,4.22,S05!C29
+S05,S05-E,lung GZMB+ CD8 (%),PSLN-344,d3,5,6.53,S05!C30
+S05,S05-E,lung GZMB+ CD8 (%),PSLN-212(Y),d3,1,9.92,S05!D26
+S05,S05-E,lung GZMB+ CD8 (%),PSLN-212(Y),d3,2,10.32,S05!D27
+S05,S05-E,lung GZMB+ CD8 (%),PSLN-212(Y),d3,3,11.05,S05!D28
+S05,S05-E,lung GZMB+ CD8 (%),PSLN-212(Y),d3,4,8.13,S05!D29
+S05,S05-E,lung GZMB+ CD8 (%),PSLN-212(Y),d3,5,8.62,S05!D30
+S05,S05-F,"MLN IFNg+ CD8, rgH5N1 restim (%)",Sham,d14,1,0.2,S05!A33
+S05,S05-F,"MLN IFNg+ CD8, rgH5N1 restim (%)",Sham,d14,2,0.45,S05!A34
+S05,S05-F,"MLN IFNg+ CD8, rgH5N1 restim (%)",Sham,d14,3,0.82,S05!A35
+S05,S05-F,"MLN IFNg+ CD8, rgH5N1 restim (%)",Sham,d14,4,0.77,S05!A36
+S05,S05-F,"MLN IFNg+ CD8, rgH5N1 restim (%)",Sham,d14,5,1.12,S05!A37
+S05,S05-F,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-212,d14,1,1.5,S05!B33
+S05,S05-F,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-212,d14,2,1.28,S05!B34
+S05,S05-F,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-212,d14,3,1.35,S05!B35
+S05,S05-F,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-212,d14,4,1.22,S05!B36
+S05,S05-F,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-212,d14,5,2.17,S05!B37
+S05,S05-F,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-344,d14,1,7.22,S05!C33
+S05,S05-F,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-344,d14,2,7.41,S05!C34
+S05,S05-F,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-344,d14,3,6.47,S05!C35
+S05,S05-F,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-344,d14,4,5.18,S05!C36
+S05,S05-F,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-344,d14,5,5.5,S05!C37
+S05,S05-F,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-212(Y),d14,1,9.81,S05!D33
+S05,S05-F,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-212(Y),d14,2,9.18,S05!D34
+S05,S05-F,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-212(Y),d14,3,10.31,S05!D35
+S05,S05-F,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-212(Y),d14,4,8.4,S05!D36
+S05,S05-F,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-212(Y),d14,5,8.2,S05!D37
+S05,S05-G,"MLN IFNg+ CD8, rgH5N1 restim (%)",Sham,d60,1,0.23,S05!A40
+S05,S05-G,"MLN IFNg+ CD8, rgH5N1 restim (%)",Sham,d60,2,0.57,S05!A41
+S05,S05-G,"MLN IFNg+ CD8, rgH5N1 restim (%)",Sham,d60,3,2.22,S05!A42
+S05,S05-G,"MLN IFNg+ CD8, rgH5N1 restim (%)",Sham,d60,4,1.51,S05!A43
+S05,S05-G,"MLN IFNg+ CD8, rgH5N1 restim (%)",Sham,d60,5,2.77,S05!A44
+S05,S05-G,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-212,d60,1,2.68,S05!B40
+S05,S05-G,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-212,d60,2,4.07,S05!B41
+S05,S05-G,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-212,d60,3,4.21,S05!B42
+S05,S05-G,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-212,d60,4,3.13,S05!B43
+S05,S05-G,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-212,d60,5,1.11,S05!B44
+S05,S05-G,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-344,d60,1,11.82,S05!C40
+S05,S05-G,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-344,d60,2,9.74,S05!C41
+S05,S05-G,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-344,d60,3,13.45,S05!C42
+S05,S05-G,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-344,d60,4,7.19,S05!C43
+S05,S05-G,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-344,d60,5,7.1,S05!C44
+S05,S05-G,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-212(Y),d60,1,12.22,S05!D40
+S05,S05-G,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-212(Y),d60,2,14.53,S05!D41
+S05,S05-G,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-212(Y),d60,3,18.85,S05!D42
+S05,S05-G,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-212(Y),d60,4,14.9,S05!D43
+S05,S05-G,"MLN IFNg+ CD8, rgH5N1 restim (%)",PSLN-212(Y),d60,5,11.29,S05!D44
+S05,S05-H,MLN GZMB+ CD8 (%),Sham,d60,1,0.61,S05!A47
+S05,S05-H,MLN GZMB+ CD8 (%),Sham,d60,2,0.3,S05!A48
+S05,S05-H,MLN GZMB+ CD8 (%),Sham,d60,3,0.7,S05!A49
+S05,S05-H,MLN GZMB+ CD8 (%),Sham,d60,4,1.2,S05!A50
+S05,S05-H,MLN GZMB+ CD8 (%),Sham,d60,5,0.2,S05!A51
+S05,S05-H,MLN GZMB+ CD8 (%),PSLN-212,d60,1,0.92,S05!B47
+S05,S05-H,MLN GZMB+ CD8 (%),PSLN-212,d60,2,1.4,S05!B48
+S05,S05-H,MLN GZMB+ CD8 (%),PSLN-212,d60,3,0.8,S05!B49
+S05,S05-H,MLN GZMB+ CD8 (%),PSLN-212,d60,4,1.3,S05!B50
+S05,S05-H,MLN GZMB+ CD8 (%),PSLN-212,d60,5,0.7,S05!B51
+S05,S05-H,MLN GZMB+ CD8 (%),PSLN-344,d60,1,4.4,S05!C47
+S05,S05-H,MLN GZMB+ CD8 (%),PSLN-344,d60,2,5.1,S05!C48
+S05,S05-H,MLN GZMB+ CD8 (%),PSLN-344,d60,3,3.8,S05!C49
+S05,S05-H,MLN GZMB+ CD8 (%),PSLN-344,d60,4,4.91,S05!C50
+S05,S05-H,MLN GZMB+ CD8 (%),PSLN-344,d60,5,2.32,S05!C51
+S05,S05-H,MLN GZMB+ CD8 (%),PSLN-212(Y),d60,1,6.64,S05!D47
+S05,S05-H,MLN GZMB+ CD8 (%),PSLN-212(Y),d60,2,7.45,S05!D48
+S05,S05-H,MLN GZMB+ CD8 (%),PSLN-212(Y),d60,3,5.1,S05!D49
+S05,S05-H,MLN GZMB+ CD8 (%),PSLN-212(Y),d60,4,4.47,S05!D50
+S05,S05-H,MLN GZMB+ CD8 (%),PSLN-212(Y),d60,5,4.11,S05!D51
+S05,S05-I,lung CD8 TRM (%),Sham,d25,1,0.5,S05!A54
+S05,S05-I,lung CD8 TRM (%),Sham,d25,2,0.4,S05!A55
+S05,S05-I,lung CD8 TRM (%),Sham,d25,3,0.3,S05!A56
+S05,S05-I,lung CD8 TRM (%),Sham,d25,4,0.6,S05!A57
+S05,S05-I,lung CD8 TRM (%),Sham,d25,5,1.1,S05!A58
+S05,S05-I,lung CD8 TRM (%),PSLN-212,d25,1,0.73,S05!B54
+S05,S05-I,lung CD8 TRM (%),PSLN-212,d25,2,1.22,S05!B55
+S05,S05-I,lung CD8 TRM (%),PSLN-212,d25,3,1.53,S05!B56
+S05,S05-I,lung CD8 TRM (%),PSLN-212,d25,4,0.65,S05!B57
+S05,S05-I,lung CD8 TRM (%),PSLN-212,d25,5,0.87,S05!B58
+S05,S05-I,lung CD8 TRM (%),PSLN-344,d25,1,3.9,S05!C54
+S05,S05-I,lung CD8 TRM (%),PSLN-344,d25,2,4.22,S05!C55
+S05,S05-I,lung CD8 TRM (%),PSLN-344,d25,3,4.75,S05!C56
+S05,S05-I,lung CD8 TRM (%),PSLN-344,d25,4,3.03,S05!C57
+S05,S05-I,lung CD8 TRM (%),PSLN-344,d25,5,3.92,S05!C58
+S05,S05-I,lung CD8 TRM (%),PSLN-212(Y),d25,1,6.86,S05!D54
+S05,S05-I,lung CD8 TRM (%),PSLN-212(Y),d25,2,5.26,S05!D55
+S05,S05-I,lung CD8 TRM (%),PSLN-212(Y),d25,3,6.26,S05!D56
+S05,S05-I,lung CD8 TRM (%),PSLN-212(Y),d25,4,5.72,S05!D57
+S05,S05-I,lung CD8 TRM (%),PSLN-212(Y),d25,5,6.11,S05!D58
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-212,0,1,2.02,S07!B3
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-212,0,2,0.95,S07!C3
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-212,0,3,1.13,S07!D3
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-212,2,1,6.15,S07!B4
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-212,2,2,8.93,S07!C4
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-212,2,3,15.25,S07!D4
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-212,5,1,15.52,S07!B5
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-212,5,2,25.33,S07!C5
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-212,5,3,16.23,S07!D5
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-212,10,1,14.02,S07!B6
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-212,10,2,16.6,S07!C6
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-212,10,3,13.05,S07!D6
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-212,30,1,3.52,S07!B7
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-212,30,2,6.35,S07!C7
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-212,30,3,2.61,S07!D7
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-344,0,1,2.1,S07!E3
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-344,0,2,1.12,S07!F3
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-344,0,3,2.63,S07!G3
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-344,2,1,3.63,S07!E4
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-344,2,2,4.03,S07!F4
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-344,2,3,2.15,S07!G4
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-344,5,1,3.97,S07!E5
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-344,5,2,3.75,S07!F5
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-344,5,3,2.55,S07!G5
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-344,10,1,2.85,S07!E6
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-344,10,2,4.25,S07!F6
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-344,10,3,1.53,S07!G6
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-344,30,1,2.2,S07!E7
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-344,30,2,2.93,S07!F7
+S07,S07-A,lung Ly6C+CCR2+ macrophages (x1e5),PSLN-344,30,3,1.92,S07!G7
+S07,S07-B,lung CD11b+Ly6C+ monocytes (%),PSLN-344,,1,10.27,S07!B10
+S07,S07-B,lung CD11b+Ly6C+ monocytes (%),PSLN-344,,2,9.94,S07!B11
+S07,S07-B,lung CD11b+Ly6C+ monocytes (%),PSLN-344,,3,13.34,S07!B12
+S07,S07-B,lung CD11b+Ly6C+ monocytes (%),PSLN-344,,4,8.22,S07!B13
+S07,S07-B,lung CD11b+Ly6C+ monocytes (%),PSLN-344,,5,7.54,S07!B14
+S07,S07-B,lung CD11b+Ly6C+ monocytes (%),PSLN-344+INCB3344,,1,3.12,S07!C10
+S07,S07-B,lung CD11b+Ly6C+ monocytes (%),PSLN-344+INCB3344,,2,2.77,S07!C11
+S07,S07-B,lung CD11b+Ly6C+ monocytes (%),PSLN-344+INCB3344,,3,4.94,S07!C12
+S07,S07-B,lung CD11b+Ly6C+ monocytes (%),PSLN-344+INCB3344,,4,1.35,S07!C13
+S07,S07-B,lung CD11b+Ly6C+ monocytes (%),PSLN-344+INCB3344,,5,4.12,S07!C14
+S07,S07-B,lung Ly6C+ macrophages (%),PSLN-344,,1,14.7,S07!E10
+S07,S07-B,lung Ly6C+ macrophages (%),PSLN-344,,2,22.5,S07!E11
+S07,S07-B,lung Ly6C+ macrophages (%),PSLN-344,,3,10.27,S07!E12
+S07,S07-B,lung Ly6C+ macrophages (%),PSLN-344,,4,13.4,S07!E13
+S07,S07-B,lung Ly6C+ macrophages (%),PSLN-344,,5,15.9,S07!E14
+S07,S07-B,lung Ly6C+ macrophages (%),PSLN-344+INCB3344,,1,2.98,S07!F10
+S07,S07-B,lung Ly6C+ macrophages (%),PSLN-344+INCB3344,,2,3.35,S07!F11
+S07,S07-B,lung Ly6C+ macrophages (%),PSLN-344+INCB3344,,3,1.92,S07!F12
+S07,S07-B,lung Ly6C+ macrophages (%),PSLN-344+INCB3344,,4,2.12,S07!F13
+S07,S07-B,lung Ly6C+ macrophages (%),PSLN-344+INCB3344,,5,2.24,S07!F14
+S07,S07-C,lung Treg after Mphi transfer (%),"col B: ""Ly6C-CD206+ MPhi""",,1,13.3,S07!B16
+S07,S07-C,lung Treg after Mphi transfer (%),"col B: ""Ly6C-CD206+ MPhi""",,2,8.75,S07!B17
+S07,S07-C,lung Treg after Mphi transfer (%),"col B: ""Ly6C-CD206+ MPhi""",,3,8.02,S07!B18
+S07,S07-C,lung Treg after Mphi transfer (%),"col B: ""Ly6C-CD206+ MPhi""",,4,10.62,S07!B19
+S07,S07-C,lung Treg after Mphi transfer (%),"col B: ""Ly6C-CD206+ MPhi""",,5,11.5,S07!B20
+S07,S07-C,lung Treg after Mphi transfer (%),"col C: ""Ly6C-CD206+ MPhi""",,1,4.65,S07!C16
+S07,S07-C,lung Treg after Mphi transfer (%),"col C: ""Ly6C-CD206+ MPhi""",,2,6.57,S07!C17
+S07,S07-C,lung Treg after Mphi transfer (%),"col C: ""Ly6C-CD206+ MPhi""",,3,4.37,S07!C18
+S07,S07-C,lung Treg after Mphi transfer (%),"col C: ""Ly6C-CD206+ MPhi""",,4,6.95,S07!C19
+S07,S07-C,lung Treg after Mphi transfer (%),"col C: ""Ly6C-CD206+ MPhi""",,5,3.17,S07!C20
+S08,S08-A,Ifnb1 lung dose-response (fold),CMP-204,1,1,1.02,S08!B3
+S08,S08-A,Ifnb1 lung dose-response (fold),CMP-204,1,2,1.05,S08!C3
+S08,S08-A,Ifnb1 lung dose-response (fold),CMP-204,1,3,0.93,S08!D3
+S08,S08-A,Ifnb1 lung dose-response (fold),CMP-204,5,1,3.35,S08!B4
+S08,S08-A,Ifnb1 lung dose-response (fold),CMP-204,5,2,3.94,S08!C4
+S08,S08-A,Ifnb1 lung dose-response (fold),CMP-204,5,3,4.12,S08!D4
+S08,S08-A,Ifnb1 lung dose-response (fold),CMP-204,10,1,5.62,S08!B5
+S08,S08-A,Ifnb1 lung dose-response (fold),CMP-204,10,2,6.53,S08!C5
+S08,S08-A,Ifnb1 lung dose-response (fold),CMP-204,10,3,6.62,S08!D5
+S08,S08-A,Ifnb1 lung dose-response (fold),CMP-204,20,1,6.81,S08!B6
+S08,S08-A,Ifnb1 lung dose-response (fold),CMP-204,20,2,8.42,S08!C6
+S08,S08-A,Ifnb1 lung dose-response (fold),CMP-204,20,3,6.65,S08!D6
+S08,S08-A,Ifnb1 lung dose-response (fold),CMP-204,40,1,6.93,S08!B7
+S08,S08-A,Ifnb1 lung dose-response (fold),CMP-204,40,2,9.62,S08!C7
+S08,S08-A,Ifnb1 lung dose-response (fold),CMP-204,40,3,7.33,S08!D7
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-212,1,1,1.49,S08!E3
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-212,1,2,1.33,S08!F3
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-212,1,3,1.26,S08!G3
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-212,5,1,3.2,S08!E4
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-212,5,2,4.3,S08!F4
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-212,5,3,4.8,S08!G4
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-212,10,1,8.53,S08!E5
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-212,10,2,9.24,S08!F5
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-212,10,3,8.99,S08!G5
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-212,20,1,12.13,S08!E6
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-212,20,2,14.25,S08!F6
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-212,20,3,11.33,S08!G6
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-212,40,1,11.92,S08!E7
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-212,40,2,16.39,S08!F7
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-212,40,3,16.31,S08!G7
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344,1,1,1.41,S08!H3
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344,1,2,1.53,S08!I3
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344,1,3,1.21,S08!J3
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344,5,1,8.92,S08!H4
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344,5,2,9.37,S08!I4
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344,5,3,6.53,S08!J4
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344,10,1,21.25,S08!H5
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344,10,2,18.37,S08!I5
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344,10,3,23.64,S08!J5
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344,20,1,46.13,S08!H6
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344,20,2,52.15,S08!I6
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344,20,3,39.22,S08!J6
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344,40,1,55.13,S08!H7
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344,40,2,55.42,S08!I7
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344,40,3,40.14,S08!J7
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344/R848,1,1,1.25,S08!K3
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344/R848,1,2,0.92,S08!L3
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344/R848,1,3,0.91,S08!M3
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344/R848,5,1,6.35,S08!K4
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344/R848,5,2,7.98,S08!L4
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344/R848,5,3,5.79,S08!M4
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344/R848,10,1,16.57,S08!K5
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344/R848,10,2,12.25,S08!L5
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344/R848,10,3,15.31,S08!M5
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344/R848,20,1,36.35,S08!K6
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344/R848,20,2,24.13,S08!L6
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344/R848,20,3,27.86,S08!M6
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344/R848,40,1,41.53,S08!K7
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344/R848,40,2,33.88,S08!L7
+S08,S08-A,Ifnb1 lung dose-response (fold),PSLN-344/R848,40,3,29.31,S08!M7
+S08,S08-B,encapsulation efficiency (%),CMP-204,na,1,65.52,S08!A11
+S08,S08-B,encapsulation efficiency (%),CMP-204,na,2,71.07,S08!B11
+S08,S08-B,encapsulation efficiency (%),CMP-204,na,3,59.13,S08!C11
+S08,S08-B,encapsulation efficiency (%),PSLN-212,na,1,60.02,S08!D11
+S08,S08-B,encapsulation efficiency (%),PSLN-212,na,2,54.91,S08!E11
+S08,S08-B,encapsulation efficiency (%),PSLN-212,na,3,63.99,S08!F11
+S08,S08-B,encapsulation efficiency (%),PSLN-R848,na,1,62.39,S08!G11
+S08,S08-B,encapsulation efficiency (%),PSLN-R848,na,2,67.54,S08!H11
+S08,S08-B,encapsulation efficiency (%),PSLN-R848,na,3,54.08,S08!I11
+S08,S08-B,encapsulation efficiency (%),PSLN-212/R848,na,1,45.61,S08!J11
+S08,S08-B,encapsulation efficiency (%),PSLN-212/R848,na,2,51.58,S08!K11
+S08,S08-B,encapsulation efficiency (%),PSLN-212/R848,na,3,60.06,S08!L11
+S08,S08-B,encapsulation efficiency (%),PSLN-344,na,1,59.36,S08!M11
+S08,S08-B,encapsulation efficiency (%),PSLN-344,na,2,55.78,S08!N11
+S08,S08-B,encapsulation efficiency (%),PSLN-344,na,3,49.33,S08!O11
+S08,S08-C,SRB+ AEC (%),AECII-PSLN-SRB,16h,1,17.7,S08!A14
+S08,S08-C,SRB+ AEC (%),AECII-PSLN-SRB,16h,2,17.5,S08!A15
+S08,S08-C,SRB+ AEC (%),AECII-PSLN-SRB,16h,3,18.9,S08!A16
+S08,S08-C,SRB+ AEC (%),AECII-PSLN-SRB,16h,4,12.2,S08!A17
+S08,S08-C,SRB+ AEC (%),AECII-PSLN-SRB,16h,5,12.5,S08!A18
+S08,S08-C,SRB+ AEC (%),AECII-PSLN-344-SRB,16h,1,4.92,S08!B14
+S08,S08-C,SRB+ AEC (%),AECII-PSLN-344-SRB,16h,2,2.35,S08!B15
+S08,S08-C,SRB+ AEC (%),AECII-PSLN-344-SRB,16h,3,4.61,S08!B16
+S08,S08-C,SRB+ AEC (%),AECII-PSLN-344-SRB,16h,4,4.13,S08!B17
+S08,S08-C,SRB+ AEC (%),AECII-PSLN-344-SRB,16h,5,3.02,S08!B18
+S08,S08-C,SRB+ AEC (%),AECI-PSLN-SRB,16h,1,14.32,S08!C14
+S08,S08-C,SRB+ AEC (%),AECI-PSLN-SRB,16h,2,15.11,S08!C15
+S08,S08-C,SRB+ AEC (%),AECI-PSLN-SRB,16h,3,15.12,S08!C16
+S08,S08-C,SRB+ AEC (%),AECI-PSLN-SRB,16h,4,11.83,S08!C17
+S08,S08-C,SRB+ AEC (%),AECI-PSLN-SRB,16h,5,12.42,S08!C18
+S08,S08-C,SRB+ AEC (%),AECI-PSLN-344-SRB,16h,1,2.93,S08!D14
+S08,S08-C,SRB+ AEC (%),AECI-PSLN-344-SRB,16h,2,3.53,S08!D15
+S08,S08-C,SRB+ AEC (%),AECI-PSLN-344-SRB,16h,3,3.79,S08!D16
+S08,S08-C,SRB+ AEC (%),AECI-PSLN-344-SRB,16h,4,2.52,S08!D17
+S08,S08-C,SRB+ AEC (%),AECI-PSLN-344-SRB,16h,5,2.23,S08!D18
+S09,S09-A,Ifnb1 (log10 fold),PBS,panel1(A-U),1,0.264906,S09!B3
+S09,S09-A,Ifnb1 (log10 fold),PBS,panel1(A-U),2,-0.20771,S09!C3
+S09,S09-A,Ifnb1 (log10 fold),PBS,panel1(A-U),3,-0.0572,S09!D3
+S09,S09-A,Il6 (log10 fold),PBS,panel1(A-U),1,-0.23681,S09!B4
+S09,S09-A,Il6 (log10 fold),PBS,panel1(A-U),2,-0.10135,S09!C4
+S09,S09-A,Il6 (log10 fold),PBS,panel1(A-U),3,0.338157,S09!D4
+S09,S09-A,Ccl2 (log10 fold),PBS,panel1(A-U),1,-0.15353,S09!B5
+S09,S09-A,Ccl2 (log10 fold),PBS,panel1(A-U),2,-0.19266,S09!C5
+S09,S09-A,Ccl2 (log10 fold),PBS,panel1(A-U),3,0.346184,S09!D5
+S09,S09-A,Ccl3 (log10 fold),PBS,panel1(A-U),1,0.509744,S09!B6
+S09,S09-A,Ccl3 (log10 fold),PBS,panel1(A-U),2,-0.14048,S09!C6
+S09,S09-A,Ccl3 (log10 fold),PBS,panel1(A-U),3,-0.36926,S09!D6
+S09,S09-A,Ccl5 (log10 fold),PBS,panel1(A-U),1,-0.05419,S09!B7
+S09,S09-A,Ccl5 (log10 fold),PBS,panel1(A-U),2,-0.09934,S09!C7
+S09,S09-A,Ccl5 (log10 fold),PBS,panel1(A-U),3,0.153525,S09!D7
+S09,S09-A,Tnf (log10 fold),PBS,panel1(A-U),1,0.10536,S09!B8
+S09,S09-A,Tnf (log10 fold),PBS,panel1(A-U),2,-0.30404,S09!C8
+S09,S09-A,Tnf (log10 fold),PBS,panel1(A-U),3,0.19868,S09!D8
+S09,S09-A,Il10 (log10 fold),PBS,panel1(A-U),1,0.108371,S09!B9
+S09,S09-A,Il10 (log10 fold),PBS,panel1(A-U),2,0.126433,S09!C9
+S09,S09-A,Il10 (log10 fold),PBS,panel1(A-U),3,-0.2348,S09!D9
+S09,S09-A,Ifnb1 (log10 fold),CMP-204,panel1(A-U),1,0.78992,S09!E3
+S09,S09-A,Ifnb1 (log10 fold),CMP-204,panel1(A-U),2,1.025755,S09!F3
+S09,S09-A,Ifnb1 (log10 fold),CMP-204,panel1(A-U),3,0.832005,S09!G3
+S09,S09-A,Il6 (log10 fold),CMP-204,panel1(A-U),1,0.352114,S09!E4
+S09,S09-A,Il6 (log10 fold),CMP-204,panel1(A-U),2,0.331783,S09!F4
+S09,S09-A,Il6 (log10 fold),CMP-204,panel1(A-U),3,0.421935,S09!G4
+S09,S09-A,Ccl2 (log10 fold),CMP-204,panel1(A-U),1,0.631754,S09!E5
+S09,S09-A,Ccl2 (log10 fold),CMP-204,panel1(A-U),2,0.942914,S09!F5
+S09,S09-A,Ccl2 (log10 fold),CMP-204,panel1(A-U),3,0.63557,S09!G5
+S09,S09-A,Ccl3 (log10 fold),CMP-204,panel1(A-U),1,0.151623,S09!E6
+S09,S09-A,Ccl3 (log10 fold),CMP-204,panel1(A-U),2,-0.113978,S09!F6
+S09,S09-A,Ccl3 (log10 fold),CMP-204,panel1(A-U),3,0.223519,S09!G6
+S09,S09-A,Ccl5 (log10 fold),CMP-204,panel1(A-U),1,0.151731,S09!E7
+S09,S09-A,Ccl5 (log10 fold),CMP-204,panel1(A-U),2,0.159013,S09!F7
+S09,S09-A,Ccl5 (log10 fold),CMP-204,panel1(A-U),3,0.271035,S09!G7
+S09,S09-A,Tnf (log10 fold),CMP-204,panel1(A-U),1,0.779153,S09!E8
+S09,S09-A,Tnf (log10 fold),CMP-204,panel1(A-U),2,0.81352,S09!F8
+S09,S09-A,Tnf (log10 fold),CMP-204,panel1(A-U),3,0.951676,S09!G8
+S09,S09-A,Il10 (log10 fold),CMP-204,panel1(A-U),1,0.61354,S09!E9
+S09,S09-A,Il10 (log10 fold),CMP-204,panel1(A-U),2,0.53006,S09!F9
+S09,S09-A,Il10 (log10 fold),CMP-204,panel1(A-U),3,0.426513,S09!G9
+S09,S09-A,Ifnb1 (log10 fold),PSLN-212,panel1(A-U),1,1.126675,S09!H3
+S09,S09-A,Ifnb1 (log10 fold),PSLN-212,panel1(A-U),2,1.244231,S09!I3
+S09,S09-A,Ifnb1 (log10 fold),PSLN-212,panel1(A-U),3,1.279075,S09!J3
+S09,S09-A,Il6 (log10 fold),PSLN-212,panel1(A-U),1,0.809771,S09!H4
+S09,S09-A,Il6 (log10 fold),PSLN-212,panel1(A-U),2,0.945234,S09!I4
+S09,S09-A,Il6 (log10 fold),PSLN-212,panel1(A-U),3,0.481648,S09!J4
+S09,S09-A,Ccl2 (log10 fold),PSLN-212,panel1(A-U),1,1.1,S09!H5
+S09,S09-A,Ccl2 (log10 fold),PSLN-212,panel1(A-U),2,0.710247,S09!I5
+S09,S09-A,Ccl2 (log10 fold),PSLN-212,panel1(A-U),3,0.836679,S09!J5
+S09,S09-A,Ccl3 (log10 fold),PSLN-212,panel1(A-U),1,-0.17159,S09!H6
+S09,S09-A,Ccl3 (log10 fold),PSLN-212,panel1(A-U),2,0.10536,S09!I6
+S09,S09-A,Ccl3 (log10 fold),PSLN-212,panel1(A-U),3,0.21072,S09!J6
+S09,S09-A,Ccl5 (log10 fold),PSLN-212,panel1(A-U),1,0.477634,S09!H7
+S09,S09-A,Ccl5 (log10 fold),PSLN-212,panel1(A-U),2,0.392316,S09!I7
+S09,S09-A,Ccl5 (log10 fold),PSLN-212,panel1(A-U),3,0.382625,S09!J7
+S09,S09-A,Tnf (log10 fold),PSLN-212,panel1(A-U),1,1.263323,S09!H8
+S09,S09-A,Tnf (log10 fold),PSLN-212,panel1(A-U),2,1.416848,S09!I8
+S09,S09-A,Tnf (log10 fold),PSLN-212,panel1(A-U),3,0.908107,S09!J8
+S09,S09-A,Il10 (log10 fold),PSLN-212,panel1(A-U),1,0.63417,S09!H9
+S09,S09-A,Il10 (log10 fold),PSLN-212,panel1(A-U),2,0.778664,S09!I9
+S09,S09-A,Il10 (log10 fold),PSLN-212,panel1(A-U),3,0.294006,S09!J9
+S09,S09-A,Ifnb1 (log10 fold),PSLN-R848,panel1(A-U),1,0.935469,S09!K3
+S09,S09-A,Ifnb1 (log10 fold),PSLN-R848,panel1(A-U),2,0.63116,S09!L3
+S09,S09-A,Ifnb1 (log10 fold),PSLN-R848,panel1(A-U),3,0.346023,S09!M3
+S09,S09-A,Il6 (log10 fold),PSLN-R848,panel1(A-U),1,0.237814,S09!K4
+S09,S09-A,Il6 (log10 fold),PSLN-R848,panel1(A-U),2,0.225772,S09!L4
+S09,S09-A,Il6 (log10 fold),PSLN-R848,panel1(A-U),3,0.421442,S09!M4
+S09,S09-A,Ccl2 (log10 fold),PSLN-R848,panel1(A-U),1,0.185055,S09!K5
+S09,S09-A,Ccl2 (log10 fold),PSLN-R848,panel1(A-U),2,0.425879,S09!L5
+S09,S09-A,Ccl2 (log10 fold),PSLN-R848,panel1(A-U),3,0.582335,S09!M5
+S09,S09-A,Ccl3 (log10 fold),PSLN-R848,panel1(A-U),1,0.466596,S09!K6
+S09,S09-A,Ccl3 (log10 fold),PSLN-R848,panel1(A-U),2,0.626142,S09!L6
+S09,S09-A,Ccl3 (log10 fold),PSLN-R848,panel1(A-U),3,0.785688,S09!M6
+S09,S09-A,Ccl5 (log10 fold),PSLN-R848,panel1(A-U),1,0.017058,S09!K7
+S09,S09-A,Ccl5 (log10 fold),PSLN-R848,panel1(A-U),2,-0.00401,S09!L7
+S09,S09-A,Ccl5 (log10 fold),PSLN-R848,panel1(A-U),3,-0.37729,S09!M7
+S09,S09-A,Tnf (log10 fold),PSLN-R848,panel1(A-U),1,1.924559,S09!K8
+S09,S09-A,Tnf (log10 fold),PSLN-R848,panel1(A-U),2,2.154371,S09!L8
+S09,S09-A,Tnf (log10 fold),PSLN-R848,panel1(A-U),3,2.265752,S09!M8
+S09,S09-A,Il10 (log10 fold),PSLN-R848,panel1(A-U),1,1.407817,S09!K9
+S09,S09-A,Il10 (log10 fold),PSLN-R848,panel1(A-U),2,1.573383,S09!L9
+S09,S09-A,Il10 (log10 fold),PSLN-R848,panel1(A-U),3,1.389755,S09!M9
+S09,S09-A,Ifnb1 (log10 fold),PSLN-212/R848,panel1(A-U),1,1.463673,S09!N3
+S09,S09-A,Ifnb1 (log10 fold),PSLN-212/R848,panel1(A-U),2,1.357645,S09!O3
+S09,S09-A,Ifnb1 (log10 fold),PSLN-212/R848,panel1(A-U),3,1.320684,S09!P3
+S09,S09-A,Il6 (log10 fold),PSLN-212/R848,panel1(A-U),1,1.319805,S09!N4
+S09,S09-A,Il6 (log10 fold),PSLN-212/R848,panel1(A-U),2,1.648218,S09!O4
+S09,S09-A,Il6 (log10 fold),PSLN-212/R848,panel1(A-U),3,1.506734,S09!P4
+S09,S09-A,Ccl2 (log10 fold),PSLN-212/R848,panel1(A-U),1,2.233643,S09!N5
+S09,S09-A,Ccl2 (log10 fold),PSLN-212/R848,panel1(A-U),2,2.579827,S09!O5
+S09,S09-A,Ccl2 (log10 fold),PSLN-212/R848,panel1(A-U),3,2.248694,S09!P5
+S09,S09-A,Ccl3 (log10 fold),PSLN-212/R848,panel1(A-U),1,0.416425,S09!N6
+S09,S09-A,Ccl3 (log10 fold),PSLN-212/R848,panel1(A-U),2,0.810774,S09!O6
+S09,S09-A,Ccl3 (log10 fold),PSLN-212/R848,panel1(A-U),3,0.51312,S09!P6
+S09,S09-A,Ccl5 (log10 fold),PSLN-212/R848,panel1(A-U),1,1.014391,S09!N7
+S09,S09-A,Ccl5 (log10 fold),PSLN-212/R848,panel1(A-U),2,0.753895,S09!O7
+S09,S09-A,Ccl5 (log10 fold),PSLN-212/R848,panel1(A-U),3,0.970267,S09!P7
+S09,S09-A,Tnf (log10 fold),PSLN-212/R848,panel1(A-U),1,2.194509,S09!N8
+S09,S09-A,Tnf (log10 fold),PSLN-212/R848,panel1(A-U),2,2.302879,S09!O8
+S09,S09-A,Tnf (log10 fold),PSLN-212/R848,panel1(A-U),3,2.420281,S09!P8
+S09,S09-A,Il10 (log10 fold),PSLN-212/R848,panel1(A-U),1,2.218591,S09!N9
+S09,S09-A,Il10 (log10 fold),PSLN-212/R848,panel1(A-U),2,2.302879,S09!O9
+S09,S09-A,Il10 (log10 fold),PSLN-212/R848,panel1(A-U),3,2.239663,S09!P9
+S09,S09-A,Ifnb1 (log10 fold),PSLN-344,panel1(A-U),1,1.64655,S09!Q3
+S09,S09-A,Ifnb1 (log10 fold),PSLN-344,panel1(A-U),2,1.513004,S09!R3
+S09,S09-A,Ifnb1 (log10 fold),PSLN-344,panel1(A-U),3,1.521319,S09!S3
+S09,S09-A,Il6 (log10 fold),PSLN-344,panel1(A-U),1,1.666069,S09!Q4
+S09,S09-A,Il6 (log10 fold),PSLN-344,panel1(A-U),2,1.77407,S09!R4
+S09,S09-A,Il6 (log10 fold),PSLN-344,panel1(A-U),3,1.231636,S09!S4
+S09,S09-A,Ccl2 (log10 fold),PSLN-344,panel1(A-U),1,2.823081,S09!Q5
+S09,S09-A,Ccl2 (log10 fold),PSLN-344,panel1(A-U),2,3.066915,S09!R5
+S09,S09-A,Ccl2 (log10 fold),PSLN-344,panel1(A-U),3,2.422711,S09!S5
+S09,S09-A,Ccl3 (log10 fold),PSLN-344,panel1(A-U),1,1.660382,S09!Q6
+S09,S09-A,Ccl3 (log10 fold),PSLN-344,panel1(A-U),2,1.459009,S09!R6
+S09,S09-A,Ccl3 (log10 fold),PSLN-344,panel1(A-U),3,1.304463,S09!S6
+S09,S09-A,Ccl5 (log10 fold),PSLN-344,panel1(A-U),1,1.59942,S09!Q7
+S09,S09-A,Ccl5 (log10 fold),PSLN-344,panel1(A-U),2,1.131873,S09!R7
+S09,S09-A,Ccl5 (log10 fold),PSLN-344,panel1(A-U),3,1.159916,S09!S7
+S09,S09-A,Tnf (log10 fold),PSLN-344,panel1(A-U),1,1.657645,S09!Q8
+S09,S09-A,Tnf (log10 fold),PSLN-344,panel1(A-U),2,1.584078,S09!R8
+S09,S09-A,Tnf (log10 fold),PSLN-344,panel1(A-U),3,1.580407,S09!S8
+S09,S09-A,Il10 (log10 fold),PSLN-344,panel1(A-U),1,1.10478,S09!Q9
+S09,S09-A,Il10 (log10 fold),PSLN-344,panel1(A-U),2,0.713441,S09!R9
+S09,S09-A,Il10 (log10 fold),PSLN-344,panel1(A-U),3,0.773647,S09!S9
+S09,S09-A,Ifnb1 (log10 fold),PSLN-212(y),panel1(A-U),1,1.562716,S09!T3
+S09,S09-A,Ifnb1 (log10 fold),PSLN-212(y),panel1(A-U),2,1.632797,S09!U3
+S09,S09-A,Ifnb1 (log10 fold),PSLN-212(y),panel1(A-U),3,1.537973,S09!V3
+S09,S09-A,Il6 (log10 fold),PSLN-212(y),panel1(A-U),1,1.635016,S09!T4
+S09,S09-A,Il6 (log10 fold),PSLN-212(y),panel1(A-U),2,2.002563,S09!U4
+S09,S09-A,Il6 (log10 fold),PSLN-212(y),panel1(A-U),3,1.703883,S09!V4
+S09,S09-A,Ccl2 (log10 fold),PSLN-212(y),panel1(A-U),1,3.443203,S09!T5
+S09,S09-A,Ccl2 (log10 fold),PSLN-212(y),panel1(A-U),2,2.850174,S09!U5
+S09,S09-A,Ccl2 (log10 fold),PSLN-212(y),panel1(A-U),3,3.136152,S09!V5
+S09,S09-A,Ccl3 (log10 fold),PSLN-212(y),panel1(A-U),1,1.97275,S09!T6
+S09,S09-A,Ccl3 (log10 fold),PSLN-212(y),panel1(A-U),2,1.698813,S09!U6
+S09,S09-A,Ccl3 (log10 fold),PSLN-212(y),panel1(A-U),3,1.602483,S09!V6
+S09,S09-A,Ccl5 (log10 fold),PSLN-212(y),panel1(A-U),1,2.001849,S09!T7
+S09,S09-A,Ccl5 (log10 fold),PSLN-212(y),panel1(A-U),2,1.550304,S09!U7
+S09,S09-A,Ccl5 (log10 fold),PSLN-212(y),panel1(A-U),3,1.827252,S09!V7
+S09,S09-A,Tnf (log10 fold),PSLN-212(y),panel1(A-U),1,1.258596,S09!T8
+S09,S09-A,Tnf (log10 fold),PSLN-212(y),panel1(A-U),2,1.121152,S09!U8
+S09,S09-A,Tnf (log10 fold),PSLN-212(y),panel1(A-U),3,1.047584,S09!V8
+S09,S09-A,Il10 (log10 fold),PSLN-212(y),panel1(A-U),1,0.237814,S09!T9
+S09,S09-A,Il10 (log10 fold),PSLN-212(y),panel1(A-U),2,0.162556,S09!U9
+S09,S09-A,Il10 (log10 fold),PSLN-212(y),panel1(A-U),3,0.391339,S09!V9
+S09,S09-A,Ifnb1 (log10 fold),PBS,panel2(X-AS),1,0.083285,S09!Y3
+S09,S09-A,Ifnb1 (log10 fold),PBS,panel2(X-AS),2,-0.07626,S09!Z3
+S09,S09-A,Ifnb1 (log10 fold),PBS,panel2(X-AS),3,-0.00702,S09!AA3
+S09,S09-A,Il6 (log10 fold),PBS,panel2(X-AS),1,0.165566,S09!Y4
+S09,S09-A,Il6 (log10 fold),PBS,panel2(X-AS),2,0.078268,S09!Z4
+S09,S09-A,Il6 (log10 fold),PBS,panel2(X-AS),3,-0.24383,S09!AA4
+S09,S09-A,Ccl2 (log10 fold),PBS,panel2(X-AS),1,-0.24383,S09!Y5
+S09,S09-A,Ccl2 (log10 fold),PBS,panel2(X-AS),2,0.147505,S09!Z5
+S09,S09-A,Ccl2 (log10 fold),PBS,panel2(X-AS),3,0.09633,S09!AA5
+S09,S09-A,Ccl3 (log10 fold),PBS,panel2(X-AS),1,0.130446,S09!Y6
+S09,S09-A,Ccl3 (log10 fold),PBS,panel2(X-AS),2,-0.18564,S09!Z6
+S09,S09-A,Ccl3 (log10 fold),PBS,panel2(X-AS),3,0.055189,S09!AA6
+S09,S09-A,Ccl5 (log10 fold),PBS,panel2(X-AS),1,-0.06221,S09!Y7
+S09,S09-A,Ccl5 (log10 fold),PBS,panel2(X-AS),2,0.115395,S09!Z7
+S09,S09-A,Ccl5 (log10 fold),PBS,panel2(X-AS),3,-0.05318,S09!AA7
+S09,S09-A,Tnf (log10 fold),PBS,panel2(X-AS),1,0.160549,S09!Y8
+S09,S09-A,Tnf (log10 fold),PBS,panel2(X-AS),2,-0.21273,S09!Z8
+S09,S09-A,Tnf (log10 fold),PBS,panel2(X-AS),3,0.052179,S09!AA8
+S09,S09-A,Il10 (log10 fold),PBS,panel2(X-AS),1,0.188645,S09!Y9
+S09,S09-A,Il10 (log10 fold),PBS,panel2(X-AS),2,0.164563,S09!Z9
+S09,S09-A,Il10 (log10 fold),PBS,panel2(X-AS),3,-0.35321,S09!AA9
+S09,S09-A,Ifnb1 (log10 fold),CMP-204,panel2(X-AS),1,0.233835,S09!AB3
+S09,S09-A,Ifnb1 (log10 fold),CMP-204,panel2(X-AS),2,0.391592,S09!AC3
+S09,S09-A,Ifnb1 (log10 fold),CMP-204,panel2(X-AS),3,0.391334,S09!AD3
+S09,S09-A,Il6 (log10 fold),CMP-204,panel2(X-AS),1,0.113254,S09!AB4
+S09,S09-A,Il6 (log10 fold),CMP-204,panel2(X-AS),2,0.052231,S09!AC4
+S09,S09-A,Il6 (log10 fold),CMP-204,panel2(X-AS),3,-0.05216,S09!AD4
+S09,S09-A,Ccl2 (log10 fold),CMP-204,panel2(X-AS),1,0.888251,S09!AB5
+S09,S09-A,Ccl2 (log10 fold),CMP-204,panel2(X-AS),2,0.792316,S09!AC5
+S09,S09-A,Ccl2 (log10 fold),CMP-204,panel2(X-AS),3,0.594253,S09!AD5
+S09,S09-A,Ccl3 (log10 fold),CMP-204,panel2(X-AS),1,0.113454,S09!AB6
+S09,S09-A,Ccl3 (log10 fold),CMP-204,panel2(X-AS),2,0.051642,S09!AC6
+S09,S09-A,Ccl3 (log10 fold),CMP-204,panel2(X-AS),3,0.221342,S09!AD6
+S09,S09-A,Ccl5 (log10 fold),CMP-204,panel2(X-AS),1,0.159678,S09!AB7
+S09,S09-A,Ccl5 (log10 fold),CMP-204,panel2(X-AS),2,0.013412,S09!AC7
+S09,S09-A,Ccl5 (log10 fold),CMP-204,panel2(X-AS),3,-0.00512,S09!AD7
+S09,S09-A,Tnf (log10 fold),CMP-204,panel2(X-AS),1,0.441765,S09!AB8
+S09,S09-A,Tnf (log10 fold),CMP-204,panel2(X-AS),2,0.313398,S09!AC8
+S09,S09-A,Tnf (log10 fold),CMP-204,panel2(X-AS),3,0.421981,S09!AD8
+S09,S09-A,Il10 (log10 fold),CMP-204,panel2(X-AS),1,0.669815,S09!AB9
+S09,S09-A,Il10 (log10 fold),CMP-204,panel2(X-AS),2,0.852306,S09!AC9
+S09,S09-A,Il10 (log10 fold),CMP-204,panel2(X-AS),3,0.113513,S09!AD9
+S09,S09-A,Ifnb1 (log10 fold),PSLN-212,panel2(X-AS),1,0.487298,S09!AE3
+S09,S09-A,Ifnb1 (log10 fold),PSLN-212,panel2(X-AS),2,0.502719,S09!AF3
+S09,S09-A,Ifnb1 (log10 fold),PSLN-212,panel2(X-AS),3,0.605069,S09!AG3
+S09,S09-A,Il6 (log10 fold),PSLN-212,panel2(X-AS),1,0.293662,S09!AE4
+S09,S09-A,Il6 (log10 fold),PSLN-212,panel2(X-AS),2,0.157538,S09!AF4
+S09,S09-A,Il6 (log10 fold),PSLN-212,panel2(X-AS),3,0.36054,S09!AG4
+S09,S09-A,Ccl2 (log10 fold),PSLN-212,panel2(X-AS),1,0.688751,S09!AE5
+S09,S09-A,Ccl2 (log10 fold),PSLN-212,panel2(X-AS),2,0.77972,S09!AF5
+S09,S09-A,Ccl2 (log10 fold),PSLN-212,panel2(X-AS),3,0.6869,S09!AG5
+S09,S09-A,Ccl3 (log10 fold),PSLN-212,panel2(X-AS),1,0.817798,S09!AE6
+S09,S09-A,Ccl3 (log10 fold),PSLN-212,panel2(X-AS),2,0.513758,S09!AF6
+S09,S09-A,Ccl3 (log10 fold),PSLN-212,panel2(X-AS),3,0.694006,S09!AG6
+S09,S09-A,Ccl5 (log10 fold),PSLN-212,panel2(X-AS),1,-0.02208,S09!AE7
+S09,S09-A,Ccl5 (log10 fold),PSLN-212,panel2(X-AS),2,0.230789,S09!AF7
+S09,S09-A,Ccl5 (log10 fold),PSLN-212,panel2(X-AS),3,0.038129,S09!AG7
+S09,S09-A,Tnf (log10 fold),PSLN-212,panel2(X-AS),1,0.645181,S09!AE8
+S09,S09-A,Tnf (log10 fold),PSLN-212,panel2(X-AS),2,0.745551,S09!AF8
+S09,S09-A,Tnf (log10 fold),PSLN-212,panel2(X-AS),3,0.763613,S09!AG8
+S09,S09-A,Il10 (log10 fold),PSLN-212,panel2(X-AS),1,0.638183,S09!AE9
+S09,S09-A,Il10 (log10 fold),PSLN-212,panel2(X-AS),2,0.469606,S09!AF9
+S09,S09-A,Il10 (log10 fold),PSLN-212,panel2(X-AS),3,0.755584,S09!AG9
+S09,S09-A,Ifnb1 (log10 fold),PSLN-R848,panel2(X-AS),1,0.11381,S09!AH3
+S09,S09-A,Ifnb1 (log10 fold),PSLN-R848,panel2(X-AS),2,0.09362,S09!AI3
+S09,S09-A,Ifnb1 (log10 fold),PSLN-R848,panel2(X-AS),3,0.080073,S09!AJ3
+S09,S09-A,Il6 (log10 fold),PSLN-R848,panel2(X-AS),1,0.617824,S09!AH4
+S09,S09-A,Il6 (log10 fold),PSLN-R848,panel2(X-AS),2,0.648957,S09!AI4
+S09,S09-A,Il6 (log10 fold),PSLN-R848,panel2(X-AS),3,0.560998,S09!AJ4
+S09,S09-A,Ccl2 (log10 fold),PSLN-R848,panel2(X-AS),1,0.952257,S09!AH5
+S09,S09-A,Ccl2 (log10 fold),PSLN-R848,panel2(X-AS),2,1.114813,S09!AI5
+S09,S09-A,Ccl2 (log10 fold),PSLN-R848,panel2(X-AS),3,0.958278,S09!AJ5
+S09,S09-A,Ccl3 (log10 fold),PSLN-R848,panel2(X-AS),1,-0.17861,S09!AH6
+S09,S09-A,Ccl3 (log10 fold),PSLN-R848,panel2(X-AS),2,-0.2328,S09!AI6
+S09,S09-A,Ccl3 (log10 fold),PSLN-R848,panel2(X-AS),3,-0.10636,S09!AJ6
+S09,S09-A,Ccl5 (log10 fold),PSLN-R848,panel2(X-AS),1,-0.1455,S09!AH7
+S09,S09-A,Ccl5 (log10 fold),PSLN-R848,panel2(X-AS),2,0.083284,S09!AI7
+S09,S09-A,Ccl5 (log10 fold),PSLN-R848,panel2(X-AS),3,0.167572,S09!AJ7
+S09,S09-A,Tnf (log10 fold),PSLN-R848,panel2(X-AS),1,1.545261,S09!AH8
+S09,S09-A,Tnf (log10 fold),PSLN-R848,panel2(X-AS),2,1.467653,S09!AI8
+S09,S09-A,Tnf (log10 fold),PSLN-R848,panel2(X-AS),3,1.345261,S09!AJ8
+S09,S09-A,Il10 (log10 fold),PSLN-R848,panel2(X-AS),1,0.948243,S09!AH9
+S09,S09-A,Il10 (log10 fold),PSLN-R848,panel2(X-AS),2,0.31608,S09!AI9
+S09,S09-A,Il10 (log10 fold),PSLN-R848,panel2(X-AS),3,0.61109,S09!AJ9
+S09,S09-A,Ifnb1 (log10 fold),PSLN-212/R848,panel2(X-AS),1,0.17184,S09!AK3
+S09,S09-A,Ifnb1 (log10 fold),PSLN-212/R848,panel2(X-AS),2,0.22351,S09!AL3
+S09,S09-A,Ifnb1 (log10 fold),PSLN-212/R848,panel2(X-AS),3,0.25192,S09!AM3
+S09,S09-A,Il6 (log10 fold),PSLN-212/R848,panel2(X-AS),1,1.560338,S09!AK4
+S09,S09-A,Il6 (log10 fold),PSLN-212/R848,panel2(X-AS),2,1.659678,S09!AL4
+S09,S09-A,Il6 (log10 fold),PSLN-212/R848,panel2(X-AS),3,1.367679,S09!AM4
+S09,S09-A,Ccl2 (log10 fold),PSLN-212/R848,panel2(X-AS),1,1.842276,S09!AK5
+S09,S09-A,Ccl2 (log10 fold),PSLN-212/R848,panel2(X-AS),2,1.629575,S09!AL5
+S09,S09-A,Ccl2 (log10 fold),PSLN-212/R848,panel2(X-AS),3,1.827885,S09!AM5
+S09,S09-A,Ccl3 (log10 fold),PSLN-212/R848,panel2(X-AS),1,0.94043,S09!AK6
+S09,S09-A,Ccl3 (log10 fold),PSLN-212/R848,panel2(X-AS),2,1.286085,S09!AL6
+S09,S09-A,Ccl3 (log10 fold),PSLN-212/R848,panel2(X-AS),3,1.174994,S09!AM6
+S09,S09-A,Ccl5 (log10 fold),PSLN-212/R848,panel2(X-AS),1,1.733509,S09!AK7
+S09,S09-A,Ccl5 (log10 fold),PSLN-212/R848,panel2(X-AS),2,1.463902,S09!AL7
+S09,S09-A,Ccl5 (log10 fold),PSLN-212/R848,panel2(X-AS),3,2.01758,S09!AM7
+S09,S09-A,Tnf (log10 fold),PSLN-212/R848,panel2(X-AS),1,1.582414,S09!AK8
+S09,S09-A,Tnf (log10 fold),PSLN-212/R848,panel2(X-AS),2,1.787115,S09!AL8
+S09,S09-A,Tnf (log10 fold),PSLN-212/R848,panel2(X-AS),3,1.733589,S09!AM8
+S09,S09-A,Il10 (log10 fold),PSLN-212/R848,panel2(X-AS),1,1.767045,S09!AK9
+S09,S09-A,Il10 (log10 fold),PSLN-212/R848,panel2(X-AS),2,1.583417,S09!AL9
+S09,S09-A,Il10 (log10 fold),PSLN-212/R848,panel2(X-AS),3,1.610509,S09!AM9
+S09,S09-A,Ifnb1 (log10 fold),PSLN-344,panel2(X-AS),1,0.845893,S09!AN3
+S09,S09-A,Ifnb1 (log10 fold),PSLN-344,panel2(X-AS),2,0.602059,S09!AO3
+S09,S09-A,Ifnb1 (log10 fold),PSLN-344,panel2(X-AS),3,0.361235,S09!AP3
+S09,S09-A,Il6 (log10 fold),PSLN-344,panel2(X-AS),1,0.650567,S09!AN4
+S09,S09-A,Il6 (log10 fold),PSLN-344,panel2(X-AS),2,0.837206,S09!AO4
+S09,S09-A,Il6 (log10 fold),PSLN-344,panel2(X-AS),3,1.0817,S09!AP4
+S09,S09-A,Ccl2 (log10 fold),PSLN-344,panel2(X-AS),1,1.488091,S09!AN5
+S09,S09-A,Ccl2 (log10 fold),PSLN-344,panel2(X-AS),2,1.566358,S09!AO5
+S09,S09-A,Ccl2 (log10 fold),PSLN-344,panel2(X-AS),3,1.259308,S09!AP5
+S09,S09-A,Ccl3 (log10 fold),PSLN-344,panel2(X-AS),1,1.013468,S09!AN6
+S09,S09-A,Ccl3 (log10 fold),PSLN-344,panel2(X-AS),2,0.802747,S09!AO6
+S09,S09-A,Ccl3 (log10 fold),PSLN-344,panel2(X-AS),3,1.079694,S09!AP6
+S09,S09-A,Ccl5 (log10 fold),PSLN-344,panel2(X-AS),1,0.387324,S09!AN7
+S09,S09-A,Ccl5 (log10 fold),PSLN-344,panel2(X-AS),2,0.23982,S09!AO7
+S09,S09-A,Ccl5 (log10 fold),PSLN-344,panel2(X-AS),3,0.281964,S09!AP7
+S09,S09-A,Tnf (log10 fold),PSLN-344,panel2(X-AS),1,1.03689,S09!AN8
+S09,S09-A,Tnf (log10 fold),PSLN-344,panel2(X-AS),2,0.83285,S09!AO8
+S09,S09-A,Tnf (log10 fold),PSLN-344,panel2(X-AS),3,0.909137,S09!AP8
+S09,S09-A,Il10 (log10 fold),PSLN-344,panel2(X-AS),1,0.879007,S09!AN9
+S09,S09-A,Il10 (log10 fold),PSLN-344,panel2(X-AS),2,0.61711,S09!AO9
+S09,S09-A,Il10 (log10 fold),PSLN-344,panel2(X-AS),3,0.361235,S09!AP9
+S09,S09-A,Ifnb1 (log10 fold),PSLN-212(y),panel2(X-AS),1,-0.19366,S09!AQ3
+S09,S09-A,Ifnb1 (log10 fold),PSLN-212(y),panel2(X-AS),2,0.269924,S09!AR3
+S09,S09-A,Ifnb1 (log10 fold),PSLN-212(y),panel2(X-AS),3,0.357222,S09!AS3
+S09,S09-A,Il6 (log10 fold),PSLN-212(y),panel2(X-AS),1,0.39736,S09!AQ4
+S09,S09-A,Il6 (log10 fold),PSLN-212(y),panel2(X-AS),2,0.511751,S09!AR4
+S09,S09-A,Il6 (log10 fold),PSLN-212(y),panel2(X-AS),3,0.566305,S09!AS4
+S09,S09-A,Ccl2 (log10 fold),PSLN-212(y),panel2(X-AS),1,1.839292,S09!AQ5
+S09,S09-A,Ccl2 (log10 fold),PSLN-212(y),panel2(X-AS),2,2.077106,S09!AR5
+S09,S09-A,Ccl2 (log10 fold),PSLN-212(y),panel2(X-AS),3,2.104199,S09!AS5
+S09,S09-A,Ccl3 (log10 fold),PSLN-212(y),panel2(X-AS),1,1.406814,S09!AQ6
+S09,S09-A,Ccl3 (log10 fold),PSLN-212(y),panel2(X-AS),2,1.67473,S09!AR6
+S09,S09-A,Ccl3 (log10 fold),PSLN-212(y),panel2(X-AS),3,1.77106,S09!AS6
+S09,S09-A,Ccl5 (log10 fold),PSLN-212(y),panel2(X-AS),1,0.043148,S09!AQ7
+S09,S09-A,Ccl5 (log10 fold),PSLN-212(y),panel2(X-AS),2,-0.26992,S09!AR7
+S09,S09-A,Ccl5 (log10 fold),PSLN-212(y),panel2(X-AS),3,-0.56192,S09!AS7
+S09,S09-A,Tnf (log10 fold),PSLN-212(y),panel2(X-AS),1,-0.54085,S09!AQ8
+S09,S09-A,Tnf (log10 fold),PSLN-212(y),panel2(X-AS),2,-0.0291,S09!AR8
+S09,S09-A,Tnf (log10 fold),PSLN-212(y),panel2(X-AS),3,-0.39937,S09!AS8
+S09,S09-A,Il10 (log10 fold),PSLN-212(y),panel2(X-AS),1,-0.81077,S09!AQ9
+S09,S09-A,Il10 (log10 fold),PSLN-212(y),panel2(X-AS),2,-1.17502,S09!AR9
+S09,S09-A,Il10 (log10 fold),PSLN-212(y),panel2(X-AS),3,-0.8469,S09!AS9
+S10,S10-A,CNS Ifnb1 (fold),PBS,36h,1,1.21,S10!A3
+S10,S10-A,CNS Ifnb1 (fold),PBS,36h,2,0.63,S10!A4
+S10,S10-A,CNS Ifnb1 (fold),PBS,36h,3,1.16,S10!A5
+S10,S10-A,CNS Ifnb1 (fold),PBS,36h,4,1.03,S10!A6
+S10,S10-A,CNS Ifnb1 (fold),PBS,36h,5,0.97,S10!A7
+S10,S10-A,CNS Ifnb1 (fold),Sham,36h,1,1.13,S10!B3
+S10,S10-A,CNS Ifnb1 (fold),Sham,36h,2,1.52,S10!B4
+S10,S10-A,CNS Ifnb1 (fold),Sham,36h,3,0.62,S10!B5
+S10,S10-A,CNS Ifnb1 (fold),Sham,36h,4,1.31,S10!B6
+S10,S10-A,CNS Ifnb1 (fold),Sham,36h,5,1.25,S10!B7
+S10,S10-A,CNS Ifnb1 (fold),PSLN-344,36h,1,1.27,S10!C3
+S10,S10-A,CNS Ifnb1 (fold),PSLN-344,36h,2,1.92,S10!C4
+S10,S10-A,CNS Ifnb1 (fold),PSLN-344,36h,3,1.39,S10!C5
+S10,S10-A,CNS Ifnb1 (fold),PSLN-344,36h,4,0.77,S10!C6
+S10,S10-A,CNS Ifnb1 (fold),PSLN-344,36h,5,1.26,S10!C7
+S10,S10-A,CNS Ifnb1 (fold),CT,36h,1,5.25,S10!D3
+S10,S10-A,CNS Ifnb1 (fold),CT,36h,2,7.34,S10!D4
+S10,S10-A,CNS Ifnb1 (fold),CT,36h,3,4.58,S10!D5
+S10,S10-A,CNS Ifnb1 (fold),CT,36h,4,4.42,S10!D6
+S10,S10-A,CNS Ifnb1 (fold),CT,36h,5,5.91,S10!D7
+S10,S10-A,CNS Tnf (fold),PBS,36h,1,1.23,S10!F3
+S10,S10-A,CNS Tnf (fold),PBS,36h,2,1.06,S10!F4
+S10,S10-A,CNS Tnf (fold),PBS,36h,3,0.71,S10!F5
+S10,S10-A,CNS Tnf (fold),PBS,36h,4,0.84,S10!F6
+S10,S10-A,CNS Tnf (fold),PBS,36h,5,1.16,S10!F7
+S10,S10-A,CNS Tnf (fold),Sham,36h,1,1.77,S10!G3
+S10,S10-A,CNS Tnf (fold),Sham,36h,2,0.92,S10!G4
+S10,S10-A,CNS Tnf (fold),Sham,36h,3,1.07,S10!G5
+S10,S10-A,CNS Tnf (fold),Sham,36h,4,1.13,S10!G6
+S10,S10-A,CNS Tnf (fold),Sham,36h,5,1.72,S10!G7
+S10,S10-A,CNS Tnf (fold),PSLN-344,36h,1,2.25,S10!H3
+S10,S10-A,CNS Tnf (fold),PSLN-344,36h,2,1.92,S10!H4
+S10,S10-A,CNS Tnf (fold),PSLN-344,36h,3,1.03,S10!H5
+S10,S10-A,CNS Tnf (fold),PSLN-344,36h,4,1.42,S10!H6
+S10,S10-A,CNS Tnf (fold),PSLN-344,36h,5,1.35,S10!H7
+S10,S10-A,CNS Tnf (fold),CT,36h,1,2.92,S10!I3
+S10,S10-A,CNS Tnf (fold),CT,36h,2,5.23,S10!I4
+S10,S10-A,CNS Tnf (fold),CT,36h,3,2.98,S10!I5
+S10,S10-A,CNS Tnf (fold),CT,36h,4,2.14,S10!I6
+S10,S10-A,CNS Tnf (fold),CT,36h,5,4.21,S10!I7
+S10,S10-A,CNS Isg15 (fold),PBS,36h,1,1.15,S10!K3
+S10,S10-A,CNS Isg15 (fold),PBS,36h,2,1.52,S10!K4
+S10,S10-A,CNS Isg15 (fold),PBS,36h,3,0.71,S10!K5
+S10,S10-A,CNS Isg15 (fold),PBS,36h,4,0.82,S10!K6
+S10,S10-A,CNS Isg15 (fold),PBS,36h,5,0.8,S10!K7
+S10,S10-A,CNS Isg15 (fold),Sham,36h,1,1.09,S10!L3
+S10,S10-A,CNS Isg15 (fold),Sham,36h,2,0.77,S10!L4
+S10,S10-A,CNS Isg15 (fold),Sham,36h,3,1.07,S10!L5
+S10,S10-A,CNS Isg15 (fold),Sham,36h,4,1.03,S10!L6
+S10,S10-A,CNS Isg15 (fold),Sham,36h,5,1.25,S10!L7
+S10,S10-A,CNS Isg15 (fold),PSLN-344,36h,1,0.93,S10!M3
+S10,S10-A,CNS Isg15 (fold),PSLN-344,36h,2,1.42,S10!M4
+S10,S10-A,CNS Isg15 (fold),PSLN-344,36h,3,1.04,S10!M5
+S10,S10-A,CNS Isg15 (fold),PSLN-344,36h,4,0.99,S10!M6
+S10,S10-A,CNS Isg15 (fold),PSLN-344,36h,5,1.27,S10!M7
+S10,S10-A,CNS Isg15 (fold),CT,36h,1,2.52,S10!N3
+S10,S10-A,CNS Isg15 (fold),CT,36h,2,3.33,S10!N4
+S10,S10-A,CNS Isg15 (fold),CT,36h,3,3.56,S10!N5
+S10,S10-A,CNS Isg15 (fold),CT,36h,4,1.92,S10!N6
+S10,S10-A,CNS Isg15 (fold),CT,36h,5,2.05,S10!N7
+S11,S11-A,lung alveolar macrophages (%),Vaccine,0,1,23.5,S11!B3
+S11,S11-A,lung alveolar macrophages (%),Vaccine,0,2,17.2,S11!C3
+S11,S11-A,lung alveolar macrophages (%),Vaccine,0,3,16.3,S11!D3
+S11,S11-A,lung alveolar macrophages (%),Vaccine,0,4,21.9,S11!E3
+S11,S11-A,lung alveolar macrophages (%),Vaccine,0,5,23.2,S11!F3
+S11,S11-A,lung alveolar macrophages (%),Vaccine,2,1,24.8,S11!B4
+S11,S11-A,lung alveolar macrophages (%),Vaccine,2,2,21.2,S11!C4
+S11,S11-A,lung alveolar macrophages (%),Vaccine,2,3,19.2,S11!D4
+S11,S11-A,lung alveolar macrophages (%),Vaccine,2,4,27.7,S11!E4
+S11,S11-A,lung alveolar macrophages (%),Vaccine,2,5,20.3,S11!F4
+S11,S11-A,lung alveolar macrophages (%),Vaccine,4,1,18.2,S11!B5
+S11,S11-A,lung alveolar macrophages (%),Vaccine,4,2,23.5,S11!C5
+S11,S11-A,lung alveolar macrophages (%),Vaccine,4,3,22.6,S11!D5
+S11,S11-A,lung alveolar macrophages (%),Vaccine,4,4,17.3,S11!E5
+S11,S11-A,lung alveolar macrophages (%),Vaccine,4,5,22.1,S11!F5
+S11,S11-A,lung alveolar macrophages (%),Vaccine,6,1,22.5,S11!B6
+S11,S11-A,lung alveolar macrophages (%),Vaccine,6,2,19.1,S11!C6
+S11,S11-A,lung alveolar macrophages (%),Vaccine,6,3,19.3,S11!D6
+S11,S11-A,lung alveolar macrophages (%),Vaccine,6,4,18.2,S11!E6
+S11,S11-A,lung alveolar macrophages (%),Vaccine,6,5,28.6,S11!F6
+S11,S11-A,lung alveolar macrophages (%),Vaccine,8,1,25.3,S11!B7
+S11,S11-A,lung alveolar macrophages (%),Vaccine,8,2,19.6,S11!C7
+S11,S11-A,lung alveolar macrophages (%),Vaccine,8,3,22.5,S11!D7
+S11,S11-A,lung alveolar macrophages (%),Vaccine,8,4,21.8,S11!E7
+S11,S11-A,lung alveolar macrophages (%),Vaccine,8,5,23.0,S11!F7
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,0,1,18.7,S11!G3
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,0,2,19.3,S11!H3
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,0,3,23.9,S11!I3
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,0,4,21.5,S11!J3
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,0,5,18.2,S11!K3
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,2,1,28.9,S11!G4
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,2,2,30.2,S11!H4
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,2,3,30.5,S11!I4
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,2,4,27.3,S11!J4
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,2,5,24.3,S11!K4
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,4,1,33.0,S11!G5
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,4,2,38.7,S11!H5
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,4,3,22.1,S11!I5
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,4,4,29.1,S11!J5
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,4,5,31.6,S11!K5
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,6,1,28.3,S11!G6
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,6,2,31.0,S11!H6
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,6,3,23.2,S11!I6
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,6,4,26.1,S11!J6
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,6,5,28.9,S11!K6
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,8,1,25.2,S11!G7
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,8,2,22.5,S11!H7
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,8,3,22.8,S11!I7
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,8,4,23.5,S11!J7
+S11,S11-A,lung alveolar macrophages (%),PSLN-212,8,5,25.7,S11!K7
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,0,1,22.2,S11!L3
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,0,2,19.8,S11!M3
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,0,3,21.2,S11!N3
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,0,4,24.7,S11!O3
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,0,5,18.0,S11!P3
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,2,1,31.2,S11!L4
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,2,2,23.4,S11!M4
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,2,3,25.1,S11!N4
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,2,4,29.7,S11!O4
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,2,5,38.7,S11!P4
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,4,1,36.0,S11!L5
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,4,2,29.4,S11!M5
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,4,3,31.2,S11!N5
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,4,4,39.4,S11!O5
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,4,5,25.3,S11!P5
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,6,1,34.3,S11!L6
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,6,2,27.8,S11!M6
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,6,3,27.8,S11!N6
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,6,4,34.0,S11!O6
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,6,5,31.1,S11!P6
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,8,1,33.6,S11!L7
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,8,2,24.8,S11!M7
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,8,3,22.5,S11!N7
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,8,4,27.1,S11!O7
+S11,S11-A,lung alveolar macrophages (%),PSLN-344,8,5,35.9,S11!P7
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),0,1,39.2,S11!Q3
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),0,2,34.4,S11!R3
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),0,3,39.3,S11!S3
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),0,4,35.4,S11!T3
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),0,5,34.9,S11!U3
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),2,1,47.5,S11!Q4
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),2,2,42.1,S11!R4
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),2,3,40.3,S11!S4
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),2,4,47.2,S11!T4
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),2,5,46.5,S11!U4
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),4,1,53.0,S11!Q5
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),4,2,44.1,S11!R5
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),4,3,43.5,S11!S5
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),4,4,49.8,S11!T5
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),4,5,52.1,S11!U5
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),6,1,49.0,S11!Q6
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),6,2,44.5,S11!R6
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),6,3,43.6,S11!S6
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),6,4,50.2,S11!T6
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),6,5,47.1,S11!U6
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),8,1,42.4,S11!Q7
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),8,2,39.0,S11!R7
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),8,3,40.5,S11!S7
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),8,4,43.2,S11!T7
+S11,S11-A,lung alveolar macrophages (%),PSLN-212(Y),8,5,36.7,S11!U7
+S11,S11-B,lung neutrophils (%),Vaccine,0,1,23.5,S11!B10
+S11,S11-B,lung neutrophils (%),Vaccine,0,2,17.2,S11!C10
+S11,S11-B,lung neutrophils (%),Vaccine,0,3,17.3,S11!D10
+S11,S11-B,lung neutrophils (%),Vaccine,0,4,23.7,S11!E10
+S11,S11-B,lung neutrophils (%),Vaccine,0,5,20.2,S11!F10
+S11,S11-B,lung neutrophils (%),Vaccine,2,1,24.5,S11!B11
+S11,S11-B,lung neutrophils (%),Vaccine,2,2,21.2,S11!C11
+S11,S11-B,lung neutrophils (%),Vaccine,2,3,24.3,S11!D11
+S11,S11-B,lung neutrophils (%),Vaccine,2,4,27.9,S11!E11
+S11,S11-B,lung neutrophils (%),Vaccine,2,5,17.1,S11!F11
+S11,S11-B,lung neutrophils (%),Vaccine,4,1,18.2,S11!B12
+S11,S11-B,lung neutrophils (%),Vaccine,4,2,23.5,S11!C12
+S11,S11-B,lung neutrophils (%),Vaccine,4,3,17.1,S11!D12
+S11,S11-B,lung neutrophils (%),Vaccine,4,4,25.2,S11!E12
+S11,S11-B,lung neutrophils (%),Vaccine,4,5,20.1,S11!F12
+S11,S11-B,lung neutrophils (%),Vaccine,6,1,22.5,S11!B13
+S11,S11-B,lung neutrophils (%),Vaccine,6,2,19.1,S11!C13
+S11,S11-B,lung neutrophils (%),Vaccine,6,3,19.2,S11!D13
+S11,S11-B,lung neutrophils (%),Vaccine,6,4,23.5,S11!E13
+S11,S11-B,lung neutrophils (%),Vaccine,6,5,19.8,S11!F13
+S11,S11-B,lung neutrophils (%),Vaccine,8,1,25.3,S11!B14
+S11,S11-B,lung neutrophils (%),Vaccine,8,2,19.6,S11!C14
+S11,S11-B,lung neutrophils (%),Vaccine,8,3,20.1,S11!D14
+S11,S11-B,lung neutrophils (%),Vaccine,8,4,24.3,S11!E14
+S11,S11-B,lung neutrophils (%),Vaccine,8,5,23.2,S11!F14
+S11,S11-B,lung neutrophils (%),PSLN-212,0,1,18.7,S11!G10
+S11,S11-B,lung neutrophils (%),PSLN-212,0,2,21.5,S11!H10
+S11,S11-B,lung neutrophils (%),PSLN-212,0,3,18.5,S11!I10
+S11,S11-B,lung neutrophils (%),PSLN-212,0,4,19.1,S11!J10
+S11,S11-B,lung neutrophils (%),PSLN-212,0,5,22.3,S11!K10
+S11,S11-B,lung neutrophils (%),PSLN-212,2,1,28.9,S11!G11
+S11,S11-B,lung neutrophils (%),PSLN-212,2,2,27.3,S11!H11
+S11,S11-B,lung neutrophils (%),PSLN-212,2,3,23.2,S11!I11
+S11,S11-B,lung neutrophils (%),PSLN-212,2,4,29.3,S11!J11
+S11,S11-B,lung neutrophils (%),PSLN-212,2,5,31.9,S11!K11
+S11,S11-B,lung neutrophils (%),PSLN-212,4,1,33.0,S11!G12
+S11,S11-B,lung neutrophils (%),PSLN-212,4,2,29.1,S11!H12
+S11,S11-B,lung neutrophils (%),PSLN-212,4,3,26.3,S11!I12
+S11,S11-B,lung neutrophils (%),PSLN-212,4,4,34.6,S11!J12
+S11,S11-B,lung neutrophils (%),PSLN-212,4,5,33.6,S11!K12
+S11,S11-B,lung neutrophils (%),PSLN-212,6,1,28.3,S11!G13
+S11,S11-B,lung neutrophils (%),PSLN-212,6,2,26.1,S11!H13
+S11,S11-B,lung neutrophils (%),PSLN-212,6,3,27.0,S11!I13
+S11,S11-B,lung neutrophils (%),PSLN-212,6,4,29.2,S11!J13
+S11,S11-B,lung neutrophils (%),PSLN-212,6,5,25.3,S11!K13
+S11,S11-B,lung neutrophils (%),PSLN-212,8,1,25.2,S11!G14
+S11,S11-B,lung neutrophils (%),PSLN-212,8,2,23.5,S11!H14
+S11,S11-B,lung neutrophils (%),PSLN-212,8,3,21.3,S11!I14
+S11,S11-B,lung neutrophils (%),PSLN-212,8,4,29.8,S11!J14
+S11,S11-B,lung neutrophils (%),PSLN-212,8,5,22.3,S11!K14
+S11,S11-B,lung neutrophils (%),PSLN-344,0,1,22.2,S11!L10
+S11,S11-B,lung neutrophils (%),PSLN-344,0,2,19.8,S11!M10
+S11,S11-B,lung neutrophils (%),PSLN-344,0,3,19.2,S11!N10
+S11,S11-B,lung neutrophils (%),PSLN-344,0,4,20.8,S11!O10
+S11,S11-B,lung neutrophils (%),PSLN-344,0,5,23.2,S11!P10
+S11,S11-B,lung neutrophils (%),PSLN-344,2,1,31.2,S11!L11
+S11,S11-B,lung neutrophils (%),PSLN-344,2,2,23.4,S11!M11
+S11,S11-B,lung neutrophils (%),PSLN-344,2,3,25.9,S11!N11
+S11,S11-B,lung neutrophils (%),PSLN-344,2,4,32.2,S11!O11
+S11,S11-B,lung neutrophils (%),PSLN-344,2,5,23.0,S11!P11
+S11,S11-B,lung neutrophils (%),PSLN-344,4,1,36.0,S11!L12
+S11,S11-B,lung neutrophils (%),PSLN-344,4,2,29.4,S11!M12
+S11,S11-B,lung neutrophils (%),PSLN-344,4,3,40.1,S11!N12
+S11,S11-B,lung neutrophils (%),PSLN-344,4,4,29.2,S11!O12
+S11,S11-B,lung neutrophils (%),PSLN-344,4,5,24.3,S11!P12
+S11,S11-B,lung neutrophils (%),PSLN-344,6,1,34.3,S11!L13
+S11,S11-B,lung neutrophils (%),PSLN-344,6,2,27.8,S11!M13
+S11,S11-B,lung neutrophils (%),PSLN-344,6,3,36.2,S11!N13
+S11,S11-B,lung neutrophils (%),PSLN-344,6,4,25.7,S11!O13
+S11,S11-B,lung neutrophils (%),PSLN-344,6,5,30.8,S11!P13
+S11,S11-B,lung neutrophils (%),PSLN-344,8,1,33.6,S11!L14
+S11,S11-B,lung neutrophils (%),PSLN-344,8,2,24.8,S11!M14
+S11,S11-B,lung neutrophils (%),PSLN-344,8,3,33.9,S11!N14
+S11,S11-B,lung neutrophils (%),PSLN-344,8,4,25.2,S11!O14
+S11,S11-B,lung neutrophils (%),PSLN-344,8,5,26.7,S11!P14
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),0,1,39.2,S11!Q10
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),0,2,34.4,S11!R10
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),0,3,30.4,S11!S10
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),0,4,38.7,S11!T10
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),0,5,41.1,S11!U10
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),2,1,47.5,S11!Q11
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),2,2,42.1,S11!R11
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),2,3,42.5,S11!S11
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),2,4,49.3,S11!T11
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),2,5,34.3,S11!U11
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),4,1,53.0,S11!Q12
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),4,2,44.1,S11!R12
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),4,3,46.6,S11!S12
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),4,4,46.4,S11!T12
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),4,5,52.1,S11!U12
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),6,1,49.0,S11!Q13
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),6,2,44.5,S11!R13
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),6,3,42.6,S11!S13
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),6,4,44.9,S11!T13
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),6,5,51.3,S11!U13
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),8,1,42.4,S11!Q14
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),8,2,39.0,S11!R14
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),8,3,35.6,S11!S14
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),8,4,43.3,S11!T14
+S11,S11-B,lung neutrophils (%),PSLN-212(Y),8,5,43.6,S11!U14
+S11,S11-C,recruited lung monocytes (%),CBX+,d3,1,2.62,S11!A17
+S11,S11-C,recruited lung monocytes (%),CBX+,d3,2,4.11,S11!A18
+S11,S11-C,recruited lung monocytes (%),CBX+,d3,3,3.35,S11!A19
+S11,S11-C,recruited lung monocytes (%),CBX+,d3,4,4.24,S11!A20
+S11,S11-C,recruited lung monocytes (%),CBX+,d3,5,1.1,S11!A21
+S11,S11-C,recruited lung monocytes (%),CBX-,d3,1,8.21,S11!B17
+S11,S11-C,recruited lung monocytes (%),CBX-,d3,2,5.52,S11!B18
+S11,S11-C,recruited lung monocytes (%),CBX-,d3,3,9.41,S11!B19
+S11,S11-C,recruited lung monocytes (%),CBX-,d3,4,8.13,S11!B20
+S11,S11-C,recruited lung monocytes (%),CBX-,d3,5,5.14,S11!B21
+S11,S11-D,lung NK cells (%),Vaccine,0,1,19.3,S11!B24
+S11,S11-D,lung NK cells (%),Vaccine,0,2,25.1,S11!C24
+S11,S11-D,lung NK cells (%),Vaccine,0,3,32.5,S11!D24
+S11,S11-D,lung NK cells (%),Vaccine,0,4,22.9,S11!E24
+S11,S11-D,lung NK cells (%),Vaccine,0,5,39.2,S11!F24
+S11,S11-D,lung NK cells (%),Vaccine,2,1,23.4,S11!B25
+S11,S11-D,lung NK cells (%),Vaccine,2,2,32.6,S11!C25
+S11,S11-D,lung NK cells (%),Vaccine,2,3,28.8,S11!D25
+S11,S11-D,lung NK cells (%),Vaccine,2,4,27.9,S11!E25
+S11,S11-D,lung NK cells (%),Vaccine,2,5,29.6,S11!F25
+S11,S11-D,lung NK cells (%),Vaccine,4,1,23.5,S11!B26
+S11,S11-D,lung NK cells (%),Vaccine,4,2,27.0,S11!C26
+S11,S11-D,lung NK cells (%),Vaccine,4,3,22.5,S11!D26
+S11,S11-D,lung NK cells (%),Vaccine,4,4,34.2,S11!E26
+S11,S11-D,lung NK cells (%),Vaccine,4,5,30.2,S11!F26
+S11,S11-D,lung NK cells (%),Vaccine,6,1,20.1,S11!B27
+S11,S11-D,lung NK cells (%),Vaccine,6,2,29.6,S11!C27
+S11,S11-D,lung NK cells (%),Vaccine,6,3,26.3,S11!D27
+S11,S11-D,lung NK cells (%),Vaccine,6,4,22.1,S11!E27
+S11,S11-D,lung NK cells (%),Vaccine,6,5,23.5,S11!F27
+S11,S11-D,lung NK cells (%),Vaccine,8,1,22.8,S11!B28
+S11,S11-D,lung NK cells (%),Vaccine,8,2,24.9,S11!C28
+S11,S11-D,lung NK cells (%),Vaccine,8,3,24.3,S11!D28
+S11,S11-D,lung NK cells (%),Vaccine,8,4,27.2,S11!E28
+S11,S11-D,lung NK cells (%),Vaccine,8,5,30.4,S11!F28
+S11,S11-D,lung NK cells (%),PSLN-212,0,1,26.5,S11!G24
+S11,S11-D,lung NK cells (%),PSLN-212,0,2,22.2,S11!H24
+S11,S11-D,lung NK cells (%),PSLN-212,0,3,21.3,S11!I24
+S11,S11-D,lung NK cells (%),PSLN-212,0,4,28.5,S11!J24
+S11,S11-D,lung NK cells (%),PSLN-212,0,5,33.2,S11!K24
+S11,S11-D,lung NK cells (%),PSLN-212,2,1,31.9,S11!G25
+S11,S11-D,lung NK cells (%),PSLN-212,2,2,26.7,S11!H25
+S11,S11-D,lung NK cells (%),PSLN-212,2,3,31.4,S11!I25
+S11,S11-D,lung NK cells (%),PSLN-212,2,4,23.6,S11!J25
+S11,S11-D,lung NK cells (%),PSLN-212,2,5,30.5,S11!K25
+S11,S11-D,lung NK cells (%),PSLN-212,4,1,21.3,S11!G26
+S11,S11-D,lung NK cells (%),PSLN-212,4,2,27.9,S11!H26
+S11,S11-D,lung NK cells (%),PSLN-212,4,3,21.5,S11!I26
+S11,S11-D,lung NK cells (%),PSLN-212,4,4,31.2,S11!J26
+S11,S11-D,lung NK cells (%),PSLN-212,4,5,21.6,S11!K26
+S11,S11-D,lung NK cells (%),PSLN-212,6,1,17.2,S11!G27
+S11,S11-D,lung NK cells (%),PSLN-212,6,2,26.2,S11!H27
+S11,S11-D,lung NK cells (%),PSLN-212,6,3,19.2,S11!I27
+S11,S11-D,lung NK cells (%),PSLN-212,6,4,25.3,S11!J27
+S11,S11-D,lung NK cells (%),PSLN-212,6,5,20.9,S11!K27
+S11,S11-D,lung NK cells (%),PSLN-212,8,1,24.9,S11!G28
+S11,S11-D,lung NK cells (%),PSLN-212,8,2,26.3,S11!H28
+S11,S11-D,lung NK cells (%),PSLN-212,8,3,23.5,S11!I28
+S11,S11-D,lung NK cells (%),PSLN-212,8,4,26.7,S11!J28
+S11,S11-D,lung NK cells (%),PSLN-212,8,5,25.9,S11!K28
+S11,S11-D,lung NK cells (%),PSLN-344,0,1,29.3,S11!L24
+S11,S11-D,lung NK cells (%),PSLN-344,0,2,22.4,S11!M24
+S11,S11-D,lung NK cells (%),PSLN-344,0,3,21.5,S11!N24
+S11,S11-D,lung NK cells (%),PSLN-344,0,4,29.7,S11!O24
+S11,S11-D,lung NK cells (%),PSLN-344,0,5,25.3,S11!P24
+S11,S11-D,lung NK cells (%),PSLN-344,2,1,32.5,S11!L25
+S11,S11-D,lung NK cells (%),PSLN-344,2,2,31.3,S11!M25
+S11,S11-D,lung NK cells (%),PSLN-344,2,3,40.2,S11!N25
+S11,S11-D,lung NK cells (%),PSLN-344,2,4,31.5,S11!O25
+S11,S11-D,lung NK cells (%),PSLN-344,2,5,34.6,S11!P25
+S11,S11-D,lung NK cells (%),PSLN-344,4,1,36.3,S11!L26
+S11,S11-D,lung NK cells (%),PSLN-344,4,2,25.5,S11!M26
+S11,S11-D,lung NK cells (%),PSLN-344,4,3,30.9,S11!N26
+S11,S11-D,lung NK cells (%),PSLN-344,4,4,35.7,S11!O26
+S11,S11-D,lung NK cells (%),PSLN-344,4,5,27.0,S11!P26
+S11,S11-D,lung NK cells (%),PSLN-344,6,1,22.5,S11!L27
+S11,S11-D,lung NK cells (%),PSLN-344,6,2,29.6,S11!M27
+S11,S11-D,lung NK cells (%),PSLN-344,6,3,25.9,S11!N27
+S11,S11-D,lung NK cells (%),PSLN-344,6,4,20.3,S11!O27
+S11,S11-D,lung NK cells (%),PSLN-344,6,5,21.1,S11!P27
+S11,S11-D,lung NK cells (%),PSLN-344,8,1,24.4,S11!L28
+S11,S11-D,lung NK cells (%),PSLN-344,8,2,27.8,S11!M28
+S11,S11-D,lung NK cells (%),PSLN-344,8,3,21.3,S11!N28
+S11,S11-D,lung NK cells (%),PSLN-344,8,4,24.5,S11!O28
+S11,S11-D,lung NK cells (%),PSLN-344,8,5,22.3,S11!P28
+S11,S11-D,lung NK cells (%),PSLN-212(Y),0,1,16.5,S11!Q24
+S11,S11-D,lung NK cells (%),PSLN-212(Y),0,2,18.2,S11!R24
+S11,S11-D,lung NK cells (%),PSLN-212(Y),0,3,14.9,S11!S24
+S11,S11-D,lung NK cells (%),PSLN-212(Y),0,4,20.3,S11!T24
+S11,S11-D,lung NK cells (%),PSLN-212(Y),0,5,17.1,S11!U24
+S11,S11-D,lung NK cells (%),PSLN-212(Y),2,1,21.4,S11!Q25
+S11,S11-D,lung NK cells (%),PSLN-212(Y),2,2,24.4,S11!R25
+S11,S11-D,lung NK cells (%),PSLN-212(Y),2,3,21.5,S11!S25
+S11,S11-D,lung NK cells (%),PSLN-212(Y),2,4,29.4,S11!T25
+S11,S11-D,lung NK cells (%),PSLN-212(Y),2,5,19.0,S11!U25
+S11,S11-D,lung NK cells (%),PSLN-212(Y),4,1,18.6,S11!Q26
+S11,S11-D,lung NK cells (%),PSLN-212(Y),4,2,17.3,S11!R26
+S11,S11-D,lung NK cells (%),PSLN-212(Y),4,3,16.3,S11!S26
+S11,S11-D,lung NK cells (%),PSLN-212(Y),4,4,15.9,S11!T26
+S11,S11-D,lung NK cells (%),PSLN-212(Y),4,5,22.4,S11!U26
+S11,S11-D,lung NK cells (%),PSLN-212(Y),6,1,15.9,S11!Q27
+S11,S11-D,lung NK cells (%),PSLN-212(Y),6,2,19.5,S11!R27
+S11,S11-D,lung NK cells (%),PSLN-212(Y),6,3,19.3,S11!S27
+S11,S11-D,lung NK cells (%),PSLN-212(Y),6,4,16.7,S11!T27
+S11,S11-D,lung NK cells (%),PSLN-212(Y),6,5,16.6,S11!U27
+S11,S11-D,lung NK cells (%),PSLN-212(Y),8,1,16.3,S11!Q28
+S11,S11-D,lung NK cells (%),PSLN-212(Y),8,2,19.6,S11!R28
+S11,S11-D,lung NK cells (%),PSLN-212(Y),8,3,22.5,S11!S28
+S11,S11-D,lung NK cells (%),PSLN-212(Y),8,4,15.3,S11!T28
+S11,S11-D,lung NK cells (%),PSLN-212(Y),8,5,17.0,S11!U28
+S11,S11-E,lung CD206+ macrophages (%),Sham,,1,84.8,S11!A31
+S11,S11-E,lung CD206+ macrophages (%),Sham,,2,72.5,S11!A32
+S11,S11-E,lung CD206+ macrophages (%),Sham,,3,91.0,S11!A33
+S11,S11-E,lung CD206+ macrophages (%),Sham,,4,85.4,S11!A34
+S11,S11-E,lung CD206+ macrophages (%),Sham,,5,92.2,S11!A35
+S11,S11-E,lung CD206+ macrophages (%),PSLN-212,,1,71.0,S11!B31
+S11,S11-E,lung CD206+ macrophages (%),PSLN-212,,2,82.2,S11!B32
+S11,S11-E,lung CD206+ macrophages (%),PSLN-212,,3,59.6,S11!B33
+S11,S11-E,lung CD206+ macrophages (%),PSLN-212,,4,69.5,S11!B34
+S11,S11-E,lung CD206+ macrophages (%),PSLN-212,,5,75.0,S11!B35
+S11,S11-E,lung CD206+ macrophages (%),PSLN-344,,1,47.4,S11!C31
+S11,S11-E,lung CD206+ macrophages (%),PSLN-344,,2,53.0,S11!C32
+S11,S11-E,lung CD206+ macrophages (%),PSLN-344,,3,35.4,S11!C33
+S11,S11-E,lung CD206+ macrophages (%),PSLN-344,,4,55.3,S11!C34
+S11,S11-E,lung CD206+ macrophages (%),PSLN-344,,5,53.5,S11!C35
+S11,S11-E,lung CD206+ macrophages (%),PSLN-212(Y),,1,32.9,S11!D31
+S11,S11-E,lung CD206+ macrophages (%),PSLN-212(Y),,2,33.5,S11!D32
+S11,S11-E,lung CD206+ macrophages (%),PSLN-212(Y),,3,39.6,S11!D33
+S11,S11-E,lung CD206+ macrophages (%),PSLN-212(Y),,4,26.5,S11!D34
+S11,S11-E,lung CD206+ macrophages (%),PSLN-212(Y),,5,45.2,S11!D35
+S12,S12-A,infiltrating CD45.2+ monocytes (%),WT to WT,d3,1,21.2,S12!A3
+S12,S12-A,infiltrating CD45.2+ monocytes (%),WT to WT,d3,2,17.1,S12!A4
+S12,S12-A,infiltrating CD45.2+ monocytes (%),WT to WT,d3,3,25.5,S12!A5
+S12,S12-A,infiltrating CD45.2+ monocytes (%),IFNAR-/- to WT,d3,1,14.3,S12!B3
+S12,S12-A,infiltrating CD45.2+ monocytes (%),IFNAR-/- to WT,d3,2,18.2,S12!B4
+S12,S12-A,infiltrating CD45.2+ monocytes (%),IFNAR-/- to WT,d3,3,13.6,S12!B5
+S13,S13-A,IgG2a anti-CA09 (titer),PSLN-212,d14,1,127.7,S13!A3
+S13,S13-A,IgG2a anti-CA09 (titer),PSLN-212,d14,2,110.65,S13!A4
+S13,S13-A,IgG2a anti-CA09 (titer),PSLN-212,d14,3,49.3,S13!A5
+S13,S13-A,IgG2a anti-CA09 (titer),PSLN-212,d14,4,89.7,S13!A6
+S13,S13-A,IgG2a anti-CA09 (titer),PSLN-212,d14,5,64.65,S13!A7
+S13,S13-A,IgG2a anti-CA09 (titer),PSLN-344,d14,1,1753.9,S13!B3
+S13,S13-A,IgG2a anti-CA09 (titer),PSLN-344,d14,2,1900.1,S13!B4
+S13,S13-A,IgG2a anti-CA09 (titer),PSLN-344,d14,3,3452.0,S13!B5
+S13,S13-A,IgG2a anti-CA09 (titer),PSLN-344,d14,4,935.5,S13!B6
+S13,S13-A,IgG2a anti-CA09 (titer),PSLN-344,d14,5,1108.3,S13!B7
+S13,S13-A,IgG2a anti-CA09 (titer),PSLN-212(Y),d14,1,8517.8,S13!C3
+S13,S13-A,IgG2a anti-CA09 (titer),PSLN-212(Y),d14,2,6750.6,S13!C4
+S13,S13-A,IgG2a anti-CA09 (titer),PSLN-212(Y),d14,3,2647.8,S13!C5
+S13,S13-A,IgG2a anti-CA09 (titer),PSLN-212(Y),d14,4,3066.4,S13!C6
+S13,S13-A,IgG2a anti-CA09 (titer),PSLN-212(Y),d14,5,4616.4,S13!C7
+S13,S13-B,IgG1 anti-CA09 (titer),PSLN-212,d14,1,172.65,S13!E3
+S13,S13-B,IgG1 anti-CA09 (titer),PSLN-212,d14,2,138.3,S13!E4
+S13,S13-B,IgG1 anti-CA09 (titer),PSLN-212,d14,3,168.9,S13!E5
+S13,S13-B,IgG1 anti-CA09 (titer),PSLN-212,d14,4,186.75,S13!E6
+S13,S13-B,IgG1 anti-CA09 (titer),PSLN-212,d14,5,112.0,S13!E7
+S13,S13-B,IgG1 anti-CA09 (titer),PSLN-344,d14,1,679.1,S13!F3
+S13,S13-B,IgG1 anti-CA09 (titer),PSLN-344,d14,2,1103.2,S13!F4
+S13,S13-B,IgG1 anti-CA09 (titer),PSLN-344,d14,3,823.9,S13!F5
+S13,S13-B,IgG1 anti-CA09 (titer),PSLN-344,d14,4,1103.8,S13!F6
+S13,S13-B,IgG1 anti-CA09 (titer),PSLN-344,d14,5,805.2,S13!F7
+S13,S13-B,IgG1 anti-CA09 (titer),PSLN-212(Y),d14,1,1920.0,S13!G3
+S13,S13-B,IgG1 anti-CA09 (titer),PSLN-212(Y),d14,2,1475.0,S13!G4
+S13,S13-B,IgG1 anti-CA09 (titer),PSLN-212(Y),d14,3,2244.8,S13!G5
+S13,S13-B,IgG1 anti-CA09 (titer),PSLN-212(Y),d14,4,2616.4,S13!G6
+S13,S13-B,IgG1 anti-CA09 (titer),PSLN-212(Y),d14,5,1321.0,S13!G7
+S13,S13-C,IgG2a anti-Aichi (titer),PSLN-212,d14,1,99.55,S13!I3
+S13,S13-C,IgG2a anti-Aichi (titer),PSLN-212,d14,2,109.56,S13!I4
+S13,S13-C,IgG2a anti-Aichi (titer),PSLN-212,d14,3,122.65,S13!I5
+S13,S13-C,IgG2a anti-Aichi (titer),PSLN-212,d14,4,47.2,S13!I6
+S13,S13-C,IgG2a anti-Aichi (titer),PSLN-212,d14,5,52.75,S13!I7
+S13,S13-C,IgG2a anti-Aichi (titer),PSLN-344,d14,1,2288.3,S13!J3
+S13,S13-C,IgG2a anti-Aichi (titer),PSLN-344,d14,2,1813.2,S13!J4
+S13,S13-C,IgG2a anti-Aichi (titer),PSLN-344,d14,3,1474.6,S13!J5
+S13,S13-C,IgG2a anti-Aichi (titer),PSLN-344,d14,4,861.2,S13!J6
+S13,S13-C,IgG2a anti-Aichi (titer),PSLN-344,d14,5,793.5,S13!J7
+S13,S13-C,IgG2a anti-Aichi (titer),PSLN-212(Y),d14,1,4495.0,S13!K3
+S13,S13-C,IgG2a anti-Aichi (titer),PSLN-212(Y),d14,2,3796.2,S13!K4
+S13,S13-C,IgG2a anti-Aichi (titer),PSLN-212(Y),d14,3,5840.2,S13!K5
+S13,S13-C,IgG2a anti-Aichi (titer),PSLN-212(Y),d14,4,3707.0,S13!K6
+S13,S13-C,IgG2a anti-Aichi (titer),PSLN-212(Y),d14,5,1878.8,S13!K7
+S13,S13-D,IgG1 anti-Aichi (titer),PSLN-212,d14,1,112.44,S13!M3
+S13,S13-D,IgG1 anti-Aichi (titer),PSLN-212,d14,2,180.64,S13!M4
+S13,S13-D,IgG1 anti-Aichi (titer),PSLN-212,d14,3,249.89,S13!M5
+S13,S13-D,IgG1 anti-Aichi (titer),PSLN-212,d14,4,150.26,S13!M6
+S13,S13-D,IgG1 anti-Aichi (titer),PSLN-212,d14,5,201.65,S13!M7
+S13,S13-D,IgG1 anti-Aichi (titer),PSLN-344,d14,1,418.8,S13!N3
+S13,S13-D,IgG1 anti-Aichi (titer),PSLN-344,d14,2,530.1,S13!N4
+S13,S13-D,IgG1 anti-Aichi (titer),PSLN-344,d14,3,653.0,S13!N5
+S13,S13-D,IgG1 anti-Aichi (titer),PSLN-344,d14,4,792.0,S13!N6
+S13,S13-D,IgG1 anti-Aichi (titer),PSLN-344,d14,5,565.3,S13!N7
+S13,S13-D,IgG1 anti-Aichi (titer),PSLN-212(Y),d14,1,1158.8,S13!O3
+S13,S13-D,IgG1 anti-Aichi (titer),PSLN-212(Y),d14,2,1240.0,S13!O4
+S13,S13-D,IgG1 anti-Aichi (titer),PSLN-212(Y),d14,3,1840.2,S13!O5
+S13,S13-D,IgG1 anti-Aichi (titer),PSLN-212(Y),d14,4,1407.0,S13!O6
+S13,S13-D,IgG1 anti-Aichi (titer),PSLN-212(Y),d14,5,1100.8,S13!O7
+S13,S13-H,IgG+ of MLN B220+ (%),Sham,,1,1.21,S13!A53
+S13,S13-H,IgG+ of MLN B220+ (%),Sham,,2,5.53,S13!A54
+S13,S13-H,IgG+ of MLN B220+ (%),Sham,,3,4.95,S13!A55
+S13,S13-H,IgG+ of MLN B220+ (%),Sham,,4,8.23,S13!A56
+S13,S13-H,IgG+ of MLN B220+ (%),Sham,,5,3.56,S13!A57
+S13,S13-H,IgG+ of MLN B220+ (%),PSLN-212,,1,12.57,S13!B53
+S13,S13-H,IgG+ of MLN B220+ (%),PSLN-212,,2,14.23,S13!B54
+S13,S13-H,IgG+ of MLN B220+ (%),PSLN-212,,3,11.05,S13!B55
+S13,S13-H,IgG+ of MLN B220+ (%),PSLN-212,,4,9.92,S13!B56
+S13,S13-H,IgG+ of MLN B220+ (%),PSLN-212,,5,8.33,S13!B57
+S13,S13-H,IgG+ of MLN B220+ (%),PSLN-344,,1,29.92,S13!C53
+S13,S13-H,IgG+ of MLN B220+ (%),PSLN-344,,2,33.05,S13!C54
+S13,S13-H,IgG+ of MLN B220+ (%),PSLN-344,,3,22.4,S13!C55
+S13,S13-H,IgG+ of MLN B220+ (%),PSLN-344,,4,25.73,S13!C56
+S13,S13-H,IgG+ of MLN B220+ (%),PSLN-344,,5,18.22,S13!C57
+S13,S13-H,IgG+ of MLN B220+ (%),PSLN-212(Y),,1,33.12,S13!D53
+S13,S13-H,IgG+ of MLN B220+ (%),PSLN-212(Y),,2,25.57,S13!D54
+S13,S13-H,IgG+ of MLN B220+ (%),PSLN-212(Y),,3,21.75,S13!D55
+S13,S13-H,IgG+ of MLN B220+ (%),PSLN-212(Y),,4,26.2,S13!D56
+S13,S13-H,IgG+ of MLN B220+ (%),PSLN-212(Y),,5,28.92,S13!D57
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",Sham,d28,1,253.0,S13!F53
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",Sham,d28,2,114.0,S13!F54
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",Sham,d28,3,202.0,S13!F55
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",Sham,d28,4,10.0,S13!F56
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",Sham,d28,5,10.0,S13!F57
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",CMP-204,d28,1,1306.0,S13!G53
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",CMP-204,d28,2,1587.0,S13!G54
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",CMP-204,d28,3,831.0,S13!G55
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",CMP-204,d28,4,931.0,S13!G56
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",CMP-204,d28,5,457.0,S13!G57
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",PSLN-212,d28,1,6552.0,S13!H53
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",PSLN-212,d28,2,4213.0,S13!H54
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",PSLN-212,d28,3,2254.0,S13!H55
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",PSLN-212,d28,4,7065.0,S13!H56
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",PSLN-212,d28,5,3800.0,S13!H57
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",PSLN-344,d28,1,30522.0,S13!I53
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",PSLN-344,d28,2,27109.0,S13!I54
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",PSLN-344,d28,3,10132.0,S13!I55
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",PSLN-344,d28,4,18138.0,S13!I56
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",PSLN-344,d28,5,6175.0,S13!I57
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",PSLN-212(Y),d28,1,25186.0,S13!J53
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",PSLN-212(Y),d28,2,71125.0,S13!J54
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",PSLN-212(Y),d28,3,69324.0,S13!J55
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",PSLN-212(Y),d28,4,18052.0,S13!J56
+S13,S13-I,"serum IgG anti-CA09, d28 post-boost (titer)",PSLN-212(Y),d28,5,50059.0,S13!J57
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",Sham,d28,1,92.0,S13!L53
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",Sham,d28,2,40.0,S13!L54
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",Sham,d28,3,132.0,S13!L55
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",Sham,d28,4,281.0,S13!L56
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",Sham,d28,5,77.0,S13!L57
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",CMP-204,d28,1,431.0,S13!M53
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",CMP-204,d28,2,268.0,S13!M54
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",CMP-204,d28,3,782.0,S13!M55
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",CMP-204,d28,4,747.0,S13!M56
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",CMP-204,d28,5,354.0,S13!M57
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",PSLN-212,d28,1,829.0,S13!N53
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",PSLN-212,d28,2,1643.0,S13!N54
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",PSLN-212,d28,3,2336.0,S13!N55
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",PSLN-212,d28,4,918.0,S13!N56
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",PSLN-212,d28,5,517.0,S13!N57
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",PSLN-344,d28,1,9053.0,S13!O53
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",PSLN-344,d28,2,11376.0,S13!O54
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",PSLN-344,d28,3,4891.0,S13!O55
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",PSLN-344,d28,4,43154.0,S13!O56
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",PSLN-344,d28,5,13680.0,S13!O57
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",PSLN-212(Y),d28,1,28251.0,S13!P53
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",PSLN-212(Y),d28,2,62679.0,S13!P54
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",PSLN-212(Y),d28,3,31136.0,S13!P55
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",PSLN-212(Y),d28,4,57283.0,S13!P56
+S13,S13-J,"serum IgG anti-Aichi, d28 post-boost (titer)",PSLN-212(Y),d28,5,49157.0,S13!P57
+S14,S14-A H1N1,"MLN IFNg+ CD8, CA09 restim (%)",Sham,,1,0.2,S14!A3
+S14,S14-A H1N1,"MLN IFNg+ CD8, CA09 restim (%)",Sham,,2,1.6,S14!A4
+S14,S14-A H1N1,"MLN IFNg+ CD8, CA09 restim (%)",Sham,,3,0.5,S14!A5
+S14,S14-A H1N1,"MLN IFNg+ CD8, CA09 restim (%)",Sham,,4,0.6,S14!A6
+S14,S14-A H1N1,"MLN IFNg+ CD8, CA09 restim (%)",Sham,,5,1.2,S14!A7
+S14,S14-A H1N1,"MLN IFNg+ CD8, CA09 restim (%)",PSLN-212,,1,2.3,S14!B3
+S14,S14-A H1N1,"MLN IFNg+ CD8, CA09 restim (%)",PSLN-212,,2,3.7,S14!B4
+S14,S14-A H1N1,"MLN IFNg+ CD8, CA09 restim (%)",PSLN-212,,3,0.9,S14!B5
+S14,S14-A H1N1,"MLN IFNg+ CD8, CA09 restim (%)",PSLN-212,,4,5.7,S14!B6
+S14,S14-A H1N1,"MLN IFNg+ CD8, CA09 restim (%)",PSLN-212,,5,3.1,S14!B7
+S14,S14-A H1N1,"MLN IFNg+ CD8, CA09 restim (%)",PSLN-344,,1,12.7,S14!C3
+S14,S14-A H1N1,"MLN IFNg+ CD8, CA09 restim (%)",PSLN-344,,2,14.4,S14!C4
+S14,S14-A H1N1,"MLN IFNg+ CD8, CA09 restim (%)",PSLN-344,,3,9.5,S14!C5
+S14,S14-A H1N1,"MLN IFNg+ CD8, CA09 restim (%)",PSLN-344,,4,10.6,S14!C6
+S14,S14-A H1N1,"MLN IFNg+ CD8, CA09 restim (%)",PSLN-344,,5,7.9,S14!C7
+S14,S14-A H1N1,"MLN IFNg+ CD8, CA09 restim (%)",PSLN-212(Y),,1,17.2,S14!D3
+S14,S14-A H1N1,"MLN IFNg+ CD8, CA09 restim (%)",PSLN-212(Y),,2,10.4,S14!D4
+S14,S14-A H1N1,"MLN IFNg+ CD8, CA09 restim (%)",PSLN-212(Y),,3,14.2,S14!D5
+S14,S14-A H1N1,"MLN IFNg+ CD8, CA09 restim (%)",PSLN-212(Y),,4,13.8,S14!D6
+S14,S14-A H1N1,"MLN IFNg+ CD8, CA09 restim (%)",PSLN-212(Y),,5,12.9,S14!D7
+S14,S14-A H3N2,"MLN IFNg+ CD8, Aichi restim (%)",Sham,,1,0.3,S14!F3
+S14,S14-A H3N2,"MLN IFNg+ CD8, Aichi restim (%)",Sham,,2,0.6,S14!F4
+S14,S14-A H3N2,"MLN IFNg+ CD8, Aichi restim (%)",Sham,,3,1.7,S14!F5
+S14,S14-A H3N2,"MLN IFNg+ CD8, Aichi restim (%)",Sham,,4,1.4,S14!F6
+S14,S14-A H3N2,"MLN IFNg+ CD8, Aichi restim (%)",Sham,,5,1.2,S14!F7
+S14,S14-A H3N2,"MLN IFNg+ CD8, Aichi restim (%)",PSLN-212,,1,3.7,S14!G3
+S14,S14-A H3N2,"MLN IFNg+ CD8, Aichi restim (%)",PSLN-212,,2,1.8,S14!G4
+S14,S14-A H3N2,"MLN IFNg+ CD8, Aichi restim (%)",PSLN-212,,3,3.1,S14!G5
+S14,S14-A H3N2,"MLN IFNg+ CD8, Aichi restim (%)",PSLN-212,,4,4.5,S14!G6
+S14,S14-A H3N2,"MLN IFNg+ CD8, Aichi restim (%)",PSLN-212,,5,4.8,S14!G7
+S14,S14-A H3N2,"MLN IFNg+ CD8, Aichi restim (%)",PSLN-344,,1,11.3,S14!H3
+S14,S14-A H3N2,"MLN IFNg+ CD8, Aichi restim (%)",PSLN-344,,2,11.9,S14!H4
+S14,S14-A H3N2,"MLN IFNg+ CD8, Aichi restim (%)",PSLN-344,,3,7.5,S14!H5
+S14,S14-A H3N2,"MLN IFNg+ CD8, Aichi restim (%)",PSLN-344,,4,9.7,S14!H6
+S14,S14-A H3N2,"MLN IFNg+ CD8, Aichi restim (%)",PSLN-344,,5,8.9,S14!H7
+S14,S14-A H3N2,"MLN IFNg+ CD8, Aichi restim (%)",PSLN-212(Y),,1,14.5,S14!I3
+S14,S14-A H3N2,"MLN IFNg+ CD8, Aichi restim (%)",PSLN-212(Y),,2,15.2,S14!I4
+S14,S14-A H3N2,"MLN IFNg+ CD8, Aichi restim (%)",PSLN-212(Y),,3,10.9,S14!I5
+S14,S14-A H3N2,"MLN IFNg+ CD8, Aichi restim (%)",PSLN-212(Y),,4,12.1,S14!I6
+S14,S14-A H3N2,"MLN IFNg+ CD8, Aichi restim (%)",PSLN-212(Y),,5,17.2,S14!I7

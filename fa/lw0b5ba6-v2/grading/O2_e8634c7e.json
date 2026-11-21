@@ -1,0 +1,90 @@
+{
+  "id": "9ddb6ab8-26e1-443c-a697-f5908a12ec92",
+  "problem_run_id": "e8634c7e-5f50-4b4f-bd8c-f53e7b630120",
+  "grading_run_id": "195298c8-2499-4b78-bfda-63d8216138a7",
+  "grading_strategy_type": "agentic_grader",
+  "is_auxiliary_grade": false,
+  "normalized_score": 0.87,
+  "subscores": [
+    {
+      "name": "overall",
+      "score": 0.87,
+      "max_score": 1,
+      "weight": 1,
+      "reasoning": "I reviewed the model's deliverables (PDF, DOCX, markdown, workbook, 8 figures, supporting scans, code) against the original inputs in `/tmp/world/filesystem`. Every file was readable. I recomputed the key numbers myself in R from the source workbook.\n\n**What the task required, and where the model delivers it**\n- **Recommendation first.** Section 1 on page 1: keep the program, take PSLN-344 forward as the single lead, stop PSLN-212. Funding is released in gates, and Gate 0 (source-record verification) is a hard stop.\n- **Next steps.** Study cards for Gates 0, 1A, 1B, 2A, 2B, 3A, 3B, 3C and a Phase 1/2a outline. Each card gives what the study must establish, population, arms and comparators, endpoints, readouts and timing, sample size and go/no-go criteria. Useful additions include a Mn-only arm and a Mn+cGAMP arm to test whether CDN-1807 is needed (an IP question), both sexes, lung viral load, IgA, and a background-mortality arm.\n- **Citations.** Numbers carry [Sxx-Y] block and [A#] analysis IDs. The workbook has an evidence register with exact source cell ranges.\n- **Target demographic for TAM.** Adults ≥65 as the core, with ≥75 and long-term-care residents as the priority group. Adults 50–64 are an adjacent hypothesis, H5 pandemic stockpiles are a separate buyer, exclusions are listed, and the market-research inputs needed are named.\n- **Mechanism and biomarkers.** A 7-step mechanism with an evidence grade for each step and stated gaps (no STING-knockout animals, no Mn-only arm). Tiered biomarkers with human analogues, go thresholds, and the gap that IgA was never measured.\n- **Other required sections.** What dropping the program gives up (and what it doesn't) is covered, and a table of 11 options considered and ruled out is included.\n\n**Independent verification (all matched)**\n- **Survival tables.** Per-experiment survivor counts and log-rank p-values match.\n- **Pooled hazard ratio.** The stratified Cox HR is 0.0828 (0.041–0.167); with Breslow ties it is 0.099. Sensitivity analyses give 0.097 after dropping S03-I and 0.092 after dropping S03-J.\n- **Fisher tests.** PSLN-212 vs Sham p=0.061. At day 60, PSLN-344 vs untreated p=0.48 and vs young p=0.009.\n- **Immune readouts.**\n  - Ifnb1 at 16 h: 36.9 vs 16.5 vs 37.5 (young), GMR 2.23, Tukey p=0.0006, 98% of the age gap closed.\n  - Antibodies: HAI GMTs 368 vs 45.9 (×8.0) and 320 vs 34.8; recomputed IgG2a/IgG1 ratio 1.85 vs 0.54.\n  - Other readouts: Gm-csf, CD40/CD86, S09-A cytokines, S10-A Tukey p-values and S08-A/S08-B values all match.\n- **Summary statistics.** Median age-gap closure 74% (IQR 63–82%). Holm correction leaves 36/40 (Tukey) and 31/40 (Welch) readouts significant.\n- **Integrity findings.** All the ones I checked are real:\n  - S06-D is a cell-for-cell copy of S06-C.\n  - S03-B/F group labels are rotated relative to the S13 titres.\n  - Tfh:Tfr equals (100−Foxp3%)/Foxp3%.\n  - S09-A holds log10 values of S01-A animals, and its second panel is the 72 h data despite the 16 h label.\n  - S11-A/B share replicate values.\n  - S15-I copies the S15-C weights, and S15-M copies weights from S09-E and S15-A.\n  - Untreated, unchallenged animals died.\n  - S13-F/G contradict the survival blocks they describe.\n  - HAI titres recorded as 0 sit below the 1:10 detection limit.\n  - The NP366 epitope does not fit BALB/c mice.\n\n**Weaknesses**\n- **Missed \"copy plus integer offset\" fabrication.** The model missed a second kind of reuse in the body-weight blocks: values copied from another block with a whole-number shift. For example, the young-reference weights in S15-F equal the S08-D CMP-204 values plus or minus whole numbers. S15-F is the weight record for S06-F(d60), one of the 8 primary survival experiments. The S15-J/K imprinting blocks show the same pattern.\n  - As a result, the claim that the conclusion rests on blocks with no duplication flags is somewhat overstated.\n  - The middle-aged (imprinting) evidence used for the 50–64 segment is also less secure than presented.\n  - Gate 0's scope would catch this on audit.\n- **Direction of the anomalies not pointed out.** The anomalies consistently make PSLN-344 look better: S06-D hides PSLN-344 deaths, and the S13-F/G weights show comparator animals recovering that the survival blocks record as dead. The model reports each one but never says they all lean the same way. \"Biological signal: high\" is a little optimistic in light of that.\n- **Minor slips.**\n  - The Fig 2 caption points to Table 3; the log-rank results are in Table 1.\n  - The power note says 67% vs 100%, but the simulation used 95%.\n  - Gate 1A uses 24 per arm where the calculation gives 23 (rounded up for sex balance).\n\n**Overall**\nThis is an exceptionally thorough, accurate and well-cited package that meets every element of the request, and the recommendation is defensible. The deductions are for the subtle fabrication pattern it missed and the small inconsistencies above."
+    }
+  ],
+  "weight": 1,
+  "allow_unbounded": false,
+  "created_at": "2026-11-19T17:40:29.973029Z",
+  "has_metadata": true,
+  "metadata_byte_size": 494401,
+  "metadata": {
+    "agentic_grader": {
+      "cc_harness": false,
+      "container_mode": "fresh_with_policy_setup",
+      "scoring_mode": "single_score",
+      "grading_model": "claude-opus-5-5",
+      "grading_model_slug": "claude-opus-5-5",
+      "grading_container_id": "calm-pitch-ckxsmp-zxcqww",
+      "grader_error": false,
+      "full_debug_s3_hint": "biome/agentic-grading-transcripts/calm-pitch-ckxsmp-zxcqww/grading_debug.json",
+      "grading_turns_count": null,
+      "grading_tokens_consumed": null,
+      "grader_context_window_effective": 1000000,
+      "grader_context_window_source": "default",
+      "policy_outputs_transfer": {
+        "mode": "snapshot_mount",
+        "snapshot_source": "pre_grade",
+        "snapshot_ttl": null,
+        "snapshot_seconds": 2.2287975379731506,
+        "reader_uid": 1000,
+        "handin_max_bytes": 2147483648,
+        "grading_box_seconds": 40.854,
+        "grading_box_attempts": 1,
+        "mount_verified": true,
+        "unmounted": true,
+        "detach_checks": [
+          "mounts",
+          "same_device",
+          "ext4_sysfs",
+          "device_read"
+        ],
+        "device_read_refused": true,
+        "present_seconds": 0.558,
+        "probe": "dir",
+        "measured_bytes": 6803986,
+        "entries": 39,
+        "status": "ok",
+        "declared_path_missing": false,
+        "declared_path_wrong_type": false,
+        "copied_files": 36,
+        "copied_bytes": 6775963,
+        "copies_inert": true
+      },
+      "import_shadowing_set_aside": [],
+      "grader_attempts": 1,
+      "grader_failed_attempts": [],
+      "grader_failed_attempt_errors": [],
+      "grader_failed_attempts_ms": 0,
+      "grader_planted_shape": null,
+      "policy_markup_hits": 0,
+      "handin_integrity": "unchanged",
+      "handin_integrity_drift_only": true
+    },
+    "rubric_evaluations": [
+      {
+        "name": "overall",
+        "score": 0.87,
+        "max_score": 1,
+        "weight": 1,
+        "reasoning": "I reviewed the model's deliverables (PDF, DOCX, markdown, workbook, 8 figures, supporting scans, code) against the original inputs in `/tmp/world/filesystem`. Every file was readable. I recomputed the key numbers myself in R from the source workbook.\n\n**What the task required, and where the model delivers it**\n- **Recommendation first.** Section 1 on page 1: keep the program, take PSLN-344 forward as the single lead, stop PSLN-212. Funding is released in gates, and Gate 0 (source-record verification) is a hard stop.\n- **Next steps.** Study cards for Gates 0, 1A, 1B, 2A, 2B, 3A, 3B, 3C and a Phase 1/2a outline. Each card gives what the study must establish, population, arms and comparators, endpoints, readouts and timing, sample size and go/no-go criteria. Useful additions include a Mn-only arm and a Mn+cGAMP arm to test whether CDN-1807 is needed (an IP question), both sexes, lung viral load, IgA, and a background-mortality arm.\n- **Citations.** Numbers carry [Sxx-Y] block and [A#] analysis IDs. The workbook has an evidence register with exact source cell ranges.\n- **Target demographic for TAM.** Adults ≥65 as the core, with ≥75 and long-term-care residents as the priority group. Adults 50–64 are an adjacent hypothesis, H5 pandemic stockpiles are a separate buyer, exclusions are listed, and the market-research inputs needed are named.\n- **Mechanism and biomarkers.** A 7-step mechanism with an evidence grade for each step and stated gaps (no STING-knockout animals, no Mn-only arm). Tiered biomarkers with human analogues, go thresholds, and the gap that IgA was never measured.\n- **Other required sections.** What dropping the program gives up (and what it doesn't) is covered, and a table of 11 options considered and ruled out is included.\n\n**Independent verification (all matched)**\n- **Survival tables.** Per-experiment survivor counts and log-rank p-values match.\n- **Pooled hazard ratio.** The stratified Cox HR is 0.0828 (0.041–0.167); with Breslow ties it is 0.099. Sensitivity analyses give 0.097 after dropping S03-I and 0.092 after dropping S03-J.\n- **Fisher tests.** PSLN-212 vs Sham p=0.061. At day 60, PSLN-344 vs untreated p=0.48 and vs young p=0.009.\n- **Immune readouts.**\n  - Ifnb1 at 16 h: 36.9 vs 16.5 vs 37.5 (young), GMR 2.23, Tukey p=0.0006, 98% of the age gap closed.\n  - Antibodies: HAI GMTs 368 vs 45.9 (×8.0) and 320 vs 34.8; recomputed IgG2a/IgG1 ratio 1.85 vs 0.54.\n  - Other readouts: Gm-csf, CD40/CD86, S09-A cytokines, S10-A Tukey p-values and S08-A/S08-B values all match.\n- **Summary statistics.** Median age-gap closure 74% (IQR 63–82%). Holm correction leaves 36/40 (Tukey) and 31/40 (Welch) readouts significant.\n- **Integrity findings.** All the ones I checked are real:\n  - S06-D is a cell-for-cell copy of S06-C.\n  - S03-B/F group labels are rotated relative to the S13 titres.\n  - Tfh:Tfr equals (100−Foxp3%)/Foxp3%.\n  - S09-A holds log10 values of S01-A animals, and its second panel is the 72 h data despite the 16 h label.\n  - S11-A/B share replicate values.\n  - S15-I copies the S15-C weights, and S15-M copies weights from S09-E and S15-A.\n  - Untreated, unchallenged animals died.\n  - S13-F/G contradict the survival blocks they describe.\n  - HAI titres recorded as 0 sit below the 1:10 detection limit.\n  - The NP366 epitope does not fit BALB/c mice.\n\n**Weaknesses**\n- **Missed \"copy plus integer offset\" fabrication.** The model missed a second kind of reuse in the body-weight blocks: values copied from another block with a whole-number shift. For example, the young-reference weights in S15-F equal the S08-D CMP-204 values plus or minus whole numbers. S15-F is the weight record for S06-F(d60), one of the 8 primary survival experiments. The S15-J/K imprinting blocks show the same pattern.\n  - As a result, the claim that the conclusion rests on blocks with no duplication flags is somewhat overstated.\n  - The middle-aged (imprinting) evidence used for the 50–64 segment is also less secure than presented.\n  - Gate 0's scope would catch this on audit.\n- **Direction of the anomalies not pointed out.** The anomalies consistently make PSLN-344 look better: S06-D hides PSLN-344 deaths, and the S13-F/G weights show comparator animals recovering that the survival blocks record as dead. The model reports each one but never says they all lean the same way. \"Biological signal: high\" is a little optimistic in light of that.\n- **Minor slips.**\n  - The Fig 2 caption points to Table 3; the log-rank results are in Table 1.\n  - The power note says 67% vs 100%, but the simulation used 95%.\n  - Gate 1A uses 24 per arm where the calculation gives 23 (rounded up for sex balance).\n\n**Overall**\nThis is an exceptionally thorough, accurate and well-cited package that meets every element of the request, and the recommendation is defensible. The deductions are for the subtle fabrication pattern it missed and the small inconsistencies above."
+      }
+    ],
+    "strategy_type": "agentic_grader",
+    "grade_key": "agentic_grader",
+    "label": null,
+    "strategy_weight": 1,
+    "is_auxiliary": false
+  }
+}

@@ -1,0 +1,54 @@
+                            layer             block                            analyte             time   RI  RI_lo  RI_hi  p_344_vs_Y
+       1 Innate cytokine (16-36h)             S01-A                              Ifnb1              16h 0.98   0.84   1.13        0.82
+       1 Innate cytokine (16-36h) S09-A panel1[A:U]                               Ccl2 16h (as printed) 0.84   0.68   1.01        0.22
+       1 Innate cytokine (16-36h) S09-A panel1[A:U]                               Ccl3 16h (as printed) 0.83   0.71   0.97        0.13
+       1 Innate cytokine (16-36h) S09-A panel1[A:U]                               Ccl5 16h (as printed) 0.64   0.48   0.86        0.07
+       1 Innate cytokine (16-36h) S09-A panel1[A:U]                                Il6 16h (as printed) 0.78   0.47   1.08        0.34
+2 Myeloid recruitment & DC (d3-4)             S01-D                     Lung monocytes               d4 0.89   0.62   1.23        0.56
+2 Myeloid recruitment & DC (d3-4)             S01-E                     Lung CD11b+ DC               d4 0.81   0.32   1.38        0.55
+2 Myeloid recruitment & DC (d3-4)             S01-F                          Lung cDC1              72h 0.71   0.44   1.06        0.17
+2 Myeloid recruitment & DC (d3-4)             S01-G                          Lung cDC2              72h 0.75   0.49   1.14        0.26
+2 Myeloid recruitment & DC (d3-4)             S02-A   CCR7+ migratory CD11b+ DC (lung)              72h 0.84   0.59   1.11        0.33
+2 Myeloid recruitment & DC (d3-4)             S02-B                MLN CD11b+CD103- DC              72h 0.70   0.40   1.08        0.18
+2 Myeloid recruitment & DC (d3-4)             S02-C                  MLN AF647-OVA+ DC              36h 0.70   0.53   0.90        0.04
+         3 DC co-stimulation (d3)        S02-D CD40             CD40+ of MLN CD11b+ DC               d3 0.17   0.09   0.25        0.00
+         3 DC co-stimulation (d3)        S02-D CD86             CD86+ of MLN CD11b+ DC               d3 0.22   0.13   0.30        0.00
+      4 CD8 priming/effector (d3)             S02-E OT-I proliferation (DC co-culture)           72h+3d 0.70   0.55   0.87        0.06
+      4 CD8 priming/effector (d3)             S05-D                    Lung Ki-67+ CD8               d3 0.91   0.61   1.51        0.73
+      4 CD8 priming/effector (d3)             S05-E                     Lung GZMB+ CD8               d3 0.41   0.27   0.54        0.00
+         5 Tfh/GC/regulation (d7)             S03-K                     MLN GC B cells               d7 0.56   0.36   0.89        0.08
+         5 Tfh/GC/regulation (d7)             S04-A                        Tfh ICOS-hi               d7 0.66   0.41   0.95        0.08
+         5 Tfh/GC/regulation (d7)             S04-A                        Tfh ICOS-lo               d7 0.72   0.32   1.51        0.42
+         5 Tfh/GC/regulation (d7)       S04-B Foxp3       Tfr (Foxp3+ of CXCR5+ICOShi)               d7 0.81   0.66   1.00        0.09
+         5 Tfh/GC/regulation (d7)             S04-C       Tfr (Foxp3+ of CXCR5+ICOShi)              d30 0.38   0.01   0.65        0.01
+         5 Tfh/GC/regulation (d7)             S04-D                          Lung Treg               d7 0.75   0.65   0.88        0.05
+         5 Tfh/GC/regulation (d7)             S13-H                  MLN IgG+ of B220+       not stated 0.93   0.69   1.20        0.65
+                 6 Antibody (d14)             S03-A                      IgG CA09 H1N1              d14 0.86   0.71   0.99        0.11
+                 6 Antibody (d14)             S03-C                      HAI CA09 H1N1              d14 0.88   0.67   1.13        0.40
+                 6 Antibody (d14)             S03-D                     Neut CA09 H1N1              d14 0.80   0.50   1.06        0.27
+                 6 Antibody (d14)             S03-E                     IgG Aichi H3N2              d14 0.75   0.58   0.91        0.04
+                 6 Antibody (d14)             S03-G                     HAI Aichi H3N2              d14 0.94   0.75   1.13        0.61
+                 6 Antibody (d14)             S03-H                    Neut Aichi H3N2              d14 0.80   0.57   1.06        0.18
+                 6 Antibody (d14)             S13-A                    IgG2a CA09 H1N1              d14 0.74   0.63   0.87        0.01
+                 6 Antibody (d14)             S13-B                     IgG1 CA09 H1N1              d14 0.70   0.62   0.81        0.00
+                 6 Antibody (d14)             S13-C                   IgG2a Aichi H3N2              d14 0.73   0.62   0.86        0.01
+                 6 Antibody (d14)             S13-D                    IgG1 Aichi H3N2              d14 0.59   0.48   0.70        0.00
+      7 Antibody post-boost (d28)             S13-I           IgG CA09 H1N1 post-boost              d28 0.57   0.29   0.88        0.05
+      7 Antibody post-boost (d28)             S13-J          IgG Aichi H3N2 post-boost              d28 0.66   0.48   0.85        0.02
+            8 CD8 memory (d14-60)             S05-F      MLN IFNg+ CD8 (rgH5N1 restim)              d14 0.63   0.52   0.76        0.00
+            8 CD8 memory (d14-60)             S05-G      MLN IFNg+ CD8 (rgH5N1 restim)              d60 0.60   0.39   0.87        0.04
+            8 CD8 memory (d14-60)             S05-H                      MLN GZMB+ CD8              d60 0.68   0.44   0.98        0.12
+            8 CD8 memory (d14-60)             S05-I                       Lung TRM CD8              d25 0.59   0.47   0.70        0.00
+            8 CD8 memory (d14-60)        S14-A H1N1        MLN IFNg+ CD8 (H1N1 restim)       not stated 0.75   0.52   1.01        0.13
+            8 CD8 memory (d14-60)        S14-A H3N2        MLN IFNg+ CD8 (H3N2 restim)       not stated 0.60   0.44   0.80        0.02
+
+                                   count  median   min   max
+layer                                                       
+1 Innate cytokine (16-36h)             5    0.83  0.64  0.98
+2 Myeloid recruitment & DC (d3-4)      7    0.75  0.70  0.89
+3 DC co-stimulation (d3)               2    0.19  0.17  0.22
+4 CD8 priming/effector (d3)            3    0.70  0.41  0.91
+5 Tfh/GC/regulation (d7)               7    0.72  0.38  0.93
+6 Antibody (d14)                      10    0.77  0.59  0.94
+7 Antibody post-boost (d28)            2    0.62  0.57  0.66
+8 CD8 memory (d14-60)                  6    0.62  0.59  0.75

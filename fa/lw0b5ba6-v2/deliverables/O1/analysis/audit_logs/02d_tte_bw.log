@@ -1,0 +1,88 @@
+=== group-level identical TTE vectors across blocks (excluding all-censored arms) ===
+identical arm: ('S06-A', 'PSLN-344') ('S06-E[imprint]', 'Imprinting+PSLN-344') ((8.0, 1), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0))
+identical arm: ('S06-A', 'PSLN-344') ('S06-F[imprint]', 'Naive+PSLN-344') ((8.0, 1), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0))
+identical arm: ('S06-A', 'PSLN-344') ('S15-L', 'PSLN-344') ((8.0, 1), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0))
+identical arm: ('S06-A', 'PSLN-344') ('S15-N', 'PSLN-344') ((8.0, 1), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0))
+identical arm: ('S06-B', 'PSLN-344') ('S06-E', 'PSLN-344') ((8.0, 1), (10.0, 1), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0))
+identical arm: ('S06-B', 'Sham') ('S06-F', 'Sham') ((4.0, 1), (4.0, 1), (4.0, 1), (5.0, 1), (5.0, 1), (6.0, 1), (6.0, 1))
+identical arm: ('S06-C', 'PSLN-212') ('S06-D', 'PSLN-212') ((5.0, 1), (8.0, 1), (10.0, 1), (10.0, 1), (12.0, 1), (14.0, 0), (14.0, 0))
+identical arm: ('S06-C', 'Sham') ('S06-D', 'Sham') ((4.0, 1), (4.0, 1), (5.0, 1), (6.0, 1), (6.0, 1), (6.0, 1), (7.0, 1))
+identical arm: ('S06-E[imprint]', 'Imprinting+PSLN-344') ('S06-F[imprint]', 'Naive+PSLN-344') ((8.0, 1), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0))
+identical arm: ('S06-E[imprint]', 'Imprinting+PSLN-344') ('S15-L', 'PSLN-344') ((8.0, 1), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0))
+identical arm: ('S06-E[imprint]', 'Imprinting+PSLN-344') ('S15-N', 'PSLN-344') ((8.0, 1), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0))
+identical arm: ('S06-F[imprint]', 'Naive+PSLN-344') ('S15-L', 'PSLN-344') ((8.0, 1), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0))
+identical arm: ('S06-F[imprint]', 'Naive+PSLN-344') ('S15-N', 'PSLN-344') ((8.0, 1), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0))
+identical arm: ('S15-H', '3d Vaccine+PSLN-344') ('S15-L', 'PSLN-212(Y)') ((12.0, 1), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0))
+identical arm: ('S15-L', 'PSLN-344') ('S15-N', 'PSLN-344') ((8.0, 1), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0), (14.0, 0))
+
+=== BW vs TTE reconciliation ===
+   bw_block       tte_block                group  n_bw  n_tte  surv_bw  dead_blank  dead_locf  surv_tte                       match
+0     S15-A           S06-A             PSLN-212     7      7      1.0           0          6       1.0                        True
+1     S15-A           S06-A          PSLN-212(Y)     7      7      7.0           0          0       7.0                        True
+2     S15-A           S06-A             PSLN-344     7      7      6.0           0          1       6.0                        True
+3     S15-A           S06-A                 Sham     7      7      0.0           7          0       0.0                        True
+4     S15-B           S06-B             PSLN-212     7      7      0.0           0          7       0.0                        True
+5     S15-B           S06-B          PSLN-212(Y)     7      7      7.0           0          0       7.0                        True
+6     S15-B           S06-B             PSLN-344     7      7      5.0           0          2       5.0                        True
+7     S15-B           S06-B                 Sham     7      7      0.0           7          0       0.0                        True
+8     S15-C           S06-C             PSLN-212     7      7      1.0           0          6       2.0                       False
+9     S15-C           S06-C          PSLN-212(Y)     7      7      7.0           0          0       7.0                        True
+10    S15-C           S06-C             PSLN-344     7      7      7.0           0          0       7.0                        True
+11    S15-C           S06-C                 Sham     7      7      0.0           7          0       0.0                        True
+12    S15-D           S06-D             PSLN-212     7      7      3.0           0          4       2.0                       False
+13    S15-D           S06-D          PSLN-212(Y)     7      7      5.0           0          2       7.0                       False
+14    S15-D           S06-D             PSLN-344     7      7      5.0           0          2       7.0                       False
+15    S15-D           S06-D                 Sham     7      7      0.0           7          0       0.0                        True
+16    S15-E           S06-E             PSLN-212     7      7      1.0           0          6       0.0                       False
+17    S15-E           S06-E          PSLN-212(Y)     7      7      7.0           0          0       7.0                        True
+18    S15-E           S06-E             PSLN-344     7      7      6.0           0          1       5.0                       False
+19    S15-E           S06-E                 Sham     7      7      0.0           7          0       0.0                        True
+20    S15-E           S06-E            Untreated     7      7      6.0           0          1       6.0                        True
+21    S15-F           S06-F             PSLN-212     7      7      1.0           0          6       1.0                        True
+22    S15-F           S06-F          PSLN-212(Y)     7      7      7.0           0          0       7.0                        True
+23    S15-F           S06-F             PSLN-344     7      7      5.0           0          2       5.0                        True
+24    S15-F           S06-F                 Sham     7      7      0.0           7          0       0.0                        True
+25    S15-F           S06-F            Untreated     7      7      7.0           0          0       7.0                        True
+26    S15-G           S06-G             PSLN-212     7      7      0.0           0          7       0.0                        True
+27    S15-G           S06-G          PSLN-212(Y)     7      7      7.0           0          0       7.0                        True
+28    S15-G           S06-G             PSLN-344     7      7      7.0           0          0       4.0                       False
+29    S15-G           S06-G                 Sham     7      7      0.0           7          0       0.0                        True
+30    S15-G           S06-G            Untreated     7      7      4.0           0          3       4.0                        True
+31    S15-I           S15-H          3d PSLN-344     7      7      0.0           7          0       0.0                        True
+32    S15-I           S15-H           3d Vaccine     7      7      0.0           7          0       0.0                        True
+33    S15-I           S15-H  3d Vaccine+PSLN-344     7      7      7.0           0          0       6.0                       False
+34    S15-J  S06-E[imprint]  Imprinting+PSLN-212     7      7      4.0           3          0       4.0                        True
+35    S15-J  S06-E[imprint]  Imprinting+PSLN-344     7      7      6.0           0          1       6.0                        True
+36    S15-J  S06-E[imprint]       Naive+PSLN-212     7      7      0.0           7          0       0.0                        True
+37    S15-J  S06-E[imprint]       Naive+PSLN-344     7      7      6.0           1          0       6.0                        True
+38    S15-K  S06-F[imprint]  Imprinting+PSLN-212     7      7      0.0           7          0       0.0                        True
+39    S15-K  S06-F[imprint]  Imprinting+PSLN-344     7      7      6.0           1          0       6.0                        True
+40    S15-K  S06-F[imprint]       Naive+PSLN-212     7      7      0.0           7          0       0.0                        True
+41    S15-K  S06-F[imprint]       Naive+PSLN-344     7      7      6.0           1          0       6.0                        True
+42    S15-M           S15-L             PSLN-212     7      7      1.0           0          6       0.0                       False
+43    S15-M           S15-L          PSLN-212(Y)     7      7      7.0           0          0       6.0                       False
+44    S15-M           S15-L             PSLN-344     7      7      6.0           0          1       6.0                        True
+45    S15-M           S15-L                 Sham     7      7      0.0           7          0       0.0                        True
+46    S15-O           S15-N             PSLN-212     7      7      3.0           0          4       2.0                       False
+47    S15-O           S15-N          PSLN-212(Y)     7      7      7.0           0          0       7.0                        True
+48    S15-O           S15-N             PSLN-344     7      7      6.0           0          1       6.0                        True
+49    S15-O           S15-N                 Sham     7      7      0.0           7          0       0.0                        True
+50    S09-C           S09-B          PSLN-212(Y)     8      8      8.0           0          0       8.0                        True
+51    S09-C           S09-B          PSLN-344(Y)     8      8      8.0           0          0       8.0                        True
+52    S09-C           S09-B                 Sham     8      8      0.0           8          0       0.0                        True
+53    S09-E           S09-D          PSLN-212(Y)     8      8      8.0           0          0       8.0                        True
+54    S09-E           S09-D          PSLN-344(Y)     8      8      8.0           0          0       8.0                        True
+55    S09-E           S09-D                 Sham     8      8      0.0           8          0       0.0                        True
+56    S09-G           S09-F          PSLN-212(Y)     8      8      8.0           0          0       8.0                        True
+57    S09-G           S09-F          PSLN-344(Y)     8      8      8.0           0          0       8.0                        True
+58    S09-G           S09-F                 Sham     8      7      0.0           8          0       0.0                        True
+59    S13-F           S03-I              CMP-204     0      7      NaN           0          0       3.0  group missing in one block
+60    S13-F           S03-I                Naive     7      0      0.0           7          0       NaN  group missing in one block
+61    S13-F           S03-I             PSLN-212     7      7      3.0           0          4       0.0                       False
+62    S13-F           S03-I          PSLN-212(Y)     7      7      7.0           0          0       7.0                        True
+63    S13-F           S03-I             PSLN-344     7      7      7.0           0          0       7.0                        True
+64    S13-F           S03-I                 Sham     7      7      0.0           7          0       0.0                        True
+65    S13-G           S03-J                Naive    10      0      1.0           0          9       NaN  group missing in one block
+66    S13-G           S03-J             PSLN-212     0     10      NaN           0          0       3.0  group missing in one block
+67    S13-G           S03-J             PSLN-344    10     10     10.0           0          0      10.0                        True
+68    S13-G           S03-J                 Sham    10     10      8.0           0          2       1.0                       False

@@ -1,0 +1,8 @@
+body { font-family: "Segoe UI", Arial, sans-serif; max-width: 1150px; margin: 2em auto; line-height: 1.45; color: #222; font-size: 14px; }
+table { border-collapse: collapse; margin: 1em 0; font-size: 12px; }
+th, td { border: 1px solid #bbb; padding: 4px 6px; vertical-align: top; }
+th { background: #eef2f5; }
+blockquote { border-left: 5px solid #c0392b; background: #fdf2f0; margin: 1em 0; padding: 0.6em 1em; }
+img { max-width: 100%; border: 1px solid #ddd; }
+h1 { border-bottom: 2px solid #c0392b; padding-bottom: 4px; margin-top: 2em; }
+code { font-size: 12px; background: #f4f4f4; padding: 0 3px; }

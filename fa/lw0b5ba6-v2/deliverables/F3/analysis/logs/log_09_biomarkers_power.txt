@@ -1,0 +1,52 @@
+block       readout                                 time       Sham  212 aged  344 aged 212 young   AUC  overlap  restored 344/young
+S01-A_16h   Ifnb1 mRNA, lung                        16 h       0.94     16.53     36.87     37.47  1.00       NO       98%       98%
+S02-A       CCR7+ of lung CD11b+ DC                 72 h       2.54      7.28     30.68     35.00  1.00       NO       84%       88%
+S02-B       CD11b+ DC in MLN                        72 h      13.92     18.22     36.76     44.70  0.99      yes       70%       82%
+S02-D_CD40  CD40+ of MLN CD11b+ DC                  d3         3.96      5.56     11.20     38.72  1.00       NO       17%       29%
+S02-D_CD86  CD86+ of MLN CD11b+ DC                  d3         7.18      8.13     14.54     37.94  1.00       NO       22%       38%
+S01-F       cDC1 share of lung cDC                  72 h      17.94     22.80     37.52     43.42  1.00       NO       71%       86%
+S04-A_ICOShiICOS-hi Tfh in MLN                      d7         0.30      3.82     10.26     13.63  1.00       NO       66%       75%
+S04-B_Foxp3 Tfr (Foxp3+ of CXCR5+ICOShi)            d7        22.60     26.66     10.80      7.12  1.00       NO       81%      152%
+S04-D       lung Treg                               d7         5.88      6.66      2.99      1.78  1.00       NO       75%      168%
+S03-K       GC B cells in MLN                       d7         1.18      2.34      6.54      9.82  1.00       NO       56%       67%
+S13-H       IgG+ of MLN B220+                       n.s.       4.70     11.22     25.86     27.11  1.00       NO       92%       95%
+S03-A       serum IgG anti-H1N1                     d14       55.68    393.21   7305.09  11958.93  1.00       NO       86%       61%
+S03-E       serum IgG anti-H3N2                     d14       52.41    425.53   5700.78  13855.47  1.00       NO       75%       41%
+S03-C       HAI H1N1                                d14        7.58     45.95    367.58    485.03  1.00       NO       88%       76%
+S03-G       HAI H3N2                                d14       10.00     34.82    320.00    367.58  1.00       NO       94%       87%
+S03-D       neutralising titre H1N1                 d14       52.23    417.86   3840.00   6685.83  0.99      yes       80%       57%
+S03-H       neutralising titre H3N2                 d14       39.59    275.69   2533.46   4411.00  1.00       NO       80%       57%
+S05-D       Ki-67+ lung CD8                         d3         0.83      3.48      9.38      9.94  1.00       NO       91%       94%
+S05-E       GZMB+ lung CD8                          d3         0.99      2.99      5.69      9.61  1.00       NO       41%       59%
+S05-F       IFN-g+ CD8 (H5N1 cross-reactive), MLN   d14        0.67      1.50      6.36      9.18  1.00       NO       63%       69%
+S05-G       IFN-g+ CD8 (H5N1 cross-reactive), MLN   d60        1.46      3.04      9.86     14.36  1.00       NO       60%       69%
+S05-I       lung CD8 TRM                            d25        0.58      1.00      3.96      6.04  1.00       NO       59%       66%
+S14-A_H1N1  IFN-g+ CD8 (H1N1), MLN                  n.s.       0.82      3.14     11.02     13.70  1.00       NO       75%       80%
+S14-A_H3N2  IFN-g+ CD8 (H3N2), MLN                  n.s.       1.04      3.58      9.86     13.98  1.00       NO       60%       71%
+S11-E       CD206+ lung macrophages                 n.s.      85.18     71.46     48.92     35.54  1.00       NO       63%      138%
+
+S01-E lung CD11b+ DC day-4 peak: {'Sham': 4.8, 'PSLN-212': 8.3, 'PSLN-344': 18.9, 'PSLN-212(Y)': 21.4, 'PSLN-344(Y)': 22.6}  restored: 0.81
+S01-D lung monocytes day-4 peak: {'Sham': 10.4, 'PSLN-212': 16.7, 'PSLN-344': 30.6, 'PSLN-212(Y)': 32.2}  restored: 0.89
+
+====================================================================================================
+SAMPLE-SIZE CALCULATIONS FOR PROPOSED STUDIES
+====================================================================================================
+   survival, replication: PSLN-344 85% vs PSLN-212 14% (pooled observed): n/arm = 8 (power 0.81) for 80%; 11 (power 0.92) for 90%  [two-sided Fisher exact, alpha 0.05]
+   survival, conservative replication: 78% vs 19% (worst-case sensitivity): n/arm = 13 (power 0.85) for 80%; 17 (power 0.93) for 90%  [two-sided Fisher exact, alpha 0.05]
+   survival, attribution: PSLN-344 85% vs Mn-only control assumed 50%: n/arm = 32 (power 0.82) for 80%; 41 (power 0.91) for 90%  [two-sided Fisher exact, alpha 0.05]
+   survival, attribution: PSLN-344 85% vs Mn-only control assumed 40%: n/arm = 22 (power 0.83) for 80%; 26 (power 0.91) for 90%  [two-sided Fisher exact, alpha 0.05]
+   survival, benchmark: PSLN-344 85% vs licensed-type comparator assumed 45%: n/arm = 25 (power 0.80) for 80%; 32 (power 0.90) for 90%  [two-sided Fisher exact, alpha 0.05]
+   power actually available in the existing n=7 design for 85% vs 14%: 0.67; for 85% vs 50%: 0.10
+   S03-C within-group SD of log2 titre by arm: CMP-204 0.84, PSLN-212 0.45, PSLN-344 0.84, PSLN-212(Y) 0.55
+   S03-G within-group SD of log2 titre by arm: CMP-204 0.55, PSLN-212 0.84, PSLN-344 0.71, PSLN-212(Y) 0.45
+   S03-D within-group SD of log2 titre by arm: CMP-204 0.89, PSLN-212 0.84, PSLN-344 1.22, PSLN-212(Y) 0.84
+   S03-H within-group SD of log2 titre by arm: CMP-204 0.84, PSLN-212 0.84, PSLN-344 0.89, PSLN-212(Y) 0.84
+   pooled SD log2: HAI 0.67; neutralising 0.91
+   HAI superiority, detect 4-fold GMR: n/arm = 4 (power 0.94);  neutralising titre: n/arm = 6 (power 0.93)
+   HAI superiority, detect 3-fold GMR: n/arm = 5 (power 0.90);  neutralising titre: n/arm = 8 (power 0.90)
+   HAI superiority, detect 2-fold GMR: n/arm = 11 (power 0.91);  neutralising titre: n/arm = 19 (power 0.91)
+   HAI non-inferiority aged PSLN-344 vs young PSLN-212, margin GMR 0.5, assumed true GMR 0.87: n/arm = 16 (power 0.90)
+   HAI non-inferiority aged PSLN-344 vs young PSLN-212, margin GMR 0.5, assumed true GMR 0.76: n/arm = 27 (power 0.90)
+   unchallenged aged controls n=20: if 4/20 die, exact 95% CI 6-44%
+   unchallenged aged controls n=30: if 6/30 die, exact 95% CI 8-39%
+   unchallenged aged controls n=40: if 8/40 die, exact 95% CI 9-36%

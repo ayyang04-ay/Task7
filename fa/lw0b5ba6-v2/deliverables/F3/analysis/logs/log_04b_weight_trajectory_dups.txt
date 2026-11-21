@@ -1,0 +1,84 @@
+weight blocks: 18; animals: 517
+animal trajectories sharing >=3 time-matched identical values with an animal in a different block/group:
+
+S15-C [PSLN-344]  vs  S15-I [3d Vaccine+PSLN-344]: 7 animal pair(s), 40 identical cells
+      animal #2 vs #2: 6 identical of 7 informative cells, days [2, 4, 6, 8, 10, 12]
+      animal #3 vs #3: 6 identical of 6 informative cells, days [2, 4, 6, 8, 10, 12]
+      animal #4 vs #4: 6 identical of 7 informative cells, days [2, 4, 6, 8, 10, 12]
+      animal #5 vs #5: 6 identical of 7 informative cells, days [2, 4, 6, 8, 10, 12]
+      animal #6 vs #6: 6 identical of 7 informative cells, days [2, 4, 6, 8, 10, 12]
+      animal #7 vs #7: 6 identical of 7 informative cells, days [2, 4, 6, 8, 10, 12]
+      animal #1 vs #1: 4 identical of 7 informative cells, days [4, 6, 8, 12]
+
+S09-E [PSLN-344Y]  vs  S15-M [PSLN-212(Y)]: 6 animal pair(s), 32 identical cells
+      animal #5 vs #4: 7 identical of 7 informative cells, days [2, 4, 6, 8, 10, 12, 14]
+      animal #2 vs #1: 6 identical of 7 informative cells, days [2, 6, 8, 10, 12, 14]
+      animal #3 vs #2: 5 identical of 7 informative cells, days [6, 8, 10, 12, 14]
+      animal #4 vs #3: 5 identical of 7 informative cells, days [6, 8, 10, 12, 14]
+      animal #6 vs #5: 5 identical of 7 informative cells, days [2, 6, 8, 10, 12]
+      animal #7 vs #6: 4 identical of 7 informative cells, days [6, 8, 10, 12]
+
+S15-A [PSLN-344]  vs  S15-M [PSLN-344]: 2 animal pair(s), 10 identical cells
+      animal #2 vs #2: 5 identical of 7 informative cells, days [4, 6, 10, 12, 14]
+      animal #3 vs #3: 5 identical of 7 informative cells, days [4, 6, 10, 12, 14]
+
+S09-E [PSLN-212Y]  vs  S09-G [PSLN-212Y]: 1 animal pair(s), 7 identical cells
+      animal #8 vs #8: 7 identical of 7 informative cells, days [2, 4, 6, 8, 10, 12, 14]
+
+S15-M [PSLN-344]  vs  S15-O [PSLN-344]: 2 animal pair(s), 6 identical cells
+      animal #4 vs #4: 3 identical of 7 informative cells, days [4, 6, 14]
+      animal #6 vs #6: 3 identical of 7 informative cells, days [4, 6, 12]
+
+S09-E [PSLN-212Y]  vs  S15-C [PSLN-212(Y)]: 1 animal pair(s), 5 identical cells
+      animal #6 vs #6: 5 identical of 7 informative cells, days [6, 8, 10, 12, 14]
+
+S15-A [PSLN-212(Y)]  vs  S15-M [PSLN-212(Y)]: 1 animal pair(s), 4 identical cells
+      animal #7 vs #7: 4 identical of 7 informative cells, days [8, 10, 12, 14]
+
+S09-C [PSLN-212Y]  vs  S09-C [PSLN-344Y]: 1 animal pair(s), 3 identical cells
+      animal #2 vs #2: 3 identical of 7 informative cells, days [2, 8, 12]
+
+S09-E [PSLN-344Y]  vs  S09-G [PSLN-344Y]: 1 animal pair(s), 3 identical cells
+      animal #8 vs #8: 3 identical of 7 informative cells, days [6, 8, 10]
+
+S13-F [PSLN-344]  vs  S15-A [PSLN-344]: 1 animal pair(s), 3 identical cells
+      animal #2 vs #7: 3 identical of 7 informative cells, days [8, 12, 14]
+
+S15-A [PSLN-344]  vs  S15-G [PSLN-212(Y)]: 1 animal pair(s), 3 identical cells
+      animal #1 vs #4: 3 identical of 7 informative cells, days [2, 4, 14]
+
+S15-A [PSLN-344]  vs  S15-F [PSLN-212(Y)]: 1 animal pair(s), 3 identical cells
+      animal #4 vs #7: 3 identical of 7 informative cells, days [2, 6, 8]
+
+S15-C [Sham]  vs  S15-M [Sham]: 1 animal pair(s), 3 identical cells
+      animal #5 vs #5: 3 identical of 3 informative cells, days [2, 4, 6]
+
+S15-D [PSLN-344]  vs  S15-O [PSLN-212(Y)]: 1 animal pair(s), 3 identical cells
+      animal #2 vs #3: 3 identical of 7 informative cells, days [8, 12, 14]
+
+recurring non-1-decimal fractional parts appearing in >=3 different block/group combinations:
+   .4545   in 6 block/groups: [('S08-D', 'CMP-204'), ('S15-A', 'PSLN-344'), ('S15-F', 'PSLN-212(Y)'), ('S15-J', 'Imprinting+PSLN-344'), ('S15-M', 'PSLN-344'), ('S15-O', 'PSLN-344')]
+   .4231   in 6 block/groups: [('S15-A', 'Sham'), ('S15-J', 'Imprinting+PSLN-212'), ('S15-J', 'Naïve+PSLN-212'), ('S15-K', 'Naïve+PSLN-212'), ('S15-M', 'PSLN-212'), ('S15-O', 'PSLN-212')]
+   .958    in 5 block/groups: [('S09-E', 'PSLN-344Y'), ('S15-A', 'PSLN-344'), ('S15-J', 'Imprinting+PSLN-344'), ('S15-M', 'PSLN-212(Y)'), ('S15-M', 'PSLN-344')]
+   .8791   in 5 block/groups: [('S15-A', 'Sham'), ('S15-J', 'Imprinting+PSLN-212'), ('S15-J', 'Naïve+PSLN-212'), ('S15-K', 'Naïve+PSLN-212'), ('S15-M', 'PSLN-212')]
+   .1099   in 5 block/groups: [('S15-A', 'Sham'), ('S15-J', 'Imprinting+PSLN-212'), ('S15-J', 'Naïve+PSLN-212'), ('S15-K', 'Naïve+PSLN-212'), ('S15-M', 'PSLN-212')]
+   .4608   in 5 block/groups: [('S15-C', 'PSLN-212'), ('S15-C', 'Sham'), ('S15-J', 'Naïve+PSLN-344'), ('S15-M', 'Sham'), ('S15-O', 'Sham')]
+   .8171   in 4 block/groups: [('S09-E', 'PSLN-344Y'), ('S15-A', 'PSLN-344'), ('S15-M', 'PSLN-212(Y)'), ('S15-M', 'PSLN-344')]
+   .4744   in 4 block/groups: [('S15-A', 'Sham'), ('S15-J', 'Imprinting+PSLN-212'), ('S15-J', 'Naïve+PSLN-212'), ('S15-K', 'Naïve+PSLN-212')]
+   .6779   in 4 block/groups: [('S15-A', 'PSLN-344'), ('S15-J', 'Imprinting+PSLN-344'), ('S15-M', 'PSLN-344'), ('S15-O', 'PSLN-344')]
+   .7949   in 3 block/groups: [('S08-D', 'CMP-204'), ('S08-D', 'PSLN-212'), ('S15-F', 'PSLN-212(Y)')]
+   .3409   in 3 block/groups: [('S08-D', 'CMP-204'), ('S15-E', 'PSLN-212(Y)'), ('S15-F', 'PSLN-212(Y)')]
+   .4242   in 3 block/groups: [('S15-A', 'PSLN-344'), ('S15-J', 'Imprinting+PSLN-344'), ('S15-M', 'PSLN-344')]
+   .0909   in 3 block/groups: [('S15-A', 'PSLN-344'), ('S15-J', 'Imprinting+PSLN-344'), ('S15-M', 'PSLN-344')]
+   .9972   in 3 block/groups: [('S15-A', 'PSLN-344'), ('S15-J', 'Imprinting+PSLN-344'), ('S15-M', 'PSLN-344')]
+   .7983   in 3 block/groups: [('S15-A', 'PSLN-344'), ('S15-J', 'Imprinting+PSLN-344'), ('S15-M', 'PSLN-344')]
+   .0501   in 3 block/groups: [('S15-A', 'PSLN-344'), ('S15-J', 'Imprinting+PSLN-344'), ('S15-M', 'PSLN-344')]
+   .7368   in 3 block/groups: [('S15-C', 'Sham'), ('S15-M', 'Sham'), ('S15-O', 'Sham')]
+   .0292   in 3 block/groups: [('S15-C', 'Sham'), ('S15-M', 'Sham'), ('S15-O', 'Sham')]
+   .0877   in 3 block/groups: [('S15-C', 'Sham'), ('S15-M', 'Sham'), ('S15-O', 'Sham')]
+   .1787   in 3 block/groups: [('S15-C', 'Sham'), ('S15-M', 'Sham'), ('S15-O', 'Sham')]
+   .2099   in 3 block/groups: [('S15-C', 'PSLN-212'), ('S15-F', 'PSLN-344'), ('S15-J', 'Naïve+PSLN-344')]
+   .23     in 3 block/groups: [('S15-F', 'PSLN-212'), ('S15-F', 'Sham'), ('S15-G', 'Sham')]
+   .5294   in 3 block/groups: [('S15-J', 'Imprinting+PSLN-212'), ('S15-J', 'Naïve+PSLN-212'), ('S15-K', 'Naïve+PSLN-212')]
+   .1765   in 3 block/groups: [('S15-J', 'Imprinting+PSLN-212'), ('S15-J', 'Naïve+PSLN-212'), ('S15-K', 'Naïve+PSLN-212')]
+   .4706   in 3 block/groups: [('S15-J', 'Imprinting+PSLN-212'), ('S15-J', 'Naïve+PSLN-212'), ('S15-K', 'Naïve+PSLN-212')]

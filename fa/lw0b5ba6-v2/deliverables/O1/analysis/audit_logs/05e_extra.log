@@ -1,0 +1,40 @@
+S15-I combo vs S15-C PSLN-344 identical cells by day:
+ day
+2.0     6
+4.0     7
+6.0     7
+8.0     7
+10.0    6
+12.0    7
+14.0    0 
+ total 40 of 49
+days 2-12 identical: 40 of 42
+
+Untreated (unchallenged) aged deaths: 4/21 = 19% (95% CI 5-42%) [['S06-E', 4.0, 'S06!G62'], ['S06-G', 7.0, 'S06!A99'], ['S06-G', 3.0, 'S06!A100'], ['S06-G', 10.0, 'S06!A101']]
+S15-E flat-lined untreated animals (weight at flat-line): [94.5]
+S15-F flat-lined untreated animals (weight at flat-line): []
+S15-G flat-lined untreated animals (weight at flat-line): [96.6, 95.0, 95.7]
+S03-A IgG CA09 H1N1: GMT PSLN-212 393 vs CMP-204 181 (ratio 2.2, p=0.090); PSLN-344 7305
+S03-C HAI CA09 H1N1: GMT PSLN-212 46 vs CMP-204 23 (ratio 2.0, p=0.056); PSLN-344 368
+S03-D Neut CA09 H1N1: GMT PSLN-212 418 vs CMP-204 182 (ratio 2.3, p=0.060); PSLN-344 3840
+S03-E IgG Aichi H3N2: GMT PSLN-212 426 vs CMP-204 200 (ratio 2.1, p=0.127); PSLN-344 5701
+S03-G HAI Aichi H3N2: GMT PSLN-212 35 vs CMP-204 30 (ratio 1.1, p=0.668); PSLN-344 320
+S03-H Neut Aichi H3N2: GMT PSLN-212 276 vs CMP-204 138 (ratio 2.0, p=0.095); PSLN-344 2533
+S13-I IgG CA09 H1N1 post-boost: GMT PSLN-212 4411 vs CMP-204 940 (ratio 4.7, p=0.001); PSLN-344 15651
+S13-J IgG Aichi H3N2 post-boost: GMT PSLN-212 1086 vs CMP-204 474 (ratio 2.3, p=0.041); PSLN-344 12435
+S03-A PSLN-212 mean 437.0 Sham mean 75.6 p 0.0233
+S03-C PSLN-212 mean 48.0 Sham mean 6.0 p 0.0047
+S03-E PSLN-212 mean 468.0 Sham mean 77.4 p 0.0126
+S03-G PSLN-212 mean 40.0 Sham mean 10.0 p 0.0498
+S03-K PSLN-212 mean 2.34 Sham mean 1.18 p 0.0046
+S05-F PSLN-212 mean 1.5 Sham mean 0.67 p 0.0077
+S05-I PSLN-212 mean 1.0 Sham mean 0.58 p 0.0882
+
+S08-D PSLN-212/R848:
+ day      0.0   2.0   4.0   6.0   8.0   10.0
+animal                                     
+1       100.0  96.2  93.2  92.1  90.0  89.3
+2       100.0  98.5  94.1  93.6  88.3   NaN
+3       100.0  97.3  95.1  94.1  91.6  89.2
+4       100.0  99.1  99.0  98.3  98.5  99.4
+5       100.0  97.2  94.0  91.2  89.9  84.7

@@ -1,0 +1,4 @@
+Stratified log-rank PSLN-344 vs PSLN-212: chi-square 90.04 on 1 df (Z = 9.49)
+Pooled survivors: PSLN-344 68/80, PSLN-212 11/80; Fisher exact p = 1.43e-20
+Exact stratified (conditional) test: p = 2.4e-21; common odds ratio of death 0.016 (95% CI 0.003-0.056)
+HAI H1N1 GMT ratio PSLN-344/PSLN-212: 8.00 (95% CI 3.91-16.38), Welch p = 0.00037

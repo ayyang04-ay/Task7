@@ -1,0 +1,8 @@
+{
+  "type": "agentic_grader",
+  "grading_model": "claude-opus-5-5",
+  "scoring_mode": "single_score",
+  "grader_guidance": null,
+  "rubric": null,
+  "grader_files": []
+}

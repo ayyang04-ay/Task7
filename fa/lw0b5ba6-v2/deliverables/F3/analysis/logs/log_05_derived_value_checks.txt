@@ -1,0 +1,95 @@
+====================================================================================================
+CHECK 1. IgG2a/IgG1 quotient blocks (S03-B, S03-F) vs per-animal quotient of raw subclass titres (S13-A/B, S13-C/D)
+
+  S03-B (CA09 H1N1) vs S13-A/S13-B
+     column printed as PSLN-212     = [4.436, 4.577, 1.179, 1.172, 3.495]  -> equals raw quotient of group: []
+     column printed as PSLN-344     = [0.74, 0.8, 0.292, 0.48, 0.577]  -> equals raw quotient of group: ['PSLN-212']
+     column printed as PSLN-212(Y)  = [2.583, 1.722, 4.19, 0.848, 1.376]  -> equals raw quotient of group: ['PSLN-344']
+     raw per-animal quotients, labelled by the raw blocks:
+        PSLN-212     [0.74, 0.8, 0.292, 0.48, 0.577]   geometric mean 0.54
+        PSLN-344     [2.583, 1.722, 4.19, 0.848, 1.376]   geometric mean 1.85
+        PSLN-212(Y)  [4.436, 4.577, 1.18, 1.172, 3.495]   geometric mean 2.50
+
+  S03-F (Aichi H3N2) vs S13-C/S13-D
+     column printed as PSLN-212     = [3.879, 3.059, 3.174, 2.635, 1.706]  -> equals raw quotient of group: []
+     column printed as PSLN-344     = [0.885, 0.606, 0.491, 0.314, 0.262]  -> equals raw quotient of group: []
+     column printed as PSLN-212(Y)  = [5.464, 3.42, 2.258, 1.087, 1.404]  -> equals raw quotient of group: ['PSLN-344']
+     raw per-animal quotients, labelled by the raw blocks:
+        PSLN-212     [0.885, 0.607, 0.491, 0.314, 0.262]   geometric mean 0.46
+        PSLN-344     [5.464, 3.42, 2.258, 1.087, 1.404]   geometric mean 2.30
+        PSLN-212(Y)  [3.879, 3.061, 3.174, 2.635, 1.707]   geometric mean 2.79
+
+  Cross-check against total IgG (S03-A, CA09): GMT {'Sham': 56, 'CMP-204': 181, 'PSLN-212': 393, 'PSLN-344': 7305, 'PSLN-212(Y)': 11959}
+  IgG2a+IgG1 sum by raw-block label (S13-A + S13-B): {'PSLN-212': [300, 249, 218, 276, 177], 'PSLN-344': [2433, 3003, 4276, 2039, 1914], 'PSLN-212(Y)': [10438, 8226, 4893, 5683, 5937]}
+
+====================================================================================================
+CHECK 2. S04-B 'Tfh:Tfr' quotient vs (100 - Foxp3%)/Foxp3% from S04-B Foxp3 block
+   Sham         printed [3.831, 2.774, 2.559, 4.405, 4.208]  recomputed [3.831, 2.774, 2.559, 4.405, 4.208]  match=True
+   PSLN-212     printed [1.841, 3.831, 2.106, 3.115, 3.785]  recomputed [1.841, 3.831, 2.106, 3.115, 3.785]  match=True
+   PSLN-344     printed [10.905, 7.85, 6.692, 9.309, 7.621]  recomputed [10.905, 7.85, 6.692, 9.309, 7.621]  match=True
+   PSLN-212(Y)  printed [13.286, 29.303, 15.949, 6.576, 15.129]  recomputed [13.286, 29.303, 15.949, 6.576, 15.129]  match=True
+   NOTE: annotation defines the quotient as Tfh% / Tfr%; S04-A Tfh% (ICOS-lo + ICOS-hi) over S04-B Foxp3% would be:
+   Sham         Tfh total% [1.5, 2.1, 2.5, 4.2, 1.3]  /Foxp3% -> [0.072, 0.079, 0.089, 0.227, 0.068]
+   PSLN-212     Tfh total% [8.4, 6.6, 5.9, 6.2, 5.5]  /Foxp3% -> [0.239, 0.319, 0.183, 0.255, 0.263]
+   PSLN-344     Tfh total% [19.2, 14.9, 13.2, 13.9, 18.8]  /Foxp3% -> [2.286, 1.319, 1.015, 1.433, 1.621]
+   PSLN-212(Y)  Tfh total% [19.6, 17.7, 18.1, 25.2, 22.1]  /Foxp3% -> [2.8, 5.364, 3.068, 1.909, 3.565]
+
+====================================================================================================
+CHECK 3. Ifnb1: S01-A (linear fold) vs S09-A (log10 fold); which S01-A timepoint does each S09-A panel match?
+   group           S01-A 16h GM S01-A 72h GM  S09-A p1 10^mean  S09-A p2 10^mean
+   PBS                     0.94         0.98              1.00              1.00
+   CMP-204                 7.68         2.20              7.63              2.18
+   PSLN-212               16.53         3.41             16.47              3.40
+   PSLN-R848               4.61         1.24              4.34              1.25
+   PSLN-212/R848          24.04         1.64             24.03              1.64
+   PSLN-344               36.87         4.17             36.33              4.01
+   PSLN-212(y)            37.47         1.46             37.83              1.39
+   RMS log10 difference: panel1 vs 16h = 0.015; panel1 vs 72h = 0.869
+                         panel2 vs 16h = 0.880; panel2 vs 72h = 0.011
+   both panels carry the printed label: S09-A 16h n=3 Log10 | S09-A 16h n=3 Log10
+
+====================================================================================================
+CHECK 4. SRB uptake: S01-B vs S08-C (same measurand, PSLN-SRB arm should agree)
+   S01-B  AECII/PSLN-SRB         [17.7, 17.5, 14.9, 16.7, 12.2]  mean 15.80
+   S01-B  AECI/PSLN-SRB          [4.92, 2.38, 4.13, 2.92, 4.81]  mean 3.83
+   S01-B  AECII/FreeSRB          [0.67, 0.12, 0.33, 0.34, 0.43]  mean 0.38
+   S01-B  AECI/FreeSRB           [0.59, 0.2, 0.46, 0.16, 0.25]  mean 0.33
+   S08-C  AECII-PSLN-SRB         [17.7, 17.5, 18.9, 12.2, 12.5]  mean 15.76
+   S08-C  AECII-PSLN-344-SRB     [4.92, 2.35, 4.61, 4.13, 3.02]  mean 3.81
+   S08-C  AECI-PSLN-SRB          [14.32, 15.11, 15.12, 11.83, 12.42]  mean 13.76
+   S08-C  AECI-PSLN-344-SRB      [2.93, 3.53, 3.79, 2.52, 2.23]  mean 3.00
+
+====================================================================================================
+CHECK 5. S11-A (alveolar macrophages) vs S11-B (neutrophils): identical replicate values
+   Vaccine      day 0: identical replicate positions [0, 1]   A=[23.5, 17.2, 16.3, 21.9, 23.2]  B=[23.5, 17.2, 17.3, 23.7, 20.2]
+   Vaccine      day 2: identical replicate positions [1]   A=[24.8, 21.2, 19.2, 27.7, 20.3]  B=[24.5, 21.2, 24.3, 27.9, 17.1]
+   Vaccine      day 4: identical replicate positions [0, 1]   A=[18.2, 23.5, 22.6, 17.3, 22.1]  B=[18.2, 23.5, 17.1, 25.2, 20.1]
+   Vaccine      day 6: identical replicate positions [0, 1]   A=[22.5, 19.1, 19.3, 18.2, 28.6]  B=[22.5, 19.1, 19.2, 23.5, 19.8]
+   Vaccine      day 8: identical replicate positions [0, 1]   A=[25.3, 19.6, 22.5, 21.8, 23]  B=[25.3, 19.6, 20.1, 24.3, 23.2]
+   PSLN-212     day 0: identical replicate positions [0]   A=[18.7, 19.3, 23.9, 21.5, 18.2]  B=[18.7, 21.5, 18.5, 19.1, 22.3]
+   PSLN-212     day 2: identical replicate positions [0]   A=[28.9, 30.2, 30.5, 27.3, 24.3]  B=[28.9, 27.3, 23.2, 29.3, 31.9]
+   PSLN-212     day 4: identical replicate positions [0]   A=[33, 38.7, 22.1, 29.1, 31.6]  B=[33, 29.1, 26.3, 34.6, 33.6]
+   PSLN-212     day 6: identical replicate positions [0]   A=[28.3, 31, 23.2, 26.1, 28.9]  B=[28.3, 26.1, 27, 29.2, 25.3]
+   PSLN-212     day 8: identical replicate positions [0]   A=[25.2, 22.5, 22.8, 23.5, 25.7]  B=[25.2, 23.5, 21.3, 29.8, 22.3]
+   PSLN-344     day 0: identical replicate positions [0, 1]   A=[22.2, 19.8, 21.2, 24.7, 18]  B=[22.2, 19.8, 19.2, 20.8, 23.2]
+   PSLN-344     day 2: identical replicate positions [0, 1]   A=[31.2, 23.4, 25.1, 29.7, 38.7]  B=[31.2, 23.4, 25.9, 32.2, 23]
+   PSLN-344     day 4: identical replicate positions [0, 1]   A=[36, 29.4, 31.2, 39.4, 25.3]  B=[36, 29.4, 40.1, 29.2, 24.3]
+   PSLN-344     day 6: identical replicate positions [0, 1]   A=[34.3, 27.8, 27.8, 34, 31.1]  B=[34.3, 27.8, 36.2, 25.7, 30.8]
+   PSLN-344     day 8: identical replicate positions [0, 1]   A=[33.6, 24.8, 22.5, 27.1, 35.9]  B=[33.6, 24.8, 33.9, 25.2, 26.7]
+   PSLN-212(Y)  day 0: identical replicate positions [0, 1]   A=[39.2, 34.4, 39.3, 35.4, 34.9]  B=[39.2, 34.4, 30.4, 38.7, 41.1]
+   PSLN-212(Y)  day 2: identical replicate positions [0, 1]   A=[47.5, 42.1, 40.3, 47.2, 46.5]  B=[47.5, 42.1, 42.5, 49.3, 34.3]
+   PSLN-212(Y)  day 4: identical replicate positions [0, 1, 4]   A=[53, 44.1, 43.5, 49.8, 52.1]  B=[53, 44.1, 46.6, 46.4, 52.1]
+   PSLN-212(Y)  day 6: identical replicate positions [0, 1]   A=[49, 44.5, 43.6, 50.2, 47.1]  B=[49, 44.5, 42.6, 44.9, 51.3]
+   PSLN-212(Y)  day 8: identical replicate positions [0, 1]   A=[42.4, 39, 40.5, 43.2, 36.7]  B=[42.4, 39, 35.6, 43.3, 43.6]
+   -> 35/100 cells identical between the two blocks; replicate #1 identical in 19/20 group-timepoints, replicate #2 in 15/20
+
+====================================================================================================
+CHECK 6. HAI values below the stated lowest dilution (1:10)
+   S03-C Sham: [10, 10, 10, 0, 0]  -> 2 value(s) < 10 (printed as [0, 0])
+   S03-G Sham: [10, 10, 10, 20, 0]  -> 1 value(s) < 10 (printed as [0])
+   other titre blocks with floor-like values:
+   S13-I Sham: [253, 114, 202, 10, 10]
+
+====================================================================================================
+CHECK 7. S08 unlabelled region rows 89-101
+   {'A89': 14, 'C89': 0, 'A90': 14, 'C90': 0, 'A91': 14, 'C91': 0, 'A92': 14, 'C92': 0, 'A93': 14, 'C93': 0, 'A94': 14, 'C94': 0, 'A95': 14, 'D95': 0, 'A96': 14, 'D96': 0, 'A97': 14, 'D97': 0, 'A98': 14, 'D98': 0, 'A99': 14, 'D99': 0, 'A100': 14, 'D100': 0, 'A101': 14, 'D101': 0}

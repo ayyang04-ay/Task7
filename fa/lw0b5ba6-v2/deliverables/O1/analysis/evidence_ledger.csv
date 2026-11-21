@@ -1,0 +1,355 @@
+key,value,meaning,source_blocks,source_cells,analysis,used_in_proposal_text
+arm_sham,1/73 (1%),"Pooled survival, Sham, aged experiments","S03-I,S03-J,S06-A,S06-B,S06-C,S06-E,S06-F,S06-G,S15-L,S15-N",,survival.py -> survival_pooled_arms.csv,True
+arm_sham_ci,0-7%,"Clopper-Pearson 95% CI, Sham","S03-I,S03-J,S06-A,S06-B,S06-C,S06-E,S06-F,S06-G,S15-L,S15-N",,survival_pooled_arms.csv,False
+arm_p212,9/73 (12%),"Pooled survival, PSLN-212, aged experiments","S03-I,S03-J,S06-A,S06-B,S06-C,S06-E,S06-F,S06-G,S15-L,S15-N",,survival.py -> survival_pooled_arms.csv,True
+arm_p212_ci,6-22%,"Clopper-Pearson 95% CI, PSLN-212","S03-I,S03-J,S06-A,S06-B,S06-C,S06-E,S06-F,S06-G,S15-L,S15-N",,survival_pooled_arms.csv,False
+arm_p344,61/73 (84%),"Pooled survival, PSLN-344, aged experiments","S03-I,S03-J,S06-A,S06-B,S06-C,S06-E,S06-F,S06-G,S15-L,S15-N",,survival.py -> survival_pooled_arms.csv,True
+arm_p344_ci,73-91%,"Clopper-Pearson 95% CI, PSLN-344","S03-I,S03-J,S06-A,S06-B,S06-C,S06-E,S06-F,S06-G,S15-L,S15-N",,survival_pooled_arms.csv,False
+arm_young,62/63 (98%),"Pooled survival, PSLN-212(Y), aged experiments","S03-I,S06-A,S06-B,S06-C,S06-E,S06-F,S06-G,S15-L,S15-N",,survival.py -> survival_pooled_arms.csv,True
+arm_young_ci,91-100%,"Clopper-Pearson 95% CI, PSLN-212(Y)","S03-I,S06-A,S06-B,S06-C,S06-E,S06-F,S06-G,S15-L,S15-N",,survival_pooled_arms.csv,False
+p344_vs_young,-15 pp (-25 to -5),Aged PSLN-344 minus young PSLN-212 pooled survival (Newcombe CI),same as arms,,newcombe.py,True
+h2h_344,85/101,Head-to-head survivors PSLN-344 (14 strata incl. 14-month imprinting),"S03-I,J; S06-A,B,C,E,F,G; S06-E/F[imprint]; S15-L,N",,survival.py,True
+h2h_212,13/101,Head-to-head survivors PSLN-212,as above,,survival.py,True
+h2h_pct344,84%,,as above,,survival.py,False
+h2h_pct212,13%,,as above,,survival.py,False
+h2h_rd,71,Mantel-Haenszel risk difference (pp); equals crude (balanced arms),as above,,survival.py / newcombe.py,True
+h2h_rd_ci,60-79,Newcombe 95% CI (pp),as above,,newcombe.py,True
+h2h_hr,0.076 (0.043-0.134),Stratified Cox hazard ratio PSLN-344 vs PSLN-212,as above,,strat.R (R survival 3.8-3),True
+h2h_chi2,117,"Stratified log-rank chi-square (1 df), p<2e-16",as above,,strat.R,True
+h2h_strata,14/14,Strata with point estimate favouring PSLN-344,as above,,survival.py,True
+sensB,69 pp (52-80),Sensitivity B: excluding body-weight-conflict experiments,"S06-A,B,F + imprint strata",,survival.py,False
+sensC,63 pp (51-72),Sensitivity C: worst case for PSLN-344,all strata + S06-D (S15-D counts),,survival.py,True
+sensC_counts,90/108 vs 22/108,Worst-case survivor counts,,,survival.py,False
+loo_range,69-74 pp,Leave-one-experiment-out range of the difference,,,survival_loo.csv,True
+d60_344,14/21,"Day-60 challenges, PSLN-344","S06-E,F,G",,survival.py,True
+d60_212,1/21,"Day-60 challenges, PSLN-212","S06-E,F,G",,survival.py,True
+d60_young,21/21,"Day-60 challenges, young PSLN-212","S06-E,F,G",,survival_by_group.csv,True
+d14_vs_d60,13/14 vs 10/14 (Fisher p=0.33),"PSLN-344 matched designs, challenge d14 (S06-A,C) vs d60 (S06-E,F)","S06-A,C,E,F",,biomarkers.py,True
+rapid,15/17 vs 3/17,"Rapid-onset challenges (d2-3), PSLN-344 vs PSLN-212","S03-J, S06-B",,survival.py,True
+S03-I_sham,0/7,Survivors Sham,S03-I,S03!B17:S03!B23,survival_by_group.csv,True
+S03-I_212,0/7,Survivors PSLN-212,S03-I,S03!D31:S03!D37,survival_by_group.csv,True
+S03-I_344,7/7,Survivors PSLN-344,S03-I,S03!E38:S03!E44,survival_by_group.csv,False
+S03-I_Y,7/7,Survivors PSLN-212(Y),S03-I,S03!F45:S03!F51,survival_by_group.csv,False
+S03-I_cmp,3/7,Survivors CMP-204,S03-I,S03!C24:S03!C30,survival_by_group.csv,True
+S03-J_sham,1/10,Survivors Sham,S03-J,S03!H17:S03!H26,survival_by_group.csv,True
+S03-J_212,3/10,Survivors PSLN-212,S03-J,S03!I27:S03!I36,survival_by_group.csv,True
+S03-J_344,10/10,Survivors PSLN-344,S03-J,S03!J37:S03!J46,survival_by_group.csv,True
+S06-A_sham,0/7,Survivors Sham,S06-A,S06!B3:S06!B9,survival_by_group.csv,False
+S06-A_212,1/7,Survivors PSLN-212,S06-A,S06!C10:S06!C16,survival_by_group.csv,True
+S06-A_344,6/7,Survivors PSLN-344,S06-A,S06!D17:S06!D23,survival_by_group.csv,True
+S06-A_Y,7/7,Survivors PSLN-212(Y),S06-A,S06!E24:S06!E30,survival_by_group.csv,False
+S06-B_sham,0/7,Survivors Sham,S06-B,S06!H3:S06!H9,survival_by_group.csv,False
+S06-B_212,0/7,Survivors PSLN-212,S06-B,S06!I10:S06!I16,survival_by_group.csv,False
+S06-B_344,5/7,Survivors PSLN-344,S06-B,S06!J17:S06!J23,survival_by_group.csv,False
+S06-B_Y,7/7,Survivors PSLN-212(Y),S06-B,S06!K24:S06!K30,survival_by_group.csv,False
+S06-C_sham,0/7,Survivors Sham,S06-C,S06!N3:S06!N9,survival_by_group.csv,False
+S06-C_212,2/7,Survivors PSLN-212,S06-C,S06!O10:S06!O16,survival_by_group.csv,False
+S06-C_344,7/7,Survivors PSLN-344,S06-C,S06!P17:S06!P23,survival_by_group.csv,True
+S06-C_Y,7/7,Survivors PSLN-212(Y),S06-C,S06!Q24:S06!Q30,survival_by_group.csv,False
+S06-E_sham,0/7,Survivors Sham,S06-E,S06!H34:S06!H40,survival_by_group.csv,False
+S06-E_212,0/7,Survivors PSLN-212,S06-E,S06!I41:S06!I47,survival_by_group.csv,False
+S06-E_344,5/7,Survivors PSLN-344,S06-E,S06!J48:S06!J54,survival_by_group.csv,False
+S06-E_Y,7/7,Survivors PSLN-212(Y),S06-E,S06!K55:S06!K61,survival_by_group.csv,False
+S06-E_untr,6/7,Survivors Untreated,S06-E,S06!L62:S06!L68,survival_by_group.csv,False
+S06-F_sham,0/7,Survivors Sham,S06-F,S06!N34:S06!N40,survival_by_group.csv,False
+S06-F_212,1/7,Survivors PSLN-212,S06-F,S06!O41:S06!O47,survival_by_group.csv,True
+S06-F_344,5/7,Survivors PSLN-344,S06-F,S06!P48:S06!P54,survival_by_group.csv,True
+S06-F_Y,7/7,Survivors PSLN-212(Y),S06-F,S06!Q55:S06!Q61,survival_by_group.csv,False
+S06-F_untr,7/7,Survivors Untreated,S06-F,S06!R62:S06!R68,survival_by_group.csv,False
+S06-G_sham,0/7,Survivors Sham,S06-G,S06!B71:S06!B77,survival_by_group.csv,False
+S06-G_212,0/7,Survivors PSLN-212,S06-G,S06!C78:S06!C84,survival_by_group.csv,True
+S06-G_344,4/7,Survivors PSLN-344,S06-G,S06!D85:S06!D91,survival_by_group.csv,True
+S06-G_Y,7/7,Survivors PSLN-212(Y),S06-G,S06!E92:S06!E98,survival_by_group.csv,False
+S06-G_untr,4/7,Survivors Untreated,S06-G,S06!F99:S06!F105,survival_by_group.csv,True
+S15-L_sham,0/7,Survivors Sham,S15-L,S15!B103:S15!B109,survival_by_group.csv,False
+S15-L_212,0/7,Survivors PSLN-212,S15-L,S15!C110:S15!C116,survival_by_group.csv,False
+S15-L_344,6/7,Survivors PSLN-344,S15-L,S15!D117:S15!D123,survival_by_group.csv,False
+S15-L_Y,6/7,Survivors PSLN-212(Y),S15-L,S15!E124:S15!E130,survival_by_group.csv,False
+S15-N_sham,0/7,Survivors Sham,S15-N,S15!B134:S15!B140,survival_by_group.csv,False
+S15-N_212,2/7,Survivors PSLN-212,S15-N,S15!C141:S15!C147,survival_by_group.csv,False
+S15-N_344,6/7,Survivors PSLN-344,S15-N,S15!D148:S15!D154,survival_by_group.csv,False
+S15-N_Y,7/7,Survivors PSLN-212(Y),S15-N,S15!E155:S15!E161,survival_by_group.csv,False
+S06-Eimp_Naive212,0/7,Survivors Naive+PSLN-212,S06-E[imprint],S06!H71:S06!H77,survival_by_group.csv,True
+S06-Eimp_Naive344,6/7,Survivors Naive+PSLN-344,S06-E[imprint],S06!J85:S06!J91,survival_by_group.csv,True
+S06-Eimp_Imprinting212,4/7,Survivors Imprinting+PSLN-212,S06-E[imprint],S06!I78:S06!I84,survival_by_group.csv,False
+S06-Eimp_Imprinting344,6/7,Survivors Imprinting+PSLN-344,S06-E[imprint],S06!K92:S06!K98,survival_by_group.csv,True
+S06-Fimp_Naive212,0/7,Survivors Naive+PSLN-212,S06-F[imprint],S06!N71:S06!N77,survival_by_group.csv,True
+S06-Fimp_Naive344,6/7,Survivors Naive+PSLN-344,S06-F[imprint],S06!P85:S06!P91,survival_by_group.csv,True
+S06-Fimp_Imprinting212,0/7,Survivors Imprinting+PSLN-212,S06-F[imprint],S06!O78:S06!O84,survival_by_group.csv,False
+S06-Fimp_Imprinting344,6/7,Survivors Imprinting+PSLN-344,S06-F[imprint],S06!Q92:S06!Q98,survival_by_group.csv,True
+S09-B_Sham,0/8,Survivors Sham (young),S09-B,,survival_by_group.csv,False
+S09-B_212Y,8/8,Survivors PSLN-212(Y) (young),S09-B,,survival_by_group.csv,False
+S09-B_344Y,8/8,Survivors PSLN-344(Y) (young),S09-B,,survival_by_group.csv,False
+S09-D_Sham,0/8,Survivors Sham (young),S09-D,,survival_by_group.csv,False
+S09-D_212Y,8/8,Survivors PSLN-212(Y) (young),S09-D,,survival_by_group.csv,False
+S09-D_344Y,8/8,Survivors PSLN-344(Y) (young),S09-D,,survival_by_group.csv,False
+S09-F_Sham,0/7,Survivors Sham (young),S09-F,,survival_by_group.csv,False
+S09-F_212Y,8/8,Survivors PSLN-212(Y) (young),S09-F,,survival_by_group.csv,False
+S09-F_344Y,8/8,Survivors PSLN-344(Y) (young),S09-F,,survival_by_group.csv,True
+S13-E_Sham,1/7,Survivors Sham (young),S13-E,,survival_by_group.csv,False
+S13-E_344Y,7/7,Survivors PSLN-344(Y) (young),S13-E,,survival_by_group.csv,False
+S13-E_cmpY,7/7,Survivors CMP-204(Y) (young),S13-E,,survival_by_group.csv,False
+S13-E_Naive,0/7,Survivors Naive (young),S13-E,,survival_by_group.csv,False
+S15H_vac,0/7,Survivors 3d Vaccine,S15-H,,survival_by_group.csv,False
+S15H_adj,0/7,Survivors 3d PSLN-344,S15-H,,survival_by_group.csv,True
+S15H_combo,6/7,Survivors 3d Vaccine+PSLN-344,S15-H,,survival_by_group.csv,True
+untreated_deaths,4/21 (19%; 95% CI 5-42%),"Deaths in unvaccinated, unchallenged aged controls","S06-E, S06-G","S06!G62, S06!A99:A101",extra_checks.py,True
+n_endpoints,76,Independent post-treatment endpoints with both aged arms,all,,h2h.py,True
+n_sig,59,Endpoints differing at BH-FDR<5%,all,,h2h.py,True
+n_sep,55/59,Significant endpoints with complete separation of per-animal values,all,,facts.py,True
+n_sig_young,47/47,Significant endpoints with young benchmark that moved toward young,all,,h2h.py,True
+ifnb_344,36.9,Lung Ifnb1 16 h fold: PSLN-344,S01-A,,h2h.csv,True
+ifnb_212,16.5,Lung Ifnb1 16 h fold: PSLN-212,S01-A,,h2h.csv,True
+ifnb_Y,37.5,Lung Ifnb1 16 h fold: young PSLN-212,S01-A,,h2h.csv,True
+ifnb_sham,0.9,Lung Ifnb1 16 h fold: sham,S01-A,,h2h.csv,False
+ifnb_eff,2.2x (1.8-2.7),Lung Ifnb1 16 h fold: effect 344 vs 212 (95% CI),S01-A,,h2h.csv,False
+ifnb_ri,0.98,Lung Ifnb1 16 h fold: restoration index,S01-A,,h2h.csv,True
+gmcsf_344,8.5,Lung Gm-csf 36 h fold: PSLN-344,S02-F,,h2h.csv,True
+gmcsf_212,1.6,Lung Gm-csf 36 h fold: PSLN-212,S02-F,,h2h.csv,True
+gmcsf_sham,1.2,Lung Gm-csf 36 h fold: sham,S02-F,,h2h.csv,False
+gmcsf_eff,5.4x (3.9-7.3),Lung Gm-csf 36 h fold: effect 344 vs 212 (95% CI),S02-F,,h2h.csv,False
+mono_344,30.6,Lung monocytes d4 %: PSLN-344,S01-D,,h2h.csv,True
+mono_212,16.7,Lung monocytes d4 %: PSLN-212,S01-D,,h2h.csv,True
+mono_Y,32.2,Lung monocytes d4 %: young PSLN-212,S01-D,,h2h.csv,True
+mono_sham,10.4,Lung monocytes d4 %: sham,S01-D,,h2h.csv,False
+mono_eff,+13.8 pp (+8.1 to +19.5),Lung monocytes d4 %: effect 344 vs 212 (95% CI),S01-D,,h2h.csv,False
+mono_ri,0.89,Lung monocytes d4 %: restoration index,S01-D,,h2h.csv,False
+ccr7_344,30.7,CCR7+ migratory DC %: PSLN-344,S02-A,,h2h.csv,True
+ccr7_212,7.3,CCR7+ migratory DC %: PSLN-212,S02-A,,h2h.csv,True
+ccr7_Y,35.0,CCR7+ migratory DC %: young PSLN-212,S02-A,,h2h.csv,False
+ccr7_sham,2.5,CCR7+ migratory DC %: sham,S02-A,,h2h.csv,False
+ccr7_eff,+23.4 pp (+13.8 to +33.0),CCR7+ migratory DC %: effect 344 vs 212 (95% CI),S02-A,,h2h.csv,False
+ccr7_ri,0.84,CCR7+ migratory DC %: restoration index,S02-A,,h2h.csv,True
+cd86_344,14.5,CD86+ MLN DC %: PSLN-344,S02-D CD86,,h2h.csv,True
+cd86_212,8.1,CD86+ MLN DC %: PSLN-212,S02-D CD86,,h2h.csv,False
+cd86_Y,37.9,CD86+ MLN DC %: young PSLN-212,S02-D CD86,,h2h.csv,True
+cd86_sham,7.2,CD86+ MLN DC %: sham,S02-D CD86,,h2h.csv,False
+cd86_eff,+6.4 pp (+3.0 to +9.9),CD86+ MLN DC %: effect 344 vs 212 (95% CI),S02-D CD86,,h2h.csv,False
+cd86_ri,0.22,CD86+ MLN DC %: restoration index,S02-D CD86,,h2h.csv,True
+cd40_344,11.2,CD40+ MLN DC %: PSLN-344,S02-D CD40,,h2h.csv,True
+cd40_212,5.6,CD40+ MLN DC %: PSLN-212,S02-D CD40,,h2h.csv,False
+cd40_Y,38.7,CD40+ MLN DC %: young PSLN-212,S02-D CD40,,h2h.csv,True
+cd40_sham,4.0,CD40+ MLN DC %: sham,S02-D CD40,,h2h.csv,False
+cd40_eff,+5.6 pp (+2.0 to +9.3),CD40+ MLN DC %: effect 344 vs 212 (95% CI),S02-D CD40,,h2h.csv,False
+cd40_ri,0.17,CD40+ MLN DC %: restoration index,S02-D CD40,,h2h.csv,True
+oti_344,18.7,OT-I priming %: PSLN-344,S02-E,,h2h.csv,False
+oti_212,0.8,OT-I priming %: PSLN-212,S02-E,,h2h.csv,False
+oti_Y,26.2,OT-I priming %: young PSLN-212,S02-E,,h2h.csv,False
+oti_eff,+17.9 pp (+14.4 to +21.4),OT-I priming %: effect 344 vs 212 (95% CI),S02-E,,h2h.csv,False
+oti_ri,0.70,OT-I priming %: restoration index,S02-E,,h2h.csv,False
+tfh_344,10.3,ICOS-hi Tfh %: PSLN-344,S04-A,,h2h.csv,True
+tfh_212,3.8,ICOS-hi Tfh %: PSLN-212,S04-A,,h2h.csv,True
+tfh_Y,13.6,ICOS-hi Tfh %: young PSLN-212,S04-A,,h2h.csv,False
+tfh_sham,0.3,ICOS-hi Tfh %: sham,S04-A,,h2h.csv,False
+tfh_eff,+6.4 pp (+2.6 to +10.3),ICOS-hi Tfh %: effect 344 vs 212 (95% CI),S04-A,,h2h.csv,False
+tfh_ri,0.66,ICOS-hi Tfh %: restoration index,S04-A,,h2h.csv,False
+tfr_344,10.8,Tfr %: PSLN-344,S04-B Foxp3,,h2h.csv,True
+tfr_212,26.7,Tfr %: PSLN-212,S04-B Foxp3,,h2h.csv,True
+tfr_Y,7.1,Tfr %: young PSLN-212,S04-B Foxp3,,h2h.csv,False
+tfr_sham,22.6,Tfr %: sham,S04-B Foxp3,,h2h.csv,False
+tfr_eff,-15.9 pp (-24.0 to -7.7),Tfr %: effect 344 vs 212 (95% CI),S04-B Foxp3,,h2h.csv,False
+tfr_ri,0.81,Tfr %: restoration index,S04-B Foxp3,,h2h.csv,False
+gc_344,6.5,GC B %: PSLN-344,S03-K,,h2h.csv,True
+gc_212,2.3,GC B %: PSLN-212,S03-K,,h2h.csv,True
+gc_Y,9.8,GC B %: young PSLN-212,S03-K,,h2h.csv,False
+gc_sham,1.2,GC B %: sham,S03-K,,h2h.csv,False
+gc_eff,+4.2 pp (+2.3 to +6.1),GC B %: effect 344 vs 212 (95% CI),S03-K,,h2h.csv,False
+gc_ri,0.56,GC B %: restoration index,S03-K,,h2h.csv,False
+igg_344,"7,305",IgG CA09 GMT: PSLN-344,S03-A,,h2h.csv,False
+igg_212,393,IgG CA09 GMT: PSLN-212,S03-A,,h2h.csv,True
+igg_Y,"11,959",IgG CA09 GMT: young PSLN-212,S03-A,,h2h.csv,False
+igg_sham,56,IgG CA09 GMT: sham,S03-A,,h2h.csv,True
+igg_eff,18.6x (9.1-37.9),IgG CA09 GMT: effect 344 vs 212 (95% CI),S03-A,,h2h.csv,False
+igg_ri,0.86,IgG CA09 GMT: restoration index,S03-A,,h2h.csv,False
+hai1_344,368,HAI CA09 GMT: PSLN-344,S03-C,,h2h.csv,True
+hai1_212,46,HAI CA09 GMT: PSLN-212,S03-C,,h2h.csv,True
+hai1_Y,485,HAI CA09 GMT: young PSLN-212,S03-C,,h2h.csv,True
+hai1_sham,8,HAI CA09 GMT: sham,S03-C,,h2h.csv,True
+hai1_eff,8.0x (3.9-16.4),HAI CA09 GMT: effect 344 vs 212 (95% CI),S03-C,,h2h.csv,False
+hai1_ri,0.88,HAI CA09 GMT: restoration index,S03-C,,h2h.csv,True
+hai3_344,320,HAI Aichi GMT: PSLN-344,S03-G,,h2h.csv,True
+hai3_212,35,HAI Aichi GMT: PSLN-212,S03-G,,h2h.csv,True
+hai3_Y,368,HAI Aichi GMT: young PSLN-212,S03-G,,h2h.csv,True
+hai3_sham,10,HAI Aichi GMT: sham,S03-G,,h2h.csv,False
+hai3_eff,9.2x (4.2-20.2),HAI Aichi GMT: effect 344 vs 212 (95% CI),S03-G,,h2h.csv,False
+hai3_ri,0.94,HAI Aichi GMT: restoration index,S03-G,,h2h.csv,True
+neut1_344,"3,840",Neut CA09 GMT: PSLN-344,S03-D,,h2h.csv,False
+neut1_212,418,Neut CA09 GMT: PSLN-212,S03-D,,h2h.csv,False
+neut1_Y,"6,686",Neut CA09 GMT: young PSLN-212,S03-D,,h2h.csv,False
+neut1_sham,52,Neut CA09 GMT: sham,S03-D,,h2h.csv,False
+neut1_eff,9.2x (3.1-27.2),Neut CA09 GMT: effect 344 vs 212 (95% CI),S03-D,,h2h.csv,False
+neut1_ri,0.80,Neut CA09 GMT: restoration index,S03-D,,h2h.csv,False
+boost1_344,"15,651",Post-boost IgG CA09 GMT: PSLN-344,S13-I,,h2h.csv,False
+boost1_212,"4,411",Post-boost IgG CA09 GMT: PSLN-212,S13-I,,h2h.csv,False
+boost1_Y,"40,739",Post-boost IgG CA09 GMT: young PSLN-212,S13-I,,h2h.csv,False
+boost1_sham,57,Post-boost IgG CA09 GMT: sham,S13-I,,h2h.csv,False
+boost1_eff,3.5x (1.5-8.4),Post-boost IgG CA09 GMT: effect 344 vs 212 (95% CI),S13-I,,h2h.csv,False
+boost1_ri,0.57,Post-boost IgG CA09 GMT: restoration index,S13-I,,h2h.csv,False
+boost3_344,"12,435",Post-boost IgG Aichi GMT: PSLN-344,S13-J,,h2h.csv,False
+boost3_212,"1,086",Post-boost IgG Aichi GMT: PSLN-212,S13-J,,h2h.csv,False
+boost3_Y,"43,472",Post-boost IgG Aichi GMT: young PSLN-212,S13-J,,h2h.csv,False
+boost3_sham,101,Post-boost IgG Aichi GMT: sham,S13-J,,h2h.csv,False
+boost3_eff,11.5x (4.1-32.4),Post-boost IgG Aichi GMT: effect 344 vs 212 (95% CI),S13-J,,h2h.csv,False
+boost3_ri,0.66,Post-boost IgG Aichi GMT: restoration index,S13-J,,h2h.csv,False
+ifng14_344,6.4,IFNg+ CD8 d14 %: PSLN-344,S05-F,,h2h.csv,True
+ifng14_212,1.5,IFNg+ CD8 d14 %: PSLN-212,S05-F,,h2h.csv,True
+ifng14_Y,9.2,IFNg+ CD8 d14 %: young PSLN-212,S05-F,,h2h.csv,False
+ifng14_sham,0.7,IFNg+ CD8 d14 %: sham,S05-F,,h2h.csv,False
+ifng14_eff,+4.9 pp (+3.6 to +6.1),IFNg+ CD8 d14 %: effect 344 vs 212 (95% CI),S05-F,,h2h.csv,False
+ifng14_ri,0.63,IFNg+ CD8 d14 %: restoration index,S05-F,,h2h.csv,False
+ifng60_344,9.9,IFNg+ CD8 d60 %: PSLN-344,S05-G,,h2h.csv,True
+ifng60_212,3.0,IFNg+ CD8 d60 %: PSLN-212,S05-G,,h2h.csv,True
+ifng60_Y,14.4,IFNg+ CD8 d60 %: young PSLN-212,S05-G,,h2h.csv,False
+ifng60_sham,1.5,IFNg+ CD8 d60 %: sham,S05-G,,h2h.csv,False
+ifng60_eff,+6.8 pp (+3.4 to +10.3),IFNg+ CD8 d60 %: effect 344 vs 212 (95% CI),S05-G,,h2h.csv,False
+ifng60_ri,0.60,IFNg+ CD8 d60 %: restoration index,S05-G,,h2h.csv,False
+trm_344,4.0,Lung TRM %: PSLN-344,S05-I,,h2h.csv,True
+trm_212,1.0,Lung TRM %: PSLN-212,S05-I,,h2h.csv,True
+trm_Y,6.0,Lung TRM %: young PSLN-212,S05-I,,h2h.csv,True
+trm_sham,0.6,Lung TRM %: sham,S05-I,,h2h.csv,True
+trm_eff,+3.0 pp (+2.2 to +3.7),Lung TRM %: effect 344 vs 212 (95% CI),S05-I,,h2h.csv,False
+trm_ri,0.59,Lung TRM %: restoration index,S05-I,,h2h.csv,False
+gzmb3_344,5.7,Lung GZMB+ CD8 d3 %: PSLN-344,S05-E,,h2h.csv,False
+gzmb3_212,3.0,Lung GZMB+ CD8 d3 %: PSLN-212,S05-E,,h2h.csv,False
+gzmb3_Y,9.6,Lung GZMB+ CD8 d3 %: young PSLN-212,S05-E,,h2h.csv,False
+gzmb3_sham,1.0,Lung GZMB+ CD8 d3 %: sham,S05-E,,h2h.csv,False
+gzmb3_eff,+2.7 pp (+1.5 to +3.9),Lung GZMB+ CD8 d3 %: effect 344 vs 212 (95% CI),S05-E,,h2h.csv,False
+gzmb3_ri,0.41,Lung GZMB+ CD8 d3 %: restoration index,S05-E,,h2h.csv,False
+cd206_344,48.9,CD206+ macrophages %: PSLN-344,S11-E,,h2h.csv,True
+cd206_212,71.5,CD206+ macrophages %: PSLN-212,S11-E,,h2h.csv,True
+cd206_Y,35.5,CD206+ macrophages %: young PSLN-212,S11-E,,h2h.csv,False
+cd206_sham,85.2,CD206+ macrophages %: sham,S11-E,,h2h.csv,False
+cd206_eff,-22.5 pp (-34.5 to -10.6),CD206+ macrophages %: effect 344 vs 212 (95% CI),S11-E,,h2h.csv,False
+cd206_ri,0.63,CD206+ macrophages %: restoration index,S11-E,,h2h.csv,False
+ly6c5_344,3.4,Ly6C+CCR2+ macrophages d5 (x1e5): PSLN-344,S07-A,,h2h.csv,True
+ly6c5_212,18.5,Ly6C+CCR2+ macrophages d5 (x1e5): PSLN-212,S07-A,,h2h.csv,True
+ly6c5_eff,0.2x (0.1-0.3),Ly6C+CCR2+ macrophages d5 (x1e5): effect 344 vs 212 (95% CI),S07-A,,h2h.csv,False
+ccl216_344,590.1,Ccl2 16 h fold: PSLN-344,S09-A panel1[A:U],,h2h.csv,True
+ccl216_212,7.6,Ccl2 16 h fold: PSLN-212,S09-A panel1[A:U],,h2h.csv,True
+ccl216_Y,1390.5,Ccl2 16 h fold: young PSLN-212,S09-A panel1[A:U],,h2h.csv,False
+ccl216_sham,1.0,Ccl2 16 h fold: sham,S09-A panel1[A:U],,h2h.csv,False
+ccl216_eff,77.4x (16.7-357.4),Ccl2 16 h fold: effect 344 vs 212 (95% CI),S09-A panel1[A:U],,h2h.csv,False
+ccl216_ri,0.84,Ccl2 16 h fold: restoration index,S09-A panel1[A:U],,h2h.csv,False
+ccl272_344,27.4,Ccl2 72 h fold (panel printed 16h): PSLN-344,S09-A panel2[X:AS],,h2h.csv,False
+ccl272_212,5.2,Ccl2 72 h fold (panel printed 16h): PSLN-212,S09-A panel2[X:AS],,h2h.csv,False
+ccl272_Y,101.6,Ccl2 72 h fold (panel printed 16h): young PSLN-212,S09-A panel2[X:AS],,h2h.csv,False
+ccl272_sham,1.0,Ccl2 72 h fold (panel printed 16h): sham,S09-A panel2[X:AS],,h2h.csv,False
+ccl272_eff,5.2x (2.3-11.8),Ccl2 72 h fold (panel printed 16h): effect 344 vs 212 (95% CI),S09-A panel2[X:AS],,h2h.csv,False
+ccl272_ri,0.56,Ccl2 72 h fold (panel printed 16h): restoration index,S09-A panel2[X:AS],,h2h.csv,False
+ccl316_344,29.8,Ccl3 16 h fold: PSLN-344,S09-A panel1[A:U],,h2h.csv,True
+ccl316_212,1.1,Ccl3 16 h fold: PSLN-212,S09-A panel1[A:U],,h2h.csv,True
+ccl316_Y,57.3,Ccl3 16 h fold: young PSLN-212,S09-A panel1[A:U],,h2h.csv,False
+ccl316_sham,1.0,Ccl3 16 h fold: sham,S09-A panel1[A:U],,h2h.csv,False
+ccl316_eff,26.7x (10.0-71.6),Ccl3 16 h fold: effect 344 vs 212 (95% CI),S09-A panel1[A:U],,h2h.csv,False
+ccl316_ri,0.83,Ccl3 16 h fold: restoration index,S09-A panel1[A:U],,h2h.csv,False
+ccl372_344,9.2,Ccl3 72 h fold (panel printed 16h): PSLN-344,S09-A panel2[X:AS],,h2h.csv,False
+ccl372_212,4.7,Ccl3 72 h fold (panel printed 16h): PSLN-212,S09-A panel2[X:AS],,h2h.csv,False
+ccl372_Y,41.5,Ccl3 72 h fold (panel printed 16h): young PSLN-212,S09-A panel2[X:AS],,h2h.csv,False
+ccl372_sham,1.0,Ccl3 72 h fold (panel printed 16h): sham,S09-A panel2[X:AS],,h2h.csv,False
+ccl372_eff,2.0x (0.9-4.2),Ccl3 72 h fold (panel printed 16h): effect 344 vs 212 (95% CI),S09-A panel2[X:AS],,h2h.csv,False
+ccl372_ri,0.31,Ccl3 72 h fold (panel printed 16h): restoration index,S09-A panel2[X:AS],,h2h.csv,False
+ccl516_344,19.8,Ccl5 16 h fold: PSLN-344,S09-A panel1[A:U],,h2h.csv,False
+ccl516_212,2.6,Ccl5 16 h fold: PSLN-212,S09-A panel1[A:U],,h2h.csv,False
+ccl516_Y,62.1,Ccl5 16 h fold: young PSLN-212,S09-A panel1[A:U],,h2h.csv,False
+ccl516_sham,1.0,Ccl5 16 h fold: sham,S09-A panel1[A:U],,h2h.csv,False
+ccl516_eff,7.6x (1.8-31.6),Ccl5 16 h fold: effect 344 vs 212 (95% CI),S09-A panel1[A:U],,h2h.csv,False
+ccl516_ri,0.64,Ccl5 16 h fold: restoration index,S09-A panel1[A:U],,h2h.csv,False
+ccl572_344,2.0,Ccl5 72 h fold (panel printed 16h): PSLN-344,S09-A panel2[X:AS],,h2h.csv,False
+ccl572_212,1.2,Ccl5 72 h fold (panel printed 16h): PSLN-212,S09-A panel2[X:AS],,h2h.csv,False
+ccl572_Y,0.5,Ccl5 72 h fold (panel printed 16h): young PSLN-212,S09-A panel2[X:AS],,h2h.csv,False
+ccl572_sham,1.0,Ccl5 72 h fold (panel printed 16h): sham,S09-A panel2[X:AS],,h2h.csv,False
+ccl572_eff,1.7x (0.9-3.1),Ccl5 72 h fold (panel printed 16h): effect 344 vs 212 (95% CI),S09-A panel2[X:AS],,h2h.csv,False
+ccl572_ri,-0.64,Ccl5 72 h fold (panel printed 16h): restoration index,S09-A panel2[X:AS],,h2h.csv,False
+il616_344,36.1,Il6 16 h fold: PSLN-344,S09-A panel1[A:U],,h2h.csv,True
+il616_212,5.6,Il6 16 h fold: PSLN-212,S09-A panel1[A:U],,h2h.csv,True
+il616_Y,60.3,Il6 16 h fold: young PSLN-212,S09-A panel1[A:U],,h2h.csv,False
+il616_sham,1.0,Il6 16 h fold: sham,S09-A panel1[A:U],,h2h.csv,False
+il616_eff,6.5x (1.6-26.2),Il6 16 h fold: effect 344 vs 212 (95% CI),S09-A panel1[A:U],,h2h.csv,False
+il616_ri,0.78,Il6 16 h fold: restoration index,S09-A panel1[A:U],,h2h.csv,False
+il672_344,7.2,Il6 72 h fold (panel printed 16h): PSLN-344,S09-A panel2[X:AS],,h2h.csv,False
+il672_212,1.9,Il6 72 h fold (panel printed 16h): PSLN-212,S09-A panel2[X:AS],,h2h.csv,False
+il672_Y,3.1,Il6 72 h fold (panel printed 16h): young PSLN-212,S09-A panel2[X:AS],,h2h.csv,False
+il672_sham,1.0,Il6 72 h fold (panel printed 16h): sham,S09-A panel2[X:AS],,h2h.csv,False
+il672_eff,3.9x (1.4-10.9),Il6 72 h fold (panel printed 16h): effect 344 vs 212 (95% CI),S09-A panel2[X:AS],,h2h.csv,False
+il672_ri,2.65,Il6 72 h fold (panel printed 16h): restoration index,S09-A panel2[X:AS],,h2h.csv,False
+tnf16_344,40.5,Tnf 16 h fold: PSLN-344,S09-A panel1[A:U],,h2h.csv,True
+tnf16_212,15.7,Tnf 16 h fold: PSLN-212,S09-A panel1[A:U],,h2h.csv,False
+tnf16_Y,13.9,Tnf 16 h fold: young PSLN-212,S09-A panel1[A:U],,h2h.csv,True
+tnf16_sham,1.0,Tnf 16 h fold: sham,S09-A panel1[A:U],,h2h.csv,False
+tnf16_eff,2.6x (0.6-10.9),Tnf 16 h fold: effect 344 vs 212 (95% CI),S09-A panel1[A:U],,h2h.csv,False
+tnf16_ri,-7.67,Tnf 16 h fold: restoration index,S09-A panel1[A:U],,h2h.csv,False
+tnf72_344,8.4,Tnf 72 h fold (panel printed 16h): PSLN-344,S09-A panel2[X:AS],,h2h.csv,True
+tnf72_212,5.2,Tnf 72 h fold (panel printed 16h): PSLN-212,S09-A panel2[X:AS],,h2h.csv,False
+tnf72_Y,0.5,Tnf 72 h fold (panel printed 16h): young PSLN-212,S09-A panel2[X:AS],,h2h.csv,True
+tnf72_sham,1.0,Tnf 72 h fold (panel printed 16h): sham,S09-A panel2[X:AS],,h2h.csv,False
+tnf72_eff,1.6x (1.0-2.6),Tnf 72 h fold (panel printed 16h): effect 344 vs 212 (95% CI),S09-A panel2[X:AS],,h2h.csv,False
+tnf72_ri,-0.20,Tnf 72 h fold (panel printed 16h): restoration index,S09-A panel2[X:AS],,h2h.csv,False
+il1016_344,7.3,Il10 16 h fold: PSLN-344,S09-A panel1[A:U],,h2h.csv,False
+il1016_212,3.7,Il10 16 h fold: PSLN-212,S09-A panel1[A:U],,h2h.csv,False
+il1016_Y,1.8,Il10 16 h fold: young PSLN-212,S09-A panel1[A:U],,h2h.csv,False
+il1016_sham,1.0,Il10 16 h fold: sham,S09-A panel1[A:U],,h2h.csv,False
+il1016_eff,2.0x (0.6-6.7),Il10 16 h fold: effect 344 vs 212 (95% CI),S09-A panel1[A:U],,h2h.csv,False
+il1016_ri,-0.97,Il10 16 h fold: restoration index,S09-A panel1[A:U],,h2h.csv,False
+il1072_344,4.2,Il10 72 h fold (panel printed 16h): PSLN-344,S09-A panel2[X:AS],,h2h.csv,True
+il1072_212,4.2,Il10 72 h fold (panel printed 16h): PSLN-212,S09-A panel2[X:AS],,h2h.csv,False
+il1072_Y,0.1,Il10 72 h fold (panel printed 16h): young PSLN-212,S09-A panel2[X:AS],,h2h.csv,True
+il1072_sham,1.0,Il10 72 h fold (panel printed 16h): sham,S09-A panel2[X:AS],,h2h.csv,False
+il1072_eff,1.0x (0.3-3.4),Il10 72 h fold (panel printed 16h): effect 344 vs 212 (95% CI),S09-A panel2[X:AS],,h2h.csv,False
+il1072_ri,0.00,Il10 72 h fold (panel printed 16h): restoration index,S09-A panel2[X:AS],,h2h.csv,False
+tnf72_p_vsY,0.008,Tnf 72 h PSLN-344 vs young p,S09-A panel2,,h2h.csv,True
+il1072_p_vsY,0.002,Il10 72 h PSLN-344 vs young p,S09-A panel2,,h2h.csv,True
+th1_h1_212,0.58,IgG2a/IgG1 H1N1 PSLN-212 (from primary titres),S13-A/S13-B,,crosscheck.py,True
+th1_h3_212,0.51,IgG2a/IgG1 H3N2 PSLN-212,S13-C/S13-D,,crosscheck.py,True
+th1_h1_344,2.14,IgG2a/IgG1 H1N1 PSLN-344 (from primary titres),S13-A/S13-B,,crosscheck.py,True
+th1_h3_344,2.73,IgG2a/IgG1 H3N2 PSLN-344,S13-C/S13-D,,crosscheck.py,True
+th1_h1_Y,2.97,IgG2a/IgG1 H1N1 PSLN-212(Y) (from primary titres),S13-A/S13-B,,crosscheck.py,True
+th1_h3_Y,2.89,IgG2a/IgG1 H3N2 PSLN-212(Y),S13-C/S13-D,,crosscheck.py,True
+emax344,49,"Emax Ifnb1 fold (fit), PSLN-344",S08-A,,moa.py -> dose_response.csv,True
+emax212,14,Emax PSLN-212,S08-A,,dose_response.csv,True
+ed50_344,11.5,ED50 ug PSLN-344,S08-A,,dose_response.csv,True
+ed50_212,9.5,ED50 ug PSLN-212,S08-A,,dose_response.csv,True
+emax_r848,36,Emax PSLN-344/R848,S08-A,,dose_response.csv,True
+dose_sparing,about 3-fold dose-sparing: PSLN-344 at 6.7–7.3 µg matches PSLN-212 at 20 µg,"Dose-sparing, Emax fit (7.3 ug) and linear interpolation (6.7 ug)",S08-A,,moa.py,True
+ifnb_10_vs_20,46%,PSLN-344 Ifnb1 at 10 ug as % of 20 ug response,S08-A,,facts.py,True
+plateau,10%,Gain from 20 to 40 ug for PSLN-344,S08-A,,dose_response.csv,True
+spad,"43.1 → 12.7, -71%, p<0.001",Delivery: SP-A/D knockout reduces AM uptake of PSLN-344-composition liposomes,S01-C,,moa.py -> moa_contrasts.csv,True
+cbx,"7.3 → 3.1, -58%, p=0.004",Gap-junction: carbenoxolone reduces recruited monocytes (PSLN-344),S11-C,,moa.py -> moa_contrasts.csv,True
+ifnar,"19.7 → 2.1, -89%, p<0.001",Type I IFN: IFNAR-/- BM (no cDC) vs WT BM (no cDC): moDC,S02-H,,moa.py -> moa_contrasts.csv,True
+gmrescue,"2.1 → 12.4, +494%, p=0.003",GM-CSF rescue: IFNAR-/- BM + GM-CSF vs IFNAR-/- BM: moDC,S02-H,,moa.py -> moa_contrasts.csv,True
+gmgof,"5.9 → 13.8, +136%, p=0.002",GM-CSF gain-of-function: PSLN-212 + GM-CSF vs PSLN-212 (moDC-like),S02-G,,moa.py -> moa_contrasts.csv,True
+ccr2mono,"9.9 → 3.3, -67%, p=0.001","CCR2: INCB3344 vs vehicle, lung monocytes (PSLN-344)",S07-B,,moa.py -> moa_contrasts.csv,True
+ccr2mac,"15.4 → 2.5, -84%, p=0.003","CCR2: INCB3344 vs vehicle, Ly6C+ macrophages (PSLN-344)",S07-B,,moa.py -> moa_contrasts.csv,True
+ccr2cd8,"6.8 → 1.4, -79%, p<0.001","CCR2: INCB3344 vs vehicle, lung GZMB+ CD8 (young, PSLN-344)",S02-I,,moa.py -> moa_contrasts.csv,True
+ptxdc,"7.1 → 2.4, -67%, p<0.001","Migration: PTX vs PSLN-344, antigen+ DC in MLN",S02-C,,moa.py -> moa_contrasts.csv,True
+ptxoti,"18.7 → 2.5, -86%, p<0.001","Migration: PTX vs PSLN-344, OT-I proliferation (MLN DC co-culture)",S02-E,,moa.py -> moa_contrasts.csv,True
+ptxmln,"30.9 → 6.8, -78%, p=0.007","Migration: PTX in vivo, OT-I proliferation in MLN",S05-C,,moa.py -> moa_contrasts.csv,True
+ptxlung,"59.0 → 55.1, -7%, p=0.569","Migration: PTX in vivo, OT-I proliferation in lung (local priming)",S05-C,,moa.py -> moa_contrasts.csv,True
+ifnarmono,"21.3 → 15.4, -28%, p=0.120",Type I IFN: IFNAR-/- vs WT BM: infiltrating monocytes (young),S12-A,,moa.py -> moa_contrasts.csv,False
+young_ifnb,"37.5 → 50.2, +34%, p=0.009","Young: PSLN-344(Y) vs PSLN-212(Y), Ifnb1 16h",S01-A,,moa.py -> moa_contrasts.csv,True
+cns_ifnb,"1.1 → 1.3, +14%, p=0.568",CNS Ifnb1: PSLN-344 vs Sham,S10-A,,moa.py -> moa_contrasts.csv,True
+cns_tnf,"1.3 → 1.5, +20%, p=0.361",CNS Tnf: PSLN-344 vs Sham,S10-A,,moa.py -> moa_contrasts.csv,False
+cns_isg,"1.0 → 1.1, +8%, p=0.497",CNS Isg15: PSLN-344 vs Sham,S10-A,,moa.py -> moa_contrasts.csv,False
+ct_ifnb,"1.1 → 5.4, +384%, p<0.001",CNS Ifnb1: CT vs Sham (assay positive control),S10-A,,moa.py -> moa_contrasts.csv,True
+cmp_ifnb,"16.5 → 7.7, -54%, p<0.001",cGAMP (CMP-204) vs PSLN-212: Ifnb1 16h,S01-A,,moa.py -> moa_contrasts.csv,True
+r848_ifnb,"36.9 → 24.0, -35%, p=0.001",PSLN-212/R848 vs PSLN-344: Ifnb1 16h,S01-A,,moa.py -> moa_contrasts.csv,True
+ee,"59.6 → 54.8, -8%, p=0.289",Encapsulation efficiency PSLN-344 vs PSLN-212,S08-B,,moa.py -> moa_contrasts.csv,True
+nadir_344,96.4%,Mean post-vaccination weight nadir PSLN-344,S08-D,,moa.py -> reactogenicity_s08d.csv,True
+nadir_212,97.0%,PSLN-212,S08-D,,reactogenicity_s08d.csv,True
+nadir_vac,98.2%,Vaccine only,S08-D,,reactogenicity_s08d.csv,False
+nadir_r848,90.0%,Mean post-vaccination weight nadir PSLN-212/R848,S08-D,,reactogenicity_s08d.csv,True
+maxloss_r848,15%,Maximum individual weight loss PSLN-212/R848,S08-D,,reactogenicity_s08d.csv,True
+nadir_p,p=0.56,"Welch test on weight nadir, PSLN-344 vs PSLN-212",S08-D,,moa.py,True
+nadir_p_r848,p=0.043,"Welch test on weight nadir, PSLN-212/R848 vs PSLN-344",S08-D,,moa.py,True
+ri_innate,0.83,Median restoration index: 1 Innate cytokine (16-36h),see restoration_index.csv,,restoration.py,True
+ri_myeloid,0.75,Median restoration index: 2 Myeloid recruitment & DC (d3-4),see restoration_index.csv,,restoration.py,True
+ri_costim,0.19,Median restoration index: 3 DC co-stimulation (d3),see restoration_index.csv,,restoration.py,True
+ri_ab,0.77,Median restoration index: 6 Antibody (d14),see restoration_index.csv,,restoration.py,True
+ri_boost,0.62,Median restoration index: 7 Antibody post-boost (d28),see restoration_index.csv,,restoration.py,True
+ri_cd8mem,0.62,Median restoration index: 8 CD8 memory (d14-60),see restoration_index.csv,,restoration.py,True
+hai160,"PSLN-344 5/5, young 5/5, PSLN-212 0/5, CMP-204 0/5, Sham 0/5",Animals with HAI >= 1:160 (CA09),S03-C,,biomarkers.py,True
+d60_sham,0/21,"Day-60 challenges, sham","S06-E,F,G",,survival_by_group.csv,True
+fp_total,39,High-precision (>=4 decimal) values occurring more than once in the workbook,all sheets,,fingerprint.py / fp_breakdown.py,True
+fp_bw,33,Of which: body-weight values shared between different experiments or arms,"S08, S09, S13, S15",,fp_breakdown.py,True
+s15i_copy,40 of 42,S15-I combination-arm weights identical to S15-C PSLN-344 (days 2-12),"S15-I, S15-C",,extra_checks.py,True
+cmp_vs212,1.1-2.3x,GMT ratio PSLN-212/CMP-204 across six d14 titre endpoints,"S03-A,C,D,E,G,H",,facts.py,True
+cmp_vs344,11-40x,GMT ratio PSLN-344/CMP-204 across six d14 titre endpoints,"S03-A,C,D,E,G,H",,facts.py,True

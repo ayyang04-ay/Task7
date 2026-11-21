@@ -1,0 +1,643 @@
+
+S01-A_16h  [stated n=5]
+    Sham                         5
+    CMP-204                      5
+    PSLN-212                     5
+    PSLN-R848                    5
+    PSLN-212/R848                5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+    PSLN-344(Y)                  5
+
+S01-A_72h  [stated n=5]
+    Sham                         5
+    CMP-204                      5
+    PSLN-212                     5
+    PSLN-R848                    5
+    PSLN-212/R848                5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+    PSLN-344(Y)                  5
+
+S01-B  [stated n=5]
+    AECII/PSLN-SRB               5
+    AECI/PSLN-SRB                5
+    AECII/FreeSRB                5
+    AECI/FreeSRB                 5
+
+S01-C  [stated n=4]
+    WT                           4
+    SPA/D                        4
+
+S01-D  [stated n=5]
+    Sham                         5/5/5/5/5
+    PSLN-212                     5/5/5/5/5
+    PSLN-344                     5/5/5/5/5
+    PSLN-212(Y)                  5/5/5/5/5
+
+S01-E  [stated n=5]
+    Sham                         5/5/5/5/5
+    PSLN-212                     5/5/5/5/5
+    PSLN-344                     5/5/5/5/5
+    PSLN-212(Y)                  5/5/5/5/5
+    PSLN-344(Y)                  5/5/5/5/5
+
+S01-F  [stated n=5]
+    Sham                         5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+    PSLN-344(Y)                  5
+
+S01-G  [stated n=5]
+    Sham                         5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+    PSLN-344(Y)                  5
+
+S02-A  [stated n=5]
+    Sham                         5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S02-B  [stated n=5]
+    Sham                         5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S02-C  [stated n=5]
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+    PTX                          5
+    PSLN-344(Y)                  5
+
+S02-D_CD40  [stated n=5]
+    Sham                         5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S02-D_CD86  [stated n=5]
+    Sham                         5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S02-E  [stated n=5]
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+    PTX                          5
+    PSLN-344(Y)                  5
+
+S02-F  [stated n=5]
+    PSLN-344                     5/5/5
+    PSLN-212                     5/5/5
+    Sham                         5/5/5
+
+S02-G  [stated n=5]
+    GM-CSF                       5
+    PSLN-212                     5
+    PSLN-212+GM-CSF              5
+
+S02-H  [stated n=5]
+    WT w/o cDC                   5
+    WT w/ cDC                    5
+    IFN w/o cDC                  5
+    IFN w/ cDC                   5
+    GMCSF                        5
+
+S02-I  [stated n=5]
+    PSLN-344(Y)                  5
+    PSLN-344(Y)+INCB3344         5
+
+S03-A  [stated n=5]
+    Sham                         5
+    CMP-204                      5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S03-B  [stated n=5]
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S03-C  [stated n=5]
+    Sham                         5
+    CMP-204                      5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S03-D  [stated n=5]
+    Sham                         5
+    CMP-204                      5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S03-E  [stated n=5]
+    Sham                         5
+    CMP-204                      5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S03-F  [stated n=5]
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S03-G  [stated n=5]
+    Sham                         5
+    CMP-204                      5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S03-H  [stated n=5]
+    Sham                         5
+    CMP-204                      5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S03-I  [stated n=7]
+    Sham                         7 (died 7, alive at end 0)
+    CMP-204                      7 (died 4, alive at end 3)
+    PSLN-212                     7 (died 7, alive at end 0)
+    PSLN-344                     7 (died 0, alive at end 7)
+    PSLN-212(Y)                  7 (died 0, alive at end 7)
+
+S03-J  [stated n=9]
+    Sham                         10 (died 9, alive at end 1)
+    PSLN-212                     10 (died 7, alive at end 3)
+    PSLN-344                     10 (died 0, alive at end 10, MISSING DAY VALUE in 1 row)
+
+S03-K  [stated n=5]
+    Sham                         5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S03-L_Aicda  [stated n=3]
+    Sham                         3
+    PSLN-212                     3
+    PSLN-344                     3
+
+S03-L_E47  [stated n=3]
+    Sham                         3
+    PSLN-212                     3
+    PSLN-344                     3
+
+S04-A_ICOSlo  [stated n=5]
+    Sham                         5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S04-A_ICOShi  [stated n=5]
+    Sham                         5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S04-B_Foxp3  [stated n=5]
+    Sham                         5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S04-B_TfhTfr  [stated n=5]
+    Sham                         5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S04-C  [stated n=5]
+    Sham                         5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S04-D  [stated n=3]
+    Sham                         3
+    PSLN-212                     3
+    PSLN-344                     3
+    PSLN-212(Y)                  3
+
+S05-A  [stated n=3]
+    PSLN-212                     2/2/2
+    PSLN-344                     2/2/2
+    PSLN-212Y                    2/2/2
+
+S05-B  [stated n=3]
+    PSLN-212                     2/2/2
+    PSLN-344                     2/2/2
+    PSLN-212Y                    2/2/2
+
+S05-C  [stated n=3]
+    Lung                         3
+    Lung+PTX                     3
+    MLN                          3
+    MLN+PTX                      3
+
+S05-D  [stated n=5]
+    Sham                         5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S05-E  [stated n=5]
+    Sham                         5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S05-F  [stated n=5]
+    Sham                         5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S05-G  [stated n=5]
+    Sham                         5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S05-H  [stated n=5]
+    Sham                         5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S05-I  [stated n=5]
+    Sham                         5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S06-A  [stated n=7]
+    Sham                         7 (died 7, alive at end 0)
+    PSLN-212                     7 (died 6, alive at end 1)
+    PSLN-344                     7 (died 1, alive at end 6)
+    PSLN-212(Y)                  7 (died 0, alive at end 7)
+
+S06-B  [stated n=7]
+    Sham                         7 (died 7, alive at end 0)
+    PSLN-212                     7 (died 7, alive at end 0)
+    PSLN-344                     7 (died 2, alive at end 5)
+    PSLN-212(Y)                  7 (died 0, alive at end 7)
+
+S06-C  [stated n=7]
+    Sham                         7 (died 7, alive at end 0)
+    PSLN-212                     7 (died 5, alive at end 2)
+    PSLN-344                     7 (died 0, alive at end 7)
+    PSLN-212(Y)                  7 (died 0, alive at end 7)
+
+S06-D  [stated n=7]
+    Sham                         7 (died 7, alive at end 0)
+    PSLN-212                     7 (died 5, alive at end 2)
+    PSLN-344                     7 (died 0, alive at end 7)
+    PSLN-212(Y)                  7 (died 0, alive at end 7)
+
+S06-E_r34  [stated n=7]
+    Sham                         7 (died 7, alive at end 0)
+    PSLN-212                     7 (died 7, alive at end 0)
+    PSLN-344                     7 (died 2, alive at end 5)
+    PSLN-212(Y)                  7 (died 0, alive at end 7)
+    Untreated                    7 (died 1, alive at end 6)
+
+S06-F_r34  [stated n=7]
+    Sham                         7 (died 7, alive at end 0)
+    PSLN-212                     7 (died 6, alive at end 1)
+    PSLN-344                     7 (died 2, alive at end 5)
+    PSLN-212(Y)                  7 (died 0, alive at end 7)
+    Untreated                    7 (died 0, alive at end 7)
+
+S06-G  [stated n=7]
+    Sham                         7 (died 7, alive at end 0)
+    PSLN-212                     7 (died 7, alive at end 0)
+    PSLN-344                     7 (died 3, alive at end 4)
+    PSLN-212(Y)                  7 (died 0, alive at end 7)
+    Untreated                    7 (died 3, alive at end 4)
+
+S06-E_r71  [stated n=7]
+    Naïve+PSLN-212               7 (died 7, alive at end 0)
+    Imprinting+PSLN-212          7 (died 3, alive at end 4)
+    Naïve+PSLN-344               7 (died 1, alive at end 6)
+    Imprinting+PSLN-344          7 (died 1, alive at end 6)
+
+S06-F_r71  [stated n=7]
+    Naïve+PSLN-212               7 (died 7, alive at end 0)
+    Imprinting+PSLN-212          7 (died 7, alive at end 0)
+    Naïve+PSLN-344               7 (died 1, alive at end 6)
+    Imprinting+PSLN-344          7 (died 1, alive at end 6)
+
+S07-A  [stated n=3]
+    PSLN-212                     3/3/3/3/3
+    PSLN-344                     3/3/3/3/3
+
+S07-B_mono  [stated n=5]
+    PSLN-344                     5
+    PSLN-344+INCB3344            5
+
+S07-B_mac  [stated n=5]
+    PSLN-344                     5
+    PSLN-344+INCB3344            5
+
+S07-C  [stated n=5]
+    Ly6C-CD206+ MΦ               5
+    Ly6C-CD206+ MΦ [col C]       5
+
+S08-A  [stated n=3]
+    CMP-204                      3/3/3/3/3
+    PSLN-212                     3/3/3/3/3
+    PSLN-344                     3/3/3/3/3
+    PSLN-344/R848                3/3/3/3/3
+
+S08-B  [stated n=3]
+    CMP-204                      3
+    PSLN-212                     3
+    PSLN-R848                    3
+    PSLN-212/R848                3
+    PSLN-344                     3
+
+S08-C  [stated n=5]
+    AECII-PSLN-SRB               5
+    AECII-PSLN-344-SRB           5
+    AECI-PSLN-SRB                5
+    AECI-PSLN-344-SRB            5
+
+S08-D  [stated n=5]
+    PSLN-212(Y)                  5/5/5/5/5/5
+    CMP-204                      5/5/5/5/5/5
+    PSLN-212                     5/5/5/5/5/5
+    PSLN-344                     5/5/5/5/5/5
+    PSLN-212/R848                5/5/5/5/5/4
+    Vaccine                      5/5/5/5/5/5
+
+S09-A_panel1  [stated n=3]
+    PBS                          3/3/3/3/3/3/3
+    CMP-204                      3/3/3/3/3/3/3
+    PSLN-212                     3/3/3/3/3/3/3
+    PSLN-R848                    3/3/3/3/3/3/3
+    PSLN-212/R848                3/3/3/3/3/3/3
+    PSLN-344                     3/3/3/3/3/3/3
+    PSLN-212(y)                  3/3/3/3/3/3/3
+
+S09-A_panel2  [stated n=3]
+    PBS                          3/3/3/3/3/3/3
+    CMP-204                      3/3/3/3/3/3/3
+    PSLN-212                     3/3/3/3/3/3/3
+    PSLN-R848                    3/3/3/3/3/3/3
+    PSLN-212/R848                3/3/3/3/3/3/3
+    PSLN-344                     3/3/3/3/3/3/3
+    PSLN-212(y)                  3/3/3/3/3/3/3
+
+S09-B  [stated n=8]
+    Sham                         8 (died 8, alive at end 0)
+    PSLN-344Y                    8 (died 0, alive at end 8)
+    PSLN-212Y                    8 (died 0, alive at end 8)
+
+S09-C  [stated n=8]
+    PSLN-212Y                    8/8/8/8/8/8/8/8
+    Sham                         8/8/8/8/7/0/0/0
+    PSLN-344Y                    8/8/8/8/8/8/8/8
+
+S09-D  [stated n=8]
+    Sham                         8 (died 8, alive at end 0)
+    PSLN-344Y                    8 (died 0, alive at end 8)
+    PSLN-212Y                    8 (died 0, alive at end 8)
+
+S09-E  [stated n=8]
+    PSLN-212Y                    8/8/8/8/8/8/8/8
+    Sham                         8/8/8/8/6/0/0/0
+    PSLN-344Y                    8/8/8/8/8/8/8/8
+
+S09-F  [stated n=8]
+    Sham                         7 (died 7, alive at end 0)
+    PSLN-344Y                    8 (died 0, alive at end 8)
+    PSLN-212Y                    8 (died 0, alive at end 8)
+
+S09-G  [stated n=8]
+    PSLN-212Y                    8/8/8/8/8/8/8/8
+    Sham                         8/8/8/8/4/0/0/0
+    PSLN-344Y                    8/8/8/8/8/8/8/8
+
+S10-A_Ifnb1  [stated n=5]
+    PBS                          5
+    Sham                         5
+    PSLN-344                     5
+    CT                           5
+
+S10-A_Tnf  [stated n=5]
+    PBS                          5
+    Sham                         5
+    PSLN-344                     5
+    CT                           5
+
+S10-A_Isg15  [stated n=5]
+    PBS                          5
+    Sham                         5
+    PSLN-344                     5
+    CT                           5
+
+S11-A  [stated n=5]
+    Vaccine                      5/5/5/5/5
+    PSLN-212                     5/5/5/5/5
+    PSLN-344                     5/5/5/5/5
+    PSLN-212(Y)                  5/5/5/5/5
+
+S11-B  [stated n=5]
+    Vaccine                      5/5/5/5/5
+    PSLN-212                     5/5/5/5/5
+    PSLN-344                     5/5/5/5/5
+    PSLN-212(Y)                  5/5/5/5/5
+
+S11-C  [stated n=5]
+    CBX+                         5
+    CBX-                         5
+
+S11-D  [stated n=5]
+    Vaccine                      5/5/5/5/5
+    PSLN-212                     5/5/5/5/5
+    PSLN-344                     5/5/5/5/5
+    PSLN-212(Y)                  5/5/5/5/5
+
+S11-E  [stated n=5]
+    Sham                         5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S12-A  [stated n=3]
+    WT to WT                     3
+    IFNAR-/- to WT               3
+
+S13-A  [stated n=5]
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S13-B  [stated n=5]
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S13-C  [stated n=5]
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S13-D  [stated n=5]
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S13-E  [stated n=5]
+    Naïve                        7 (died 7, alive at end 0)
+    Sham                         7 (died 6, alive at end 1)
+    CMP-204(Y)                   7 (died 0, alive at end 7)
+    PSLN-344(Y)                  7 (died 0, alive at end 7)
+
+S13-F  [stated n=7]
+    PSLN-212(Y)                  7/7/7/7/7/7/7/7
+    Sham                         7/7/7/7/5/3/0/0
+    PSLN-212                     7/7/7/7/7/7/7/7
+    PSLN-344                     7/7/7/7/7/7/7/7
+    Naïve                        7/7/7/5/0/0/0/0
+
+S13-G  [stated n=10]
+    PSLN-344                     10/10/10/10/10/10/10/10
+    Sham                         10/10/10/10/10/10/10/10
+    Naïve                        10/10/10/10/10/10/10/10
+
+S13-H  [stated n=5]
+    Sham                         5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S13-I  [stated n=5]
+    Sham                         5
+    CMP-204                      5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S13-J  [stated n=5]
+    Sham                         5
+    CMP-204                      5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S14-A_H1N1  [stated n=5]
+    Sham                         5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S14-A_H3N2  [stated n=5]
+    Sham                         5
+    PSLN-212                     5
+    PSLN-344                     5
+    PSLN-212(Y)                  5
+
+S15-A  [stated n=7]
+    PSLN-212(Y)                  7/7/7/7/7/7/7/7
+    Sham                         7/7/7/4/0/0/0/0
+    PSLN-212                     7/7/7/7/7/7/7/7
+    PSLN-344                     7/7/7/7/7/7/7/7
+
+S15-B  [stated n=7]
+    PSLN-212(Y)                  7/7/7/7/7/7/7/7
+    Sham                         7/7/6/3/0/0/0/0
+    PSLN-212                     7/7/7/7/7/7/7/7
+    PSLN-344                     7/7/7/7/7/7/7/7
+
+S15-C  [stated n=7]
+    PSLN-212(Y)                  7/7/7/7/7/7/7/7
+    Sham                         7/7/7/4/1/0/0/0
+    PSLN-212                     7/7/7/7/7/7/7/7
+    PSLN-344                     7/7/7/7/7/7/7/7
+
+S15-D  [stated n=7]
+    PSLN-212(Y)                  7/7/7/7/7/7/7/7
+    Sham                         7/7/7/1/0/0/0/0
+    PSLN-212                     7/7/7/7/7/7/7/7
+    PSLN-344                     7/7/7/7/7/7/7/7
+
+S15-E  [stated n=7]
+    PSLN-212(Y)                  7/7/7/7/7/7/7/7
+    Sham                         7/7/7/2/0/0/0/0
+    PSLN-212                     7/7/7/7/7/7/7/7
+    PSLN-344                     7/7/7/7/7/7/7/7
+    Untreated                    7/7/7/7/7/7/7/7
+
+S15-F  [stated n=7]
+    PSLN-212(Y)                  7/7/7/7/7/7/7/7
+    Sham                         7/7/5/1/0/0/0/0
+    PSLN-212                     7/7/7/7/7/7/7/7
+    PSLN-344                     7/7/7/7/7/7/7/7
+    Untreated                    7/7/7/7/7/7/7/7
+
+S15-G  [stated n=7]
+    PSLN-212(Y)                  7/7/7/7/7/7/7/7
+    Sham                         7/7/7/5/0/0/0/0
+    PSLN-212                     7/7/7/7/7/7/7/7
+    PSLN-344                     7/7/7/7/7/7/7/7
+    Untreated                    7/7/7/7/7/7/7/7
+
+S15-H  [stated n=7]
+    3d Vaccine                   7 (died 7, alive at end 0)
+    3d PSLN-344                  7 (died 7, alive at end 0)
+    3d Vaccine+PSLN-344          7 (died 1, alive at end 6)
+
+S15-I  [stated n=7]
+    3d Vaccine                   7/7/7/3/0/0/0/0
+    3d PSLN-344                  7/7/7/5/1/0/0/0
+    3d Vaccine+PSLN-344          7/7/7/7/7/7/7/7
+
+S15-J  [stated n=7]
+    Naïve+PSLN-212               7/7/5/2/0/0/0/0
+    Imprinting+PSLN-212          7/7/7/6/4/4/4/4
+    Naïve+PSLN-344               7/7/7/6/6/6/6/6
+    Imprinting+PSLN-344          7/7/7/7/7/7/7/7
+
+S15-K  [stated n=7]
+    Naïve+PSLN-212               7/7/6/4/1/0/0/0
+    Imprinting+PSLN-212          7/7/5/1/0/0/0/0
+    Naïve+PSLN-344               7/7/7/7/6/6/6/6
+    Imprinting+PSLN-344          7/7/7/7/6/6/6/6
+
+S15-L  [stated n=7]
+    Sham                         7 (died 7, alive at end 0)
+    PSLN-212                     7 (died 7, alive at end 0)
+    PSLN-344                     7 (died 1, alive at end 6)
+    PSLN-212(Y)                  7 (died 1, alive at end 6)
+
+S15-M  [stated n=7]
+    PSLN-212(Y)                  7/7/7/7/7/7/7/7
+    Sham                         7/7/5/2/1/0/0/0
+    PSLN-212                     7/7/7/7/7/7/7/7
+    PSLN-344                     7/7/7/7/7/7/7/7
+
+S15-N  [stated n=7]
+    Sham                         7 (died 7, alive at end 0)
+    PSLN-212                     7 (died 5, alive at end 2)
+    PSLN-344                     7 (died 1, alive at end 6)
+    PSLN-212(Y)                  7 (died 0, alive at end 7)
+
+S15-O  [stated n=7]
+    PSLN-212(Y)                  7/7/7/7/7/7/7/7
+    Sham                         7/7/7/6/4/1/0/0
+    PSLN-212                     7/7/7/7/7/7/7/7
+    PSLN-344                     7/7/7/7/7/7/7/7

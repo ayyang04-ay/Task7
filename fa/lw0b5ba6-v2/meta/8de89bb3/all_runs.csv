@@ -1,0 +1,5 @@
+attempt,run_id_short,status,refused,final_score,normalized_score,n_subscores,sub_overall
+1,1e154279,completed,false,0.95,0.95,1,0.95
+2,355880fe,completed,false,0.94,0.94,1,0.94
+3,f644c65d,completed,false,0.9,0.9,1,0.9
+4,c54ffab8,completed,false,0.95,0.95,1,0.95

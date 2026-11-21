@@ -1,0 +1,11 @@
+Call:
+survdiff(formula = Surv(time, event) ~ arm + strata(stratum), 
+    data = D)
+
+          N Observed Expected (O-E)^2/E (O-E)^2/V
+arm=212 101       88     39.5      59.6       117
+arm=344 101       16     64.5      36.5       117
+
+ Chisq= 117  on 1 degrees of freedom, p= <2e-16 
+                     exp(coef) exp(-coef)  lower .95 upper .95
+I(arm == "344")TRUE 0.07640334   13.08843 0.04344135 0.1343759

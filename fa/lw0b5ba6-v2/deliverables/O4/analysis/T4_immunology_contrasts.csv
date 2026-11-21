@@ -1,0 +1,45 @@
+category,readout,block,scale,Sham,PSLN212_aged,PSLN344_aged,PSLN212_young,n_per_group,effect_344_vs_212,welch_p,tukey_p_344_vs_212,restoration_index,cells
+Innate,Lung Ifnb1 16 h (fold),S01-A_16h,geometric mean,0.936,16.5,36.9,37.5,5/5/5,2.23x (95% CI 1.85-2.69),9.593086545675362e-06,0.0006,0.98,S01!B3..F10
+Innate,Lung Ifnb1 72 h (fold),S01-A_72h,geometric mean,0.984,3.41,4.17,1.46,5/5/5,1.22x (95% CI 0.75-1.99),0.33416029359472577,0.9381,-0.24,S01!H3..L10
+Innate,Lung Gm-csf 16 h (fold),S02-F,geometric mean,0.983,1.42,5.99,,5/5/-,4.21x (95% CI 2.78-6.38),0.0005056118648765897,0.0,,S02!B17..P17
+Innate,Lung Gm-csf 36 h (fold),S02-F,geometric mean,1.2,1.59,8.52,,5/5/-,5.36x (95% CI 3.93-7.32),3.844402690939927e-05,0.0,,S02!B18..P18
+Innate,Lung Gm-csf 72 h (fold),S02-F,geometric mean,1.14,1.37,3.61,,5/5/-,2.63x (95% CI 1.61-4.30),0.003648847154092768,0.0005,,S02!B19..P19
+Innate,Lung monocytes d4 (%),S01-D,arithmetic mean,10.4,16.7,30.6,32.2,5/5/5,+13.84 pts (95% CI +8.13 to +19.55),0.0015858607855035226,0.0,0.89,S01!B26..U26
+Innate,Lung CD11b+ DC d4 (%),S01-E,arithmetic mean,4.8,8.28,18.9,21.4,5/5/5,+10.60 pts (95% CI +0.07 to +21.13),0.04898434584247035,0.0073,0.81,S01!B32..Z32
+Innate,Lung cDC1 72 h (%),S01-F,arithmetic mean,17.9,22.8,37.5,43.4,5/5/5,+14.72 pts (95% CI +6.12 to +23.32),0.005802248576647148,0.0003,0.71,S01!B36..Z36
+Antigen presentation,Lung CCR7+ migratory CD11b+ DC 72 h (%),S02-A,arithmetic mean,2.54,7.28,30.7,35,5/5/5,+23.40 pts (95% CI +13.77 to +33.03),0.0019152334053143326,0.0,0.84,S02!A3..D7
+Antigen presentation,MLN CD11b+CD103- DC 72 h (%),S02-B,arithmetic mean,13.9,18.2,36.8,44.7,5/5/5,+18.54 pts (95% CI +6.69 to +30.39),0.007546396779612077,0.0041,0.7,S02!F3..I7
+Antigen presentation,MLN antigen+ (AF647-OVA) DC 36 h (%),S02-C,arithmetic mean,,1.77,7.09,9.39,5/5/5,+5.32 pts (95% CI +3.59 to +7.05),0.0006870680505695262,0.0,0.7,S02!K3..O7
+Antigen presentation,MLN CD11b+ DC CD40+ d3 (%),S02-D_CD40,arithmetic mean,3.96,5.56,11.2,38.7,5/5/5,+5.65 pts (95% CI +1.98 to +9.31),0.010576212818230018,0.1598,0.17,S02!A10..D14
+Antigen presentation,MLN CD11b+ DC CD86+ d3 (%),S02-D_CD86,arithmetic mean,7.18,8.13,14.5,37.9,5/5/5,+6.41 pts (95% CI +2.97 to +9.85),0.0031651684688974147,0.0332,0.22,S02!F10..I14
+Antigen presentation,OT-I priming by MLN DC (%),S02-E,arithmetic mean,,0.766,18.7,26.2,5/5/5,+17.89 pts (95% CI +14.38 to +21.40),0.00010466308261381435,0.0,0.7,S02!K10..O14
+Humoral,MLN germinal-centre B d7 (%),S03-K,arithmetic mean,1.18,2.34,6.54,9.82,5/5/5,+4.20 pts (95% CI +2.33 to +6.08),0.002295333673865487,0.0074,0.56,S03!L17..O21
+Humoral,MLN ICOS-hi Tfh d7 (%),S04-A_ICOShi,arithmetic mean,0.296,3.82,10.3,13.6,5/5/5,+6.44 pts (95% CI +2.57 to +10.31),0.008592539979227955,0.0002,0.66,S04!G2..K5
+Regulatory,Tfr (Foxp3+ of CXCR5+ICOShi) d7 (%),S04-B_Foxp3,arithmetic mean,22.6,26.7,10.8,7.12,5/5/5,-15.86 pts (95% CI -24.03 to -7.69),0.0047190755168559535,0.0002,0.81,S04!A8..D12
+Regulatory,Tfr d30 (%),S04-C,arithmetic mean,13.9,18,14,7.4,5/5/5,-4.04 pts (95% CI -9.21 to +1.13),0.10878868909961124,0.1397,0.38,S04!A22..D26
+Regulatory,Lung Treg d7 (%),S04-D,arithmetic mean,5.88,6.66,2.99,1.78,3/3/3,-3.67 pts (95% CI -4.54 to -2.81),0.0003425197669028226,0.0002,0.75,S04!A29..D31
+Humoral,Serum IgG CA09 d14 (titre),S03-A,geometric mean,55.7,393,7.31e+03,1.2e+04,5/5/5,18.58x (95% CI 9.11-37.87),1.320944400606782e-05,0.0,0.86,S03!A3..E7
+Humoral,Serum IgG Aichi d14 (titre),S03-E,geometric mean,52.4,426,5.7e+03,1.39e+04,5/5/5,13.40x (95% CI 6.07-29.57),6.979344239048301e-05,0.0001,0.75,S03!A10..E14
+Humoral,HAI CA09 d14 (titre),S03-C,geometric mean,7.58,45.9,368,485,5/5/5,8.00x (95% CI 3.91-16.38),0.0003689084229973548,0.0,0.88,S03!K3..O7
+Humoral,HAI Aichi d14 (titre),S03-G,geometric mean,10,34.8,320,368,5/5/5,9.19x (95% CI 4.18-20.18),0.0002051437898286217,0.0,0.94,S03!K10..O14
+Humoral,Neutralising Ab CA09 d14 (titre),S03-D,geometric mean,52.2,418,3.84e+03,6.69e+03,5/5/5,9.19x (95% CI 3.10-27.20),0.0018630157095407445,0.0002,0.8,S03!Q3..U7
+Humoral,Neutralising Ab Aichi d14 (titre),S03-H,geometric mean,39.6,276,2.53e+03,4.41e+03,5/5/5,9.19x (95% CI 3.83-22.07),0.000392631781638953,0.0,0.8,S03!Q10..U14
+Humoral,IgG2a CA09 d14 (titre),S13-A,geometric mean,,83.4,1.64e+03,4.64e+03,5/5/5,19.68x (95% CI 10.05-38.54),1.0763736039295422e-05,0.0,0.74,S13!A3..C7
+Humoral,IgG1 CA09 d14 (titre),S13-B,geometric mean,,153,887,1.86e+03,5/5/5,5.79x (95% CI 4.26-7.87),1.0321104992287284e-06,0.0,0.7,S13!E3..G7
+Humoral,IgG2a Aichi d14 (titre),S13-C,geometric mean,,80.3,1.33e+03,3.7e+03,5/5/5,16.59x (95% CI 8.57-32.10),9.907272352937256e-06,0.0,0.73,S13!I3..K7
+Humoral,IgG1 Aichi d14 (titre),S13-D,geometric mean,,173,579,1.33e+03,5/5/5,3.35x (95% CI 2.24-5.00),0.00014241376118933762,0.0,0.59,S13!M3..O7
+Humoral,IgG2a:IgG1 CA09 (labels corrected),S03-B,geometric mean,,0.545,1.85,2.5,5/5/5,3.40x (95% CI 1.57-7.37),0.0072923409920739625,0.0156,0.8,S03!G3..I7
+Humoral,IgG2a:IgG1 Aichi (labels corrected),S03-F,geometric mean,,0.465,2.3,2.79,5/5/5,4.95x (95% CI 2.10-11.65),0.0028480416971345354,0.0008,0.89,S03!G10..I14
+Humoral,IgG CA09 d28 post-boost (titre),S13-I,geometric mean,56.6,4.41e+03,1.57e+04,4.07e+04,5/5/5,3.55x (95% CI 1.50-8.41),0.010363625127447052,0.1939,0.57,S13!F53..J57
+Humoral,IgG Aichi d28 post-boost (titre),S13-J,geometric mean,101,1.09e+03,1.24e+04,4.35e+04,5/5/5,11.45x (95% CI 4.05-32.37),0.0007610232360003421,0.0,0.66,S13!L53..P57
+Humoral,MLN IgG+ B220+ (%) [time not stated],S13-H,arithmetic mean,4.7,11.2,25.9,27.1,5/5/5,+14.64 pts (95% CI +7.46 to +21.83),0.0031595737943918793,0.0002,0.92,S13!A53..D57
+Cellular,Lung Ki-67+ CD8 d3 (%),S05-D,arithmetic mean,0.826,3.48,9.38,9.94,5/5/5,+5.90 pts (95% CI +3.57 to +8.23),0.0004710297318377069,0.0008,0.91,S05!A19..D23
+Cellular,Lung GZMB+ CD8 d3 (%),S05-E,arithmetic mean,0.99,2.99,5.69,9.61,5/5/5,+2.70 pts (95% CI +1.46 to +3.94),0.0010628040264858566,0.0008,0.41,S05!A26..D30
+Cellular,"MLN IFNg+ CD8, H5N1 recall d14 (%)",S05-F,arithmetic mean,0.672,1.5,6.36,9.18,5/5/5,+4.85 pts (95% CI +3.63 to +6.07),0.0001316049847353592,0.0,0.63,S05!A33..D37
+Cellular,"MLN IFNg+ CD8, H5N1 recall d60 (%)",S05-G,arithmetic mean,1.46,3.04,9.86,14.4,5/5/5,+6.82 pts (95% CI +3.39 to +10.25),0.003195587135548375,0.0008,0.6,S05!A40..D44
+Cellular,MLN GZMB+ CD8 d60 (%),S05-H,arithmetic mean,0.602,1.02,4.11,5.55,5/5/5,+3.08 pts (95% CI +1.71 to +4.45),0.0025444246684669498,0.0005,0.68,S05!A47..D51
+Cellular,Lung CD8 TRM d25 (%),S05-I,arithmetic mean,0.58,1,3.96,6.04,5/5/5,+2.96 pts (95% CI +2.18 to +3.74),6.175167253976863e-05,0.0,0.59,S05!A54..D58
+Cellular,"MLN IFNg+ CD8, H1N1 recall (%) [time not stated]",S14-A_H1N1,arithmetic mean,0.82,3.14,11,13.7,5/5/5,+7.88 pts (95% CI +4.59 to +11.17),0.0007443304497576343,0.0001,0.75,S14!A3..D7
+Cellular,"MLN IFNg+ CD8, H3N2 recall (%) [time not stated]",S14-A_H3N2,arithmetic mean,1.04,3.58,9.86,14,5/5/5,+6.28 pts (95% CI +4.01 to +8.55),0.00032554183965305834,0.0001,0.6,S14!F3..I7
+Innate,Lung NK d4 (%),S11-D,arithmetic mean,,24.7,31.1,18.1,5/5/5,+6.38 pts (95% CI -0.55 to +13.31),0.06648680618944323,0.1337,-0.97,S11!B26..U26
+Regulatory,Lung CD206+ macrophages (%) [time not stated],S11-E,arithmetic mean,85.2,71.5,48.9,35.5,5/5/5,-22.54 pts (95% CI -34.48 to -10.60),0.0024341839676659035,0.0017,0.63,S11!A31..D35

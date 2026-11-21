@@ -1,0 +1,77 @@
+    block            g  n  maxloss_all  maxloss_surv  n_surv
+0   S13-F  PSLN-212(Y)  7          6.5           6.5       7
+1   S13-F         Sham  7         20.6           NaN       0
+2   S13-F     PSLN-212  7         17.1          11.0       3
+3   S13-F     PSLN-344  7          8.5           8.5       7
+4   S13-F        Naïve  7         17.5           NaN       0
+5   S15-A  PSLN-212(Y)  7          9.2           9.2       7
+6   S15-A         Sham  7         14.7           NaN       0
+7   S15-A     PSLN-212  7         17.9          15.9       1
+8   S15-A     PSLN-344  7         13.2          13.0       6
+9   S15-B  PSLN-212(Y)  7         11.9          11.9       7
+10  S15-B         Sham  7         16.9           NaN       0
+11  S15-B     PSLN-212  7         18.9           NaN       0
+12  S15-B     PSLN-344  7         15.9          13.6       5
+13  S15-C  PSLN-212(Y)  7          8.1           8.1       7
+14  S15-C         Sham  7         15.6           NaN       0
+15  S15-C     PSLN-212  7         17.4          13.8       1
+16  S15-C     PSLN-344  7         12.7          12.7       7
+17  S15-D  PSLN-212(Y)  7         11.6           7.9       5
+18  S15-D         Sham  7          9.4           NaN       0
+19  S15-D     PSLN-212  7         17.1          13.0       2
+20  S15-D     PSLN-344  7         13.9          12.2       5
+21  S15-E  PSLN-212(Y)  7          9.6           9.6       7
+22  S15-E         Sham  7         15.1           NaN       0
+23  S15-E     PSLN-212  7         18.2           8.9       1
+24  S15-E     PSLN-344  7         11.5          10.1       6
+25  S15-E    Untreated  7          2.5           2.0       6
+26  S15-F  PSLN-212(Y)  7         12.1          12.1       7
+27  S15-F         Sham  7         13.2           NaN       0
+28  S15-F     PSLN-212  7         17.8          16.3       1
+29  S15-F     PSLN-344  7         15.0          14.8       5
+30  S15-F    Untreated  7          2.5           2.5       7
+31  S15-G  PSLN-212(Y)  7         10.5          10.5       7
+32  S15-G         Sham  7         18.5           NaN       0
+33  S15-G     PSLN-212  7         19.1           NaN       0
+34  S15-G     PSLN-344  7         14.4          11.7       5
+35  S15-G    Untreated  7          2.9           1.8       4
+PSLN-344 survivors n= 46 mean max weight loss 11.9 (SD 3.7), median 11.9
+PSLN-212(Y) survivors n= 54 mean max weight loss 9.5 (SD 3.3), median 9.9
+PSLN-212 survivors n= 9 mean max weight loss 12.7 (SD 3.1), median 13.0
+PSLN-344 aged survivors vs young PSLN-212 survivors: diff 2.4 pts, Welch p=1.26e-03, MWU p=1.90e-03
+heterosubtypic only: PSLN-344 12.5 (n=39) vs young 10.0 (n=47), p=1.07e-03
+homologous (S13-F): PSLN-344 8.5 vs young 6.5
+             mean  std  count
+g                            
+Naïve        17.5  3.5      7
+PSLN-212     17.9  3.1     56
+PSLN-212(Y)   9.9  3.9     56
+PSLN-344     13.1  4.5     56
+Sham         15.5  4.7     56
+Untreated     2.6  1.5     21
+                   mean  std  count
+block g                            
+S09-C PSLN-212(Y)  11.1  1.5      8
+      Sham         20.5  1.4      8
+      PSLN-344(Y)  10.3  1.7      8
+S09-E PSLN-212(Y)  10.5  3.0      8
+      Sham         19.5  2.6      8
+      PSLN-344(Y)   9.3  3.3      8
+S09-G PSLN-212(Y)  10.7  1.8      8
+      Sham         20.4  1.7      8
+      PSLN-344(Y)  12.7  1.5      8
+young 344Y vs 212Y pooled max loss: 10.7 vs 10.8, Welch p=0.987
+S09-C day14 mean weight {'PSLN-212Y': 99.5, 'PSLN-344Y': 99.6, 'Sham': nan}
+S09-E day14 mean weight {'PSLN-212Y': 101.2, 'PSLN-344Y': 100.5, 'Sham': nan}
+S09-G day14 mean weight {'PSLN-212Y': 99.2, 'PSLN-344Y': 95.6, 'Sham': nan}
+S09-G d14: 344Y vs 212Y Welch p= 0.003849845232873313
+           n  maxloss  alive
+g                           
+Naïve     10     21.2      1
+PSLN-344  10      6.5     10
+Sham      10     14.7      5
+                     n  maxloss  alive
+g                                     
+3d PSLN-344          7     18.8      0
+3d Vaccine           7     17.3      0
+3d Vaccine+PSLN-344  7     12.7      6

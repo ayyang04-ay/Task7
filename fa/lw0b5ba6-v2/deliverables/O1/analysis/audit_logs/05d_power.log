@@ -1,0 +1,12 @@
+Survival (Fisher exact, two-sided alpha 0.05):
+  PSLN-344 vs PSLN-212 (pooled observed 84% vs 13%): n/arm for 80% power = 8, 90% power = 11
+  worst-case observed (63% vs 20%): n/arm for 80% power = 24, 90% power = 30
+  PSLN-344 vs SOC analogue, assumed 80% vs 40%: n/arm for 80% power = 27, 90% power = 33
+  assumed 80% vs 50%: n/arm for 80% power = 44, 90% power = 58
+pooled within-group SD (log2): {'S03-C': np.float64(0.63), 'S03-G': np.float64(0.68), 'S03-A': np.float64(0.67), 'S03-E': np.float64(0.79), 'S03-D': np.float64(0.98), 'S03-H': np.float64(0.86)}
+HAI: detect 2-fold GMT difference (SD log2=0.68) power 0.8: n/arm = 9
+HAI: detect 2-fold GMT difference (SD log2=0.68) power 0.9: n/arm = 11
+HAI: detect 4-fold GMT difference (SD log2=0.68) power 0.8: n/arm = 4
+HAI: detect 4-fold GMT difference (SD log2=0.68) power 0.9: n/arm = 4
+Mn (ICP-MS) olfactory bulb: detect 1.5-fold increase, assumed CV 30%, 80% power: n/group = 10
+Mn (ICP-MS) olfactory bulb: detect 1.5-fold increase, assumed CV 50%, 80% power: n/group = 23

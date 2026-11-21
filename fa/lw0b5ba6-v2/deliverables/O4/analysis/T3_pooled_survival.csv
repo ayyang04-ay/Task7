@@ -1,0 +1,10 @@
+analysis,experiments,arm1,arm0,MH_risk_diff_pct,strat_logrank_chi2,p,note
+A. All aged challenge experiments as recorded (PSLN-344 vs PSLN-212),11,68/80 (85%),11/80 (14%),71 (95% CI 61 to 82),90.0,2.3e-21,
+B. De-duplicated (S06-D removed: exact copy of S06-C),10,61/73 (84%),9/73 (12%),71 (95% CI 60 to 82),82.7,9.4e-20,
+C. B + BW-reconciled worst case for PSLN-344; S03-J removed,9,51/63 (81%),10/63 (16%),65 (95% CI 53 to 78),62.9,2.1e-15,"PSLN-212 survivors raised: S03-I 0->3, S06-E 0->1 (per S13-F/S15-E body-weight records)"
+D. Restricted: only experiments whose 344/212 survival agrees with body-weight records,5,28/35 (80%),4/35 (11%),69 (95% CI 52 to 85),38.0,7.1e-10,
+"E. 14-month animals (imprinting study), both strata",4,24/28 (86%),4/28 (14%),71 (95% CI 53 to 90),34.0,5.6e-09,
+"F. PSLN-344 vs Sham, aged, de-duplicated",10,61/73 (84%),1/73 (1%),82 (95% CI 73 to 91),134.3,4.8e-31,
+"G. Aged PSLN-344 vs YOUNG PSLN-212 (age-gap closure), de-duplicated",9,51/63 (81%),62/63 (98%),-17 (95% CI -28 to -7),10.3,1.3e-03,
+"H. Aged PSLN-212 vs Sham, de-duplicated",10,9/73 (12%),1/73 (1%),11 (95% CI 3 to 19),35.1,3.1e-09,
+"I. Aged PSLN-212 vs YOUNG PSLN-212 (age deficit), same 9 expts as G",9,6/63 (10%),62/63 (98%),-89 (95% CI -97 to -81),104.1,1.9e-24,

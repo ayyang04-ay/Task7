@@ -1,0 +1,85 @@
+=== 1. Exact duplicate vectors across/within blocks (per group x analyte x time, >=3 values) ===
+
+=== 1b. Partial overlap: >=3 shared identical values at same animal positions (excluding 100/0) ===
+PARTIAL: ('S01-B', 'SRB+ AEC', 'AECII/PSLN-SRB', nan) vs ('S08-C', 'SRB+ AEC', 'AECII-PSLN-SRB', '16h') shared positions [0, 1] [17.7, 17.5]
+PARTIAL: ('S01-D', 'Lung monocytes', 'Sham', 'd6') vs ('S04-C', 'Tfr (Foxp3+ of CXCR5+ICOShi)', 'PSLN-344', 'd30') shared positions [1, 2] [9.8, 12.5]
+PARTIAL: ('S03-C', 'HAI CA09 H1N1', 'CMP-204', 'd14') vs ('S03-C', 'HAI CA09 H1N1', 'PSLN-212', 'd14') shared positions [0, 4] [40.0, 40.0]
+PARTIAL: ('S03-C', 'HAI CA09 H1N1', 'CMP-204', 'd14') vs ('S03-G', 'HAI Aichi H3N2', 'CMP-204', 'd14') shared positions [0, 2, 3, 4] [40.0, 20.0, 20.0, 40.0]
+PARTIAL: ('S03-C', 'HAI CA09 H1N1', 'CMP-204', 'd14') vs ('S03-G', 'HAI Aichi H3N2', 'PSLN-212', 'd14') shared positions [0, 2, 4] [40.0, 20.0, 40.0]
+PARTIAL: ('S03-C', 'HAI CA09 H1N1', 'CMP-204', 'd14') vs ('S03-G', 'HAI Aichi H3N2', 'Sham', 'd14') shared positions [1, 3] [10.0, 20.0]
+PARTIAL: ('S03-C', 'HAI CA09 H1N1', 'PSLN-212', 'd14') vs ('S03-G', 'HAI Aichi H3N2', 'CMP-204', 'd14') shared positions [0, 4] [40.0, 40.0]
+PARTIAL: ('S03-C', 'HAI CA09 H1N1', 'PSLN-212', 'd14') vs ('S03-G', 'HAI Aichi H3N2', 'PSLN-212', 'd14') shared positions [0, 4] [40.0, 40.0]
+PARTIAL: ('S03-C', 'HAI CA09 H1N1', 'PSLN-212(Y)', 'd14') vs ('S03-C', 'HAI CA09 H1N1', 'PSLN-344', 'd14') shared positions [1, 3] [640.0, 320.0]
+PARTIAL: ('S03-C', 'HAI CA09 H1N1', 'PSLN-212(Y)', 'd14') vs ('S03-G', 'HAI Aichi H3N2', 'PSLN-212(Y)', 'd14') shared positions [0, 3, 4] [640.0, 320.0, 320.0]
+PARTIAL: ('S03-C', 'HAI CA09 H1N1', 'PSLN-212(Y)', 'd14') vs ('S03-G', 'HAI Aichi H3N2', 'PSLN-344', 'd14') shared positions [1, 3, 4] [640.0, 320.0, 320.0]
+PARTIAL: ('S03-C', 'HAI CA09 H1N1', 'PSLN-344', 'd14') vs ('S03-G', 'HAI Aichi H3N2', 'PSLN-344', 'd14') shared positions [0, 1, 2, 3] [320.0, 640.0, 160.0, 320.0]
+PARTIAL: ('S03-C', 'HAI CA09 H1N1', 'Sham', 'd14') vs ('S03-G', 'HAI Aichi H3N2', 'Sham', 'd14') shared positions [0, 1, 2] [10.0, 10.0, 10.0]
+PARTIAL: ('S03-D', 'Neut CA09 H1N1', 'CMP-204', 'd14') vs ('S03-H', 'Neut Aichi H3N2', 'CMP-204', 'd14') shared positions [2, 3] [120.0, 120.0]
+PARTIAL: ('S03-D', 'Neut CA09 H1N1', 'PSLN-212', 'd14') vs ('S03-H', 'Neut Aichi H3N2', 'PSLN-212', 'd14') shared positions [0, 1, 2] [480.0, 240.0, 480.0]
+PARTIAL: ('S03-D', 'Neut CA09 H1N1', 'PSLN-212(Y)', 'd14') vs ('S03-H', 'Neut Aichi H3N2', 'PSLN-344', 'd14') shared positions [1, 2] [3840.0, 3840.0]
+PARTIAL: ('S03-D', 'Neut CA09 H1N1', 'PSLN-344', 'd14') vs ('S03-H', 'Neut Aichi H3N2', 'PSLN-212(Y)', 'd14') shared positions [1, 3] [7680.0, 3840.0]
+PARTIAL: ('S03-D', 'Neut CA09 H1N1', 'PSLN-344', 'd14') vs ('S03-H', 'Neut Aichi H3N2', 'PSLN-344', 'd14') shared positions [0, 4] [3840.0, 960.0]
+PARTIAL: ('S03-D', 'Neut CA09 H1N1', 'Sham', 'd14') vs ('S03-H', 'Neut Aichi H3N2', 'CMP-204', 'd14') shared positions [3, 4] [120.0, 60.0]
+PARTIAL: ('S03-G', 'HAI Aichi H3N2', 'CMP-204', 'd14') vs ('S03-G', 'HAI Aichi H3N2', 'PSLN-212', 'd14') shared positions [0, 2, 4] [40.0, 20.0, 40.0]
+PARTIAL: ('S03-G', 'HAI Aichi H3N2', 'PSLN-212(Y)', 'd14') vs ('S03-G', 'HAI Aichi H3N2', 'PSLN-344', 'd14') shared positions [3, 4] [320.0, 320.0]
+PARTIAL: ('S11-A', 'Lung alveolar macrophages', 'PSLN-212(Y)', 'd0') vs ('S11-B', 'Lung neutrophils', 'PSLN-212(Y)', 'd0') shared positions [0, 1] [39.2, 34.4]
+PARTIAL: ('S11-A', 'Lung alveolar macrophages', 'PSLN-212(Y)', 'd2') vs ('S11-B', 'Lung neutrophils', 'PSLN-212(Y)', 'd2') shared positions [0, 1] [47.5, 42.1]
+PARTIAL: ('S11-A', 'Lung alveolar macrophages', 'PSLN-212(Y)', 'd4') vs ('S11-B', 'Lung neutrophils', 'PSLN-212(Y)', 'd4') shared positions [0, 1, 4] [53.0, 44.1, 52.1]
+PARTIAL: ('S11-A', 'Lung alveolar macrophages', 'PSLN-212(Y)', 'd6') vs ('S11-B', 'Lung neutrophils', 'PSLN-212(Y)', 'd6') shared positions [0, 1] [49.0, 44.5]
+PARTIAL: ('S11-A', 'Lung alveolar macrophages', 'PSLN-212(Y)', 'd8') vs ('S11-B', 'Lung neutrophils', 'PSLN-212(Y)', 'd8') shared positions [0, 1] [42.4, 39.0]
+PARTIAL: ('S11-A', 'Lung alveolar macrophages', 'PSLN-344', 'd0') vs ('S11-B', 'Lung neutrophils', 'PSLN-344', 'd0') shared positions [0, 1] [22.2, 19.8]
+PARTIAL: ('S11-A', 'Lung alveolar macrophages', 'PSLN-344', 'd2') vs ('S11-B', 'Lung neutrophils', 'PSLN-344', 'd2') shared positions [0, 1] [31.2, 23.4]
+PARTIAL: ('S11-A', 'Lung alveolar macrophages', 'PSLN-344', 'd4') vs ('S11-B', 'Lung neutrophils', 'PSLN-344', 'd4') shared positions [0, 1] [36.0, 29.4]
+PARTIAL: ('S11-A', 'Lung alveolar macrophages', 'PSLN-344', 'd6') vs ('S11-B', 'Lung neutrophils', 'PSLN-344', 'd6') shared positions [0, 1] [34.3, 27.8]
+PARTIAL: ('S11-A', 'Lung alveolar macrophages', 'PSLN-344', 'd8') vs ('S11-B', 'Lung neutrophils', 'PSLN-344', 'd8') shared positions [0, 1] [33.6, 24.8]
+PARTIAL: ('S11-A', 'Lung alveolar macrophages', 'Vaccine', 'd0') vs ('S11-B', 'Lung neutrophils', 'Vaccine', 'd0') shared positions [0, 1] [23.5, 17.2]
+PARTIAL: ('S11-A', 'Lung alveolar macrophages', 'Vaccine', 'd4') vs ('S11-B', 'Lung neutrophils', 'Vaccine', 'd4') shared positions [0, 1] [18.2, 23.5]
+PARTIAL: ('S11-A', 'Lung alveolar macrophages', 'Vaccine', 'd6') vs ('S11-B', 'Lung neutrophils', 'Vaccine', 'd6') shared positions [0, 1] [22.5, 19.1]
+PARTIAL: ('S11-A', 'Lung alveolar macrophages', 'Vaccine', 'd8') vs ('S11-B', 'Lung neutrophils', 'Vaccine', 'd8') shared positions [0, 1] [25.3, 19.6]
+PARTIAL: ('S11-A', 'Lung alveolar macrophages', 'Vaccine', 'd8') vs ('S11-D', 'Lung NK cells', 'PSLN-212(Y)', 'd8') shared positions [1, 2] [19.6, 22.5]
+PARTIAL: ('S11-B', 'Lung neutrophils', 'PSLN-212', 'd8') vs ('S11-D', 'Lung NK cells', 'PSLN-344', 'd8') shared positions [2, 4] [21.3, 22.3]
+
+=== 1c. Shared value multiset (order-free) >=3 values, across different blocks ===
+SHARED-VALUES: ('S01-B', 'SRB+ AEC', 'AECII/PSLN-SRB', nan) vs ('S08-C', 'SRB+ AEC', 'AECII-PSLN-SRB', '16h') [12.2, 17.5, 17.7]
+SHARED-VALUES: ('S01-E', 'Lung CD11b+ DC', 'PSLN-344(Y)', 'd0') vs ('S05-H', 'MLN GZMB+ CD8', 'PSLN-212', 'd60') [0.7, 0.8, 1.3]
+SHARED-VALUES: ('S02-F', 'Gm-csf (lung)', 'Sham', '16h') vs ('S08-A', 'Ifnb1 dose-response 16h', 'CMP-204', '1ug') [0.93, 1.02, 1.05]
+SHARED-VALUES: ('S03-C', 'HAI CA09 H1N1', 'PSLN-344', 'd14') vs ('S03-G', 'HAI Aichi H3N2', 'PSLN-344', 'd14') [160.0, 320.0, 640.0]
+SHARED-VALUES: ('S03-D', 'Neut CA09 H1N1', 'CMP-204', 'd14') vs ('S03-H', 'Neut Aichi H3N2', 'PSLN-212', 'd14') [120.0, 240.0, 480.0]
+SHARED-VALUES: ('S11-A', 'Lung alveolar macrophages', 'PSLN-212(Y)', 'd4') vs ('S11-B', 'Lung neutrophils', 'PSLN-212(Y)', 'd4') [44.1, 52.1, 53.0]
+
+=== 2. TTE duplicate experiments ===
+IDENTICAL TTE blocks: S06-C == S06-D for all common groups ['PSLN-212', 'PSLN-212(Y)', 'PSLN-344', 'Sham']
+
+=== 3. Missing time values in TTE ===
+    block sheet     group  animal  time  event cell_time cell_event
+64  S03-J   S03  PSLN-344      10   NaN      0   S03!G46    S03!J46
+
+=== 4. Body-weight: identical rows between groups within a block (same day) ===
+S09-C day 12.0: PSLN-212(Y) vs PSLN-344(Y): 8/8 identical values
+
+=== 4b. Body-weight: identical values across different blocks (same group/day/animal, >=4 animals) ===
+('S09-C', 'PSLN-344(Y)', np.float64(2.0)) vs ('S09-E', 'PSLN-344(Y)', np.float64(2.0)): 4/8 identical
+('S15-A', 'Sham', np.float64(4.0)) vs ('S15-M', 'PSLN-212', np.float64(4.0)): 7/7 identical
+('S15-C', 'PSLN-344', np.float64(2.0)) vs ('S15-I', '3d Vaccine+PSLN-344', np.float64(2.0)): 6/7 identical
+('S15-C', 'PSLN-344', np.float64(4.0)) vs ('S15-I', '3d Vaccine+PSLN-344', np.float64(4.0)): 7/7 identical
+('S15-C', 'PSLN-344', np.float64(6.0)) vs ('S15-I', '3d Vaccine+PSLN-344', np.float64(6.0)): 7/7 identical
+('S15-C', 'PSLN-344', np.float64(8.0)) vs ('S15-I', '3d Vaccine+PSLN-344', np.float64(8.0)): 7/7 identical
+('S15-C', 'PSLN-344', np.float64(10.0)) vs ('S15-I', '3d Vaccine+PSLN-344', np.float64(10.0)): 6/7 identical
+('S15-C', 'PSLN-344', np.float64(12.0)) vs ('S15-I', '3d Vaccine+PSLN-344', np.float64(12.0)): 7/7 identical
+('S15-C', 'PSLN-344', np.float64(14.0)) vs ('S15-M', 'PSLN-344', np.float64(14.0)): 5/7 identical
+
+=== 5. Range checks ===
+values > 100 in percent-type blocks: Empty DataFrame
+Columns: [block, group, value, cell]
+Index: []
+negative values (non-log blocks): Empty DataFrame
+Columns: [block, value, cell]
+Index: []
+S03-C values not on a 2-fold dilution grid: none
+S03-C zeros (below LOD 1:10): [['Sham', 'S03!K6'], ['Sham', 'S03!K7']]
+S03-G values not on a 2-fold dilution grid: none
+S03-G zeros (below LOD 1:10): [['Sham', 'S03!K14']]
+S03-D values not on a 2-fold dilution grid: none
+S03-D zeros (below LOD 1:10): []
+S03-H values not on a 2-fold dilution grid: none
+S03-H zeros (below LOD 1:10): []

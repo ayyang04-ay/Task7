@@ -1,0 +1,88 @@
+Q01 High | S03-B, S03-F vs S13-A..D 
+    Column headers of the IgG2a/IgG1 quotient blocks are rotated relative to the subclass titres they are computed from. 
+   EVIDENCE: S03-B columns reproduce the S13-A/S13-B quotients exactly (5/5 animals each) but under other names: printed "PSLN-212" = quotient of PSLN-212(Y); printed "PSLN-344" = quotient of PSLN-212; printed "PSLN-212(Y)" = quotient of PSLN-344. S03-F shows the same rotation against S13-C/S13-D ("PSLN-212" = PSLN-212(Y); "PSLN-344" = PSLN-212; "PSLN-212(Y)" = PSLN-344). The rank order of total IgG (S03-A/E: PSLN-212 < PSLN-344 < PSLN-212(Y)) agrees with the S13 labels. 
+
+Q02 High | S09-A (cols X-AS) vs S01-A 
+    Both cytokine panels on S09 are labelled "16h"; the right-hand panel is the 72 h time point. 
+   EVIDENCE: 10^(Ifnb1 row) of the right panel (S09!Y3:AS3) equals the 72 h Ifnb1 values of S01-A (S01!H3:L9) for 21/21 animals; the left panel (S09!B3:V3) equals the 16 h values (S01!B3:F9) for 21/21. The "PBS" group of S09-A carries the values of the "Sham" group of S01-A. 
+
+Q03 High | S06-C vs S06-D 
+    Two nominally different challenge experiments (rgH5N1 at day 14 vs day 3) carry identical time-to-event data in all four groups. 
+   EVIDENCE: S06!M3:Q30 equals S06!A34:E61 in all four groups; Sham deaths on days 4,4,5,6,6,6,7 and PSLN-212 deaths on days 5,8,10,10,12 in both. The linked body-weight blocks differ from each other (S15-C vs S15-D), and S15-D implies 5/7, not 7/7, survivors for PSLN-344 and for PSLN-212(Y). Separately, the Sham columns of S06-B and S06-F carry the same seven death days (4,4,4,5,5,6,6); their other columns differ. 
+
+Q04 High | S11-A vs S11-B 
+    The neutrophil block (S11-B) largely duplicates the alveolar-macrophage block (S11-A). 
+   EVIDENCE: 8 of 20 animal time-series are identical at >=4 of 5 time points (Vaccine rep1=rep1 (4/5); Vaccine rep2=rep2 (5/5); PSLN-212 rep1=rep1 (5/5); PSLN-212 rep4=rep2 (5/5); PSLN-344 rep1=rep1 (5/5); PSLN-344 rep2=rep2 (5/5); PSLN-212(Y) rep1=rep1 (5/5); PSLN-212(Y) rep2=rep2 (5/5)); the 20 group-by-day means correlate r=0.997 (max difference 2.5 points). 
+
+Q05 High | S15-C (PSLN-344) vs S15-I (3d Vaccine+PSLN-344) 
+    Body-weight traces of the PSLN-344 group after day-14 rgH5N1 challenge are the traces of a different experiment (day-3 challenge). 
+   EVIDENCE: 40 of the 42 values for days 2-12 are identical animal by animal (S15!W24:AC29 vs S15!W73:AC78); 7/7 animals match at >=4 time points; 0 of 7 day-14 values match. 
+
+Q06 High | S15-M (young C57BL/6, PSLN-212(Y)) vs S09-E (young BALB/c, PSLN-344Y) 
+    Weight traces of the young C57BL/6 reference group re-use traces from a BALB/c experiment with a different adjuvant. 
+   EVIDENCE: 33 of 49 post-baseline values identical; 6/7 animals match at >=4 of 7 time points (S15!I104:O110 vs S09!W40:AD46). 
+
+Q07 Medium | S15-A / S15-M / S15-O (PSLN-344) 
+    Several PSLN-344 animals share weight traces across BALB/c, C57BL/6 and Swiss Webster experiments. 
+   EVIDENCE: S15-A vs S15-M: 16 identical values, 3 animals at >=4 time points; S15-A vs S15-O: 7 values, 1 animal(s); S15-M vs S15-O: 11 values, 1 animal(s). 
+
+Q08 Medium | S09-C 
+    Day-12 weights of PSLN-344Y are a copy of the PSLN-212Y row. 
+   EVIDENCE: S09!W18:AD18 equals S09!G18:N18 in order (8/8 identical). 
+
+Q09 Low | S09-E vs S09-G (PSLN-212Y) 
+    One young animal has the same weight trace in two experiments. 
+   EVIDENCE: 1 animal identical at all 7 post-baseline time points (S09!N40:N46 vs S09!N67:N73). 
+
+Q10 High | Time-to-event blocks vs their linked body-weight blocks 
+    Survivor counts or animal numbers disagree between the survival block and the weight block of the same animals in 10 groups. 
+   EVIDENCE: S09-F/S09-G Sham: survival block 0/7, weight traces imply 0/8; S03-I/S13-F PSLN-212: survival block 0/7, weight traces imply 3/7; S03-J/S13-G Sham: survival block 1/10, weight traces imply 5/10; S06-C/S15-C PSLN-212: survival block 2/7, weight traces imply 1/7; S06-D/S15-D PSLN-212(Y): survival block 7/7, weight traces imply 5/7; S06-D/S15-D PSLN-344: survival block 7/7, weight traces imply 5/7; S06-E/S15-E PSLN-212: survival block 0/7, weight traces imply 1/7; S06-E/S15-E PSLN-344: survival block 5/7, weight traces imply 6/7; S06-G/S15-G PSLN-344: survival block 4/7, weight traces imply 5/7; S15-L/S15-M PSLN-212(Y): survival block 6/7, weight traces imply 7/7. (Weight traces frozen at a constant value to day 14, or blank, are read as deaths; the annotation describes these groups as "declining".) 
+
+Q11 High | S03-I vs S13-F; S03-J vs S13-G 
+    Survival and weight blocks said to describe the same animals list different groups. 
+   EVIDENCE: S03-I lists Sham, CMP-204, PSLN-212, PSLN-344, PSLN-212(Y); S13-F lists PSLN-212(Y), Sham, PSLN-212, PSLN-344, Naïve. S03-J lists Sham, PSLN-212, PSLN-344; S13-G lists PSLN-344, Sham, Naïve. In S13-G the 'Sham' traces (5 dead by d14, deaths from d10) resemble S03-J 'PSLN-212' (deaths d10-12, 3/10 alive) and the 'Naive' traces (1/10 alive, two deaths by d4) resemble S03-J 'Sham' (1/10 alive, deaths d3, d4, d9-10). 
+
+Q12 Medium | S03-J, S05-A/B, S13-E, S09-F, S08-D 
+    Stated n differs from the number of observations. 
+   EVIDENCE: S03-J stated n=9, 10 rows per group, and one PSLN-344 row has status 0 but no day (S03!J46, G46 empty); S05-A/B stated n=3, 2 values per group and day; S13-E stated n=5, 7 per group; S09-F Sham has 7 events for 8 animals in the weight block S09-G (the annotation attributes the 7 to S09-B, where the workbook has 8); S08-D PSLN-212/R848 has 4 of 5 values at day 10 (S08!W26 empty). 
+
+Q13 Medium | S07-C 
+    Both columns carry the same header ("Ly6C-CD206+ MPhi"). 
+   EVIDENCE: S07!B15 and S07!C15 identical; means 10.4 vs 5.1 % lung Treg. 
+
+Q14 Medium | S08-C vs S01-B 
+    Epithelial-uptake block is inconsistent with the earlier block for the same formulation. 
+   EVIDENCE: S01-B: AECII/PSLN-SRB mean 15.8 %, AECI/PSLN-SRB 3.8 %. S08-C as printed: AECII-PSLN-SRB 15.8, AECII-PSLN-344-SRB 3.8, AECI-PSLN-SRB 13.8, AECI-PSLN-344-SRB 3.0. The first two S08-C columns share 3 and 2 of 5 values with the S01-B AECII and AECI columns. 
+
+Q15 Low | S08 rows 89-101 
+    Unlabelled numeric region. 
+   EVIDENCE: S08!A89:A101 = 14; S08!C89:C94 = 0; S08!D95:D101 = 0. Looks like the censored tail of a survival block (6 + 7 animals). 
+
+Q16 Low | S06 (labels), S09 (labels) 
+    Duplicate block labels. 
+   EVIDENCE: "S06-E" and "S06-F" are each used for two different experiments (rows 32 and 69); "S09-A 16h" is used twice. 
+
+Q17 Medium | S05-A, S05-B, S05-I 
+    Conditions contradictory and n=2. 
+   EVIDENCE: Annotation gives both ovalbumin and bivalent-vaccine immunisation for a read-out (NP366-374 tetramer) that requires influenza antigen; strain not stated; 2 animals per point. 
+
+Q18 Low | S08-A 
+    Undefined preparation and age not stated. 
+   EVIDENCE: "PSLN-344/R848" appears only in S08-A and is not defined under Materials; the age of the animals is not given (values at 20 ug match the aged groups of S01-A). 
+
+Q19 Low | S13-H, S14-A, S11-E, S07-B, S15-L..O, S06-E2 
+    Time point, challenge virus or interval not stated. 
+   EVIDENCE: S13-H, S14-A, S11-E, S07-B: time point missing; S15-L/N: challenge virus and interval missing; S06-E2: interval missing; S03-J: challenge dose missing and observation stated as 22 days (workbook censors at day 21). 
+
+Q20 Medium | S06-E/F/G Untreated; S15-E/F/G 
+    Unvaccinated, unchallenged aged controls died during the 14-day window. 
+   EVIDENCE: Deaths without challenge: S06-E 1/7, S06-F 0/7, S06-G 3/7 = 4/21; their weights stayed at 94-100 % (S15!AD43:AJ70). 
+
+Q21 Low | File metadata 
+    Data cut-off earlier than the review date. 
+   EVIDENCE: Workbook last modified 2026-09-03; annotation PDF created 2026-09-15. 
+
+Q22 Low | S09-E, S15-A..G, S15-J..O, S08-D 
+    Mixed numeric precision within weight blocks. 
+   EVIDENCE: Values with 5-8 decimals sit next to 1-decimal values in the same group (e.g. S09!W40:Y44, S15!B24:D29). 
+

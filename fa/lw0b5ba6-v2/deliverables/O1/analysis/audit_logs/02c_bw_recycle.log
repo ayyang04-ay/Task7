@@ -1,0 +1,129 @@
+animal-trajectory pairs sharing >=3 identical daily weights: 84
+within-block ('S09-C', 'PSLN-212(Y)', np.int64(2)) ~ ('S09-C', 'PSLN-344(Y)', np.int64(2)): 3/7 days identical [2.0, 8.0, 12.0]
+cross-block  ('S09-E', 'PSLN-212(Y)', np.int64(6)) ~ ('S15-C', 'PSLN-212(Y)', np.int64(6)): 5/7 days identical [6.0, 8.0, 10.0, 12.0, 14.0]
+cross-block  ('S09-E', 'PSLN-212(Y)', np.int64(8)) ~ ('S09-G', 'PSLN-212(Y)', np.int64(8)): 7/7 days identical [2.0, 4.0, 6.0, 8.0, 10.0, 12.0, 14.0]
+cross-block  ('S09-E', 'PSLN-344(Y)', np.int64(2)) ~ ('S15-M', 'PSLN-212(Y)', np.int64(1)): 6/7 days identical [2.0, 6.0, 8.0, 10.0, 12.0, 14.0]
+cross-block  ('S09-E', 'PSLN-344(Y)', np.int64(3)) ~ ('S15-M', 'PSLN-212(Y)', np.int64(2)): 5/7 days identical [6.0, 8.0, 10.0, 12.0, 14.0]
+cross-block  ('S09-E', 'PSLN-344(Y)', np.int64(4)) ~ ('S15-M', 'PSLN-212(Y)', np.int64(3)): 5/7 days identical [6.0, 8.0, 10.0, 12.0, 14.0]
+cross-block  ('S09-E', 'PSLN-344(Y)', np.int64(5)) ~ ('S15-M', 'PSLN-212(Y)', np.int64(4)): 7/7 days identical [2.0, 4.0, 6.0, 8.0, 10.0, 12.0, 14.0]
+cross-block  ('S09-E', 'PSLN-344(Y)', np.int64(6)) ~ ('S15-M', 'PSLN-212(Y)', np.int64(5)): 5/7 days identical [2.0, 6.0, 8.0, 10.0, 12.0]
+cross-block  ('S09-E', 'PSLN-344(Y)', np.int64(7)) ~ ('S15-M', 'PSLN-212(Y)', np.int64(6)): 4/7 days identical [6.0, 8.0, 10.0, 12.0]
+cross-block  ('S09-E', 'PSLN-344(Y)', np.int64(8)) ~ ('S09-G', 'PSLN-344(Y)', np.int64(8)): 3/7 days identical [6.0, 8.0, 10.0]
+within-block ('S13-F', 'PSLN-212', np.int64(1)) ~ ('S13-F', 'PSLN-212', np.int64(4)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S13-F', 'PSLN-212', np.int64(1)) ~ ('S15-B', 'PSLN-344', np.int64(1)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S13-F', 'PSLN-212', np.int64(1)) ~ ('S15-E', 'PSLN-212', np.int64(2)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S13-F', 'PSLN-212', np.int64(4)) ~ ('S15-B', 'PSLN-344', np.int64(1)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S13-F', 'PSLN-212', np.int64(4)) ~ ('S15-E', 'PSLN-212', np.int64(2)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S13-F', 'PSLN-344', np.int64(2)) ~ ('S15-A', 'PSLN-344', np.int64(7)): 3/7 days identical [8.0, 12.0, 14.0]
+cross-block  ('S13-G', 'Naive', np.int64(2)) ~ ('S15-A', 'PSLN-212', np.int64(3)): 5/7 days identical [6.0, 8.0, 10.0, 12.0, 14.0]
+cross-block  ('S13-G', 'Naive', np.int64(2)) ~ ('S15-B', 'PSLN-344', np.int64(2)): 4/7 days identical [8.0, 10.0, 12.0, 14.0]
+within-block ('S13-G', 'Naive', np.int64(3)) ~ ('S13-G', 'Naive', np.int64(6)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S13-G', 'Naive', np.int64(4)) ~ ('S15-G', 'PSLN-212', np.int64(5)): 4/7 days identical [8.0, 10.0, 12.0, 14.0]
+cross-block  ('S13-G', 'Sham', np.int64(3)) ~ ('S15-A', 'PSLN-212', np.int64(6)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S13-G', 'Sham', np.int64(3)) ~ ('S15-B', 'PSLN-212', np.int64(4)): 4/7 days identical [4.0, 10.0, 12.0, 14.0]
+cross-block  ('S13-G', 'Sham', np.int64(3)) ~ ('S15-C', 'PSLN-212', np.int64(1)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S13-G', 'Sham', np.int64(3)) ~ ('S15-D', 'PSLN-212', np.int64(7)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S13-G', 'Sham', np.int64(3)) ~ ('S15-F', 'PSLN-212', np.int64(3)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S15-A', 'PSLN-212', np.int64(1)) ~ ('S15-B', 'PSLN-212', np.int64(1)): 6/7 days identical [4.0, 6.0, 8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-A', 'PSLN-212', np.int64(1)) ~ ('S15-B', 'PSLN-212', np.int64(2)): 5/7 days identical [6.0, 8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-A', 'PSLN-212', np.int64(1)) ~ ('S15-F', 'PSLN-212', np.int64(7)): 5/7 days identical [6.0, 8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-A', 'PSLN-212', np.int64(3)) ~ ('S15-B', 'PSLN-344', np.int64(2)): 4/7 days identical [8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-A', 'PSLN-212', np.int64(5)) ~ ('S15-M', 'PSLN-212', np.int64(7)): 5/7 days identical [6.0, 8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-A', 'PSLN-212', np.int64(6)) ~ ('S15-B', 'PSLN-212', np.int64(4)): 4/7 days identical [8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-A', 'PSLN-212', np.int64(6)) ~ ('S15-C', 'PSLN-212', np.int64(1)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S15-A', 'PSLN-212', np.int64(6)) ~ ('S15-D', 'PSLN-212', np.int64(7)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S15-A', 'PSLN-212', np.int64(6)) ~ ('S15-F', 'PSLN-212', np.int64(3)): 4/7 days identical [8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-A', 'PSLN-212', np.int64(6)) ~ ('S15-O', 'PSLN-212', np.int64(3)): 3/7 days identical [2.0, 12.0, 14.0]
+cross-block  ('S15-A', 'PSLN-212', np.int64(7)) ~ ('S15-C', 'PSLN-212', np.int64(2)): 4/7 days identical [8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-A', 'PSLN-212', np.int64(7)) ~ ('S15-G', 'PSLN-212', np.int64(6)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S15-A', 'PSLN-212', np.int64(7)) ~ ('S15-M', 'PSLN-212', np.int64(1)): 4/7 days identical [8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-A', 'PSLN-212(Y)', np.int64(7)) ~ ('S15-M', 'PSLN-212(Y)', np.int64(7)): 4/7 days identical [8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-A', 'PSLN-344', np.int64(1)) ~ ('S15-G', 'PSLN-212(Y)', np.int64(4)): 3/7 days identical [2.0, 4.0, 14.0]
+cross-block  ('S15-A', 'PSLN-344', np.int64(2)) ~ ('S15-M', 'PSLN-344', np.int64(2)): 5/7 days identical [4.0, 6.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-A', 'PSLN-344', np.int64(3)) ~ ('S15-M', 'PSLN-344', np.int64(3)): 5/7 days identical [4.0, 6.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-A', 'PSLN-344', np.int64(4)) ~ ('S15-F', 'PSLN-212(Y)', np.int64(7)): 3/7 days identical [2.0, 6.0, 8.0]
+cross-block  ('S15-A', 'PSLN-344', np.int64(5)) ~ ('S15-M', 'PSLN-344', np.int64(5)): 5/7 days identical [6.0, 8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-A', 'PSLN-344', np.int64(5)) ~ ('S15-O', 'PSLN-344', np.int64(5)): 6/7 days identical [4.0, 6.0, 8.0, 10.0, 12.0, 14.0]
+within-block ('S15-B', 'PSLN-212', np.int64(1)) ~ ('S15-B', 'PSLN-212', np.int64(2)): 5/7 days identical [6.0, 8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-B', 'PSLN-212', np.int64(1)) ~ ('S15-F', 'PSLN-212', np.int64(7)): 5/7 days identical [6.0, 8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-B', 'PSLN-212', np.int64(2)) ~ ('S15-F', 'PSLN-212', np.int64(7)): 5/7 days identical [6.0, 8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-B', 'PSLN-212', np.int64(3)) ~ ('S15-D', 'PSLN-344', np.int64(1)): 4/7 days identical [8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-B', 'PSLN-212', np.int64(3)) ~ ('S15-M', 'PSLN-212', np.int64(6)): 5/7 days identical [2.0, 8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-B', 'PSLN-212', np.int64(4)) ~ ('S15-C', 'PSLN-212', np.int64(1)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S15-B', 'PSLN-212', np.int64(4)) ~ ('S15-D', 'PSLN-212', np.int64(7)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S15-B', 'PSLN-212', np.int64(4)) ~ ('S15-F', 'PSLN-212', np.int64(3)): 4/7 days identical [8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-B', 'PSLN-212', np.int64(6)) ~ ('S15-E', 'PSLN-212', np.int64(4)): 4/7 days identical [8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-B', 'PSLN-212', np.int64(7)) ~ ('S15-E', 'PSLN-212', np.int64(5)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S15-B', 'PSLN-344', np.int64(1)) ~ ('S15-E', 'PSLN-212', np.int64(2)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S15-C', 'PSLN-212', np.int64(1)) ~ ('S15-D', 'PSLN-212', np.int64(7)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S15-C', 'PSLN-212', np.int64(1)) ~ ('S15-F', 'PSLN-212', np.int64(3)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S15-C', 'PSLN-212', np.int64(2)) ~ ('S15-G', 'PSLN-212', np.int64(6)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S15-C', 'PSLN-212', np.int64(2)) ~ ('S15-M', 'PSLN-212', np.int64(1)): 4/7 days identical [8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-C', 'PSLN-344', np.int64(1)) ~ ('S15-I', '3d Vaccine+PSLN-344', np.int64(1)): 4/7 days identical [4.0, 6.0, 8.0, 12.0]
+cross-block  ('S15-C', 'PSLN-344', np.int64(2)) ~ ('S15-I', '3d Vaccine+PSLN-344', np.int64(2)): 6/7 days identical [2.0, 4.0, 6.0, 8.0, 10.0, 12.0]
+cross-block  ('S15-C', 'PSLN-344', np.int64(3)) ~ ('S15-I', '3d Vaccine+PSLN-344', np.int64(3)): 6/7 days identical [2.0, 4.0, 6.0, 8.0, 10.0, 12.0]
+cross-block  ('S15-C', 'PSLN-344', np.int64(4)) ~ ('S15-I', '3d Vaccine+PSLN-344', np.int64(4)): 6/7 days identical [2.0, 4.0, 6.0, 8.0, 10.0, 12.0]
+cross-block  ('S15-C', 'PSLN-344', np.int64(5)) ~ ('S15-I', '3d Vaccine+PSLN-344', np.int64(5)): 6/7 days identical [2.0, 4.0, 6.0, 8.0, 10.0, 12.0]
+cross-block  ('S15-C', 'PSLN-344', np.int64(6)) ~ ('S15-I', '3d Vaccine+PSLN-344', np.int64(6)): 6/7 days identical [2.0, 4.0, 6.0, 8.0, 10.0, 12.0]
+cross-block  ('S15-C', 'PSLN-344', np.int64(7)) ~ ('S15-I', '3d Vaccine+PSLN-344', np.int64(7)): 6/7 days identical [2.0, 4.0, 6.0, 8.0, 10.0, 12.0]
+cross-block  ('S15-C', 'Sham', np.int64(5)) ~ ('S15-M', 'Sham', np.int64(5)): 3/3 days identical [2.0, 4.0, 6.0]
+cross-block  ('S15-D', 'PSLN-212', np.int64(7)) ~ ('S15-F', 'PSLN-212', np.int64(3)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S15-D', 'PSLN-212(Y)', np.int64(5)) ~ ('S15-F', 'PSLN-212', np.int64(1)): 4/7 days identical [8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-D', 'PSLN-344', np.int64(1)) ~ ('S15-M', 'PSLN-212', np.int64(6)): 4/7 days identical [8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-D', 'PSLN-344', np.int64(2)) ~ ('S15-O', 'PSLN-212(Y)', np.int64(3)): 3/7 days identical [8.0, 12.0, 14.0]
+cross-block  ('S15-E', 'PSLN-212', np.int64(3)) ~ ('S15-G', 'PSLN-212', np.int64(7)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S15-E', 'PSLN-212', np.int64(3)) ~ ('S15-O', 'PSLN-212', np.int64(1)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S15-E', 'PSLN-212', np.int64(6)) ~ ('S15-O', 'PSLN-212', np.int64(2)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S15-E', 'PSLN-344', np.int64(1)) ~ ('S15-G', 'PSLN-212', np.int64(4)): 4/7 days identical [8.0, 10.0, 12.0, 14.0]
+within-block ('S15-G', 'PSLN-212', np.int64(2)) ~ ('S15-G', 'PSLN-212', np.int64(3)): 4/7 days identical [8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-G', 'PSLN-212', np.int64(2)) ~ ('S15-M', 'PSLN-212', np.int64(4)): 4/7 days identical [8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-G', 'PSLN-212', np.int64(3)) ~ ('S15-M', 'PSLN-212', np.int64(4)): 4/7 days identical [8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-G', 'PSLN-212', np.int64(6)) ~ ('S15-M', 'PSLN-212', np.int64(1)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S15-G', 'PSLN-212', np.int64(7)) ~ ('S15-O', 'PSLN-212', np.int64(1)): 3/7 days identical [10.0, 12.0, 14.0]
+cross-block  ('S15-M', 'PSLN-344', np.int64(4)) ~ ('S15-O', 'PSLN-344', np.int64(4)): 3/7 days identical [4.0, 6.0, 14.0]
+cross-block  ('S15-M', 'PSLN-344', np.int64(5)) ~ ('S15-O', 'PSLN-344', np.int64(5)): 5/7 days identical [6.0, 8.0, 10.0, 12.0, 14.0]
+cross-block  ('S15-M', 'PSLN-344', np.int64(6)) ~ ('S15-O', 'PSLN-344', np.int64(6)): 3/7 days identical [4.0, 6.0, 12.0]
+
+block-pair counts:
+('S09-C', 'S09-C') 1
+('S09-E', 'S09-G') 2
+('S09-E', 'S15-C') 1
+('S09-E', 'S15-M') 6
+('S13-F', 'S13-F') 1
+('S13-F', 'S15-A') 1
+('S13-F', 'S15-B') 2
+('S13-F', 'S15-E') 2
+('S13-G', 'S13-G') 1
+('S13-G', 'S15-A') 2
+('S13-G', 'S15-B') 2
+('S13-G', 'S15-C') 1
+('S13-G', 'S15-D') 1
+('S13-G', 'S15-F') 1
+('S13-G', 'S15-G') 1
+('S15-A', 'S15-B') 4
+('S15-A', 'S15-C') 2
+('S15-A', 'S15-D') 1
+('S15-A', 'S15-F') 3
+('S15-A', 'S15-G') 2
+('S15-A', 'S15-M') 6
+('S15-A', 'S15-O') 2
+('S15-B', 'S15-B') 1
+('S15-B', 'S15-C') 1
+('S15-B', 'S15-D') 2
+('S15-B', 'S15-E') 3
+('S15-B', 'S15-F') 3
+('S15-B', 'S15-M') 1
+('S15-C', 'S15-D') 1
+('S15-C', 'S15-F') 1
+('S15-C', 'S15-G') 1
+('S15-C', 'S15-I') 7
+('S15-C', 'S15-M') 2
+('S15-D', 'S15-F') 2
+('S15-D', 'S15-M') 1
+('S15-D', 'S15-O') 1
+('S15-E', 'S15-G') 2
+('S15-E', 'S15-O') 2
+('S15-G', 'S15-G') 1
+('S15-G', 'S15-M') 3
+('S15-G', 'S15-O') 1
+('S15-M', 'S15-O') 3
