@@ -205,3 +205,72 @@ table row, not a formulation-held ratio. No run cites 0.732.
 Golden, last: "Ifnb1 at 16 hours reads 0.99 of young on the diagonal, which looks like a
 match. Holding formulation constant it is 0.73." The golden also tabulates young PSLN-344 at
 50.70 against aged PSLN-344 at 37.11 in its seven-panel table.
+
+---
+
+# Antibody role: the row left unresolved, now closed
+
+Coverage: all eight biomarker sections read line by line for antibody content. The earlier
+screen was keyed to the golden's wording and returned 0 across the panel; that result is
+withdrawn. Screened again on HAI, IgG, antibody, neutralis/neutraliz, titre/titer, and the
+matched text read.
+
+## Clusters
+
+**Cluster 1. Antibody assigned to immunogenicity or a regulatory role.** O2 O4 F1 F2.
+
+| Run | Label it gives antibody | Where |
+|---|---|---|
+| O4 | "HAI and microneutralisation (homologous strains)" with the role "Registrational immunogenicity"; separately labels cross-reactive T cells "**The correlate for heterosubtypic protection**, since HAI does not cross subtypes" | §5 tiers C and D |
+| O2 | "Primary immunogenicity endpoint (licensu[re])" | §5 Table 5, Humoral row |
+| F2 | "**Accepted regulatory surrogate.** Not sufficient here" | §4 Table 7, HAI row |
+| F1 | "HAI titre (standard immunogenicity endpoint)" | §6 table, right-hand column |
+
+**Cluster 2. Antibody placed in an efficacy-surrogate tier.** O1 O3. Opus-only.
+
+| Run | Tier label | Carries the HAI-threshold observation in the same section |
+|---|---|---|
+| O1 | "T3 efficacy surrogate (d14-28)" for HAI CA09, HAI Aichi, Neut CA09, IgG2a CA09 | no |
+| O3 | "**3. Efficacy surrogate (d14-28)**" for HAI, neutralisation, IgG2a/IgG1 | yes |
+
+**Cluster 3. Antibody as a time-ordered tier without a role label.** F4, and F3 whose antibody
+discussion sits in the evidence section rather than the biomarker section.
+
+## The HAI-threshold observation
+
+Three runs derive from the room that the conventional HAI threshold does not discriminate in
+this package. One Opus, two Fable.
+
+| Run | Quoted | Where |
+|---|---|---|
+| O3 | "At group level, HAI >=1:40 was **not** protective in aged mice. All 5/5 PSLN-212 mice had HAI >=40, yet 0/7 survived 10x LD50 CA09 (S03-C vs S03-I; note S03-I is tier C)" | §4 |
+| F2 | "Not sufficient here: all 5/5 aged PSLN-212 animals had HAI >= 40 to H1N1, yet 0/7 (survival block) or 3/7 (weight block) survived matched challenge" | §4 Table 7 |
+| F3 | "The usual HAI threshold of 1:40 does not discriminate here. 5/5 aged PSLN-212 animals reached 40 against H1N1 [S03-C], yet that regimen protected 0/7 against the matched virus [S03-I] (or 3/7 on the other ...)" | §4 |
+
+O1, O2, O4, F1 and F4 carry no occurrence of the threshold figure.
+
+F2 and F3 both note the survival-block and weight-block discrepancy inline, 0/7 against 3/7.
+O3 marks S03-I as tier C.
+
+**Golden, last.** The golden carries no occurrence of 1:40, >=40 or seroprotection. Its single
+threshold statement runs the other way, as external knowledge: "HAI at the conventional
+threshold is an accepted correlate for matched strains **[external]**." Its position on
+antibody is role-based: "Carry forward as immunogenicity and the regulatory bridge, not as
+the efficacy marker", on the grounds that "every antibody assay in this package was run
+against the antigens the vaccine contained, so none of them speaks to the cross-subtype
+claim, and no accepted antibody surrogate exists for cross-subtype protection **[external]**."
+
+Both can hold at once: the golden's claim is about accepted practice for matched strains, and
+the three runs' claim is about whether the threshold separates protected from unprotected
+arms inside this package. Set out as two statements, with no verdict between them.
+
+## Cross-model groupings on this decision point
+
+| Grouping | Runs | Model split | Differs from the golden |
+|---|---|---|---|
+| Antibody in an efficacy-surrogate tier | O1 O3 | Opus-only | Golden assigns antibody to immunogenicity and the regulatory bridge, "not as the efficacy marker" |
+| HAI threshold shown not to discriminate, from the room | O3 F2 F3 | mixed, 1 Opus and 2 Fable | Golden makes no such observation |
+| Antibody separated from the heterosubtypic question in terms | O4 | Opus, unique in model | Matches the golden's reasoning, including that HAI does not cross subtypes |
+
+O3 appears in two of the three groupings: it labels the tier "Efficacy surrogate" and makes
+the threshold observation in the same section.
