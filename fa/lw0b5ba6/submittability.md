@@ -76,9 +76,21 @@ so the package as a whole contains both readings.
 **Against defensible.** The claim actually made is about age — "returns the aged response
 to the young level", "fully restored", "restored 100%" — and that claim requires the
 formulation held constant. The controlling arm is in the same block, all 8 read its raw
-values, and 6 computed the contrast. In O1, O2 and O4 the confounded figure is then
-carried into a proposed human PD go criterion, which is a decision, not a presentation
-choice.
+values, and 6 computed the contrast. It is the stated mechanism step and the stated
+biomarker qualification in all 8, both prompt-mandated deliverables: mechanism at O2 `:171`,
+O4 `:244`, F2 `:250`, F1 `:194`; biomarker rationale at O1 `:264`, O4 `:275`, F2 `:267`.
+O4 `:286` also uses the restoration indices to rank biomarker candidates against the
+survival index of 0.80 and rejects CD40/CD86 and GZMB on that basis.
+
+**What it does not reach — correction, 2026-11-21.** An earlier version of this section said
+the confounded figure was carried into a proposed human PD go criterion in O1, O2 and O4.
+**Withdrawn.** It reaches no go/no-go, gate, stop rule, acceptance criterion, verdict or
+asset selection in this panel. O2's gate at `:266` uses "Ifnb1 ratio >= 2", the within-aged
+ratio of 2.23, which is the correct contrast; O4 `:275` is a ranking row, not a gate; O1 has
+no such criterion. The criterion cited ("older-donor R >= 0.5") belongs to the **retired**
+panel's O1 at `:370` and was carried across — the error the superseded banners exist to
+prevent. The pillar the mode does corrupt is component 5 of the golden's components list,
+the age claim stated correctly, which is what justifies the 65-plus indication.
 
 ### Exemplars
 
@@ -214,3 +226,32 @@ alone would have put 4 runs in "not retrieved".
 read in the run's own deliverable or transcript. [inference] that the confounded figure is
 load-bearing where it enters a proposed human go criterion — stated by O1, O2 and O4
 themselves, not inferred.
+
+
+---
+
+## Addendum, 2026-11-21 — a third candidate, built and failed
+
+The golden states the package "will not support the claim that the asset does nothing in
+young animals". Six runs make a version of that claim. F2 `:166` makes the unscoped
+version, "In young animals manganese adds nothing", in the same bullet that lists
+interferon-beta 50.7-fold against 37.6-fold, and F2 `:300` then excludes adults under 50
+and children from the TAM on it, which would make it load-bearing on the demographic
+deliverable.
+
+**Failed on defensibility, on the run's own statistic.** F2 `:178` reports that contrast as
+"1.3x; p = 0.009 Welch, 0.63 after Tukey". On its own multiplicity-corrected figure the
+difference is not significant, so "adds nothing" is defensible. The golden uses uncorrected
+Welch (p = 0.014 for young+Mn against young+Mn-free); both methods are defensible. Every
+other instance is scoped to survival, where young animals sit at a ceiling of 24/24 against
+24/24: F3 `:655` `:698`, O1 `:492`, O2 `:16`, F4 `:112`. F3 `:278` states the careful form.
+
+Held with its evidence rather than dropped, so it is not re-raised as new.
+
+## Addendum — calibration note, not FA material
+
+No mode in this panel bears on the verdict. The verdict is over-determined: the survival
+effect is +71 points, it comes from the S06 series, and that path carries no trap, so a run
+can state the age claim wrongly and still land the recommendation. All 8 did. The retired
+panel recorded the same thing. If a verdict-bearing mode is required, this task does not
+have one and more screening will not find it.
