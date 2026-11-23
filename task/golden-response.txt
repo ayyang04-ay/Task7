@@ -314,6 +314,17 @@ cross-subtype claim, and no accepted antibody surrogate exists for cross-subtype
 protection [external]. Using titre as the efficacy readout would power the next
 study on the one thing the asset is not claiming.
 
+The room also shows the threshold failing to discriminate inside this package, which
+is a stronger reason than the assay-antigen one and does not rest on outside
+knowledge. In S03-C every aged PSLN-212 animal reached the conventional threshold,
+at 40, 80, 40, 40 and 40, and in S03-I that same regimen survived 0 of 7 against the
+matched virus, as 7 deaths and no animals censored at day 14, where PSLN-344 ran 7 of
+7, CMP-204 3 of 7 and sham 0 of 7. Two limits hold the reading down. The titres and
+the survival come from different animals, so this separates regimens and not
+individuals. And S03-I conflicts with the body weights of the same animals in S13-F,
+which carry 3 of those 7 recovering, so the count is 0 of 7 or 3 of 7 depending on
+which record is taken; the threshold fails to discriminate either way.
+
 **Lung GM-CSF at 36 hours. Pharmacodynamic marker of adjuvant activity, preclinical
 only.** It is antigen-independent, which makes it the cleanest readout of whether
 the adjuvant engaged, and it separates cleanly (8.74 against 1.59 and 1.21). It is

@@ -31,7 +31,7 @@ trajectories are retired and a new batch is needed.**
 |---|---|
 | Prompt | `bf4e427cdf08`, 231 words, 6 paragraphs. Revision 6: portfolio-retention framing, an as-of date, and both branches given named products |
 | Grader | `c545a600076a`. Regenerates from the brief with no drift |
-| Golden | `4a91dfde8b74`. 253 checks, 0 mismatches, `CORRESPONDENCE` 120/120 |
+| Golden | `c76f16995107`. 253 checks, 0 mismatches, `CORRESPONDENCE` 120/120 |
 | Data room | `f293502992c7` + `83f2e9fb45db`. 6,819/6,819 numeric cells identical to the publisher original |
 | Solvability | all 23 route-necessary legs derived by at least one run. The four annotation-only legs (2, 3, 6, 13) pass, so the annotation survived the renames |
 | Failure analysis | one mode, two sites, verified three ways. Ledger and writer handoff in `fa/psql25c1/` |
@@ -152,9 +152,9 @@ Mantel-Cox inline, t-tests via an inline incomplete beta.
 | Grader guidelines | `task/grader-guidelines.txt` | 5,666 | `c545a600076a` |
 | Data room | `data-room/psln_program_dataset.xlsx` | 56,787 | `f293502992c7` |
 | Data room | `data-room/psln_program_annotation.pdf` | 59,700 | `83f2e9fb45db` |
-| Reviewer golden (any of the three) | `task/golden-response.md` | 25,496 | `4a91dfde8b74` |
-| Reviewer golden (any of the three) | `task/golden-response.txt` | 25,301 | `85596cc96c4b` |
-| Reviewer golden (any of the three) | `task/golden-response.pdf` | 42,325 | `fc8ca86bd09b` |
+| Reviewer golden (any of the three) | `task/golden-response.md` | 26,313 | `c76f16995107` |
+| Reviewer golden (any of the three) | `task/golden-response.txt` | 26,118 | `7ff51360dffe` |
+| Reviewer golden (any of the three) | `task/golden-response.pdf` | 42,873 | `c209b43099b3` |
 
 Prompt is 231 words, grader 898. The prompt's last paragraph is the as-of date and grounding line, so that is what `paste-checks.txt` now names as the required last line, not the ruled-out question. Check each paste against `build/paste-checks.txt`,
 which carries word count, character count, hash prefix and required last line. The

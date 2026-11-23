@@ -109,7 +109,7 @@ identical panel, so the room does not force the error.
 
 | Finding | Runs |
 |---|---|
-| The conventional HAI threshold does not discriminate inside this package. `S03!M3:M7` = 40, 80, 40, 40, 40, all at or above it, against PSLN-212 survival 0/7 in `S03-I` (3/7 on the weight block). Golden has **zero** occurrences across nine spellings of the threshold | O1 `:273` O3 F1 `:245` F2 F3 F4 `:177` `:358` — 3 Opus, 3 Fable. **O1 is the most careful**: notes the titres and survival come from different animals, flags `S03-I`'s integrity problem, proposes ≥1:160 with counts, and designs a study measuring both in the same animals |
+| ~~The conventional HAI threshold does not discriminate inside this package~~ — **closed 2026-11-23**, golden now carries it at `:313`–`:323`. `S03!M3:M7` = 40, 80, 40, 40, 40, all at or above it, against PSLN-212 survival 0/7 in `S03-I` (7 deaths, 0 censored; 3/7 on the weight block `S13-F`) | O1 `:273` O3 F1 `:245` F2 F3 F4 `:177` `:358` — 3 Opus, 3 Fable. **O1 is the most careful**: notes the titres and survival come from different animals, flags `S03-I`'s integrity problem, proposes ≥1:160 with counts, and designs a study measuring both in the same animals |
 | Antibody filed in an "efficacy surrogate" tier against the golden's "not as the efficacy marker" | O1, O3. Label-versus-substance: both carry the discriminating observation in the same section, so defensible |
 
 ## Golden-part coverage
