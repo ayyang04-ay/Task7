@@ -274,3 +274,76 @@ arms inside this package. Set out as two statements, with no verdict between the
 
 O3 appears in two of the three groupings: it labels the tier "Efficacy surrogate" and makes
 the threshold observation in the same section.
+
+---
+
+# Golden updated 2026-11-23, and a correction to this log
+
+## What changed
+
+`task/golden-response.md` moved from `4a91dfde8b74` to `c76f16995107`, 4352 to 4502 words.
+The diff is a single insertion of 11 lines into the biomarker section. Section headings are
+unchanged. Nothing else in the document moved.
+
+The inserted paragraph states that the room shows the HAI threshold failing to discriminate
+inside the package: in S03-C every aged PSLN-212 animal reached the conventional threshold
+"at 40, 80, 40, 40 and 40", and in S03-I that regimen survived 0 of 7 against the matched
+virus where PSLN-344 ran 7 of 7, CMP-204 3 of 7 and sham 0 of 7. It names two limits, that
+titres and survival come from different animals, and that S03-I conflicts with the body
+weights in S13-F which carry 3 of those 7 recovering.
+
+Verified against the workbook, since `audit-golden.py`'s registry does not cover assertions
+the golden had not previously made:
+
+| Claim | Workbook | Result |
+|---|---|---|
+| S03-C aged PSLN-212 HAI titres 40, 80, 40, 40, 40 | S03-C PSLN-212 column | exact match |
+| S03-I: PSLN-344 7/7, CMP-204 3/7, PSLN-212 0/7, sham 0/7 | S03-I event codes by arm | exact match |
+| S13-F carries 3 of those 7 recovering | S13-F PSLN-212 weight columns | stated by the golden as a conflict, not a settled count; the block's carried-forward values do not resolve to a single figure |
+
+`make-artifacts.py --check` no drift after regeneration; `audit-golden.py` CORRESPONDENCE
+120/120 and all other checks OK.
+
+## Effect on the antibody-role entry above
+
+The entry recorded that the golden carried no occurrence of 1:40 or >=40 and that its only
+threshold statement ran the other way as external knowledge. That was accurate for
+`4a91dfde8b74`. It is now out of date, and the direction of the divergence inverts.
+
+| | Before the update | After the update |
+|---|---|---|
+| Runs making the threshold observation | O3 F2 F3, carrying something the golden did not | O3 F2 F3, matching a point the golden now carries |
+| Runs not making it | O1 O2 O4 F1 F4, in line with the golden's silence | O1 O2 O4 F1 F4, silent on a point the golden now carries |
+
+The golden also now states the reason ordering explicitly: the in-package threshold failure
+is "a stronger reason than the assay-antigen one and does not rest on outside knowledge."
+
+## Correction: the data-integrity row in the divergence table
+
+**The row is wrong and is withdrawn.** It read "No integrity content: zero occurrences of
+integrity, defect, duplicate, contradict, mislabel or rotated" and concluded "All 8 carry
+content the golden does not." The keyword count was accurate; the conclusion drawn from it
+was not. Re-tested by defect rather than by keyword, the golden carries seven of eight:
+
+| Defect | In the golden |
+|---|---|
+| S06-D duplicates S06-C, all 28 time-and-event pairs | present |
+| Rows 69 to 70 hold the imprinting experiment | present |
+| S03-B/S03-F subclass labels shifted by one position | present |
+| Both S09-A blocks labelled 16h | present |
+| Stated n differs from rows present | present |
+| S05-A carries two different immunisations | present |
+| Arithmetic-mean HAI below the assay floor | present |
+| S03-I conflicts with S13-F | absent before the update, added by it |
+
+It uses none of the six keywords, which is why the screen read zero.
+
+**Corrected row.** All eight runs present data integrity as a dedicated register or section,
+unprompted. The golden carries the same class of findings distributed through its argument,
+without a register and without that vocabulary. The divergence is in presentation and in
+whether the findings gate the recommendation, not in whether the golden engages them.
+
+This is the third screen in this log keyed to the golden's wording that returned a false
+zero, after the biomarker accessibility screen and the antibody-role screen. Keyword absence
+is not evidence of content absence in this document, and screens against the golden are now
+read before being recorded.
