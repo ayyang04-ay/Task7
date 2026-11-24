@@ -500,3 +500,104 @@ Supersedes the tables above where they conflict. Golden as of `c76f16995107`, pr
 
 Three of those five were keyword screens against the golden returning false zeros. Screens
 against this document are now read before being recorded.
+
+---
+
+# Writer's checks, 2026-11-24
+
+## Flagged conflict, not resolved here
+
+The writer's note records the antibody direction as: reading it as immunogenicity (O2, O4)
+is wrong, and O1/O3's efficacy-surrogate tier is correct. The golden states the converse:
+"**Antigen-specific antibody. Carry forward as immunogenicity and the regulatory bridge, not
+as the efficacy marker.**" The 2026-11-23 insertion reinforces it, calling the in-package
+threshold failure "a stronger reason than the assay-antigen one". Raised with the writer; the
+direction is his to settle and nothing below assumes either reading.
+
+## Antibody role, complete tabulation
+
+The golden rests its position on two reasons. Reason 1, external: every antibody assay used
+the vaccine's own antigens, HAI does not cross subtypes, and no accepted antibody surrogate
+exists for cross-subtype protection. Reason 2, in-package and added 2026-11-23: the
+conventional threshold does not discriminate, S03-C titres 40, 80, 40, 40, 40 against S03-I.
+
+| Run | Role it assigns antibody | Reason 1 stated | Reason 2 stated |
+|---|---|---|---|
+| O1 | "T3 efficacy surrogate (d14-28)" | no | no |
+| O2 | "Primary immunogenicity endpoint (licensu[re])" | no | no |
+| O3 | "3. Efficacy surrogate (d14-28)" | no | yes |
+| O4 | "Registrational immunogenicity", plus cross-reactive T cells as "**The correlate for heterosubtypic protection**, since HAI does not cross subtypes" | **yes** | no |
+| F1 | "HAI titre (standard immunogenicity endpoint)" | no | no |
+| F2 | "**Accepted regulatory surrogate.** Not sufficient here" | no | yes |
+| F3 | time tier, no role label | no | yes |
+| F4 | time tier, no role label | no | no |
+
+**O4 is the only run of eight stating reason 1.** Screens for the homologous-antigen argument
+returned 1 to 4 hits per run, and the matched text was read: in every run but O4 those are
+incidental uses of "homologous" to describe a challenge virus, for example O1's table row
+"Aged BALB/c; bivalent vaccine, homologous CA09 H1N1 10x LD50 at d14". Counts for "antibody
+cannot carry the cross-subtype claim" and for "cross-subtype T cells as the correlate" are
+1 and 1, both O4, 0 elsewhere.
+
+Reason 2 is stated by O3, F2 and F3, which the earlier section recorded.
+
+So four runs, O1 O2 F1 F4, assign a role without stating either reason.
+
+## Segmented indication, per run
+
+All eight set the primary segment as adults aged 65 and over receiving seasonal influenza
+vaccine. The tiers below it:
+
+| Run | Secondary | Separate segment | Stated exclusions |
+|---|---|---|---|
+| O1 | 50-64 | — | — |
+| O2 | priority sub-segment >=75, frail, long-term care; adjacent 50-64 | pandemic H5N1 stockpile | — |
+| O3 | 50-64, "Moderate (one study)" | pandemic and pre-pandemic H5 | "Not a target (current data): Adults <50 and children ... No efficacy difference in young mice: 0/8 deaths with either adjuvant (S09-B/D/F)"; "Not a product: Stand-alone antigen-free antiviral" |
+| O4 | 50-64 | pandemic-preparedness H5N1 procurement | children, pregnancy, immunocompromised, therapeutic or post-exposure |
+| F1 | — | — | — |
+| F2 | — | — | — |
+| F3 | — | — | — |
+| F4 | — | — | "Exclude, until safety data exist: chronic ..." |
+
+Three Opus runs rest the 50-64 segment on the 14-month imprinting blocks at rows 69 to 70 of
+the S06 sheet (O2 "[S06-E/F imprint]", O3 "In 14-month (middle-aged) mice", O4 "Indirect
+(14-month mice [S06-E/F imprint])"). The golden retains those blocks "for the imprinting
+question" and excludes them from the cross-subtype count.
+
+Golden, last: no demographic or segment content of any kind. "65-plus" appears three times,
+asserted, in the Recommendation, the adjuvant-adds section and Study 2.
+
+## PSLN-212 retirement, checked against the room
+
+| Comparison | PSLN-344 | PSLN-212 | Source |
+|---|---|---|---|
+| Aged, pooled survival | 68/80, 85.0% | 11/80, 13.8% | S03-K, S06-C/F, S15-M/O as pooled in this log |
+| Young, S09-C | 8/8 | 8/8 | workbook |
+| Young, S09-E | 8/8 | 8/8 | workbook |
+| Young, S09-G | 8/8 | 8/8 | workbook |
+
+In aged animals the separation is large. In young animals survival cannot separate them:
+both arms are at ceiling, 24/24 each across S09-C/E/G, which is the basis O3 cites for
+excluding adults under 50. So retiring PSLN-212 as a candidate is supported inside the
+65-plus indication every run adopts, and the room carries no survival comparison that would
+distinguish them in a younger one.
+
+One qualification from the golden's updated Recommendation: a young pharmacodynamic
+difference does exist even where survival is at ceiling, "young animals given PSLN-344 go
+higher still, 50.70, significantly above both aged+PSLN-344 (p = 0.012) and young+PSLN-212
+(p = 0.014)".
+
+Golden, last: it holds no position on retiring PSLN-212. It treats PSLN-212 as the parent
+comparator throughout and never frames a selection.
+
+## HAI threshold, status after the golden update
+
+| | Runs | Count |
+|---|---|---|
+| State the in-package threshold failure | O3 F2 F3 | 3 of 8, 1 Opus and 2 Fable |
+| Silent on it | O1 O2 O4 F1 F4 | 5 of 8 |
+
+Before 2026-11-23 the three were carrying an observation the golden did not. The golden now
+carries it, so the direction is reversed and the open item is the silence of the five. Of
+those five, O4 reaches the golden's conclusion on antibody by reason 1 instead; O1, O2, F1
+and F4 state neither reason.
