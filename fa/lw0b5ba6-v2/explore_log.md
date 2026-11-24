@@ -601,3 +601,114 @@ Before 2026-11-23 the three were carrying an observation the golden did not. The
 carries it, so the direction is reversed and the open item is the silence of the five. Of
 those five, O4 reaches the golden's conclusion on antibody by reason 1 instead; O1, O2, F1
 and F4 state neither reason.
+
+---
+
+# Mechanical pass: antibody in an efficacy-surrogate tier (O1, O3)
+
+Named by the writer 2026-11-24 after correcting his earlier inversion. Direction as named:
+the golden assigns antibody to immunogenicity and the regulatory bridge, and O1 and O3 place
+it in an efficacy-surrogate tier. The call on what this is remains the writer's.
+
+## 1. Presence, confirmed run by run
+
+Two patterns, `efficacy surrogate` and `surrogate`, matched text read in each case.
+
+| Run | Pattern A hits | Pattern B hits | Label, quoted | Position |
+|---|---|---|---|---|
+| O1 `f295b831` att. 1 | 6 | 7 | "T3 efficacy surrogate (d14-28)" over four rows: HAI CA09 d14, HAI Aichi d14, Neut CA09 d14, IgG2a CA09 d14 | §5 Table 5 |
+| O3 `978e3829` att. 3 | 1 | 1 | "**3. Efficacy surrogate (d14-28)**" over HAI (S03-C/G), neutralisation (S03-D/H), IgG2a/IgG1 (S13) | §4 biomarker table |
+
+Refuted in the other six. O2 "Primary immunogenicity endpoint (licensu[re])"; O4
+"Registrational immunogenicity"; F1 "HAI titre (standard immunogenicity endpoint)"; F2
+"Accepted regulatory surrogate. Not sufficient here"; F3 and F4 tier antibody by time with no
+role label.
+
+O1 additionally gives the human-analogue column for its HAI row as "HAI GMT, seroconversion,
+% >= threshold".
+
+O3 qualifies its own label in the same section, stating that "At group level, HAI >=1:40 was
+**not** protective in aged mice. All 5/5 PSLN-212 mice had HAI >=40, yet 0/7 survived 10x
+LD50 CA09 (S03-C vs S03-I; note S03-I is tier C)". O1 carries no such qualification.
+
+## 2. Governing fact, mounted
+
+The annotation names the antigen for every antibody assay, so the fact that no antibody assay
+is cross-subtype is in the room rather than inferred:
+
+- "Measurand: serum IgG against CA09 H1N1, by ELISA. Plates were coated with CA09 H1N1 vaccine"
+- "Measurand: haemagglutination inhibition titre against CA09 H1N1."
+- "Measurand: neutralising antibody titre against CA09 H1N1."
+- "Measurand: the quotient of serum IgG2a titre over serum IgG1 titre, both against CA09 H1N1"
+- the same four for Aichi H3N2
+
+The prompt's governing line is "any biomarkers we can use to validate efficacy". The prompt
+does not define efficacy, name the claim as heterosubtypic, or say which readouts may serve as
+surrogates.
+
+## 3. Count against the floor
+
+2 of 8. Meets the 2-of-8 floor. **Both are Opus**, so it is within one model and not a
+cross-model pattern.
+
+## 4. Load-bearing check: negative
+
+The decision this would feed is which readout powers the next study. The golden's statement
+of the consequence: "Using titre as the efficacy readout would power the next study on the one
+thing the asset is not claiming."
+
+| Run | Antibody tier label | Primary endpoint of its confirmatory study, quoted |
+|---|---|---|
+| O1 | efficacy surrogate | "**Primary endpoint:** survival to day 14 after 5x mLD50 heterosubtypic challenge (PR8 H1N1 after H3N2 vaccine) at day 28, scored blind." |
+| O3 | efficacy surrogate | "**Primary endpoint:** 14-day survival after 5x mLD50 rgH5N1 challenge at d14. This challenge is heterosubtypic to the bivalent vaccine" |
+| O2 | immunogenicity | "Primary: HAI GMT at d28, non-inferiority of IN PSLN-344 vs the best IM comparator (margin 1.5-fold)." |
+
+Neither O1 nor O3 powers an efficacy study on antibody. Both power it on survival after
+heterosubtypic challenge, which is what the golden's Study 1 and Study 2 specify. O2, which
+assigns antibody to immunogenicity, is the run that sets an HAI GMT primary, framed as a
+non-inferiority comparison against intramuscular comparators.
+
+So the tier label and the study design are decoupled in both directions across these three
+runs, and in O1 and O3 the label does not reach the decision.
+
+## 5. Both cases, no verdict
+
+**For the runs.** "Efficacy surrogate" is standard vaccinology vocabulary for HAI, which is an
+accepted correlate of protection for matched strains and is accepted by regulators as a
+surrogate endpoint. Both runs scope the tier to d14-28 immunogenicity timepoints rather than to
+the heterosubtypic claim, and both power their efficacy studies on survival. O3 states the
+in-package threshold failure in the same section. A referee reading the tier label in a
+vaccine dossier would not stop on it.
+
+**Against the runs.** The asset's claim in every run's own recommendation is heterosubtypic
+protection in aged hosts. The annotation establishes that every antibody assay in the package
+was run against an antigen the vaccine contained, so within this package the label attaches
+the word efficacy to readouts that cannot address the claim. O1 compounds it by proposing
+"% >= threshold" as the human analogue, where the room shows the conventional threshold not
+discriminating: 5 of 5 aged PSLN-212 animals at or above 40 in S03-C against 0 of 7 surviving
+in S03-I.
+
+## 6. Official fields, bare facts
+
+- **Classification.** High-level: biomarker role assignment. Specific: antibody readouts placed
+  in an efficacy-surrogate tier where every antibody assay in the package is against a
+  vaccine-contained antigen.
+- **What the runs did.** O1, tier "T3 efficacy surrogate (d14-28)" over HAI CA09 d14, HAI Aichi
+  d14, Neut CA09 d14, IgG2a CA09 d14, §5 Table 5; human analogue for the HAI row given as "HAI
+  GMT, seroconversion, % >= threshold"; no qualification. O3, tier "3. Efficacy surrogate
+  (d14-28)" over HAI S03-C/G, neutralisation S03-D/H, IgG2a/IgG1 S13, §4; qualified in the same
+  section by the HAI >=1:40 observation.
+- **What the golden does instead.** "Carry forward as immunogenicity and the regulatory bridge,
+  not as the efficacy marker." Reasons: every antibody assay used the vaccine's own antigens,
+  no accepted antibody surrogate exists for cross-subtype protection, and the conventional
+  threshold does not discriminate in-package.
+- **Attempts cited.** Model A, Opus 5.5: attempt 1 `f295b831`, attempt 3 `978e3829`. Model B,
+  Fable 5.2: none.
+- **Not established.** That the label changes either run's study design. Both primary endpoints
+  are heterosubtypic survival. See section 4.
+
+## Adjacent item, larger and cross-model, not named by the writer
+
+Reason 1 is stated by O4 alone, 1 of 8. Seven runs assign antibody a role, or none, without
+stating that HAI does not cross subtypes. That count spans both models. Recorded here only
+because it sits next to the named item; whether it is anything is the writer's call.
