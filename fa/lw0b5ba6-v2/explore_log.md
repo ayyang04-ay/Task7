@@ -451,3 +451,52 @@ mentions it at least once, so no run omits it.
 
 O3 carries the thinnest treatment, one mention against 93 output encounters. This is a
 density difference rather than an absence, and is weaker than the S01-A item above.
+
+---
+
+# Consolidated tabulation
+
+Supersedes the tables above where they conflict. Golden as of `c76f16995107`, prompt
+`e75574f8f69a`, panel lw0b5ba6 v2. Nothing here is labelled a failure mode.
+
+## A. Where the two models handled the analysis differently
+
+| # | Analysis point | Opus | Fable | Unique in model | Golden's own handling |
+|---|---|---|---|---|---|
+| A1 | MoA presentation | all 4 tabulate the chain with a per-link evidence-type column: O1 "Interventional (causal) evidence", O2 "strength of the supporting evidence", O3 "Type of evidence", O4 "Evidence type; confidence" | all 4 give prose: F1 F4 "in one paragraph", F3 "In short:", F2 prose plus an appendix source table | none | states the chain and names the blockade experiments; no evidence-type column |
+| A2 | Asset framing | O1 O2 O3 do not address the prompt's stand-alone-drug description; O4 does | all 4 state the data show an adjuvant rather than a stand-alone STING drug | O4, the only Opus run taking the Fable approach | works from the adjuvant framing throughout, 16 mentions, never uses stand-alone language |
+| A3 | Per-study attribute vocabulary | all 4 use "readout" as a named item, 10 to 22 occurrences | F3 uses it; F1 F2 F4 carry zero occurrences and name four of five attributes under other headings | F3, the only Fable run using it | labels its study entries Establishes, Endpoints, Population, Comparators, Readouts, Timing |
+| A4 | Antibody role | O2 O4 assign it to immunogenicity or registrational use; O1 O3 place it in an efficacy-surrogate tier | F1 F2 assign it to immunogenicity or a regulatory surrogate; F3 F4 tier it by time with no role label | O4, which separates it from the heterosubtypic question in terms | "Carry forward as immunogenicity and the regulatory bridge, not as the efficacy marker" |
+| A5 | Intervention-block citation density | O1 O2 O3 cite carbenoxolone, IFNAR, S11-C, S02-H, S05-C repeatedly; O4 lighter | F2 F3 dense; F1 light; F4 carries the IFNAR and GM-CSF step in prose with no block cited and zero occurrences of carbenoxolone, IFNAR or S11-C | F4, lightest in either model | cites each intervention block with values |
+| A6 | In-channel narration | 61 to 80 assistant text blocks per run | exactly 10 per run, with roughly twice the commands, 217 to 257 against 85 to 112 | none | not applicable |
+| A7 | TAM vocabulary | all 4 use the term | F1 F2 use it; F3 F4 have the section without the term | none | no demographic section at all |
+
+## B. Divergence from the golden
+
+| # | Decision point | Runs | Split | What the golden does | Direction |
+|---|---|---|---|---|---|
+| B1 | Verdict conditionality | all 8 condition the keep on gates with pre-set kill criteria | mixed | "Advance it." Zero occurrences of conditional or gated | all 8 differ; same direction, different route |
+| B2 | Target demographic | all 8 give a segmented section with sizing guidance | mixed | no demographic, segment, TAM or market content; "65-plus" asserted 3 times, derived nowhere | all 8 carry content the golden does not |
+| B3 | Forfeited on a drop | all 8 carry a dedicated section or subsection | mixed | zero occurrences of give up, forfeit or if we drop | all 8 carry content the golden does not |
+| B4 | Asset selection | all 8 make PSLN-344 sole lead and stop PSLN-212 as a candidate | mixed | treats PSLN-344 as the asset and PSLN-212 as the parent comparator; never frames a selection, never states 212 stops | agrees on the asset; the golden holds no position on retiring 212 |
+| B5 | Data integrity presentation | all 8 present it as a dedicated register or section | mixed | carries 7 of 8 of the same defects distributed through its argument, with no register and none of the keywords | differs in presentation and in whether the findings gate the recommendation, not in engagement |
+| B6 | HAI threshold in-package | O3 F2 F3 derive that the conventional threshold does not discriminate | 1 Opus, 2 Fable | the updated golden now carries it, as "the conventional threshold, at 40, 80, 40, 40 and 40" against S03-I | inverted by the 2026-11-23 update: these 3 now match, the other 5 are silent on a point the golden makes |
+| B7 | Antibody in an efficacy-surrogate tier | O1 O3 | Opus-only | assigns antibody to immunogenicity and the regulatory bridge, "not as the efficacy marker" | 2 runs differ |
+| B8 | S01-A young PSLN-344 arm | O3 F1 reference it nowhere in the deliverable; O4 states the comparison in its thinking summary and cites 50.70 zero times | 2 Opus, 1 Fable | tabulates young+PSLN-344 at 50.70 and, since the update, states in the Recommendation that it runs "significantly above both aged+PSLN-344 (p = 0.012) and young+PSLN-212 (p = 0.014)" | 3 runs differ; F2 is the contrast, printing 50.70 six times and citing it three times |
+| B9 | Per-animal correlate limit | O2 O4 state that immune and survival readouts come from different animals | Opus-only | states the same limit in its next-studies section | 2 runs match; the other 6 do not state it |
+| B10 | Biomarker human measurability | all 8 separate what can be measured in people from what cannot | mixed | triages on the same axis | all 8 match |
+| B11 | Recommendation placement | all 8 lead with it | mixed | Recommendation is its first section | all 8 match |
+| B12 | CMP-204 treatment | all 8 mention it; O3 thinnest at 1 mention against 93 output encounters | mixed | the updated golden names CMP-204 at 3 of 7 inside the threshold paragraph | density difference, not absence |
+
+## C. Corrections ledger for this log
+
+| Claim originally recorded | Status |
+|---|---|
+| "Golden carries no integrity content", from a 6-keyword screen | **Withdrawn.** Golden carries 7 of 8 defects, using none of those keywords. Replaced by B5 |
+| "Biomarker accessibility absent in O2 O3 O4", from a screen keyed to the golden's wording | **Withdrawn.** All 4 Opus runs handle human measurability. Replaced by B10 |
+| "Antibody role: 0 across all 8", from a screen keyed to the golden's wording | **Withdrawn.** Three clusters found on reading. Replaced by A4 and B7 |
+| "Golden carries no occurrence of 1:40 or >=40" | **Accurate then and still literally true**, but the golden now carries the observation in other words. See B6 |
+| "O1 cites 0.73" | **Withdrawn.** The hit was an effect-size value in an S13-C table row |
+
+Three of those five were keyword screens against the golden returning false zeros. Screens
+against this document are now read before being recorded.
