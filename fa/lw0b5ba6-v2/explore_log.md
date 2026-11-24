@@ -347,3 +347,107 @@ This is the third screen in this log keyed to the golden's wording that returned
 zero, after the biomarker accessibility screen and the antibody-role screen. Keyword absence
 is not evidence of content absence in this document, and screens against the golden are now
 read before being recorded.
+
+---
+
+# Deliverable vs own transcript
+
+## Coverage and limits
+
+All 8 transcripts extracted and flattened into four streams: bash commands issued, tool
+output received, thinking text, and assistant text. Searched for specific points rather
+than read end to end; tool output alone runs 3.3 MB to 31.4 MB per run.
+
+| Run | Turns | Commands | Tool results | Thinking blocks | Assistant text blocks | Tool output chars |
+|---|---|---|---|---|---|---|
+| O1 | 284 | 106 | 108 | 81 | 74 | 3,363,027 |
+| O2 | 314 | 112 | 113 | 82 | 80 | 4,244,885 |
+| O3 | 251 | 85 | 88 | 65 | 61 | 3,664,501 |
+| O4 | 278 | 96 | 98 | 74 | 63 | 3,502,097 |
+| F1 | 653 | 217 | 220 | 167 | 10 | 22,621,697 |
+| F2 | 647 | 218 | 218 | 157 | 10 | 17,264,774 |
+| F3 | 482 | 160 | 162 | 137 | 10 | 7,099,264 |
+| F4 | 770 | 257 | 262 | 185 | 10 | 31,359,673 |
+
+Every Fable run carries exactly 10 assistant text blocks against 61 to 80 for every Opus
+run, with roughly twice the commands.
+
+**All 8 carry `thinking_summary_status: ready`**, so thinking blocks are model-generated
+summaries, not raw reasoning. No claim about what a run weighed internally is supportable
+from them. What is available is that a figure or label reached the run's output or its
+summary, and whether the deliverable carries it.
+
+## The young PSLN-344 arm in S01-A
+
+S01-A holds eight groups including `PSLN-212(Y)` at 37.60 and `PSLN-344(Y)` at 50.70.
+
+Transcript encounters against deliverable references:
+
+| Run | `50.70` in output | `50.70` in thinking | young+344 label in output | young+344 refs in deliverable | `50.70` in deliverable |
+|---|---|---|---|---|---|
+| O1 | 0 | 0 | 80 | 6, all survival blocks | 0 |
+| O2 | 0 | 0 | 106 | 5 | 0 |
+| O3 | 0 | 0 | 116 | **0** | 0 |
+| O4 | 0 | **2** | 68 | 1, S13-E survival | 0 |
+| F1 | **4** | 0 | 109 | **0** | 0 |
+| F2 | **6** | 0 | 139 | 2 | **3** |
+| F3 | 0 | 0 | 114 | 6 | 0 |
+| F4 | 0 | 0 | 117 | 2 | 0 |
+
+Three runs where the figure or the comparison reached the run and the deliverable does not
+carry it. Two Opus, one Fable.
+
+**F1.** Its own tool output prints both young arms on one line, four times:
+
+> "S01-A 16h aged: CMP-204 7.8, PSLN-212 16.6, PSLN-212/R848 24.3, PSLN-344 37.1 | young:
+> PSLN-212(Y) 37.6, PSLN-344(Y) 50.7"
+
+Its deliverable section 5 reads: "In old lungs given PSLN-212 this burst is 44% of the young
+response; Mn2+ brings it to 99%." 16.6/37.6 = 0.44 and 37.1/37.6 = 0.987, so both reported
+figures take `PSLN-212(Y)` as the young reference. The deliverable carries no reference to a
+young PSLN-344 arm at any point.
+
+**O4.** Its thinking summary states the comparison twice, the second time naming it as the
+thing being done:
+
+> "PSLN-344 drives somewhat higher Ifnb1 at 16h (50.7 vs 37.6)"
+
+> "I'm also comparing young PSLN-344 against young PSLN-212 across S01 and S02 (e.g., Ifnb1
+> at 16h, 50.7 vs 37.6) to see whether Mn still helps in young animals despite the survival
+> ceiling"
+
+Its deliverable section 5 reads "matches young level (restoration 0.98)" and cites 50.70
+zero times. Its single young+344 reference is to S13-E survival. Summary caveat above applies.
+
+**O3.** Its tool output enumerates the S01-A groups with counts, including
+`'PSLN-344(Y)': np.int64(5)`, and carries 116 young+344 label hits. Its deliverable section 3
+step 2 reads "Ifnb1 at 16 h is 36.9x vs 16.5x, equal to young (S01-A)" and references a young
+PSLN-344 arm nowhere.
+
+**F2 is the contrast case.** It printed 50.70 six times in output and cites it three times in
+the deliverable.
+
+Golden, last: it tabulates `young+PSLN-344` at 50.70 beside `aged+PSLN-344` at 37.11, and in
+the updated version states in the Recommendation that "young animals given PSLN-344 go higher
+still, 50.70, significantly above both aged+PSLN-344 (p = 0.012) and young+PSLN-212
+(p = 0.014)", adding that the package "will not support the claim that the asset does nothing
+in young animals, and a reviewer who checks the young+PSLN-344 arm will find that it does."
+
+## CMP-204
+
+Every run encountered CMP-204 heavily in tool output, 72 to 164 hits. Every deliverable
+mentions it at least once, so no run omits it.
+
+| Run | CMP-204 in output | CMP-204 in deliverable | S03-I in deliverable |
+|---|---|---|---|
+| O1 | 86 | 6 | 11 |
+| O2 | 135 | 11 | 16 |
+| O3 | 93 | **1** | 7 |
+| O4 | 72 | 3 | 4 |
+| F1 | 139 | 6 | 6 |
+| F2 | 152 | 6 | 37 |
+| F3 | 155 | 9 | 14 |
+| F4 | 164 | 18 | 12 |
+
+O3 carries the thinnest treatment, one mention against 93 output encounters. This is a
+density difference rather than an absence, and is weaker than the S01-A item above.
