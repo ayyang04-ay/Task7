@@ -104,6 +104,55 @@ identical panel, so the room does not force the error.
 | Proposing an adjuvant-alone or antigen-free arm the room already settles | Not observed, second consecutive panel. All 8 cite `S15-H`. Pre-registered, so readable as an absence rather than an oversight |
 | Over-applying a duplication finding to the whole 72 h panel | Not observed. All 8 cite `S06-D`; all 8 use the panel |
 | Antibody offered as the cross-subtype correlate | **0 of 8.** Every apparent hit is HAI as a matched-strain non-inferiority endpoint beside a separate cross-protection endpoint (O2 `:294`, O4 `:341`, F1 `:335`), or an explicit statement that antibody to the mismatched virus was never measured (F2 `:255` `:276`, F4 `:157`) |
+| Accepting the prompt's stand-alone-drug premise | **Screened 2026-11-24, failed.** O1, O2 and O3 carry no sentence reframing the asset, where O4 and all 4 Fable runs do. But all three title the proposal an adjuvant (O1 `:2`, O2 `:2`, O3 `:2`), use the word more often than O4 does (12, 14 and 11 against 7), and formally rule out stand-alone use on `S15-H` — O1 `:501` "Not supported", O2 `:435` "Ruled out", O3 `:327` "Ruled out". **No run claims stand-alone activity, 0 of 8.** Fails the method test (the check was run and reported), load-bearing (no decision moves) and defensibility |
+| S06-G reported without its unchallenged arm | **Screened, failed.** The golden warns that 4 of 7 read as a protection rate misstates the result, because the age-matched arm that met no virus lost 3 of 7. All 8 engage the background mortality: O1 `:154`, O2 `:141`, O3 `:214`, O4 `:174`, F1 `:75`, F2 `:373`, F3 `:89`, F4 `:114`. O3 never reports the block singly, so it cannot have misstated it. A first probe said 4 runs missed it; that probe required both facts on one line and was wrong |
+| Arithmetic means for HAI | **Screened, failed.** Arithmetic reduction gives a sham titre of 6.0 against an assay floor of 1 in 10. No run reports it. All 8 use geometric means; O2 `:104`, F2 `:341` and F3 `:823` state the below-floor imputation explicitly |
+| `S03-J` stated-n accepted over observed-n | **Screened, failed.** Stated n is 9, ten rows present, one `PSLN-344` row carries an event code with no day. F4 `:60` states it outright; F2 `:365`, O4 `:527` and F1 `:466` log it. No run quotes the stated n as if it were the observed one |
+| `S05-A` used without its contradictions | **Screened, failed — the panel's strongest convergence.** The annotation gives both ovalbumin and bivalent vaccine for the same panel, and the `NP366` tetramer is H-2Db-restricted while the default strain is BALB/c. **All 8 found it and all 8 excluded the block**: O1 `:518`, O2 `:495`, O3 `:333`, O4 `:493`, F1 `:445`, F2 `:339`, F3 `:719`, F4 `:367` |
+
+## Decision-point sweep, 2026-11-24
+
+Six of the golden's decision points screened beyond the 16 h age comparison. **No third mode.**
+Coverage: deliverable sections read for each point in all 8, with targeted transcript probes.
+Transcripts were read end to end only for the age comparison, so a mode inside an unexamined
+stretch of transcript is not excluded.
+
+| Decision point | Result |
+|---|---|
+| Age comparison, 16 h | **Mode 1**, all 8 |
+| Age comparison, 72 h | **Mode 2**, O1 O3 O4 |
+| `S06-G` unchallenged arm | 8 of 8 engaged |
+| HAI reduction and assay floor | 8 of 8 correct |
+| `S03-J` n discrepancy | 8 of 8 clean |
+| `S05-A` contradictions | 8 of 8 excluded the block |
+| Antibody role and the cross-subtype readout | 8 of 8 correct — below |
+
+### Antibody and T-cell roles: 8 of 8 reach the golden's division
+
+Checked because a candidate was raised that O2 and O4 had antibody's role wrong and O1 and O3
+right. **The reverse of the golden**, which reads at `:308`: "Antigen-specific antibody. Carry
+forward as immunogenicity and the regulatory bridge, **not as the efficacy marker**", with the
+efficacy marker assigned at `:297` to antigen-specific CD8 and tissue-resident memory.
+
+Every run assigns antibody to immunogenicity or the regulatory comparison, and assigns
+cross-reactive CD8 and resident memory to the cross-subtype claim:
+
+| Run | Where the cross-subtype claim is carried |
+|---|---|
+| O1 | `:218` responses "cross-react with H1, H3 and H5 antigens … the plausible basis"; `:256` `:271` conserved NP/M1 ELISpot in the tier |
+| O2 | `:204` "Supports the heterosubtypic (mismatch-season) claim"; `:294` go/no-go needs a cross-protection endpoint, not HAI |
+| O3 | `:52` CD8 and TRM "track with heterosubtypic protection"; `:161` "Supports a heterosubtypic claim" |
+| O4 | `:282` cross-reactive T cells are "the correlate for heterosubtypic protection, since HAI does not cross subtypes" |
+| F1 | `:234` conserved-protein ELISpot as the human analogue |
+| F2 | `:273` "Marker for protection against mismatched strains" |
+| F3 | `:246` cross-reactive IFN-gamma CD8, conserved-protein ELISpot |
+| F4 | `:171` day 14 to 60 T cells, conserved-antigen ELISpot |
+
+The "efficacy surrogate" tier label in O1 `:252` and O3 `:160` is a day-14-to-28 timing bucket
+that also holds the cross-subtype T-cell readout, not a claim that antibody carries efficacy.
+Both state the correlate limit: O3 `:164` "no individual-level correlate can be derived".
+
+**No error in any of the 8 on this point.**
 
 ## Inverted — runs right, golden short. Not modes; belongs in the correct-approach section
 
@@ -140,6 +189,9 @@ same. The advance/decline split that panel showed has collapsed — all 8 now ga
 |---|---|
 | Mode 1 carried into a human PD go criterion in O1, O2, O4 | **Withdrawn.** O2's gate `:266` uses the within-aged ratio 2.23, the correct contrast; O4 `:275` is a ranking row; O1 has no such criterion. The criterion cited belongs to the retired panel's O1 `:370` |
 | Golden's per-animal-linkage statement missing from F1, F2, F3 | **Withdrawn.** Pattern artefact from a tight probe; all three state it. Loosening found 8 of 8 |
+| `S06-G` reported without its unchallenged arm in O2, O3, F2, F3 | **Withdrawn.** The probe required both facts on one line. All 8 engage the background mortality elsewhere in the deliverable |
+| Another session's log: HAI threshold found by 3 runs, and O1 O2 O4 F1 F4 carrying "no occurrence of the threshold figure" | **Not ours to correct, but the absence claim fails on all five.** O1 `1:40` x2 and `1:160` x5, F1 and F4 `1:40`; O2 and O4's hits are survival percentage points, not titres. Real count 6 of 8. Their screen was keyed to analyte names, not the threshold value |
+| Another session's log: "F2 is the only run citing 50.70" | **Literally true, misleading.** Most runs report `S01-A` as geometric means, so the arm appears as 50.2 — O1 `:288`, F3 `:1365`. All 8 read its raw per-animal values |
 
 ## Epistemic labels
 
